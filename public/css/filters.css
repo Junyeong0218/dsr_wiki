@@ -1,0 +1,156 @@
+.filters {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.combo {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: var(--combo-width);
+  height: 25px;
+  border: 1px var(--white) solid;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.combo .list {
+  position: absolute;
+  top: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: inherit;
+  min-height: 100px;
+  max-height: 150px;
+  border: 1px solid gray;
+  background-color: white;
+
+  overflow-x: hidden;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: 300ms;
+  scroll-behavior: smooth;
+}
+
+.combo .list::-webkit-scrollbar {
+  width: 8px;  /* 스크롤바의 너비 */
+}
+
+.combo .list::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #217af4; /* 스크롤바의 색상 */
+  
+  border-radius: 10px;
+}
+
+.combo .list::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+
+.list.active {
+  visibility: visible;
+  overflow-y: scroll;
+  opacity: 1;
+  z-index: 1;
+}
+
+.combo .selected {
+  flex-grow: 1;
+  height: inherit;
+
+  font-size: var(--combo-font-size);
+  text-align: center;
+  line-height: 25px;
+  color: inherit;
+}
+
+.combo .list .combo-button {
+  width: calc(var(--combo-width) - 19px);
+  height: 20px;
+
+  font-size: var(--combo-font-size);
+  font-weight: 500;
+  text-align: center;
+  line-height: 20px;
+
+  color: rgb(24, 24, 24);
+}
+
+.combo .triangle {
+  width: 25px;
+  height: 25px;
+
+  font-size: var(--combo-triangle-size);
+  text-align: center;
+  line-height: 25px;
+  color: inherit;
+
+  transition: all ease 300ms;
+}
+
+.triangle.active {
+  transform: rotate(180deg);
+}
+
+.combo.baby1 {
+  border-color: var(--type-baby1-thin);
+  background-color: var(--type-baby1-thin);
+  color: var(--type-baby1-deep);
+}
+.combo.baby2 {
+  border-color: var(--type-baby2-thin);
+  background-color: var(--type-baby2-thin);
+  color: var(--type-baby2-deep);
+}
+.combo.child {
+  border-color: var(--type-child-thin);
+  background-color: var(--type-child-thin);
+  color: var(--type-child-deep);
+}
+.combo.adult {
+  border-color: var(--type-adult-thin);
+  background-color: var(--type-adult-thin);
+  color: var(--type-adult-deep);
+}
+.combo.perfect {
+  border-color: var(--type-perfect-thin);
+  background-color: var(--type-perfect-thin);
+  color: var(--type-perfect-deep);
+}
+.combo:nth-child(2).baby1 {
+  border-color: var(--type-baby1-deep);
+  background-color: var(--type-baby1-deep);
+  color: var(--type-baby1-thin);
+}
+.combo:nth-child(2).baby2 {
+  border-color: var(--type-baby2-deep);
+  background-color: var(--type-baby2-deep);
+  color: var(--type-baby2-thin);
+}
+.combo:nth-child(2).child {
+  border-color: var(--type-child-deep);
+  background-color: var(--type-child-deep);
+  color: var(--type-child-thin);
+}
+.combo:nth-child(2).adult {
+  border-color: var(--type-adult-deep);
+  background-color: var(--type-adult-deep);
+  color: var(--type-adult-thin);
+}
+.combo:nth-child(2).perfect {
+  border-color: var(--type-perfect-deep);
+  background-color: var(--type-perfect-deep);
+  color: var(--type-perfect-thin);
+}

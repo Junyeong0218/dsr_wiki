@@ -1,0 +1,239 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+:root {
+  --combo-width: 150px;
+  --combo-font-size: 14px;
+  --combo-triangle-size: 14px;
+
+  --profile-height: 89px;
+
+  --white: rgb(230, 230, 230);
+  --black: rgb(18, 18, 18);
+
+  --type-baby1-thin: #ffcfc9;
+  --type-baby1-deep: #b10202;
+  --type-baby2-thin: #ffe5a0;
+  --type-baby2-deep: #473822;
+  --type-child-thin: #d4edbc;
+  --type-child-deep: #11734b;
+  --type-adult-thin: #bfe1f6;
+  --type-adult-deep: #0a53a8;
+  --type-perfect-thin: #e6cff2;
+  --type-perfect-deep: #5a3286;
+}
+
+body,
+#app {
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgb(3, 3, 7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  background: none;
+
+  font-family: "Pretendard";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(207, 208, 214);
+
+  outline: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  min-height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: var(--black);
+  border-bottom: 1px solid var(--white);
+
+  z-index: 1;
+  box-shadow: 0px -2px 4px 5px var(--white);
+  transition: 2000ms;
+}
+
+.header.baby1-1 {
+  box-shadow: 0px 0px 4px 5px var(--type-baby1-thin);
+}
+.header.baby1-2 {
+  box-shadow: 0px 0px 4px 5px var(--type-baby1-deep);
+}
+.header.baby2-1 {
+  box-shadow: 0px 0px 4px 5px var(--type-baby2-thin);
+}
+.header.baby2-2 {
+  box-shadow: 0px 2px 4px 5px var(--type-baby2-deep);
+}
+.header.child1 {
+  box-shadow: 0px 0px 4px 5px var(--type-child-thin);
+}
+.header.child2 {
+  box-shadow: 0px 0px 4px 5px var(--type-child-deep);
+}
+.header.adult1 {
+  box-shadow: 0px 0px 4px 5px var(--type-adult-thin);
+}
+.header.adult2 {
+  box-shadow: 0px 0px 4px 5px var(--type-adult-deep);
+}
+.header.perfect1 {
+  box-shadow: 0px 0px 4px 5px var(--type-perfect-thin);
+}
+.header.perfect2 {
+  box-shadow: 0px 0px 4px 5px var(--type-perfect-deep);
+}
+
+.to-main-logo {
+  padding: 5px;
+
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+  width: 180px;
+}
+
+.header > nav {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+
+  padding-left: 100px;
+}
+
+.header > nav * {
+  font-size: 20px;
+  font-weight: 700;
+
+  transition: ease 500ms;
+}
+
+.header > nav *:hover {
+  transform: scale(1.1);
+}
+
+.main {
+  margin-top: 100px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1024px;
+  min-width: 800px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+
+  padding: 5px 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  min-height: 100px;
+  
+  background-color: var(--black);
+}
+
+.descriptions, .event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.description.accent {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--type-baby1-thin)
+}
+
+.description img {
+  position: relative;
+  top: 5px;
+  width: 20px;
+}
+
+.event {
+  justify-content: center;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.copy-button {
+  width: 100px;
+  height: 30px;
+
+  border: 1px solid var(--type-baby1-thin);
+  background-color: var(--type-baby1-thin);
+  border-radius: 4px;
+
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+
+  transition: 500ms;
+}
+
+.copy-button.complete,
+.copy-button.complete:hover {
+  border-color: var(--type-adult-deep);
+  background-color: var(--type-adult-deep);
+  color: var(--white);
+}
+
+.copy-button:hover {
+  border-color: var(--type-baby1-deep);
+  background-color: var(--type-baby1-deep);
+  color: var(--white);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.title-message {
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+}

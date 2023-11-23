@@ -1,0 +1,94 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+:root {
+  --combo-width: 150px;
+  --combo-font-size: 14px;
+  --combo-triangle-size: 14px;
+
+  --profile-height: 89px;
+
+  --white: rgb(230, 230, 230);
+  --black: rgb(18, 18, 18);
+
+  --type-baby1-thin: #ffcfc9;
+  --type-baby1-deep: #b10202;
+  --type-baby2-thin: #ffe5a0;
+  --type-baby2-deep: #473822;
+  --type-child-thin: #d4edbc;
+  --type-child-deep: #11734b;
+  --type-adult-thin: #bfe1f6;
+  --type-adult-deep: #0a53a8;
+  --type-perfect-thin: #e6cff2;
+  --type-perfect-deep: #5a3286;
+}
+
+body,
+#app {
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgb(3, 3, 7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  background: none;
+
+  font-family: "Pretendard";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(207, 208, 214);
+
+  outline: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  min-height: 50px;
+
+  background-color: var(--black);
+}
+
+.main {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  flex-grow: 1;
+}
+
+.footer {
+  width: 100%;
+  min-height: 50px;
+  
+  background-color: var(--black);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.title-message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 700;
+}
