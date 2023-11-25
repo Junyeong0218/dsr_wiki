@@ -65,6 +65,19 @@
   white-space: nowrap;
 }
 
+.profile.jogress {
+  position: absolute;
+}
+
+.profile.jogress > img {
+  min-width: 30px;
+  max-width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+
+  opacity: 0.5;
+}
+
 .line-wrapper {
   position: relative;
   display: flex;
@@ -110,4 +123,16 @@
 
 .vertical-line.right + .line {
   right: 5px;
+}
+
+.req-item {
+  position: absolute;
+}
+
+.req-item img {
+  min-width: 30px;
+  max-width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+  opacity: 1;
 }

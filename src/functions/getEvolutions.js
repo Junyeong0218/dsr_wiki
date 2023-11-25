@@ -1,118 +1,127 @@
-import data from "../json/data.json";
+// import getAllDigimons from "./getAllDigimons";
 
-const getTypeProgression = (type) => {
-  if (type === "유년기1") return 1;
-  if (type === "유년기2") return 2;
-  if (type === "성장기") return 3;
-  if (type === "성숙기") return 4;
-  if (type === "완전체") return 5;
-  if (type === "궁극체") return 6;
+import Digimon from "../classes/Digimon";
+import { clearArray } from "./commons";
 
-  return 0;
-};
+// const getDownEvolutions = (all, standard, selected) => {
+//   const evolution = new Array();
 
-const getTypeNameByProgression = (progression) => {
-  if (progression === 1) return "유년기1";
-  if (progression === 2) return "유년기2";
-  if (progression === 3) return "성장기";
-  if (progression === 4) return "성숙기";
-  if (progression === 5) return "완전체";
-  if (progression === 6) return "궁극체";
+//   for (let i = standard; i > 1; i--) {
+//     const typeName = getTypeNameByProgression(i - 1);
 
-  return 0;
-};
+//     all
+//       .filter((each) => each.type === typeName && each.to === selected.from)
+//       .forEach((each) => {
+//         let sub = null;
+//         sub = getDownEvolutions(all, standard - 1, each);
+//         if (sub !== undefined && sub !== null) {
+//           temp.push(...sub);
+//         }
+//         each["down"] = sub;
+//         evolution.push(each);
+//       });
+//   }
+//   return evolution.length > 0 ? evolution : null;
+// };
 
+// const getUpEvolutions = (all, standard, selected) => {
+//   const typeName = getTypeNameByProgression(standard);
+  
+//   const evolution = new Array();
+//   const froms = all.filter((each) => each.type === typeName && each.from === selected.from);
+//   froms.forEach((each) => {
+//     let to = all.find((e) => e.from === each.to);
+
+//     if(to !== undefined && to !== null) {
+//       to = Object.assign({}, to);
+//       to.percentage = each.percentage;
+//       evolution.push(to);
+//     } else {
+//       const nextType = getTypeNameByProgression(getTypeProgression(each.type) + 1);
+
+//       evolution.push({
+//         from: each.to,
+//         type: nextType,
+//         method: each.method,
+//         to: "",
+//         percentage: each.percentage,
+//         ingredient: each.ingredient,
+//         level: each.length,
+//         bonding: 0,
+//         str: 0,
+//         int: 0,
+//         spd: 0,
+//         res: 0,
+//         def: 0,
+//         with: ""
+//       });
+//     }
+//   });
+  
+//   if(evolution.length > 0) {
+//     selected["up"] = evolution;
+//     evolution.forEach(each => {
+//       getUpEvolutions(all, standard + 1, each);
+//     });
+//   }
+// };
+
+// const getEvolutions = (selected) => {
+//   const all = getAllDigimons();
+
+//   selected["down"] = [];
+//   selected["down"] = getDownEvolutions(all, selected);
+//   clearTempArray();
+
+//   selected["up"] = [];
+//   getUpEvolutions(all, selected);
+//   clearTempArray();
+// };
+
+// export default getEvolutions;
+
+
+// 진화에 필요한 하위 디지몬들을 담음(중복x)
+// 중복이 존재하는 경우 상위 디지몬의 befores[index]에 duplicated = true 넣어버림
 const temp = [];
-const clearTempArray = () => {
-  for (let i = 0; i < temp.length; i++) {
-    temp.pop();
-  }
-};
+const getDownRevolutions = (digimon) => {
+  if(digimon.befores === null) return;
 
-const getDownEvolutions = (all, standard, selected) => {
-  const evolution = new Array();
-
-  for (let i = standard; i > 1; i--) {
-    const typeName = getTypeNameByProgression(i - 1);
-
-    all
-      .filter((each) => each.type === typeName && each.to === selected.from)
-      .forEach((each) => {
-        let sub = null;
-        sub = getDownEvolutions(all, standard - 1, each);
-        if (sub !== undefined && sub !== null) {
-          temp.push(...sub);
-        }
-        each["down"] = sub;
-        evolution.push(each);
-      });
-  }
-  return evolution.length > 0 ? evolution : null;
-};
-
-const getUpEvolutions = (all, standard, selected) => {
-  const typeName = getTypeNameByProgression(standard);
-  
-  const evolution = new Array();
-  const froms = all.filter((each) => each.type === typeName && each.from === selected.from);
-  froms.forEach((each) => {
-    let to = all.find((e) => e.from === each.to);
-
-    if(to !== undefined && to !== null) {
-      to = Object.assign({}, to);
-      to.percentage = each.percentage;
-      evolution.push(to);
+  digimon.befores.forEach(before => {
+    const target = Digimon.getById(before.from);
+    if(temp.includes(target.id)) {
+      before['duplicated'] = true;
+      target.befores = null;
     } else {
-      const nextType = getTypeNameByProgression(getTypeProgression(each.type) + 1);
-
-      evolution.push({
-        from: each.to,
-        type: nextType,
-        method: each.method,
-        to: "",
-        percentage: each.percentage,
-        ingredient: each.ingredient,
-        level: each.length,
-        bonding: 0,
-        str: 0,
-        int: 0,
-        spd: 0,
-        res: 0,
-        def: 0,
-        with: ""
-      });
+      temp.push(target.id);
     }
+    before['digimon'] = target;
+    getDownRevolutions(target);
   });
-  
-  if(evolution.length > 0) {
-    selected["up"] = evolution;
-    evolution.forEach(each => {
-      getUpEvolutions(all, standard + 1, each);
-    });
-  }
-};
+}
 
-const deepCopyAll = () => {
-  const all = new Array();
-  for (const each of data) {
-    all.push(Object.assign({}, each));
-  }
+const getUpEvolutions = (digimon) => {
+  if(digimon.afters === null) return;
 
-  return all;
-};
+  digimon.afters.forEach(after => {
+    const target = Digimon.getById(after.to);
+    // if(temp.includes(target.id)) {
+    //   after['duplicated'] = true;
+    //   target.afters = null;
+    // } else {
+    //   temp.push(target.id);
+    // }
+    after['digimon'] = target;
+    getUpEvolutions(target);
+  });
+}
 
-const getEvolutions = (selected) => {
-  const standard = getTypeProgression(selected.type);
+const getEvolutions = (digimon) => {
+  getDownRevolutions(digimon);
+  clearArray(temp);
 
-  const all = deepCopyAll(data);
-
-  selected["down"] = [];
-  selected["down"] = getDownEvolutions(all, standard, selected);
-  clearTempArray();
-
-  selected["up"] = [];
-  getUpEvolutions(all, standard, selected);
-  clearTempArray();
+  getUpEvolutions(digimon);
+  clearArray(temp);
 };
 
 export default getEvolutions;

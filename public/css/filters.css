@@ -154,3 +154,26 @@
   background-color: var(--type-perfect-deep);
   color: var(--type-perfect-thin);
 }
+
+.slicer {
+  position: relative;
+
+  width: 160px;
+  height: 15px;
+
+  background-color: var(--white);
+  border-radius: 7.5px;
+  box-shadow: inset 0px 1px 10px 2px var(--black);
+}
+
+.slice-handler {
+  position: absolute;
+  top: -2.5px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.slice-handler:active {
+  
+}

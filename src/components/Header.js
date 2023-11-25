@@ -10,7 +10,7 @@ export default function Header() {
         let dial = 0;
         const autoShadow = setInterval(() => {
             setHeaderClassName(`${HEADER_ORIGIN} ${shadowList[dial++]}`);
-            if(dial > 10);
+            if(dial > 10) dial = 0;
         }, 2000);
     }, []);
 

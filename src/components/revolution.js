@@ -1,22 +1,26 @@
-import React from "react";
-import ProfileGroup from "./profileGroup";
+import React, { useRef } from "react";
 import Profile from "./profile";
-import ProfileLine from "./profileLine";
+import ToLeftProfileLine from "./toLeftProfileLine";
+import ToLeftProfileGroup from "./toLeftProfileGroup";
+import ToRightProfileLine from "./toRightProfileLine";
+import ToRightProfileGroup from "./toRightProfileGroup";
+import { getEvolutions } from "../functions";
 
 export default function Revolution({ selectedDigimon }) {
-    if(selectedDigimon === undefined || selectedDigimon === null || selectedDigimon.from === "디지몬 선택") {
-        return (
-            <div className='revolution'></div>
-        );
+    if(!selectedDigimon) {
+        return <div className='revolution'></div>;
     }
+
+    getEvolutions(selectedDigimon);
+    console.log(selectedDigimon)
     
     return (
         <div className='revolution'>
-            { selectedDigimon?.down?.length > 0 && <ProfileGroup key={`${selectedDigimon.from}_down`} digimons={selectedDigimon.down} direction={"right"}></ProfileGroup> }
-            { selectedDigimon?.down?.length > 0 && <ProfileLine digimon={selectedDigimon} direction={"right"}></ProfileLine> }
-            { selectedDigimon.from !== "" && <Profile digimon={selectedDigimon} ></Profile>}
-            { selectedDigimon?.up?.length > 0 && <ProfileLine digimon={selectedDigimon} direction={"left"}></ProfileLine> }
-            { selectedDigimon?.up?.length > 0 && <ProfileGroup key={`${selectedDigimon.from}_up`} digimons={selectedDigimon.up} direction={"left"}></ProfileGroup> }
+            { selectedDigimon?.befores?.length > 0 && <ToLeftProfileGroup digimon={selectedDigimon} /> }
+            { selectedDigimon?.befores?.length > 0 && <ToLeftProfileLine digimon={selectedDigimon} /> }
+            { selectedDigimon && <Profile digimon={selectedDigimon} ></Profile>}
+            { selectedDigimon?.afters?.length > 0 && <ToRightProfileLine digimon={selectedDigimon} /> }
+            { selectedDigimon?.afters?.length > 0 && <ToRightProfileGroup digimon={selectedDigimon} /> }
         </div>
     );
 }
