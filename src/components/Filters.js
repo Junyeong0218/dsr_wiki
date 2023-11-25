@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Combo from "./combo";
 import { Grades } from "../enums";
 import { getAllDigimons } from "../functions";
-import Slicer from "./slicer";
+import { getUUID } from "../functions/commons";
 
 export default function Filters({ selectedDigimon, setSelectedDigimon, searchRange, setSearchRange }) {
     const [selectedGrade, setSelectedGrade] = useState(null);
@@ -30,13 +30,14 @@ export default function Filters({ selectedDigimon, setSelectedDigimon, searchRan
             <Combo list={grades}
                 selected={selectedGrade || "진화 상태"} 
                 select={changeGrade}
-                selectedGrade={selectedGrade} />
+                selectedGrade={selectedGrade} 
+                key={getUUID()} />
             
             <Combo list={filtered} 
                 selected={getDigimonComboText()}
                 select={setSelectedDigimon}
-                selectedGrade={selectedGrade} />
-            {/* <Slicer searchRange={searchRange} setSearchRange={setSearchRange} /> */}
+                selectedGrade={selectedGrade}
+                key={getUUID()} />
         </div>
     );
 }

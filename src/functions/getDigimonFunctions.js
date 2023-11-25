@@ -1,6 +1,5 @@
-import data from "../json/a.json";
+import data from "../json/data.json";
 import Digimon from "../classes/Digimon";
-import Revolution from "../components/revolution";
 
 const origin = new Array();
 

@@ -1,17 +1,14 @@
 import React from "react";
 import { PROFILE_HEIGHT } from "../enums";
 import { getToLeftTextStyle, jogressLineStyle, revolutionLineStyle } from "./styles";
-import Digimon from "../classes/Digimon";
 import RequiredItem from "./requiredItem";
-import JogressProfile from "./jogressProfile";
+import { getUUID } from "../functions/commons";
 
 export default function ToLeftProfileLine({ digimon }) {
     const commons = digimon.befores.filter(each => each.method === "일반");
     const jogress = digimon.befores.filter(each => each.method === "조그레스") || null;
     const commonReqItems = commons.filter((each, index) => each.ingredient !== "");
     const jogressReqItems = jogress?.filter((each, index) => each.ingredient !== "" && index === 0) || [];
-    
-    console.log(jogress);
 
     const getLeftScore = (d) => {
         if(d.befores === null) return 1;
@@ -53,10 +50,10 @@ export default function ToLeftProfileLine({ digimon }) {
     }
 
     return (
-        <div className="line-wrapper">
+        <div className="line-wrapper" key={getUUID()}>
             {/* rate - ok */}
             { digimon.befores?.map((before, i) => 
-                <span style={getToLeftTextStyle(getRateTop(before.digimon, i))}>
+                <span style={getToLeftTextStyle(getRateTop(before.digimon, i))} key={getUUID()}>
                     {`${before.getRate()}%`}
                 </span>
             )}
@@ -66,26 +63,30 @@ export default function ToLeftProfileLine({ digimon }) {
                 { digimon.befores?.map((before, i) => 
                     <line x1={0} y1={getRateTop(before.digimon, i) + 20} 
                           x2={50} y2={getRateTop(before.digimon, i) + 20} 
-                          style={revolutionLineStyle} />
+                          style={revolutionLineStyle} 
+                          key={getUUID()} />
                 )}
 
                 {/* vertical middle line */}
                 { digimon.befores?.length > 1 && 
                     <line x1={50} y1={getMiddleTop(digimon.befores[0].digimon)} 
                           x2={50} y2={getWholeTop(digimon) - getMiddleTop(digimon.befores.at(-1).digimon)} 
-                          style={revolutionLineStyle} />}
+                          style={revolutionLineStyle} 
+                          key={getUUID()}/>}
 
                 {/* right line - ok */}
                 <line x1={50} y1={getMiddleTop(digimon)} 
                       x2={100} y2={getMiddleTop(digimon)} 
-                      style={revolutionLineStyle} />
+                      style={revolutionLineStyle} 
+                      key={getUUID()} />
 
                 {/* jogress left line */}
                 { jogress.length > 0 && 
                     jogress.map(each => (
                         <line x1={0} y1={getRateTop(each.digimon, digimon.befores.findIndex(before => before.from === each.from && before.method === "조그레스")) + 20} 
                               x2={50} y2={getRateTop(each.digimon, digimon.befores.findIndex(before => before.from === each.from && before.method === "조그레스")) + 20} 
-                              style={jogressLineStyle} />
+                              style={jogressLineStyle}
+                              key={getUUID()} />
                     ))
                 }
 
@@ -93,7 +94,8 @@ export default function ToLeftProfileLine({ digimon }) {
                 { jogress.length > 0 && 
                     <line x1={50} y1={getRateTop(jogress[0].digimon, digimon.befores.findIndex(before => before.from === jogress[0].from && before.method === "조그레스")) + 20} 
                           x2={50} y2={getRateTop(jogress.at(-1).digimon, digimon.befores.findIndex(before => before.from === jogress.at(-1).from && before.method === "조그레스")) + 20} 
-                          style={jogressLineStyle} />
+                          style={jogressLineStyle}
+                          key={getUUID()} />
                 }
             </svg>
 
@@ -101,12 +103,14 @@ export default function ToLeftProfileLine({ digimon }) {
             { commonReqItems.length > 0 &&
                 <RequiredItem fileName={commonReqItems[0].ingredient} 
                               left={43}
-                              top={getMiddleTop(digimon) - 15}/>
+                              top={getMiddleTop(digimon) - 15}
+                              key={getUUID()} />
             }
             { jogressReqItems.length > 0 &&
                 <RequiredItem fileName={jogressReqItems[0].ingredient} 
                               left={43}
-                              top={getMiddleTop(digimon) - 15} />
+                              top={getMiddleTop(digimon) - 15}
+                              key={getUUID()} />
             }
         </div>
     );
