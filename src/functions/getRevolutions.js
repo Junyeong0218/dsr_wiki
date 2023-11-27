@@ -4,7 +4,7 @@ import { clearArray } from "./commons";
 const temp = [];
 const getDownRevolutions = (digimon) => {
   if(digimon.befores === null) return;
-
+  
   digimon.befores.forEach(before => {
     const target = Digimon.getById(before.from);
     if(temp.includes(target.id)) {
@@ -18,7 +18,7 @@ const getDownRevolutions = (digimon) => {
   });
 }
 
-const getUpEvolutions = (digimon) => {
+const getUpRevolutions = (digimon) => {
   if(digimon.afters === null) return;
 
   digimon.afters.forEach(after => {
@@ -30,16 +30,16 @@ const getUpEvolutions = (digimon) => {
     //   temp.push(target.id);
     // }
     after['digimon'] = target;
-    getUpEvolutions(target);
+    getUpRevolutions(target);
   });
 }
 
-const getEvolutions = (digimon) => {
+const getRevolutions = (digimon) => {
   getDownRevolutions(digimon);
   clearArray(temp);
 
-  getUpEvolutions(digimon);
+  getUpRevolutions(digimon);
   clearArray(temp);
 };
 
-export default getEvolutions;
+export default getRevolutions;

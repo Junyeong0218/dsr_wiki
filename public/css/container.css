@@ -12,7 +12,7 @@
 
   --type-baby1-thin: #ffcfc9;
   --type-baby1-deep: #b10202;
-  --type-baby2-thin: #ffe5a0;
+  --type-baby2-thin: #f9ffa0;
   --type-baby2-deep: #473822;
   --type-child-thin: #d4edbc;
   --type-child-deep: #11734b;
@@ -20,6 +20,13 @@
   --type-adult-deep: #0a53a8;
   --type-perfect-thin: #e6cff2;
   --type-perfect-deep: #5a3286;
+  --type-ultimate-thin: #faba5a;
+  --type-ultimate-deep: #865b32;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body,
@@ -236,4 +243,145 @@ button:disabled {
   font-size: 18px;
   text-align: center;
   font-weight: 700;
+}
+
+.modal {
+  position: absolute;
+
+  min-width: 200px;
+  width: fit-content;
+  height: fit-content;
+
+  background-color: #0D1022;
+  opacity: 0;
+  z-index: -1;
+}
+
+.modal.active {
+  border: 1px solid var(--white);
+  border-radius: 5px;
+
+  opacity: 0.98;
+  z-index: 1;
+}
+
+#revolution-description * {
+  pointer-events: none;
+}
+
+.window,
+.window > .commons,
+.window > .jogress {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.window > .commons,
+.window > .jogress {
+  padding: 0 5px 10px;
+}
+
+.window .title {
+  font-size: 17px;
+  color: var(--white);
+}
+
+.window .semi-title {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.window .targets {
+  padding: 3px 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.window .targets .target {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.window .targets img {
+  width: 25px;
+  height: 25px;
+}
+
+.window .targets span {
+  font-size: 13px;
+}
+
+.window .conditions {
+  width: 95%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.window .conditions span {
+  word-break: keep-all;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.window .conditions .conditions.common,
+.window .conditions .conditions.jogress {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.window .conditions .conditions.jogress, 
+.window .conditions .conditions.common {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.window .conditions .condition {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  width: 100%;
+  height: 20px;
+
+  font-size: 14px;
+}
+
+.window > .conditions > .condition:not(:last-child) {
+  border-bottom: 1px solid rgba(230, 230, 230, 0.3);
+
+}
+
+.window .conditions .condition * {
+  font-size: inherit;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.window .conditions .condition img {
+  width: 20px;
+  height: 20px;
+}
+
+.window .conditions .conditions.jogress img,
+.window .conditions .conditions.common img {
+  width: 40px;
+  height: 40px;
 }

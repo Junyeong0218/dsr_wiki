@@ -129,6 +129,17 @@
   background-color: var(--type-perfect-thin);
   color: var(--type-perfect-deep);
 }
+.combo.ultimate {
+  border-color: var(--type-ultimate-thin);
+  background-color: var(--type-ultimate-thin);
+  color: var(--type-ultimate-deep);
+}
+.combo.ultimate {
+  border-color: var(--type-ultimate-thin);
+  background-color: var(--type-ultimate-thin);
+  color: var(--type-ultimate-deep);
+}
+
 .combo:nth-child(2).baby1 {
   border-color: var(--type-baby1-deep);
   background-color: var(--type-baby1-deep);
@@ -153,6 +164,16 @@
   border-color: var(--type-perfect-deep);
   background-color: var(--type-perfect-deep);
   color: var(--type-perfect-thin);
+}
+.combo:nth-child(2).ultimate {
+  border-color: var(--type-ultimate-deep);
+  background-color: var(--type-ultimate-deep);
+  color: var(--type-ultimate-thin);
+}
+.combo:nth-child(2).ultimate {
+  border-color: var(--type-ultimate-deep);
+  background-color: var(--type-ultimate-deep);
+  color: var(--type-ultimate-thin);
 }
 
 .slicer {

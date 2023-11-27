@@ -16,14 +16,26 @@ const GradeClassNames = {
     "궁극체": "ultimate"
 }
 
+const requireStatName = {
+    "reqLevel": "레벨",
+    "reqBonding": "유대감",
+    "reqStr": "힘",
+    "reqInt": "지능",
+    "reqSpd": "속도",
+    "reqRes": "저항",
+    "reqDef": "수비"
+}
+
 const PROFILE_HEIGHT = 80;
 
 Object.freeze(Grades);
 Object.freeze(GradeClassNames);
+Object.freeze(requireStatName);
 Object.freeze(PROFILE_HEIGHT);
 
 export {
     Grades,
     GradeClassNames,
+    requireStatName,
     PROFILE_HEIGHT
 }

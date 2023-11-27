@@ -11,13 +11,13 @@ export default class Revolution {
         this.method = raw.method;
 
         // 진화에 필요한 스텟 number
-        this.level = raw.level;
-        this.bonding = raw.bonding;
-        this.str = raw.str;
-        this.int = raw.int;
-        this.spd = raw.spd;
-        this.res = raw.res;
-        this.def = raw.def;
+        this.reqLevel = raw.reqLevel;
+        this.reqBonding = raw.reqBonding;
+        this.reqStr = raw.reqStr;
+        this.reqInt = raw.reqInt;
+        this.reqSpd = raw.reqSpd;
+        this.reqRes = raw.reqRes;
+        this.reqDef = raw.reqDef;
 
         // 조그레스 진화시 필요 디지몬 id number
         this.with = raw.with;
@@ -26,4 +26,7 @@ export default class Revolution {
     getRate = () => Number.isInteger(this.rate * 100) ? 
                     this.rate * 100 :
                     (this.rate * 100).toFixed(2);
+    getBonding = () => Number.isInteger(this.reqBonding * 100) ? 
+                    this.reqBonding * 100 :
+                    (this.reqBonding * 100).toFixed(3);
 }

@@ -3,6 +3,7 @@ import Combo from "./combo";
 import { Grades } from "../enums";
 import { getAllDigimons } from "../functions";
 import { getUUID } from "../functions/commons";
+import getRevolutions from "../functions/getRevolutions";
 
 export default function Filters({ selectedDigimon, setSelectedDigimon, searchRange, setSearchRange }) {
     const [selectedGrade, setSelectedGrade] = useState(null);
@@ -22,8 +23,15 @@ export default function Filters({ selectedDigimon, setSelectedDigimon, searchRan
         setFiltered(temp);
     }
 
-    const getDigimonComboText = () => selectedDigimon ? selectedDigimon.name :
-                                                        selectedGrade ? "디지몬 선택" : "";
+    const digimonComboText = selectedDigimon ? selectedDigimon.name :
+                                               selectedGrade ? "디지몬 선택" : "";
+
+    const selectDigimon = (digimon) => {
+        if(selectedDigimon?.id !== digimon.name) {
+            getRevolutions(digimon);
+            setSelectedDigimon(digimon);
+        }
+    }
 
     return (
         <div className="filters">
@@ -31,13 +39,13 @@ export default function Filters({ selectedDigimon, setSelectedDigimon, searchRan
                 selected={selectedGrade || "진화 상태"} 
                 select={changeGrade}
                 selectedGrade={selectedGrade} 
-                key={getUUID()} />
+                key={"grade_combobox"} />
             
             <Combo list={filtered} 
-                selected={getDigimonComboText()}
-                select={setSelectedDigimon}
+                selected={digimonComboText}
+                select={selectDigimon}
                 selectedGrade={selectedGrade}
-                key={getUUID()} />
+                key={"digimon_combobox"} />
         </div>
     );
 }

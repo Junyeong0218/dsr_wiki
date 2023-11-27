@@ -4,15 +4,12 @@ import ToLeftProfileLine from "./toLeftProfileLine";
 import ToLeftProfileGroup from "./toLeftProfileGroup";
 import ToRightProfileLine from "./toRightProfileLine";
 import ToRightProfileGroup from "./toRightProfileGroup";
-import { getEvolutions } from "../functions";
 import { getUUID } from "../functions/commons";
 
 export default function Revolution({ selectedDigimon }) {
     if(!selectedDigimon) {
         return <div className='revolution'></div>;
     }
-
-    getEvolutions(selectedDigimon);
     
     return (
         <div className='revolution'>

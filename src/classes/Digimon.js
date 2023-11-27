@@ -1,5 +1,6 @@
 import { Grades } from "../enums";
 import { getDigimonById } from "../functions";
+import { getDigimonByName } from "../functions/getDigimonFunctions";
 import Revolution from "./Revolution";
 
 export default class Digimon {
@@ -21,4 +22,5 @@ export default class Digimon {
     getAfter = (index) => getDigimonById(this.afters.at(index).to) ?? null;
 
     static getById = (id) => getDigimonById(id);
+    static getByName = (name) => getDigimonByName(name);
 }

@@ -24,18 +24,26 @@ const deepCopyAll = (includeMutation) => {
     return all;
 };
 
-const getOne = (id) => {
+const getDigimonById = (id) => {
     loadDigimons();
 
-    const digimon = origin.at(id - 1);
+    const digimon = origin.find(each => each.id === id);
+
+    return new Digimon(digimon);
+}
+
+const getDigimonByName = (name) => {
+    loadDigimons();
+
+    const digimon = origin.find(each => each.name === name);
 
     return new Digimon(digimon);
 }
 
 const getAllDigimons = (includeMutation) => deepCopyAll(includeMutation);
-const getDigimonById = (id) => getOne(id);
 
 export {
     getAllDigimons,
-    getDigimonById
+    getDigimonById,
+    getDigimonByName
 }

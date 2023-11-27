@@ -48,8 +48,12 @@
   border-radius: 5px;
   background-color: var(--black);
 }
+/* 
+.profile > * {
+  pointer-events: none;
+} */
 
-.profile > img {
+.profile-image {
   min-width: 50px;
   max-width: 50px;
   min-height: 50px;
@@ -63,6 +67,8 @@
   text-align: center;
   word-break: keep-all;
   white-space: nowrap;
+
+  pointer-events: none;
 }
 
 .profile.jogress {

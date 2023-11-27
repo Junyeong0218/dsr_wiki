@@ -9,7 +9,7 @@ export default function Profile({ digimon, align = null }) {
     
     return (
         <div className="profile" style={alignStyle}>
-            <img src={`/images/${fileName}.png`} />
+            <img className="profile-image" src={`/images/${fileName}.png`} />
             <span>{digimon.name}</span>
         </div>
     );
