@@ -1,0 +1,245 @@
+[
+    {
+        "id": 1,
+        "name": "시작의 마을",
+        "monsters": [
+            {
+                "level": 16,
+                "name": "츄몬",
+                "digimonType": "Vi",
+                "hp": 259,
+                "dropItems": [1, 5, 51, 55, 140, 60, 202],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 18,
+                "name": "고부리몬",
+                "digimonType": "Vi",
+                "hp": 362,
+                "dropItems": [1, 5, 51, 55, 140, 61, 146],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 18,
+                "name": "대장 고부리몬",
+                "digimonType": "Vi",
+                "hp": 724,
+                "dropItems": [1, 5, 51, 55, 140, 61, 146],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 20,
+                "name": "고부리몬",
+                "digimonType": "Vi",
+                "hp": 396,
+                "dropItems": [1, 5, 51, 55, 140, 61, 146],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 20,
+                "name": "아기벌몬",
+                "digimonType": "Vi",
+                "hp": 343,
+                "dropItems": [1, 5, 51, 55, 140, 62, 147],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 20,
+                "name": "츄몬",
+                "digimonType": "Vi",
+                "hp": 315,
+                "dropItems": [1, 5, 51, 55, 140, 60],
+                "point": { "x": 0, "y": 0 }
+            }
+        ],
+        "shop": [
+            {
+                "type": "common",
+                "items": [1,2,3,4,5,6,7,8,9,10]
+            },
+            {
+                "type": "battle",
+                "items": [20,21,22,23,24,25,26,27]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "용의 눈 호수",
+        "monsters": [
+            {
+                "level": 2,
+                "name": "기자몬",
+                "digimonType": "Vi",
+                "hp": 117,
+                "dropItems": [1, 5, 51, 55, 140, 63, 148],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 6,
+                "name": "베타몬",
+                "digimonType": "Vi",
+                "hp": 208,
+                "dropItems": [1, 5, 51, 55, 140, 64, 149],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 8,
+                "name": "기자몬",
+                "digimonType": "Vi",
+                "hp": 291,
+                "dropItems": [1, 5, 51, 55, 140, 63, 148],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 10,
+                "name": "머슈몬",
+                "digimonType": "Vi",
+                "hp": 292,
+                "dropItems": [1, 5, 51, 55, 140, 65, 150],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 12,
+                "name": "베타몬",
+                "digimonType": "Vi",
+                "hp": 364,
+                "dropItems": [1, 5, 51, 55, 140, 64, 149],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 12,
+                "name": "아기벌몬",
+                "digimonType": "Vi",
+                "hp": 270,
+                "dropItems": [1, 5, 51, 55, 140, 62, 147],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 14,
+                "name": "기자몬",
+                "digimonType": "Vi",
+                "hp": 467,
+                "dropItems": [1, 5, 51, 55, 140, 63, 148],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 14,
+                "name": "쉘몬",
+                "digimonType": "Da",
+                "hp": 467,
+                "dropItems": [1, 5, 51, 52, 55, 140, 66],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 22,
+                "name": "츄몬",
+                "digimonType": "Vi",
+                "hp": 689,
+                "dropItems": null,
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 26,
+                "name": "시드라몬",
+                "digimonType": "Da",
+                "hp": 2218,
+                "dropItems": [67],
+                "point": { "x": 0, "y": 0 }
+            },
+            {
+                "level": 40,
+                "name": "레어몬",
+                "digimonType": "Vi",
+                "hp": 856,
+                "dropItems": [2, 6, 51, 52, 55, 141, 68],
+                "point": { "x": 0, "y": 0 }
+            }
+        ],
+        "shop": null
+    },
+    {
+        "id": 3,
+        "name": "기어 사바나",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 4,
+        "name": "무한 산",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 5,
+        "name": "사막 지대",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 6,
+        "name": "어둠성 계곡",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 7,
+        "name": "개굴몬의 성",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 8,
+        "name": "어둠성 내부",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 10,
+        "name": "캠핑장",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 11,
+        "name": "빛의 언덕",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 12,
+        "name": "지하철 역",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 13,
+        "name": "오다이바 입구",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 14,
+        "name": "오다이바 북부",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 15,
+        "name": "시부야",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 16,
+        "name": "오다이바 남부",
+        "monsters": [],
+        "shop": null
+    },
+    {
+        "id": 17,
+        "name": "국제 전시장",
+        "monsters": [],
+        "shop": null
+    }
+]

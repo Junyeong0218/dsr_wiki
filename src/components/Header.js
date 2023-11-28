@@ -21,6 +21,7 @@ export default function Header() {
             </Link>
             <nav>
                 <Link to="/" className="text-nav">진화표</Link>
+                {/* <Link to="/maps" className="text-nav">맵 조회</Link> */}
             </nav>
         </div>
     );

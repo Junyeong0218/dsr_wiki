@@ -1,8 +1,8 @@
 import React from "react";
-import { PROFILE_HEIGHT } from "../enums";
-import { getToLeftTextStyle, jogressLineStyle, revolutionLineStyle } from "./styles";
+import { PROFILE_HEIGHT } from "../../enums";
+import { getToLeftTextStyle, jogressLineStyle, revolutionLineStyle } from "../styles";
 import RequiredItem from "./requiredItem";
-import { getUUID } from "../functions/commons";
+import { getUUID } from "../../functions/commons";
 
 export default function ToLeftProfileLine({ digimon }) {
     const commons = digimon.befores.filter(each => each.method === "일반");

@@ -4,7 +4,7 @@ import ToLeftProfileLine from "./toLeftProfileLine";
 import ToLeftProfileGroup from "./toLeftProfileGroup";
 import ToRightProfileLine from "./toRightProfileLine";
 import ToRightProfileGroup from "./toRightProfileGroup";
-import { getUUID } from "../functions/commons";
+import { getUUID } from "../../functions/commons";
 
 export default function Revolution({ selectedDigimon }) {
     if(!selectedDigimon) {

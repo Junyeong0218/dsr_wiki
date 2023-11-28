@@ -1,10 +1,10 @@
 import React from "react";
-import { PROFILE_HEIGHT } from "../enums";
-import { getToRightTextStyle, jogressLineStyle, revolutionLineStyle } from "./styles";
-import Digimon from "../classes/Digimon";
+import { PROFILE_HEIGHT } from "../../enums";
+import { getToRightTextStyle, jogressLineStyle, revolutionLineStyle } from "../styles";
+import Digimon from "../../classes/Digimon";
 import JogressProfile from "./jogressProfile";
 import RequiredItem from "./requiredItem";
-import { getUUID } from "../functions/commons";
+import { getUUID } from "../../functions/commons";
 
 export default function ToRightProfileLine({ digimon }) {
     const commons = digimon.afters.filter(each => each.method === "일반");

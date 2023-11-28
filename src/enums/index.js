@@ -16,7 +16,7 @@ const GradeClassNames = {
     "궁극체": "ultimate"
 }
 
-const requireStatName = {
+const RequireStatName = {
     "reqLevel": "레벨",
     "reqBonding": "유대감",
     "reqStr": "힘",
@@ -26,16 +26,30 @@ const requireStatName = {
     "reqDef": "수비"
 }
 
+const ItemType = {
+    1: "포션",
+    2: "소모 아이템",
+    3: "재료 아이템",
+    4: "스킬 강화석",
+    5: "디지타마",
+    6: "디지코어",
+    7: "기타"
+}
+
 const PROFILE_HEIGHT = 80;
 
 Object.freeze(Grades);
 Object.freeze(GradeClassNames);
-Object.freeze(requireStatName);
+Object.freeze(RequireStatName);
 Object.freeze(PROFILE_HEIGHT);
+Object.freeze(PROFILE_HEIGHT);
+Object.freeze(ItemType);
 
 export {
     Grades,
     GradeClassNames,
-    requireStatName,
-    PROFILE_HEIGHT
+    RequireStatName,
+    PROFILE_HEIGHT,
+
+    ItemType
 }

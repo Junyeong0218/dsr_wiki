@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import Combo from "./combo";
 import { Grades } from "../enums";
 import { getAllDigimons } from "../functions";
 import { getUUID } from "../functions/commons";
 import getRevolutions from "../functions/getRevolutions";
 
-export default function Filters({ selectedDigimon, setSelectedDigimon, searchRange, setSearchRange }) {
+export default function Filters({ selectedDigimon, setSelectedDigimon }) {
     const [selectedGrade, setSelectedGrade] = useState(null);
     const [grades, setGrades] = useState(Object.values(Grades));
     const [all, setAll] = useState(getAllDigimons(false));
@@ -33,19 +33,27 @@ export default function Filters({ selectedDigimon, setSelectedDigimon, searchRan
         }
     }
 
+    const gradeCombo = useMemo(() => {
+        return <Combo list={grades}
+                      selected={selectedGrade || "진화 상태"} 
+                      select={changeGrade}
+                      selectedGrade={selectedGrade} 
+                      key={"grade_combobox"} />;
+    }, [selectedGrade]);
+
+    const digimonCombo = useMemo(() => {
+        return <Combo list={filtered} 
+                      selected={digimonComboText}
+                      select={selectDigimon}
+                      selectedGrade={selectedGrade}
+                      key={"digimon_combobox"} />;
+    }, [selectedGrade, selectedDigimon]);
+
     return (
         <div className="filters">
-            <Combo list={grades}
-                selected={selectedGrade || "진화 상태"} 
-                select={changeGrade}
-                selectedGrade={selectedGrade} 
-                key={"grade_combobox"} />
+            { gradeCombo }
             
-            <Combo list={filtered} 
-                selected={digimonComboText}
-                select={selectDigimon}
-                selectedGrade={selectedGrade}
-                key={"digimon_combobox"} />
+            { digimonCombo }
         </div>
     );
 }

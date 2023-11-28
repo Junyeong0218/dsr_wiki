@@ -1,8 +1,8 @@
 import React from "react";
-import { flexColumn, flexRow, flexRowAndAlignEnd } from "./styles";
+import { flexColumn, flexRow, flexRowAndAlignEnd } from "../styles";
 import Profile from "./profile";
 import ToLeftProfileLine from "./toLeftProfileLine";
-import { getUUID } from "../functions/commons";
+import { getUUID } from "../../functions/commons";
 
 export default function ToLeftProfileGroup({ digimon }) {
     const wrapperStyle = digimon.befores.length === 1 ? flexRow : flexColumn;

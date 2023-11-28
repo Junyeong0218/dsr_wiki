@@ -126,6 +126,7 @@ body,
 .header > nav {
   display: flex;
   align-items: center;
+  gap: 50px;
 
   height: 100%;
 
@@ -263,6 +264,10 @@ button:disabled {
 
   opacity: 0.98;
   z-index: 1;
+}
+
+#revolution-description {
+  transition: 200ms;
 }
 
 #revolution-description * {
