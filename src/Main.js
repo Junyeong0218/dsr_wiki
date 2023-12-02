@@ -5,6 +5,7 @@ import Digimon from './classes/Digimon';
 import getJustBeforeRevolution from './functions/getJustBeforeRevolution';
 import Revolution from './components/revolution/Revolution';
 import RevolutionDescriptionModal from './components/revolution/revolutionDescriptionModal';
+import SearchBar from './components/SearchBar';
 
 export default function Main() {
     const [selectedDigimon, setSelectedDigimon] = useState(null);
@@ -56,6 +57,10 @@ export default function Main() {
         return <Filters selectedDigimon={selectedDigimon} setSelectedDigimon={setSelectedDigimon} key={"digimon_filter"} />;
     }, [selectedDigimon]);
 
+    const searchBar = useMemo(() => {
+        return <SearchBar setSelectedDigimon={setSelectedDigimon}/>
+    }, []);
+
     const revolution = useMemo(() => {
         return <Revolution selectedDigimon={selectedDigimon} key={getUUID()} />;
     }, [selectedDigimon])
@@ -65,6 +70,7 @@ export default function Main() {
         <div className='main' onMouseMove={captureMouse}>
             <h1 className="title-message">진화 상태에 맞는 디지몬을 선택하세요.</h1>
             { comboFilters }
+            { searchBar }
             { revolution }
             <RevolutionDescriptionModal isActive={isOpen} digimon={modalDigimon.current} position={position} />
             {/* <RevolutionDescriptionModal isActive={isOpen} digimon={modalDigimon.current} top={modalTop} left={modalLeft} /> */}

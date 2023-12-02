@@ -31,7 +31,7 @@ export default function Maps() {
                 <MapViewer map={selectedMap} />
 
                 {/* temp 맵 정보 */}
-                { selectedMap &&
+                {/* { selectedMap &&
                     <div className="temp">
                         <span>{selectedMap.name}</span>
                         { selectedMap.monsters.map(monster => (
@@ -62,7 +62,7 @@ export default function Maps() {
                             </div>
                         )) }
                     </div>
-                }
+                } */}
             </div>
         </div>
     );

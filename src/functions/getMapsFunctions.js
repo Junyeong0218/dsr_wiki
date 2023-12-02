@@ -8,16 +8,34 @@ const loadMaps = () => {
         data.forEach(each => {
             const map = new Map(each);
 
+            if(each.portals) {
+                map.portals = new Array();
+                each.portals.forEach(p => {
+                    map.portals.push(p);
+                });
+            }
+            if(each.warps) {
+                map.warps = new Array();
+                each.warps.forEach(w => {
+                    map.warps.push(w);
+                });
+            }
+            if(each.shops) {
+                map.shops = new Array();
+                each.shops.forEach(s => {
+                    map.shops.push(s);
+                });
+            }
             if(each.monsters) {
                 map.monsters = new Array();
                 each.monsters.forEach(m => {
                     map.monsters.push(new Monster(m));
                 });
             }
-            if(each.shop) {
-                map.shop = new Array();
-                each.shop.forEach(s => {
-                    map.shop.push(s);
+            if(each.cubes) {
+                map.cubes = new Array();
+                each.cubes.forEach(c => {
+                    map.cubes.push(c);
                 });
             }
 

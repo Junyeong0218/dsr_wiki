@@ -27,7 +27,7 @@ export default function Filters({ selectedDigimon, setSelectedDigimon }) {
                                                selectedGrade ? "디지몬 선택" : "";
 
     const selectDigimon = (digimon) => {
-        if(selectedDigimon?.id !== digimon.name) {
+        if(selectedDigimon?.id !== digimon.id) {
             getRevolutions(digimon);
             setSelectedDigimon(digimon);
         }

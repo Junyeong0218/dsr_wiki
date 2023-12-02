@@ -1,56 +1,185 @@
 .maps {
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    width: 100%;
+  width: 100%;
 }
 
 .map-selector {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .map-name-button {
-    padding: 3px 14px;
+  padding: 3px 14px;
 
-    max-width: 107px;
-    min-width: 107px;
+  max-width: 107px;
+  min-width: 107px;
 
-    border: 1px solid var(--white);
-    border-radius: 16px;
+  border: 1px solid var(--white);
+  border-radius: 16px;
 
-    font-size: 14px;
-    text-align: center;
+  font-size: 14px;
+  text-align: center;
 
-    transition: 300ms;
+  transition: 300ms;
 }
 
 .map-name-button.selected {
-    background-color: var(--white);
-    font-weight: 700;
-    color: var(--black);
+  background-color: var(--white);
+  font-weight: 700;
+  color: var(--black);
 }
 
 .map-viewer {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 
-    width: 100%;
+  width: 100%;
 }
 
 .map-container {
-    width: 60%;
-    position: relative;
+  width: 600px;
+  height: 600px;
+  position: relative;
 }
 
-.map-container > img {
-    width: 100%;
+.map-container > .map,
+.monster-viewer {
+  width: 100%;
+  height: 100%;
+}
+
+.monster-viewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.monster-shortcut {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 35px;
+  max-width: 35px;
+
+  font-size: 14px;
+  color: var(--white);
+}
+
+.monster-shortcut.hide {
+  display: none;
+}
+
+.monster-shortcut img {
+  width: 100%;
+}
+
+.monster-shortcut span {
+  width: fit-content;
+  min-width: 100%;
+  font-size: inherit;
+  color: inherit;
+
+  text-align: center;
+  background-color: var(--black);
+  pointer-events: none;
+
+  word-break: keep-all;
+}
+
+.object {
+  position: absolute;
+}
+
+.object.hide {
+  display: none;
+}
+
+.object.portal,
+.object.warp,
+.object.shop {
+  width: 27px;
+}
+
+.object-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.check-box-container {
+  width: 100%;
+  height: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  
+  line-height: 20px;
+
+  cursor: pointer;
+
+  -ms-user-select: none; 
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.check-box-container * {
+  pointer-events: none;
+}
+
+.check-box-container > span {
+  line-height: 20px;
+}
+
+/* .check-box-container > input[type="checkbox"] {
+    display: none;
+} */
+
+.check-box-container > input {
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+
+.check-box-container > input::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--type-ultimate-thin);
+}
+
+.check-box-container > input:checked::before {
+  transform: scale(1);
 }
