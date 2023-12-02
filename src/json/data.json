@@ -12233,8 +12233,8 @@
     "afters": [
       {
         "from": 224,
-        "to": 270,
-        "rate": "?",
+        "to": 304,
+        "rate": "0.85",
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -12248,8 +12248,8 @@
       },
       {
         "from": 224,
-        "to": 304,
-        "rate": "?",
+        "to": 270,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -14017,7 +14017,7 @@
       {
         "from": 224,
         "to": 270,
-        "rate": 0,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -15706,7 +15706,7 @@
       {
         "from": 224,
         "to": 304,
-        "rate": 0,
+        "rate": 0.85,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
