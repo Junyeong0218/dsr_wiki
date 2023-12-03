@@ -1,5 +1,6 @@
 // -------------------------------------
 
+import { escapeRegExp } from "lodash";
 import { getAllDigimons } from ".";
 
 function ch2pattern(ch) {
@@ -44,40 +45,40 @@ function createFuzzyMatcher(input) {
     .map(ch2pattern)
     .map(pattern => '(' + pattern + ')')
     .join('.*?');
-  return new RegExp(pattern, "g");
+  return new RegExp(pattern);
 }
 
 // -------------------------------------
 
-const digimons = getAllDigimons();
 
 const getSearchedDigimons = (search) => {
+  const digimons = getAllDigimons(false);
   const regex = createFuzzyMatcher(search);
 
   const searched = 
-  digimons.filter((digimon) => {
-    return regex.test(digimon.name);
-  })
-  .map(digimon => {
-    let totalDistance = 0;
-    const tag = digimon.name.replace(regex, (match, ...groups) => {
-      const letters = groups.slice(0, search.length);
-      let lastIndex = 0;
-      let highlighted = [];
-      for (let i = 0, l = letters.length; i < l; i++) {
-        const idx = match.indexOf(letters[i], lastIndex);
-        highlighted.push(match.substring(lastIndex, idx));
-        highlighted.push(`<mark>${letters[i]}</mark>`);
-        if (lastIndex > 0) {
-          totalDistance += idx - lastIndex;
+    digimons.filter((digimon) => {
+      return regex.test(digimon.name);
+    })
+    .map(digimon => {
+      let totalDistance = 0;
+      const tag = digimon.name.replace(regex, (match, ...groups) => {
+        const letters = groups.slice(0, search.length);
+        let lastIndex = 0;
+        let highlighted = [];
+        for (let i = 0, l = letters.length; i < l; i++) {
+          const idx = match.indexOf(letters[i], lastIndex);
+          highlighted.push(match.substring(lastIndex, idx));
+          highlighted.push(`<mark>${letters[i]}</mark>`);
+          if (lastIndex > 0) {
+            totalDistance += idx - lastIndex;
+          }
+          lastIndex = idx + 1;
         }
-        lastIndex = idx + 1;
-      }
 
-      return highlighted.join("");
+        return highlighted.join("");
+      });
+      return { name: digimon.name, tag, totalDistance };
     });
-    return { name: digimon.name, tag, totalDistance };
-  });
 
   searched.sort((a, b) => {
     return a.totalDistance - b.totalDistance;
