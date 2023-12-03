@@ -13,7 +13,7 @@ export default function App() {
                 <Header />
                 <Routes>
                     <Route path="/" element={<Main />} />
-                    {/* <Route path="/maps" element={<Maps />} /> */}
+                    <Route path="/maps" element={<Maps />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
                 <Footer />

@@ -4,6 +4,7 @@
     "name": "시작의 마을",
     "monsters": [
       {
+        "id": 1,
         "level": 16,
         "name": "츄몬",
         "digimonType": "Vi",
@@ -12,6 +13,7 @@
         "point": { "x": 345, "y": 145 }
       },
       {
+        "id": 2,
         "level": 18,
         "name": "고부리몬",
         "digimonType": "Vi",
@@ -20,6 +22,7 @@
         "point": { "x": 260, "y": 90 }
       },
       {
+        "id": 3,
         "level": 18,
         "name": "대장 고부리몬",
         "digimonType": "Vi",
@@ -28,6 +31,7 @@
         "point": { "x": 310, "y": 50 }
       },
       {
+        "id": 4,
         "level": 20,
         "name": "고부리몬",
         "digimonType": "Vi",
@@ -36,6 +40,7 @@
         "point": { "x": 385, "y": 255 }
       },
       {
+        "id": 5,
         "level": 20,
         "name": "아기벌몬",
         "digimonType": "Vi",
@@ -44,6 +49,7 @@
         "point": { "x": 410, "y": 155 }
       },
       {
+        "id": 6,
         "level": 20,
         "name": "츄몬",
         "digimonType": "Vi",
@@ -170,7 +176,7 @@
         "point": { "x": 259, "y": 430 }
       },
       {
-        "id": 1,
+        "id": 2,
         "description": "시작의 마을 공터",
         "point": { "x": 45, "y": 295 }
       }
@@ -181,178 +187,166 @@
     "name": "용의 눈 호수",
     "monsters": [
       {
+        "id": 1,
         "level": 2,
         "name": "기자몬",
         "digimonType": "Vi",
         "hp": 117,
         "dropItems": [1, 5, 51, 55, 140, 63, 148],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 500, "y": 105 }
       },
       {
+        "id": 2,
         "level": 6,
         "name": "베타몬",
         "digimonType": "Vi",
         "hp": 208,
         "dropItems": [1, 5, 51, 55, 140, 64, 149],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 360, "y": 325 }
       },
       {
+        "id": 3,
         "level": 8,
         "name": "기자몬",
         "digimonType": "Vi",
         "hp": 291,
         "dropItems": [1, 5, 51, 55, 140, 63, 148],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 245, "y": 355 }
       },
       {
+        "id": 4,
         "level": 10,
         "name": "머슈몬",
         "digimonType": "Vi",
         "hp": 292,
         "dropItems": [1, 5, 51, 55, 140, 65, 150],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 140, "y": 410 }
       },
       {
+        "id": 5,
         "level": 12,
         "name": "베타몬",
         "digimonType": "Vi",
         "hp": 364,
         "dropItems": [1, 5, 51, 55, 140, 64, 149],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 90, "y": 290 }
       },
       {
+        "id": 6,
         "level": 12,
         "name": "아기벌몬",
         "digimonType": "Vi",
         "hp": 270,
         "dropItems": [1, 5, 51, 55, 140, 62, 147],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 125, "y": 320 }
       },
       {
+        "id": 7,
         "level": 14,
         "name": "기자몬",
         "digimonType": "Vi",
         "hp": 467,
         "dropItems": [1, 5, 51, 55, 140, 63, 148],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 190, "y": 455 }
       },
       {
+        "id": 8,
         "level": 14,
         "name": "쉘몬",
         "digimonType": "Da",
         "hp": 467,
         "dropItems": [1, 5, 51, 52, 55, 140, 66],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 285, "y": 445 }
       },
       {
+        "id": 9,
         "level": 22,
         "name": "츄몬",
         "digimonType": "Vi",
         "hp": 689,
         "dropItems": null,
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 345, "y": 550 }
       },
       {
+        "id": 10,
         "level": 26,
         "name": "시드라몬",
         "digimonType": "Da",
         "hp": 2218,
         "dropItems": [67],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 150, "y": 210 }
       },
       {
+        "id": 11,
         "level": 40,
         "name": "레어몬",
         "digimonType": "Vi",
         "hp": 856,
         "dropItems": [2, 6, 51, 52, 55, 141, 68],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 290, "y": 525 }
       }
     ],
-    "shops": null
-  },
-  {
-    "id": 3,
-    "name": "기어 사바나",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 4,
-    "name": "무한 산",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 5,
-    "name": "사막 지대",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 6,
-    "name": "어둠성 계곡",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 7,
-    "name": "개굴몬의 성",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 8,
-    "name": "어둠성 내부",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 10,
-    "name": "캠핑장",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 11,
-    "name": "빛의 언덕",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 12,
-    "name": "지하철 역",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 13,
-    "name": "오다이바 입구",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 14,
-    "name": "오다이바 북부",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 15,
-    "name": "시부야",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 16,
-    "name": "오다이바 남부",
-    "monsters": [],
-    "shops": null
-  },
-  {
-    "id": 17,
-    "name": "국제 전시장",
-    "monsters": [],
-    "shops": null
+    "shops": null,
+    "cubes": [
+      {
+        "id": 1,
+        "point": { "x": 80, "y": 285 }
+      },
+      {
+        "id": 2,
+        "point": { "x": 370, "y": 300 }
+      },
+      {
+        "id": 3,
+        "point": { "x": 415, "y": 395 }
+      },
+      {
+        "id": 4,
+        "point": { "x": 370, "y": 490 }
+      },
+      {
+        "id": 5,
+        "point": { "x": 380, "y": 235 }
+      },
+      {
+        "id": 6,
+        "point": { "x": 520, "y": 85 }
+      },
+      {
+        "id": 7,
+        "point": { "x": 410, "y": 330 }
+      },
+      {
+        "id": 8,
+        "point": { "x": 280, "y": 465 }
+      },
+      {
+        "id": 9,
+        "point": { "x": 200, "y": 580 }
+      },
+      {
+        "id": 10,
+        "point": { "x": 250, "y": 415 }
+      }
+    ],
+    "portals": [
+      {
+        "to": 1,
+        "description": "시작의 마을 포탈",
+        "point": { "x": 90, "y": 360 }
+      },
+      {
+        "to": 3,
+        "description": "사막 지대 이동 - 고래몬과 대화",
+        "point": { "x": 390, "y": 503 }
+      }
+    ],
+    "warps": [
+      {
+        "id": 1,
+        "description": "용의 눈 호수 해변가",
+        "point": { "x": 330, "y": 500 }
+      }
+    ]
   }
 ]

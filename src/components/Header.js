@@ -20,8 +20,8 @@ export default function Header() {
                 <img src="/images/logo.png" />
             </Link>
             <nav>
-                <Link to="/" className="text-nav">진화표</Link>
-                {/* <Link to="/maps" className="text-nav">맵 조회</Link> */}
+                <Link to="/" className="text-nav">진화트리</Link>
+                <Link to="/maps" className="text-nav">맵스</Link>
             </nav>
         </div>
     );
