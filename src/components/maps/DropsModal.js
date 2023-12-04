@@ -22,7 +22,7 @@ export default function DropsModal({ isOpen, digimon, position }) {
 
                         return (
                             <div className="drop-item" key={getUUID()}>
-                                <img src={`/images/${item.name}.png`} />
+                                <img src={`/images/${item.name.includes("조합법") ? "조합법" : item.name}.png`} />
                                 <span>{item.name}</span>
                             </div>
                         );

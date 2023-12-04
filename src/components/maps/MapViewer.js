@@ -14,10 +14,11 @@ export default function MapViewer({ map }) {
     const [showCube, setShowCube] = useState(false);
 
     const [isOpenShop, setIsOpenShop] = useState(false);
-    const [modalPosition, setModalPosition] = useState({ top: 0, y: 0 });
+    const [shopModalPosition, setShopModalPosition] = useState({ top: 0, y: 0 });
     const selectedShop = useRef(null);
     
     const [isOpenDrops, setIsOpenDrops] = useState(false);
+    const [dropsModalPosition, setDropsModalPosition] = useState({ top: 0, y: 0 });
     const selectedDigimon = useRef(null);
 
     const captureMouse = (event) => {
@@ -30,9 +31,9 @@ export default function MapViewer({ map }) {
                 
                 const mapRect = event.target.parentElement.getBoundingClientRect();
                 if(event.pageY + 450 > window.innerHeight) {
-                    setModalPosition({ top: 450 - mapRect.top + 10, left: event.pageX - mapRect.left + 2 });
+                    setShopModalPosition({ top: 450 - mapRect.top + 10, left: event.pageX - mapRect.left + 2 });
                 } else {
-                    setModalPosition({ top: event.pageY - mapRect.top + 10, left: event.pageX - mapRect.left + 10 });
+                    setShopModalPosition({ top: event.pageY - mapRect.top, left: event.pageX - mapRect.left + 2 });
                 }
                 setIsOpenShop(true);
                 setIsOpenDrops(false);
@@ -42,12 +43,13 @@ export default function MapViewer({ map }) {
                 selectedDigimon.current = digimon;
 
                 const mapRect = event.target.parentElement.parentElement.getBoundingClientRect();
-                const modalHeight = 171 + digimon.dropItems?.length * 28;
+                const modalHeight = 171 + (digimon.dropItems?.length || 0) * 28;
                 
-                if(event.pageY + modalHeight > window.innerHeight) {
-                    setModalPosition({ top: modalHeight + 10, left: event.pageX - mapRect.left + 2 });
+                // console.log(event.pageY, modalHeight, "  ", window.innerHeight)
+                if(event.pageY + modalHeight >= window.innerHeight - 20) {
+                    setDropsModalPosition({ top: event.pageY - modalHeight - mapRect.top, left: event.pageX - mapRect.left + 2 });
                 } else {
-                    setModalPosition({ top: event.pageY - mapRect.top + 10, left: event.pageX - mapRect.left + 2 });
+                    setDropsModalPosition({ top: event.pageY - mapRect.top + 10, left: event.pageX - mapRect.left + 2 });
                 }
                 setIsOpenDrops(true);
                 setIsOpenShop(false);
@@ -91,7 +93,7 @@ export default function MapViewer({ map }) {
     const items = useMemo(() => getItems(), [map]);
 
     const hasCheckedItem = (monster) => {
-        if(!monster.dropItems && monster.name === "츄몬") return true;
+        if(!monster.dropItems && (monster.name === "츄몬" || monster.name === "레어몬")) return true;
 
         for(let i = 0; i < monster.dropItems?.length; i++) {
             if(itemCheckFlags.includes(monster.dropItems[i]))
@@ -144,8 +146,8 @@ export default function MapViewer({ map }) {
                  key={getUUID()} />
         ))
     }, [showCube, map]);
-    const shopModal = useMemo(() => <ShopModal isOpen={isOpenShop} items={selectedShop.current?.items} position={modalPosition} />, [isOpenShop, modalPosition]);
-    const monsterModal = useMemo(() => <DropsModal isOpen={isOpenDrops} digimon={selectedDigimon.current} position={modalPosition} />, [isOpenDrops, modalPosition]);
+    const shopModal = useMemo(() => <ShopModal isOpen={isOpenShop} items={selectedShop.current?.items} position={shopModalPosition} />, [isOpenShop, shopModalPosition]);
+    const monsterModal = useMemo(() => <DropsModal isOpen={isOpenDrops} digimon={selectedDigimon.current} position={dropsModalPosition} />, [isOpenDrops, dropsModalPosition]);
 
     return (
         <div className="map-viewer">
