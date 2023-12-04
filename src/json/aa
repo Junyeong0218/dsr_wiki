@@ -1,0 +1,86 @@
+[
+  {
+    "id": 3,
+    "name": "기어 사바나",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 4,
+    "name": "무한 산",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 5,
+    "name": "사막 지대",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 6,
+    "name": "어둠성 계곡",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 7,
+    "name": "개굴몬의 성",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 8,
+    "name": "어둠성 내부",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 10,
+    "name": "캠핑장",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 11,
+    "name": "빛의 언덕",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 12,
+    "name": "지하철 역",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 13,
+    "name": "오다이바 입구",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 14,
+    "name": "오다이바 북부",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 15,
+    "name": "시부야",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 16,
+    "name": "오다이바 남부",
+    "monsters": [],
+    "shops": null
+  },
+  {
+    "id": 17,
+    "name": "국제 전시장",
+    "monsters": [],
+    "shops": null
+  }
+]
