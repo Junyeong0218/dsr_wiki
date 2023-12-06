@@ -154,10 +154,10 @@ export default function MapViewer({ map }) {
             <div className="map-container" onMouseMove={captureMouse}>
                 <img className="map" src={`/images/${map.name}.png`} />
 
+                { monsters }
                 { portals }
                 { warps }
                 { shops }
-                { monsters }
                 { cubes }
             </div>
             <ObjectFilter portal={showPortal} setPortal={setShowPortal} 

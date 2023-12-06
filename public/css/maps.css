@@ -138,7 +138,27 @@
   gap: 10px;
 
   min-width: 200px;
+  max-height: 637.8px;
   flex-grow: 1;
+  overflow: auto;
+}
+
+.object-filter::-webkit-scrollbar {
+  width: 10px;  /* 스크롤바의 너비 */
+}
+
+.object-filter::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #d7dde2; /* 스크롤바의 색상 */
+  
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.object-filter::-webkit-scrollbar-track {
+  background: #484a4b;  /*스크롤바 뒷 배경 색상*/
+  border-radius: 4px;
 }
 
 .check-box-container {

@@ -2822,6 +2822,29 @@
     "afters": null
   },
   {
+    "id": 501,
+    "name": "[돌연변이]임프몬",
+    "grade": 3,
+    "befores": [
+      {
+        "from": 82,
+        "to": 501,
+        "rate": 0.05,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 15,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
     "id": 44,
     "name": "[돌연변이]쉬라몬",
     "grade": 3,
@@ -3096,6 +3119,28 @@
       }
     ],
     "afters": null
+  },
+  {
+    "id": 350,
+    "name": "[돌연변이]테이파몬",
+    "grade": 3,
+    "befores":[
+      {
+        "from": 89,
+        "to": 350,
+        "rate": 0.05,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 15,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
   },
   {
     "id": 56,
@@ -4936,7 +4981,22 @@
       {
         "from": 82,
         "to": 184,
-        "rate": 1,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 15,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 82,
+        "to": 501,
+        "rate": 0.05,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -5704,7 +5764,22 @@
       {
         "from": 89,
         "to": 224,
-        "rate": 1,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 15,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 89,
+        "to": 350,
+        "rate": 0.05,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -7190,6 +7265,28 @@
       {
         "from": 183,
         "to": 118,
+        "rate": 0.05,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 502,
+    "name": "[돌연변이]매드레오몬",
+    "grade": 4,
+    "befores": [
+      {
+        "from": 184,
+        "to": 502,
         "rate": 0.05,
         "ingredient": "",
         "method": "일반",
@@ -9227,7 +9324,7 @@
         "from": 174,
         "to": 349,
         "rate": 0.5,
-        "ingredient": "",
+        "ingredient": "홀리 링",
         "method": "조그레스",
         "reqLevel": 60,
         "reqBonding": 0.015,
@@ -9685,7 +9782,7 @@
       {
         "from": 82,
         "to": 184,
-        "rate": 1,
+        "rate": 0.95,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -9698,7 +9795,38 @@
         "with": 0
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 184,
+        "to": 281,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 184,
+        "to": 502,
+        "rate": 0.05,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
   },
   {
     "id": 185,
@@ -11314,7 +11442,7 @@
         "from": 210,
         "to": 349,
         "rate": 0.5,
-        "ingredient": "",
+        "ingredient": "홀리 링",
         "method": "조그레스",
         "reqLevel": 60,
         "reqBonding": 0.015,
@@ -14526,7 +14654,23 @@
     "id": 281,
     "name": "바알몬",
     "grade": 5,
-    "befores": null,
+    "befores": [
+      {
+        "from": 184,
+        "to": 281,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
     "afters": [
       {
         "from": 281,
@@ -14851,7 +14995,7 @@
         "from": 210,
         "to": 349,
         "rate": 0.5,
-        "ingredient": "",
+        "ingredient": "홀리 링",
         "method": "조그레스",
         "reqLevel": 60,
         "reqBonding": 0.015,
@@ -14866,7 +15010,7 @@
         "from": 174,
         "to": 349,
         "rate": 0.5,
-        "ingredient": "",
+        "ingredient": "홀리 링",
         "method": "조그레스",
         "reqLevel": 60,
         "reqBonding": 0.015,
@@ -16197,7 +16341,7 @@
         "from": 281,
         "to": 316,
         "rate": 0.25,
-        "ingredient": "에보류터",
+        "ingredient": "홀리 링",
         "method": "조그레스",
         "reqLevel": 90,
         "reqBonding": 0,
@@ -16212,7 +16356,7 @@
         "from": 301,
         "to": 316,
         "rate": 0.25,
-        "ingredient": "에보류터",
+        "ingredient": "홀리 링",
         "method": "조그레스",
         "reqLevel": 90,
         "reqBonding": 0,

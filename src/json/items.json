@@ -841,7 +841,7 @@
   {
     "id": 138,
     "type": 6,
-    "name": "부서진 ? 디지코어",
+    "name": "부서진 에이프몬 디지코어",
     "price": 0,
     "canTrade": true
   },
@@ -974,7 +974,7 @@
   {
     "id": 163,
     "type": 7,
-    "name": "켄터스몬의 견갑?",
+    "name": "켄터스몬의 견갑",
     "price": 0,
     "canTrade": true
   },
@@ -1065,7 +1065,7 @@
   {
     "id": 176,
     "type": 7,
-    "name": "스콜피온몬의 ?",
+    "name": "스콜피온몬의 칼날",
     "price": 0,
     "canTrade": true
   },
@@ -1143,7 +1143,7 @@
   {
     "id": 188,
     "type": 7,
-    "name": "메카노몬의 ?",
+    "name": "메카노몬의 강철 손가락",
     "price": 0,
     "canTrade": true
   },
@@ -1228,7 +1228,7 @@
   {
     "id": 201,
     "type": 7,
-    "name": "플라이몬의 더듬이?",
+    "name": "플라이몬의 더듬이",
     "price": 0,
     "canTrade": true
   },
