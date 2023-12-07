@@ -36,6 +36,8 @@ const ItemType = {
     7: "기타"
 }
 
+const NoDropMonsters = ["츄몬", "레어몬", "모노크로몬", "스콜피온몬"]
+
 const PROFILE_HEIGHT = 80;
 
 Object.freeze(Grades);
@@ -44,6 +46,7 @@ Object.freeze(RequireStatName);
 Object.freeze(PROFILE_HEIGHT);
 Object.freeze(PROFILE_HEIGHT);
 Object.freeze(ItemType);
+Object.freeze(NoDropMonsters);
 
 export {
     Grades,
@@ -51,5 +54,6 @@ export {
     RequireStatName,
     PROFILE_HEIGHT,
 
-    ItemType
+    ItemType,
+    NoDropMonsters
 }

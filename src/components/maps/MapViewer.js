@@ -5,6 +5,7 @@ import ObjectFilter from "./ObjectFilter";
 import ShopModal from "./ShopModal";
 import DropsModal from "./DropsModal";
 import { getItemById } from "../../functions/getItemsFunctions";
+import { NoDropMonsters } from "../../enums";
 
 export default function MapViewer({ map }) {
     const [showPortal, setShowPortal] = useState(true);
@@ -93,7 +94,7 @@ export default function MapViewer({ map }) {
     const items = useMemo(() => getItems(), [map]);
 
     const hasCheckedItem = (monster) => {
-        if(!monster.dropItems && (monster.name === "츄몬" || monster.name === "레어몬")) return true;
+        if(!monster.dropItems && NoDropMonsters.includes(monster.name)) return true;
 
         for(let i = 0; i < monster.dropItems?.length; i++) {
             if(itemCheckFlags.includes(monster.dropItems[i]))
