@@ -1866,142 +1866,196 @@
         "digimonType": "Vi",
         "hp": 7779,
         "dropItems": [3, 7, 53, 56, 147, 79, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 515, "y": 228 }
       },
       {
         "id": 2,
+        "level": 87,
+        "name": "고스몬",
+        "digimonType": "Vi",
+        "hp": 7779,
+        "dropItems": [3, 7, 53, 56, 147, 79, 49, 51],
+        "point": { "x": 515, "y": 380 }
+      },
+      {
+        "id": 3,
         "level": 87,
         "name": "기자몬",
         "digimonType": "Vi",
         "hp": 12808,
         "dropItems": [3, 7, 52, 56, 147, 64, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 425, "y": 228 }
       },
       {
-        "id": 3,
+        "id": 4,
         "level": 87,
         "name": "소울몬",
         "digimonType": "Vi",
         "hp": 9806,
         "dropItems": [3, 7, 53, 56, 147, 80, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 550, "y": 228 }
       },
       {
-        "id": 4,
+        "id": 5,
+        "level": 87,
+        "name": "소울몬",
+        "digimonType": "Vi",
+        "hp": 9806,
+        "dropItems": [3, 7, 53, 56, 147, 80, 49, 51],
+        "point": { "x": 550, "y": 380 }
+      },
+      {
+        "id": 6,
         "level": 87,
         "name": "아이스몬",
         "digimonType": "Da",
         "hp": 8595,
         "dropItems": [3, 7, 53, 56, 147, 129, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 410, "y": 405 }
       },
       {
-        "id": 5,
+        "id": 7,
         "level": 87,
         "name": "퍼펫몬",
         "digimonType": "Va",
         "hp": 5487,
         "dropItems": [3, 7, 54, 56, 58, 147, 78, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 400, "y": 305 }
       },
       {
-        "id": 6,
+        "id": 8,
         "level": 88,
         "name": "에이프몬",
         "digimonType": "Va",
         "hp": 8166,
         "dropItems": [3, 7, 53, 56, 147, 139, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 375, "y": 250 }
       },
       {
-        "id": 7,
+        "id": 9,
         "level": 88,
         "name": "캐논벌몬",
         "digimonType": "Vi",
         "hp": 10547,
         "dropItems": [3, 7, 54, 56, 58, 147, 120, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 300, "y": 250 }
       },
       {
-        "id": 8,
+        "id": 10,
         "level": 89,
         "name": "데이터몬",
         "digimonType": "Vi",
         "hp": 10438,
         "dropItems": [3, 7, 54, 56, 58, 147, 130, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 375, "y": 355 }
       },
       {
-        "id": 9,
+        "id": 11,
         "level": 89,
         "name": "레어몬",
         "digimonType": "Vi",
         "hp": 11034,
         "dropItems": [3, 7, 53, 56, 147, 69, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 242, "y": 215 }
       },
       {
-        "id": 10,
+        "id": 12,
+        "level": 89,
+        "name": "레어몬",
+        "digimonType": "Vi",
+        "hp": 11034,
+        "dropItems": [3, 7, 53, 56, 147, 69, 49, 51],
+        "point": { "x": 242, "y": 395 }
+      },
+      {
+        "id": 13,
         "level": 89,
         "name": "맘몬",
         "digimonType": "Va",
         "hp": 10216,
         "dropItems": [3, 7, 54, 56, 58, 147, 131, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 300, "y": 355 }
       },
       {
-        "id": 11,
+        "id": 14,
         "level": 90,
         "name": "가비지몬",
         "digimonType": "Vi",
         "hp": 7190,
         "dropItems": [3, 7, 54, 56, 58, 147, 128, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 83, "y": 370 }
       },
       {
-        "id": 12,
+        "id": 15,
         "level": 90,
         "name": "고래몬",
         "digimonType": "Va",
         "hp": 5844,
         "dropItems": [3, 7, 54, 56, 58, 147, 141, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 170, "y": 253 }
       },
       {
-        "id": 13,
+        "id": 16,
+        "level": 90,
+        "name": "고래몬",
+        "digimonType": "Va",
+        "hp": 5844,
+        "dropItems": [3, 7, 54, 56, 58, 147, 141, 49, 51],
+        "point": { "x": 170, "y": 348 }
+      },
+      {
+        "id": 17,
         "level": 90,
         "name": "리벨리몬",
         "digimonType": "Vi",
         "hp": 7348,
         "dropItems": [3, 7, 54, 56, 58, 147, 119, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 83, "y": 230 }
       },
       {
-        "id": 14,
+        "id": 18,
         "level": 90,
         "name": "메가시드라몬",
         "digimonType": "Da",
         "hp": 7172,
         "dropItems": [3, 7, 54, 56, 58, 147, 132, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 130, "y": 253 }
       },
       {
-        "id": 15,
+        "id": 19,
+        "level": 90,
+        "name": "메가시드라몬",
+        "digimonType": "Da",
+        "hp": 7172,
+        "dropItems": [3, 7, 54, 56, 58, 147, 132, 49, 51],
+        "point": { "x": 130, "y": 348 }
+      },
+      {
+        "id": 20,
         "level": 90,
         "name": "쉘몬",
         "digimonType": "Da",
         "hp": 10027,
         "dropItems": [3, 7, 53, 56, 147, 67, 49, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 210, "y": 253 }
       },
       {
-        "id": 16,
+        "id": 21,
+        "level": 90,
+        "name": "쉘몬",
+        "digimonType": "Da",
+        "hp": 10027,
+        "dropItems": [3, 7, 53, 56, 147, 67, 49, 51],
+        "point": { "x": 210, "y": 348 }
+      },
+      {
+        "id": 22,
         "level": 90,
         "name": "츄몬",
         "digimonType": "Vi",
         "hp": 8518,
         "dropItems": null,
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 67, "y": 424 }
       }
     ],
     "shops": [
@@ -2053,7 +2107,7 @@
         "digimonType": "Vi",
         "hp": 14182,
         "dropItems": [3, 7, 53, 56, 147, 85, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 55, "y": 380 }
       },
       {
         "id": 2,
@@ -2062,7 +2116,7 @@
         "digimonType": "Da",
         "hp": 8527,
         "dropItems": [3, 7, 53, 56, 147, 90],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 170, "y": 350 }
       },
       {
         "id": 3,
@@ -2071,7 +2125,7 @@
         "digimonType": "Da",
         "hp": 13833,
         "dropItems": [3, 7, 53, 56, 147, 198, 68],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 285, "y": 290 }
       },
       {
         "id": 4,
@@ -2080,7 +2134,7 @@
         "digimonType": "Vi",
         "hp": 11879,
         "dropItems": [3, 7, 53, 56, 147, 199, 82],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 295, "y": 490 }
       },
       {
         "id": 5,
@@ -2089,7 +2143,16 @@
         "digimonType": "Da",
         "hp": 9251,
         "dropItems": [3, 7, 53, 56, 147, 102, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 50, "y": 185 }
+      },
+      {
+        "id": 6,
+        "level": 90,
+        "name": "티라노몬",
+        "digimonType": "Da",
+        "hp": 9251,
+        "dropItems": [3, 7, 53, 56, 147, 102, 51],
+        "point": { "x": 170, "y": 240 }
       }
     ],
     "shops": null,
@@ -2130,7 +2193,7 @@
         "digimonType": "Vi",
         "hp": 15306,
         "dropItems": [3, 7, 53, 56, 147, 200, 79],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 505, "y": 415 }
       },
       {
         "id": 2,
@@ -2139,7 +2202,7 @@
         "digimonType": "Vi",
         "hp": 10244,
         "dropItems": [3, 7, 54, 56, 58, 147, 133, 51],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 393, "y": 35 }
       },
       {
         "id": 3,
@@ -2148,7 +2211,7 @@
         "digimonType": "Vi",
         "hp": 16429,
         "dropItems": [3, 7, 53, 56, 147, 201, 80],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 523, "y": 250 }
       },
       {
         "id": 4,
@@ -2157,7 +2220,7 @@
         "digimonType": "Vi",
         "hp": 11451,
         "dropItems": [3, 7, 53, 56, 147, 202, 107, 51, 50],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 130, "y": 340 }
       },
       {
         "id": 5,
@@ -2166,7 +2229,7 @@
         "digimonType": "Da",
         "hp": 8883,
         "dropItems": [3, 7, 54, 56, 58, 147, 134],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 235, "y": 70 }
       },
       {
         "id": 6,
@@ -2175,7 +2238,7 @@
         "digimonType": "Uk",
         "hp": 10393,
         "dropItems": [3, 7, 53, 56, 147, 135],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 360, "y": 465 }
       },
       {
         "id": 7,
@@ -2184,7 +2247,7 @@
         "digimonType": "Vi",
         "hp": 12244,
         "dropItems": [3, 7, 53, 56, 147, 203, 99],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 165, "y": 500 }
       },
       {
         "id": 8,
@@ -2193,7 +2256,16 @@
         "digimonType": "Vi",
         "hp": 11325,
         "dropItems": [3, 7, 53, 56, 147, 136, 51, 50],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 155, "y": 192 }
+      },
+      {
+        "id": 9,
+        "level": 92,
+        "name": "모야몬",
+        "digimonType": "Vi",
+        "hp": 11325,
+        "dropItems": [3, 7, 53, 56, 147, 136, 51, 50],
+        "point": { "x": 240, "y": 230 }
       }
     ],
     "shops": [
@@ -2240,7 +2312,7 @@
         "digimonType": "Vi",
         "hp": 13247,
         "dropItems": [3, 7, 54, 56, 58, 147, 137],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 315, "y": 155 }
       },
       {
         "id": 2,
@@ -2249,7 +2321,7 @@
         "digimonType": "Vi",
         "hp": 16471,
         "dropItems": [3, 7, 54, 56, 58, 147, 137],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 370, "y": 476 }
       },
       {
         "id": 3,
@@ -2258,7 +2330,7 @@
         "digimonType": "Vi",
         "hp": 15660,
         "dropItems": [3, 7, 53, 56, 147, 79],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 391, "y": 355 }
       },
       {
         "id": 4,
@@ -2267,7 +2339,7 @@
         "digimonType": "Vi",
         "hp": 14627,
         "dropItems": [3, 7, 54, 56, 58, 147, 130],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 315, "y": 355 }
       },
       {
         "id": 5,
@@ -2276,7 +2348,7 @@
         "digimonType": "Vi",
         "hp": 16840,
         "dropItems": [3, 7, 53, 56, 147, 80],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 227, "y": 380 }
       },
       {
         "id": 6,
@@ -2285,7 +2357,7 @@
         "digimonType": "Va",
         "hp": 14824,
         "dropItems": [3, 7, 53, 56, 147, 138],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 230, "y": 75 }
       },
       {
         "id": 7,
@@ -2294,7 +2366,7 @@
         "digimonType": "Va",
         "hp": 13000,
         "dropItems": [3, 7, 53, 56, 147, 139, 50],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 165, "y": 180 }
       },
       {
         "id": 8,
@@ -2303,7 +2375,7 @@
         "digimonType": "Vi",
         "hp": 14815,
         "dropItems": [3, 7, 53, 56, 147, 114],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 150, "y": 450 }
       }
     ],
     "shops": null,
@@ -2344,43 +2416,52 @@
         "digimonType": "Vi",
         "hp": 15540,
         "dropItems": [3, 7, 53, 56, 147, 79, 50],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 365, "y": 275 }
       },
       {
         "id": 2,
+        "level": 93,
+        "name": "고스몬",
+        "digimonType": "Vi",
+        "hp": 15540,
+        "dropItems": [3, 7, 53, 56, 147, 79, 50],
+        "point": { "x": 305, "y": 220 }
+      },
+      {
+        "id": 3,
         "level": 93,
         "name": "맘몬",
         "digimonType": "Va",
         "hp": 14342,
         "dropItems": [3, 7, 54, 56, 58, 147, 131],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 410, "y": 400 }
       },
       {
-        "id": 3,
+        "id": 4,
         "level": 93,
         "name": "티라노몬",
         "digimonType": "Da",
         "hp": 12730,
         "dropItems": [3, 7, 53, 56, 147, 102],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 380, "y": 65 }
       },
       {
-        "id": 4,
+        "id": 5,
         "level": 94,
         "name": "마스터티라노몬",
         "digimonType": "Va",
         "hp": 13193,
         "dropItems": [3, 7, 54, 56, 58, 147, 140],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 380, "y": 130 }
       },
       {
-        "id": 5,
+        "id": 6,
         "level": 94,
         "name": "소울몬",
         "digimonType": "Vi",
         "hp": 16840,
         "dropItems": [3, 7, 53, 56, 147, 80],
-        "point": { "x": 0, "y": 0 }
+        "point": { "x": 250, "y": 220 }
       }
     ],
     "shops": [
