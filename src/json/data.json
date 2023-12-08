@@ -831,7 +831,7 @@
       {
         "from": 19,
         "to": 75,
-        "rate": 0.1667,
+        "rate": 0.1429,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -846,7 +846,7 @@
       {
         "from": 19,
         "to": 68,
-        "rate": 0.1667,
+        "rate": 0.1429,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -861,7 +861,7 @@
       {
         "from": 19,
         "to": 80,
-        "rate": 0.1667,
+        "rate": 0.1429,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -876,7 +876,7 @@
       {
         "from": 19,
         "to": 72,
-        "rate": 0.1667,
+        "rate": 0.1429,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -891,7 +891,7 @@
       {
         "from": 19,
         "to": 86,
-        "rate": 0.1666,
+        "rate": 0.1428,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -906,7 +906,22 @@
       {
         "from": 19,
         "to": 74,
-        "rate": 0.1666,
+        "rate": 0.1428,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 0,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 19,
+        "to": 351,
+        "rate": 0.1428,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -960,7 +975,7 @@
       {
         "from": 20,
         "to": 90,
-        "rate": 0.125,
+        "rate": 0.1112,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -975,7 +990,7 @@
       {
         "from": 20,
         "to": 84,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -990,7 +1005,7 @@
       {
         "from": 20,
         "to": 87,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -1005,7 +1020,7 @@
       {
         "from": 20,
         "to": 91,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -1020,7 +1035,7 @@
       {
         "from": 20,
         "to": 78,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -1035,7 +1050,7 @@
       {
         "from": 20,
         "to": 80,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -1050,7 +1065,7 @@
       {
         "from": 20,
         "to": 67,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -1065,7 +1080,22 @@
       {
         "from": 20,
         "to": 81,
-        "rate": 0.125,
+        "rate": 0.1111,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 0,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 20,
+        "to": 351,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -2205,7 +2235,7 @@
       {
         "from": 30,
         "to": 92,
-        "rate": 0.1429,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -2220,7 +2250,7 @@
       {
         "from": 30,
         "to": 81,
-        "rate": 0.1429,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -2235,7 +2265,7 @@
       {
         "from": 30,
         "to": 84,
-        "rate": 0.1429,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -2250,7 +2280,7 @@
       {
         "from": 30,
         "to": 87,
-        "rate": 0.1429,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -2265,7 +2295,7 @@
       {
         "from": 30,
         "to": 98,
-        "rate": 0.1428,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -2280,7 +2310,7 @@
       {
         "from": 30,
         "to": 99,
-        "rate": 0.1428,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -2295,7 +2325,22 @@
       {
         "from": 30,
         "to": 89,
-        "rate": 0.1428,
+        "rate": 0.125,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 0,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 30,
+        "to": 351,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -3098,6 +3143,29 @@
     "afters": null
   },
   {
+    "id": 352,
+    "name": "[돌연변이]크랩몬",
+    "grade": 3,
+    "befores": [
+      {
+        "from": 351,
+        "to": 352,
+        "rate": 0.05,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 15,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
     "id": 55,
     "name": "[돌연변이]테리어몬",
     "grade": 3,
@@ -3479,7 +3547,7 @@
       {
         "from": 20,
         "to": 67,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -3593,7 +3661,7 @@
       {
         "from": 19,
         "to": 68,
-        "rate": 0.1667,
+        "rate": 0.1429,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -4019,7 +4087,7 @@
       {
         "from": 19,
         "to": 72,
-        "rate": 0.1667,
+        "rate": 0.1429,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -4202,7 +4270,7 @@
       {
         "from": 19,
         "to": 74,
-        "rate": 0.1666,
+        "rate": 0.1428,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -4346,7 +4414,7 @@
       {
         "from": 19,
         "to": 75,
-        "rate": 0.1667,
+        "rate": 0.1429,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -4568,7 +4636,7 @@
       {
         "from": 20,
         "to": 78,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -4766,7 +4834,7 @@
       {
         "from": 19,
         "to": 80,
-        "rate": 0.1667,
+        "rate": 0.1429,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -4781,7 +4849,7 @@
       {
         "from": 20,
         "to": 80,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -4835,7 +4903,7 @@
       {
         "from": 20,
         "to": 81,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -4865,7 +4933,7 @@
       {
         "from": 30,
         "to": 81,
-        "rate": 0.1429,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -5132,7 +5200,7 @@
       {
         "from": 20,
         "to": 84,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -5177,7 +5245,7 @@
       {
         "from": 30,
         "to": 84,
-        "rate": 0.1429,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -5375,7 +5443,7 @@
       {
         "from": 19,
         "to": 86,
-        "rate": 0.1666,
+        "rate": 0.1428,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -5474,7 +5542,7 @@
       {
         "from": 20,
         "to": 87,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -5549,7 +5617,7 @@
       {
         "from": 30,
         "to": 87,
-        "rate": 0.1429,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -5656,6 +5724,120 @@
     ]
   },
   {
+    "id": 351,
+    "name": "크랩몬",
+    "grade": 3,
+    "befores": [
+      {
+        "from": 19,
+        "to": 351,
+        "rate": 0.1428,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 0,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 20,
+        "to": 351,
+        "rate": 0.1111,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 0,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 30,
+        "to": 351,
+        "rate": 0.125,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 0,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 351,
+        "to": 195,
+        "rate": 0.425,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 15,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 351,
+        "to": 208,
+        "rate": 0.425,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 15,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 351,
+        "to": 200,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 15,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 351,
+        "to": 352,
+        "rate": 0.05,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 15,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
+  },
+  {
     "id": 88,
     "name": "테리어몬",
     "grade": 3,
@@ -5732,7 +5914,7 @@
       {
         "from": 30,
         "to": 89,
-        "rate": 0.1428,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -5801,7 +5983,7 @@
       {
         "from": 20,
         "to": 90,
-        "rate": 0.125,
+        "rate": 0.1112,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -5900,7 +6082,7 @@
       {
         "from": 20,
         "to": 91,
-        "rate": 0.125,
+        "rate": 0.1111,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -6014,7 +6196,7 @@
       {
         "from": 30,
         "to": 92,
-        "rate": 0.1429,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -6623,7 +6805,7 @@
       {
         "from": 30,
         "to": 98,
-        "rate": 0.1428,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -6767,7 +6949,7 @@
       {
         "from": 30,
         "to": 99,
-        "rate": 0.1428,
+        "rate": 0.125,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 0,
@@ -13088,6 +13270,29 @@
     "afters": null
   },
   {
+    "id": 354,
+    "name": "[돌연변이]스컬사탄몬",
+    "grade": 5,
+    "befores": [
+      {
+        "from": 349,
+        "to": 354,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 840,
+        "reqInt": 760,
+        "reqSpd": 0,
+        "reqRes": 851,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
     "id": 242,
     "name": "[돌연변이]아트라캅테리몬",
     "grade": 5,
@@ -15022,7 +15227,38 @@
         "with": 210
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 349,
+        "to": 353,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 840,
+        "reqInt": 760,
+        "reqSpd": 0,
+        "reqRes": 851,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 349,
+        "to": 354,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 840,
+        "reqInt": 760,
+        "reqSpd": 0,
+        "reqRes": 851,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
   },
   {
     "id": 289,
@@ -16403,6 +16639,29 @@
         "reqSpd": 374,
         "reqRes": 708,
         "reqDef": 821,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 353,
+    "name": "데스몬",
+    "grade": 6,
+    "befores": [
+      {
+        "from": 349,
+        "to": 353,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 840,
+        "reqInt": 760,
+        "reqSpd": 0,
+        "reqRes": 851,
+        "reqDef": 0,
         "with": 0
       }
     ],

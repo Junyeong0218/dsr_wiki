@@ -1383,24 +1383,6 @@
         "hp": 8658,
         "dropItems": [3, 7, 52, 56, 147, 109, 48],
         "point": { "x": 420, "y": 275 }
-      },
-      {
-        "id": 3,
-        "level": 70,
-        "name": "츄몬",
-        "digimonType": "Vi",
-        "hp": 6887,
-        "dropItems": [3, 7, 52, 56, 147, 209, 61, 48],
-        "point": { "x": 350, "y": 115 }
-      },
-      {
-        "id": 4,
-        "level": 70,
-        "name": "츄몬",
-        "digimonType": "Vi",
-        "hp": 6887,
-        "dropItems": [3, 7, 52, 56, 147, 209, 61, 48],
-        "point": { "x": 350, "y": 435 }
       }
     ],
     "shops": null,
@@ -1417,7 +1399,26 @@
   {
     "id": 8,
     "name": "개굴몬 성 2F",
-    "monsters": [],
+    "monsters": [
+      {
+        "id": 1,
+        "level": 70,
+        "name": "츄몬",
+        "digimonType": "Vi",
+        "hp": 6887,
+        "dropItems": [3, 7, 52, 56, 147, 209, 61, 48],
+        "point": { "x": 355, "y": 135 }
+      },
+      {
+        "id": 2,
+        "level": 70,
+        "name": "츄몬",
+        "digimonType": "Vi",
+        "hp": 6887,
+        "dropItems": [3, 7, 52, 56, 147, 209, 61, 48],
+        "point": { "x": 355, "y": 435 }
+      }
+    ],
     "shops": null,
     "cubes": null,
     "portals": null,
