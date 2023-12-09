@@ -11,6 +11,8 @@ export default class Digimon {
         this.name = raw.name;
         // int ( 1 ~ 6 )
         this.grade = raw.grade;
+        // string
+        this.digimonType = raw.digimonType;
 
         // 아래 2개는 Revolution[]
         this.befores = raw.befores?.map(before => new Revolution(before)) || null;

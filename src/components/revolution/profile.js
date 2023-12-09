@@ -11,6 +11,9 @@ export default function Profile({ digimon, align = null }) {
         <div className="profile" style={alignStyle}>
             <img className="profile-image" src={`/images/${fileName}.png`} />
             <span>{digimon.name}</span>
+            { digimon.grade > 2 && 
+                <img className="profile-digimon-type" src={`/images/${digimon.digimonType}.png`} />
+            }
         </div>
     );
 }
