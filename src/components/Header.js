@@ -22,6 +22,7 @@ export default function Header() {
             <nav>
                 <Link to="/" className="text-nav">진화트리</Link>
                 <Link to="/maps" className="text-nav">맵스</Link>
+                <Link to="/combinations" className="text-nav">조합법</Link>
             </nav>
         </div>
     );

@@ -5,6 +5,7 @@ import NotFound from "./NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Maps from "./components/maps/Maps";
+import Combination from "./components/combination/Combination";
 
 export default function App() {
     return (
@@ -14,6 +15,7 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<Main />} />
                     <Route path="/maps" element={<Maps />} />
+                    <Route path="/combinations" element={<Combination />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
                 <Footer />

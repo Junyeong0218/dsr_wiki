@@ -6,13 +6,13 @@ import ToRightProfileLine from "./toRightProfileLine";
 import ToRightProfileGroup from "./toRightProfileGroup";
 import { getUUID } from "../../functions/commons";
 
-export default function Revolution({ selectedDigimon }) {
+export default function Evolution({ selectedDigimon }) {
     if(!selectedDigimon) {
-        return <div className='revolution'></div>;
+        return <div className='evolution'></div>;
     }
     
     return (
-        <div className='revolution'>
+        <div className='evolution'>
             { selectedDigimon?.befores?.length > 0 && <ToLeftProfileGroup digimon={selectedDigimon} key={getUUID()} /> }
             { selectedDigimon?.befores?.length > 0 && <ToLeftProfileLine digimon={selectedDigimon} key={getUUID()} /> }
             { selectedDigimon && <Profile digimon={selectedDigimon} key={getUUID()} />}

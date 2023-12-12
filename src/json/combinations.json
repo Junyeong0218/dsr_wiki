@@ -14,7 +14,7 @@
     "bigRate": 0,
     "ingredients": [
       { "itemId": 1, "count": 1 },
-      { "itemId": 153, "count": 1 }
+      { "itemId": 152, "count": 1 }
     ]
   },
   {
@@ -32,7 +32,7 @@
     "bigRate": 0,
     "ingredients": [
       { "itemId": 1, "count": 1 },
-      { "itemId": 154, "count": 1 }
+      { "itemId": 153, "count": 1 }
     ]
   },
   {
@@ -50,7 +50,7 @@
     "bigRate": 0,
     "ingredients": [
       { "itemId": 1, "count": 1 },
-      { "itemId": 155, "count": 1 }
+      { "itemId": 154, "count": 1 }
     ]
   },
   {
@@ -68,7 +68,7 @@
     "bigRate": 0,
     "ingredients": [
       { "itemId": 1, "count": 1 },
-      { "itemId": 151, "count": 1 }
+      { "itemId": 150, "count": 1 }
     ]
   },
   {
@@ -101,7 +101,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 2, "count": 1 },
-      { "itemId": 159, "count": 1 }
+      { "itemId": 158, "count": 1 }
     ]
   },
   {
@@ -119,7 +119,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 2, "count": 1 },
-      { "itemId": 164, "count": 1 }
+      { "itemId": 163, "count": 1 }
     ]
   },
   {
@@ -137,7 +137,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 2, "count": 1 },
-      { "itemId": 165, "count": 1 }
+      { "itemId": 164, "count": 1 }
     ]
   },
   {
@@ -170,7 +170,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 3, "count": 1 },
-      { "itemId": 170, "count": 1 }
+      { "itemId": 169, "count": 1 }
     ]
   },
   {
@@ -188,7 +188,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 3, "count": 1 },
-      { "itemId": 175, "count": 1 }
+      { "itemId": 174, "count": 1 }
     ]
   },
   {
@@ -206,7 +206,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 3, "count": 1 },
-      { "itemId": 171, "count": 1 }
+      { "itemId": 170, "count": 1 }
     ]
   },
   {
@@ -239,7 +239,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 4, "count": 1 },
-      { "itemId": 185, "count": 1 }
+      { "itemId": 184, "count": 1 }
     ]
   },
   {
@@ -257,7 +257,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 4, "count": 1 },
-      { "itemId": 189, "count": 1 }
+      { "itemId": 188, "count": 1 }
     ]
   },
   {
@@ -275,7 +275,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 4, "count": 1 },
-      { "itemId": 183, "count": 1 }
+      { "itemId": 182, "count": 1 }
     ]
   },
   {
@@ -308,7 +308,7 @@
     "bigRate": 0,
     "ingredients": [
       { "itemId": 5, "count": 1 },
-      { "itemId": 153, "count": 1 }
+      { "itemId": 152, "count": 1 }
     ]
   },
   {
@@ -326,7 +326,7 @@
     "bigRate": 0,
     "ingredients": [
       { "itemId": 5, "count": 1 },
-      { "itemId": 154, "count": 1 }
+      { "itemId": 153, "count": 1 }
     ]
   },
   {
@@ -344,7 +344,7 @@
     "bigRate": 0,
     "ingredients": [
       { "itemId": 5, "count": 1 },
-      { "itemId": 155, "count": 1 }
+      { "itemId": 154, "count": 1 }
     ]
   },
   {
@@ -362,7 +362,7 @@
     "bigRate": 0,
     "ingredients": [
       { "itemId": 5, "count": 1 },
-      { "itemId": 151, "count": 1 }
+      { "itemId": 150, "count": 1 }
     ]
   },
   {
@@ -395,7 +395,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 6, "count": 1 },
-      { "itemId": 159, "count": 1 }
+      { "itemId": 158, "count": 1 }
     ]
   },
   {
@@ -413,7 +413,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 6, "count": 1 },
-      { "itemId": 164, "count": 1 }
+      { "itemId": 163, "count": 1 }
     ]
   },
   {
@@ -431,7 +431,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 6, "count": 1 },
-      { "itemId": 165, "count": 1 }
+      { "itemId": 164, "count": 1 }
     ]
   },
   {
@@ -464,7 +464,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 7, "count": 1 },
-      { "itemId": 176, "count": 1 }
+      { "itemId": 175, "count": 1 }
     ]
   },
   {
@@ -482,7 +482,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 7, "count": 1 },
-      { "itemId": 177, "count": 1 }
+      { "itemId": 176, "count": 1 }
     ]
   },
   {
@@ -500,7 +500,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 7, "count": 1 },
-      { "itemId": 182, "count": 1 }
+      { "itemId": 181, "count": 1 }
     ]
   },
   {
@@ -533,7 +533,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 8, "count": 1 },
-      { "itemId": 187, "count": 1 }
+      { "itemId": 186, "count": 1 }
     ]
   },
   {
@@ -551,7 +551,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 8, "count": 1 },
-      { "itemId": 192, "count": 1 }
+      { "itemId": 191, "count": 1 }
     ]
   },
   {
@@ -569,7 +569,7 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 8, "count": 1 },
-      { "itemId": 190, "count": 1 }
+      { "itemId": 189, "count": 1 }
     ]
   },
   {
@@ -601,10 +601,10 @@
     "rate": 0.9,
     "bigRate": 0.02,
     "ingredients": [
-      { "itemId": 152, "count": 1 },
+      { "itemId": 151, "count": 1 },
+      { "itemId": 155, "count": 1 },
       { "itemId": 156, "count": 1 },
-      { "itemId": 157, "count": 1 },
-      { "itemId": 158, "count": 1 }
+      { "itemId": 157, "count": 1 }
     ]
   },
   {
@@ -621,9 +621,9 @@
     "rate": 0.9,
     "bigRate": 0.02,
     "ingredients": [
-      { "itemId": 172, "count": 1 },
-      { "itemId": 174, "count": 1 },
-      { "itemId": 173, "count": 1 }
+      { "itemId": 171, "count": 1 },
+      { "itemId": 173, "count": 1 },
+      { "itemId": 172, "count": 1 }
     ]
   },
   {
@@ -640,9 +640,9 @@
     "rate": 0.9,
     "bigRate": 0.02,
     "ingredients": [
-      { "itemId": 183, "count": 1 },
-      { "itemId": 188, "count": 1 },
-      { "itemId": 191, "count": 1 }
+      { "itemId": 182, "count": 1 },
+      { "itemId": 187, "count": 1 },
+      { "itemId": 190, "count": 1 }
     ]
   },
   {
@@ -660,8 +660,8 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 24, "count": 1 },
-      { "itemId": 161, "count": 1 },
-      { "itemId": 162, "count": 1 }
+      { "itemId": 160, "count": 1 },
+      { "itemId": 161, "count": 1 }
     ]
   },
   {
@@ -679,8 +679,8 @@
     "bigRate": 0.01,
     "ingredients": [
       { "itemId": 26, "count": 1 },
-      { "itemId": 166, "count": 1 },
-      { "itemId": 160, "count": 1 }
+      { "itemId": 165, "count": 1 },
+      { "itemId": 159, "count": 1 }
     ]
   },
   {
@@ -757,7 +757,7 @@
     "rate": 0.9,
     "bigRate": 0.04,
     "ingredients": [
-      { "itemId": 148, "count": 4 },
+      { "itemId": 147, "count": 4 },
       { "itemId": 46, "count": 1 }
     ]
   },
@@ -775,7 +775,7 @@
     "rate": 0.9,
     "bigRate": 0.04,
     "ingredients": [
-      { "itemId": 149, "count": 2 },
+      { "itemId": 148, "count": 2 },
       { "itemId": 47, "count": 1 }
     ]
   },
@@ -793,7 +793,7 @@
     "rate": 0.9,
     "bigRate": 0.04,
     "ingredients": [
-      { "itemId": 150, "count": 3 },
+      { "itemId": 149, "count": 3 },
       { "itemId": 48, "count": 1 }
     ]
   },
@@ -826,10 +826,10 @@
     "rate": 0.65,
     "bigRate": 0.03,
     "ingredients": [
+      { "itemId": 194, "count": 4 },
       { "itemId": 195, "count": 4 },
       { "itemId": 196, "count": 4 },
-      { "itemId": 197, "count": 4 },
-      { "itemId": 188, "count": 4 },
+      { "itemId": 187, "count": 4 },
       { "itemId": 53, "count": 3 }
     ]
   },
@@ -848,7 +848,7 @@
     "bigRate": 0.06,
     "ingredients": [
       { "itemId": 54, "count": 1 },
-      { "itemId": 209, "count": 1 }
+      { "itemId": 208, "count": 1 }
     ]
   },
   {
@@ -881,13 +881,13 @@
     "bigRate": 0.03,
     "ingredients": [
       { "itemId": 54, "count": 1 },
-      { "itemId": 210, "count": 1 }
+      { "itemId": 209, "count": 1 }
     ]
   },
   {
     "id": 52,
     "resultItem": {
-      "id": 148,
+      "id": 147,
       "type": 7,
       "name": "오래된 HDD",
       "price": 0,
@@ -897,12 +897,12 @@
     "reqBit": 500,
     "rate": 1,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 146, "count": 3 }]
+    "ingredients": [{ "itemId": 145, "count": 3 }]
   },
   {
     "id": 53,
     "resultItem": {
-      "id": 149,
+      "id": 148,
       "type": 7,
       "name": "고장난 USB",
       "price": 0,
@@ -912,12 +912,12 @@
     "reqBit": 1000,
     "rate": 1,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 147, "count": 2 }]
+    "ingredients": [{ "itemId": 146, "count": 2 }]
   },
   {
     "id": 54,
     "resultItem": {
-      "id": 150,
+      "id": 149,
       "type": 7,
       "name": "오래된 USB",
       "price": 0,
@@ -928,14 +928,14 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 147, "count": 1 },
-      { "itemId": 149, "count": 1 }
+      { "itemId": 146, "count": 1 },
+      { "itemId": 148, "count": 1 }
     ]
   },
   {
     "id": 55,
     "resultItem": {
-      "id": 208,
+      "id": 207,
       "type": 7,
       "name": "최하급 스킬 보호석",
       "price": 0,
@@ -945,12 +945,12 @@
     "reqBit": 1500,
     "rate": 0.75,
     "bigRate": 0.02,
-    "ingredients": [{ "itemId": 207, "count": 10 }]
+    "ingredients": [{ "itemId": 206, "count": 10 }]
   },
   {
     "id": 56,
     "resultItem": {
-      "id": 216,
+      "id": 215,
       "type": 7,
       "name": "OF 접근권한 : ZERO",
       "price": 0,
@@ -961,16 +961,16 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
+      { "itemId": 210, "count": 1 },
       { "itemId": 211, "count": 1 },
       { "itemId": 212, "count": 1 },
-      { "itemId": 213, "count": 1 },
-      { "itemId": 214, "count": 1 }
+      { "itemId": 213, "count": 1 }
     ]
   },
   {
     "id": 57,
     "resultItem": {
-      "id": 218,
+      "id": 217,
       "type": 7,
       "name": "최고급 강화 재료",
       "price": 0,
@@ -980,12 +980,12 @@
     "reqBit": 5000,
     "rate": 0.75,
     "bigRate": 0.05,
-    "ingredients": [{ "itemId": 217, "count": 2 }]
+    "ingredients": [{ "itemId": 216, "count": 2 }]
   },
   {
     "id": 58,
     "resultItem": {
-      "id": 220,
+      "id": 219,
       "type": 7,
       "name": "하급 비밀 첨가제",
       "price": 0,
@@ -995,12 +995,12 @@
     "reqBit": 10000,
     "rate": 0.65,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 219, "count": 3 }]
+    "ingredients": [{ "itemId": 218, "count": 3 }]
   },
   {
     "id": 59,
     "resultItem": {
-      "id": 222,
+      "id": 221,
       "type": 7,
       "name": "하급 조합 촉매제",
       "price": 0,
@@ -1010,12 +1010,27 @@
     "reqBit": 5000,
     "rate": 0.75,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 221, "count": 3 }]
+    "ingredients": [{ "itemId": 220, "count": 3 }]
   },
   {
     "id": 60,
     "resultItem": {
-      "id": 228,
+      "id": 227,
+      "type": 7,
+      "name": "찢겨진 고정책",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 500,
+    "rate": 1,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 222, "count": 1 }]
+  },
+  {
+    "id": 61,
+    "resultItem": {
+      "id": 227,
       "type": 7,
       "name": "찢겨진 고정책",
       "price": 0,
@@ -1028,9 +1043,9 @@
     "ingredients": [{ "itemId": 223, "count": 1 }]
   },
   {
-    "id": 61,
+    "id": 62,
     "resultItem": {
-      "id": 228,
+      "id": 227,
       "type": 7,
       "name": "찢겨진 고정책",
       "price": 0,
@@ -1043,9 +1058,9 @@
     "ingredients": [{ "itemId": 224, "count": 1 }]
   },
   {
-    "id": 62,
+    "id": 63,
     "resultItem": {
-      "id": 228,
+      "id": 227,
       "type": 7,
       "name": "찢겨진 고정책",
       "price": 0,
@@ -1058,9 +1073,9 @@
     "ingredients": [{ "itemId": 225, "count": 1 }]
   },
   {
-    "id": 63,
+    "id": 64,
     "resultItem": {
-      "id": 228,
+      "id": 227,
       "type": 7,
       "name": "찢겨진 고정책",
       "price": 0,
@@ -1073,24 +1088,9 @@
     "ingredients": [{ "itemId": 226, "count": 1 }]
   },
   {
-    "id": 64,
-    "resultItem": {
-      "id": 228,
-      "type": 7,
-      "name": "찢겨진 고정책",
-      "price": 0,
-      "canTrade": true
-    },
-    "reqPro": 0,
-    "reqBit": 500,
-    "rate": 1,
-    "bigRate": 0.02,
-    "ingredients": [{ "itemId": 227, "count": 1 }]
-  },
-  {
     "id": 65,
     "resultItem": {
-      "id": 229,
+      "id": 228,
       "type": 7,
       "name": "에보류터",
       "price": 0,
@@ -1101,15 +1101,15 @@
     "rate": 0.1,
     "bigRate": 0.02,
     "ingredients": [
-      { "itemId": 231, "count": 1 },
-      { "itemId": 233, "count": 1 },
-      { "itemId": 235, "count": 1 }
+      { "itemId": 230, "count": 1 },
+      { "itemId": 232, "count": 1 },
+      { "itemId": 234, "count": 1 }
     ]
   },
   {
     "id": 66,
     "resultItem": {
-      "id": 230,
+      "id": 229,
       "type": 7,
       "name": "에보류터",
       "price": 0,
@@ -1120,15 +1120,15 @@
     "rate": 0.1,
     "bigRate": 0.02,
     "ingredients": [
-      { "itemId": 232, "count": 1 },
-      { "itemId": 234, "count": 1 },
-      { "itemId": 236, "count": 1 }
+      { "itemId": 231, "count": 1 },
+      { "itemId": 233, "count": 1 },
+      { "itemId": 235, "count": 1 }
     ]
   },
   {
     "id": 67,
     "resultItem": {
-      "id": 233,
+      "id": 232,
       "type": 7,
       "name": "부서진 제로유니트",
       "price": 0,
@@ -1138,12 +1138,12 @@
     "reqBit": 35000,
     "rate": 1,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 235, "count": 1 }]
+    "ingredients": [{ "itemId": 234, "count": 1 }]
   },
   {
     "id": 68,
     "resultItem": {
-      "id": 235,
+      "id": 234,
       "type": 7,
       "name": "빛나는 제로유니트",
       "price": 0,
@@ -1153,12 +1153,12 @@
     "reqBit": 35000,
     "rate": 1,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 233, "count": 1 }]
+    "ingredients": [{ "itemId": 232, "count": 1 }]
   },
   {
     "id": 69,
     "resultItem": {
-      "id": 279,
+      "id": 278,
       "type": 9,
       "name": "감로망 쉐이크",
       "price": 0,
@@ -1169,15 +1169,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 270, "count": 1 },
       { "itemId": 269, "count": 1 },
-      { "itemId": 239, "count": 1 }
+      { "itemId": 268, "count": 1 },
+      { "itemId": 238, "count": 1 }
     ]
   },
   {
     "id": 70,
     "resultItem": {
-      "id": 277,
+      "id": 276,
       "type": 9,
       "name": "루비드헬 쉐이크",
       "price": 0,
@@ -1188,15 +1188,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 269, "count": 1 },
-      { "itemId": 272, "count": 1 },
-      { "itemId": 239, "count": 1 }
+      { "itemId": 268, "count": 1 },
+      { "itemId": 271, "count": 1 },
+      { "itemId": 238, "count": 1 }
     ]
   },
   {
     "id": 71,
     "resultItem": {
-      "id": 281,
+      "id": 280,
       "type": 9,
       "name": "신비코코넛 쉐이크",
       "price": 0,
@@ -1207,15 +1207,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
+      { "itemId": 273, "count": 1 },
       { "itemId": 274, "count": 1 },
-      { "itemId": 275, "count": 1 },
-      { "itemId": 239, "count": 1 }
+      { "itemId": 238, "count": 1 }
     ]
   },
   {
     "id": 72,
     "resultItem": {
-      "id": 280,
+      "id": 279,
       "type": 9,
       "name": "탐 콴 바나나 쉐이크",
       "price": 0,
@@ -1226,15 +1226,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 276, "count": 1 },
       { "itemId": 275, "count": 1 },
-      { "itemId": 239, "count": 1 }
+      { "itemId": 274, "count": 1 },
+      { "itemId": 238, "count": 1 }
     ]
   },
   {
     "id": 73,
     "resultItem": {
-      "id": 282,
+      "id": 281,
       "type": 9,
       "name": "한라사과 쉐이크",
       "price": 0,
@@ -1245,15 +1245,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 271, "count": 1 },
-      { "itemId": 273, "count": 1 },
-      { "itemId": 239, "count": 1 }
+      { "itemId": 270, "count": 1 },
+      { "itemId": 272, "count": 1 },
+      { "itemId": 238, "count": 1 }
     ]
   },
   {
     "id": 74,
     "resultItem": {
-      "id": 278,
+      "id": 277,
       "type": 9,
       "name": "한라홍 쉐이크",
       "price": 0,
@@ -1264,15 +1264,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 271, "count": 1 },
       { "itemId": 270, "count": 1 },
-      { "itemId": 239, "count": 1 }
+      { "itemId": 269, "count": 1 },
+      { "itemId": 238, "count": 1 }
     ]
   },
   {
     "id": 75,
     "resultItem": {
-      "id": 283,
+      "id": 282,
       "type": 10,
       "name": "만개의 날개",
       "price": 0,
@@ -1283,14 +1283,14 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 237, "count": 50 },
-      { "itemId": 238, "count": 1 }
+      { "itemId": 236, "count": 50 },
+      { "itemId": 237, "count": 1 }
     ]
   },
   {
     "id": 76,
     "resultItem": {
-      "id": 284,
+      "id": 283,
       "type": 10,
       "name": "고양이 귀 머리띠",
       "price": 0,
@@ -1300,6 +1300,6 @@
     "reqBit": 0,
     "rate": 1,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 237, "count": 19 }]
+    "ingredients": [{ "itemId": 236, "count": 19 }]
   }
 ]

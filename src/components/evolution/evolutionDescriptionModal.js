@@ -2,10 +2,10 @@ import React, { useMemo } from "react";
 import { getUUID } from "../../functions/commons";
 import { RequireStatName } from "../../enums";
 
-export default function RevolutionDescriptionModal({ isActive, position, digimon }) {
+export default function EvolutionDescriptionModal({ isActive, position, digimon }) {
 // export default function RevolutionDescriptionModal({ isActive, top, left, digimon }) {
     if(digimon === null) return (
-        <div id="revolution-description" className={`modal ${isActive ? "active" : ""}`}>
+        <div id="evolution-description" className={`modal ${isActive ? "active" : ""}`}>
             <div className="window"></div>
         </div>
     );
@@ -120,7 +120,7 @@ export default function RevolutionDescriptionModal({ isActive, position, digimon
     }, [digimon]);
 
     return (
-        <div id="revolution-description" className={`modal ${isActive ? "active" : ""}`} style={style} >
+        <div id="evolution-description" className={`modal ${isActive ? "active" : ""}`} style={style} >
             <div className="window">
                 <span className="title">진화 조건</span>
                 { commonsRevolution }
