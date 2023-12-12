@@ -15876,8 +15876,8 @@
         "reqStr": 0,
         "reqInt": 673,
         "reqSpd": 372,
-        "reqRes": 844,
-        "reqDef": 0,
+        "reqRes": 0,
+        "reqDef": 844,
         "with": 0
       },
       {
@@ -15891,8 +15891,8 @@
         "reqStr": 0,
         "reqInt": 673,
         "reqSpd": 372,
-        "reqRes": 844,
-        "reqDef": 0,
+        "reqRes": 0,
+        "reqDef": 844,
         "with": 0
       }
     ]
@@ -17151,8 +17151,8 @@
         "reqStr": 0,
         "reqInt": 673,
         "reqSpd": 372,
-        "reqRes": 844,
-        "reqDef": 0,
+        "reqRes": 0,
+        "reqDef": 844,
         "with": 0
       }
     ],

@@ -1,4 +1,4 @@
-import data from "../json/data.json";
+import data from "../json/evolutions.json";
 import Digimon from "../classes/Digimon";
 
 const origin = new Array();
