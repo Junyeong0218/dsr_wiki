@@ -9,11 +9,20 @@ export default function Maps() {
     const [maps, setMaps] = useState(getMaps());
     const [selectedMap, setSelectedMap] = useState(getMaps()[0]);
 
+    const initLocalStorageFold = () => {
+        Object.values(ItemType).forEach(value => {
+            if(!localStorage.getItem(`${value}_isFold`))
+                localStorage.setItem(`${value}_isFold`, true);
+        })
+    }
+
     const setMap = (id) => {
         const map = maps.find(map => map.id === id) || null;
 
         if(map) setSelectedMap(map);
     }
+
+    initLocalStorageFold();
 
     return (
         <div className="main">
