@@ -4,7 +4,13 @@ const clearArray = (array) => {
 
 const getUUID = () => crypto.randomUUID();
 
+const getNameExcepColon = (name) => name.includes(":") ? name.replace(":", "") : name;
+
+const getCommaString = (number) => number.toLocaleString("ko-KR");
+
 export {
     clearArray,
-    getUUID
+    getUUID,
+    getNameExcepColon,
+    getCommaString
 }
