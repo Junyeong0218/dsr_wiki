@@ -6,13 +6,14 @@ import ShopModal from "./ShopModal";
 import DropsModal from "./DropsModal";
 import { getItemById } from "../../functions/getItemsFunctions";
 import { NoDropMonsters } from "../../enums";
+import { getBlankFlags, makeAllInFlags } from "../../functions/getDropItemFilteringFlags";
 
 export default function MapViewer({ map }) {
     const [showPortal, setShowPortal] = useState(true);
     const [showWarp, setShowWarp] = useState(true);
     const [showShop, setShowShop] = useState(true);
-    const [itemCheckFlags, setItemCheckFlags] = useState([]);
     const [showCube, setShowCube] = useState(false);
+    const [itemCheckFlags, setItemCheckFlags] = useState(getBlankFlags());
 
     const [isOpenShop, setIsOpenShop] = useState(false);
     const [shopModalPosition, setShopModalPosition] = useState({ top: 0, y: 0 });
@@ -82,9 +83,10 @@ export default function MapViewer({ map }) {
 
             return a.id - b.id;
         });
-
-        const flags = new Array();
-        items.forEach(item => flags.push(item.id));
+        
+        const flags = makeAllInFlags(items);
+        // const flags = new Array();
+        // items.forEach(item => flags.push(item.id));
 
         setItemCheckFlags(flags);
 
@@ -97,8 +99,13 @@ export default function MapViewer({ map }) {
         if(!monster.dropItems && NoDropMonsters.includes(monster.name)) return true;
 
         for(let i = 0; i < monster.dropItems?.length; i++) {
-            if(itemCheckFlags.includes(monster.dropItems[i]))
-                return true;
+            const keys = Object.keys(itemCheckFlags);
+            for(let j = 0; j < keys.length; j++) {
+                if(itemCheckFlags[`${keys[j]}`].includes(monster.dropItems[i]))
+                    return true;
+            }
+            // if(itemCheckFlags.includes(monster.dropItems[i]))
+            //     return true;
         }
         return false;
     }
