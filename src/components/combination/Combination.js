@@ -6,9 +6,11 @@ import RequireResources from "./requireResources";
 import { getNameExcepColon, getUUID } from "../../functions/commons";
 import Ingredient from "./ingredient";
 import CombinationShortcut from "./combinationShortcut";
+import CombinationFilters from "./combinationFilters";
 
 export default function Combination() {
     const all = useMemo(() => getCombinations(), []);
+    const [filtered, setFiltered] = useState(null);
 
     const [selected, setSelected] = useState(null);
 
@@ -17,14 +19,25 @@ export default function Combination() {
         setSelected(combination);
     }
 
+    const shortcuts = useMemo(() => {
+        return filtered ? 
+            <div className="combination-list">
+                { filtered.map(combination => (
+                    <CombinationShortcut combination={combination} selectedId={selected?.id} selectCombination={selectCombination} key={getUUID()} />
+                )) }
+            </div> :
+            <div className="combination-list">
+                { all.map(combination => (
+                    <CombinationShortcut combination={combination} selectedId={selected?.id} selectCombination={selectCombination} key={getUUID()} />
+                )) }
+            </div>
+    }, [filtered, selected]);
+
     return (
         <div className="main">
+            <CombinationFilters all={all} setFiltered={setFiltered} />
             <div className="combination-container">
-                <div className="combination-list">
-                    { all.map(combination => (
-                        <CombinationShortcut combination={combination} selectCombination={selectCombination} key={getUUID()} />
-                    )) }
-                </div>
+                { shortcuts }
                 { selected && 
                     <div className="selected-combination">
                         <ResultItem selected={selected} />

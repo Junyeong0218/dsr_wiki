@@ -2,6 +2,7 @@
 
 import { escapeRegExp } from "lodash";
 import { getAllDigimons } from ".";
+import { getCombinations } from "./getCombinationsFunctions";
 
 function ch2pattern(ch) {
   const offset = 44032; /* '가'의 코드 */
@@ -34,6 +35,17 @@ function ch2pattern(ch) {
     const end = begin + 587;
     return `[${ch}\\u${begin.toString(16)}-\\u${end.toString(16)}]`;
   }
+
+  // 소문자에 대문자도 함께 검색하도록 추가
+  if(/[a-z]/.test(ch)) {
+    const upper = ch.toUpperCase();
+    return `[${ch}|${upper}]`;
+  }
+  // 대문자에 소문자도 함께 검색하도록 추가
+  if(/[A-Z]/.test(ch)) {
+    const lower = ch.toLowerCase();
+    return `[${lower}|${ch}]`;
+  }
   // 그 외엔 그대로 내보냄
   // escapeRegExp는 lodash에서 가져옴
   return escapeRegExp(ch);
@@ -49,7 +61,6 @@ function createFuzzyMatcher(input) {
 }
 
 // -------------------------------------
-
 
 const getSearchedDigimons = (search) => {
   const digimons = getAllDigimons(false);
@@ -87,6 +98,49 @@ const getSearchedDigimons = (search) => {
   return searched;
 };
 
+const getSearchedCombinations = (search) => {
+  const combinations = getCombinations();
+  const regex = createFuzzyMatcher(search);
+
+  const searched = 
+    combinations.filter((combination) => {
+      return regex.test(combination.resultItem.name);
+    })
+    .map(combination => {
+      let totalDistance = 0;
+      let temp = combination.resultItem.name;
+      const tag = temp.replace(regex, (match, ...groups) => {
+        const letters = groups.slice(0, search.length);
+        let lastIndex = 0;
+        let highlighted = [];
+        for (let i = 0, l = letters.length; i < l; i++) {
+          const idx = match.indexOf(letters[i], lastIndex);
+          highlighted.push(match.substring(lastIndex, idx));
+          highlighted.push(`<mark>${letters[i]}</mark>`);
+          if (lastIndex > 0) {
+            totalDistance += idx - lastIndex;
+          }
+          lastIndex = idx + 1;
+        }
+
+        return highlighted.join("");
+      });
+
+      const newObj = Object.assign({}, combination);
+      newObj["totalDistance"] = totalDistance;
+      newObj["tag"] = tag;
+
+      return newObj;
+    });
+
+  searched.sort((a, b) => {
+    return a.totalDistance - b.totalDistance;
+  });
+
+  return searched;
+};
+
 export {
-    getSearchedDigimons
+    getSearchedDigimons,
+    getSearchedCombinations
 }
