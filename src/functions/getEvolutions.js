@@ -1,12 +1,12 @@
-import Digimon from "../classes/Digimon";
+import Evolution from "../classes/Evolution";
 import { clearArray } from "./commons";
 
 const temp = [];
-const getDownRevolutions = (digimon) => {
+const getDownEvolutions = (digimon) => {
   if(digimon.befores === null) return;
   
   digimon.befores.forEach(before => {
-    const target = Digimon.getById(before.from);
+    const target = Evolution.getById(before.from);
     if(temp.includes(target.id)) {
       before['duplicated'] = true;
       target.befores = null;
@@ -14,15 +14,15 @@ const getDownRevolutions = (digimon) => {
       temp.push(target.id);
     }
     before['digimon'] = target;
-    getDownRevolutions(target);
+    getDownEvolutions(target);
   });
 }
 
-const getUpRevolutions = (digimon) => {
+const getUpEvolutions = (digimon) => {
   if(digimon.afters === null) return;
 
   digimon.afters.forEach(after => {
-    const target = Digimon.getById(after.to);
+    const target = Evolution.getById(after.to);
     // if(temp.includes(target.id)) {
     //   after['duplicated'] = true;
     //   target.afters = null;
@@ -30,16 +30,16 @@ const getUpRevolutions = (digimon) => {
     //   temp.push(target.id);
     // }
     after['digimon'] = target;
-    getUpRevolutions(target);
+    getUpEvolutions(target);
   });
 }
 
-const getRevolutions = (digimon) => {
-  getDownRevolutions(digimon);
+const getEvolutions = (digimon) => {
+  getDownEvolutions(digimon);
   clearArray(temp);
 
-  getUpRevolutions(digimon);
+  getUpEvolutions(digimon);
   clearArray(temp);
 };
 
-export default getRevolutions;
+export default getEvolutions;

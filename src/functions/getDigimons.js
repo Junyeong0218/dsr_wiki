@@ -1,5 +1,5 @@
-import data from "../json/evolutions.json";
-import Digimon from "../classes/Digimon";
+import data from "../json/digimons.json";
+import { Digimon } from "../classes";
 
 const origin = new Array();
 

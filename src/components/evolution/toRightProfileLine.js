@@ -1,10 +1,10 @@
 import React from "react";
 import { PROFILE_HEIGHT } from "../../enums";
 import { getToRightTextStyle, jogressLineStyle, revolutionLineStyle } from "../styles";
-import Digimon from "../../classes/Digimon";
 import JogressProfile from "./jogressProfile";
 import RequiredItem from "./requiredItem";
 import { getUUID } from "../../functions/commons";
+import { Evolution } from "../../classes";
 
 export default function ToRightProfileLine({ digimon }) {
     const commons = digimon.afters.filter(each => each.method === "일반");
@@ -103,7 +103,7 @@ export default function ToRightProfileLine({ digimon }) {
 
             {/* 조그레스 대상 디지몬 with */}
             { jogress.length > 0 &&
-                <JogressProfile digimon={Digimon.getById(jogress[0].with)} 
+                <JogressProfile digimon={Evolution.getById(jogress[0].with)} 
                                 top={getRateTop(jogress[0].digimon, digimon.afters.findIndex(after => after.to === jogress[0].to && after.method === "조그레스")) + 30}
                                 key={getUUID()} />
             }

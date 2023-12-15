@@ -1,7 +1,5 @@
-// -------------------------------------
-
 import { escapeRegExp } from "lodash";
-import { getAllDigimons } from ".";
+import { getAllEvolutions } from ".";
 import { getCombinations } from "./getCombinationsFunctions";
 
 function ch2pattern(ch) {
@@ -63,7 +61,7 @@ function createFuzzyMatcher(input) {
 // -------------------------------------
 
 const getSearchedDigimons = (search) => {
-  const digimons = getAllDigimons(false);
+  const digimons = getAllEvolutions(false);
   const regex = createFuzzyMatcher(search);
 
   const searched = 

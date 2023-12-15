@@ -1,11 +1,11 @@
 import React, { useMemo, useRef, useState } from 'react';
 import Filters from './components/Filters';
 import { getUUID } from './functions/commons';
-import Digimon from './classes/Digimon';
-import getJustBeforeRevolution from './functions/getJustBeforeRevolution';
 import SearchBar from './components/SearchBar';
-import Evolution from './components/evolution/Evolution';
+import EvolutionTree from './components/evolution/EvolutionTree';
 import EvolutionDescriptionModal from './components/evolution/evolutionDescriptionModal';
+import { Evolution } from './classes';
+import { getJustBeforeEvolution } from './functions';
 
 export default function Main() {
     const [selectedDigimon, setSelectedDigimon] = useState(null);
@@ -27,10 +27,10 @@ export default function Main() {
                 return;
             }
             else {
-                const digimon = Digimon.getByName(targetName);
+                const digimon = Evolution.getByName(targetName);
                 if(digimon.grade === 1) return;
                 
-                getJustBeforeRevolution(digimon);
+                getJustBeforeEvolution(digimon);
                 modalDigimon.current = digimon;
             }
             setPosition({ top: event.pageY, left: event.pageX });
@@ -50,7 +50,7 @@ export default function Main() {
     }, []);
 
     const revolution = useMemo(() => {
-        return <Evolution selectedDigimon={selectedDigimon} key={getUUID()} />;
+        return <EvolutionTree selectedDigimon={selectedDigimon} key={getUUID()} />;
     }, [selectedDigimon])
 
     return (
@@ -61,7 +61,6 @@ export default function Main() {
             { searchBar }
             { revolution }
             <EvolutionDescriptionModal isActive={isOpen} digimon={modalDigimon.current} position={position} />
-            {/* <RevolutionDescriptionModal isActive={isOpen} digimon={modalDigimon.current} top={modalTop} left={modalLeft} /> */}
         </div>
     );
 }

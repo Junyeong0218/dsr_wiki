@@ -6,7 +6,7 @@ import { getUUID } from "../../functions/commons";
 
 export default function ToLeftProfileGroup({ digimon }) {
     const wrapperStyle = digimon.befores.length === 1 ? flexRow : flexColumn;
-
+    
     if(digimon.befores.length === 1) {
         if(digimon.befores[0].digimon.befores) {
             return (<div className="profile-group" style={wrapperStyle} key={getUUID()}>

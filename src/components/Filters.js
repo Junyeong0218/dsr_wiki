@@ -1,14 +1,13 @@
 import React, { useMemo, useState } from "react";
 import Combo from "./combo";
 import { Grades } from "../enums";
-import { getAllDigimons } from "../functions";
+import { getAllEvolutions, getEvolutions } from "../functions";
 import { getUUID } from "../functions/commons";
-import getRevolutions from "../functions/getRevolutions";
 
 export default function Filters({ selectedDigimon, setSelectedDigimon }) {
     const [selectedGrade, setSelectedGrade] = useState(null);
     const [grades, setGrades] = useState(Object.values(Grades));
-    const [all, setAll] = useState(getAllDigimons(false));
+    const [all, setAll] = useState(getAllEvolutions(false));
     const [filtered, setFiltered] = useState([]);
 
     const changeGrade = (grade) => {
@@ -28,7 +27,7 @@ export default function Filters({ selectedDigimon, setSelectedDigimon }) {
 
     const selectDigimon = (digimon) => {
         if(selectedDigimon?.id !== digimon.id) {
-            getRevolutions(digimon);
+            getEvolutions(digimon);
             setSelectedDigimon(digimon);
         }
     }

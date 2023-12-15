@@ -6,7 +6,7 @@ import ToRightProfileLine from "./toRightProfileLine";
 import ToRightProfileGroup from "./toRightProfileGroup";
 import { getUUID } from "../../functions/commons";
 
-export default function Evolution({ selectedDigimon }) {
+export default function EvolutionTree({ selectedDigimon }) {
     if(!selectedDigimon) {
         return <div className='evolution'></div>;
     }

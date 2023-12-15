@@ -1,4 +1,4 @@
-export default class Revolution {
+export default class EvolutionInfo {
     constructor(raw) {
         // 진화 전후 id
         this.from = raw.from;

@@ -1,8 +1,7 @@
 import React, { useMemo, useRef, useState } from "react";
 import { getSearchedDigimons } from "../functions/searchFunctions";
-import { getDigimonByName } from "../functions/getDigimonFunctions";
-import getRevolutions from "../functions/getRevolutions";
 import { getUUID } from "../functions/commons";
+import { getEvolutionByName, getEvolutions } from "../functions";
 
 export default function SearchBar({ setSelectedDigimon }) {
     const [text, setText] = useState("");
@@ -86,9 +85,9 @@ export default function SearchBar({ setSelectedDigimon }) {
     }
 
     const selectDigimon = (event, digimonName) => {
-        const digimon = getDigimonByName(digimonName);
+        const digimon = getEvolutionByName(digimonName);
         setIsFocus(false);
-        getRevolutions(digimon);
+        getEvolutions(digimon);
         setSelectedDigimon(digimon);
     }
 
