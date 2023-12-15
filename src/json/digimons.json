@@ -5425,36 +5425,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.6412]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -5478,36 +5478,41 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -5531,36 +5536,43 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
+          0.4275
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "물",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -5584,36 +5596,44 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       }
     ]
   },
@@ -5637,36 +5657,39 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 6,
+        "range": "근거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.175, 0.1833, 0.1916, 0.2, 0.2083, 0.2166, 0.225, 0.2333,
+          0.2416
+        ]
       }
     ]
   },
@@ -5690,34 +5713,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -5743,36 +5766,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 7,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1832]
       }
     ]
   },
@@ -5796,36 +5823,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1115]
       }
     ]
   },
@@ -5849,36 +5880,42 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "석화",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -5902,34 +5939,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -5955,36 +5992,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2565]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -6008,36 +6047,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1858]
       }
     ]
   },
@@ -6061,34 +6100,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
         "name": "3스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "range": "근거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "매료",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -6114,36 +6155,41 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       }
     ]
   },
@@ -6167,36 +6213,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1394]
       }
     ]
   },
@@ -6220,36 +6270,41 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 6,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.175, 0.1833, 0.1916, 0.2, 0.2083, 0.2166, 0.225, 0.2333,
+          0.2416
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -6273,36 +6328,41 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
+          0.4275
+        ]
       }
     ]
   },
@@ -6326,34 +6386,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -6379,36 +6439,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "물",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "중독",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       }
     ]
   },
@@ -6432,36 +6494,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "range": "원거리",
+        "element": "불",
+        "target": "아군",
+        "targetCount": "단일",
+        "effect": "공격 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -6485,36 +6549,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "빙결",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2565]
       }
     ]
   },
@@ -6538,36 +6602,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
       }
     ]
   },
@@ -6591,34 +6657,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       },
       {
         "name": "3스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "range": "원거리",
+        "element": "얼음",
+        "target": "아군",
+        "targetCount": "단일",
+        "effect": "방어 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -6643,37 +6711,39 @@
     "fieldTypes": ["DR", "ME", "VB"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "물기",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "기가 디스트로이어",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "지가 스톰",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
-        "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "additionalTurn": 1.2,
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.8499]
       }
     ]
   },
@@ -6697,36 +6767,42 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -6750,36 +6826,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "방어 감소",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
       }
     ]
   },
@@ -6802,37 +6878,43 @@
     "fieldTypes": ["Nso", "DA"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "블러드 펀치",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "나이트 레이드",
+        "attackCount": 10,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1, 0.105, 0.11, 0.115, 0.12, 0.125, 0.13, 0.135, 0.14, 0.145
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "name": "데드 스크림",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "석화",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -6856,36 +6938,42 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -6909,36 +6997,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
         "name": "2스킬",
         "attackCount": 0,
         "range": "",
-        "element": "",
-        "target": "",
+        "element": "어둠",
+        "target": "자신",
         "targetCount": "",
-        "effect": null,
+        "effect": "치명 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "근거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       }
     ]
   },
@@ -6962,36 +7054,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "석화",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -7015,36 +7111,41 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1393]
       }
     ]
   },
@@ -7068,33 +7169,33 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "중독",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -7121,36 +7222,39 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "빙결",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
       }
     ]
   },
@@ -7174,36 +7278,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
-        "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "additionalTurn": 1.2,
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.85]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "흙",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -7227,34 +7331,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "중독",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -7280,36 +7384,41 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       }
     ]
   },
@@ -7333,36 +7442,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -7386,36 +7497,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "흙",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1115]
       }
     ]
   },
@@ -7439,36 +7552,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -7492,36 +7609,44 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
+          0.4275
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       }
     ]
   },
@@ -7545,36 +7670,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -7598,36 +7725,43 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "감전",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
+          0.4275
+        ]
       }
     ]
   },
@@ -7651,36 +7785,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1, 0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -7703,37 +7841,39 @@
     "fieldTypes": ["DS", "ME", "UK"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "그레이트풀 너클",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "다크 스피릿츠",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "러브 세레나데",
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1115]
       }
     ]
   },
@@ -7756,37 +7896,39 @@
     "fieldTypes": ["NSp", "VB", "WG"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "뺨 때리기",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "헤븐즈 참",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "홀리 애로우",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
-        "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "additionalTurn": 0.9,
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.7499]
       }
     ]
   },
@@ -7810,36 +7952,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1858]
       }
     ]
   },
@@ -7863,36 +8007,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1, 0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "방어 감소",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -7915,37 +8063,37 @@
     "fieldTypes": ["ME", "NSp", "VB"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "펀치",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "원월차기",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "카이져 네일",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
-        "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "additionalTurn": 1.5,
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.9499]
       }
     ]
   },
@@ -7969,36 +8117,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "감전",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2565]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       }
     ]
   },
@@ -8022,36 +8172,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -8075,36 +8227,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -8128,36 +8284,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "매료",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 8,
+        "range": "원거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1812]
       }
     ]
   },
@@ -8181,36 +8337,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 4,
+        "range": "근거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -8233,37 +8389,41 @@
     "fieldTypes": ["WG", "ME"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "꼬리 치기",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "무한 스카이 로켓",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "니트로 스팅거",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
-        "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "additionalTurn": 2,
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.7055]
       }
     ]
   },
@@ -8287,36 +8447,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -8340,36 +8504,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "감전",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.4274666667]
       }
     ]
   },
@@ -8393,36 +8557,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "감전",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2565]
       }
     ]
   },
@@ -8446,36 +8612,44 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
+          0.4275
+        ]
       }
     ]
   },
@@ -8499,36 +8673,39 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "매료",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       }
     ]
   },
@@ -8552,36 +8729,39 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -8605,36 +8785,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 6,
+        "range": "근거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -8658,36 +8840,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -8711,36 +8897,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
-        "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "additionalTurn": 0.9,
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.3499]
       }
     ]
   },
@@ -8764,36 +8952,43 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "빙결",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       }
     ]
   },
@@ -8817,33 +9012,33 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -8870,36 +9065,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
+        "attackCount": 3,
         "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "element": "물",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "물",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -8923,35 +9118,35 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
-        "additionalTurn": null,
+        "additionalTurn": 1.2,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
     ]
@@ -8976,36 +9171,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2565]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -9029,36 +9228,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1, 0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "나무",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2788]
       }
     ]
   },
@@ -9082,33 +9285,33 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "range": "원거리",
+        "element": "빛",
+        "target": "아군",
+        "targetCount": "단일",
+        "effect": "회복",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 7,
+        "range": "근거리",
+        "element": "물",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -9135,36 +9338,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "빙결",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2565]
       }
     ]
   },
@@ -9188,34 +9391,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "물",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -9240,37 +9443,42 @@
     "fieldTypes": ["NSp", "ME"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "무쇠 주먹",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "바나나 슬립",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "name": "다크 스피릿츠 디럭스",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "감전",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       }
     ]
   },
@@ -9294,34 +9502,37 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "얼음",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.175, 0.1833, 0.1916, 0.2, 0.2083, 0.2166, 0.225, 0.2333,
+          0.2416
+        ]
       },
       {
         "name": "3스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
+        "range": "원거리",
+        "element": "천둥",
+        "target": "자신",
         "targetCount": "",
-        "effect": null,
+        "effect": "공격 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -9347,36 +9558,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -9399,37 +9610,42 @@
     "fieldTypes": ["Nso", "ME"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "타이런트 세비지",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "카오스 플레임",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "name": "베놈 인퓨즈",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "석화",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       }
     ]
   },
@@ -9453,36 +9669,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -9506,34 +9724,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       },
       {
         "name": "3스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "range": "원거리",
+        "element": "빛",
+        "target": "아군",
+        "targetCount": "단일",
+        "effect": "방어 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -9559,36 +9779,44 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "감전",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
+          0.4275
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 7,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1428, 0.15, 0.1571, 0.1642, 0.1714, 0.1785, 0.1857, 0.1928, 0.2,
+          0.2071
+        ]
       }
     ]
   },
@@ -9612,34 +9840,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 8,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -9665,36 +9893,41 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "방어 감소",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -9718,36 +9951,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2565]
       }
     ]
   },
@@ -9770,35 +10007,37 @@
     "fieldTypes": ["DR", "ME", "VB"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "강철 발톱",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "테라 광선",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "용기의 방패",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
+        "range": "원거리",
+        "element": "강철",
+        "target": "자신",
         "targetCount": "",
-        "effect": null,
+        "effect": "방어 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -9824,34 +10063,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "감전",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -9877,34 +10116,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
+        "range": "원거리",
+        "element": "빛",
+        "target": "자신",
         "targetCount": "",
-        "effect": null,
+        "effect": "방어 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -9930,36 +10171,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "중독",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -9983,34 +10224,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -10036,22 +10277,22 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -10059,11 +10300,11 @@
       {
         "name": "3스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
+        "range": "원거리",
+        "element": "어둠",
+        "target": "자신",
         "targetCount": "",
-        "effect": null,
+        "effect": "공격 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -10089,36 +10330,36 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
-        "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "additionalTurn": 1.2,
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.4624]
       }
     ]
   },
@@ -10142,36 +10383,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -10195,36 +10440,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "스턴",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       }
     ]
   },
@@ -10248,34 +10497,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "강철",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "매료",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -10301,34 +10550,34 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "출혈",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
@@ -10354,36 +10603,38 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "천둥",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "감전",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2565]
       }
     ]
   },
@@ -10407,36 +10658,40 @@
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2565]
       }
     ]
   }

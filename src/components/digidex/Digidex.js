@@ -10,8 +10,6 @@ export default function Digidex() {
     const query = location.search;
     const selected = query.trim() === "" ? null : decodeURIComponent(query.replace("?digimon=", ""));
 
-    const all = getAllDigimons(false);
-
     if(selected) {
         return (
             <div className="digidex">
@@ -20,6 +18,8 @@ export default function Digidex() {
             </div>
         );
     }
+
+    const all = getAllDigimons(false);
     
     return (
         <div className="digidex">
