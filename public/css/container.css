@@ -134,7 +134,7 @@ body,
 }
 
 .header > nav * {
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 700;
 
   transition: ease 500ms;
@@ -145,6 +145,8 @@ body,
 }
 
 .main {
+  position: relative;
+
   margin-top: 100px;
   padding: 5px;
   display: flex;

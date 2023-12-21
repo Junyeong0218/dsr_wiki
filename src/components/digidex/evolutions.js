@@ -6,16 +6,32 @@ import ToLeftProfileLine from "../evolution/toLeftProfileLine";
 import Profile from "../evolution/profile";
 import ToRightProfileLine from "../evolution/toRightProfileLine";
 import ToRightProfileGroup from "../evolution/toRightProfileGroup";
+import { useNavigate } from "react-router-dom";
 
 export default function Evolutions({ selected }) {
     const evolution = Evolution.getByName(selected);
     getJustBeforeEvolution(evolution);
     getJustAfterEvolution(evolution);
 
+    const navigate = useNavigate();
+
     const [commonEvolution, jogressEvolution] = divideEvolutionByMethod(evolution);
 
+    const changeDigimon = (event) => {
+        let digimonName = "";
+        if(event.target.className === "profile") {
+            digimonName = event.target.children[1].innerText;
+        } else if(event.target.className === "profile-image") {
+            digimonName = event.target.nextElementSibling.innerText;
+        } else return;
+
+        if(digimonName.includes("돌연변이")) return;
+
+        navigate(`/digidex?digimon=${digimonName}`);
+    }
+
     const evolutions = useMemo(() => {
-        return <div className="evolutions">
+        return <div className="evolutions" onClick={changeDigimon}>
                     <div className="evolution">
                         <span className="title">이전 진화</span>
                         <ToLeftProfileGroup digimon={evolution} />

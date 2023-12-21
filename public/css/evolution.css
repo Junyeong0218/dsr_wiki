@@ -1,3 +1,38 @@
+.evolution-checkboxes {
+  position: absolute;
+  top: 81px;
+  right: 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.evolution-checkboxes .toggle-all-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.evolution-checkboxes .toggle-all-buttons button {
+  padding: 2px 5px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+
+  transition: 300ms;
+}
+
+.evolution-checkboxes .toggle-all-buttons button:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.main.hide-fold-button .toggle-fold-button {
+  display: none;
+}
+
 .evolution {
   margin-bottom: 100px;
   display: flex;
@@ -33,6 +68,10 @@
 .profile-line > .profile-group {
   flex-direction: column;
 } */
+
+.toggle-fold-evolution {
+  
+}
 
 .profile {
   position: relative;

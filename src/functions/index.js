@@ -5,6 +5,7 @@ import getJustAfterEvolution from './getJustAfterEvolution';
 import divideEvolutionByMethod from './divideEvolutionByMethod';
 import getDigimonQualityText from './getDigimonQualityText';
 import getEvolutions from "./getEvolutions";
+import toggleFoldEvolution from './toggleFoldEvolution';
 import { getMaps } from "./getMapsFunctions";
 import { clearArray } from "./commons";
 
@@ -18,6 +19,7 @@ export {
     divideEvolutionByMethod,
     getDigimonQualityText,
     getEvolutions,
+    toggleFoldEvolution,
     getMaps,
     clearArray
 }

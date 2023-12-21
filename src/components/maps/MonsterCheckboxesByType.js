@@ -70,10 +70,8 @@ export default function MonsterCheckboxesByType({ items, itemType, itemCheckFlag
         <div className="monster-checkbox">
             { checkboxContainer }
             <button type="button" className="toggle-fold-button" onClick={toggleFold} >
-            {/* <button type="button" className="toggle-fold-button" onClick={() => setIsFold(!isFold)} > */}
                 { isFold ? <i className="fa-solid fa-plus" /> : <i className="fa-solid fa-minus" /> }
             </button>
-            {/* <div className={`drop-item-checkboxes ${isFold ? "folded" : ""}`} > */}
             <div className={`drop-item-checkboxes`} style={style} >
                 { itemsByType && itemsByType.map(item => (
                     <MonsterCheckbox item={item} toggleItemCheckFlag={toggleItemCheckFlag}

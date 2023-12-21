@@ -2,23 +2,27 @@ import Evolution from "../classes/Evolution";
 import { clearArray } from "./commons";
 
 const temp = [];
-const getDownEvolutions = (digimon) => {
+let standard = null;
+const getDownEvolutions = (digimon, isFold = false) => {
   if(digimon.befores === null) return;
   
   digimon.befores.forEach(before => {
     const target = Evolution.getById(before.from);
-    if(temp.includes(target.id)) {
-      before['duplicated'] = true;
-      target.befores = null;
-    } else {
-      temp.push(target.id);
-    }
+    // if(temp.includes(target.id)) {
+    //   before['duplicated'] = true;
+    //   target.befores = null;
+    // } else {
+    //   temp.push(target.id);
+    // }
+    before['isFold'] = isFold;
     before['digimon'] = target;
-    getDownEvolutions(target);
+
+    const foldFlag = target.grade < 4 ? true : false;
+    getDownEvolutions(target, foldFlag);
   });
 }
 
-const getUpEvolutions = (digimon) => {
+const getUpEvolutions = (digimon, isFold = false) => {
   if(digimon.afters === null) return;
 
   digimon.afters.forEach(after => {
@@ -29,17 +33,24 @@ const getUpEvolutions = (digimon) => {
     // } else {
     //   temp.push(target.id);
     // }
+    after['isFold'] = isFold;
     after['digimon'] = target;
-    getUpEvolutions(target);
+
+    // const gradeSub = Math.abs(standard.grade - target.grade);
+    // const foldFlag = gradeSub > 1 ? true : false;
+    const foldFlag = target.grade > 2 ? true : false;
+    getUpEvolutions(target, foldFlag);
   });
 }
 
 const getEvolutions = (digimon) => {
+  standard = digimon;
   getDownEvolutions(digimon);
   clearArray(temp);
 
   getUpEvolutions(digimon);
   clearArray(temp);
+  standard = null;
 };
 
 export default getEvolutions;

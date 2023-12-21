@@ -2507,7 +2507,7 @@
     "fieldTypes": ["NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "드릴 어택",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -2518,7 +2518,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "드릴 스핀",
         "attackCount": 5,
         "range": "근거리",
         "element": "물리",
@@ -2532,7 +2532,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "스크류 클로",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -3845,7 +3845,10 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1394]
+        "coefficients": [
+          0.0961, 0.1009, 0.1057, 0.1105, 0.1153, 0.1202, 0.125, 0.1298, 0.1346,
+          0.1394
+        ]
       }
     ]
   },
@@ -6426,7 +6429,7 @@
     "fieldTypes": ["Nso", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "다크니스 어택",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
@@ -6439,7 +6442,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "뺨 때리기",
         "attackCount": 2,
         "range": "근거리",
         "element": "어둠",
@@ -6452,7 +6455,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "다크니스 웨이브",
         "attackCount": 4,
         "range": "원거리",
         "element": "어둠",
@@ -6460,7 +6463,10 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1394]
+        "coefficients": [
+          0.0961, 0.1009, 0.1057, 0.1105, 0.1153, 0.1202, 0.125, 0.1298, 0.1346,
+          0.1394
+        ]
       }
     ]
   },
@@ -7273,7 +7279,7 @@
     "fieldTypes": ["DA", "ME"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "베어 클로",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -7284,7 +7290,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "네스티 스텝",
         "attackCount": 4,
         "range": "원거리",
         "element": "어둠",
@@ -7297,7 +7303,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "하트 브레이크 어택",
         "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
@@ -9034,7 +9040,7 @@
     "fieldTypes": ["ME"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "혼 어택",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -9047,7 +9053,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "기로 체인쏘우",
         "attackCount": 6,
         "range": "근거리",
         "element": "강철",
@@ -9055,10 +9061,10 @@
         "targetCount": "단일",
         "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.15, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
-        "name": "3스킬",
+        "name": "데들리 봄",
         "attackCount": 1,
         "range": "원거리",
         "element": "불",

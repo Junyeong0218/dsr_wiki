@@ -6,7 +6,7 @@ import RequiredItem from "./requiredItem";
 import { getUUID } from "../../functions/commons";
 import { Evolution } from "../../classes";
 
-export default function ToRightProfileLine({ digimon }) {
+export default function ToRightProfileLine({ digimon, reload }) {
     const commons = digimon.afters.filter(each => each.method === "일반");
     const jogress = digimon.afters.filter(each => each.method === "조그레스") || null;
     const commonReqItems = commons.filter((each, index) => each.ingredient !== "");
@@ -14,6 +14,7 @@ export default function ToRightProfileLine({ digimon }) {
     
     const getRightScore = (d) => {
         if(d.afters === null) return 1;
+        if(d.afters[0].isFold) return 1;
         if(d.grade === 5) return d.afters.length;
 
         let acc = 0;
@@ -49,6 +50,23 @@ export default function ToRightProfileLine({ digimon }) {
         return PROFILE_HEIGHT * getRightScoreUntil(digimon, i)
             + getMiddleTop(digimon.afters[ownIndex].digimon)
             - 20;
+    }
+
+    const toggleFold = () => {
+        digimon.afters.forEach(after => {
+            after.isFold = !after.isFold;
+        });
+        reload();
+    }
+
+    if(digimon.afters[0].isFold) {
+        return (
+            <div className="line-wrapper" style={{width: "20px", height: "80px"}} key={getUUID()}>
+                <button type="button" className="toggle-fold-button" style={{top: "30px", left: "5px"}} onClick={toggleFold}>
+                    <i className="fa-solid fa-plus" />
+                </button>
+            </div>
+        );
     }
 
     return (
@@ -121,6 +139,9 @@ export default function ToRightProfileLine({ digimon }) {
                               top={getRateTop(jogress[0].digimon, digimon.afters.findIndex(after => after.to === jogress[0].to && after.method === "조그레스")) + 45}
                               key={getUUID()} />
             }
+            <button type="button" className="toggle-fold-button" onClick={toggleFold} style={{top: `${getMiddleTop(digimon)-22}px`, left: "5px"}}>
+                <i className="fa-solid fa-minus" />
+            </button>
         </div>
     );
 }
