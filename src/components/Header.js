@@ -24,6 +24,8 @@ export default function Header() {
                 <Link to="/maps" className="text-nav">맵스</Link>
                 <Link to="/combinations" className="text-nav">조합법</Link>
                 <Link to="/digidex" className="text-nav">디지몬 도감</Link>
+                <Link to="https://www.digimonsuperrumble.com" className="text-nav">공식 홈페이지</Link>
+                <Link to="https://cafe.naver.com/movedsr" className="text-nav">네이버 공식 카페</Link>
             </nav>
         </div>
     );
