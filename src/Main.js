@@ -35,7 +35,8 @@ export default function Main() {
 
             const mapRect = document.querySelector(".main").getBoundingClientRect();
             const modalHeight = modalDigimon.current.grade === 6 ? 396 :
-                                modalDigimon.current.grade === 5 ? 236 : 
+                                modalDigimon.current.grade === 5 && modalDigimon.current.befores[0].method === "일반" ? 236 : 
+                                modalDigimon.current.grade === 5 && modalDigimon.current.befores[0].method === "조그레스" ? 297 : 
                                 modalDigimon.current.grade === 4 ? 179 : 159;
             if(event.clientY + modalHeight >= window.innerHeight - 20) {
                 setPosition({ top: window.innerHeight - modalHeight - mapRect.top - 20, left: event.pageX - mapRect.left + 2 });
