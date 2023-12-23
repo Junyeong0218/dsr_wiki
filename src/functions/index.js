@@ -9,6 +9,8 @@ import toggleFoldEvolution from './toggleFoldEvolution';
 import { getMaps } from "./getMapsFunctions";
 import { clearArray } from "./commons";
 
+import { createAdTag, createAdScript } from './createAdTags';
+
 export {
     getAllDigimons,
     getAllEvolutions,
@@ -21,5 +23,8 @@ export {
     getEvolutions,
     toggleFoldEvolution,
     getMaps,
-    clearArray
+    clearArray,
+
+    createAdTag,
+    createAdScript
 }

@@ -56,8 +56,10 @@ body,
 
 #container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
 
   width: 100%;
   height: 100%;
@@ -399,4 +401,8 @@ button:disabled {
 .window .conditions .conditions.common img {
   width: 40px;
   height: 40px;
+}
+
+.ad-container {
+  margin-top: 100px;
 }

@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 import Maps from "./components/maps/Maps";
 import Combination from "./components/combination/Combination";
 import Digidex from "./components/digidex/Digidex";
+import LeftFitAd from "./components/ads/LeftFitAd";
+import RightFitAd from "./components/ads/RightFitAd";
 
 export default function App() {
     return (
@@ -14,6 +16,7 @@ export default function App() {
             <BrowserRouter>
                 <div id="container">
                     <Header />
+                    <LeftFitAd />
                     <Routes>
                         <Route path="/" element={<Main />} />
                         <Route path="/maps" element={<Maps />} />
@@ -21,6 +24,7 @@ export default function App() {
                         <Route path="/digidex" element={<Digidex />} />
                         <Route path="*" element={<NotFound />} />
                     </Routes>
+                    <RightFitAd />
                     <Footer />
                 </div>
             </BrowserRouter>
