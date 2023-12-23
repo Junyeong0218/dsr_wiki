@@ -9,6 +9,7 @@ import Combination from "./components/combination/Combination";
 import Digidex from "./components/digidex/Digidex";
 import LeftFitAd from "./components/ads/LeftFitAd";
 import RightFitAd from "./components/ads/RightFitAd";
+import EvolutionSearcher from "./components/evolution/EvolutionSearcher";
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
                     <LeftFitAd />
                     <Routes>
                         <Route path="/" element={<Main />} />
+                        <Route path="/evolutions" element={<EvolutionSearcher />} />
                         <Route path="/maps" element={<Maps />} />
                         <Route path="/combinations" element={<Combination />} />
                         <Route path="/digidex" element={<Digidex />} />

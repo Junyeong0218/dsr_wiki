@@ -8,6 +8,11 @@ export default function LeftFitAd() {
         const scr = createAdScript();
 
         ad.current?.appendChild(scr);
+
+        return () => {
+            const globalAdfit = window.adfit;
+            if (globalAdfit) globalAdfit.destroy("DAN-K6fFoDz07jKGdUEj");
+        }
     }, []);
 
     // const ins = createAdTag("DAN-K6fFoDz07jKGdUEj");

@@ -20,7 +20,8 @@ export default function Header() {
                 <img src="/images/logo.png" />
             </Link>
             <nav>
-                <Link to="/" className="text-nav">진화트리</Link>
+                <Link to="/" className="text-nav">홈</Link>
+                <Link to="/evolutions" className="text-nav">진화트리</Link>
                 <Link to="/maps" className="text-nav">맵스</Link>
                 <Link to="/combinations" className="text-nav">조합법</Link>
                 <Link to="/digidex" className="text-nav">디지몬 도감</Link>

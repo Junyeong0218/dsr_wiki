@@ -1,121 +1,26 @@
 import React, { useMemo, useRef, useState } from 'react';
-import Filters from './components/Filters';
-import { getUUID } from './functions/commons';
-import SearchBar from './components/SearchBar';
-import EvolutionTree from './components/evolution/EvolutionTree';
-import EvolutionDescriptionModal from './components/evolution/evolutionDescriptionModal';
-import { Evolution } from './classes';
-import { getEvolutions, getJustBeforeEvolution, toggleFoldEvolution } from './functions';
 
 export default function Main() {
-    const [selectedDigimon, setSelectedDigimon] = useState(null);
-    const [isOpen, setIsOpen] = useState(false);
-    const [position, setPosition] = useState({ top: 0, left: 0 });
-    const [hideFoldButton, setHideFoldButton] = useState(false);
-
-    const modalDigimon = useRef(null);
-
-    const captureMouse = (event) => {
-        if(event.target?.className === "profile-image") {
-            const targetName = event.target.nextElementSibling.innerText;
-            if(targetName.includes("[돌연변이]")) {
-                setPosition({ top: 0, left: 0 });
-                setIsOpen(false);
-                return;
-            }
-
-            if(targetName === selectedDigimon.name) modalDigimon.current = selectedDigimon;
-            else if(targetName !== modalDigimon.current?.name) {
-                const digimon = Evolution.getByName(targetName);
-                if(digimon.grade === 1) return;
-                
-                getJustBeforeEvolution(digimon);
-                modalDigimon.current = digimon;
-            }
-
-            const mapRect = document.querySelector(".main").getBoundingClientRect();
-            const modalHeight = modalDigimon.current.grade === 6 ? 396 :
-                                modalDigimon.current.grade === 5 && modalDigimon.current.befores[0].method === "일반" ? 236 : 
-                                modalDigimon.current.grade === 5 && modalDigimon.current.befores[0].method === "조그레스" ? 297 : 
-                                modalDigimon.current.grade === 4 ? 179 : 159;
-            if(event.clientY + modalHeight >= window.innerHeight - 20) {
-                setPosition({ top: window.innerHeight - modalHeight - mapRect.top - 20, left: event.pageX - mapRect.left + 2 });
-            } else {
-                setPosition({ top: event.clientY - mapRect.top, left: event.clientX - mapRect.left + 2 });
-            }
-            setIsOpen(true);
-        } else if(event.target?.id === "revolution-description") {
-        } else {
-            setPosition({ top: 0, left: 0 });
-            setIsOpen(false);
-        }
-    }
-
-    const changeDigimon = (event) => {
-        let digimonName = "";
-        if(event.target.className === "profile") {
-            digimonName = event.target.children[1].innerText;
-        } else if(event.target.className === "profile-image") {
-            digimonName = event.target.nextElementSibling.innerText;
-        } else return;
-
-        if(digimonName.includes("돌연변이")) return;
-
-        const digimon = Evolution.getByName(digimonName);
-        getEvolutions(digimon);
-        setSelectedDigimon(digimon);
-        window.scrollTo(0, 0);
-        setPosition({ top: 0, left: 0 });
-        setIsOpen(false);
-    }
-
-    const reload = () => {
-        setSelectedDigimon(Object.assign({}, selectedDigimon));
-    }
-
-    const foldAll = () => {
-        toggleFoldEvolution(selectedDigimon, true);
-        reload();
-    }
-
-    const spreadAll = () => {
-        toggleFoldEvolution(selectedDigimon, false);
-        reload();
-    }
-
-    const comboFilters = useMemo(() => {
-        return <Filters selectedDigimon={selectedDigimon} setSelectedDigimon={setSelectedDigimon} key={"digimon_filter"} />;
-    }, [selectedDigimon]);
-
-    const searchBar = useMemo(() => {
-        return <SearchBar setSelectedDigimon={setSelectedDigimon}/>
-    }, []);
-
-    const evolution = useMemo(() => {
-        return <EvolutionTree selectedDigimon={selectedDigimon} reload={reload} key={getUUID()} />;
-    }, [selectedDigimon]);
-
-    const inputs = useMemo(() => {
-        return <div className='evolution-checkboxes'>
-            <div className='toggle-all-buttons'>
-                <button type='button' onClick={spreadAll}>모두 펼치기</button>
-                <button type='button' onClick={foldAll}>모두 접기</button>
-            </div>
-            <label className="check-box-container" htmlFor='hide-toggle-fold'>
-                <input type='checkbox' id="hide-toggle-fold" checked={hideFoldButton} onChange={(e) => setHideFoldButton(e.target.checked)}/>
-                접기/펼치기 버튼 숨기기
-            </label>
-        </div>
-    });
 
     return (
-        <div className={`main ${hideFoldButton ? "hide-fold-button" : ""}`} onMouseMove={captureMouse} onClick={changeDigimon}>
-            <h1 className="title-message">진화 상태에 맞는 디지몬을 선택하세요.</h1>
-            { comboFilters }
-            { searchBar }
-            { evolution }
-            { inputs }
-            <EvolutionDescriptionModal isActive={isOpen} digimon={modalDigimon.current} position={position} />
+        <div className="main">
+            <div className='main-mail'>
+                <h1>위키 이용자분들께🙇‍♂️</h1>
+                <h3>안녕하세요, 조선말기사육사입니다.</h3>
+                <h3>디슈럼 위키는 다양한 정보를 한 곳에서 모아서 볼 수 있으면 좋겠다는 마음에 제작했습니다.</h3>
+                <h3>운이 좋게도 많은 분들께서 봐주시고 도와주셔서 위키도 점점 발전해나가고 있습니다.</h3>
+                <h3>현재 위키는 무료 호스팅으로 서비스되고 있으며,</h3>
+                <h3>이용자분들께서 많이 찾아주시는 만큼 이용량의 증가량 또한 더욱 빠르게 상승중입니다.</h3>
+                <h3>따라서 1월까지 사용량을 지켜본 후 유료서버로 전환할 지 결정하려 합니다.</h3>
+                <h3>그 일환으로 현재 카카오 Adfit을 신청해둔 상태이며,</h3>
+                <h3>광고로 인한 수입으로 서버비를 감당할 수 없는 경우에는 개인후원도 받아볼 생각입니다.</h3>
+                <h3>만약 유료서버로 전환하게 된다면 더 많은 기능을 제공해드릴 수 있을 것 같습니다.</h3>
+                <h3>현재 추세로 봐서는 당장 1월에는 한도를 넘지는 않을 것 같으나</h3>
+                <h3>일일 사용량을 봤을때 한도에 꽤 근접할 것 같아 미리 공지드립니다.</h3>
+                <h3>사이트 운영이 처음이라 많이 미숙합니다.</h3>
+                <h3>혹여 위 내용 관련해서 도와주실 수 있는 분은</h3>
+                <h3>hippo2003@naver.com 으로 연락 한 번 부탁드리겠습니다.</h3>
+            </div>
         </div>
     );
 }

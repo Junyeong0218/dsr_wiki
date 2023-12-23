@@ -8,6 +8,11 @@ export default function RightFitAd() {
         const scr = createAdScript();
 
         ad.current?.appendChild(scr);
+
+        return () => {
+            const globalAdfit = window.adfit;
+            if (globalAdfit) globalAdfit.destroy("DAN-EfclxRdL7MlO66g3");
+        }
     }, []);
 
     return (
