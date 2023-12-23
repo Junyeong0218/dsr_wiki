@@ -4580,7 +4580,7 @@
       {
         "from": 79,
         "to": 174,
-        "rate": 0.75,
+        "rate": 0.65,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -4625,7 +4625,7 @@
       {
         "from": 79,
         "to": 236,
-        "rate": 0,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -5080,7 +5080,7 @@
       {
         "from": 84,
         "to": 193,
-        "rate": 0.475,
+        "rate": 0.375,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -5095,7 +5095,7 @@
       {
         "from": 84,
         "to": 208,
-        "rate": 0.475,
+        "rate": 0.375,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -5110,7 +5110,7 @@
       {
         "from": 84,
         "to": 188,
-        "rate": 0,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -5125,7 +5125,7 @@
       {
         "from": 84,
         "to": 204,
-        "rate": 0,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -10147,7 +10147,7 @@
       {
         "from": 84,
         "to": 188,
-        "rate": 0,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -10421,7 +10421,7 @@
       {
         "from": 84,
         "to": 193,
-        "rate": 0.475,
+        "rate": 0.375,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -11115,7 +11115,7 @@
       {
         "from": 84,
         "to": 204,
-        "rate": 0,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -11379,7 +11379,7 @@
       {
         "from": 84,
         "to": 208,
-        "rate": 0.475,
+        "rate": 0.375,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -13263,7 +13263,7 @@
       {
         "from": 79,
         "to": 236,
-        "rate": 0,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 15,
@@ -16915,7 +16915,7 @@
       {
         "from": 327,
         "to": 344,
-        "rate": 0.95,
+        "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
@@ -16930,7 +16930,7 @@
       {
         "from": 327,
         "to": 329,
-        "rate": 0,
+        "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
@@ -17038,7 +17038,7 @@
       {
         "from": 327,
         "to": 329,
-        "rate": 0,
+        "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
@@ -17443,7 +17443,7 @@
       {
         "from": 327,
         "to": 344,
-        "rate": 0.95,
+        "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
