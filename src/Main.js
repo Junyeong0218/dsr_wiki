@@ -19,6 +19,7 @@ export default function Main() {
         if(event.target?.className === "profile-image") {
             const targetName = event.target.nextElementSibling.innerText;
             if(targetName.includes("[돌연변이]")) {
+                setPosition({ top: 0, left: 0 });
                 setIsOpen(false);
                 return;
             }
@@ -44,6 +45,7 @@ export default function Main() {
             setIsOpen(true);
         } else if(event.target?.id === "revolution-description") {
         } else {
+            setPosition({ top: 0, left: 0 });
             setIsOpen(false);
         }
     }
@@ -61,6 +63,9 @@ export default function Main() {
         const digimon = Evolution.getByName(digimonName);
         getEvolutions(digimon);
         setSelectedDigimon(digimon);
+        window.scrollTo(0, 0);
+        setPosition({ top: 0, left: 0 });
+        setIsOpen(false);
     }
 
     const reload = () => {
