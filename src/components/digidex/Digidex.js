@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { getAllDigimons } from "../../functions";
 import { Link, useLocation } from "react-router-dom";
 import { getUUID } from "../../functions/commons";
 import Evolutions from "./evolutions";
 import DigimonInfo from "./digimonInfo";
+import { DigimonTypes, DigimonTypesEng, Grades } from "../../enums";
+import DigidexFilter from "./digidexFilter";
 
 export default function Digidex() {
     const location = useLocation();
     const query = location.search;
     const selected = query.trim() === "" ? null : decodeURIComponent(query.replace("?digimon=", ""));
-
+    
     if(selected) {
         return (
             <div className="digidex">
@@ -18,12 +20,51 @@ export default function Digidex() {
             </div>
         );
     }
-
+    
     const all = getAllDigimons(false);
+    const [filtered, setFiltered] = useState(all);
+    const [selectedGrade, setSelectedGrade] = useState(localStorage.getItem("grade") || "전체");
+    const [selectedType, setSelectedType] = useState(localStorage.getItem("type") || "전체");
+    const [selectedElement, setSelectedElement] = useState(localStorage.getItem("element") || "전체");
+
+    useEffect(() => {
+        if(selectedGrade === selectedType === selectedElement === "전체") {
+            localStorage.removeItem("grade");
+            localStorage.removeItem("type");
+            localStorage.removeItem("element");
+            setFiltered(all);
+            return;
+        }
+
+        let digimons = all;
+        if(selectedGrade !== "전체") {
+            digimons = digimons.filter(digimon => digimon.grade === Object.values(Grades).indexOf(selectedGrade) + 1);
+            localStorage.setItem("grade", selectedGrade);
+        }
+        if(selectedType !== "전체") {
+            digimons = digimons.filter(digimon => digimon.digimonType === Object.values(DigimonTypesEng)[Object.values(DigimonTypes).indexOf(selectedType)]);
+            localStorage.setItem("type", selectedType);
+        }
+        if(selectedElement !== "전체") {
+            digimons = digimons.filter(digimon => {
+                for(let i = 0; i < digimon.skills.length; i++) {
+                    if(digimon.skills[i].element === selectedElement) return true;
+                }
+                return false;
+            });
+            localStorage.setItem("element", selectedElement);
+        }
+            
+        setFiltered(digimons);
+    }, [selectedGrade, selectedType, selectedElement]);
     
     return (
         <div className="digidex">
-            { all.map(each => {
+            <DigidexFilter selectedGrade={selectedGrade} setSelectedGrade={setSelectedGrade}
+                           selectedType={selectedType} setSelectedType={setSelectedType}
+                           selectedElement={selectedElement} setSelectedElement={setSelectedElement} />
+            
+            { filtered.map(each => {
                 const style = each.name.length > 8 ? {fontSize: "12px"} : {};
 
                 return <Link to={`/digidex?digimon=${each.name}`} key={getUUID()}>

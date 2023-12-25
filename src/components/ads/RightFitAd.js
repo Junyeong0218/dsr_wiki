@@ -22,5 +22,5 @@ export default function RightFitAd() {
                  data-ad-width="320"
                  data-ad-height="100" />
         </div>
-    )
+    );
 }

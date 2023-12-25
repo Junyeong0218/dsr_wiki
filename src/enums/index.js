@@ -43,6 +43,36 @@ const NoDropMonsters = ["츄몬", "레어몬", "모노크로몬", "스콜피온�
 
 const PROFILE_HEIGHT = 80;
 
+const DigimonTypesEng = {
+    1: "Va",
+    2: "Vi",
+    3: "Da",
+    4: "Uk",
+    5: "Fr"
+}
+
+const DigimonTypes = {
+    1: "백신",
+    2: "바이러스",
+    3: "데이터",
+    4: "언노운",
+    5: "프리"
+}
+
+const Elements = {
+    1: "강철",
+    2: "나무",
+    3: "물",
+    4: "물리",
+    5: "바람",
+    6: "불",
+    7: "빛",
+    8: "어둠",
+    9: "얼음",
+    10: "천둥",
+    11: "흙"
+}
+
 Object.freeze(Grades);
 Object.freeze(GradeClassNames);
 Object.freeze(RequireStatName);
@@ -50,6 +80,9 @@ Object.freeze(PROFILE_HEIGHT);
 Object.freeze(PROFILE_HEIGHT);
 Object.freeze(ItemType);
 Object.freeze(NoDropMonsters);
+Object.freeze(DigimonTypesEng);
+Object.freeze(DigimonTypes);
+Object.freeze(Elements);
 
 export {
     Grades,
@@ -58,5 +91,9 @@ export {
     PROFILE_HEIGHT,
 
     ItemType,
-    NoDropMonsters
+    NoDropMonsters,
+
+    DigimonTypesEng,
+    DigimonTypes,
+    Elements
 }
