@@ -44,7 +44,7 @@ function SearchBar({ setSelectedDigimon }) {
             }
             else if (!regex.test(typed) && typed !== "") {
                 setText(typed);
-                const searched = (0, searchFunctions_1.getSearchedDigimons)(target.value.trim());
+                const searched = (0, searchFunctions_1.getSearchedEvolutions)(target.value.trim());
                 setSearched(searched);
             }
         }

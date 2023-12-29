@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getSearchedCombinations = exports.getSearchedDigimons = void 0;
+exports.getSearchedCombinations = exports.getSearchedEvolutions = exports.getSearchedDigimons = void 0;
 const lodash_1 = require("lodash");
 const _1 = require(".");
 const getCombinationsFunctions_1 = require("./getCombinationsFunctions");
@@ -60,6 +60,39 @@ function createFuzzyMatcher(input) {
 }
 // -------------------------------------
 const getSearchedDigimons = (search) => {
+    const digimons = (0, _1.getAllDigimons)(false);
+    const regex = createFuzzyMatcher(search);
+    const searched = digimons.filter((digimon) => {
+        return regex.test(digimon.name);
+    })
+        .map(digimon => {
+        let totalDistance = 0;
+        const tag = digimon.name.replace(regex, (match, ...groups) => {
+            const letters = groups.slice(0, search.length);
+            let lastIndex = 0;
+            let highlighted = [];
+            for (let i = 0, l = letters.length; i < l; i++) {
+                const idx = match.indexOf(letters[i], lastIndex);
+                highlighted.push(match.substring(lastIndex, idx));
+                highlighted.push(`<mark>${letters[i]}</mark>`);
+                if (lastIndex > 0) {
+                    totalDistance += idx - lastIndex;
+                }
+                lastIndex = idx + 1;
+            }
+            return highlighted.join("");
+        });
+        digimon.totalDistance = totalDistance;
+        digimon.tag = tag;
+        return digimon;
+    });
+    searched.sort((a, b) => {
+        return a.totalDistance - b.totalDistance;
+    });
+    return searched;
+};
+exports.getSearchedDigimons = getSearchedDigimons;
+const getSearchedEvolutions = (search) => {
     const digimons = (0, _1.getAllEvolutions)(false);
     const regex = createFuzzyMatcher(search);
     const searched = digimons.filter((digimon) => {
@@ -89,7 +122,7 @@ const getSearchedDigimons = (search) => {
     });
     return searched;
 };
-exports.getSearchedDigimons = getSearchedDigimons;
+exports.getSearchedEvolutions = getSearchedEvolutions;
 const getSearchedCombinations = (search) => {
     const combinations = (0, getCombinationsFunctions_1.getCombinations)();
     const regex = createFuzzyMatcher(search);

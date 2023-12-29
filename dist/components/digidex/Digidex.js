@@ -78,13 +78,13 @@ function Digidex() {
         setFiltered(digimons);
     }, [selectedGrade, selectedType, selectedElement]);
     return (react_1.default.createElement("div", { className: "digidex" },
-        react_1.default.createElement(digidexFilter_1.default, { selectedGrade: selectedGrade, setSelectedGrade: setSelectedGrade, selectedType: selectedType, setSelectedType: setSelectedType, selectedElement: selectedElement, setSelectedElement: setSelectedElement }),
+        react_1.default.createElement(digidexFilter_1.default, { selectedGrade: selectedGrade, setSelectedGrade: setSelectedGrade, selectedType: selectedType, setSelectedType: setSelectedType, selectedElement: selectedElement, setSelectedElement: setSelectedElement, all: all, setFiltered: setFiltered }),
         filtered.map(each => {
             const style = each.name.length > 8 ? { fontSize: "12px" } : {};
             return react_1.default.createElement(react_router_dom_1.Link, { to: `/digidex?digimon=${each.name}`, key: (0, commons_1.getUUID)() },
                 react_1.default.createElement("button", { type: "button", className: "digimon-button" },
                     react_1.default.createElement("img", { src: `/images/${each.name}.png`, loading: "lazy" }),
-                    react_1.default.createElement("span", { style: style }, each.name)));
+                    each.tag ? react_1.default.createElement("span", { style: style, dangerouslySetInnerHTML: { __html: each.tag } }) : react_1.default.createElement("span", { style: style }, each.name)));
         })));
 }
 exports.default = Digidex;

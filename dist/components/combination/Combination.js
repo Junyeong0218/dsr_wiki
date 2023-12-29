@@ -45,11 +45,11 @@ function CombinationSearcher() {
         return filtered ?
             react_1.default.createElement("div", { className: "combination-list" }, filtered.map(combination => {
                 var _a;
-                return (react_1.default.createElement(combinationShortcut_1.default, { combination: combination, selectedId: (_a = selected.id) !== null && _a !== void 0 ? _a : 0, selectCombination: selectCombination, key: (0, commons_1.getUUID)() }));
+                return (react_1.default.createElement(combinationShortcut_1.default, { combination: combination, selectedId: (_a = selected === null || selected === void 0 ? void 0 : selected.id) !== null && _a !== void 0 ? _a : 0, selectCombination: selectCombination, key: (0, commons_1.getUUID)() }));
             })) :
             react_1.default.createElement("div", { className: "combination-list" }, all.map(combination => {
                 var _a;
-                return (react_1.default.createElement(combinationShortcut_1.default, { combination: combination, selectedId: (_a = selected.id) !== null && _a !== void 0 ? _a : 0, selectCombination: selectCombination, key: (0, commons_1.getUUID)() }));
+                return (react_1.default.createElement(combinationShortcut_1.default, { combination: combination, selectedId: (_a = selected === null || selected === void 0 ? void 0 : selected.id) !== null && _a !== void 0 ? _a : 0, selectCombination: selectCombination, key: (0, commons_1.getUUID)() }));
             }));
     }, [filtered, selected]);
     return (react_1.default.createElement("div", { className: "main" },

@@ -13,7 +13,7 @@ function DigimonInfo({ selected }) {
     const digimon = classes_1.Digimon.getByName(selected);
     const navigate = (0, react_router_dom_1.useNavigate)();
     if (!digimon) {
-        navigate(-1);
+        navigate("/digidex");
         return react_1.default.createElement(react_1.default.Fragment, null);
     }
     return (react_1.default.createElement("div", { className: "digimon-info" },

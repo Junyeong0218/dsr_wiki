@@ -14,6 +14,6 @@ function DigimonShortcut({ digimon }) {
             react_1.default.createElement("span", { className: "digimon-name" }, digimon.name),
             react_1.default.createElement("span", null, enums_1.Grades[`${digimon.grade}`]),
             react_1.default.createElement("img", { src: `/images/${digimon.digimonType}.png` })),
-        react_1.default.createElement("button", { type: "button", className: "back-button", onClick: () => navigate(-1) }, "\uB3C4\uAC10\uC73C\uB85C \uB3CC\uC544\uAC00\uAE30")));
+        react_1.default.createElement("button", { type: "button", className: "back-button", onClick: () => navigate("/digidex") }, "\uB3C4\uAC10\uC73C\uB85C \uB3CC\uC544\uAC00\uAE30")));
 }
 exports.default = DigimonShortcut;

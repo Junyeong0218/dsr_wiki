@@ -24,7 +24,7 @@ function ToRightProfileGroup({ digimon, reload }) {
     else {
         return (react_1.default.createElement("div", { className: "profile-group", style: wrapperStyle }, digimon.afters.map(after => {
             const afterDigimon = after.digimon;
-            if (!afterDigimon.afters) {
+            if (!(afterDigimon === null || afterDigimon === void 0 ? void 0 : afterDigimon.afters)) {
                 return react_1.default.createElement(profile_1.default, { digimon: afterDigimon, align: "start", key: (0, commons_1.getUUID)() });
             }
             return (react_1.default.createElement("div", { className: "profile-group", style: styles_1.flexRowAndAlignStart, key: (0, commons_1.getUUID)() },

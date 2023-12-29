@@ -54,6 +54,7 @@ function Evolutions({ selected }) {
         }
         else
             return;
+        console.log(digimonName);
         if (digimonName.includes("돌연변이"))
             return;
         navigate(`/digidex?digimon=${digimonName}`);

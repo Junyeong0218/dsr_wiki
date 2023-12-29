@@ -28,6 +28,7 @@ const enums_1 = require("../../enums");
 const searchFunctions_1 = require("../../functions/searchFunctions");
 const commons_1 = require("../../functions/commons");
 function CombinationFilters({ all, setFiltered }) {
+    var _a;
     const options = (0, react_1.useMemo)(() => ["전체", "포션", "소모 아이템", "탐지기", "스킬 강화석", "기타"], []);
     const selectRef = (0, react_1.useRef)(null);
     const textRef = (0, react_1.useRef)(null);
@@ -61,9 +62,9 @@ function CombinationFilters({ all, setFiltered }) {
     };
     const textInput = (0, react_1.useMemo)(() => {
         return react_1.default.createElement("input", { ref: textRef, type: "text", className: "search-input", value: text, onChange: updateText, placeholder: "\uC81C\uC791\uD560 \uC544\uC774\uD15C\uC758 \uC774\uB984 \uD639\uC740 \uCD08\uC131\uC744 \uC785\uB825\uD558\uC138\uC694." });
-    }, []);
+    }, [text]);
     return (react_1.default.createElement("div", { className: "combination-filters" },
-        react_1.default.createElement("select", { ref: selectRef, onChange: filterByType }, options.map(option => (react_1.default.createElement("option", { value: option, key: (0, commons_1.getUUID)() }, option)))),
+        react_1.default.createElement("select", { ref: selectRef, onChange: filterByType, value: (_a = selectRef.current) === null || _a === void 0 ? void 0 : _a.value, key: (0, commons_1.getUUID)() }, options.map(option => (react_1.default.createElement("option", { value: option, key: (0, commons_1.getUUID)() }, option)))),
         textInput));
 }
 exports.default = CombinationFilters;
