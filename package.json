@@ -5,7 +5,7 @@
   "main": "src/index.tsx",
   "scripts": {
     "start": "tsc --build & react-scripts start",
-    "build": "react-scripts build",
+    "build": "tsc & react-scripts build",
     "watch": "webpack --config webpack.common.js --watch",
     "test": "react-scripts test"
   },
