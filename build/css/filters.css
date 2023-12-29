@@ -36,15 +36,35 @@
   border: 1px solid gray;
   background-color: white;
 
+  overflow-x: hidden;
   overflow: hidden;
   visibility: hidden;
   opacity: 0;
   transition: 300ms;
+  scroll-behavior: smooth;
+}
+
+.combo .list::-webkit-scrollbar,
+.search-list::-webkit-scrollbar {
+  width: 8px;  /* 스크롤바의 너비 */
+}
+
+.combo .list::-webkit-scrollbar-thumb,
+.search-list::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #217af4; /* 스크롤바의 색상 */
+  
+  border-radius: 10px;
+}
+
+.combo .list::-webkit-scrollbar-track,
+.search-list::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
 }
 
 .list.active {
   visibility: visible;
-  overflow: scroll;
+  overflow-y: scroll;
   opacity: 1;
   z-index: 1;
 }
@@ -112,6 +132,17 @@
   background-color: var(--type-perfect-thin);
   color: var(--type-perfect-deep);
 }
+.combo.ultimate {
+  border-color: var(--type-ultimate-thin);
+  background-color: var(--type-ultimate-thin);
+  color: var(--type-ultimate-deep);
+}
+.combo.ultimate {
+  border-color: var(--type-ultimate-thin);
+  background-color: var(--type-ultimate-thin);
+  color: var(--type-ultimate-deep);
+}
+
 .combo:nth-child(2).baby1 {
   border-color: var(--type-baby1-deep);
   background-color: var(--type-baby1-deep);
@@ -136,4 +167,14 @@
   border-color: var(--type-perfect-deep);
   background-color: var(--type-perfect-deep);
   color: var(--type-perfect-thin);
+}
+.combo:nth-child(2).ultimate {
+  border-color: var(--type-ultimate-deep);
+  background-color: var(--type-ultimate-deep);
+  color: var(--type-ultimate-thin);
+}
+.combo:nth-child(2).ultimate {
+  border-color: var(--type-ultimate-deep);
+  background-color: var(--type-ultimate-deep);
+  color: var(--type-ultimate-thin);
 }

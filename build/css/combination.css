@@ -1,0 +1,254 @@
+.combination-filters {
+    margin-bottom: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    height: 30px;
+}
+
+.combination-filters select {
+    width: 260px;
+    height: 100%;
+    
+    border: 1px solid var(--white);
+    border-radius: 5px 0 0 5px;
+    
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+
+    cursor: pointer;
+}
+
+.combination-filters select option {
+    color: var(--black);
+    cursor: pointer;
+}
+
+.combination-filters .search-input {
+    padding: 2px 10px;
+
+    flex-grow: 1;
+    height: 100%;
+
+    border: 1px solid var(--white);
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+
+    font-size: 18px;
+}
+
+.combination-filters .search-input::placeholder {
+    color: rgba(230, 230, 230, 0.6);
+}
+
+.combination-container {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+
+  width: 100%;
+}
+
+.combination-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  min-width: 260px;
+  width: fit-content;
+  height: calc(100vh - 250px);
+  
+  overflow-y: scroll;
+}
+
+.combination-list::-webkit-scrollbar {
+  width: 10px; /* 스크롤바의 너비 */
+}
+
+.combination-list::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #d7dde2; /* 스크롤바의 색상 */
+
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.combination-list::-webkit-scrollbar-track {
+  background: #484a4b; /*스크롤바 뒷 배경 색상*/
+  border-radius: 4px;
+}
+
+.combination-shortcut {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+
+  min-width: 250px;
+  max-width: 250px;
+  height: 60px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.combination-shortcut.selected {
+    background-color: var(--type-adult-thin);
+}
+
+.combination-shortcut:hover {
+  background-color: #5c5e5f;
+}
+
+.combination-shortcut * {
+  pointer-events: none;
+}
+
+.combination-shortcut > img {
+  height: 100%;
+}
+
+.shortcut-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    flex-grow: 1;
+}
+
+.shortcut-texts span {
+    font-size: 13px;
+}
+
+.shortcut-texts > .red {
+    color: var(--type-baby1-deep);
+}
+
+.shortcut-texts > .green {
+    color: var(--type-child-deep);
+}
+
+.shortcut-texts > .shortcut-item-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.combination-shortcut.selected .shortcut-item-name {
+    color: var(--black);
+}
+
+.combination-shortcut .shortcut-item-name > mark {
+    font: inherit;
+    background-color: var(--type-child-deep);
+    color: var(--white);
+}
+
+.selected-combination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 50px;
+}
+
+.result-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.result-item-info img {
+    width: 100px;
+    height: 100px;
+}
+
+.result-item-info > .result-item-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.result-item-info > .red {
+    font-size: 18px;
+    color: var(--type-baby1-deep);
+}
+
+.result-item-info > .green {
+    font-size: 18px;
+    color: var(--type-child-deep);
+}
+
+.resources {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 90%;
+
+    border: 1px solid var(--white);
+    border-radius: 4px;
+}
+
+.resources span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.ingredient-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    min-width: 90%;
+    max-width: 90%;
+    width: 90%;
+    height: fit-content;
+
+    gap: 20px;
+}
+
+.ingredient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.ingredient > img {
+    width: 60px;
+    height: 60px;
+}
+
+.ingredient > span {
+    line-height: 25px;
+}
+
+.ingredient > .red {
+    font-size: 14px;
+    color: var(--type-baby1-deep);
+}
+
+.ingredient > .green {
+    font-size: 14px;
+    color: var(--type-child-deep);
+}

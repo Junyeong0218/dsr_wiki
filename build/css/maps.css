@@ -1,0 +1,478 @@
+.maps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.map-selector {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.map-name-button {
+  padding: 3px 14px;
+
+  max-width: 107px;
+  min-width: 107px;
+
+  border: 1px solid var(--white);
+  border-radius: 16px;
+
+  font-size: 14px;
+  text-align: center;
+
+  transition: 300ms;
+}
+
+.map-name-button.selected {
+  background-color: var(--white);
+  font-weight: 700;
+  color: var(--black);
+}
+
+.map-viewer {
+  position: relative;
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 100%;
+}
+
+.map-container {
+  width: 600px;
+  position: relative;
+}
+
+.map-container > .map,
+.monster-viewer {
+  width: 100%;
+  height: 100%;
+}
+
+.monster-viewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.monster-shortcut {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 35px;
+  max-width: 35px;
+
+  border: 1px solid var(--black);
+  border-radius: 4px;
+
+  font-size: 14px;
+  color: var(--white);
+
+  /* overflow: hidden; */
+}
+
+.monster-shortcut.hide {
+  display: none;
+}
+
+.monster-shortcut .monster-image {
+  width: 100%;
+}
+
+.monster-shortcut span {
+  display: none;
+  width: fit-content;
+  min-width: 100%;
+  font-size: inherit;
+  color: inherit;
+
+  text-align: center;
+  background-color: var(--black);
+  pointer-events: none;
+
+  word-break: keep-all;
+}
+
+.monster-shortcut .monster-type-shortcut {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+
+  width: 15px;
+}
+
+.object {
+  position: absolute;
+}
+
+.object.hide {
+  display: none;
+}
+
+.object.portal,
+.object.warp,
+.object.shop {
+  width: 27px;
+}
+
+.object-filter {
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+
+  min-width: 200px;
+  max-height: 637.8px;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.object-filter::-webkit-scrollbar {
+  width: 10px;  /* 스크롤바의 너비 */
+}
+
+.object-filter::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #d7dde2; /* 스크롤바의 색상 */
+  
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.object-filter::-webkit-scrollbar-track {
+  background: #484a4b;  /*스크롤바 뒷 배경 색상*/
+  border-radius: 4px;
+}
+
+.monster-checkbox {
+  position: relative;
+}
+
+.toggle-fold-button {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 18px;
+  height: 18px;
+
+  border: 1px solid var(--white);
+  border-radius: 4px;
+}
+
+.toggle-fold-button i {
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.toggle-fold-button:hover {
+  background-color: var(--white);
+  border-color: var(--white);
+}
+
+.toggle-fold-button:hover i {
+  color: var(--black);
+}
+
+.check-box-container {
+  min-width: 200px;
+  width: 100%;
+  height: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  
+  line-height: 20px;
+
+  cursor: pointer;
+
+  -ms-user-select: none; 
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.check-box-container * {
+  pointer-events: none;
+}
+
+.check-box-container > span {
+  line-height: 20px;
+}
+
+/* .check-box-container > input[type="checkbox"] {
+    display: none;
+} */
+
+.check-box-container > input {
+  position: relative;
+  top: 1px;
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 19px;
+  height: 19px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+
+.check-box-container > input::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--type-ultimate-thin);
+}
+
+.check-box-container > input:checked::before {
+  transform: scale(1);
+}
+
+.drop-item-checkboxes {
+  padding: 6px 0 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+  /* max-height: 500px; */
+  transition: max-height 500ms;
+
+  overflow: hidden;
+  position: relative;
+}
+
+/* .drop-item-checkboxes.folded {
+  max-height: 0px;
+  transition: max-height 1s;
+} */
+
+.drop-item-checkboxes .check-box-container {
+  font-size: 14px;
+}
+
+#shop-modal {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+#shop-modal::-webkit-scrollbar {
+  width: 10px;  /* 스크롤바의 너비 */
+}
+
+#shop-modal::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #d7dde2; /* 스크롤바의 색상 */
+  
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+#shop-modal::-webkit-scrollbar-track {
+  background: #484a4b;  /*스크롤바 뒷 배경 색상*/
+  border-radius: 4px;
+}
+
+#shop-modal .title {
+  margin: 5px 0 10px;
+
+  font-size: 22px;
+  font-weight: 700;
+  color: #13abf7;
+}
+
+#shop-modal .shop-item {
+  position: relative;
+
+  padding: 5px;
+  width: 240px;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  background-color: #1d253b;
+  border-radius: 4px;
+}
+
+#shop-modal .shop-item + .shop-item {
+  margin-top: 5px;
+}
+
+#shop-modal .shop-item > img {
+  width: 45px;
+  height: 45px;
+  border-radius: 4px;
+}
+
+#shop-modal .shop-item .item-name {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+
+  font-size: 14px;
+  color: var(--white);
+}
+
+#shop-modal .shop-item .item-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+
+
+  font-size: 12px;
+  color: var(--white);
+}
+
+#shop-modal .shop-item .item-price img {
+  width: 20px;
+}
+
+#drops-modal .digimon-info {
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+
+  border-bottom: 1px dashed var(--white);
+}
+
+#drops-modal .digimon-info > img {
+  min-width: 100px;
+  max-width: 100px;
+
+  border: 1px solid var(--white);
+  border-radius: 4px;
+}
+
+#drops-modal .digimon-info .digimon-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 5px;
+
+  width: 140px;
+}
+
+#drops-modal .digimon-info .digimon-description .digimon-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#drops-modal .digimon-info .digimon-description .description-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#drops-modal .digimon-info .digimon-description .description-row img {
+  height: 20px;
+}
+
+#drops-modal .digimon-info .digimon-description .hp-bar {
+  width: 100%;
+  height: 14px;
+  
+  background-color: #f30e39;
+  border: 1px solid var(--white);
+  border-radius: 8px;
+  
+  font-size: 13px;
+  text-align: center;
+  line-height: 14px;
+  font-weight: 700;
+}
+
+#drops-modal .title {
+  margin: 10px 0;
+}
+
+#drops-modal .drop-items {
+  padding: 0 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: auto;
+}
+
+#drops-modal .drop-items::-webkit-scrollbar {
+  width: 10px;  /* 스크롤바의 너비 */
+}
+
+#drops-modal .drop-items::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #d7dde2; /* 스크롤바의 색상 */
+  
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+#drops-modal .drop-items::-webkit-scrollbar-track {
+  background: #484a4b;  /*스크롤바 뒷 배경 색상*/
+  border-radius: 4px;
+}
+
+#drops-modal .drop-items .drop-item {
+  width: 100%;
+  height: 28px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+#drops-modal .drop-items .drop-item img {
+  height: 100%;
+}
+
+#drops-modal .drop-items .drop-item span {
+  font-size: 13px;
+}

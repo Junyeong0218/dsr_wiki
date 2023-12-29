@@ -12,7 +12,7 @@
 
   --type-baby1-thin: #ffcfc9;
   --type-baby1-deep: #b10202;
-  --type-baby2-thin: #ffe5a0;
+  --type-baby2-thin: #f9ffa0;
   --type-baby2-deep: #473822;
   --type-child-thin: #d4edbc;
   --type-child-deep: #11734b;
@@ -20,6 +20,13 @@
   --type-adult-deep: #0a53a8;
   --type-perfect-thin: #e6cff2;
   --type-perfect-deep: #5a3286;
+  --type-ultimate-thin: #faba5a;
+  --type-ultimate-deep: #865b32;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body,
@@ -49,33 +56,189 @@ body,
 
 #container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 
   width: 100%;
   height: 100%;
 }
 
 .header {
+  position: fixed;
+  top: 0;
+
   width: 100%;
-  min-height: 50px;
+  min-height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
   background-color: var(--black);
+  border-bottom: 1px solid var(--white);
+
+  z-index: 1;
+  box-shadow: 0px -2px 4px 5px var(--white);
+  transition: 2000ms;
+}
+
+.header.baby1-1 {
+  box-shadow: 0px 0px 4px 5px var(--type-baby1-thin);
+}
+.header.baby1-2 {
+  box-shadow: 0px 0px 4px 5px var(--type-baby1-deep);
+}
+.header.baby2-1 {
+  box-shadow: 0px 0px 4px 5px var(--type-baby2-thin);
+}
+.header.baby2-2 {
+  box-shadow: 0px 2px 4px 5px var(--type-baby2-deep);
+}
+.header.child1 {
+  box-shadow: 0px 0px 4px 5px var(--type-child-thin);
+}
+.header.child2 {
+  box-shadow: 0px 0px 4px 5px var(--type-child-deep);
+}
+.header.adult1 {
+  box-shadow: 0px 0px 4px 5px var(--type-adult-thin);
+}
+.header.adult2 {
+  box-shadow: 0px 0px 4px 5px var(--type-adult-deep);
+}
+.header.perfect1 {
+  box-shadow: 0px 0px 4px 5px var(--type-perfect-thin);
+}
+.header.perfect2 {
+  box-shadow: 0px 0px 4px 5px var(--type-perfect-deep);
+}
+
+.to-main-logo {
+  padding: 5px;
+
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+  width: 180px;
+}
+
+.header > nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  height: 100%;
+
+  padding-left: 100px;
+}
+
+.header > nav * {
+  font-size: 1.2em;
+  font-weight: 700;
+
+  transition: ease 500ms;
+}
+
+.header > nav *:hover {
+  transform: scale(1.1);
 }
 
 .main {
+  position: relative;
+
+  margin-top: 100px;
   padding: 5px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
+  max-width: 1055px;
+  min-width: 1055px;
   width: 100%;
   flex-grow: 1;
 }
 
 .footer {
+  position: fixed;
+  bottom: 0px;
+
+  padding: 5px 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
   width: 100%;
-  min-height: 50px;
+  min-height: 100px;
   
   background-color: var(--black);
+}
+
+.footer .events {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.descriptions, .event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.description.accent {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--type-baby1-thin)
+}
+
+.description img {
+  position: relative;
+  top: 5px;
+  width: 20px;
+}
+
+.event {
+  justify-content: center;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.copy-button {
+  width: 100px;
+  height: 30px;
+
+  border: 1px solid var(--type-baby1-thin);
+  background-color: var(--type-baby1-thin);
+  border-radius: 4px;
+
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+
+  transition: 500ms;
+}
+
+.copy-button.complete,
+.copy-button.complete:hover {
+  border-color: var(--type-adult-deep);
+  background-color: var(--type-adult-deep);
+  color: var(--white);
+}
+
+.copy-button:hover {
+  border-color: var(--type-baby1-deep);
+  background-color: var(--type-baby1-deep);
+  color: var(--white);
 }
 
 button {
@@ -89,6 +252,157 @@ button:disabled {
 
 .title-message {
   margin-top: 15px;
+  font-size: 18px;
   text-align: center;
   font-weight: 700;
+}
+
+.modal {
+  position: absolute;
+
+  min-width: 200px;
+  width: fit-content;
+  height: fit-content;
+
+  background-color: #0D1022;
+  opacity: 0;
+  z-index: -1;
+}
+
+.modal.active {
+  border: 1px solid var(--white);
+  border-radius: 5px;
+
+  opacity: 0.98;
+  z-index: 1;
+}
+
+#revolution-description {
+  transition: 200ms;
+}
+
+#revolution-description * {
+  pointer-events: none;
+}
+
+.window,
+.window > .commons,
+.window > .jogress {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.window > .commons,
+.window > .jogress {
+  padding: 0 5px 10px;
+}
+
+.window .title {
+  font-size: 17px;
+  color: var(--white);
+}
+
+.window .semi-title {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.window .targets {
+  padding: 3px 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.window .targets .target {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.window .targets img {
+  width: 25px;
+  height: 25px;
+}
+
+.window .targets span {
+  font-size: 13px;
+}
+
+.window .conditions {
+  width: 95%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.window .conditions span {
+  word-break: keep-all;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.window .conditions .conditions.common,
+.window .conditions .conditions.jogress {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.window .conditions .conditions.jogress, 
+.window .conditions .conditions.common {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.window .conditions .condition {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  width: 100%;
+  height: 20px;
+
+  font-size: 14px;
+}
+
+.window > .conditions > .condition:not(:last-child) {
+  border-bottom: 1px solid rgba(230, 230, 230, 0.3);
+
+}
+
+.window .conditions .condition * {
+  font-size: inherit;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.window .conditions .condition img {
+  width: 20px;
+  height: 20px;
+}
+
+.window .conditions .conditions.jogress img,
+.window .conditions .conditions.common img {
+  width: 40px;
+  height: 40px;
+}
+
+.ad-container {
+  margin-top: 100px;
+  padding: 0 20px;
 }

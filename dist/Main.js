@@ -1,0 +1,26 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = __importDefault(require("react"));
+function Main() {
+    return (react_1.default.createElement("div", { className: "main" },
+        react_1.default.createElement("div", { className: 'main-mail' },
+            react_1.default.createElement("h1", null, "\uC704\uD0A4 \uC774\uC6A9\uC790\uBD84\uB4E4\uAED8\uD83D\uDE47\u200D\u2642\uFE0F"),
+            react_1.default.createElement("h3", null, "\uC548\uB155\uD558\uC138\uC694, \uC870\uC120\uB9D0\uAE30\uC0AC\uC721\uC0AC\uC785\uB2C8\uB2E4."),
+            react_1.default.createElement("h3", null, "\uB514\uC288\uB7FC \uC704\uD0A4\uB294 \uB2E4\uC591\uD55C \uC815\uBCF4\uB97C \uD55C \uACF3\uC5D0\uC11C \uBAA8\uC544\uC11C \uBCFC \uC218 \uC788\uC73C\uBA74 \uC88B\uACA0\uB2E4\uB294 \uB9C8\uC74C\uC5D0 \uC81C\uC791\uD588\uC2B5\uB2C8\uB2E4."),
+            react_1.default.createElement("h3", null, "\uC6B4\uC774 \uC88B\uAC8C\uB3C4 \uB9CE\uC740 \uBD84\uB4E4\uAED8\uC11C \uBD10\uC8FC\uC2DC\uACE0 \uB3C4\uC640\uC8FC\uC154\uC11C \uC704\uD0A4\uB3C4 \uC810\uC810 \uBC1C\uC804\uD574\uB098\uAC00\uACE0 \uC788\uC2B5\uB2C8\uB2E4."),
+            react_1.default.createElement("h3", null, "\uD604\uC7AC \uC704\uD0A4\uB294 \uBB34\uB8CC \uD638\uC2A4\uD305\uC73C\uB85C \uC11C\uBE44\uC2A4\uB418\uACE0 \uC788\uC73C\uBA70,"),
+            react_1.default.createElement("h3", null, "\uC774\uC6A9\uC790\uBD84\uB4E4\uAED8\uC11C \uB9CE\uC774 \uCC3E\uC544\uC8FC\uC2DC\uB294 \uB9CC\uD07C \uC774\uC6A9\uB7C9\uC758 \uC99D\uAC00\uB7C9 \uB610\uD55C \uB354\uC6B1 \uBE60\uB974\uAC8C \uC0C1\uC2B9\uC911\uC785\uB2C8\uB2E4."),
+            react_1.default.createElement("h3", null, "\uB530\uB77C\uC11C 1\uC6D4\uAE4C\uC9C0 \uC0AC\uC6A9\uB7C9\uC744 \uC9C0\uCF1C\uBCF8 \uD6C4 \uC720\uB8CC\uC11C\uBC84\uB85C \uC804\uD658\uD560 \uC9C0 \uACB0\uC815\uD558\uB824 \uD569\uB2C8\uB2E4."),
+            react_1.default.createElement("h3", null, "\uADF8 \uC77C\uD658\uC73C\uB85C \uD604\uC7AC \uCE74\uCE74\uC624 Adfit\uC744 \uC2E0\uCCAD\uD574\uB454 \uC0C1\uD0DC\uC774\uBA70,"),
+            react_1.default.createElement("h3", null, "\uAD11\uACE0\uB85C \uC778\uD55C \uC218\uC785\uC73C\uB85C \uC11C\uBC84\uBE44\uB97C \uAC10\uB2F9\uD560 \uC218 \uC5C6\uB294 \uACBD\uC6B0\uC5D0\uB294 \uAC1C\uC778\uD6C4\uC6D0\uB3C4 \uBC1B\uC544\uBCFC \uC0DD\uAC01\uC785\uB2C8\uB2E4."),
+            react_1.default.createElement("h3", null, "\uB9CC\uC57D \uC720\uB8CC\uC11C\uBC84\uB85C \uC804\uD658\uD558\uAC8C \uB41C\uB2E4\uBA74 \uB354 \uB9CE\uC740 \uAE30\uB2A5\uC744 \uC81C\uACF5\uD574\uB4DC\uB9B4 \uC218 \uC788\uC744 \uAC83 \uAC19\uC2B5\uB2C8\uB2E4."),
+            react_1.default.createElement("h3", null, "\uD604\uC7AC \uCD94\uC138\uB85C \uBD10\uC11C\uB294 \uB2F9\uC7A5 1\uC6D4\uC5D0\uB294 \uD55C\uB3C4\uB97C \uB118\uC9C0\uB294 \uC54A\uC744 \uAC83 \uAC19\uC73C\uB098"),
+            react_1.default.createElement("h3", null, "\uC77C\uC77C \uC0AC\uC6A9\uB7C9\uC744 \uBD24\uC744\uB54C \uD55C\uB3C4\uC5D0 \uAF64 \uADFC\uC811\uD560 \uAC83 \uAC19\uC544 \uBBF8\uB9AC \uACF5\uC9C0\uB4DC\uB9BD\uB2C8\uB2E4."),
+            react_1.default.createElement("h3", null, "\uC0AC\uC774\uD2B8 \uC6B4\uC601\uC774 \uCC98\uC74C\uC774\uB77C \uB9CE\uC774 \uBBF8\uC219\uD569\uB2C8\uB2E4."),
+            react_1.default.createElement("h3", null, "\uD639\uC5EC \uC704 \uB0B4\uC6A9 \uAD00\uB828\uD574\uC11C \uB3C4\uC640\uC8FC\uC2E4 \uC218 \uC788\uB294 \uBD84\uC740"),
+            react_1.default.createElement("h3", null, "hippo2003@naver.com \uC73C\uB85C \uC5F0\uB77D \uD55C \uBC88 \uBD80\uD0C1\uB4DC\uB9AC\uACA0\uC2B5\uB2C8\uB2E4."))));
+}
+exports.default = Main;

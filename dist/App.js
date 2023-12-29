@@ -1,0 +1,57 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = __importStar(require("react"));
+const react_router_dom_1 = require("react-router-dom");
+const Main_1 = __importDefault(require("./Main"));
+const NotFound_1 = __importDefault(require("./NotFound"));
+const Header_1 = __importDefault(require("./components/Header"));
+const Footer_1 = __importDefault(require("./components/Footer"));
+const Maps_1 = __importDefault(require("./components/maps/Maps"));
+const Combination_1 = __importDefault(require("./components/combination/Combination"));
+const Digidex_1 = __importDefault(require("./components/digidex/Digidex"));
+const LeftFitAd_1 = __importDefault(require("./components/ads/LeftFitAd"));
+const RightFitAd_1 = __importDefault(require("./components/ads/RightFitAd"));
+const EvolutionSearcher_1 = __importDefault(require("./components/evolution/EvolutionSearcher"));
+function App() {
+    return (react_1.default.createElement(react_1.StrictMode, null,
+        react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
+            react_1.default.createElement("div", { id: "container" },
+                react_1.default.createElement(Header_1.default, null),
+                react_1.default.createElement(LeftFitAd_1.default, null),
+                react_1.default.createElement(react_router_dom_1.Routes, null,
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/", element: react_1.default.createElement(Main_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/evolutions", element: react_1.default.createElement(EvolutionSearcher_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/maps", element: react_1.default.createElement(Maps_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/combinations", element: react_1.default.createElement(Combination_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/digidex", element: react_1.default.createElement(Digidex_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "*", element: react_1.default.createElement(NotFound_1.default, null) })),
+                react_1.default.createElement(RightFitAd_1.default, null),
+                react_1.default.createElement(Footer_1.default, null)))));
+}
+exports.default = App;
