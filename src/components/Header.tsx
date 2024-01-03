@@ -23,6 +23,8 @@ export default function Header(): React.ReactElement {
                 <Link to="/" className="text-nav">홈</Link>
                 <Link to="/evolutions" className="text-nav">진화트리</Link>
                 <Link to="/maps" className="text-nav">맵스</Link>
+                {/* <Link to="/overflows" className="text-nav">오버플로우 던전</Link>
+                <Link to="/detectors" className="text-nav">탐지기</Link> */}
                 <Link to="/combinations" className="text-nav">조합법</Link>
                 <Link to="/digidex" className="text-nav">디지몬 도감</Link>
                 <Link to="https://www.digimonsuperrumble.com" target="_blank" className="text-nav">공식 홈페이지</Link>

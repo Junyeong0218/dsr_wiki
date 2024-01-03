@@ -1,0 +1,5716 @@
+[
+  {
+    "mapName": "기어 사바나",
+    "reqItem": {
+      "id": 247,
+      "type": 7,
+      "name": "OF 접근권한 : B",
+      "price": 0,
+      "canTrade": false
+    },
+    "stages": [
+      {
+        "stage": "1",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "파피몬",
+            "digimonType": "Da",
+            "level": 21,
+            "hp": 1417,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "팔몬",
+            "digimonType": "Da",
+            "level": 21,
+            "hp": 1501,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "캔들몬",
+            "digimonType": "Da",
+            "level": 21,
+            "hp": 951,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 62, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "2",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "아구몬",
+            "digimonType": "Va",
+            "level": 22,
+            "hp": 1661,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "피요몬",
+            "digimonType": "Va",
+            "level": 22,
+            "hp": 1107,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "텐타몬",
+            "digimonType": "Va",
+            "level": 22,
+            "hp": 1023,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 62, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "3",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "올챙몬",
+            "digimonType": "Vi",
+            "level": 23,
+            "hp": 1015,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "쿠네몬",
+            "digimonType": "Vi",
+            "level": 23,
+            "hp": 1128,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "아기벌몬",
+            "digimonType": "Vi",
+            "level": 23,
+            "hp": 878,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 62, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "4",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쉬라몬",
+            "digimonType": "Va",
+            "level": 24,
+            "hp": 1236,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "베타몬",
+            "digimonType": "Vi",
+            "level": 24,
+            "hp": 1193,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "파닥몬",
+            "digimonType": "Da",
+            "level": 24,
+            "hp": 984,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 62, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "5",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "츄몬",
+            "digimonType": "Vi",
+            "level": 25,
+            "hp": 818,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "츄몬",
+            "digimonType": "Vi",
+            "level": 25,
+            "hp": 818,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "츄몬",
+            "digimonType": "Vi",
+            "level": 25,
+            "hp": 818,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 62, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "6",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "울퉁몬",
+            "digimonType": "Da",
+            "level": 26,
+            "hp": 1223,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "울퉁몬",
+            "digimonType": "Da",
+            "level": 26,
+            "hp": 1223,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "울퉁몬",
+            "digimonType": "Da",
+            "level": 26,
+            "hp": 1223,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 63, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "7",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "플롯트몬",
+            "digimonType": "Va",
+            "level": 27,
+            "hp": 1289,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "플롯트몬",
+            "digimonType": "Va",
+            "level": 27,
+            "hp": 1289,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "플롯트몬",
+            "digimonType": "Va",
+            "level": 27,
+            "hp": 1289,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 63, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "8",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "기자몬",
+            "digimonType": "Vi",
+            "level": 28,
+            "hp": 1365,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "레나몬",
+            "digimonType": "Da",
+            "level": 28,
+            "hp": 1165,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "쉬라몬",
+            "digimonType": "Va",
+            "level": 28,
+            "hp": 1267,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 63, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "9",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "머슈몬",
+            "digimonType": "Vi",
+            "level": 29,
+            "hp": 1143,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "톱니몬",
+            "digimonType": "Vi",
+            "level": 29,
+            "hp": 1810,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "가지몬",
+            "digimonType": "Vi",
+            "level": 29,
+            "hp": 1364,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 63, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "10",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "고부리몬",
+            "digimonType": "Vi",
+            "level": 30,
+            "hp": 1061,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "고부리몬",
+            "digimonType": "Vi",
+            "level": 30,
+            "hp": 1061,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "고부리몬",
+            "digimonType": "Vi",
+            "level": 30,
+            "hp": 1061,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 63, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 }
+        ]
+      },
+      {
+        "stage": "11",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "에렉몬",
+            "digimonType": "Da",
+            "level": 31,
+            "hp": 1321,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "피코데블몬",
+            "digimonType": "Vi",
+            "level": 31,
+            "hp": 1232,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "캔들몬",
+            "digimonType": "Da",
+            "level": 31,
+            "hp": 1013,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 65, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 },
+          { "itemId": 65, "count": 1 },
+          { "itemId": 291, "count": 3 }
+        ]
+      },
+      {
+        "stage": "12",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "브이몬",
+            "digimonType": "Fr",
+            "level": 32,
+            "hp": 1594,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "브이몬",
+            "digimonType": "Fr",
+            "level": 32,
+            "hp": 1594,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "브이몬",
+            "digimonType": "Fr",
+            "level": 32,
+            "hp": 1594,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 65, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 },
+          { "itemId": 65, "count": 1 },
+          { "itemId": 291, "count": 3 }
+        ]
+      },
+      {
+        "stage": "13",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "케라몬",
+            "digimonType": "Uk",
+            "level": 33,
+            "hp": 1262,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "케라몬",
+            "digimonType": "Uk",
+            "level": 33,
+            "hp": 1262,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "케라몬",
+            "digimonType": "Uk",
+            "level": 33,
+            "hp": 1262,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 65, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 },
+          { "itemId": 65, "count": 2 },
+          { "itemId": 291, "count": 3 }
+        ]
+      },
+      {
+        "stage": "14",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "아구몬",
+            "digimonType": "Va",
+            "level": 34,
+            "hp": 1557,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "그레이몬",
+            "digimonType": "Va",
+            "level": 34,
+            "hp": 3151,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "올챙몬",
+            "digimonType": "Vi",
+            "level": 34,
+            "hp": 945,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 65, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 },
+          { "itemId": 65, "count": 2 },
+          { "itemId": 291, "count": 3 }
+        ]
+      },
+      {
+        "stage": "15",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "파피몬",
+            "digimonType": "Da",
+            "level": 35,
+            "hp": 1446,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "가루몬",
+            "digimonType": "Va",
+            "level": 35,
+            "hp": 3015,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "쿠네몬",
+            "digimonType": "Vi",
+            "level": 35,
+            "hp": 1137,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 65, "count": 4 },
+          { "itemId": 44, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 3 },
+          { "itemId": 65, "count": 2 },
+          { "itemId": 291, "count": 3 }
+        ]
+      },
+      {
+        "stage": "16",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "피요몬",
+            "digimonType": "Va",
+            "level": 36,
+            "hp": 1130,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "버드라몬",
+            "digimonType": "Va",
+            "level": 36,
+            "hp": 2904,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "베타몬",
+            "digimonType": "Vi",
+            "level": 36,
+            "hp": 1202,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 66, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 65, "count": 4 },
+          { "itemId": 291, "count": 4 }
+        ]
+      },
+      {
+        "stage": "17",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "텐타몬",
+            "digimonType": "Va",
+            "level": 37,
+            "hp": 1050,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "캅테리몬",
+            "digimonType": "Va",
+            "level": 37,
+            "hp": 2980,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "가지몬",
+            "digimonType": "Vi",
+            "level": 37,
+            "hp": 1339,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 66, "count": 2 },
+          { "itemId": 37, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 65, "count": 4 },
+          { "itemId": 291, "count": 4 }
+        ]
+      },
+      {
+        "stage": "18",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "팔몬",
+            "digimonType": "Da",
+            "level": 38,
+            "hp": 1561,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "니드몬",
+            "digimonType": "Da",
+            "level": 38,
+            "hp": 4247,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "아기벌몬",
+            "digimonType": "Vi",
+            "level": 38,
+            "hp": 902,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 66, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 65, "count": 4 },
+          { "itemId": 291, "count": 4 }
+        ]
+      },
+      {
+        "stage": "19",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쉬라몬",
+            "digimonType": "Va",
+            "level": 39,
+            "hp": 1269,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "원뿔몬",
+            "digimonType": "Va",
+            "level": 39,
+            "hp": 3004,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "올챙몬",
+            "digimonType": "Vi",
+            "level": 39,
+            "hp": 1049,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 66, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 65, "count": 5 },
+          { "itemId": 291, "count": 4 }
+        ]
+      },
+      {
+        "stage": "20",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "파닥몬",
+            "digimonType": "Da",
+            "level": 40,
+            "hp": 1016,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "엔젤몬",
+            "digimonType": "Va",
+            "level": 40,
+            "hp": 2319,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "아기벌몬",
+            "digimonType": "Vi",
+            "level": 40,
+            "hp": 913,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 66, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 65, "count": 5 },
+          { "itemId": 291, "count": 4 }
+        ]
+      },
+      {
+        "stage": "21",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "플롯트몬",
+            "digimonType": "Va",
+            "level": 41,
+            "hp": 1402,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "가트몬",
+            "digimonType": "Va",
+            "level": 41,
+            "hp": 2062,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "피코데블몬",
+            "digimonType": "Vi",
+            "level": 41,
+            "hp": 1307,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 67, "count": 2 },
+          { "itemId": 44, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 66, "count": 3 },
+          { "itemId": 291, "count": 5 }
+        ]
+      },
+      {
+        "stage": "22",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쿠네몬",
+            "digimonType": "Vi",
+            "level": 42,
+            "hp": 1267,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "쿠가몬",
+            "digimonType": "Vi",
+            "level": 42,
+            "hp": 3253,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "레나몬",
+            "digimonType": "Da",
+            "level": 42,
+            "hp": 1267,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 67, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 66, "count": 3 },
+          { "itemId": 291, "count": 5 }
+        ]
+      },
+      {
+        "stage": "23",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "기자몬",
+            "digimonType": "Vi",
+            "level": 43,
+            "hp": 1493,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "시드라몬",
+            "digimonType": "Da",
+            "level": 43,
+            "hp": 3962,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "머슈몬",
+            "digimonType": "Vi",
+            "level": 43,
+            "hp": 1242,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 67, "count": 2 },
+          { "itemId": 37, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 66, "count": 3 },
+          { "itemId": 291, "count": 5 }
+        ]
+      },
+      {
+        "stage": "24",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "에렉몬",
+            "digimonType": "Da",
+            "level": 44,
+            "hp": 1426,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "쉘몬",
+            "digimonType": "Da",
+            "level": 44,
+            "hp": 4440,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "가지몬",
+            "digimonType": "Vi",
+            "level": 44,
+            "hp": 1491,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 67, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 67, "count": 2 },
+          { "itemId": 291, "count": 5 }
+        ]
+      },
+      {
+        "stage": "25",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "캔들몬",
+            "digimonType": "Da",
+            "level": 45,
+            "hp": 1100,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "메라몬",
+            "digimonType": "Da",
+            "level": 45,
+            "hp": 2790,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "레어몬",
+            "digimonType": "Vi",
+            "level": 45,
+            "hp": 2059,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 67, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 5 },
+          { "itemId": 67, "count": 2 },
+          { "itemId": 291, "count": 6 }
+        ]
+      },
+      {
+        "stage": "26",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "레나몬",
+            "digimonType": "Da",
+            "level": 46,
+            "hp": 1375,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "가드로몬",
+            "digimonType": "Vi",
+            "level": 46,
+            "hp": 2805,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "유니몬",
+            "digimonType": "Va",
+            "level": 46,
+            "hp": 2748,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 68, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 67, "count": 3 },
+          { "itemId": 291, "count": 6 }
+        ]
+      },
+      {
+        "stage": "27",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "츄몬",
+            "digimonType": "Vi",
+            "level": 47,
+            "hp": 989,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "워매몬",
+            "digimonType": "Vi",
+            "level": 47,
+            "hp": 2850,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "다크티라노몬",
+            "digimonType": "Vi",
+            "level": 47,
+            "hp": 3504,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 68, "count": 3 },
+          { "itemId": 44, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 67, "count": 3 },
+          { "itemId": 291, "count": 6 }
+        ]
+      },
+      {
+        "stage": "28",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "머슈몬",
+            "digimonType": "Vi",
+            "level": 48,
+            "hp": 1355,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "우드몬",
+            "digimonType": "Vi",
+            "level": 48,
+            "hp": 2862,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "데블몬",
+            "digimonType": "Vi",
+            "level": 48,
+            "hp": 2515,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 68, "count": 4 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 68, "count": 3 },
+          { "itemId": 291, "count": 7 }
+        ]
+      },
+      {
+        "stage": "29",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "피코데블몬",
+            "digimonType": "Vi",
+            "level": 49,
+            "hp": 1450,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "고스몬",
+            "digimonType": "Vi",
+            "level": 49,
+            "hp": 2095,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "아이스몬",
+            "digimonType": "Da",
+            "level": 49,
+            "hp": 3419,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 68, "count": 5 },
+          { "itemId": 37, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 68, "count": 3 },
+          { "itemId": 291, "count": 7 }
+        ]
+      },
+      {
+        "stage": "30",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "톱니몬",
+            "digimonType": "Vi",
+            "level": 50,
+            "hp": 2168,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "메카노몬",
+            "digimonType": "Vi",
+            "level": 50,
+            "hp": 3203,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "스파이더몬",
+            "digimonType": "Vi",
+            "level": 50,
+            "hp": 2449,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 2, "count": 20 },
+          { "itemId": 68, "count": 6 },
+          { "itemId": 177, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 1 },
+          { "itemId": 292, "count": 9 },
+          { "itemId": 68, "count": 4 },
+          { "itemId": 291, "count": 8 }
+        ]
+      }
+    ]
+  },
+  {
+    "mapName": "무한 산",
+    "reqItem": {
+      "id": 248,
+      "type": 7,
+      "name": "OF 접근권한 : C",
+      "price": 0,
+      "canTrade": false
+    },
+    "stages": [
+      {
+        "stage": "1",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쉘몬",
+            "digimonType": "Da",
+            "level": 41,
+            "hp": 2714,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "레오몬",
+            "digimonType": "Va",
+            "level": 41,
+            "hp": 2633,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "그레이몬",
+            "digimonType": "Va",
+            "level": 41,
+            "hp": 2370,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 306, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "2",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메라몬",
+            "digimonType": "Da",
+            "level": 41,
+            "hp": 1700,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "모털몬",
+            "digimonType": "Va",
+            "level": 41,
+            "hp": 2003,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "가루몬",
+            "digimonType": "Va",
+            "level": 41,
+            "hp": 2066,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 327, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "3",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "가드로몬",
+            "digimonType": "Vi",
+            "level": 42,
+            "hp": 2015,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "소울몬",
+            "digimonType": "Vi",
+            "level": 42,
+            "hp": 1873,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "버드라몬",
+            "digimonType": "Va",
+            "level": 42,
+            "hp": 1995,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 329, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "4",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "워매몬",
+            "digimonType": "Vi",
+            "level": 42,
+            "hp": 2038,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "말벌몬",
+            "digimonType": "Vi",
+            "level": 42,
+            "hp": 1913,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "캅테리몬",
+            "digimonType": "Va",
+            "level": 42,
+            "hp": 2038,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 331, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "5",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "우드몬",
+            "digimonType": "Vi",
+            "level": 43,
+            "hp": 2050,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "프리지몬",
+            "digimonType": "Va",
+            "level": 43,
+            "hp": 2746,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "니드몬",
+            "digimonType": "Da",
+            "level": 43,
+            "hp": 2910,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 333, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "6",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메카노몬",
+            "digimonType": "Vi",
+            "level": 43,
+            "hp": 2275,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "우가몬",
+            "digimonType": "Vi",
+            "level": 43,
+            "hp": 2007,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "원뿔몬",
+            "digimonType": "Va",
+            "level": 43,
+            "hp": 2050,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 335, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "7",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "고스몬",
+            "digimonType": "Vi",
+            "level": 44,
+            "hp": 1503,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "켄터스몬",
+            "digimonType": "Da",
+            "level": 44,
+            "hp": 1668,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "엔젤몬",
+            "digimonType": "Va",
+            "level": 44,
+            "hp": 1586,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 337, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "8",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "레어몬",
+            "digimonType": "Vi",
+            "level": 44,
+            "hp": 1277,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "브이드라몬",
+            "digimonType": "Va",
+            "level": 44,
+            "hp": 1833,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "가트몬",
+            "digimonType": "Va",
+            "level": 44,
+            "hp": 1297,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 339, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "9",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "유니몬",
+            "digimonType": "Va",
+            "level": 45,
+            "hp": 2009,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "구미호몬",
+            "digimonType": "Da",
+            "level": 45,
+            "hp": 1781,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "쿠가몬",
+            "digimonType": "Vi",
+            "level": 45,
+            "hp": 2051,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 86, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "10",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "다크티라노몬",
+            "digimonType": "Vi",
+            "level": 45,
+            "hp": 2551,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "해바라기몬",
+            "digimonType": "Da",
+            "level": 45,
+            "hp": 2737,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "시드라몬",
+            "digimonType": "Da",
+            "level": 45,
+            "hp": 2488,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 90, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 5 }
+        ]
+      },
+      {
+        "stage": "11",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "데블몬",
+            "digimonType": "Vi",
+            "level": 46,
+            "hp": 2053,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "모노크로몬",
+            "digimonType": "Da",
+            "level": 46,
+            "hp": 2430,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "그레이몬",
+            "digimonType": "Va",
+            "level": 46,
+            "hp": 2733,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 306, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 327, "count": 2 },
+          { "itemId": 291, "count": 6 }
+        ]
+      },
+      {
+        "stage": "12",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "스파이더몬",
+            "digimonType": "Vi",
+            "level": 46,
+            "hp": 1983,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "데블드라몬",
+            "digimonType": "Vi",
+            "level": 46,
+            "hp": 1983,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "가루몬",
+            "digimonType": "Va",
+            "level": 46,
+            "hp": 2383,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 327, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 329, "count": 2 },
+          { "itemId": 291, "count": 6 }
+        ]
+      },
+      {
+        "stage": "13",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "아이스몬",
+            "digimonType": "Da",
+            "level": 47,
+            "hp": 2794,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "두리몬",
+            "digimonType": "Da",
+            "level": 47,
+            "hp": 2041,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "버드라몬",
+            "digimonType": "Va",
+            "level": 47,
+            "hp": 2299,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 329, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 331, "count": 2 },
+          { "itemId": 291, "count": 6 }
+        ]
+      },
+      {
+        "stage": "14",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "스파이더몬",
+            "digimonType": "Vi",
+            "level": 47,
+            "hp": 1994,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "티라노몬",
+            "digimonType": "Da",
+            "level": 47,
+            "hp": 2513,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "캅테리몬",
+            "digimonType": "Va",
+            "level": 47,
+            "hp": 2349,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 331, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 333, "count": 2 },
+          { "itemId": 291, "count": 6 }
+        ]
+      },
+      {
+        "stage": "15",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "아이스몬",
+            "digimonType": "Da",
+            "level": 48,
+            "hp": 2809,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "꼬끼몬",
+            "digimonType": "Da",
+            "level": 48,
+            "hp": 2169,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "니드몬",
+            "digimonType": "Da",
+            "level": 48,
+            "hp": 3351,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 333, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 335, "count": 2 },
+          { "itemId": 291, "count": 6 }
+        ]
+      },
+      {
+        "stage": "16",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "레오몬",
+            "digimonType": "Va",
+            "level": 48,
+            "hp": 3068,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "스카몬",
+            "digimonType": "Vi",
+            "level": 48,
+            "hp": 2310,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "원뿔몬",
+            "digimonType": "Va",
+            "level": 48,
+            "hp": 2361,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 335, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 337, "count": 2 },
+          { "itemId": 291, "count": 7 }
+        ]
+      },
+      {
+        "stage": "17",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "모털몬",
+            "digimonType": "Va",
+            "level": 49,
+            "hp": 2346,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "플라이몬",
+            "digimonType": "Vi",
+            "level": 49,
+            "hp": 1967,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "구미호몬",
+            "digimonType": "Da",
+            "level": 49,
+            "hp": 2038,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 337, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 7 },
+          { "itemId": 339, "count": 2 },
+          { "itemId": 291, "count": 7 }
+        ]
+      },
+      {
+        "stage": "18",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "소울몬",
+            "digimonType": "Vi",
+            "level": 49,
+            "hp": 2180,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "개굴몬",
+            "digimonType": "Vi",
+            "level": 49,
+            "hp": 1919,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "해바라기몬",
+            "digimonType": "Da",
+            "level": 49,
+            "hp": 3131,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 339, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 8 },
+          { "itemId": 342, "count": 2 },
+          { "itemId": 291, "count": 7 }
+        ]
+      },
+      {
+        "stage": "19",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "말벌몬",
+            "digimonType": "Vi",
+            "level": 50,
+            "hp": 2239,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "두리몬",
+            "digimonType": "Da",
+            "level": 50,
+            "hp": 2072,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "모노크로몬",
+            "digimonType": "Da",
+            "level": 50,
+            "hp": 2480,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 261, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 8 },
+          { "itemId": 344, "count": 2 },
+          { "itemId": 291, "count": 7 }
+        ]
+      },
+      {
+        "stage": "20",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "프리지몬",
+            "digimonType": "Va",
+            "level": 50,
+            "hp": 3194,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "티라노몬",
+            "digimonType": "Da",
+            "level": 50,
+            "hp": 2551,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "데블드라몬",
+            "digimonType": "Vi",
+            "level": 50,
+            "hp": 2024,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 263, "count": 5 },
+          { "itemId": 272, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 8 },
+          { "itemId": 346, "count": 2 },
+          { "itemId": 291, "count": 7 }
+        ]
+      },
+      {
+        "stage": "21",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "우가몬",
+            "digimonType": "Vi",
+            "level": 51,
+            "hp": 3326,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "꼬끼몬",
+            "digimonType": "Da",
+            "level": 51,
+            "hp": 3122,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "우드몬",
+            "digimonType": "Vi",
+            "level": 51,
+            "hp": 3399,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 342, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 8 },
+          { "itemId": 348, "count": 2 },
+          { "itemId": 291, "count": 8 }
+        ]
+      },
+      {
+        "stage": "22",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "켄터스몬",
+            "digimonType": "Da",
+            "level": 52,
+            "hp": 2758,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "스카몬",
+            "digimonType": "Vi",
+            "level": 52,
+            "hp": 3337,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "메카노몬",
+            "digimonType": "Vi",
+            "level": 52,
+            "hp": 3785,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 344, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 8 },
+          { "itemId": 350, "count": 2 },
+          { "itemId": 291, "count": 8 }
+        ]
+      },
+      {
+        "stage": "23",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "브이드라몬",
+            "digimonType": "Va",
+            "level": 53,
+            "hp": 3042,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "플라이몬",
+            "digimonType": "Vi",
+            "level": 53,
+            "hp": 2836,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "고스몬",
+            "digimonType": "Vi",
+            "level": 53,
+            "hp": 2495,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 346, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 8 },
+          { "itemId": 354, "count": 2 },
+          { "itemId": 291, "count": 8 }
+        ]
+      },
+      {
+        "stage": "24",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쉘몬",
+            "digimonType": "Da",
+            "level": 54,
+            "hp": 4936,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "개굴몬",
+            "digimonType": "Vi",
+            "level": 54,
+            "hp": 2980,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "레어몬",
+            "digimonType": "Vi",
+            "level": 54,
+            "hp": 2281,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 348, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 8 },
+          { "itemId": 352, "count": 2 },
+          { "itemId": 291, "count": 8 }
+        ]
+      },
+      {
+        "stage": "25",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "시드라몬",
+            "digimonType": "Da",
+            "level": 55,
+            "hp": 4435,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "메라몬",
+            "digimonType": "Da",
+            "level": 55,
+            "hp": 3101,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "유니몬",
+            "digimonType": "Va",
+            "level": 55,
+            "hp": 3581,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 350, "count": 10 },
+          { "itemId": 272, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 9 },
+          { "itemId": 312, "count": 2 },
+          { "itemId": 291, "count": 9 }
+        ]
+      },
+      {
+        "stage": "26",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "아이스몬",
+            "digimonType": "Da",
+            "level": 56,
+            "hp": 4711,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "가드로몬",
+            "digimonType": "Vi",
+            "level": 56,
+            "hp": 3914,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "다크티라노몬",
+            "digimonType": "Vi",
+            "level": 56,
+            "hp": 4869,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 354, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 9 },
+          { "itemId": 314, "count": 2 },
+          { "itemId": 291, "count": 9 }
+        ]
+      },
+      {
+        "stage": "27",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "엔젤몬",
+            "digimonType": "Va",
+            "level": 57,
+            "hp": 3053,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "워매몬",
+            "digimonType": "Vi",
+            "level": 57,
+            "hp": 3972,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "데블몬",
+            "digimonType": "Vi",
+            "level": 57,
+            "hp": 3490,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 352, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 9 },
+          { "itemId": 316, "count": 2 },
+          { "itemId": 291, "count": 9 }
+        ]
+      },
+      {
+        "stage": "28",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "가트몬",
+            "digimonType": "Va",
+            "level": 58,
+            "hp": 2506,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "고스몬",
+            "digimonType": "Vi",
+            "level": 58,
+            "hp": 2903,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "쿠가몬",
+            "digimonType": "Vi",
+            "level": 58,
+            "hp": 3938,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 316, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 10 },
+          { "itemId": 261, "count": 3 },
+          { "itemId": 291, "count": 10 }
+        ]
+      },
+      {
+        "stage": "29",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쿠가몬",
+            "digimonType": "Vi",
+            "level": 59,
+            "hp": 4197,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "레어몬",
+            "digimonType": "Vi",
+            "level": 59,
+            "hp": 2628,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "시드라몬",
+            "digimonType": "Da",
+            "level": 59,
+            "hp": 5094,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 53, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 10 },
+          { "itemId": 263, "count": 3 },
+          { "itemId": 291, "count": 10 }
+        ]
+      },
+      {
+        "stage": "30",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "우가몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 4166,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "안드로몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4566,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "쉘몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 5704,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 4, "count": 20 },
+          { "itemId": 179, "count": 1 },
+          { "itemId": 272, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 59, "count": 2 },
+          { "itemId": 292, "count": 11 },
+          { "itemId": 306, "count": 1 },
+          { "itemId": 291, "count": 11 }
+        ]
+      }
+    ]
+  },
+  {
+    "mapName": "사막 지대",
+    "reqItem": {
+      "id": 249,
+      "type": 7,
+      "name": "OF 접근권한 : D",
+      "price": 0,
+      "canTrade": false
+    },
+    "stages": [
+      {
+        "stage": "1",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쉘몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 4697,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "레오몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4557,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "그레이몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4102,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 285, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "2",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메라몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 2941,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "모털몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 3466,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "가루몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 3577,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "3",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "가드로몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3466,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "소울몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3221,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "버드라몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 3431,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 287, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "4",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메가시드라몬",
+            "digimonType": "Da",
+            "level": 55,
+            "hp": 5544,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "캅테리몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 3507,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "워매몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3507,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 254, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "5",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "묘티스몬",
+            "digimonType": "Vi",
+            "level": 56,
+            "hp": 5423,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "니드몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 4977,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "우드몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3507,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "6",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "에테몬",
+            "digimonType": "Vi",
+            "level": 57,
+            "hp": 5857,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "원뿔몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 3757,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "유니몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 3639,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 68, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "7",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "피콜몬",
+            "digimonType": "Da",
+            "level": 58,
+            "hp": 4811,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "엔젤몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 2889,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "다크티라노몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 4620,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 289, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "8",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "팬텀몬",
+            "digimonType": "Vi",
+            "level": 59,
+            "hp": 2968,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "가트몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 2363,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "데블몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3301,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 254, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "9",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "캐논벌몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 6379,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "쿠가몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3961,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "유니몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 3881,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 82, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "10",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쥬레이몬",
+            "digimonType": "Vi",
+            "level": 61,
+            "hp": 6165,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "시드라몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 4808,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "다크티라노몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 4928,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 86, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 7 }
+        ]
+      },
+      {
+        "stage": "11",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "스콜피온몬",
+            "digimonType": "Da",
+            "level": 62,
+            "hp": 2645,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "그레이몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4688,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "데블몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3521,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 287, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 9 },
+          { "itemId": 291, "count": 9 }
+        ]
+      },
+      {
+        "stage": "12",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "도사몬",
+            "digimonType": "Da",
+            "level": 63,
+            "hp": 4746,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "가루몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4088,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "스파이더몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3401,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 9 },
+          { "itemId": 291, "count": 9 }
+        ]
+      },
+      {
+        "stage": "13",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "고래몬",
+            "digimonType": "Va",
+            "level": 64,
+            "hp": 6978,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "버드라몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4166,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "아이스몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 5066,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 287, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 9 },
+          { "itemId": 291, "count": 9 }
+        ]
+      },
+      {
+        "stage": "14",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "네오데블몬",
+            "digimonType": "Vi",
+            "level": 65,
+            "hp": 5015,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "캅테리몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4258,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "스파이더몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3614,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 254, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 9 },
+          { "itemId": 291, "count": 9 }
+        ]
+      },
+      {
+        "stage": "15",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "레이디데블몬",
+            "digimonType": "Vi",
+            "level": 65,
+            "hp": 4731,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "니드몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 6044,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "아이스몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 5066,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 9 },
+          { "itemId": 291, "count": 9 }
+        ]
+      },
+      {
+        "stage": "16",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "데이터몬",
+            "digimonType": "Vi",
+            "level": 66,
+            "hp": 4222,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "원뿔몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4258,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "레오몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 5534,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 68, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 11 },
+          { "itemId": 291, "count": 10 }
+        ]
+      },
+      {
+        "stage": "17",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "스컬그레이몬",
+            "digimonType": "Vi",
+            "level": 67,
+            "hp": 7189,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "구미호몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 3656,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "모털몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4209,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 289, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 11 },
+          { "itemId": 291, "count": 10 }
+        ]
+      },
+      {
+        "stage": "18",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "에어로브이드라몬",
+            "digimonType": "Va",
+            "level": 68,
+            "hp": 4681,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "해바라기몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 5617,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "소울몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3911,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 254, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 11 },
+          { "itemId": 291, "count": 10 }
+        ]
+      },
+      {
+        "stage": "19",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "왕개굴몬",
+            "digimonType": "Vi",
+            "level": 69,
+            "hp": 6469,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "모노크로몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 4428,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "말벌몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3996,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 82, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 11 },
+          { "itemId": 291, "count": 10 }
+        ]
+      },
+      {
+        "stage": "20",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메탈그레이몬",
+            "digimonType": "Va",
+            "level": 70,
+            "hp": 6151,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "데블드라몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3614,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "프리지몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 15211,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 90, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 11 },
+          { "itemId": 291, "count": 10 }
+        ]
+      },
+      {
+        "stage": "21",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "워가루몬",
+            "digimonType": "Va",
+            "level": 71,
+            "hp": 5060,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "우드몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 4258,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "우가몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 11111,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 285, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 12 },
+          { "itemId": 291, "count": 11 }
+        ]
+      },
+      {
+        "stage": "22",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "가루다몬",
+            "digimonType": "Va",
+            "level": 72,
+            "hp": 4882,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "메카노몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 4726,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "켄터스몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 9184,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 12 },
+          { "itemId": 291, "count": 11 }
+        ]
+      },
+      {
+        "stage": "23",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "아트라캅테리몬",
+            "digimonType": "Va",
+            "level": 73,
+            "hp": 4851,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "고스몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 3103,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "브이드라몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 10091,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 287, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 12 },
+          { "itemId": 291, "count": 11 }
+        ]
+      },
+      {
+        "stage": "24",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "릴리몬",
+            "digimonType": "Da",
+            "level": 74,
+            "hp": 4769,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "레어몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 2636,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "쉘몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 15211,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 254, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 12 },
+          { "itemId": 291, "count": 11 }
+        ]
+      },
+      {
+        "stage": "25",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쥬드몬",
+            "digimonType": "Va",
+            "level": 74,
+            "hp": 5788,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "아트라캅테리몬",
+            "digimonType": "Va",
+            "level": 73,
+            "hp": 5277,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "시드라몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 4207,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 12 },
+          { "itemId": 68, "count": 2 },
+          { "itemId": 291, "count": 12 }
+        ]
+      },
+      {
+        "stage": "26",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "홀리엔젤몬",
+            "digimonType": "Va",
+            "level": 75,
+            "hp": 4830,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "릴리몬",
+            "digimonType": "Da",
+            "level": 74,
+            "hp": 5186,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "아이스몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 4172,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 68, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 12 },
+          { "itemId": 254, "count": 2 },
+          { "itemId": 291, "count": 12 }
+        ]
+      },
+      {
+        "stage": "27",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "엔젤우몬",
+            "digimonType": "Va",
+            "level": 75,
+            "hp": 4101,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "쥬드몬",
+            "digimonType": "Va",
+            "level": 74,
+            "hp": 6294,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "엔젤몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 2696,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 289, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 68, "count": 3 },
+          { "itemId": 291, "count": 12 }
+        ]
+      },
+      {
+        "stage": "28",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "퍼펫몬",
+            "digimonType": "Va",
+            "level": 75,
+            "hp": 5611,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "홀리엔젤몬",
+            "digimonType": "Va",
+            "level": 75,
+            "hp": 5251,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "가트몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 2206,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 254, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 254, "count": 3 },
+          { "itemId": 291, "count": 13 }
+        ]
+      },
+      {
+        "stage": "29",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "데드메라몬",
+            "digimonType": "Da",
+            "level": 75,
+            "hp": 5857,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "엔젤우몬",
+            "digimonType": "Va",
+            "level": 75,
+            "hp": 4458,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "데드메라몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 6608,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 82, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 14 },
+          { "itemId": 68, "count": 5 },
+          { "itemId": 291, "count": 13 }
+        ]
+      },
+      {
+        "stage": "30",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "안드로몬",
+            "digimonType": "Va",
+            "level": 75,
+            "hp": 6367,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "에테몬",
+            "digimonType": "Vi",
+            "level": 75,
+            "hp": 6740,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "고래몬",
+            "digimonType": "Va",
+            "level": 65,
+            "hp": 8259,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 6, "count": 20 },
+          { "itemId": 12, "count": 20 },
+          { "itemId": 179, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 60, "count": 2 },
+          { "itemId": 292, "count": 14 },
+          { "itemId": 254, "count": 5 },
+          { "itemId": 291, "count": 14 }
+        ]
+      }
+    ]
+  },
+  {
+    "mapName": "어둠성 계곡",
+    "reqItem": {
+      "id": 250,
+      "type": 7,
+      "name": "OF 접근권한 : E",
+      "price": 0,
+      "canTrade": false
+    },
+    "stages": [
+      {
+        "stage": "1",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메탈그레이몬",
+            "digimonType": "Va",
+            "level": 71,
+            "hp": 6170,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "구미호몬",
+            "digimonType": "Da",
+            "level": 71,
+            "hp": 6509,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "캅테리몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4759,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 68, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "2",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "워가루몬",
+            "digimonType": "Va",
+            "level": 71,
+            "hp": 5506,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "해바라기몬",
+            "digimonType": "Da",
+            "level": 71,
+            "hp": 4725,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "레오몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 6185,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 285, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "3",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "가루다몬",
+            "digimonType": "Va",
+            "level": 71,
+            "hp": 4867,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "소울몬",
+            "digimonType": "Vi",
+            "level": 71,
+            "hp": 7922,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "모털몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 4704,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 287, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "4",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "아트라캅테리몬",
+            "digimonType": "Va",
+            "level": 71,
+            "hp": 5247,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "말벌몬",
+            "digimonType": "Vi",
+            "level": 71,
+            "hp": 5506,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "소울몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 4371,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 289, "count": 3 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "5",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "릴리몬",
+            "digimonType": "Da",
+            "level": 72,
+            "hp": 5573,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "스파이더몬",
+            "digimonType": "Vi",
+            "level": 72,
+            "hp": 6824,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "말벌몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 6824,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 68, "count": 12 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "6",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쥬드몬",
+            "digimonType": "Va",
+            "level": 72,
+            "hp": 6764,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "아이스몬",
+            "digimonType": "Da",
+            "level": 72,
+            "hp": 7792,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "프리지몬",
+            "digimonType": "Va",
+            "level": 60,
+            "hp": 8052,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 285, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "7",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "홀리엔젤몬",
+            "digimonType": "Va",
+            "level": 72,
+            "hp": 5628,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "꼬끼몬",
+            "digimonType": "Da",
+            "level": 72,
+            "hp": 7051,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "구미호몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 5161,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 287, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "8",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "엔젤우몬",
+            "digimonType": "Va",
+            "level": 72,
+            "hp": 4778,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "스카몬",
+            "digimonType": "Vi",
+            "level": 72,
+            "hp": 6028,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "해바라기몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 7932,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 289, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "9",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "안드로몬",
+            "digimonType": "Va",
+            "level": 73,
+            "hp": 6842,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "플라이몬",
+            "digimonType": "Vi",
+            "level": 73,
+            "hp": 5756,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "모노크로몬",
+            "digimonType": "Da",
+            "level": 60,
+            "hp": 6252,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 68, "count": 15 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "10",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "퍼펫몬",
+            "digimonType": "Va",
+            "level": 73,
+            "hp": 6554,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "다크티라노몬",
+            "digimonType": "Vi",
+            "level": 73,
+            "hp": 6782,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "다크티라노몬",
+            "digimonType": "Vi",
+            "level": 60,
+            "hp": 7392,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 11 }
+        ]
+      },
+      {
+        "stage": "11",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "데드메라몬",
+            "digimonType": "Da",
+            "level": 73,
+            "hp": 5821,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "메탈그레이몬",
+            "digimonType": "Va",
+            "level": 73,
+            "hp": 6753,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "에테몬",
+            "digimonType": "Vi",
+            "level": 70,
+            "hp": 7186,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 314, "count": 9 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 12 }
+        ]
+      },
+      {
+        "stage": "12",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메가시드라몬",
+            "digimonType": "Da",
+            "level": 73,
+            "hp": 5871,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "엔젤우몬",
+            "digimonType": "Va",
+            "level": 73,
+            "hp": 4433,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "피콜몬",
+            "digimonType": "Da",
+            "level": 70,
+            "hp": 5883,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 342, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 12 }
+        ]
+      },
+      {
+        "stage": "13",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "묘티스몬",
+            "digimonType": "Vi",
+            "level": 74,
+            "hp": 5741,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "데이터몬",
+            "digimonType": "Vi",
+            "level": 74,
+            "hp": 4708,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "팬텀몬",
+            "digimonType": "Vi",
+            "level": 70,
+            "hp": 3617,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 344, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 12 }
+        ]
+      },
+      {
+        "stage": "14",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "에테몬",
+            "digimonType": "Vi",
+            "level": 74,
+            "hp": 6181,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "스컬그레이몬",
+            "digimonType": "Vi",
+            "level": 74,
+            "hp": 7990,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "워가루몬",
+            "digimonType": "Va",
+            "level": 70,
+            "hp": 6384,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 346, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 12 }
+        ]
+      },
+      {
+        "stage": "15",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "피콜몬",
+            "digimonType": "Da",
+            "level": 74,
+            "hp": 5061,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "도사몬",
+            "digimonType": "Da",
+            "level": 74,
+            "hp": 5342,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "에테몬",
+            "digimonType": "Vi",
+            "level": 70,
+            "hp": 7726,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 348, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 12 }
+        ]
+      },
+      {
+        "stage": "16",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "팬텀몬",
+            "digimonType": "Vi",
+            "level": 74,
+            "hp": 3112,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "캐논벌몬",
+            "digimonType": "Vi",
+            "level": 74,
+            "hp": 7250,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "피콜몬",
+            "digimonType": "Da",
+            "level": 70,
+            "hp": 6326,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 350, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 13 }
+        ]
+      },
+      {
+        "stage": "17",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "캐논벌몬",
+            "digimonType": "Vi",
+            "level": 75,
+            "hp": 7271,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "쥬레이몬",
+            "digimonType": "Vi",
+            "level": 75,
+            "hp": 7003,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "아트라캅테리몬",
+            "digimonType": "Va",
+            "level": 70,
+            "hp": 6083,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 354, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 13 }
+        ]
+      },
+      {
+        "stage": "18",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "쥬레이몬",
+            "digimonType": "Vi",
+            "level": 75,
+            "hp": 7003,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "스콜피온몬",
+            "digimonType": "Da",
+            "level": 75,
+            "hp": 6579,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "메가시드라몬",
+            "digimonType": "Da",
+            "level": 70,
+            "hp": 7362,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 352, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 13 }
+        ]
+      },
+      {
+        "stage": "19",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "스콜피온몬",
+            "digimonType": "Da",
+            "level": 75,
+            "hp": 6579,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "도사몬",
+            "digimonType": "Da",
+            "level": 75,
+            "hp": 5357,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "메탈그레이몬",
+            "digimonType": "Va",
+            "level": 70,
+            "hp": 7298,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 316, "count": 9 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 13 }
+        ]
+      },
+      {
+        "stage": "20",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "도사몬",
+            "digimonType": "Da",
+            "level": 76,
+            "hp": 5802,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "고래몬",
+            "digimonType": "Va",
+            "level": 76,
+            "hp": 7874,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "데이터몬",
+            "digimonType": "Vi",
+            "level": 70,
+            "hp": 5411,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 13 },
+          { "itemId": 291, "count": 13 }
+        ]
+      },
+      {
+        "stage": "21",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "고래몬",
+            "digimonType": "Va",
+            "level": 76,
+            "hp": 7874,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "안드로몬",
+            "digimonType": "Va",
+            "level": 76,
+            "hp": 6896,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "릴리몬",
+            "digimonType": "Da",
+            "level": 70,
+            "hp": 5961,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 177, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 14 },
+          { "itemId": 291, "count": 14 }
+        ]
+      },
+      {
+        "stage": "22",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "네오데블몬",
+            "digimonType": "Vi",
+            "level": 76,
+            "hp": 6092,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "퍼펫몬",
+            "digimonType": "Va",
+            "level": 76,
+            "hp": 6117,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "쥬드몬",
+            "digimonType": "Va",
+            "level": 70,
+            "hp": 7234,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 261, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 14 },
+          { "itemId": 291, "count": 14 }
+        ]
+      },
+      {
+        "stage": "23",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "워가루몬",
+            "digimonType": "Va",
+            "level": 77,
+            "hp": 6914,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "데드메라몬",
+            "digimonType": "Da",
+            "level": 77,
+            "hp": 6403,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "홀리엔젤몬",
+            "digimonType": "Va",
+            "level": 70,
+            "hp": 6440,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 263, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 14 },
+          { "itemId": 291, "count": 14 }
+        ]
+      },
+      {
+        "stage": "24",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "데이터몬",
+            "digimonType": "Vi",
+            "level": 77,
+            "hp": 5126,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "가루다몬",
+            "digimonType": "Va",
+            "level": 77,
+            "hp": 5388,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "쥬레이몬",
+            "digimonType": "Vi",
+            "level": 70,
+            "hp": 8589,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 265, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 14 },
+          { "itemId": 291, "count": 14 }
+        ]
+      },
+      {
+        "stage": "25",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "스컬그레이몬",
+            "digimonType": "Vi",
+            "level": 77,
+            "hp": 8701,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "아트라캅테리몬",
+            "digimonType": "Va",
+            "level": 77,
+            "hp": 5337,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "팬텀몬",
+            "digimonType": "Vi",
+            "level": 70,
+            "hp": 4161,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 267, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 14 },
+          { "itemId": 291, "count": 15 },
+          { "itemId": 69, "count": 3 }
+        ]
+      },
+      {
+        "stage": "26",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "에어로브이드라몬",
+            "digimonType": "Va",
+            "level": 78,
+            "hp": 6079,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "퍼펫몬",
+            "digimonType": "Va",
+            "level": 78,
+            "hp": 6640,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "홀리엔젤몬",
+            "digimonType": "Va",
+            "level": 70,
+            "hp": 6440,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 269, "count": 15 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 14 },
+          { "itemId": 291, "count": 15 },
+          { "itemId": 254, "count": 3 }
+        ]
+      },
+      {
+        "stage": "27",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "왕개굴몬",
+            "digimonType": "Vi",
+            "level": 78,
+            "hp": 7800,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "데드메라몬",
+            "digimonType": "Da",
+            "level": 78,
+            "hp": 6932,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "엔젤우몬",
+            "digimonType": "Va",
+            "level": 70,
+            "hp": 5825,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 254, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 15 },
+          { "itemId": 291, "count": 15 },
+          { "itemId": 69, "count": 5 }
+        ]
+      },
+      {
+        "stage": "28",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "네오데블몬",
+            "digimonType": "Vi",
+            "level": 79,
+            "hp": 6590,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "메가시드라몬",
+            "digimonType": "Da",
+            "level": 79,
+            "hp": 7010,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "에어로브이드라몬",
+            "digimonType": "Va",
+            "level": 70,
+            "hp": 6795,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 82, "count": 20 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 15 },
+          { "itemId": 291, "count": 16 },
+          { "itemId": 254, "count": 5 }
+        ]
+      },
+      {
+        "stage": "29",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "고래몬",
+            "digimonType": "Va",
+            "level": 79,
+            "hp": 8570,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "레이디데블몬",
+            "digimonType": "Vi",
+            "level": 79,
+            "hp": 7971,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "왕개굴몬",
+            "digimonType": "Vi",
+            "level": 70,
+            "hp": 9361,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 179, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 16 },
+          { "itemId": 291, "count": 16 },
+          { "itemId": 69, "count": 7 }
+        ]
+      },
+      {
+        "stage": "30",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "묘티스몬",
+            "digimonType": "Vi",
+            "level": 80,
+            "hp": 7855,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "메가시드라몬",
+            "digimonType": "Da",
+            "level": 80,
+            "hp": 8058,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "릴리몬",
+            "digimonType": "Da",
+            "level": 80,
+            "hp": 6525,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 20 },
+          { "itemId": 14, "count": 20 },
+          { "itemId": 94, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 2 },
+          { "itemId": 292, "count": 16 },
+          { "itemId": 291, "count": 17 },
+          { "itemId": 254, "count": 7 }
+        ]
+      }
+    ]
+  },
+  {
+    "mapName": "국제 전시장",
+    "reqItem": {
+      "id": 251,
+      "type": 7,
+      "name": "OF 접근권한 : F",
+      "price": 0,
+      "canTrade": false
+    },
+    "stages": [
+      {
+        "stage": "1",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "팬텀몬",
+            "digimonType": "Vi",
+            "level": 86,
+            "hp": 7281,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "펌프몬",
+            "digimonType": "Da",
+            "level": 85,
+            "hp": 8678,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "팬텀몬",
+            "digimonType": "Vi",
+            "level": 86,
+            "hp": 7281,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 69, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "2",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "콩알몬",
+            "digimonType": "Da",
+            "level": 86,
+            "hp": 10476,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "콩알몬",
+            "digimonType": "Da",
+            "level": 86,
+            "hp": 10476,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "콩알몬",
+            "digimonType": "Da",
+            "level": 86,
+            "hp": 10476,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 285, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "3",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "패롯몬",
+            "digimonType": "Va",
+            "level": 86,
+            "hp": 9052,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "에테몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 11878,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "맘몬",
+            "digimonType": "Va",
+            "level": 86,
+            "hp": 12366,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "4",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메가시드라몬",
+            "digimonType": "Da",
+            "level": 86,
+            "hp": 11421,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "쥬레이몬",
+            "digimonType": "Vi",
+            "level": 86,
+            "hp": 12458,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "메탈티라노몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 11648,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 289, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "5",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "홀리엔젤몬",
+            "digimonType": "Va",
+            "level": 87,
+            "hp": 10030,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "피콜몬",
+            "digimonType": "Da",
+            "level": 86,
+            "hp": 10422,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "엔젤우몬",
+            "digimonType": "Va",
+            "level": 87,
+            "hp": 9003,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 287, "count": 5 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "6",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "브롯사몬",
+            "digimonType": "Da",
+            "level": 87,
+            "hp": 11878,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "뿌띠몬",
+            "digimonType": "Da",
+            "level": 86,
+            "hp": 12887,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "쥬레이몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 12345,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 69, "count": 13 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "7",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "퍼펫몬",
+            "digimonType": "Va",
+            "level": 87,
+            "hp": 11204,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "라일라몬",
+            "digimonType": "Da",
+            "level": 87,
+            "hp": 9109,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "배드퍼펫몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 11048,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 254, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "8",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메탈티라노몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 11172,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "메탈콩알몬",
+            "digimonType": "Da",
+            "level": 87,
+            "hp": 11030,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "메탈그레이몬",
+            "digimonType": "Va",
+            "level": 87,
+            "hp": 12144,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 285, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "9",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "드라고몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 11130,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "데드메라몬",
+            "digimonType": "Da",
+            "level": 88,
+            "hp": 12057,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "네오데블몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 11089,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 289, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "10",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "메탈그레이몬",
+            "digimonType": "Va",
+            "level": 87,
+            "hp": 12222,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "묘티스몬",
+            "digimonType": "Vi",
+            "level": 89,
+            "hp": 12218,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "워가루몬",
+            "digimonType": "Va",
+            "level": 87,
+            "hp": 12070,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 287, "count": 7 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 13 }
+        ]
+      },
+      {
+        "stage": "11",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "스컬그레이몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 14417,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "스컬맘몬",
+            "digimonType": "Va",
+            "level": 90,
+            "hp": 17115,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "스컬그레이몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 14417,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 15 },
+          { "itemId": 291, "count": 20 }
+        ]
+      },
+      {
+        "stage": "12",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "캐논벌몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 13079,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "타이거베스파몬",
+            "digimonType": "Vi",
+            "level": 90,
+            "hp": 14233,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "캐논벌몬",
+            "digimonType": "Vi",
+            "level": 87,
+            "hp": 13079,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 69, "count": 15 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 15 },
+          { "itemId": 291, "count": 20 }
+        ]
+      },
+      {
+        "stage": "13",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "디지타몬",
+            "digimonType": "Da",
+            "level": 88,
+            "hp": 12130,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "타이타몬",
+            "digimonType": "Vi",
+            "level": 90,
+            "hp": 17055,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "리벨리몬",
+            "digimonType": "Vi",
+            "level": 88,
+            "hp": 13065,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 177, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 15 },
+          { "itemId": 291, "count": 20 }
+        ]
+      },
+      {
+        "stage": "14",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "화이트레오몬",
+            "digimonType": "Va",
+            "level": 88,
+            "hp": 13161,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "메탈가루몬",
+            "digimonType": "Da",
+            "level": 90,
+            "hp": 16182,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "블루메라몬",
+            "digimonType": "Vi",
+            "level": 88,
+            "hp": 12080,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 52, "count": 2 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 15 },
+          { "itemId": 291, "count": 20 }
+        ]
+      },
+      {
+        "stage": "15",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "패롯몬",
+            "digimonType": "Va",
+            "level": 88,
+            "hp": 12149,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "페닉스몬",
+            "digimonType": "Va",
+            "level": 91,
+            "hp": 16103,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "패롯몬",
+            "digimonType": "Va",
+            "level": 88,
+            "hp": 12149,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 308, "count": 1 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 15 },
+          { "itemId": 291, "count": 20 }
+        ]
+      },
+      {
+        "stage": "16",
+        "monsters": [
+          {
+            "id": 1,
+            "name": "고래몬",
+            "digimonType": "Va",
+            "level": 88,
+            "hp": 14032,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "다이버몬",
+            "digimonType": "Da",
+            "level": 88,
+            "hp": 12015,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "프레시오몬",
+            "digimonType": "Da",
+            "level": 91,
+            "hp": 16084,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 244, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 61, "count": 3 },
+          { "itemId": 292, "count": 15 },
+          { "itemId": 291, "count": 21 }
+        ]
+      }
+    ]
+  }
+]

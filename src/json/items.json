@@ -1,1572 +1,1977 @@
 [
   { "id": 1, "type": 1, "name": "식빵", "price": 100, "canTrade": true },
-  { "id": 2, "type": 1, "name": "샌드위치", "price": 200, "canTrade": true },
-  { "id": 3, "type": 1, "name": "미트파이", "price": 500, "canTrade": true },
-  { "id": 4, "type": 1, "name": "햄버거", "price": 750, "canTrade": true },
-  { "id": 5, "type": 1, "name": "막대 사탕", "price": 100, "canTrade": true },
-  { "id": 6, "type": 1, "name": "팬케이크", "price": 200, "canTrade": true },
-  { "id": 7, "type": 1, "name": "조각케이크", "price": 500, "canTrade": true },
-  { "id": 8, "type": 1, "name": "밀크셰이크", "price": 750, "canTrade": true },
+  { "id": 2, "type": 1, "name": "식빵", "price": 0, "canTrade": false },
+  { "id": 3, "type": 1, "name": "샌드위치", "price": 200, "canTrade": true },
+  { "id": 4, "type": 1, "name": "샌드위치", "price": 0, "canTrade": false },
+  { "id": 5, "type": 1, "name": "미트파이", "price": 500, "canTrade": true },
+  { "id": 6, "type": 1, "name": "미트파이", "price": 0, "canTrade": false },
+  { "id": 7, "type": 1, "name": "햄버거", "price": 750, "canTrade": true },
+  { "id": 8, "type": 1, "name": "햄버거", "price": 0, "canTrade": false },
+  { "id": 9, "type": 1, "name": "막대 사탕", "price": 100, "canTrade": true },
+  { "id": 10, "type": 1, "name": "팬케이크", "price": 200, "canTrade": true },
+  { "id": 11, "type": 1, "name": "조각케이크", "price": 500, "canTrade": true },
+  { "id": 12, "type": 1, "name": "조각케이크", "price": 0, "canTrade": false },
+  { "id": 13, "type": 1, "name": "밀크셰이크", "price": 750, "canTrade": true },
+  { "id": 14, "type": 1, "name": "밀크셰이크", "price": 0, "canTrade": false },
   {
-    "id": 9,
+    "id": 15,
     "type": 1,
     "name": "디지몬 부활 칩",
     "price": 500,
     "canTrade": true
   },
   {
-    "id": 10,
+    "id": 16,
     "type": 1,
     "name": "EVP데이터 칩(중형)",
     "price": 4500,
     "canTrade": true
   },
-  { "id": 11, "type": 1, "name": "크루아상", "price": 0, "canTrade": true },
-  { "id": 12, "type": 1, "name": "에그 타르트", "price": 0, "canTrade": true },
-  { "id": 13, "type": 1, "name": "조각피자", "price": 0, "canTrade": true },
-  { "id": 14, "type": 1, "name": "소세지빵", "price": 0, "canTrade": true },
-  { "id": 15, "type": 1, "name": "우유", "price": 0, "canTrade": true },
-  { "id": 16, "type": 1, "name": "이온음료", "price": 0, "canTrade": true },
-  { "id": 17, "type": 1, "name": "홍차", "price": 0, "canTrade": true },
-  { "id": 18, "type": 1, "name": "버블티", "price": 0, "canTrade": true },
+  { "id": 17, "type": 1, "name": "크루아상", "price": 0, "canTrade": true },
+  { "id": 18, "type": 1, "name": "에그 타르트", "price": 0, "canTrade": true },
+  { "id": 19, "type": 1, "name": "조각피자", "price": 0, "canTrade": true },
+  { "id": 20, "type": 1, "name": "소세지빵", "price": 0, "canTrade": true },
+  { "id": 21, "type": 1, "name": "우유", "price": 0, "canTrade": true },
+  { "id": 22, "type": 1, "name": "이온음료", "price": 0, "canTrade": true },
+  { "id": 23, "type": 1, "name": "홍차", "price": 0, "canTrade": true },
+  { "id": 24, "type": 1, "name": "버블티", "price": 0, "canTrade": true },
   {
-    "id": 19,
+    "id": 25,
     "type": 1,
     "name": "EVP데이터 칩(소형)",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 20,
+    "id": 26,
     "type": 1,
     "name": "공격차지데이터 S",
     "price": 100,
     "canTrade": true
   },
   {
-    "id": 21,
+    "id": 27,
     "type": 1,
     "name": "공격차지데이터 L",
     "price": 500,
     "canTrade": true
   },
   {
-    "id": 22,
+    "id": 28,
     "type": 1,
     "name": "방어차지데이터 S",
     "price": 100,
     "canTrade": true
   },
   {
-    "id": 23,
+    "id": 29,
     "type": 1,
     "name": "방어차지데이터 L",
     "price": 500,
     "canTrade": true
   },
   {
-    "id": 24,
+    "id": 30,
     "type": 1,
     "name": "HP차지데이터 S",
     "price": 100,
     "canTrade": true
   },
   {
-    "id": 25,
+    "id": 31,
     "type": 1,
     "name": "HP차지데이터 L",
     "price": 500,
     "canTrade": true
   },
   {
-    "id": 26,
+    "id": 32,
     "type": 1,
     "name": "SP차지데이터 S",
     "price": 100,
     "canTrade": true
   },
   {
-    "id": 27,
+    "id": 33,
     "type": 1,
     "name": "SP차지데이터 L",
     "price": 500,
     "canTrade": true
   },
   {
-    "id": 28,
+    "id": 34,
     "type": 1,
     "name": "HP차지데이터 M",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 29,
+    "id": 35,
     "type": 1,
     "name": "SP차지데이터 M",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 30,
+    "id": 36,
     "type": 2,
     "name": "경험치 10% 증가 (1일)",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 31,
+    "id": 37,
     "type": 2,
     "name": "경험치 20% 증가 (1일)",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 32,
+    "id": 38,
     "type": 2,
     "name": "아이템 드랍률 25% (1일)",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 33,
+    "id": 39,
     "type": 2,
     "name": "아이템 드랍률 50% (1일)",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 34,
+    "id": 40,
     "type": 2,
     "name": "이동속도 15% 증가 (1일)",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 35,
+    "id": 41,
     "type": 2,
     "name": "이동속도 30% 증가 (1일)",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 36,
+    "id": 42,
     "type": 2,
     "name": "비트 획득율 50% (1일)",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 37,
+    "id": 43,
     "type": 2,
     "name": "비트 획득율 100% (1일)",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 38,
+    "id": 44,
+    "type": 2,
+    "name": "배틀속도 증가 (1일)",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 45,
     "type": 2,
     "name": "오래된 HDD 조합법",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 39,
+    "id": 46,
     "type": 2,
     "name": "고장난 USB 조합법",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 40,
+    "id": 47,
     "type": 2,
     "name": "완전체 스킬 강화석 조합법",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 41,
+    "id": 48,
     "type": 2,
     "name": "부서진 제로유니트 조합법",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 42,
+    "id": 49,
     "type": 2,
     "name": "빛나는 제로유니트 조합법",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 43,
+    "id": 50,
     "type": 2,
     "name": "외형 변경권",
     "price": 10000,
     "canTrade": false
   },
   {
-    "id": 44,
+    "id": 51,
     "type": 2,
     "name": "하급 포텐셜 랜덤 상자",
     "price": 0,
     "canTrade": true
   },
-  { "id": 45, "type": 3, "name": "구형 탐지기", "price": 0, "canTrade": true },
   {
-    "id": 46,
+    "id": 52,
+    "type": 2,
+    "name": "고급 유기농 먹이 팩(10개 선택)",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 53,
+    "type": 2,
+    "name": "부화가 임박한 성장기 디지타마 꾸러미1",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 54,
+    "type": 2,
+    "name": "성장기 디지코어 꾸러미",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 55,
+    "type": 2,
+    "name": "성숙기 디지코어 꾸러미",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 56,
+    "type": 2,
+    "name": "성숙기 디지코어 꾸러미",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 57,
+    "type": 2,
+    "name": "완전체 디지코어 꾸러미",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 58,
+    "type": 2,
+    "name": "궁극체 디지코어 꾸러미",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 59,
+    "type": 2,
+    "name": "포션박스 Lv.2",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 60,
+    "type": 2,
+    "name": "포션박스 Lv.3",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 61,
+    "type": 2,
+    "name": "포션박스 Lv.4",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 62,
+    "type": 2,
+    "name": "300 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 63,
+    "type": 2,
+    "name": "600 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 64,
+    "type": 2,
+    "name": "600 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 65,
+    "type": 2,
+    "name": "900 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 66,
+    "type": 2,
+    "name": "3000 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 67,
+    "type": 2,
+    "name": "6000 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 68,
+    "type": 2,
+    "name": "9000 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 69,
+    "type": 2,
+    "name": "12000 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 70,
+    "type": 2,
+    "name": "15000 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 71,
+    "type": 2,
+    "name": "18000 EXP 물약",
+    "price": 0,
+    "canTrade": false
+  },
+  { "id": 72, "type": 3, "name": "구형 탐지기", "price": 0, "canTrade": true },
+  {
+    "id": 73,
     "type": 3,
     "name": "보급형 탐지기",
     "price": 0,
     "canTrade": true
   },
-  { "id": 47, "type": 3, "name": "특수 탐지기", "price": 0, "canTrade": true },
-  { "id": 48, "type": 3, "name": "신형 탐지기", "price": 0, "canTrade": true },
-  { "id": 49, "type": 3, "name": "계곡 탐지기", "price": 0, "canTrade": true },
+  { "id": 74, "type": 3, "name": "특수 탐지기", "price": 0, "canTrade": true },
+  { "id": 75, "type": 3, "name": "신형 탐지기", "price": 0, "canTrade": true },
+  { "id": 76, "type": 3, "name": "계곡 탐지기", "price": 0, "canTrade": true },
   {
-    "id": 50,
+    "id": 77,
     "type": 3,
     "name": "현실 세계 A형 탐지기",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 51,
+    "id": 78,
     "type": 3,
     "name": "현실 세계 B형 탐지기",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 52,
+    "id": 79,
     "type": 4,
     "name": "성장기 스킬 강화석",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 53,
+    "id": 80,
     "type": 4,
     "name": "성숙기 스킬 강화석",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 54,
+    "id": 81,
     "type": 4,
     "name": "완전체 스킬 강화석",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 55,
+    "id": 82,
     "type": 4,
     "name": "완전체 스킬 강화석",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 56,
+    "id": 83,
     "type": 4,
     "name": "궁극체 스킬 강화석",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 57,
+    "id": 84,
     "type": 4,
     "name": "궁극체 스킬 강화석",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 58,
+    "id": 85,
     "type": 5,
     "name": "유년기1 디지타마(6시간)",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 59,
+    "id": 86,
+    "type": 5,
+    "name": "유년기1 디지타마(6시간)",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 87,
     "type": 5,
     "name": "유년기1 디지타마(3시간)",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 60,
+    "id": 88,
+    "type": 5,
+    "name": "유년기1 디지타마(3시간)",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 89,
     "type": 5,
     "name": "유년기2 디지타마(6시간)",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 61,
+    "id": 90,
+    "type": 5,
+    "name": "유년기2 디지타마(6시간)",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 91,
     "type": 5,
     "name": "유년기2 디지타마(3시간)",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 62,
+    "id": 92,
+    "type": 5,
+    "name": "유년기2 디지타마(3시간)",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 93,
     "type": 5,
     "name": "단단한 성장기 디지타마1",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 63,
+    "id": 94,
+    "type": 5,
+    "name": "단단한 성장기 디지타마1",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 95,
     "type": 6,
     "name": "부서진 츄몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 64,
+    "id": 96,
     "type": 6,
     "name": "부서진 고부리몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 65,
+    "id": 97,
     "type": 6,
     "name": "부서진 아기벌몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 66,
+    "id": 98,
     "type": 6,
     "name": "부서진 기자몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 67,
+    "id": 99,
     "type": 6,
     "name": "부서진 베타몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 68,
+    "id": 100,
     "type": 6,
     "name": "부서진 머슈몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 69,
+    "id": 101,
     "type": 6,
     "name": "부서진 쉘몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 70,
+    "id": 102,
     "type": 6,
     "name": "부서진 시드라몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 71,
+    "id": 103,
     "type": 6,
     "name": "부서진 레어몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 72,
+    "id": 104,
     "type": 6,
     "name": "부서진 캔들몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 73,
+    "id": 105,
     "type": 6,
     "name": "부서진 톱니몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 74,
+    "id": 106,
     "type": 6,
     "name": "부서진 메라몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 75,
+    "id": 107,
     "type": 6,
     "name": "부서진 말벌몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 76,
+    "id": 108,
     "type": 6,
     "name": "부서진 니드몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 77,
+    "id": 109,
     "type": 6,
     "name": "부서진 우드몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 78,
+    "id": 110,
     "type": 6,
     "name": "부서진 유니몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 79,
+    "id": 111,
     "type": 6,
     "name": "부서진 안드로몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 80,
-    "type": 6,
-    "name": "부서진 퍼펫몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 81,
-    "type": 6,
-    "name": "부서진 고스몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 82,
-    "type": 6,
-    "name": "부서진 소울몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 83,
-    "type": 6,
-    "name": "부서진 원뿔몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 84,
-    "type": 6,
-    "name": "부서진 우가몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 85,
-    "type": 6,
-    "name": "부서진 프리지몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 86,
-    "type": 6,
-    "name": "부서진 켄터스몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 87,
-    "type": 6,
-    "name": "부서진 다크티라노몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 88,
-    "type": 6,
-    "name": "부서진 가지몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 89,
-    "type": 6,
-    "name": "부서진 가드로몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 90,
-    "type": 6,
-    "name": "부서진 울퉁몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 91,
-    "type": 6,
-    "name": "부서진 모노크로몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 92,
-    "type": 6,
-    "name": "부서진 두리몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 93,
-    "type": 6,
-    "name": "부서진 스카몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 94,
-    "type": 6,
-    "name": "부서진 메카노몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 95,
-    "type": 6,
-    "name": "부서진 워매몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 96,
-    "type": 6,
-    "name": "부서진 브이드라몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 97,
-    "type": 6,
-    "name": "부서진 데드메라몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 98,
-    "type": 6,
-    "name": "부서진 스컬그레이몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 99,
-    "type": 6,
-    "name": "부서진 스콜피온몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 100,
-    "type": 6,
-    "name": "부서진 퍼펫몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 101,
-    "type": 6,
-    "name": "부서진 플라이몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 102,
-    "type": 6,
-    "name": "부서진 개굴몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 103,
-    "type": 6,
-    "name": "부서진 꼬끼몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 104,
-    "type": 6,
-    "name": "부서진 티라노몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 105,
-    "type": 6,
-    "name": "부서진 쥬레이몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 106,
-    "type": 6,
-    "name": "부서진 캅테리몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 107,
-    "type": 6,
-    "name": "부서진 데블드라몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 108,
-    "type": 6,
-    "name": "부서진 메탈시드라몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 109,
-    "type": 6,
-    "name": "부서진 스파이더몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 110,
-    "type": 6,
-    "name": "부서진 쿠가몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
-    "id": 111,
-    "type": 6,
-    "name": "부서진 올챙몬 디지코어",
-    "price": 0,
-    "canTrade": true
-  },
-  {
     "id": 112,
     "type": 6,
-    "name": "부서진 코에몬 디지코어",
+    "name": "부서진 퍼펫몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 113,
     "type": 6,
-    "name": "부서진 고릴라몬 디지코어",
+    "name": "부서진 고스몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 114,
     "type": 6,
-    "name": "부서진 그레이몬 디지코어",
+    "name": "부서진 소울몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 115,
     "type": 6,
-    "name": "부서진 멧돼지몬 디지코어",
+    "name": "부서진 원뿔몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 116,
     "type": 6,
-    "name": "부서진 태스크몬 디지코어",
+    "name": "부서진 우가몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 117,
     "type": 6,
-    "name": "부서진 버드라몬 디지코어",
+    "name": "부서진 프리지몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 118,
     "type": 6,
-    "name": "부서진 디지타몬 디지코어",
+    "name": "부서진 켄터스몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 119,
     "type": 6,
-    "name": "부서진 탱크몬 디지코어",
+    "name": "부서진 다크티라노몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 120,
     "type": 6,
-    "name": "부서진 델타몬 디지코어",
+    "name": "부서진 가지몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 121,
     "type": 6,
-    "name": "부서진 리벨리몬 디지코어",
+    "name": "부서진 가드로몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 122,
     "type": 6,
-    "name": "부서진 캐논벌몬 디지코어",
+    "name": "부서진 울퉁몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 123,
     "type": 6,
-    "name": "부서진 트리케라몬 디지코어",
+    "name": "부서진 모노크로몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 124,
     "type": 6,
-    "name": "부서진 패롯몬 디지코어",
+    "name": "부서진 두리몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 125,
     "type": 6,
-    "name": "부서진 에어드라몬 디지코어",
+    "name": "부서진 스카몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 126,
     "type": 6,
-    "name": "부서진 브롯사몬 디지코어",
+    "name": "부서진 메카노몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 127,
     "type": 6,
-    "name": "부서진 이블몬 디지코어",
+    "name": "부서진 워매몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 128,
     "type": 6,
-    "name": "부서진 해바라기몬 디지코어",
+    "name": "부서진 브이드라몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 129,
     "type": 6,
-    "name": "부서진 가비지몬 디지코어",
+    "name": "부서진 데드메라몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 130,
     "type": 6,
-    "name": "부서진 아이스몬 디지코어",
+    "name": "부서진 스컬그레이몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 131,
     "type": 6,
-    "name": "부서진 데이터몬 디지코어",
+    "name": "부서진 스콜피온몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 132,
     "type": 6,
-    "name": "부서진 맘몬 디지코어",
+    "name": "부서진 퍼펫몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 133,
     "type": 6,
-    "name": "부서진 메가시드라몬 디지코어",
+    "name": "부서진 플라이몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 134,
     "type": 6,
-    "name": "부서진 미스티몬 디지코어",
+    "name": "부서진 개굴몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 135,
     "type": 6,
-    "name": "부서진 콩알몬 디지코어",
+    "name": "부서진 꼬끼몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 136,
     "type": 6,
-    "name": "부서진 크리사리몬 디지코어",
+    "name": "부서진 티라노몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 137,
     "type": 6,
-    "name": "부서진 모야몬 디지코어",
+    "name": "부서진 쥬레이몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 138,
     "type": 6,
-    "name": "부서진 메가드라몬 디지코어",
+    "name": "부서진 캅테리몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 139,
     "type": 6,
-    "name": "부서진 기가드라몬 디지코어",
+    "name": "부서진 데블드라몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 140,
     "type": 6,
-    "name": "부서진 스나이몬 디지코어",
+    "name": "부서진 메탈시드라몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 141,
     "type": 6,
-    "name": "부서진 에이프몬 디지코어",
+    "name": "부서진 스파이더몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 142,
     "type": 6,
-    "name": "부서진 마스터티라노몬 디지코어",
+    "name": "부서진 쿠가몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 143,
     "type": 6,
-    "name": "부서진 고래몬 디지코어",
+    "name": "부서진 올챙몬 디지코어",
     "price": 0,
     "canTrade": true
   },
   {
     "id": 144,
+    "type": 6,
+    "name": "부서진 코에몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 145,
+    "type": 6,
+    "name": "부서진 고릴라몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 146,
+    "type": 6,
+    "name": "부서진 그레이몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 147,
+    "type": 6,
+    "name": "부서진 멧돼지몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 148,
+    "type": 6,
+    "name": "부서진 태스크몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 149,
+    "type": 6,
+    "name": "부서진 버드라몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 150,
+    "type": 6,
+    "name": "부서진 디지타몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 151,
+    "type": 6,
+    "name": "부서진 탱크몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 152,
+    "type": 6,
+    "name": "부서진 델타몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 153,
+    "type": 6,
+    "name": "부서진 리벨리몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 154,
+    "type": 6,
+    "name": "부서진 캐논벌몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 155,
+    "type": 6,
+    "name": "부서진 트리케라몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 156,
+    "type": 6,
+    "name": "부서진 패롯몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 157,
+    "type": 6,
+    "name": "부서진 에어드라몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 158,
+    "type": 6,
+    "name": "부서진 브롯사몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 159,
+    "type": 6,
+    "name": "부서진 이블몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 160,
+    "type": 6,
+    "name": "부서진 해바라기몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 161,
+    "type": 6,
+    "name": "부서진 가비지몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 162,
+    "type": 6,
+    "name": "부서진 아이스몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 163,
+    "type": 6,
+    "name": "부서진 데이터몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 164,
+    "type": 6,
+    "name": "부서진 맘몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 165,
+    "type": 6,
+    "name": "부서진 메가시드라몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 166,
+    "type": 6,
+    "name": "부서진 미스티몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 167,
+    "type": 6,
+    "name": "부서진 콩알몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 168,
+    "type": 6,
+    "name": "부서진 크리사리몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 169,
+    "type": 6,
+    "name": "부서진 모야몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 170,
+    "type": 6,
+    "name": "부서진 메가드라몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 171,
+    "type": 6,
+    "name": "부서진 기가드라몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 172,
+    "type": 6,
+    "name": "부서진 스나이몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 173,
+    "type": 6,
+    "name": "부서진 에이프몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 174,
+    "type": 6,
+    "name": "부서진 마스터티라노몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 175,
+    "type": 6,
+    "name": "부서진 고래몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 176,
+    "type": 6,
+    "name": "완전한 성숙기 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 177,
+    "type": 6,
+    "name": "완전한 성숙기 디지코어",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 178,
+    "type": 6,
+    "name": "완전한 완전체 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 179,
+    "type": 6,
+    "name": "완전한 완전체 디지코어",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 180,
     "type": 7,
     "name": "고장난 디스켓",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 145,
+    "id": 181,
     "type": 7,
     "name": "오래된 디스켓",
     "price": 0,
     "canTrade": true
   },
-  { "id": 146, "type": 7, "name": "고장난 HDD", "price": 0, "canTrade": true },
-  { "id": 147, "type": 7, "name": "오래된 HDD", "price": 0, "canTrade": true },
-  { "id": 148, "type": 7, "name": "고장난 USB", "price": 0, "canTrade": true },
-  { "id": 149, "type": 7, "name": "오래된 USB", "price": 0, "canTrade": true },
+  { "id": 182, "type": 7, "name": "고장난 HDD", "price": 0, "canTrade": true },
+  { "id": 183, "type": 7, "name": "오래된 HDD", "price": 0, "canTrade": true },
+  { "id": 184, "type": 7, "name": "고장난 USB", "price": 0, "canTrade": true },
+  { "id": 185, "type": 7, "name": "오래된 USB", "price": 0, "canTrade": true },
   {
-    "id": 150,
+    "id": 186,
     "type": 7,
     "name": "고부리몬의 어금니",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 151,
+    "id": 187,
     "type": 7,
     "name": "아기벌몬의 작은 날개",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 152,
+    "id": 188,
     "type": 7,
     "name": "기자몬의 칼날 지느러미",
     "price": 0,
     "canTrade": true
   },
-  { "id": 153, "type": 7, "name": "베타몬의 볏", "price": 0, "canTrade": true },
+  { "id": 189, "type": 7, "name": "베타몬의 볏", "price": 0, "canTrade": true },
   {
-    "id": 154,
+    "id": 190,
     "type": 7,
     "name": "머슈몬의 버섯 포자",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 155,
+    "id": 191,
     "type": 7,
     "name": "캔들몬의 촛농",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 156,
+    "id": 192,
     "type": 7,
     "name": "톱니몬의 이 빠진 톱니바퀴",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 157,
+    "id": 193,
     "type": 7,
     "name": "말벌몬의 더듬이",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 158,
+    "id": 194,
     "type": 7,
     "name": "고스몬의 천조각",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 159,
+    "id": 195,
     "type": 7,
     "name": "고부리몬의 몽둥이",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 160,
+    "id": 196,
     "type": 7,
     "name": "우드몬의 나무조각",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 161,
+    "id": 197,
     "type": 7,
     "name": "소울몬의 모자",
     "price": 0,
     "canTrade": true
   },
-  { "id": 162, "type": 7, "name": "원뿔몬의 뿔", "price": 0, "canTrade": true },
-  { "id": 163, "type": 7, "name": "말벌몬의 독", "price": 0, "canTrade": true },
+  { "id": 198, "type": 7, "name": "원뿔몬의 뿔", "price": 0, "canTrade": true },
+  { "id": 199, "type": 7, "name": "말벌몬의 독", "price": 0, "canTrade": true },
   {
-    "id": 164,
+    "id": 200,
     "type": 7,
     "name": "유니몬의 날개 깃털",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 165,
+    "id": 201,
     "type": 7,
     "name": "시드라몬의 꼬리",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 166,
+    "id": 202,
     "type": 7,
     "name": "프리지몬의 단추",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 167,
+    "id": 203,
     "type": 7,
     "name": "켄터스몬의 견갑",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 168,
+    "id": 204,
     "type": 7,
     "name": "다크티라노몬의 가죽 띠",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 169,
+    "id": 205,
     "type": 7,
     "name": "가드로몬의 철판 조각",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 170,
+    "id": 206,
     "type": 7,
     "name": "우가몬의 이빨",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 171,
+    "id": 207,
     "type": 7,
     "name": "모노크로몬의 발톱",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 172,
+    "id": 208,
     "type": 7,
     "name": "두리몬의 드릴",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 173,
+    "id": 209,
     "type": 7,
     "name": "말벌몬의 철판 조각",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 174,
+    "id": 210,
     "type": 7,
     "name": "스카몬의 반지",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 175,
+    "id": 211,
     "type": 7,
     "name": "메카노몬의 전선 조각",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 176,
+    "id": 212,
     "type": 7,
     "name": "워매몬의 점액",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 177,
+    "id": 213,
     "type": 7,
     "name": "브이드라몬의 뿔",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 178,
+    "id": 214,
     "type": 7,
     "name": "데드메라몬의 사슬",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 179,
+    "id": 215,
     "type": 7,
     "name": "스컬그레이몬의 꼬리뼈",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 180,
+    "id": 216,
     "type": 7,
     "name": "스콜피온몬의 칼날",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 181,
+    "id": 217,
     "type": 7,
     "name": "퍼펫몬의 지퍼",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 182,
+    "id": 218,
     "type": 7,
     "name": "플라이몬의 날개",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 183,
+    "id": 219,
     "type": 7,
     "name": "원뿔몬의 어금니",
     "price": 0,
     "canTrade": true
   },
-  { "id": 184, "type": 7, "name": "개굴몬의 혀", "price": 0, "canTrade": true },
+  { "id": 220, "type": 7, "name": "개굴몬의 혀", "price": 0, "canTrade": true },
   {
-    "id": 185,
+    "id": 221,
     "type": 7,
     "name": "스콜피온몬의 촉수",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 186,
+    "id": 222,
     "type": 7,
     "name": "다크티라노몬의 발톱",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 187,
+    "id": 223,
     "type": 7,
     "name": "꼬끼몬의 꼬리깃털",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 188,
+    "id": 224,
     "type": 7,
     "name": "말벌몬의 가시",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 189,
+    "id": 225,
     "type": 7,
     "name": "티라노몬의 꼬리",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 190,
+    "id": 226,
     "type": 7,
     "name": "우가몬의 팔보호대",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 191,
+    "id": 227,
     "type": 7,
     "name": "우드몬의 진액",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 192,
+    "id": 228,
     "type": 7,
     "name": "메카노몬의 강철 손가락",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 193,
+    "id": 229,
     "type": 7,
     "name": "쥬레이몬의 체리",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 194,
+    "id": 230,
     "type": 7,
     "name": "캅테리몬의 날개",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 195,
+    "id": 231,
     "type": 7,
     "name": "데블드라몬의 발톱",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 196,
+    "id": 232,
     "type": 7,
     "name": "메가시드라몬의 뿔",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 197,
+    "id": 233,
     "type": 7,
     "name": "스카몬의 가죽 띠",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 198,
+    "id": 234,
     "type": 7,
     "name": "스파이더몬의 거미줄",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 199,
+    "id": 235,
     "type": 7,
     "name": "쿠가몬의 집게",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 200,
+    "id": 236,
     "type": 7,
     "name": "시드라몬의 지느러미",
     "price": 0,
     "canTrade": true
   },
-  { "id": 201, "type": 7, "name": "우가몬의 뿔", "price": 0, "canTrade": true },
+  { "id": 237, "type": 7, "name": "우가몬의 뿔", "price": 0, "canTrade": true },
   {
-    "id": 202,
+    "id": 238,
     "type": 7,
     "name": "고스몬의 이빨",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 203,
+    "id": 239,
     "type": 7,
     "name": "소울몬의 천조각",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 204,
+    "id": 240,
     "type": 7,
     "name": "스파이더몬의 털",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 205,
+    "id": 241,
     "type": 7,
     "name": "플라이몬의 더듬이",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 206,
+    "id": 242,
     "type": 7,
     "name": "최하급 스킬 보호석 조각",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 207,
+    "id": 243,
+    "type": 7,
+    "name": "최하급 스킬 보호석",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 244,
     "type": 7,
     "name": "최하급 스킬 보호석",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 208,
+    "id": 245,
     "type": 7,
     "name": "스킬 강화석 변환제",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 209,
+    "id": 246,
     "type": 7,
     "name": "스킬 강화석 변환제",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 210,
+    "id": 247,
     "type": 7,
     "name": "OF 접근권한 : B",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 211,
+    "id": 248,
     "type": 7,
     "name": "OF 접근권한 : C",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 212,
+    "id": 249,
     "type": 7,
     "name": "OF 접근권한 : D",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 213,
+    "id": 250,
     "type": 7,
     "name": "OF 접근권한 : E",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 214,
+    "id": 251,
     "type": 7,
     "name": "OF 접근권한 : F",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 215,
+    "id": 252,
     "type": 7,
     "name": "OF 접근권한 : ZERO",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 216,
+    "id": 253,
     "type": 7,
     "name": "고급 강화 재료",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 217,
+    "id": 254,
+    "type": 7,
+    "name": "고급 강화 재료",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 255,
     "type": 7,
     "name": "최고급 강화 재료",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 218,
+    "id": 256,
     "type": 7,
     "name": "최하급 비밀 첨가제",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 219,
+    "id": 257,
     "type": 7,
     "name": "하급 비밀 첨가제",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 220,
+    "id": 258,
     "type": 7,
     "name": "최하급 조합 촉매제",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 221,
+    "id": 259,
     "type": 7,
     "name": "하급 조합 촉매제",
     "price": 0,
     "canTrade": false
   },
-  { "id": 222, "type": 7, "name": "힘 고정책", "price": 0, "canTrade": true },
-  { "id": 223, "type": 7, "name": "지능 고정책", "price": 0, "canTrade": true },
-  { "id": 224, "type": 7, "name": "수비 고정책", "price": 0, "canTrade": true },
-  { "id": 225, "type": 7, "name": "저항 고정책", "price": 0, "canTrade": true },
-  { "id": 226, "type": 7, "name": "속도 고정책", "price": 0, "canTrade": true },
+  { "id": 260, "type": 7, "name": "힘 고정책", "price": 0, "canTrade": true },
+  { "id": 261, "type": 7, "name": "힘 고정책", "price": 0, "canTrade": false },
+  { "id": 262, "type": 7, "name": "지능 고정책", "price": 0, "canTrade": true },
   {
-    "id": 227,
+    "id": 263,
+    "type": 7,
+    "name": "지능 고정책",
+    "price": 0,
+    "canTrade": false
+  },
+  { "id": 264, "type": 7, "name": "수비 고정책", "price": 0, "canTrade": true },
+  {
+    "id": 265,
+    "type": 7,
+    "name": "수비 고정책",
+    "price": 0,
+    "canTrade": false
+  },
+  { "id": 266, "type": 7, "name": "저항 고정책", "price": 0, "canTrade": true },
+  {
+    "id": 267,
+    "type": 7,
+    "name": "저항 고정책",
+    "price": 0,
+    "canTrade": false
+  },
+  { "id": 268, "type": 7, "name": "속도 고정책", "price": 0, "canTrade": true },
+  {
+    "id": 269,
+    "type": 7,
+    "name": "속도 고정책",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 270,
     "type": 7,
     "name": "찢겨진 고정책",
     "price": 0,
     "canTrade": true
   },
-  { "id": 228, "type": 7, "name": "에보류터", "price": 0, "canTrade": true },
-  { "id": 229, "type": 7, "name": "에보류터", "price": 0, "canTrade": false },
-  { "id": 230, "type": 7, "name": "제로유니트", "price": 0, "canTrade": true },
-  { "id": 231, "type": 7, "name": "제로유니트", "price": 0, "canTrade": false },
+  { "id": 271, "type": 7, "name": "4% 고정책", "price": 0, "canTrade": true },
+  { "id": 272, "type": 7, "name": "4% 고정책", "price": 0, "canTrade": false },
+  { "id": 273, "type": 7, "name": "5% 고정책", "price": 0, "canTrade": true },
+  { "id": 274, "type": 7, "name": "5% 고정책", "price": 0, "canTrade": false },
+  { "id": 275, "type": 7, "name": "에보류터", "price": 0, "canTrade": true },
+  { "id": 276, "type": 7, "name": "에보류터", "price": 0, "canTrade": false },
   {
-    "id": 232,
+    "id": 277,
+    "type": 7,
+    "name": "사이코 블래스터",
+    "price": 0,
+    "canTrade": true
+  },
+  { "id": 278, "type": 7, "name": "메가 핸드", "price": 0, "canTrade": true },
+  {
+    "id": 279,
+    "type": 7,
+    "name": "안드로몬의 머리보호대",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 280,
+    "type": 7,
+    "name": "트라이던트 암",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 281,
+    "type": 7,
+    "name": "메탈그레이몬의 흉갑",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 282,
+    "type": 7,
+    "name": "메가드라몬의 투구",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 283,
+    "type": 7,
+    "name": "파워드라몬 개조파츠",
+    "price": 0,
+    "canTrade": false
+  },
+  { "id": 284, "type": 7, "name": "제로유니트", "price": 0, "canTrade": true },
+  { "id": 285, "type": 7, "name": "제로유니트", "price": 0, "canTrade": false },
+  {
+    "id": 286,
     "type": 7,
     "name": "부서진 제로유니트",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 233,
+    "id": 287,
     "type": 7,
     "name": "부서진 제로유니트",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 234,
+    "id": 288,
     "type": 7,
     "name": "빛나는 제로유니트",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 235,
+    "id": 289,
     "type": 7,
     "name": "빛나는 제로유니트",
     "price": 0,
     "canTrade": false
   },
+  { "id": 290, "type": 7, "name": "포텐셜 조각", "price": 0, "canTrade": true },
   {
-    "id": 236,
+    "id": 291,
+    "type": 7,
+    "name": "포텐셜 조각",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 292,
+    "type": 7,
+    "name": "Data : 미허가",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 293,
+    "type": 7,
+    "name": "Data : 신호",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 294,
+    "type": 7,
+    "name": "세계수 잎 디지코드",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 295,
     "type": 7,
     "name": "찢어진 천 조각",
     "price": 0,
     "canTrade": false
   },
-  { "id": 237, "type": 7, "name": "비단 원단", "price": 0, "canTrade": true },
+  { "id": 296, "type": 7, "name": "비단 원단", "price": 0, "canTrade": true },
   {
-    "id": 238,
+    "id": 297,
     "type": 7,
     "name": "디지몬 음식 믹서기",
     "price": 0,
     "canTrade": true
   },
-  { "id": 239, "type": 8, "name": "씨앗", "price": 0, "canTrade": false },
-  { "id": 240, "type": 8, "name": "시원한 물", "price": 50, "canTrade": true },
+  { "id": 298, "type": 8, "name": "씨앗", "price": 0, "canTrade": false },
+  { "id": 299, "type": 8, "name": "시원한 물", "price": 50, "canTrade": true },
   {
-    "id": 241,
+    "id": 300,
     "type": 8,
     "name": "말벌몬의 보물",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 242,
+    "id": 301,
     "type": 8,
     "name": "데뀨 철창 열쇠 꾸러미",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 243,
+    "id": 302,
     "type": 8,
     "name": "데뀨 철창 열쇠 꾸러미2",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 244,
+    "id": 303,
     "type": 8,
     "name": "지하감옥 열쇠",
     "price": 0,
     "canTrade": false
   },
   {
-    "id": 245,
+    "id": 304,
     "type": 8,
     "name": "진홍빛 겹눈",
     "price": 0,
     "canTrade": false
   },
-  { "id": 246, "type": 9, "name": "탱탱볼", "price": 2000, "canTrade": true },
   {
-    "id": 247,
+    "id": 305,
+    "type": 9,
+    "name": "타임몬의 시계바늘(1시간)",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 306,
+    "type": 9,
+    "name": "타임몬의 시계바늘(1시간)",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 307,
+    "type": 9,
+    "name": "돌연변이 치료제",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 308,
+    "type": 9,
+    "name": "돌연변이 치료제",
+    "price": 0,
+    "canTrade": false
+  },
+  { "id": 309, "type": 9, "name": "탱탱볼", "price": 2000, "canTrade": true },
+  {
+    "id": 310,
     "type": 9,
     "name": "낚시 장난감",
     "price": 2000,
     "canTrade": true
   },
-  { "id": 248, "type": 9, "name": "모래시계", "price": 2500, "canTrade": true },
-  { "id": 249, "type": 9, "name": "피리", "price": 0, "canTrade": true },
-  { "id": 250, "type": 9, "name": "디지몬 사전", "price": 0, "canTrade": true },
-  { "id": 251, "type": 9, "name": "호박", "price": 1000, "canTrade": true },
-  { "id": 252, "type": 9, "name": "아티초크", "price": 1000, "canTrade": true },
-  { "id": 253, "type": 9, "name": "토마토", "price": 1000, "canTrade": true },
-  { "id": 254, "type": 9, "name": "양배추", "price": 1000, "canTrade": true },
-  { "id": 255, "type": 9, "name": "옥수수", "price": 1000, "canTrade": true },
-  { "id": 256, "type": 9, "name": "피망", "price": 1000, "canTrade": true },
-  { "id": 257, "type": 9, "name": "양파", "price": 1000, "canTrade": true },
+  { "id": 311, "type": 9, "name": "모래시계", "price": 2500, "canTrade": true },
+  { "id": 312, "type": 9, "name": "모래시계", "price": 0, "canTrade": false },
+  { "id": 313, "type": 9, "name": "피리", "price": 0, "canTrade": true },
+  { "id": 314, "type": 9, "name": "피리", "price": 0, "canTrade": false },
+  { "id": 315, "type": 9, "name": "디지몬 사전", "price": 0, "canTrade": true },
   {
-    "id": 258,
+    "id": 316,
+    "type": 9,
+    "name": "디지몬 사전",
+    "price": 0,
+    "canTrade": false
+  },
+  { "id": 317, "type": 9, "name": "호박", "price": 1000, "canTrade": true },
+  { "id": 318, "type": 9, "name": "아티초크", "price": 1000, "canTrade": true },
+  { "id": 319, "type": 9, "name": "토마토", "price": 1000, "canTrade": true },
+  { "id": 320, "type": 9, "name": "양배추", "price": 1000, "canTrade": true },
+  { "id": 321, "type": 9, "name": "옥수수", "price": 1000, "canTrade": true },
+  { "id": 322, "type": 9, "name": "피망", "price": 1000, "canTrade": true },
+  { "id": 323, "type": 9, "name": "양파", "price": 1000, "canTrade": true },
+  {
+    "id": 324,
     "type": 9,
     "name": "알 수 없는 과일",
     "price": 10000,
     "canTrade": true
   },
-  { "id": 259, "type": 9, "name": "고구마", "price": 1000, "canTrade": true },
-  { "id": 260, "type": 9, "name": "포도", "price": 0, "canTrade": true },
-  { "id": 261, "type": 9, "name": "사과", "price": 0, "canTrade": true },
-  { "id": 262, "type": 9, "name": "오렌지", "price": 0, "canTrade": true },
-  { "id": 263, "type": 9, "name": "헤이즐넛", "price": 0, "canTrade": true },
-  { "id": 264, "type": 9, "name": "풋사과", "price": 0, "canTrade": true },
-  { "id": 265, "type": 9, "name": "코코넛", "price": 0, "canTrade": true },
-  { "id": 266, "type": 9, "name": "복숭아", "price": 0, "canTrade": true },
-  { "id": 267, "type": 9, "name": "바나나", "price": 0, "canTrade": true },
-  { "id": 268, "type": 9, "name": "루비로망", "price": 0, "canTrade": true },
-  { "id": 269, "type": 9, "name": "감홍", "price": 0, "canTrade": true },
-  { "id": 270, "type": 9, "name": "한라봉", "price": 0, "canTrade": true },
-  { "id": 271, "type": 9, "name": "쟌드헬", "price": 0, "canTrade": true },
-  { "id": 272, "type": 9, "name": "아오리 사과", "price": 0, "canTrade": true },
-  { "id": 273, "type": 9, "name": "신비복숭아", "price": 0, "canTrade": true },
+  { "id": 325, "type": 9, "name": "고구마", "price": 1000, "canTrade": true },
+  { "id": 326, "type": 9, "name": "포도", "price": 0, "canTrade": true },
+  { "id": 327, "type": 9, "name": "포도", "price": 0, "canTrade": false },
+  { "id": 328, "type": 9, "name": "사과", "price": 0, "canTrade": true },
+  { "id": 329, "type": 9, "name": "사과", "price": 0, "canTrade": false },
+  { "id": 330, "type": 9, "name": "오렌지", "price": 0, "canTrade": true },
+  { "id": 331, "type": 9, "name": "오렌지", "price": 0, "canTrade": false },
+  { "id": 332, "type": 9, "name": "헤이즐넛", "price": 0, "canTrade": true },
+  { "id": 333, "type": 9, "name": "헤이즐넛", "price": 0, "canTrade": false },
+  { "id": 334, "type": 9, "name": "풋사과", "price": 0, "canTrade": true },
+  { "id": 335, "type": 9, "name": "풋사과", "price": 0, "canTrade": false },
+  { "id": 336, "type": 9, "name": "코코넛", "price": 0, "canTrade": true },
+  { "id": 337, "type": 9, "name": "코코넛", "price": 0, "canTrade": false },
+  { "id": 338, "type": 9, "name": "복숭아", "price": 0, "canTrade": true },
+  { "id": 339, "type": 9, "name": "복숭아", "price": 0, "canTrade": false },
+  { "id": 340, "type": 9, "name": "바나나", "price": 0, "canTrade": true },
+  { "id": 341, "type": 9, "name": "루비로망", "price": 0, "canTrade": true },
+  { "id": 342, "type": 9, "name": "루비로망", "price": 0, "canTrade": false },
+  { "id": 343, "type": 9, "name": "감홍", "price": 0, "canTrade": true },
+  { "id": 344, "type": 9, "name": "감홍", "price": 0, "canTrade": false },
+  { "id": 345, "type": 9, "name": "한라봉", "price": 0, "canTrade": true },
+  { "id": 346, "type": 9, "name": "한라봉", "price": 0, "canTrade": false },
+  { "id": 347, "type": 9, "name": "쟌드헬", "price": 0, "canTrade": true },
+  { "id": 348, "type": 9, "name": "쟌드헬", "price": 0, "canTrade": false },
+  { "id": 349, "type": 9, "name": "아오리 사과", "price": 0, "canTrade": true },
   {
-    "id": 274,
+    "id": 350,
+    "type": 9,
+    "name": "아오리 사과",
+    "price": 0,
+    "canTrade": false
+  },
+  { "id": 351, "type": 9, "name": "신비복숭아", "price": 0, "canTrade": true },
+  { "id": 352, "type": 9, "name": "신비복숭아", "price": 0, "canTrade": false },
+  {
+    "id": 353,
     "type": 9,
     "name": "탐 콴 코코넛",
     "price": 0,
     "canTrade": true
   },
-  { "id": 275, "type": 9, "name": "몽키 바나나", "price": 0, "canTrade": true },
   {
-    "id": 276,
+    "id": 354,
+    "type": 9,
+    "name": "탐 콴 코코넛",
+    "price": 0,
+    "canTrade": false
+  },
+  { "id": 355, "type": 9, "name": "몽키 바나나", "price": 0, "canTrade": true },
+  {
+    "id": 356,
+    "type": 9,
+    "name": "아오리 드헬 쉐이크",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 357,
     "type": 9,
     "name": "루비드헬 쉐이크",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 277,
+    "id": 358,
     "type": 9,
     "name": "한라홍 쉐이크",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 278,
+    "id": 359,
     "type": 9,
     "name": "감로망 쉐이크",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 279,
+    "id": 360,
     "type": 9,
     "name": "탐 콴 바나나 쉐이크",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 280,
+    "id": 361,
     "type": 9,
     "name": "신비코코넛 쉐이크",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 281,
+    "id": 362,
     "type": 9,
     "name": "한라사과 쉐이크",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 282,
+    "id": 363,
     "type": 10,
     "name": "만개의 날개",
     "price": 0,
     "canTrade": true
   },
   {
-    "id": 283,
+    "id": 364,
     "type": 10,
     "name": "고양이 귀 머리띠",
     "price": 0,

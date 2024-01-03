@@ -103,15 +103,15 @@ export default function EvolutionSearcher(): React.ReactElement {
     const inputs = useMemo(() => {
         return <div className='evolution-checkboxes'>
             <div className='toggle-all-buttons'>
-                <button type='button' onClick={spreadAll}>모두 펼치기</button>
-                <button type='button' onClick={foldAll}>모두 접기</button>
+                <button type='button' onClick={spreadAll} key={getUUID()}>모두 펼치기</button>
+                <button type='button' onClick={foldAll} key={getUUID()}>모두 접기</button>
             </div>
             <label className="check-box-container" htmlFor='hide-toggle-fold'>
                 <input type='checkbox' id="hide-toggle-fold" checked={hideFoldButton} onChange={(e) => setHideFoldButton(e.target.checked)}/>
                 접기/펼치기 버튼 숨기기
             </label>
         </div>
-    }, []);
+    }, [selectedDigimon]);
 
     return (
         <div className={`main ${hideFoldButton ? "hide-fold-button" : ""}`} onMouseMove={captureMouse} onClick={changeDigimon}>

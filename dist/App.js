@@ -38,6 +38,8 @@ const Digidex_1 = __importDefault(require("./components/digidex/Digidex"));
 const LeftFitAd_1 = __importDefault(require("./components/ads/LeftFitAd"));
 const RightFitAd_1 = __importDefault(require("./components/ads/RightFitAd"));
 const EvolutionSearcher_1 = __importDefault(require("./components/evolution/EvolutionSearcher"));
+const Overflows_1 = __importDefault(require("./components/overflows/Overflows"));
+const Detector_1 = __importDefault(require("./components/detector/Detector"));
 function App() {
     return (react_1.default.createElement(react_1.StrictMode, null,
         react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
@@ -48,6 +50,8 @@ function App() {
                     react_1.default.createElement(react_router_dom_1.Route, { path: "/", element: react_1.default.createElement(Main_1.default, null) }),
                     react_1.default.createElement(react_router_dom_1.Route, { path: "/evolutions", element: react_1.default.createElement(EvolutionSearcher_1.default, null) }),
                     react_1.default.createElement(react_router_dom_1.Route, { path: "/maps", element: react_1.default.createElement(Maps_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/overflows", element: react_1.default.createElement(Overflows_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/detectors", element: react_1.default.createElement(Detector_1.default, null) }),
                     react_1.default.createElement(react_router_dom_1.Route, { path: "/combinations", element: react_1.default.createElement(Combination_1.default, null) }),
                     react_1.default.createElement(react_router_dom_1.Route, { path: "/digidex", element: react_1.default.createElement(Digidex_1.default, null) }),
                     react_1.default.createElement(react_router_dom_1.Route, { path: "*", element: react_1.default.createElement(NotFound_1.default, null) })),
