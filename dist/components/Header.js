@@ -44,8 +44,6 @@ function Header() {
             react_1.default.createElement(react_router_dom_1.Link, { to: "/", className: "text-nav" }, "\uD648"),
             react_1.default.createElement(react_router_dom_1.Link, { to: "/evolutions", className: "text-nav" }, "\uC9C4\uD654\uD2B8\uB9AC"),
             react_1.default.createElement(react_router_dom_1.Link, { to: "/maps", className: "text-nav" }, "\uB9F5\uC2A4"),
-            react_1.default.createElement(react_router_dom_1.Link, { to: "/overflows", className: "text-nav" }, "\uC624\uBC84\uD50C\uB85C\uC6B0 \uB358\uC804"),
-            react_1.default.createElement(react_router_dom_1.Link, { to: "/detectors", className: "text-nav" }, "\uD0D0\uC9C0\uAE30"),
             react_1.default.createElement(react_router_dom_1.Link, { to: "/combinations", className: "text-nav" }, "\uC870\uD569\uBC95"),
             react_1.default.createElement(react_router_dom_1.Link, { to: "/digidex", className: "text-nav" }, "\uB514\uC9C0\uBAAC \uB3C4\uAC10"),
             react_1.default.createElement(react_router_dom_1.Link, { to: "https://www.digimonsuperrumble.com", target: "_blank", className: "text-nav" }, "\uACF5\uC2DD \uD648\uD398\uC774\uC9C0"),

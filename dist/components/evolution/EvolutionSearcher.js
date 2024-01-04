@@ -124,12 +124,12 @@ function EvolutionSearcher() {
     const inputs = (0, react_1.useMemo)(() => {
         return react_1.default.createElement("div", { className: 'evolution-checkboxes' },
             react_1.default.createElement("div", { className: 'toggle-all-buttons' },
-                react_1.default.createElement("button", { type: 'button', onClick: spreadAll }, "\uBAA8\uB450 \uD3BC\uCE58\uAE30"),
-                react_1.default.createElement("button", { type: 'button', onClick: foldAll }, "\uBAA8\uB450 \uC811\uAE30")),
+                react_1.default.createElement("button", { type: 'button', onClick: spreadAll, key: (0, commons_1.getUUID)() }, "\uBAA8\uB450 \uD3BC\uCE58\uAE30"),
+                react_1.default.createElement("button", { type: 'button', onClick: foldAll, key: (0, commons_1.getUUID)() }, "\uBAA8\uB450 \uC811\uAE30")),
             react_1.default.createElement("label", { className: "check-box-container", htmlFor: 'hide-toggle-fold' },
                 react_1.default.createElement("input", { type: 'checkbox', id: "hide-toggle-fold", checked: hideFoldButton, onChange: (e) => setHideFoldButton(e.target.checked) }),
                 "\uC811\uAE30/\uD3BC\uCE58\uAE30 \uBC84\uD2BC \uC228\uAE30\uAE30"));
-    }, []);
+    }, [selectedDigimon]);
     return (react_1.default.createElement("div", { className: `main ${hideFoldButton ? "hide-fold-button" : ""}`, onMouseMove: captureMouse, onClick: changeDigimon },
         react_1.default.createElement("h1", { className: "title-message" }, "\uC9C4\uD654 \uC0C1\uD0DC\uC5D0 \uB9DE\uB294 \uB514\uC9C0\uBAAC\uC744 \uC120\uD0DD\uD558\uC138\uC694."),
         comboFilters,
