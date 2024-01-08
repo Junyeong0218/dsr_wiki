@@ -27,7 +27,7 @@ const react_1 = __importStar(require("react"));
 const commons_1 = require("../../functions/commons");
 function CombinationShortcut({ combination, selectedId, selectCombination }) {
     const shortcut = (0, react_1.useMemo)(() => {
-        const imageName = (0, commons_1.getNameExcepColon)(combination.resultItem.name);
+        const imageName = (0, commons_1.getNameExceptColon)(combination.resultItem.name);
         const tradableTag = combination.resultItem.canTrade ? react_1.default.createElement("span", { className: "green" }, "\uAC70\uB798\uAC00\uB2A5") :
             react_1.default.createElement("span", { className: "red" }, "\uAC70\uB798\uBD88\uAC00");
         const itemNameTag = combination["tag"] ? react_1.default.createElement("span", { className: "shortcut-item-name", dangerouslySetInnerHTML: { __html: combination.tag } }) :

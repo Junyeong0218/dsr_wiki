@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getCommaString = exports.getNameExcepColon = exports.getUUID = exports.clearArray = void 0;
+exports.getCommaString = exports.getNameExceptColon = exports.getUUID = exports.clearArray = void 0;
 const clearArray = (array) => {
     while (array.length > 0)
         array.pop();
@@ -8,7 +8,7 @@ const clearArray = (array) => {
 exports.clearArray = clearArray;
 const getUUID = () => crypto.randomUUID();
 exports.getUUID = getUUID;
-const getNameExcepColon = (name) => name.includes(":") ? name.replace(":", "") : name;
-exports.getNameExcepColon = getNameExcepColon;
+const getNameExceptColon = (name) => name.includes(":") ? name.replace(":", "") : name;
+exports.getNameExceptColon = getNameExceptColon;
 const getCommaString = (number) => number.toLocaleString("ko-KR");
 exports.getCommaString = getCommaString;

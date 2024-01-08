@@ -7,6 +7,7 @@ import getDigimonQualityText from './getDigimonQualityText';
 import getEvolutions from "./getEvolutions";
 import toggleFoldEvolution from './toggleFoldEvolution';
 import { getMaps } from "./getMapsFunctions";
+import { getAllOverflows } from "./getOverflowsFunctions";
 import { clearArray } from "./commons";
 
 import { createAdScript } from './createAdTags';
@@ -23,6 +24,7 @@ export {
     getEvolutions,
     toggleFoldEvolution,
     getMaps,
+    getAllOverflows,
     clearArray,
 
     createAdScript

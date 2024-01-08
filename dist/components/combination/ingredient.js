@@ -28,7 +28,7 @@ const commons_1 = require("../../functions/commons");
 const getItemsFunctions_1 = require("../../functions/getItemsFunctions");
 function Ingredient({ ingredient }) {
     const item = (0, react_1.useMemo)(() => (0, getItemsFunctions_1.getItemById)(ingredient.itemId), [ingredient.itemId]);
-    const itemImageName = (0, react_1.useMemo)(() => (0, commons_1.getNameExcepColon)(item.name), [ingredient.itemId]);
+    const itemImageName = (0, react_1.useMemo)(() => (0, commons_1.getNameExceptColon)(item.name), [ingredient.itemId]);
     const tradableTag = item.canTrade ? react_1.default.createElement("span", { className: "green" }, "\uAC70\uB798\uAC00\uB2A5") :
         react_1.default.createElement("span", { className: "red" }, "\uAC70\uB798\uBD88\uAC00");
     return (react_1.default.createElement("div", { className: "ingredient" },

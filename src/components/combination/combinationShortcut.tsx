@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { getNameExcepColon } from "../../functions/commons";
+import { getNameExceptColon } from "../../functions/commons";
 import { Combination } from "../../classes";
 
 type ShortcutProps = {
@@ -10,7 +10,7 @@ type ShortcutProps = {
 
 export default function CombinationShortcut({ combination, selectedId, selectCombination }: ShortcutProps): React.ReactElement {
     const shortcut = useMemo(() => {
-        const imageName = getNameExcepColon(combination.resultItem.name);
+        const imageName = getNameExceptColon(combination.resultItem.name);
         const tradableTag = combination.resultItem.canTrade ? <span className="green">거래가능</span> :
                                                               <span className="red">거래불가</span>;
 

@@ -1,0 +1,180 @@
+.overflow-container {
+    margin-bottom: 100px;
+
+    width: 100%;
+}
+
+.overflow-shortcut {
+    margin-top: 10px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.map-viewer-small {
+    position: relative;
+
+    width: 30%;
+}
+
+.map-viewer-small > img {
+    width: 100%;
+}
+
+.overflow-shortcut-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.overflow-shortcut-infos .overflow-req-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.overflow-shortcut-infos .overflow-req-item span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.overflow-shortcut-infos .weekdays {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.overflow-shortcut-infos .weekdays .weekday {
+    position: relative;
+
+    padding: 2px 5px;
+}
+
+.overflow-shortcut-infos .weekdays .weekday.today {
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
+.overflow-shortcut-infos .weekdays .weekday > .today {
+    font-weight: 700;
+    color: var(--black);
+}
+
+.overflow-shortcut-infos .weekdays .weekday img {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 5px var(--type-child-deep);
+}
+
+.stages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 100%;
+}
+
+.stage {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    border: 1px solid var(--white);
+    border-radius: 5px;
+}
+
+.stage .monsters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.stage .monsters .monster {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stage .monsters .monster > img:first-child {
+    width: 100px;
+
+    border-radius: 6px;
+}
+
+.stage .monsters .monster > img:nth-child(2) {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+    width: 25px;
+    pointer-events: none;
+}
+
+.stage .monsters .monster > div > img {
+    width: 30px;
+}
+
+.stage .rewords {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.stage .rewords .first-rewords,
+.stage .rewords .repeat-rewords {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.stage .rewords .first-rewords > .title,
+.stage .rewords .repeat-rewords > .title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.stage .rewords .reword {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stage .rewords .reword img {
+    width: 50px;
+}
+
+.stage .rewords .reword .reword-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.stage .rewords .reword span {
+    font-size: 14px;
+    word-break: keep-all;
+    white-space: wrap;
+    text-align: center;
+}
+
+.stage .rewords .reword span.red {
+    color: var(--type-baby1-deep);
+}
+
+.stage .rewords .reword span.green {
+    color: var(--type-child-deep);
+}

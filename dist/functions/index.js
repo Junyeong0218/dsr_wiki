@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.createAdScript = exports.clearArray = exports.getMaps = exports.toggleFoldEvolution = exports.getEvolutions = exports.getDigimonQualityText = exports.divideEvolutionByMethod = exports.getJustAfterEvolution = exports.getJustBeforeEvolution = exports.getEvolutionByName = exports.getEvolutionById = exports.getAllEvolutions = exports.getAllDigimons = void 0;
+exports.createAdScript = exports.clearArray = exports.getAllOverflows = exports.getMaps = exports.toggleFoldEvolution = exports.getEvolutions = exports.getDigimonQualityText = exports.divideEvolutionByMethod = exports.getJustAfterEvolution = exports.getJustBeforeEvolution = exports.getEvolutionByName = exports.getEvolutionById = exports.getAllEvolutions = exports.getAllDigimons = void 0;
 const getDigimons_1 = require("./getDigimons");
 Object.defineProperty(exports, "getAllDigimons", { enumerable: true, get: function () { return getDigimons_1.getAllDigimons; } });
 const getEvolutionFunctions_1 = require("./getEvolutionFunctions");
@@ -24,6 +24,8 @@ const toggleFoldEvolution_1 = __importDefault(require("./toggleFoldEvolution"));
 exports.toggleFoldEvolution = toggleFoldEvolution_1.default;
 const getMapsFunctions_1 = require("./getMapsFunctions");
 Object.defineProperty(exports, "getMaps", { enumerable: true, get: function () { return getMapsFunctions_1.getMaps; } });
+const getOverflowsFunctions_1 = require("./getOverflowsFunctions");
+Object.defineProperty(exports, "getAllOverflows", { enumerable: true, get: function () { return getOverflowsFunctions_1.getAllOverflows; } });
 const commons_1 = require("./commons");
 Object.defineProperty(exports, "clearArray", { enumerable: true, get: function () { return commons_1.clearArray; } });
 const createAdTags_1 = require("./createAdTags");
