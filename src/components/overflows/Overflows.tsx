@@ -1,111 +1,87 @@
-import React, { useState } from "react";
+import React, { useMemo, useRef, useState } from "react";
 import { getAllOverflows } from "../../functions";
-import { getWeekdayText, isToday } from "../../functions/WeekdayFunctions";
-import { getNameExceptColon } from "../../functions/commons";
-import { Digimon } from "../../classes";
+import { getUUID } from "../../functions/commons";
+import OverflowShortcut from "./OverflowShortcut";
+import StageTag from "./Stage";
+import MonsterDescriptionModal from "./MonsterDescriptionModal";
+import { Monster } from "../../classes";
 
 export default function Overflows(): React.ReactElement {
     const all = getAllOverflows();
 
     const [selected, setSelected] = useState(all[0]);
+    const [modalPosition, setModalPosition] = useState({ top: 0, left: 0 });
+    const [isOpenModal, setIsOpenModal] = useState(false);
+
+    const selectedMonster = useRef<Monster|null>(null);
+
+    const captureMouse = (event: React.MouseEvent<HTMLDivElement>): void => {
+        const target = event.target as HTMLImageElement;
+        if(target?.tagName === "IMG") {
+            const classList = target.classList;
+            
+            if(classList.contains("stage-monster-image")) {
+                const [stageId, index] = target.dataset.id!.split("-").map(e => Number(e));
+                const monster = selected.stages[stageId - 1].monsters[index];
+                selectedMonster.current = monster;
+
+                const mapRect = target.parentElement!.parentElement!.parentElement!.parentElement!.getBoundingClientRect();
+                const modalHeight = 160;
+                
+                // console.log(event.pageY, modalHeight, "  ", window.innerHeight, mapRect)
+                if(event.pageY + modalHeight >= window.innerHeight - 20) {
+                    setModalPosition({ top: event.pageY - modalHeight - 10, left: event.pageX - mapRect.left + 10 });
+                } else {
+                    setModalPosition({ top: event.pageY - 90, left: event.pageX - mapRect.left + 10 });
+                }
+                setIsOpenModal(true);
+
+                return;
+            }
+        }
+        setIsOpenModal(false);
+    }
+
+    const mapSelector = useMemo(() => {
+        return <div className="map-selector">
+            { all.map(each => (
+                <button type="button" className={`map-name-button ${selected.mapName === each.mapName ? "selected" : ""}`} 
+                        onClick={() => setSelected(each)} key={getUUID()}>
+                    {each.mapName}
+                </button>
+            ))
+            }
+        </div>;
+    }, [selected]);
+
+    const overflowShortcut = useMemo(() => {
+        return <OverflowShortcut selected={selected} />;
+    }, [selected]);
+
+    const stages = useMemo(() => {
+        return <div className="stages">
+            { selected.stages.map(stage => (
+                <StageTag stage={stage} key={getUUID()}/>
+            ))}
+        </div>;
+    }, [selected]);
+
+    const monsterDescriptionModal = useMemo(() => {
+        return <MonsterDescriptionModal isOpen={isOpenModal} monster={selectedMonster.current} position={modalPosition} key={getUUID()} />
+    }, [modalPosition, isOpenModal, selectedMonster.current]);
 
     return (
         <div className="main">
-            <div className="overflow-container">
-                {/* map names - default value = gear savana */}
-                <div className="map-selector">
-                    { all.map(each => (
-                        <button type="button" className={`map-name-button ${selected.mapName === each.mapName ? "selected" : ""}`} onClick={() => setSelected(each)}>{each.mapName}</button>
-                    ))
-                    }
-                </div>
+            <div className="overflow-container" onMouseMove={captureMouse}>
+                { mapSelector }
                 
-                {/* map shortcut - point dungeon of this map */}
-                {/* reqItme and playable weekdays */}
-                <div className="overflow-shortcut">
-                    <div className="map-viewer-small">
-                        <img src={`/images/${selected.mapName}.png`} />
-                    </div>
-                    <div className="overflow-shortcut-infos">
-                        <div className="overflow-req-item">
-                            <img src={`/images/${encodeURIComponent(getNameExceptColon(selected.reqItem.name))}.png`} />
-                            <span>{selected.reqItem.name}</span>
-                        </div>
-                        <div className="weekdays">
-                            { selected.weekdays.map(weekday => {
-                                const weekdayText = getWeekdayText(weekday);
-                                const todayFlag = isToday(weekday);
-
-                                return <div className={`weekday ${todayFlag ? "today" : ""}`}>
-                                    <span className={todayFlag ? "today" : ""}>{weekdayText}</span>
-                                    { todayFlag ? <img src="/images/green dot.png" /> : ""}
-                                </div>
-                            })}
-                        </div>
-                    </div>
-                </div>
+                { overflowShortcut }
                 
-                {/* stage infos - col / 1 card 1 row column list */}
-                {/* each stage - row */}
-                {/* monsters - col / monsterImage shorcut + name + type + level + hp + str&week */}
-                {/* first rewords - col / itemImage shortcut + name + canTrade + count */}
-                {/* repeat rewords - col / itemImage shortcut + name + canTrade + count */}
-                <div className="stages">
-                { selected.stages.map(stage => (
-                    <div className="stage">
-                        <div className="monsters">
-                            <span>stage {stage.id}</span>
-                            { stage.monsters.map(monster => {
-                                const digimon = Digimon.getByName(monster.name)!;
-
-                                return <div className="monster">
-                                    <img src={`/images/${monster.name}.png`} />
-                                    <img src={`/images/${monster.digimonType}.png`} />
-                                    {/* <span>{monster.name}</span>
-                                    <span>Lv.{monster.level}</span>
-                                    <span>hp : {monster.hp}</span>
-                                    <div>
-                                        <img src={`/images/${digimon.strength} 강점.png`} />
-                                        <img src={`/images/${digimon.weakness} 약점.png`} />
-                                    </div> */}
-                                </div>
-                            })}
-                        </div>
-                        <div className="rewords">
-                            <div className="first-rewords">
-                                <span className="title">첫 클리어</span>
-                                { stage.firstRewords.map(reword => (
-                                    <div className="reword">
-                                        <img src={`/images/${encodeURIComponent(getNameExceptColon(reword.item.name))}.png`} />
-                                        <div className="reword-info">
-                                            <span>{reword.item.name}</span>
-                                            <span className={reword.item.canTrade ? "green" : "red"}>{reword.item.canTrade ? "거래가능" : "거래불가"}</span>
-                                            <span>{reword.count}ea</span>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                            <div className="repeat-rewords">
-                                <span className="title">반복</span>
-                                { stage.repeatRewords.map(reword => (
-                                    <div className="reword">
-                                        <img src={`/images/${encodeURIComponent(getNameExceptColon(reword.item.name))}.png`} />
-                                        <div className="reword-info">
-                                            <span>{reword.item.name}</span>
-                                            <span className={reword.item.canTrade ? "green" : "red"}>{reword.item.canTrade ? "거래가능" : "거래불가"}</span>
-                                            <span>{reword.count}ea</span>
-                                        </div>
-                                        
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                ))}
-                </div>
+                { stages }
 
                 {/* monster description modal without drop table */}
                 {/* recycle maps drops modal with strength and weakness */}
+                { monsterDescriptionModal }
             </div>
         </div>
     );

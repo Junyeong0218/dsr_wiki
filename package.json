@@ -4,7 +4,7 @@
   "description": "dsr_wiki",
   "main": "src/index.tsx",
   "scripts": {
-    "start": "tsc --build & react-scripts start",
+    "start": "react-scripts start",
     "build": "tsc & react-scripts build",
     "watch": "webpack --config webpack.common.js --watch",
     "test": "react-scripts test"

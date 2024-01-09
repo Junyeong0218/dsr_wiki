@@ -9,6 +9,7 @@
       "canTrade": false
     },
     "weekdays": [2, 4, 6],
+    "point": { "x": 259, "y": 128 },
     "stages": [
       {
         "stage": "1",
@@ -1269,6 +1270,7 @@
       "canTrade": false
     },
     "weekdays": [3, 5, 0],
+    "point": { "x": 51, "y": 130 },
     "stages": [
       {
         "stage": "1",
@@ -2525,6 +2527,7 @@
       "canTrade": false
     },
     "weekdays": [2, 4, 6],
+    "point": { "x": 132, "y": 151 },
     "stages": [
       {
         "stage": "1",
@@ -3788,6 +3791,7 @@
       "canTrade": false
     },
     "weekdays": [1, 5, 0],
+    "point": { "x": 260, "y": 0 },
     "stages": [
       {
         "stage": "1",
@@ -5055,6 +5059,7 @@
       "canTrade": false
     },
     "weekdays": [1, 0, 0],
+    "point": { "x": 159, "y": 51 },
     "stages": [
       {
         "stage": "1",

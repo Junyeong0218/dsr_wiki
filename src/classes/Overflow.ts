@@ -1,6 +1,7 @@
 import { getItems } from "../functions/getItemsFunctions";
 import { Item } from "./Item";
 import { Monster } from "./Monster";
+import Point from "./Point";
 
 interface IRewordItem {
     itemId: number,
@@ -48,6 +49,7 @@ export interface IOverflow {
     mapName: string,
     reqItem: Item,
     weekdays: Array<number>,
+    point: Point,
     stages: Array<any>
 }
 
@@ -55,12 +57,14 @@ export class Overflow {
     mapName: string;
     reqItem: Item;
     weekdays: Array<number>;
+    point: Point;
     stages: Array<Stage>;
 
     constructor(raw: IOverflow) {
         this.mapName = raw.mapName;
         this.reqItem = raw.reqItem;
         this.weekdays = raw.weekdays;
+        this.point = new Point(raw.point.x, raw.point.y);
         this.stages = [];
     }
 

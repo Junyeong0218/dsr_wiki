@@ -25,13 +25,41 @@
     width: 100%;
 }
 
+.map-viewer-small > img.point {
+    position: absolute;
+
+    width: 30px;
+}
+
 .overflow-shortcut-infos {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+.overflow-shortcut-infos .title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.overflow-shortcut-infos .semi-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.overflow-shortcut-infos .semi-title img {
+    width: 25px;
+}
+
 .overflow-shortcut-infos .overflow-req-item {
+    padding-left: 30px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,6 +72,8 @@
 }
 
 .overflow-shortcut-infos .weekdays {
+    padding-left: 30px;
+
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -98,6 +128,10 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
+}
+
+.stage .monsters > span {
+    font-weight: 700;
 }
 
 .stage .monsters .monster {
@@ -178,3 +212,109 @@
 .stage .rewords .reword span.green {
     color: var(--type-child-deep);
 }
+
+#overflow-monster-description-modal .digimon-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  #overflow-monster-description-modal .digimon-info > img {
+    border: 1px solid var(--white);
+    border-radius: 4px;
+  }
+  
+  #overflow-monster-description-modal .digimon-info .digimon-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+  
+    width: 140px;
+  }
+  
+  #overflow-monster-description-modal .digimon-info .digimon-description .digimon-name {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  #overflow-monster-description-modal .digimon-info .digimon-description .description-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  
+    font-size: 13px;
+    line-height: 20px;
+  }
+  
+  #overflow-monster-description-modal .digimon-info .digimon-description .description-row img {
+    height: 20px;
+  }
+  
+  #overflow-monster-description-modal .digimon-info .digimon-description .hp-bar {
+    width: 100%;
+    height: 14px;
+    
+    background-color: #f30e39;
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    
+    font-size: 13px;
+    text-align: center;
+    line-height: 14px;
+    font-weight: 700;
+  }
+  
+  #overflow-monster-description-modal .title {
+    margin: 10px 0;
+  }
+  
+  #overflow-monster-description-modal .drop-items {
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    overflow-y: auto;
+  }
+  
+  #overflow-monster-description-modal .drop-items::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+  }
+  
+  #overflow-monster-description-modal .drop-items::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #d7dde2; /* 스크롤바의 색상 */
+    
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+  }
+  
+  #overflow-monster-description-modal .drop-items::-webkit-scrollbar-track {
+    background: #484a4b;  /*스크롤바 뒷 배경 색상*/
+    border-radius: 4px;
+  }
+  
+  #overflow-monster-description-modal .drop-items .drop-item {
+    width: 100%;
+    height: 28px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #overflow-monster-description-modal .drop-items .drop-item img {
+    height: 100%;
+  }
+  
+  #overflow-monster-description-modal .drop-items .drop-item span {
+    font-size: 13px;
+  }
