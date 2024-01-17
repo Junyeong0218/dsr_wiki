@@ -19,7 +19,6 @@ export default function App(): React.ReactElement {
             <BrowserRouter>
                 <div id="container">
                     <Header />
-                    {/* <LeftFitAd /> */}
                     <Routes>
                         <Route path="/" element={<Main />} />
                         <Route path="/evolutions" element={<EvolutionSearcher />} />
@@ -30,7 +29,6 @@ export default function App(): React.ReactElement {
                         <Route path="/digidex" element={<Digidex />} />
                         <Route path="*" element={<NotFound />} />
                     </Routes>
-                    {/* <RightFitAd /> */}
                     <Footer />
                 </div>
             </BrowserRouter>
