@@ -18,10 +18,15 @@ export default function Evolutions({ selected }: EvolutionsProps): React.ReactEl
     getJustBeforeEvolution(evolution);
     getJustAfterEvolution(evolution);
 
+    console.log(evolution)
+
     const navigate = useNavigate();
 
     const [commonEvolution, jogressEvolution] = divideEvolutionByMethod(evolution);
     
+    console.log(commonEvolution)
+    console.log(jogressEvolution)
+
     const changeDigimon = (event: React.MouseEvent) => {
         const target = event.target as HTMLElement;
         let digimonName = "";
@@ -30,7 +35,7 @@ export default function Evolutions({ selected }: EvolutionsProps): React.ReactEl
         } else if(target.className === "profile-image") {
             digimonName = (target.nextElementSibling as HTMLSpanElement).innerText;
         } else return;
-        console.log(digimonName);
+        // console.log(digimonName);
         if(digimonName.includes("돌연변이")) return;
 
         navigate(`/digidex?digimon=${digimonName}`);
@@ -44,7 +49,7 @@ export default function Evolutions({ selected }: EvolutionsProps): React.ReactEl
                         <ToLeftProfileLine digimon={evolution} />
                         <Profile digimon={evolution} />
                     </div>
-                    { commonEvolution.afters &&
+                    { commonEvolution.afters!.length > 0 &&
                         <div className="evolution">
                             <span className="title">일반 진화</span>
                             <Profile digimon={commonEvolution} />

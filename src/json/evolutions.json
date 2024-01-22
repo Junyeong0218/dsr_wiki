@@ -15209,7 +15209,7 @@
       {
         "from": 294,
         "to": 341,
-        "rate": 0.475,
+        "rate": 0.85,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
@@ -15224,7 +15224,7 @@
       {
         "from": 294,
         "to": 345,
-        "rate": 0.475,
+        "rate": 0.1,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
@@ -17555,7 +17555,7 @@
       {
         "from": 294,
         "to": 341,
-        "rate": 0.475,
+        "rate": 0.85,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
@@ -17666,7 +17666,7 @@
       {
         "from": 294,
         "to": 345,
-        "rate": 0.475,
+        "rate": 0.1,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,

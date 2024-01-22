@@ -14,7 +14,7 @@ export default function Digidex(): React.ReactElement {
     
     if(selected) {
         return (
-            <div className="digidex">
+            <div className="digidex" style={{ flexWrap: "nowrap" }}>
                 <Evolutions selected={selected} />
                 <DigimonInfo selected={selected} />
             </div>

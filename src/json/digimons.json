@@ -146,33 +146,35 @@
     "spd": 0,
     "def": 0,
     "res": 0,
-    "strength": "",
-    "strengthEffect": "",
-    "weakness": "",
-    "weaknessEffect": "",
-    "fieldTypes": [],
+    "strength": "불",
+    "strengthEffect": "내성",
+    "weakness": "흙",
+    "weaknessEffect": "회피불가",
+    "fieldTypes": ["DS", "DR", "ME"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
+        "name": "록 브레이크",
+        "attackCount": 2,
         "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "name": "파이어볼",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -195,7 +197,7 @@
     "fieldTypes": ["VB", "DR", "Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "대시 메탈",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -206,7 +208,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "메탈 캐논",
         "attackCount": 4,
         "range": "원거리",
         "element": "강철",
@@ -644,7 +646,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.0555, 0.0611, 0.0667, 0.0723, 0.0779, 0.0835, 0.0891, 0.0947,
+          0.1003, 0.1059
+        ]
       },
       {
         "name": "재밍 썬더",
@@ -655,7 +660,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       }
     ]
   },
@@ -765,7 +772,7 @@
     "fieldTypes": ["Nso", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "서몬",
         "attackCount": 2,
         "range": "원거리",
         "element": "불",
@@ -778,7 +785,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "나이트 오브 파이어",
         "attackCount": 6,
         "range": "원거리",
         "element": "어둠",
@@ -1129,7 +1136,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
         "name": "나이트메어 신드롬",
@@ -1140,7 +1149,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -1623,7 +1634,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "추적미사일",
         "attackCount": 2,
         "range": "원거리",
         "element": "강철",
@@ -1725,7 +1736,7 @@
     "fieldTypes": ["NSp", "WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "내려치기",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -1736,7 +1747,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "추적미사일",
+        "name": "덤덤 어퍼",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -1747,7 +1758,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "개틀링 암",
         "attackCount": 5,
         "range": "원거리",
         "element": "물리",
@@ -2051,7 +2062,10 @@
         "targetCount": "단일",
         "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1603]
+        "coefficients": [
+          0.1125, 0.1179, 0.1232, 0.1285, 0.1338, 0.1391, 0.1444, 0.1497, 0.155,
+          0.1603
+        ]
       }
     ]
   },
@@ -2067,44 +2081,51 @@
     "spd": 0,
     "def": 0,
     "res": 0,
-    "strength": "",
+    "strength": "불",
     "strengthEffect": "",
-    "weakness": "",
+    "weakness": "물",
     "weaknessEffect": "",
-    "fieldTypes": [],
+    "fieldTypes": ["DR", "ME", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
+        "name": "그라우 클로",
+        "attackCount": 4,
         "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "name": "플라즈마 블레이드",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "천둥",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "name": "이그저스트 플레임",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "불",
         "target": "적",
         "targetCount": "단일",
-        "effect": null,
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       }
     ]
   },
@@ -2548,7 +2569,7 @@
     "fieldTypes": ["DR", "Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "대시 메탈",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -2559,7 +2580,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "캐논볼",
         "attackCount": 5,
         "range": "원거리",
         "element": "강철",
@@ -2572,13 +2593,13 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "파워 메탈",
         "attackCount": 1,
         "range": "원거리",
         "element": "강철",
         "target": "적",
         "targetCount": "단일",
-        "effect": null,
+        "effect": "스턴",
         "additionalTurn": null,
         "coefficients": [
           0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
@@ -2663,7 +2684,7 @@
     "fieldTypes": ["DR", "ME", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "다이노 슬래쉬",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -2676,8 +2697,8 @@
         ]
       },
       {
-        "name": "2스킬",
-        "attackCount": 3,
+        "name": "크래쉬 차지",
+        "attackCount": 2,
         "range": "근거리",
         "element": "강철",
         "target": "적",
@@ -2685,18 +2706,17 @@
         "effect": null,
         "additionalTurn": null,
         "coefficients": [
-          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
-          0.4833
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
         ]
       },
       {
-        "name": "3스킬",
+        "name": "앰버쉬 크런치",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
-        "effect": null,
+        "effect": "출혈",
         "additionalTurn": null,
         "coefficients": [
           0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
@@ -2724,7 +2744,7 @@
     "fieldTypes": ["WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "레드 썬",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
@@ -2737,18 +2757,18 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "구경하기",
         "attackCount": 0,
         "range": "근거리",
         "element": "나무",
         "target": "자신",
         "targetCount": "",
-        "effect": null,
+        "effect": "회복",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
-        "name": "3스킬",
+        "name": "하자드 브레스",
         "attackCount": 5,
         "range": "근거리",
         "element": "흙",
@@ -2811,7 +2831,10 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0555]
+        "coefficients": [
+          0.0384, 0.0403, 0.0422, 0.0441, 0.046, 0.0479, 0.0498, 0.0517, 0.0536,
+          0.0555
+        ]
       }
     ]
   },
@@ -2842,7 +2865,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2833]
+        "coefficients": [
+          0.1333, 0.15, 0.1667, 0.1833, 0.2, 0.2167, 0.2333, 0.25, 0.2667,
+          0.2833
+        ]
       },
       {
         "name": "수왕권",
@@ -2853,7 +2879,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.915]
+        "coefficients": [
+          0.6, 0.635, 0.67, 0.705, 0.74, 0.775, 0.81, 0.845, 0.88, 0.915
+        ]
       },
       {
         "name": "수왕파",
@@ -2864,7 +2892,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.3125]
+        "coefficients": [
+          0.2, 0.2125, 0.225, 0.2375, 0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125
+        ]
       }
     ]
   },
@@ -2895,7 +2925,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
         "name": "2스킬",
@@ -2906,7 +2938,10 @@
         "targetCount": "단일",
         "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.18, 0.1885, 0.197, 0.2055, 0.214, 0.2225, 0.231, 0.2395, 0.248,
+          0.2565
+        ]
       },
       {
         "name": "3스킬",
@@ -2917,7 +2952,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       }
     ]
   },
@@ -2933,44 +2970,49 @@
     "spd": 0,
     "def": 0,
     "res": 0,
-    "strength": "",
-    "strengthEffect": "",
-    "weakness": "",
-    "weaknessEffect": "",
-    "fieldTypes": [],
+    "strength": "흙",
+    "strengthEffect": "반사",
+    "weakness": "나무",
+    "weaknessEffect": "약점",
+    "fieldTypes": ["NSp", "UK", "ME"],
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
+          0.4275
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -3053,7 +3095,7 @@
     "fieldTypes": ["Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "물어뜯기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -3066,7 +3108,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "부독조",
         "attackCount": 4,
         "range": "근거리",
         "element": "물리",
@@ -3074,10 +3116,13 @@
         "targetCount": "단일",
         "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "수왕타권",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -3108,7 +3153,7 @@
     "fieldTypes": ["Nso", "NSp", "DR"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "주먹 치기",
         "attackCount": 2,
         "range": "근거리",
         "element": "불",
@@ -3121,7 +3166,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "마그마 봄",
         "attackCount": 1,
         "range": "원거리",
         "element": "불",
@@ -3134,7 +3179,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "버닝 피스트",
         "attackCount": 3,
         "range": "근거리",
         "element": "불",
@@ -3344,7 +3389,7 @@
     "fieldTypes": ["NSp", "Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "내려찍기",
         "attackCount": 2,
         "range": "근거리",
         "element": "얼음",
@@ -3357,7 +3402,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "아이시클 로드",
         "attackCount": 1,
         "range": "근거리",
         "element": "얼음",
@@ -3370,7 +3415,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "뼈뼈 부메랑",
         "attackCount": 1,
         "range": "원거리",
         "element": "얼음",
@@ -3478,7 +3523,10 @@
         "targetCount": "단일",
         "effect": "감전",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       },
       {
         "name": "썬더 볼",
@@ -3573,7 +3621,7 @@
     "fieldTypes": ["NSp", "VB", "DR"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "연타 공격",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
@@ -3586,7 +3634,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "해머 펀치",
         "attackCount": 3,
         "range": "근거리",
         "element": "강철",
@@ -3600,7 +3648,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "브이 브레스 애로우",
         "attackCount": 1,
         "range": "근거리",
         "element": "빛",
@@ -3709,7 +3757,10 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1115]
+        "coefficients": [
+          0.0769, 0.0808, 0.0846, 0.0885, 0.0923, 0.0962, 0.1, 0.1039, 0.1077,
+          0.1115
+        ]
       },
       {
         "name": "하이드로 프레셔",
@@ -3743,7 +3794,7 @@
     "fieldTypes": ["VB", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "베기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -3756,7 +3807,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "샤프 엣지",
         "attackCount": 5,
         "range": "근거리",
         "element": "물리",
@@ -3770,17 +3821,15 @@
         ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 2,
+        "name": "쉐도우 시클",
+        "attackCount": 1,
         "range": "원거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [
-          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
-        ]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -3851,44 +3900,46 @@
     "spd": 0,
     "def": 0,
     "res": 0,
-    "strength": "",
-    "strengthEffect": "",
-    "weakness": "",
-    "weaknessEffect": "",
-    "fieldTypes": [],
+    "strength": "물리",
+    "strengthEffect": "회피",
+    "weakness": "불",
+    "weaknessEffect": "약점",
+    "fieldTypes": ["NSp", "DS", "ME"],
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "매료",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -4256,7 +4307,7 @@
     "fieldTypes": ["NSp", "Nso", "VB"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "뼈 몽둥이",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -4269,7 +4320,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "여의본",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -4350,7 +4401,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -4431,7 +4484,7 @@
     "fieldTypes": ["DS"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "데블 배싱",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -4444,7 +4497,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "데들리 셰이드",
         "attackCount": 1,
         "range": "원거리",
         "element": "물",
@@ -4455,7 +4508,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "스콰이어 돔",
         "attackCount": 0,
         "range": "근거리",
         "element": "물",
@@ -4822,7 +4875,7 @@
     "fieldTypes": ["Nso", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "지팡이 공격",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -4835,7 +4888,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "썬더 클라우드",
         "attackCount": 5,
         "range": "원거리",
         "element": "천둥",
@@ -4848,7 +4901,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "매직 게임",
         "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
@@ -4879,7 +4932,7 @@
     "fieldTypes": ["WG", "NSp", "VB"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "뿔 공격",
         "attackCount": 1,
         "range": "근거리",
         "element": "강철",
@@ -4890,7 +4943,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "홀리샷",
         "attackCount": 1,
         "range": "원거리",
         "element": "빛",
@@ -4901,7 +4954,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "신속",
         "attackCount": 0,
         "range": "근거리",
         "element": "물리",
@@ -5048,7 +5101,7 @@
     "fieldTypes": ["NSp", "VB"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "펀치",
         "attackCount": 1,
         "range": "근거리",
         "element": "강철",
@@ -5059,7 +5112,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "히트 어퍼",
         "attackCount": 1,
         "range": "근거리",
         "element": "불",
@@ -5070,7 +5123,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "헌팅캐논",
         "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
@@ -5078,7 +5131,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": 0.6,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.6499]
+        "coefficients": [
+          1.1999, 1.2499, 1.2999, 1.3499, 1.3999, 1.4499, 1.4999, 1.5499,
+          1.5999, 1.6499
+        ]
       }
     ]
   },
@@ -5182,7 +5238,10 @@
         "targetCount": "단일",
         "effect": "방어력 감소",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
+        "coefficients": [
+          0.15, 0.1571, 0.1642, 0.1713, 0.1784, 0.1854, 0.1925, 0.1996, 0.2067,
+          0.2137
+        ]
       },
       {
         "name": "미스커넥팅",
@@ -5218,7 +5277,7 @@
     "fieldTypes": ["JT", "WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "걷어차기",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -5229,7 +5288,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "노즈 매톡",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
@@ -5243,7 +5302,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "리틀 팩커",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -5274,7 +5333,7 @@
     "fieldTypes": ["NSp", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "판저 너클",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -5285,7 +5344,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "혼 드라이버",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -5296,7 +5355,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "바요넷 랜서",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -5304,7 +5363,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": 1.2,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.8499]
+        "coefficients": [
+          1.3999, 1.4499, 1.4999, 1.5499, 1.5999, 1.6499, 1.6999, 1.7499,
+          1.7999, 1.8499
+        ]
       }
     ]
   },
@@ -5327,7 +5389,7 @@
     "fieldTypes": ["ME"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "메탈 샷",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -5338,7 +5400,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "머신건 암",
         "attackCount": 9,
         "range": "원거리",
         "element": "물리",
@@ -5352,7 +5414,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "하이퍼 캐논",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -5360,7 +5422,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": 1.2,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.8499]
+        "coefficients": [
+          1.3999, 1.4499, 1.4999, 1.5499, 1.5999, 1.6499, 1.6999, 1.7499,
+          1.7999, 1.8499
+        ]
       }
     ]
   },
@@ -5383,7 +5448,7 @@
     "fieldTypes": ["NSp", "Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "후려치기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -5391,10 +5456,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "미스터리 오브",
         "attackCount": 1,
         "range": "원거리",
         "element": "불",
@@ -5405,7 +5472,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "매드 벌룬 붐",
         "attackCount": 6,
         "range": "원거리",
         "element": "불",
@@ -5413,7 +5480,7 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.0641, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       }
     ]
   },
@@ -5662,44 +5729,52 @@
     "spd": 0,
     "def": 0,
     "res": 0,
-    "strength": "",
-    "strengthEffect": "",
-    "weakness": "",
-    "weaknessEffect": "",
-    "fieldTypes": [],
+    "strength": "불",
+    "strengthEffect": "내성",
+    "weakness": "물",
+    "weaknessEffect": "회피불가",
+    "fieldTypes": ["NSp", "Nso"],
     "skills": [
       {
         "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
         "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       },
       {
         "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       }
     ]
   },
@@ -5778,7 +5853,7 @@
     "fieldTypes": ["UK", "WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "똥 발사",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -5789,7 +5864,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "더티 소서",
         "attackCount": 3,
         "range": "원거리",
         "element": "물리",
@@ -5803,7 +5878,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "똥 바주카",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -5836,7 +5911,7 @@
     "fieldTypes": ["DS"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "꼬리 공격",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -5849,7 +5924,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "기간토 프레스",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
@@ -5863,7 +5938,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "타이달 웨이브",
         "attackCount": 5,
         "range": "원거리",
         "element": "물",
@@ -5896,7 +5971,7 @@
     "fieldTypes": ["ME", "WG", "DR"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "길티 클로",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -5909,7 +5984,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "에너지 샷",
         "attackCount": 3,
         "range": "원거리",
         "element": "불",
@@ -5923,7 +5998,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "제노사이드 기어",
         "attackCount": 4,
         "range": "원거리",
         "element": "강철",
@@ -5976,7 +6051,10 @@
         "targetCount": "단일",
         "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
+        "coefficients": [
+          0.15, 0.1571, 0.1642, 0.1713, 0.1784, 0.1854, 0.1925, 0.1996, 0.2067,
+          0.2137
+        ]
       },
       {
         "name": "딥 소로우",
@@ -6068,7 +6146,7 @@
     "fieldTypes": ["Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "푸른 화염 연타",
         "attackCount": 3,
         "range": "근거리",
         "element": "불",
@@ -6081,7 +6159,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "히트 체인",
         "attackCount": 2,
         "range": "근거리",
         "element": "강철",
@@ -6094,7 +6172,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "헤비 메탈 파이어",
         "attackCount": 7,
         "range": "원거리",
         "element": "불",
@@ -6188,7 +6266,7 @@
     "fieldTypes": ["NSp", "Nso", "VB"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "손날 치기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -6201,7 +6279,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "호봉찰",
         "attackCount": 5,
         "range": "원거리",
         "element": "어둠",
@@ -6214,7 +6292,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "범필섬",
         "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
@@ -6255,7 +6333,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "2스킬",
@@ -6266,7 +6346,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
         "name": "3스킬",
@@ -6277,7 +6359,9 @@
         "targetCount": "단일",
         "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -6300,7 +6384,7 @@
     "fieldTypes": ["DS"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "텐타클 플래핑",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -6313,7 +6397,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "싸우전드 휩",
         "attackCount": 5,
         "range": "근거리",
         "element": "물리",
@@ -6327,7 +6411,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "포비든 트라이던트",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -6414,7 +6498,7 @@
     "fieldTypes": ["JT", "WG", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "뷰티 슬랩",
         "attackCount": 3,
         "range": "원거리",
         "element": "바람",
@@ -6422,10 +6506,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "라일라 샤워",
         "attackCount": 5,
         "range": "원거리",
         "element": "빛",
@@ -6438,8 +6524,8 @@
         ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
+        "name": "앙 두 폴렌",
+        "attackCount": 1,
         "range": "근거리",
         "element": "나무",
         "target": "적",
@@ -6469,7 +6555,7 @@
     "fieldTypes": ["ME", "WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "발차기",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -6480,7 +6566,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "래피드 파이어",
         "attackCount": 2,
         "range": "원거리",
         "element": "물리",
@@ -6493,7 +6579,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "골든 트라이앵글",
         "attackCount": 4,
         "range": "원거리",
         "element": "빛",
@@ -6587,7 +6673,7 @@
     "fieldTypes": ["ME"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "손등 치기",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -6598,7 +6684,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "맥시멈 디몰리셔",
         "attackCount": 6,
         "range": "근거리",
         "element": "물리",
@@ -6612,7 +6698,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "뱅퀴시 미사일",
         "attackCount": 1,
         "range": "원거리",
         "element": "불",
@@ -6645,7 +6731,7 @@
     "fieldTypes": ["JT", "NSp", "WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "바인즈",
         "attackCount": 4,
         "range": "원거리",
         "element": "나무",
@@ -6658,7 +6744,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "플라워 캐논",
         "attackCount": 1,
         "range": "원거리",
         "element": "나무",
@@ -6669,7 +6755,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "템테이션",
         "attackCount": 3,
         "range": "원거리",
         "element": "나무",
@@ -6703,7 +6789,7 @@
     "fieldTypes": ["ME", "NSp", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "두 번 치기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -6711,10 +6797,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "보옥",
         "attackCount": 1,
         "range": "원거리",
         "element": "불",
@@ -6725,7 +6813,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "라우라바",
         "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
@@ -6733,7 +6821,9 @@
         "targetCount": "단일",
         "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       }
     ]
   },
@@ -6756,7 +6846,7 @@
     "fieldTypes": ["DA", "DS"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "촉수 공격",
         "attackCount": 4,
         "range": "근거리",
         "element": "물리",
@@ -6764,10 +6854,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "길티 블랙",
         "attackCount": 3,
         "range": "원거리",
         "element": "물",
@@ -6775,12 +6867,15 @@
         "targetCount": "단일",
         "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
+          0.4275
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "시메츠키",
         "attackCount": 4,
-        "range": "원거리",
+        "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
@@ -6828,7 +6923,7 @@
         "element": "불",
         "target": "아군",
         "targetCount": "단일",
-        "effect": "공격 증가",
+        "effect": "공격력 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
@@ -6866,7 +6961,7 @@
     "fieldTypes": ["Nso", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "터스크 스트라이크",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -6877,7 +6972,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "스노우 볼",
         "attackCount": 1,
         "range": "원거리",
         "element": "얼음",
@@ -6888,7 +6983,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "툰드라 브레스",
         "attackCount": 5,
         "range": "원거리",
         "element": "얼음",
@@ -6954,7 +7049,10 @@
         "targetCount": "단일",
         "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
+        "coefficients": [
+          0.15, 0.1571, 0.1642, 0.1713, 0.1784, 0.1854, 0.1925, 0.1996, 0.2067,
+          0.2137
+        ]
       }
     ]
   },
@@ -6970,44 +7068,49 @@
     "spd": 0,
     "def": 0,
     "res": 0,
-    "strength": "",
+    "strength": "불",
     "strengthEffect": "",
-    "weakness": "",
+    "weakness": "얼음",
     "weaknessEffect": "",
-    "fieldTypes": [],
+    "fieldTypes": ["DR", "ME", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
+        "name": "해머 엣지",
+        "attackCount": 1,
         "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "name": "더블 엣지",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "바람",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "name": "아토믹 블래스터",
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "불",
         "target": "적",
         "targetCount": "단일",
-        "effect": null,
+        "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.15, 0.1571, 0.1642, 0.1713, 0.1784, 0.1854, 0.1925, 0.1996, 0.2067,
+          0.2137
+        ]
       }
     ]
   },
@@ -7232,7 +7335,10 @@
         "targetCount": "단일",
         "effect": "방어력 감소",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
+        "coefficients": [
+          0.15, 0.1571, 0.1642, 0.1713, 0.1784, 0.1854, 0.1925, 0.1996, 0.2067,
+          0.2137
+        ]
       }
     ]
   },
@@ -7314,7 +7420,7 @@
     "fieldTypes": ["VB"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "삼단 베기",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
@@ -7327,7 +7433,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "코어 다트",
         "attackCount": 4,
         "range": "원거리",
         "element": "불",
@@ -7340,13 +7446,13 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "블래스트 파이어",
         "attackCount": 1,
         "range": "근거리",
         "element": "불",
         "target": "적",
         "targetCount": "단일",
-        "effect": null,
+        "effect": "화상",
         "additionalTurn": null,
         "coefficients": [
           0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
@@ -7373,7 +7479,7 @@
     "fieldTypes": ["Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "길티쉬",
         "attackCount": 4,
         "range": "원거리",
         "element": "물리",
@@ -7386,18 +7492,18 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "릭 인포메이션",
         "attackCount": 0,
-        "range": "",
+        "range": "근거리",
         "element": "어둠",
         "target": "자신",
         "targetCount": "",
-        "effect": "치명 증가",
+        "effect": "치명타율 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
-        "name": "3스킬",
+        "name": "카미우치",
         "attackCount": 4,
         "range": "근거리",
         "element": "천둥",
@@ -7487,7 +7593,7 @@
     "fieldTypes": ["DA", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "발차기",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
@@ -7500,7 +7606,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "어브덕션 광선",
         "attackCount": 3,
         "range": "원거리",
         "element": "천둥",
@@ -7514,7 +7620,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "악마의 키스 날리기",
         "attackCount": 4,
         "range": "원거리",
         "element": "어둠",
@@ -7522,7 +7628,10 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1393]
+        "coefficients": [
+          0.0961, 0.1009, 0.1057, 0.1105, 0.1153, 0.1202, 0.125, 0.1298, 0.1346,
+          0.1394
+        ]
       }
     ]
   },
@@ -7545,7 +7654,7 @@
     "fieldTypes": ["WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "쏜 휩",
         "attackCount": 4,
         "range": "원거리",
         "element": "나무",
@@ -7553,10 +7662,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "폴리노시스 샤워",
         "attackCount": 5,
         "range": "근거리",
         "element": "나무",
@@ -7564,10 +7675,13 @@
         "targetCount": "단일",
         "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.18, 0.1885, 0.197, 0.2055, 0.214, 0.2225, 0.231, 0.2395, 0.248,
+          0.2565
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "스파이럴 플라워",
         "attackCount": 4,
         "range": "원거리",
         "element": "나무",
@@ -7575,7 +7689,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       }
     ]
   },
@@ -7598,7 +7714,7 @@
     "fieldTypes": ["Nso", "DR"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "프로스트 너클",
         "attackCount": 1,
         "range": "근거리",
         "element": "얼음",
@@ -7609,7 +7725,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "콜드 플레임",
         "attackCount": 3,
         "range": "근거리",
         "element": "얼음",
@@ -7623,7 +7739,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "아이스 팬텀",
         "attackCount": 6,
         "range": "원거리",
         "element": "얼음",
@@ -7631,7 +7747,10 @@
         "targetCount": "단일",
         "effect": "빙결",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
+        "coefficients": [
+          0.15, 0.1571, 0.1642, 0.1713, 0.1784, 0.1854, 0.1925, 0.1996, 0.2067,
+          0.2137
+        ]
       }
     ]
   },
@@ -7707,7 +7826,7 @@
     "fieldTypes": ["WG", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "걷어차기",
         "attackCount": 4,
         "range": "근거리",
         "element": "물리",
@@ -7715,10 +7834,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "고져스 비크",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -7729,7 +7850,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "로얄 너츠",
         "attackCount": 6,
         "range": "원거리",
         "element": "나무",
@@ -7737,7 +7858,10 @@
         "targetCount": "단일",
         "effect": "중독",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.15, 0.1571, 0.1642, 0.1713, 0.1784, 0.1854, 0.1925, 0.1996, 0.2067,
+          0.2137
+        ]
       }
     ]
   },
@@ -7818,7 +7942,7 @@
     "fieldTypes": ["Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "후려치기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -7831,7 +7955,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "네일 본",
         "attackCount": 4,
         "range": "원거리",
         "element": "천둥",
@@ -7839,10 +7963,13 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.0961, 0.1009, 0.1057, 0.1105, 0.1153, 0.1202, 0.125, 0.1298, 0.1346,
+          0.1394
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "스컬 해머",
         "attackCount": 1,
         "range": "근거리",
         "element": "어둠",
@@ -7931,7 +8058,7 @@
     "fieldTypes": ["WG", "VB", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "연속 발차기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -7944,7 +8071,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "듀얼 소닉",
         "attackCount": 1,
         "range": "원거리",
         "element": "바람",
@@ -7957,7 +8084,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "탑 건",
         "attackCount": 1,
         "range": "원거리",
         "element": "바람",
@@ -7988,7 +8115,7 @@
     "fieldTypes": ["Nso", "JT", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "스파이더 쓰레드",
         "attackCount": 2,
         "range": "원거리",
         "element": "물리",
@@ -8001,7 +8128,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "액시드 미스트",
         "attackCount": 3,
         "range": "원거리",
         "element": "바람",
@@ -8015,7 +8142,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "프레데이션 스파이더",
         "attackCount": 3,
         "range": "원거리",
         "element": "물리",
@@ -8104,7 +8231,7 @@
     "fieldTypes": ["ME", "VB"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "펀치",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -8117,7 +8244,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "개틀링 미사일",
         "attackCount": 2,
         "range": "원거리",
         "element": "물리",
@@ -8130,7 +8257,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "안드로검",
         "attackCount": 3,
         "range": "원거리",
         "element": "물리",
@@ -8158,13 +8285,13 @@
     "def": 727,
     "res": 749,
     "strength": "물리",
-    "strengthEffect": "회피1",
+    "strengthEffect": "회피",
     "weakness": "강철",
     "weaknessEffect": "약점",
     "fieldTypes": ["NSp", "VB", "DR"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "매그넘 크래쉬",
         "attackCount": 5,
         "range": "근거리",
         "element": "물리",
@@ -8177,7 +8304,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "드래곤 임펄스",
         "attackCount": 1,
         "range": "원거리",
         "element": "바람",
@@ -8190,7 +8317,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "V 윙 블레이드",
         "attackCount": 1,
         "range": "원거리",
         "element": "바람",
@@ -8566,7 +8693,7 @@
     "fieldTypes": ["Nso", "DA"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "휘둘러 베기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -8574,21 +8701,26 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "루나틱 슬래시",
         "attackCount": 2,
         "range": "원거리",
-        "element": "물리",
+        "element": "어둠",
         "target": "적",
         "targetCount": "단일",
         "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.45, 0.4712, 0.4925, 0.5137, 0.535, 0.5562, 0.5774, 0.5987, 0.6199,
+          0.6412
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "가이아 매지카",
         "attackCount": 5,
         "range": "원거리",
         "element": "어둠",
@@ -8734,7 +8866,7 @@
     "fieldTypes": ["NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "타타타 다진고기",
         "attackCount": 4,
         "range": "근거리",
         "element": "물리",
@@ -8742,10 +8874,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "돼지 통구이",
         "attackCount": 4,
         "range": "근거리",
         "element": "불",
@@ -8753,10 +8887,13 @@
         "targetCount": "단일",
         "effect": "화상",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "강진 홈런",
         "attackCount": 1,
         "range": "근거리",
         "element": "강철",
@@ -8904,7 +9041,7 @@
     "fieldTypes": ["NSp", "Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "후려치기",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -8915,7 +9052,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "트라이 혼 어택",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -8926,10 +9063,10 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "골든 트라이 혼 어택",
         "attackCount": 3,
         "range": "근거리",
-        "element": "물리",
+        "element": "천둥",
         "target": "적",
         "targetCount": "단일",
         "effect": "감전",
@@ -9079,7 +9216,7 @@
     "fieldTypes": ["ME"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "펀치",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -9090,8 +9227,8 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
+        "name": "러블리 어택",
+        "attackCount": 1,
         "range": "원거리",
         "element": "빛",
         "target": "적",
@@ -9101,7 +9238,7 @@
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
-        "name": "3스킬",
+        "name": "메카라 빔",
         "attackCount": 3,
         "range": "원거리",
         "element": "어둠",
@@ -9135,7 +9272,7 @@
     "fieldTypes": ["Nso", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "몸통 박치기",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -9146,7 +9283,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "잭 오 랜턴",
         "attackCount": 4,
         "range": "원거리",
         "element": "불",
@@ -9160,7 +9297,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "트릭 오어 트리트",
         "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
@@ -9212,7 +9349,10 @@
         "targetCount": "단일",
         "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0.15, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.15, 0.1571, 0.1642, 0.1713, 0.1784, 0.1854, 0.1925, 0.1996, 0.2067,
+          0.2137
+        ]
       },
       {
         "name": "데들리 봄",
@@ -9246,7 +9386,7 @@
     "fieldTypes": ["NSp", "WG", "JT"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "스매쉬",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -9259,7 +9399,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "비트 봄",
         "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
@@ -9267,12 +9407,10 @@
         "targetCount": "단일",
         "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [
-          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
-        ]
+        "coefficients": [0.85, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
-        "name": "3스킬",
+        "name": "페어리 테일",
         "attackCount": 1,
         "range": "근거리",
         "element": "빛",
@@ -9335,7 +9473,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": 0.9,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.3499]
+        "coefficients": [
+          0.2599, 0.2699, 0.2799, 0.2899, 0.2999, 0.3099, 0.3199, 0.3299,
+          0.3399, 0.3499
+        ]
       }
     ]
   },
@@ -9411,44 +9552,49 @@
     "spd": 0,
     "def": 0,
     "res": 0,
-    "strength": "",
-    "strengthEffect": "",
-    "weakness": "",
-    "weaknessEffect": "",
-    "fieldTypes": [],
+    "strength": "불",
+    "strengthEffect": "회피",
+    "weakness": "천둥",
+    "weaknessEffect": "효과확률",
+    "fieldTypes": ["WG", "VB", "DR"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "갓 피스트",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "갓 플레임",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
-        "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "additionalTurn": 0.9,
+        "coefficients": [
+          0.2599, 0.2699, 0.2799, 0.2899, 0.2999, 0.3099, 0.3199, 0.3299,
+          0.3399, 0.3499
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "name": "소환",
+        "attackCount": 2,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       }
     ]
   },
@@ -9471,7 +9617,7 @@
     "fieldTypes": ["Nso", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "블러디 스트림 글레이드",
         "attackCount": 2,
         "range": "원거리",
         "element": "물리",
@@ -9479,10 +9625,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "나이트메어 레이드",
         "attackCount": 6,
         "range": "원거리",
         "element": "어둠",
@@ -9490,10 +9638,10 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.0641, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
-        "name": "3스킬",
+        "name": "가디악 레이드",
         "attackCount": 3,
         "range": "원거리",
         "element": "어둠",
@@ -9501,7 +9649,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3333, 0.35, 0.3666, 0.3833, 0.4, 0.4166, 0.4333, 0.45, 0.4666,
+          0.4833
+        ]
       }
     ]
   },
@@ -9524,18 +9675,20 @@
     "fieldTypes": ["DS"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "게이트 오브 아틀란티스",
         "attackCount": 3,
-        "range": "",
+        "range": "원거리",
         "element": "물",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "웨이브 오브 뎁스",
         "attackCount": 4,
         "range": "원거리",
         "element": "물",
@@ -9543,10 +9696,13 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.0961, 0.1009, 0.1057, 0.1105, 0.1153, 0.1202, 0.125, 0.1298, 0.1346,
+          0.1394
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "볼텍스 페네트레이트",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -9577,7 +9733,7 @@
     "fieldTypes": ["DA", "Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "그레이 클로",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -9585,10 +9741,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "데스 애로우",
         "attackCount": 2,
         "range": "원거리",
         "element": "어둠",
@@ -9596,10 +9754,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "익스플로전 아이",
         "attackCount": 4,
         "range": "원거리",
         "element": "어둠",
@@ -9607,7 +9767,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": 1.2,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3499, 0.3624, 0.3749, 0.3874, 0.3999, 0.4124, 0.4249, 0.4374,
+          0.4499, 0.4624
+        ]
       }
     ]
   },
@@ -9623,44 +9786,51 @@
     "spd": 0,
     "def": 0,
     "res": 0,
-    "strength": "",
-    "strengthEffect": "",
-    "weakness": "",
-    "weaknessEffect": "",
-    "fieldTypes": [],
+    "strength": "강철",
+    "strengthEffect": "회피",
+    "weakness": "얼음",
+    "weaknessEffect": "약점",
+    "fieldTypes": ["ME", "VB", "WG"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
+        "name": "로얄 슬래쉬",
+        "attackCount": 3,
         "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "name": "로얄 세이버",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "빛",
         "target": "적",
         "targetCount": "단일",
-        "effect": null,
+        "effect": "방어력 감소",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "name": "파이널 엘리시온",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "빛",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       }
     ]
   },
@@ -9743,7 +9913,7 @@
     "fieldTypes": ["JT", "Nso", "WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "로즈 레이피어",
         "attackCount": 5,
         "range": "근거리",
         "element": "물리",
@@ -9756,7 +9926,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "아이비 허그",
         "attackCount": 5,
         "range": "원거리",
         "element": "나무",
@@ -9769,7 +9939,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "포비든 템테이션",
         "attackCount": 2,
         "range": "원거리",
         "element": "나무",
@@ -9803,7 +9973,7 @@
     "fieldTypes": ["DS"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "프리티 하트",
         "attackCount": 1,
         "range": "근거리",
         "element": "빛",
@@ -9814,7 +9984,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "퍼니 스마일",
         "attackCount": 0,
         "range": "원거리",
         "element": "빛",
@@ -9822,10 +9992,10 @@
         "targetCount": "단일",
         "effect": "회복",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
-        "name": "3스킬",
+        "name": "오션 러브",
         "attackCount": 7,
         "range": "근거리",
         "element": "물",
@@ -9833,7 +10003,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1428, 0.15, 0.1571, 0.1642, 0.1714, 0.1785, 0.1857, 0.1928, 0.2,
+          0.2071
+        ]
       }
     ]
   },
@@ -9849,44 +10022,52 @@
     "spd": 0,
     "def": 0,
     "res": 0,
-    "strength": "",
-    "strengthEffect": "",
-    "weakness": "",
-    "weaknessEffect": "",
-    "fieldTypes": [],
+    "strength": "불",
+    "strengthEffect": "회피",
+    "weakness": "물",
+    "weaknessEffect": "회피불가",
+    "fieldTypes": ["DA", "DR", "ME"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 0,
+        "name": "메기도 바이트",
+        "attackCount": 2,
         "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "name": "헬 하울링",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "바람",
         "target": "적",
-        "targetCount": "단일",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.0961, 0.1009, 0.1057, 0.1105, 0.1153, 0.1202, 0.125, 0.1298, 0.1346,
+          0.1394
+        ]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "name": "메기도 플레임",
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "불",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.175, 0.1833, 0.1916, 0.2, 0.2083, 0.2166, 0.225, 0.2333,
+          0.2416
+        ]
       }
     ]
   },
@@ -9965,7 +10146,7 @@
     "fieldTypes": ["DS", "ME"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "꼬리치기",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -9976,7 +10157,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "포세이돈 디바이드",
         "attackCount": 1,
         "range": "원거리",
         "element": "물",
@@ -9987,7 +10168,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "용의 콧물",
         "attackCount": 3,
         "range": "원거리",
         "element": "물",
@@ -9995,7 +10176,10 @@
         "targetCount": "단일",
         "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.3, 0.3141, 0.3283, 0.3424, 0.3566, 0.3708, 0.385, 0.3992, 0.4133,
+          0.4275
+        ]
       }
     ]
   },
@@ -10076,7 +10260,7 @@
     "fieldTypes": ["DS", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "강력한 철퇴",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -10087,7 +10271,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "냉동 폭풍",
         "attackCount": 6,
         "range": "원거리",
         "element": "얼음",
@@ -10101,7 +10285,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "버서커 하울링",
         "attackCount": 0,
         "range": "원거리",
         "element": "천둥",
@@ -10132,7 +10316,7 @@
     "fieldTypes": ["VB", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "남기",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -10143,7 +10327,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "사자라왕점",
         "attackCount": 4,
         "range": "근거리",
         "element": "물리",
@@ -10151,10 +10335,13 @@
         "targetCount": "단일",
         "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "플래시 반쵸 펀치",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -10358,7 +10545,7 @@
     "fieldTypes": ["VB", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "후려치기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -10371,7 +10558,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "인피니티 애로우",
         "attackCount": 6,
         "range": "원거리",
         "element": "물리",
@@ -10379,10 +10566,13 @@
         "targetCount": "단일",
         "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2137]
+        "coefficients": [
+          0.15, 0.1571, 0.1642, 0.1713, 0.1784, 0.1854, 0.1925, 0.1996, 0.2067,
+          0.2137
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "네일 크러셔",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -10413,7 +10603,7 @@
     "fieldTypes": ["NSp", "Nso", "WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "정염호무",
         "attackCount": 1,
         "range": "원거리",
         "element": "불",
@@ -10424,7 +10614,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "반강",
         "attackCount": 4,
         "range": "원거리",
         "element": "어둠",
@@ -10437,7 +10627,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "금강계 만다라",
         "attackCount": 0,
         "range": "원거리",
         "element": "빛",
@@ -10468,7 +10658,7 @@
     "fieldTypes": ["VB", "WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "엑스칼리버",
         "attackCount": 2,
         "range": "근거리",
         "element": "빛",
@@ -10481,7 +10671,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "어센션 할로우",
         "attackCount": 3,
         "range": "원거리",
         "element": "천둥",
@@ -10495,7 +10685,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "세븐 헤븐즈",
         "attackCount": 7,
         "range": "원거리",
         "element": "빛",
@@ -10529,7 +10719,7 @@
     "fieldTypes": ["ME"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "세인트 킥",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
@@ -10537,10 +10727,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "버스트 샷",
         "attackCount": 8,
         "range": "원거리",
         "element": "물리",
@@ -10548,10 +10740,13 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1312, 0.1375, 0.1437, 0.15, 0.1562, 0.1624, 0.1687, 0.1749,
+          0.1812
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "자이언트 미사일",
         "attackCount": 2,
         "range": "원거리",
         "element": "물리",
@@ -10559,7 +10754,10 @@
         "targetCount": "단일",
         "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.45, 0.4712, 0.4925, 0.5137, 0.535, 0.5562, 0.5774, 0.5987, 0.6199,
+          0.6412
+        ]
       }
     ]
   },
@@ -10582,7 +10780,7 @@
     "fieldTypes": ["NSp", "Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "휘두르기",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -10593,7 +10791,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "그랜드 차지",
         "attackCount": 3,
         "range": "원거리",
         "element": "물리",
@@ -10607,7 +10805,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "스파이럴 본",
         "attackCount": 1,
         "range": "원거리",
         "element": "물리",
@@ -10640,7 +10838,7 @@
     "fieldTypes": ["VB", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "에덴즈 니들",
         "attackCount": 3,
         "range": "근거리",
         "element": "물리",
@@ -10653,7 +10851,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "에덴즈 자벨린",
         "attackCount": 4,
         "range": "원거리",
         "element": "빛",
@@ -10666,7 +10864,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "세피로트 크리스털",
         "attackCount": 5,
         "range": "원거리",
         "element": "빛",
@@ -10755,7 +10953,7 @@
     "fieldTypes": ["DA", "UK", "ME"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "발차기",
         "attackCount": 4,
         "range": "근거리",
         "element": "물리",
@@ -10763,10 +10961,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.125, 0.1375, 0.15, 0.1625, 0.175, 0.1875, 0.2, 0.2125, 0.225, 0.2375
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "브레인 럽쳐",
         "attackCount": 5,
         "range": "원거리",
         "element": "어둠",
@@ -10774,10 +10974,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "플래닛 디스트로이어",
         "attackCount": 5,
         "range": "원거리",
         "element": "천둥",
@@ -10785,7 +10987,10 @@
         "targetCount": "단일",
         "effect": "감전",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.18, 0.1885, 0.197, 0.2055, 0.214, 0.2225, 0.231, 0.2395, 0.248,
+          0.2565
+        ]
       }
     ]
   },
@@ -10808,7 +11013,7 @@
     "fieldTypes": ["Nso", "UK"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "휘두르기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -10821,7 +11026,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "역반강술",
         "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
@@ -10832,7 +11037,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "태장계 만다라",
         "attackCount": 0,
         "range": "원거리",
         "element": "빛",
@@ -10921,7 +11126,7 @@
     "fieldTypes": ["DA", "Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "혼백심격",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -10932,7 +11137,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "호응명신",
         "attackCount": 5,
         "range": "원거리",
         "element": "어둠",
@@ -10940,10 +11145,12 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "환인무혼",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -10951,7 +11158,10 @@
         "targetCount": "단일",
         "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.45, 0.4712, 0.4925, 0.5137, 0.535, 0.5562, 0.5774, 0.5987, 0.6199,
+          0.6412
+        ]
       }
     ]
   },
@@ -10987,13 +11197,16 @@
       {
         "name": "일렉트릭 바인드",
         "attackCount": 6,
-        "range": "원거리",
+        "range": "근거리",
         "element": "천둥",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.175, 0.1833, 0.1916, 0.2, 0.2083, 0.2166, 0.225, 0.2333,
+          0.2416
+        ]
       },
       {
         "name": "디지카볼릭 스테로이드",
@@ -11035,7 +11248,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "인피니티 핸드",
@@ -11046,7 +11261,9 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       },
       {
         "name": "인피니티 캐논",
@@ -11057,7 +11274,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": 1.2,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0.4624]
+        "coefficients": [
+          0.3499, 0.3624, 0.3749, 0.3874, 0.3999, 0.4124, 0.4249, 0.4374,
+          0.4499, 0.4624
+        ]
       }
     ]
   },
@@ -11080,18 +11300,20 @@
     "fieldTypes": ["WG", "VB"],
     "skills": [
       {
-        "name": "1스킬",
-        "attackCount": 1,
+        "name": "발톱 공격",
+        "attackCount": 2,
         "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
-        "name": "2스킬",
+        "name": "크림슨 플레어",
         "attackCount": 1,
         "range": "원거리",
         "element": "불",
@@ -11104,7 +11326,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "스타라이트 익스플로전",
         "attackCount": 5,
         "range": "원거리",
         "element": "불",
@@ -11137,7 +11359,7 @@
     "fieldTypes": ["DS"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "꼬리치기",
         "attackCount": 2,
         "range": "근거리",
         "element": "물리",
@@ -11150,7 +11372,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "소로우 블루",
         "attackCount": 4,
         "range": "원거리",
         "element": "바람",
@@ -11158,10 +11380,13 @@
         "targetCount": "단일",
         "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       },
       {
-        "name": "3스킬",
+        "name": "쉐이킹 펄스",
         "attackCount": 4,
         "range": "원거리",
         "element": "바람",
@@ -11194,7 +11419,7 @@
     "fieldTypes": ["JT", "WG"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "해머 스윙",
         "attackCount": 1,
         "range": "근거리",
         "element": "강철",
@@ -11205,9 +11430,9 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "불릿 해머",
         "attackCount": 1,
-        "range": "원거리",
+        "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
@@ -11216,8 +11441,8 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
-        "attackCount": 0,
+        "name": "와이어즈 쵸킹",
+        "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
         "target": "적",
@@ -11247,7 +11472,7 @@
     "fieldTypes": ["Nso"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "토이 원더니스",
         "attackCount": 1,
         "range": "원거리",
         "element": "바람",
@@ -11258,7 +11483,7 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "엔딩 스나이프",
         "attackCount": 1,
         "range": "원거리",
         "element": "어둠",
@@ -11269,7 +11494,7 @@
         "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       },
       {
-        "name": "3스킬",
+        "name": "트럼프 소드",
         "attackCount": 4,
         "range": "원거리",
         "element": "물리",
@@ -11277,7 +11502,10 @@
         "targetCount": "단일",
         "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.225, 0.2356, 0.2462, 0.2569, 0.2675, 0.2781, 0.2887, 0.2993, 0.31,
+          0.3206
+        ]
       }
     ]
   },
@@ -11300,7 +11528,7 @@
     "fieldTypes": ["JT", "NSp"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "자이언트 시저",
         "attackCount": 1,
         "range": "근거리",
         "element": "물리",
@@ -11311,9 +11539,9 @@
         "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
-        "name": "2스킬",
+        "name": "혼 버스터 : 개",
         "attackCount": 2,
-        "range": "원거리",
+        "range": "근거리",
         "element": "천둥",
         "target": "적",
         "targetCount": "단일",
@@ -11324,7 +11552,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "기가 블래스터",
         "attackCount": 5,
         "range": "원거리",
         "element": "천둥",
@@ -11358,7 +11586,7 @@
     "fieldTypes": ["NSp", "WG", "DR"],
     "skills": [
       {
-        "name": "1스킬",
+        "name": "허밋 포그",
         "attackCount": 3,
         "range": "원거리",
         "element": "바람",
@@ -11371,7 +11599,7 @@
         ]
       },
       {
-        "name": "2스킬",
+        "name": "아포칼립스",
         "attackCount": 5,
         "range": "원거리",
         "element": "빛",
@@ -11384,7 +11612,7 @@
         ]
       },
       {
-        "name": "3스킬",
+        "name": "홀리 플레임",
         "attackCount": 5,
         "range": "원거리",
         "element": "빛",
