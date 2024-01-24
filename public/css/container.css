@@ -1,4 +1,9 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+@font-face {
+	font-family: 'Vipnagorgialla';
+	font-weight: 700;
+	src: url('../fonts/VIPNAGOR.ttf') format('truetype');
+}
 
 :root {
   --combo-width: 150px;
@@ -52,6 +57,10 @@ body,
   color: rgb(207, 208, 214);
 
   outline: none;
+}
+
+ul, li {
+  list-style-type: none;
 }
 
 #container {

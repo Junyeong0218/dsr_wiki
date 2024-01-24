@@ -1,0 +1,230 @@
+.digivice-simulator {
+    margin-top: -10px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digivice-container {
+    position: relative;
+
+    width: 328px;
+    height: 264px;
+}
+
+.digivice-container .digivice {
+    position: absolute;
+    top: 0;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+.digivice-container .digivice-screens {
+    position: absolute;
+    top: 65px;
+    left: 83px;
+
+    max-height: 90px;
+    transform: skew(350deg, 357deg);
+
+    overflow: hidden;
+}
+
+.digivice-container .digivice-screens .screen-mover {
+    transition: 500ms;
+}
+
+.digivice-container .digivice-screens li {
+    width: 100px;
+    height: 90px;
+
+    background-color: #5b7b63;
+    
+    font-size: 1rem;
+    text-align: center;
+    line-height: 90px;
+}
+
+.digivice-container .digivice-screens li span {
+    font-size: inherit;
+}
+
+.digivice-container .select-button {
+    position: absolute;
+
+    z-index: 2;
+}
+
+.digivice-container .select-button img {
+    pointer-events: none;
+    filter: sepia(0.1%) contrast(100%) saturate(1) brightness(100%) hue-rotate(0deg);
+}
+
+.digivice-container .select-button:hover img {
+    filter: invert(13%) sepia(91%) saturate(2335%) hue-rotate(345deg) brightness(113%) contrast(103%);
+}
+
+.gauges-container {
+    margin-top: 20px;
+}
+
+.gauges-container .help-text {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.gauges-container .gauges {
+    padding: 10px;
+
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+
+.gauges-container .gauges .gauge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 70px;
+    height: 100%;
+}
+
+.gauges-container .gauges .gauge.selectable,
+.gauges-container .gauges .gauge.selected {
+    cursor: pointer;
+}
+
+.gauges-container .gauges .gauge span {
+    font-size: 0.9rem;
+    color: var(--black);
+
+    pointer-events: none;
+}
+
+.gauges-container .gauges .gauge img {
+    margin-top: auto;
+    border-radius: 8px;
+
+    pointer-events: none;
+}
+
+.gauges-container .gauges .gauge.selected img {
+    box-shadow: 0px 0px 4px 5px var(--type-baby2-deep);
+}
+
+.gauges-container .gauges .gauge.selectable:hover img {
+    box-shadow: 0px 0px 4px 5px var(--white);
+}
+
+.gauges-container .buttons {
+    margin-top: 10px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gauges-container .buttons button {
+    padding: 2px 20px;
+
+    font-size: 1rem;
+    color: var(--white);
+
+    border: 1px solid var(--white);
+    border-radius: 20px;
+}
+
+.gauges-container .buttons .submit-button:hover {
+    border-color: var(--type-child-deep);
+    background-color: var(--type-child-deep);
+}
+
+.gauges-container .buttons .cancel-button:hover {
+    border-color: var(--type-baby1-deep);
+    background-color: var(--type-baby1-deep);
+}
+
+.adjust-dashboard {
+    margin-top: 30px;
+
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.adjust-dashboard .spent-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    height: 265px;
+}
+
+.adjust-dashboard .spent-items .spent-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    font-family: "Vipnagorgialla";
+    font-size: 2.6rem;
+}
+
+.adjust-dashboard .spent-items .spent-item span {
+    font-family: "Vipnagorgialla";
+    font-size: 2.6rem;
+}
+
+.stat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.stat-container .stat {
+    display: flex;
+
+    height: 25px;
+
+    font-size: 1.1rem;
+    color: var(--white);
+    line-height: 25px;
+}
+
+.stat-container .stat .title {
+    font: inherit;
+    min-width: 100px;
+}
+
+.stat-container .stat .value.active {
+    padding: 2px 10px;
+
+    height: 100%;
+
+    border-radius: 12.5px;
+    background-color: var(--type-child-thin);
+
+    font-weight: 700;
+    color: var(--black);
+}

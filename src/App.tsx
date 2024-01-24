@@ -12,6 +12,7 @@ import RightFitAd from "./components/ads/RightFitAd";
 import EvolutionSearcher from "./components/evolution/EvolutionSearcher";
 import Overflows from "./components/overflows/Overflows";
 import Detectors from "./components/detector/Detector";
+import Adjustments from "./components/adjustment/Adjustments";
 
 export default function App(): React.ReactElement {
     return (
@@ -25,6 +26,7 @@ export default function App(): React.ReactElement {
                         <Route path="/maps" element={<Maps />} />
                         <Route path="/overflows" element={<Overflows />} />
                         <Route path="/detectors" element={<Detectors />} />
+                        <Route path="/adjustments" element={<Adjustments />} />
                         <Route path="/combinations" element={<CombinationSearcher />} />
                         <Route path="/digidex" element={<Digidex />} />
                         <Route path="*" element={<NotFound />} />

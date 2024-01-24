@@ -17,13 +17,21 @@ const getItems = (): Array<Item> => {
 
     return origin;
 }
+
 const getItemById = (id: number): Item|null => {
     loadItems();
 
     return origin.find(item => item.id === id) ?? null;
 }
 
+const getItemByName = (name: string, tradable: boolean = true) => {
+    loadItems();
+
+    return origin.find(item => item.name === name && item.canTrade === tradable);
+}
+
 export {
     getItems,
-    getItemById
+    getItemById,
+    getItemByName
 }
