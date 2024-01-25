@@ -111,7 +111,7 @@ export default function EvolutionSearcher(): React.ReactElement {
                 접기/펼치기 버튼 숨기기
             </label>
         </div>
-    }, [selectedDigimon]);
+    }, [selectedDigimon, hideFoldButton]);
 
     return (
         <div className={`main ${hideFoldButton ? "hide-fold-button" : ""}`} onMouseMove={captureMouse} onClick={changeDigimon}>
