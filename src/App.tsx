@@ -13,6 +13,7 @@ import EvolutionSearcher from "./components/evolution/EvolutionSearcher";
 import Overflows from "./components/overflows/Overflows";
 import Detectors from "./components/detector/Detector";
 import Adjustments from "./components/adjustment/Adjustments";
+import Potentials from "./components/potential/Potentials";
 
 export default function App(): React.ReactElement {
     return (
@@ -25,8 +26,9 @@ export default function App(): React.ReactElement {
                         <Route path="/evolutions" element={<EvolutionSearcher />} />
                         <Route path="/maps" element={<Maps />} />
                         <Route path="/overflows" element={<Overflows />} />
-                        <Route path="/detectors" element={<Detectors />} />
+                        {/* <Route path="/detectors" element={<Detectors />} /> */}
                         <Route path="/adjustments" element={<Adjustments />} />
+                        <Route path="/potentials" element={<Potentials />} />
                         <Route path="/combinations" element={<CombinationSearcher />} />
                         <Route path="/digidex" element={<Digidex />} />
                         <Route path="*" element={<NotFound />} />

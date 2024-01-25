@@ -1,4 +1,3 @@
-import { forEach } from "lodash";
 import { getItemByName } from "./getItemsFunctions";
 
 type Gauge = {
@@ -152,9 +151,6 @@ const getRandomStat = (impossibles: Array<Gauge>) => {
 
     const impossibleTypes = impossibles.map(each => each.type);
     cases = cases.filter(each => !impossibleTypes.includes(each.type));
-    // impossibles.forEach(impossible => {
-    //     cases.splice(cases.findIndex(e => e.type === impossible.type)!, 1);
-    // });
 
     const { table, counts } = createSuccessTable(cases);
     const index = getRandomNumber(counts);
