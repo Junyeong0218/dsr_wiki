@@ -5480,7 +5480,10 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0.0641, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.0641, 0.0673, 0.0705, 0.0737, 0.0769, 0.0801, 0.0833, 0.0865,
+          0.0897, 0.0929
+        ]
       }
     ]
   },
@@ -7792,7 +7795,7 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": 1.2,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1.85]
+        "coefficients": [1.4, 1.45, 1.5, 1.55, 1.6, 1.65, 1.7, 1.75, 1.8, 1.85]
       },
       {
         "name": "3스킬",
@@ -9407,7 +9410,9 @@
         "targetCount": "단일",
         "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0.85, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "페어리 테일",
@@ -9638,7 +9643,10 @@
         "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0.0641, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.0641, 0.0673, 0.0705, 0.0737, 0.0769, 0.0801, 0.0833, 0.0865,
+          0.0897, 0.0929
+        ]
       },
       {
         "name": "가디악 레이드",
@@ -10451,7 +10459,10 @@
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": 0.8,
-        "coefficients": [0.1809, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1809, 0.1881, 0.1952, 0.2024, 0.2095, 0.2167, 0.2238, 0.231, 0.2381,
+          0.2452
+        ]
       },
       {
         "name": "하트브레이크 샷",
