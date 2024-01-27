@@ -1335,6 +1335,25 @@
   {
     "id": 78,
     "resultItem": {
+      "id": 368,
+      "type": 9,
+      "name": "아오리 드헬 쉐이크",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 1000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 361, "count": 1 },
+      { "itemId": 359, "count": 1 },
+      { "itemId": 309, "count": 1 }
+    ]
+  },
+  {
+    "id": 79,
+    "resultItem": {
       "id": 375,
       "type": 10,
       "name": "만개의 날개",
@@ -1351,7 +1370,7 @@
     ]
   },
   {
-    "id": 79,
+    "id": 80,
     "resultItem": {
       "id": 376,
       "type": 10,
