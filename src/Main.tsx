@@ -94,7 +94,7 @@ export default function Main(): React.ReactElement {
             if(result.ok) {
                 const coupons:Array<Coupon> = result.data;
                 setCoupons(coupons.filter(e => e.active));
-                localStorage.setItem("coupons", JSON.stringify(coupons));
+                localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
             }
         }).catch(error => {
             console.log(error);
