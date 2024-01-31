@@ -157,7 +157,7 @@ export default function Potentials(): React.ReactElement {
     }
 
     const getSpanClassName = (statType: string): string => {
-        if(statType === "저항" || statType === "힘" || statType === "지능" || statType === "크리")
+        if(statType === "저항" || statType === "힘" || statType === "지능" || statType === "크리율")
             return "white";
 
         return "";
