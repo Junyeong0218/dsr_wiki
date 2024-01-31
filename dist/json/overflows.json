@@ -2,16 +2,17 @@
     {
         "mapName": "기어 사바나",
         "reqItem": {
-            "id": 247,
+            "id": 257,
             "type": 7,
             "name": "OF 접근권한 : B",
             "price": 0,
             "canTrade": false
         },
+        "point": { "x": 259, "y": 128 },
         "weekdays": [2, 4, 6],
         "stages": [
             {
-                "stage": "1",
+                "stage": 1,
                 "monsters": [
                     {
                         "id": 1,
@@ -47,11 +48,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "2",
+                "stage": 2,
                 "monsters": [
                     {
                         "id": 1,
@@ -87,11 +88,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "3",
+                "stage": 3,
                 "monsters": [
                     {
                         "id": 1,
@@ -127,11 +128,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "4",
+                "stage": 4,
                 "monsters": [
                     {
                         "id": 1,
@@ -167,11 +168,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "5",
+                "stage": 5,
                 "monsters": [
                     {
                         "id": 1,
@@ -207,11 +208,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "6",
+                "stage": 6,
                 "monsters": [
                     {
                         "id": 1,
@@ -247,11 +248,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "7",
+                "stage": 7,
                 "monsters": [
                     {
                         "id": 1,
@@ -287,11 +288,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "8",
+                "stage": 8,
                 "monsters": [
                     {
                         "id": 1,
@@ -327,11 +328,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "9",
+                "stage": 9,
                 "monsters": [
                     {
                         "id": 1,
@@ -367,11 +368,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "10",
+                "stage": 10,
                 "monsters": [
                     {
                         "id": 1,
@@ -407,11 +408,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 }
+                    { "itemId": 304, "count": 3 }
                 ]
             },
             {
-                "stage": "11",
+                "stage": 11,
                 "monsters": [
                     {
                         "id": 1,
@@ -443,17 +444,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 65, "count": 2 }
+                    { "itemId": 64, "count": 2 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 },
-                    { "itemId": 65, "count": 1 },
-                    { "itemId": 292, "count": 3 }
+                    { "itemId": 304, "count": 3 },
+                    { "itemId": 64, "count": 1 },
+                    { "itemId": 303, "count": 3 }
                 ]
             },
             {
-                "stage": "12",
+                "stage": 12,
                 "monsters": [
                     {
                         "id": 1,
@@ -485,17 +486,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 65, "count": 2 }
+                    { "itemId": 64, "count": 2 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 },
-                    { "itemId": 65, "count": 1 },
-                    { "itemId": 292, "count": 3 }
+                    { "itemId": 304, "count": 3 },
+                    { "itemId": 64, "count": 1 },
+                    { "itemId": 303, "count": 3 }
                 ]
             },
             {
-                "stage": "13",
+                "stage": 13,
                 "monsters": [
                     {
                         "id": 1,
@@ -527,17 +528,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 65, "count": 3 }
+                    { "itemId": 64, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 },
-                    { "itemId": 65, "count": 2 },
-                    { "itemId": 292, "count": 3 }
+                    { "itemId": 304, "count": 3 },
+                    { "itemId": 64, "count": 2 },
+                    { "itemId": 303, "count": 3 }
                 ]
             },
             {
-                "stage": "14",
+                "stage": 14,
                 "monsters": [
                     {
                         "id": 1,
@@ -569,17 +570,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 65, "count": 3 }
+                    { "itemId": 64, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 },
-                    { "itemId": 65, "count": 2 },
-                    { "itemId": 292, "count": 3 }
+                    { "itemId": 304, "count": 3 },
+                    { "itemId": 64, "count": 2 },
+                    { "itemId": 303, "count": 3 }
                 ]
             },
             {
-                "stage": "15",
+                "stage": 15,
                 "monsters": [
                     {
                         "id": 1,
@@ -611,18 +612,18 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 65, "count": 4 },
+                    { "itemId": 64, "count": 4 },
                     { "itemId": 44, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 3 },
-                    { "itemId": 65, "count": 2 },
-                    { "itemId": 292, "count": 3 }
+                    { "itemId": 304, "count": 3 },
+                    { "itemId": 64, "count": 2 },
+                    { "itemId": 303, "count": 3 }
                 ]
             },
             {
-                "stage": "16",
+                "stage": 16,
                 "monsters": [
                     {
                         "id": 1,
@@ -654,17 +655,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 66, "count": 2 }
+                    { "itemId": 65, "count": 2 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 65, "count": 4 },
-                    { "itemId": 292, "count": 4 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 64, "count": 4 },
+                    { "itemId": 303, "count": 4 }
                 ]
             },
             {
-                "stage": "17",
+                "stage": 17,
                 "monsters": [
                     {
                         "id": 1,
@@ -696,18 +697,18 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 66, "count": 2 },
+                    { "itemId": 65, "count": 2 },
                     { "itemId": 37, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 65, "count": 4 },
-                    { "itemId": 292, "count": 4 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 64, "count": 4 },
+                    { "itemId": 303, "count": 4 }
                 ]
             },
             {
-                "stage": "18",
+                "stage": 18,
                 "monsters": [
                     {
                         "id": 1,
@@ -739,17 +740,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 66, "count": 2 }
+                    { "itemId": 65, "count": 2 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 65, "count": 4 },
-                    { "itemId": 292, "count": 4 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 64, "count": 4 },
+                    { "itemId": 303, "count": 4 }
                 ]
             },
             {
-                "stage": "19",
+                "stage": 19,
                 "monsters": [
                     {
                         "id": 1,
@@ -781,17 +782,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 66, "count": 2 }
+                    { "itemId": 65, "count": 2 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 65, "count": 5 },
-                    { "itemId": 292, "count": 4 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 64, "count": 5 },
+                    { "itemId": 303, "count": 4 }
                 ]
             },
             {
-                "stage": "20",
+                "stage": 20,
                 "monsters": [
                     {
                         "id": 1,
@@ -823,17 +824,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 66, "count": 2 }
+                    { "itemId": 65, "count": 2 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 65, "count": 5 },
-                    { "itemId": 292, "count": 4 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 64, "count": 5 },
+                    { "itemId": 303, "count": 4 }
                 ]
             },
             {
-                "stage": "21",
+                "stage": 21,
                 "monsters": [
                     {
                         "id": 1,
@@ -865,18 +866,18 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 67, "count": 2 },
+                    { "itemId": 66, "count": 2 },
                     { "itemId": 44, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 66, "count": 3 },
-                    { "itemId": 292, "count": 5 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 65, "count": 3 },
+                    { "itemId": 303, "count": 5 }
                 ]
             },
             {
-                "stage": "22",
+                "stage": 22,
                 "monsters": [
                     {
                         "id": 1,
@@ -908,17 +909,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 67, "count": 2 }
+                    { "itemId": 66, "count": 2 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 66, "count": 3 },
-                    { "itemId": 292, "count": 5 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 65, "count": 3 },
+                    { "itemId": 303, "count": 5 }
                 ]
             },
             {
-                "stage": "23",
+                "stage": 23,
                 "monsters": [
                     {
                         "id": 1,
@@ -950,18 +951,18 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 67, "count": 2 },
+                    { "itemId": 66, "count": 2 },
                     { "itemId": 37, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 66, "count": 3 },
-                    { "itemId": 292, "count": 5 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 65, "count": 3 },
+                    { "itemId": 303, "count": 5 }
                 ]
             },
             {
-                "stage": "24",
+                "stage": 24,
                 "monsters": [
                     {
                         "id": 1,
@@ -993,17 +994,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 67, "count": 3 }
+                    { "itemId": 66, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 67, "count": 2 },
-                    { "itemId": 292, "count": 5 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 66, "count": 2 },
+                    { "itemId": 303, "count": 5 }
                 ]
             },
             {
-                "stage": "25",
+                "stage": 25,
                 "monsters": [
                     {
                         "id": 1,
@@ -1035,17 +1036,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 67, "count": 3 }
+                    { "itemId": 66, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 5 },
-                    { "itemId": 67, "count": 2 },
-                    { "itemId": 292, "count": 6 }
+                    { "itemId": 304, "count": 5 },
+                    { "itemId": 66, "count": 2 },
+                    { "itemId": 303, "count": 6 }
                 ]
             },
             {
-                "stage": "26",
+                "stage": 26,
                 "monsters": [
                     {
                         "id": 1,
@@ -1077,17 +1078,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 68, "count": 3 }
+                    { "itemId": 67, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 67, "count": 3 },
-                    { "itemId": 292, "count": 6 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 66, "count": 3 },
+                    { "itemId": 303, "count": 6 }
                 ]
             },
             {
-                "stage": "27",
+                "stage": 27,
                 "monsters": [
                     {
                         "id": 1,
@@ -1119,18 +1120,18 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 68, "count": 3 },
+                    { "itemId": 67, "count": 3 },
                     { "itemId": 44, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 67, "count": 3 },
-                    { "itemId": 292, "count": 6 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 66, "count": 3 },
+                    { "itemId": 303, "count": 6 }
                 ]
             },
             {
-                "stage": "28",
+                "stage": 28,
                 "monsters": [
                     {
                         "id": 1,
@@ -1162,17 +1163,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 68, "count": 4 }
+                    { "itemId": 67, "count": 4 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 68, "count": 3 },
-                    { "itemId": 292, "count": 7 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 67, "count": 3 },
+                    { "itemId": 303, "count": 7 }
                 ]
             },
             {
-                "stage": "29",
+                "stage": 29,
                 "monsters": [
                     {
                         "id": 1,
@@ -1204,18 +1205,18 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 68, "count": 5 },
+                    { "itemId": 67, "count": 5 },
                     { "itemId": 37, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 68, "count": 3 },
-                    { "itemId": 292, "count": 7 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 67, "count": 3 },
+                    { "itemId": 303, "count": 7 }
                 ]
             },
             {
-                "stage": "30",
+                "stage": 30,
                 "monsters": [
                     {
                         "id": 1,
@@ -1247,14 +1248,14 @@
                 ],
                 "firstRewords": [
                     { "itemId": 2, "count": 20 },
-                    { "itemId": 68, "count": 6 },
-                    { "itemId": 177, "count": 1 }
+                    { "itemId": 67, "count": 6 },
+                    { "itemId": 183, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 1 },
-                    { "itemId": 293, "count": 9 },
-                    { "itemId": 68, "count": 4 },
-                    { "itemId": 292, "count": 8 }
+                    { "itemId": 304, "count": 9 },
+                    { "itemId": 67, "count": 4 },
+                    { "itemId": 303, "count": 8 }
                 ]
             }
         ]
@@ -1262,16 +1263,17 @@
     {
         "mapName": "무한 산",
         "reqItem": {
-            "id": 248,
+            "id": 258,
             "type": 7,
             "name": "OF 접근권한 : C",
             "price": 0,
             "canTrade": false
         },
+        "point": { "x": 51, "y": 130 },
         "weekdays": [3, 5, 0],
         "stages": [
             {
-                "stage": "1",
+                "stage": 1,
                 "monsters": [
                     {
                         "id": 1,
@@ -1303,15 +1305,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 307, "count": 3 }
+                    { "itemId": 318, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "2",
+                "stage": 2,
                 "monsters": [
                     {
                         "id": 1,
@@ -1343,15 +1345,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 328, "count": 5 }
+                    { "itemId": 339, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "3",
+                "stage": 3,
                 "monsters": [
                     {
                         "id": 1,
@@ -1383,15 +1385,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 330, "count": 5 }
+                    { "itemId": 341, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "4",
+                "stage": 4,
                 "monsters": [
                     {
                         "id": 1,
@@ -1423,15 +1425,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 332, "count": 5 }
+                    { "itemId": 343, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "5",
+                "stage": 5,
                 "monsters": [
                     {
                         "id": 1,
@@ -1463,15 +1465,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 334, "count": 5 }
+                    { "itemId": 345, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "6",
+                "stage": 6,
                 "monsters": [
                     {
                         "id": 1,
@@ -1503,15 +1505,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 336, "count": 5 }
+                    { "itemId": 347, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "7",
+                "stage": 7,
                 "monsters": [
                     {
                         "id": 1,
@@ -1543,15 +1545,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 338, "count": 5 }
+                    { "itemId": 349, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "8",
+                "stage": 8,
                 "monsters": [
                     {
                         "id": 1,
@@ -1583,15 +1585,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 340, "count": 5 }
+                    { "itemId": 351, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "9",
+                "stage": 9,
                 "monsters": [
                     {
                         "id": 1,
@@ -1623,15 +1625,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 86, "count": 1 }
+                    { "itemId": 88, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "10",
+                "stage": 10,
                 "monsters": [
                     {
                         "id": 1,
@@ -1663,15 +1665,15 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 90, "count": 1 }
+                    { "itemId": 92, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 5 }
+                    { "itemId": 304, "count": 5 }
                 ]
             },
             {
-                "stage": "11",
+                "stage": 11,
                 "monsters": [
                     {
                         "id": 1,
@@ -1703,17 +1705,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 307, "count": 5 }
+                    { "itemId": 318, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 328, "count": 2 },
-                    { "itemId": 292, "count": 6 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 339, "count": 2 },
+                    { "itemId": 303, "count": 6 }
                 ]
             },
             {
-                "stage": "12",
+                "stage": 12,
                 "monsters": [
                     {
                         "id": 1,
@@ -1745,17 +1747,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 328, "count": 7 }
+                    { "itemId": 339, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 330, "count": 2 },
-                    { "itemId": 292, "count": 6 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 341, "count": 2 },
+                    { "itemId": 303, "count": 6 }
                 ]
             },
             {
-                "stage": "13",
+                "stage": 13,
                 "monsters": [
                     {
                         "id": 1,
@@ -1787,17 +1789,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 330, "count": 7 }
+                    { "itemId": 341, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 332, "count": 2 },
-                    { "itemId": 292, "count": 6 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 343, "count": 2 },
+                    { "itemId": 303, "count": 6 }
                 ]
             },
             {
-                "stage": "14",
+                "stage": 14,
                 "monsters": [
                     {
                         "id": 1,
@@ -1829,17 +1831,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 332, "count": 7 }
+                    { "itemId": 343, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 334, "count": 2 },
-                    { "itemId": 292, "count": 6 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 345, "count": 2 },
+                    { "itemId": 303, "count": 6 }
                 ]
             },
             {
-                "stage": "15",
+                "stage": 15,
                 "monsters": [
                     {
                         "id": 1,
@@ -1871,17 +1873,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 334, "count": 7 }
+                    { "itemId": 345, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 336, "count": 2 },
-                    { "itemId": 292, "count": 6 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 347, "count": 2 },
+                    { "itemId": 303, "count": 6 }
                 ]
             },
             {
-                "stage": "16",
+                "stage": 16,
                 "monsters": [
                     {
                         "id": 1,
@@ -1913,17 +1915,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 336, "count": 7 }
+                    { "itemId": 347, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 338, "count": 2 },
-                    { "itemId": 292, "count": 7 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 349, "count": 2 },
+                    { "itemId": 303, "count": 7 }
                 ]
             },
             {
-                "stage": "17",
+                "stage": 17,
                 "monsters": [
                     {
                         "id": 1,
@@ -1955,17 +1957,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 338, "count": 7 }
+                    { "itemId": 349, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 7 },
-                    { "itemId": 340, "count": 2 },
-                    { "itemId": 292, "count": 7 }
+                    { "itemId": 304, "count": 7 },
+                    { "itemId": 351, "count": 2 },
+                    { "itemId": 303, "count": 7 }
                 ]
             },
             {
-                "stage": "18",
+                "stage": 18,
                 "monsters": [
                     {
                         "id": 1,
@@ -1997,17 +1999,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 340, "count": 7 }
+                    { "itemId": 351, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 8 },
-                    { "itemId": 343, "count": 2 },
-                    { "itemId": 292, "count": 7 }
+                    { "itemId": 304, "count": 8 },
+                    { "itemId": 354, "count": 2 },
+                    { "itemId": 303, "count": 7 }
                 ]
             },
             {
-                "stage": "19",
+                "stage": 19,
                 "monsters": [
                     {
                         "id": 1,
@@ -2039,17 +2041,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 261, "count": 5 }
+                    { "itemId": 271, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 8 },
-                    { "itemId": 345, "count": 2 },
-                    { "itemId": 292, "count": 7 }
+                    { "itemId": 304, "count": 8 },
+                    { "itemId": 356, "count": 2 },
+                    { "itemId": 303, "count": 7 }
                 ]
             },
             {
-                "stage": "20",
+                "stage": 20,
                 "monsters": [
                     {
                         "id": 1,
@@ -2081,18 +2083,18 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 263, "count": 5 },
-                    { "itemId": 272, "count": 1 }
+                    { "itemId": 273, "count": 5 },
+                    { "itemId": 282, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 8 },
-                    { "itemId": 347, "count": 2 },
-                    { "itemId": 292, "count": 7 }
+                    { "itemId": 304, "count": 8 },
+                    { "itemId": 358, "count": 2 },
+                    { "itemId": 303, "count": 7 }
                 ]
             },
             {
-                "stage": "21",
+                "stage": 21,
                 "monsters": [
                     {
                         "id": 1,
@@ -2124,17 +2126,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 343, "count": 10 }
+                    { "itemId": 354, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 8 },
-                    { "itemId": 349, "count": 2 },
-                    { "itemId": 292, "count": 8 }
+                    { "itemId": 304, "count": 8 },
+                    { "itemId": 360, "count": 2 },
+                    { "itemId": 303, "count": 8 }
                 ]
             },
             {
-                "stage": "22",
+                "stage": 22,
                 "monsters": [
                     {
                         "id": 1,
@@ -2166,17 +2168,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 345, "count": 10 }
+                    { "itemId": 356, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 8 },
-                    { "itemId": 351, "count": 2 },
-                    { "itemId": 292, "count": 8 }
+                    { "itemId": 304, "count": 8 },
+                    { "itemId": 362, "count": 2 },
+                    { "itemId": 303, "count": 8 }
                 ]
             },
             {
-                "stage": "23",
+                "stage": 23,
                 "monsters": [
                     {
                         "id": 1,
@@ -2208,17 +2210,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 347, "count": 10 }
+                    { "itemId": 358, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 8 },
-                    { "itemId": 355, "count": 2 },
-                    { "itemId": 292, "count": 8 }
+                    { "itemId": 304, "count": 8 },
+                    { "itemId": 366, "count": 2 },
+                    { "itemId": 303, "count": 8 }
                 ]
             },
             {
-                "stage": "24",
+                "stage": 24,
                 "monsters": [
                     {
                         "id": 1,
@@ -2250,17 +2252,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 349, "count": 10 }
+                    { "itemId": 360, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 8 },
-                    { "itemId": 353, "count": 2 },
-                    { "itemId": 292, "count": 8 }
+                    { "itemId": 304, "count": 8 },
+                    { "itemId": 364, "count": 2 },
+                    { "itemId": 303, "count": 8 }
                 ]
             },
             {
-                "stage": "25",
+                "stage": 25,
                 "monsters": [
                     {
                         "id": 1,
@@ -2292,18 +2294,18 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 351, "count": 10 },
-                    { "itemId": 272, "count": 3 }
+                    { "itemId": 362, "count": 10 },
+                    { "itemId": 282, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 9 },
-                    { "itemId": 313, "count": 2 },
-                    { "itemId": 292, "count": 9 }
+                    { "itemId": 304, "count": 9 },
+                    { "itemId": 324, "count": 2 },
+                    { "itemId": 303, "count": 9 }
                 ]
             },
             {
-                "stage": "26",
+                "stage": 26,
                 "monsters": [
                     {
                         "id": 1,
@@ -2335,17 +2337,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 355, "count": 10 }
+                    { "itemId": 366, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 9 },
-                    { "itemId": 315, "count": 2 },
-                    { "itemId": 292, "count": 9 }
+                    { "itemId": 304, "count": 9 },
+                    { "itemId": 326, "count": 2 },
+                    { "itemId": 303, "count": 9 }
                 ]
             },
             {
-                "stage": "27",
+                "stage": 27,
                 "monsters": [
                     {
                         "id": 1,
@@ -2377,17 +2379,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 353, "count": 10 }
+                    { "itemId": 364, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 9 },
-                    { "itemId": 317, "count": 2 },
-                    { "itemId": 292, "count": 9 }
+                    { "itemId": 304, "count": 9 },
+                    { "itemId": 328, "count": 2 },
+                    { "itemId": 303, "count": 9 }
                 ]
             },
             {
-                "stage": "28",
+                "stage": 28,
                 "monsters": [
                     {
                         "id": 1,
@@ -2419,17 +2421,17 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 317, "count": 10 }
+                    { "itemId": 328, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 10 },
-                    { "itemId": 261, "count": 3 },
-                    { "itemId": 292, "count": 10 }
+                    { "itemId": 304, "count": 10 },
+                    { "itemId": 271, "count": 3 },
+                    { "itemId": 303, "count": 10 }
                 ]
             },
             {
-                "stage": "29",
+                "stage": 29,
                 "monsters": [
                     {
                         "id": 1,
@@ -2465,13 +2467,13 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 10 },
-                    { "itemId": 263, "count": 3 },
-                    { "itemId": 292, "count": 10 }
+                    { "itemId": 304, "count": 10 },
+                    { "itemId": 273, "count": 3 },
+                    { "itemId": 303, "count": 10 }
                 ]
             },
             {
-                "stage": "30",
+                "stage": 30,
                 "monsters": [
                     {
                         "id": 1,
@@ -2503,14 +2505,14 @@
                 ],
                 "firstRewords": [
                     { "itemId": 4, "count": 20 },
-                    { "itemId": 179, "count": 1 },
-                    { "itemId": 272, "count": 5 }
+                    { "itemId": 185, "count": 1 },
+                    { "itemId": 282, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 59, "count": 2 },
-                    { "itemId": 293, "count": 11 },
-                    { "itemId": 307, "count": 1 },
-                    { "itemId": 292, "count": 11 }
+                    { "itemId": 304, "count": 11 },
+                    { "itemId": 318, "count": 1 },
+                    { "itemId": 303, "count": 11 }
                 ]
             }
         ]
@@ -2518,16 +2520,17 @@
     {
         "mapName": "사막 지대",
         "reqItem": {
-            "id": 249,
+            "id": 259,
             "type": 7,
             "name": "OF 접근권한 : D",
             "price": 0,
             "canTrade": false
         },
+        "point": { "x": 132, "y": 151 },
         "weekdays": [2, 4, 6],
         "stages": [
             {
-                "stage": "1",
+                "stage": 1,
                 "monsters": [
                     {
                         "id": 1,
@@ -2560,15 +2563,15 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 286, "count": 1 }
+                    { "itemId": 297, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "2",
+                "stage": 2,
                 "monsters": [
                     {
                         "id": 1,
@@ -2604,11 +2607,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "3",
+                "stage": 3,
                 "monsters": [
                     {
                         "id": 1,
@@ -2641,15 +2644,15 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 288, "count": 1 }
+                    { "itemId": 299, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "4",
+                "stage": 4,
                 "monsters": [
                     {
                         "id": 1,
@@ -2682,15 +2685,15 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 254, "count": 3 }
+                    { "itemId": 264, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "5",
+                "stage": 5,
                 "monsters": [
                     {
                         "id": 1,
@@ -2726,11 +2729,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "6",
+                "stage": 6,
                 "monsters": [
                     {
                         "id": 1,
@@ -2763,15 +2766,15 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 68, "count": 3 }
+                    { "itemId": 67, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "7",
+                "stage": 7,
                 "monsters": [
                     {
                         "id": 1,
@@ -2804,15 +2807,15 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 290, "count": 1 }
+                    { "itemId": 301, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "8",
+                "stage": 8,
                 "monsters": [
                     {
                         "id": 1,
@@ -2845,15 +2848,15 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 254, "count": 3 }
+                    { "itemId": 264, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "9",
+                "stage": 9,
                 "monsters": [
                     {
                         "id": 1,
@@ -2886,15 +2889,15 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 82, "count": 5 }
+                    { "itemId": 84, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "10",
+                "stage": 10,
                 "monsters": [
                     {
                         "id": 1,
@@ -2927,15 +2930,15 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 86, "count": 1 }
+                    { "itemId": 88, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 7 }
+                    { "itemId": 304, "count": 7 }
                 ]
             },
             {
-                "stage": "11",
+                "stage": 11,
                 "monsters": [
                     {
                         "id": 1,
@@ -2968,16 +2971,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 288, "count": 3 }
+                    { "itemId": 299, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 9 },
-                    { "itemId": 292, "count": 9 }
+                    { "itemId": 304, "count": 9 },
+                    { "itemId": 303, "count": 9 }
                 ]
             },
             {
-                "stage": "12",
+                "stage": 12,
                 "monsters": [
                     {
                         "id": 1,
@@ -3013,12 +3016,12 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 9 },
-                    { "itemId": 292, "count": 9 }
+                    { "itemId": 304, "count": 9 },
+                    { "itemId": 303, "count": 9 }
                 ]
             },
             {
-                "stage": "13",
+                "stage": 13,
                 "monsters": [
                     {
                         "id": 1,
@@ -3051,16 +3054,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 288, "count": 2 }
+                    { "itemId": 299, "count": 2 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 9 },
-                    { "itemId": 292, "count": 9 }
+                    { "itemId": 304, "count": 9 },
+                    { "itemId": 303, "count": 9 }
                 ]
             },
             {
-                "stage": "14",
+                "stage": 14,
                 "monsters": [
                     {
                         "id": 1,
@@ -3093,16 +3096,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 254, "count": 5 }
+                    { "itemId": 264, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 9 },
-                    { "itemId": 292, "count": 9 }
+                    { "itemId": 304, "count": 9 },
+                    { "itemId": 303, "count": 9 }
                 ]
             },
             {
-                "stage": "15",
+                "stage": 15,
                 "monsters": [
                     {
                         "id": 1,
@@ -3138,12 +3141,12 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 9 },
-                    { "itemId": 292, "count": 9 }
+                    { "itemId": 304, "count": 9 },
+                    { "itemId": 303, "count": 9 }
                 ]
             },
             {
-                "stage": "16",
+                "stage": 16,
                 "monsters": [
                     {
                         "id": 1,
@@ -3176,16 +3179,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 68, "count": 5 }
+                    { "itemId": 67, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 11 },
-                    { "itemId": 292, "count": 10 }
+                    { "itemId": 304, "count": 11 },
+                    { "itemId": 303, "count": 10 }
                 ]
             },
             {
-                "stage": "17",
+                "stage": 17,
                 "monsters": [
                     {
                         "id": 1,
@@ -3218,16 +3221,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 290, "count": 2 }
+                    { "itemId": 301, "count": 2 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 11 },
-                    { "itemId": 292, "count": 10 }
+                    { "itemId": 304, "count": 11 },
+                    { "itemId": 303, "count": 10 }
                 ]
             },
             {
-                "stage": "18",
+                "stage": 18,
                 "monsters": [
                     {
                         "id": 1,
@@ -3260,16 +3263,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 254, "count": 5 }
+                    { "itemId": 264, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 11 },
-                    { "itemId": 292, "count": 10 }
+                    { "itemId": 304, "count": 11 },
+                    { "itemId": 303, "count": 10 }
                 ]
             },
             {
-                "stage": "19",
+                "stage": 19,
                 "monsters": [
                     {
                         "id": 1,
@@ -3302,16 +3305,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 82, "count": 7 }
+                    { "itemId": 84, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 11 },
-                    { "itemId": 292, "count": 10 }
+                    { "itemId": 304, "count": 11 },
+                    { "itemId": 303, "count": 10 }
                 ]
             },
             {
-                "stage": "20",
+                "stage": 20,
                 "monsters": [
                     {
                         "id": 1,
@@ -3344,16 +3347,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 90, "count": 1 }
+                    { "itemId": 92, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 11 },
-                    { "itemId": 292, "count": 10 }
+                    { "itemId": 304, "count": 11 },
+                    { "itemId": 303, "count": 10 }
                 ]
             },
             {
-                "stage": "21",
+                "stage": 21,
                 "monsters": [
                     {
                         "id": 1,
@@ -3386,16 +3389,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 286, "count": 5 }
+                    { "itemId": 297, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 12 },
-                    { "itemId": 292, "count": 11 }
+                    { "itemId": 304, "count": 12 },
+                    { "itemId": 303, "count": 11 }
                 ]
             },
             {
-                "stage": "22",
+                "stage": 22,
                 "monsters": [
                     {
                         "id": 1,
@@ -3431,12 +3434,12 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 12 },
-                    { "itemId": 292, "count": 11 }
+                    { "itemId": 304, "count": 12 },
+                    { "itemId": 303, "count": 11 }
                 ]
             },
             {
-                "stage": "23",
+                "stage": 23,
                 "monsters": [
                     {
                         "id": 1,
@@ -3469,16 +3472,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 288, "count": 5 }
+                    { "itemId": 299, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 12 },
-                    { "itemId": 292, "count": 11 }
+                    { "itemId": 304, "count": 12 },
+                    { "itemId": 303, "count": 11 }
                 ]
             },
             {
-                "stage": "24",
+                "stage": 24,
                 "monsters": [
                     {
                         "id": 1,
@@ -3511,16 +3514,16 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 254, "count": 5 }
+                    { "itemId": 264, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 12 },
-                    { "itemId": 292, "count": 11 }
+                    { "itemId": 304, "count": 12 },
+                    { "itemId": 303, "count": 11 }
                 ]
             },
             {
-                "stage": "25",
+                "stage": 25,
                 "monsters": [
                     {
                         "id": 1,
@@ -3556,13 +3559,13 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 12 },
-                    { "itemId": 68, "count": 2 },
-                    { "itemId": 292, "count": 12 }
+                    { "itemId": 304, "count": 12 },
+                    { "itemId": 67, "count": 2 },
+                    { "itemId": 303, "count": 12 }
                 ]
             },
             {
-                "stage": "26",
+                "stage": 26,
                 "monsters": [
                     {
                         "id": 1,
@@ -3595,17 +3598,17 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 68, "count": 7 }
+                    { "itemId": 67, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 12 },
-                    { "itemId": 254, "count": 2 },
-                    { "itemId": 292, "count": 12 }
+                    { "itemId": 304, "count": 12 },
+                    { "itemId": 264, "count": 2 },
+                    { "itemId": 303, "count": 12 }
                 ]
             },
             {
-                "stage": "27",
+                "stage": 27,
                 "monsters": [
                     {
                         "id": 1,
@@ -3638,17 +3641,17 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 290, "count": 5 }
+                    { "itemId": 301, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 68, "count": 3 },
-                    { "itemId": 292, "count": 12 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 67, "count": 3 },
+                    { "itemId": 303, "count": 12 }
                 ]
             },
             {
-                "stage": "28",
+                "stage": 28,
                 "monsters": [
                     {
                         "id": 1,
@@ -3681,17 +3684,17 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 254, "count": 10 }
+                    { "itemId": 264, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 254, "count": 3 },
-                    { "itemId": 292, "count": 13 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 264, "count": 3 },
+                    { "itemId": 303, "count": 13 }
                 ]
             },
             {
-                "stage": "29",
+                "stage": 29,
                 "monsters": [
                     {
                         "id": 1,
@@ -3724,17 +3727,17 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 82, "count": 10 }
+                    { "itemId": 84, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 14 },
-                    { "itemId": 68, "count": 5 },
-                    { "itemId": 292, "count": 13 }
+                    { "itemId": 304, "count": 14 },
+                    { "itemId": 67, "count": 5 },
+                    { "itemId": 303, "count": 13 }
                 ]
             },
             {
-                "stage": "30",
+                "stage": 30,
                 "monsters": [
                     {
                         "id": 1,
@@ -3767,13 +3770,13 @@
                 "firstRewords": [
                     { "itemId": 6, "count": 20 },
                     { "itemId": 12, "count": 20 },
-                    { "itemId": 179, "count": 1 }
+                    { "itemId": 185, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 60, "count": 2 },
-                    { "itemId": 293, "count": 14 },
-                    { "itemId": 254, "count": 5 },
-                    { "itemId": 292, "count": 14 }
+                    { "itemId": 304, "count": 14 },
+                    { "itemId": 264, "count": 5 },
+                    { "itemId": 303, "count": 14 }
                 ]
             }
         ]
@@ -3781,16 +3784,17 @@
     {
         "mapName": "어둠성 계곡",
         "reqItem": {
-            "id": 250,
+            "id": 260,
             "type": 7,
             "name": "OF 접근권한 : E",
             "price": 0,
             "canTrade": false
         },
+        "point": { "x": 260, "y": 0 },
         "weekdays": [1, 5, 0],
         "stages": [
             {
-                "stage": "1",
+                "stage": 1,
                 "monsters": [
                     {
                         "id": 1,
@@ -3823,15 +3827,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 68, "count": 10 }
+                    { "itemId": 67, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "2",
+                "stage": 2,
                 "monsters": [
                     {
                         "id": 1,
@@ -3864,15 +3868,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 286, "count": 3 }
+                    { "itemId": 297, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "3",
+                "stage": 3,
                 "monsters": [
                     {
                         "id": 1,
@@ -3905,15 +3909,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 288, "count": 3 }
+                    { "itemId": 299, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "4",
+                "stage": 4,
                 "monsters": [
                     {
                         "id": 1,
@@ -3946,15 +3950,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 290, "count": 3 }
+                    { "itemId": 301, "count": 3 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "5",
+                "stage": 5,
                 "monsters": [
                     {
                         "id": 1,
@@ -3987,15 +3991,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 68, "count": 12 }
+                    { "itemId": 67, "count": 12 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "6",
+                "stage": 6,
                 "monsters": [
                     {
                         "id": 1,
@@ -4028,15 +4032,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 286, "count": 5 }
+                    { "itemId": 297, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "7",
+                "stage": 7,
                 "monsters": [
                     {
                         "id": 1,
@@ -4069,15 +4073,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 288, "count": 5 }
+                    { "itemId": 299, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "8",
+                "stage": 8,
                 "monsters": [
                     {
                         "id": 1,
@@ -4110,15 +4114,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 290, "count": 5 }
+                    { "itemId": 301, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "9",
+                "stage": 9,
                 "monsters": [
                     {
                         "id": 1,
@@ -4151,15 +4155,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 68, "count": 15 }
+                    { "itemId": 67, "count": 15 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "10",
+                "stage": 10,
                 "monsters": [
                     {
                         "id": 1,
@@ -4195,11 +4199,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 11 }
+                    { "itemId": 304, "count": 11 }
                 ]
             },
             {
-                "stage": "11",
+                "stage": 11,
                 "monsters": [
                     {
                         "id": 1,
@@ -4232,16 +4236,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 315, "count": 9 }
+                    { "itemId": 326, "count": 9 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 12 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 12 }
                 ]
             },
             {
-                "stage": "12",
+                "stage": 12,
                 "monsters": [
                     {
                         "id": 1,
@@ -4274,16 +4278,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 343, "count": 10 }
+                    { "itemId": 354, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 12 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 12 }
                 ]
             },
             {
-                "stage": "13",
+                "stage": 13,
                 "monsters": [
                     {
                         "id": 1,
@@ -4316,16 +4320,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 345, "count": 10 }
+                    { "itemId": 356, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 12 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 12 }
                 ]
             },
             {
-                "stage": "14",
+                "stage": 14,
                 "monsters": [
                     {
                         "id": 1,
@@ -4358,16 +4362,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 347, "count": 10 }
+                    { "itemId": 358, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 12 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 12 }
                 ]
             },
             {
-                "stage": "15",
+                "stage": 15,
                 "monsters": [
                     {
                         "id": 1,
@@ -4400,16 +4404,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 349, "count": 10 }
+                    { "itemId": 360, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 12 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 12 }
                 ]
             },
             {
-                "stage": "16",
+                "stage": 16,
                 "monsters": [
                     {
                         "id": 1,
@@ -4442,16 +4446,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 351, "count": 10 }
+                    { "itemId": 362, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 13 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 13 }
                 ]
             },
             {
-                "stage": "17",
+                "stage": 17,
                 "monsters": [
                     {
                         "id": 1,
@@ -4484,16 +4488,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 355, "count": 10 }
+                    { "itemId": 366, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 13 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 13 }
                 ]
             },
             {
-                "stage": "18",
+                "stage": 18,
                 "monsters": [
                     {
                         "id": 1,
@@ -4526,16 +4530,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 353, "count": 10 }
+                    { "itemId": 364, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 13 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 13 }
                 ]
             },
             {
-                "stage": "19",
+                "stage": 19,
                 "monsters": [
                     {
                         "id": 1,
@@ -4568,16 +4572,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 317, "count": 9 }
+                    { "itemId": 328, "count": 9 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 13 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 13 }
                 ]
             },
             {
-                "stage": "20",
+                "stage": 20,
                 "monsters": [
                     {
                         "id": 1,
@@ -4613,12 +4617,12 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 13 },
-                    { "itemId": 292, "count": 13 }
+                    { "itemId": 304, "count": 13 },
+                    { "itemId": 303, "count": 13 }
                 ]
             },
             {
-                "stage": "21",
+                "stage": 21,
                 "monsters": [
                     {
                         "id": 1,
@@ -4651,16 +4655,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 177, "count": 1 }
+                    { "itemId": 183, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 14 },
-                    { "itemId": 292, "count": 14 }
+                    { "itemId": 304, "count": 14 },
+                    { "itemId": 303, "count": 14 }
                 ]
             },
             {
-                "stage": "22",
+                "stage": 22,
                 "monsters": [
                     {
                         "id": 1,
@@ -4693,16 +4697,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 261, "count": 10 }
+                    { "itemId": 271, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 14 },
-                    { "itemId": 292, "count": 14 }
+                    { "itemId": 304, "count": 14 },
+                    { "itemId": 303, "count": 14 }
                 ]
             },
             {
-                "stage": "23",
+                "stage": 23,
                 "monsters": [
                     {
                         "id": 1,
@@ -4735,16 +4739,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 263, "count": 10 }
+                    { "itemId": 273, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 14 },
-                    { "itemId": 292, "count": 14 }
+                    { "itemId": 304, "count": 14 },
+                    { "itemId": 303, "count": 14 }
                 ]
             },
             {
-                "stage": "24",
+                "stage": 24,
                 "monsters": [
                     {
                         "id": 1,
@@ -4777,16 +4781,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 265, "count": 10 }
+                    { "itemId": 275, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 14 },
-                    { "itemId": 292, "count": 14 }
+                    { "itemId": 304, "count": 14 },
+                    { "itemId": 303, "count": 14 }
                 ]
             },
             {
-                "stage": "25",
+                "stage": 25,
                 "monsters": [
                     {
                         "id": 1,
@@ -4819,17 +4823,17 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 267, "count": 10 }
+                    { "itemId": 277, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 14 },
-                    { "itemId": 292, "count": 15 },
-                    { "itemId": 69, "count": 3 }
+                    { "itemId": 304, "count": 14 },
+                    { "itemId": 303, "count": 15 },
+                    { "itemId": 68, "count": 3 }
                 ]
             },
             {
-                "stage": "26",
+                "stage": 26,
                 "monsters": [
                     {
                         "id": 1,
@@ -4862,17 +4866,17 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 269, "count": 15 }
+                    { "itemId": 279, "count": 15 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 14 },
-                    { "itemId": 292, "count": 15 },
-                    { "itemId": 254, "count": 3 }
+                    { "itemId": 304, "count": 14 },
+                    { "itemId": 303, "count": 15 },
+                    { "itemId": 264, "count": 3 }
                 ]
             },
             {
-                "stage": "27",
+                "stage": 27,
                 "monsters": [
                     {
                         "id": 1,
@@ -4905,17 +4909,17 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 254, "count": 20 }
+                    { "itemId": 264, "count": 20 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 15 },
-                    { "itemId": 292, "count": 15 },
-                    { "itemId": 69, "count": 5 }
+                    { "itemId": 304, "count": 15 },
+                    { "itemId": 303, "count": 15 },
+                    { "itemId": 68, "count": 5 }
                 ]
             },
             {
-                "stage": "28",
+                "stage": 28,
                 "monsters": [
                     {
                         "id": 1,
@@ -4948,17 +4952,17 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 82, "count": 20 }
+                    { "itemId": 84, "count": 20 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 15 },
-                    { "itemId": 292, "count": 16 },
-                    { "itemId": 254, "count": 5 }
+                    { "itemId": 304, "count": 15 },
+                    { "itemId": 303, "count": 16 },
+                    { "itemId": 264, "count": 5 }
                 ]
             },
             {
-                "stage": "29",
+                "stage": 29,
                 "monsters": [
                     {
                         "id": 1,
@@ -4991,17 +4995,17 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 179, "count": 1 }
+                    { "itemId": 185, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 16 },
-                    { "itemId": 292, "count": 16 },
-                    { "itemId": 69, "count": 7 }
+                    { "itemId": 304, "count": 16 },
+                    { "itemId": 303, "count": 16 },
+                    { "itemId": 68, "count": 7 }
                 ]
             },
             {
-                "stage": "30",
+                "stage": 30,
                 "monsters": [
                     {
                         "id": 1,
@@ -5034,13 +5038,13 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 20 },
                     { "itemId": 14, "count": 20 },
-                    { "itemId": 94, "count": 1 }
+                    { "itemId": 96, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 2 },
-                    { "itemId": 293, "count": 16 },
-                    { "itemId": 292, "count": 17 },
-                    { "itemId": 254, "count": 7 }
+                    { "itemId": 304, "count": 16 },
+                    { "itemId": 303, "count": 17 },
+                    { "itemId": 264, "count": 7 }
                 ]
             }
         ]
@@ -5048,16 +5052,17 @@
     {
         "mapName": "국제 전시장",
         "reqItem": {
-            "id": 251,
+            "id": 261,
             "type": 7,
             "name": "OF 접근권한 : F",
             "price": 0,
             "canTrade": false
         },
-        "weekdays": [1, 0, 0],
+        "point": { "x": 159, "y": 51 },
+        "weekdays": [1, 3, 6],
         "stages": [
             {
-                "stage": "1",
+                "stage": 1,
                 "monsters": [
                     {
                         "id": 1,
@@ -5090,15 +5095,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 69, "count": 10 }
+                    { "itemId": 68, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "2",
+                "stage": 2,
                 "monsters": [
                     {
                         "id": 1,
@@ -5131,15 +5136,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 286, "count": 5 }
+                    { "itemId": 297, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "3",
+                "stage": 3,
                 "monsters": [
                     {
                         "id": 1,
@@ -5175,11 +5180,11 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "4",
+                "stage": 4,
                 "monsters": [
                     {
                         "id": 1,
@@ -5212,15 +5217,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 290, "count": 5 }
+                    { "itemId": 301, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "5",
+                "stage": 5,
                 "monsters": [
                     {
                         "id": 1,
@@ -5253,15 +5258,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 288, "count": 5 }
+                    { "itemId": 299, "count": 5 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "6",
+                "stage": 6,
                 "monsters": [
                     {
                         "id": 1,
@@ -5294,15 +5299,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 69, "count": 13 }
+                    { "itemId": 68, "count": 13 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "7",
+                "stage": 7,
                 "monsters": [
                     {
                         "id": 1,
@@ -5335,15 +5340,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 254, "count": 10 }
+                    { "itemId": 264, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "8",
+                "stage": 8,
                 "monsters": [
                     {
                         "id": 1,
@@ -5376,15 +5381,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 286, "count": 7 }
+                    { "itemId": 297, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "9",
+                "stage": 9,
                 "monsters": [
                     {
                         "id": 1,
@@ -5417,15 +5422,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 290, "count": 7 }
+                    { "itemId": 301, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "10",
+                "stage": 10,
                 "monsters": [
                     {
                         "id": 1,
@@ -5458,15 +5463,15 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 288, "count": 7 }
+                    { "itemId": 299, "count": 7 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 13 }
+                    { "itemId": 304, "count": 13 }
                 ]
             },
             {
-                "stage": "11",
+                "stage": 11,
                 "monsters": [
                     {
                         "id": 1,
@@ -5502,12 +5507,12 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 15 },
-                    { "itemId": 292, "count": 20 }
+                    { "itemId": 304, "count": 15 },
+                    { "itemId": 303, "count": 20 }
                 ]
             },
             {
-                "stage": "12",
+                "stage": 12,
                 "monsters": [
                     {
                         "id": 1,
@@ -5540,16 +5545,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 69, "count": 15 }
+                    { "itemId": 68, "count": 15 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 15 },
-                    { "itemId": 292, "count": 20 }
+                    { "itemId": 304, "count": 15 },
+                    { "itemId": 303, "count": 20 }
                 ]
             },
             {
-                "stage": "13",
+                "stage": 13,
                 "monsters": [
                     {
                         "id": 1,
@@ -5582,16 +5587,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 177, "count": 1 }
+                    { "itemId": 183, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 15 },
-                    { "itemId": 292, "count": 20 }
+                    { "itemId": 304, "count": 15 },
+                    { "itemId": 303, "count": 20 }
                 ]
             },
             {
-                "stage": "14",
+                "stage": 14,
                 "monsters": [
                     {
                         "id": 1,
@@ -5628,12 +5633,12 @@
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 15 },
-                    { "itemId": 292, "count": 20 }
+                    { "itemId": 304, "count": 15 },
+                    { "itemId": 303, "count": 20 }
                 ]
             },
             {
-                "stage": "15",
+                "stage": 15,
                 "monsters": [
                     {
                         "id": 1,
@@ -5666,16 +5671,16 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 309, "count": 1 }
+                    { "itemId": 320, "count": 1 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 15 },
-                    { "itemId": 292, "count": 20 }
+                    { "itemId": 304, "count": 15 },
+                    { "itemId": 303, "count": 20 }
                 ]
             },
             {
-                "stage": "16",
+                "stage": 16,
                 "monsters": [
                     {
                         "id": 1,
@@ -5708,12 +5713,12 @@
                 "firstRewords": [
                     { "itemId": 8, "count": 30 },
                     { "itemId": 14, "count": 30 },
-                    { "itemId": 244, "count": 10 }
+                    { "itemId": 254, "count": 10 }
                 ],
                 "repeatRewords": [
                     { "itemId": 61, "count": 3 },
-                    { "itemId": 293, "count": 15 },
-                    { "itemId": 292, "count": 21 }
+                    { "itemId": 304, "count": 15 },
+                    { "itemId": 303, "count": 21 }
                 ]
             }
         ]

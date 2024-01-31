@@ -1,6 +1,10 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Overflow = exports.Stage = exports.RewordItem = void 0;
+const Point_1 = __importDefault(require("./Point"));
 class RewordItem {
     constructor(item, count) {
         this.item = item;
@@ -29,6 +33,7 @@ class Overflow {
         this.mapName = raw.mapName;
         this.reqItem = raw.reqItem;
         this.weekdays = raw.weekdays;
+        this.point = new Point_1.default(raw.point.x, raw.point.y);
         this.stages = [];
     }
 }

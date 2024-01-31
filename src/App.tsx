@@ -7,13 +7,12 @@ import Footer from "./components/Footer";
 import Maps from "./components/maps/Maps";
 import CombinationSearcher from "./components/combination/Combination";
 import Digidex from "./components/digidex/Digidex";
-import LeftFitAd from "./components/ads/LeftFitAd";
-import RightFitAd from "./components/ads/RightFitAd";
 import EvolutionSearcher from "./components/evolution/EvolutionSearcher";
 import Overflows from "./components/overflows/Overflows";
 import Detectors from "./components/detector/Detector";
 import Adjustments from "./components/adjustment/Adjustments";
 import Potentials from "./components/potential/Potentials";
+import Raids from "./components/raids/Raid";
 
 export default function App(): React.ReactElement {
     return (
@@ -23,14 +22,22 @@ export default function App(): React.ReactElement {
                     <Header />
                     <Routes>
                         <Route path="/" element={<Main />} />
-                        <Route path="/evolutions" element={<EvolutionSearcher />} />
+
+                        <Route path="/digimons/digidex" element={<Digidex />} />
+                        <Route path="/digimons/evolutions" element={<EvolutionSearcher />} />
+
                         <Route path="/maps" element={<Maps />} />
-                        <Route path="/overflows" element={<Overflows />} />
-                        {/* <Route path="/detectors" element={<Detectors />} /> */}
-                        <Route path="/adjustments" element={<Adjustments />} />
-                        <Route path="/potentials" element={<Potentials />} />
-                        <Route path="/combinations" element={<CombinationSearcher />} />
-                        <Route path="/digidex" element={<Digidex />} />
+
+                        <Route path="/dungeons/overflows" element={<Overflows />} />
+                        <Route path="/dungeons/detectors" element={<Detectors />} />
+
+                        <Route path="/raids" element={<Raids />} />
+                        
+                        <Route path="/tools/adjustments" element={<Adjustments />} />
+                        <Route path="/tools/potentials" element={<Potentials />} />
+
+                        <Route path="/items/combinations" element={<CombinationSearcher />} />
+                        
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                     <Footer />

@@ -35,27 +35,27 @@ const Footer_1 = __importDefault(require("./components/Footer"));
 const Maps_1 = __importDefault(require("./components/maps/Maps"));
 const Combination_1 = __importDefault(require("./components/combination/Combination"));
 const Digidex_1 = __importDefault(require("./components/digidex/Digidex"));
-const LeftFitAd_1 = __importDefault(require("./components/ads/LeftFitAd"));
-const RightFitAd_1 = __importDefault(require("./components/ads/RightFitAd"));
 const EvolutionSearcher_1 = __importDefault(require("./components/evolution/EvolutionSearcher"));
 const Overflows_1 = __importDefault(require("./components/overflows/Overflows"));
 const Detector_1 = __importDefault(require("./components/detector/Detector"));
+const Adjustments_1 = __importDefault(require("./components/adjustment/Adjustments"));
+const Potentials_1 = __importDefault(require("./components/potential/Potentials"));
 function App() {
     return (react_1.default.createElement(react_1.StrictMode, null,
         react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
             react_1.default.createElement("div", { id: "container" },
                 react_1.default.createElement(Header_1.default, null),
-                react_1.default.createElement(LeftFitAd_1.default, null),
                 react_1.default.createElement(react_router_dom_1.Routes, null,
                     react_1.default.createElement(react_router_dom_1.Route, { path: "/", element: react_1.default.createElement(Main_1.default, null) }),
-                    react_1.default.createElement(react_router_dom_1.Route, { path: "/evolutions", element: react_1.default.createElement(EvolutionSearcher_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/digimons/digidex", element: react_1.default.createElement(Digidex_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/digimons/evolutions", element: react_1.default.createElement(EvolutionSearcher_1.default, null) }),
                     react_1.default.createElement(react_router_dom_1.Route, { path: "/maps", element: react_1.default.createElement(Maps_1.default, null) }),
-                    react_1.default.createElement(react_router_dom_1.Route, { path: "/overflows", element: react_1.default.createElement(Overflows_1.default, null) }),
-                    react_1.default.createElement(react_router_dom_1.Route, { path: "/detectors", element: react_1.default.createElement(Detector_1.default, null) }),
-                    react_1.default.createElement(react_router_dom_1.Route, { path: "/combinations", element: react_1.default.createElement(Combination_1.default, null) }),
-                    react_1.default.createElement(react_router_dom_1.Route, { path: "/digidex", element: react_1.default.createElement(Digidex_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/dungeons/overflows", element: react_1.default.createElement(Overflows_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/dungeons/detectors", element: react_1.default.createElement(Detector_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/items/combinations", element: react_1.default.createElement(Combination_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/tools/adjustments", element: react_1.default.createElement(Adjustments_1.default, null) }),
+                    react_1.default.createElement(react_router_dom_1.Route, { path: "/tools/potentials", element: react_1.default.createElement(Potentials_1.default, null) }),
                     react_1.default.createElement(react_router_dom_1.Route, { path: "*", element: react_1.default.createElement(NotFound_1.default, null) })),
-                react_1.default.createElement(RightFitAd_1.default, null),
                 react_1.default.createElement(Footer_1.default, null)))));
 }
 exports.default = App;

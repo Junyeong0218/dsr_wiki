@@ -1,14 +1,9 @@
 .digidex {
-  margin-top: 100px;
   padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   width: 100%;
-  max-width: 1045px;
-  max-height: calc(100% - 210px);
-
-  overflow-y: scroll;
 }
 
 .digidex::-webkit-scrollbar {
@@ -31,8 +26,8 @@
 
 .digidex-filters {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 10px;
 
   width: 100%;

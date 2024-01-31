@@ -1,8 +1,8 @@
 import React, { useMemo, useRef, useState } from 'react';
 import { Evolution } from '../../classes';
 import { getEvolutions, getJustBeforeEvolution, toggleFoldEvolution } from '../../functions';
-import Filters from '../Filters';
-import SearchBar from '../SearchBar';
+import Filters from './Filters';
+import SearchBar from './SearchBar';
 import EvolutionTree from './EvolutionTree';
 import EvolutionDescriptionModal from './evolutionDescriptionModal';
 import { getUUID } from '../../functions/commons';
@@ -18,7 +18,8 @@ export default function EvolutionSearcher(): React.ReactElement {
     const captureMouse = (event: React.MouseEvent<HTMLDivElement>) => {
         const target = event.target as HTMLElement;
         if(target?.className === "profile-image") {
-            const targetName = (target.nextElementSibling! as HTMLSpanElement).innerText;
+            // const targetName = (target.nextElementSibling! as HTMLSpanElement).innerText;
+            const targetName = target.dataset.id!;
             if(targetName.includes("[돌연변이]")) {
                 setPosition({ top: 0, left: 0 });
                 setIsOpen(false);
@@ -56,9 +57,9 @@ export default function EvolutionSearcher(): React.ReactElement {
         const target = event.target as HTMLElement;
         let digimonName = "";
         if(target.className === "profile") {
-            digimonName = (target.children[1] as HTMLSpanElement).innerText;
+            digimonName = (target.querySelector(".profile-image") as HTMLImageElement).dataset.id!;
         } else if(target.className === "profile-image") {
-            digimonName = (target.nextElementSibling! as HTMLSpanElement).innerText;
+            digimonName = target.dataset.id!;
         } else return;
 
         if(digimonName.includes("돌연변이")) return;
@@ -92,9 +93,9 @@ export default function EvolutionSearcher(): React.ReactElement {
         return <Filters selectedDigimon={selectedDigimon} setSelectedDigimon={setSelectedDigimon} key={"digimon_filter"} />;
     }, [selectedDigimon]);
 
-    const searchBar = useMemo(() => {
-        return <SearchBar setSelectedDigimon={setSelectedDigimon}/>
-    }, []);
+    // const searchBar = useMemo(() => {
+    //     return <SearchBar setSelectedDigimon={setSelectedDigimon}/>
+    // }, []);
 
     const evolution = useMemo(() => {
         return <EvolutionTree selectedDigimon={selectedDigimon} reload={reload} key={getUUID()} />;
@@ -115,11 +116,9 @@ export default function EvolutionSearcher(): React.ReactElement {
 
     return (
         <div className={`main ${hideFoldButton ? "hide-fold-button" : ""}`} onMouseMove={captureMouse} onClick={changeDigimon}>
-            <h1 className="title-message">진화 상태에 맞는 디지몬을 선택하세요.</h1>
             { comboFilters }
-            { searchBar }
-            { evolution }
             { inputs }
+            { evolution }
             <EvolutionDescriptionModal isActive={isOpen} digimon={modalDigimon.current} position={position} />
         </div>
     );

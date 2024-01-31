@@ -17,6 +17,8 @@ export default function ToRightProfileLine({ digimon, reload }: LineProps): Reac
     const commonReqItems = commons?.filter((each, index) => each.ingredient !== "") || [];
     const jogressReqItems = jogress?.filter((each, index) => each.ingredient !== "" && index === 0) || [];
     
+    const GAP = 5;
+
     const getRightScore = (d: Evolution): number => {
         if(d.afters === null) return 1;
         if(d.afters[0].isFold) return 1;
@@ -44,15 +46,27 @@ export default function ToRightProfileLine({ digimon, reload }: LineProps): Reac
         return acc;
     }
 
-    const getWholeTop = (digimon: Evolution) => PROFILE_HEIGHT * getRightScore(digimon);
+    const getWholeTop = (digimon: Evolution) => {
+        const rightScore = getRightScore(digimon);
+
+        let acc = PROFILE_HEIGHT * rightScore;
+
+        if(rightScore > 1) acc += GAP * (rightScore - 1);
+
+        return acc;
+    }
 
     const getMiddleTop = (digimon: Evolution) => getWholeTop(digimon) / 2;
 
     const getRateTop = (_digimon: Evolution, i: number) => {
         const ownIndex = digimon.afters!.findIndex(after => after.to === _digimon.id);
         
+        const untilScore = getRightScoreUntil(digimon, i);
+        let untilHeight = PROFILE_HEIGHT * untilScore;
+
+        if(untilScore > 0) untilHeight += GAP * untilScore;
         // 이전까지의 순수 높이 + 현재 높이의 절반 - 20
-        return PROFILE_HEIGHT * getRightScoreUntil(digimon, i)
+        return untilHeight
             + getMiddleTop(digimon.afters![ownIndex].digimon!)
             - 20;
     }

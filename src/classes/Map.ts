@@ -7,6 +7,7 @@ import { Warp } from "./Warp";
 export interface IMap {
     id: number,
     name: string,
+    category: string,
     portals: Array<any> | null,
     warps: Array<any> | null,
     shops: Array<any> | null,
@@ -17,6 +18,7 @@ export interface IMap {
 export class Map {
     id: number;
     name: string;
+    category: string;
     portals: Array<Portal> | null;
     warps: Array<Warp> | null;
     shops: Array<Shop> | null;
@@ -26,6 +28,7 @@ export class Map {
     constructor(raw: IMap) {
         this.id = raw.id;
         this.name = raw.name;
+        this.category = raw.category;
         this.portals = null;
         this.warps = null;
         this.shops = null;

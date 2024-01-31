@@ -131,10 +131,15 @@ const getSearchedEvolutions = (search: string) => {
 
         return highlighted.join("");
       });
-      return { name: digimon.name, tag, totalDistance };
+
+      digimon.tag = tag;
+      digimon.totalDistance = totalDistance;
+
+      return digimon;
     });
 
   searched.sort((a, b) => {
+    if(!a.totalDistance || !b.totalDistance) return 0;
     return a.totalDistance - b.totalDistance;
   });
 

@@ -19,7 +19,7 @@
 }
 
 .potential-board table {
-    border: 2px solid var(--white);
+    border: 2px solid var(--theme-light-font-color);
     border-collapse: collapse;
 }
 
@@ -37,7 +37,7 @@
     width: 101px;
     height: 101px;
 
-    border: 2px solid var(--white);
+    border: 2px solid var(--theme-light-font-color);
     border-collapse: collapse;
 }
 
@@ -221,8 +221,8 @@
     flex-wrap: wrap;
 }
 
-.potentials .potential-group span.black {
-    color: var(--black);
+.potentials .potential-group span.white {
+    color: var(--theme-light-white);
 }
 
 .create-potential-buttons {

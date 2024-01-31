@@ -14,6 +14,10 @@
   gap: 10px;
 }
 
+.map-selector .checkboxes.map-names > label {
+  min-width: 130px;
+}
+
 .map-name-button {
   padding: 3px 14px;
 
@@ -176,7 +180,7 @@
   width: 18px;
   height: 18px;
 
-  border: 1px solid var(--white);
+  border: 1px solid var(--theme-light-font-color);
   border-radius: 4px;
 }
 
@@ -186,12 +190,12 @@
 }
 
 .toggle-fold-button:hover {
-  background-color: var(--white);
-  border-color: var(--white);
+  background-color: var(--theme-light-font-color);
+  border-color: var(--theme-light-white);
 }
 
 .toggle-fold-button:hover i {
-  color: var(--black);
+  color: var(--theme-light-white);
 }
 
 .check-box-container {
@@ -236,7 +240,7 @@
 
   width: 19px;
   height: 19px;
-  border: 1px solid var(--white);
+  border: 1px solid var(--theme-light-font-color);
   border-radius: 4px;
   transform: translateY(-0.075em);
 
@@ -253,11 +257,15 @@
     transform: scale(0);
     transform-origin: bottom left;
     transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em var(--type-ultimate-thin);
+    box-shadow: inset 1em 1em var(--type-adult-deep);
 }
 
 .check-box-container > input:checked::before {
   transform: scale(1);
+}
+
+.check-box-container > img {
+  height: 100%;
 }
 
 .drop-item-checkboxes {
@@ -286,6 +294,15 @@
 #shop-modal {
   max-height: 450px;
   overflow-y: auto;
+}
+
+#shop-modal,
+#drops-modal {
+  background-color: var(--black);
+}
+
+#drops-modal * {
+  color: var(--theme-light-white);
 }
 
 #shop-modal::-webkit-scrollbar {

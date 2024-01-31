@@ -12,7 +12,7 @@ export default function DigimonInfo({ selected }: DigimonInfoProps): React.React
     const navigate = useNavigate();
 
     if(!digimon) {
-        navigate("/digidex");
+        navigate("/digimons/digidex");
         return <></>;
     }
 

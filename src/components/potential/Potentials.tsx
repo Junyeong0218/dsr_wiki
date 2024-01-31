@@ -157,8 +157,8 @@ export default function Potentials(): React.ReactElement {
     }
 
     const getSpanClassName = (statType: string): string => {
-        if(statType === "속도" || statType === "수비" || statType === "회피율")
-            return "black";
+        if(statType === "저항" || statType === "힘" || statType === "지능" || statType === "크리")
+            return "white";
 
         return "";
     }
@@ -189,7 +189,7 @@ export default function Potentials(): React.ReactElement {
                     </table>
                     <div className="stats">
                         { stats.map(stat => (
-                            <div className="stat">
+                            <div className="stat" key={getUUID()}>
                                 <span className="title">{stat.statType}</span>
                                 <span className={stat.value !== 0 ? "value" : ""}>+{stat.value}%</span>
                             </div>

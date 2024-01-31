@@ -1,22 +1,23 @@
 import React from "react";
+import Preparing from "../../Preparing";
 
 export default function Detectors(): React.ReactElement {
+    return <Preparing />
 
+    // return (
+    //     <div className="detectors-contaier">
+    //         탐지기 조회 페이지
 
-    return (
-        <div className="detectors-contaier">
-            탐지기 조회 페이지
+    //         {/* detectors list - row buttons */}
 
-            {/* detectors list - row buttons */}
+    //         {/* map image shortcut and monster point */}
 
-            {/* map image shortcut and monster point */}
+    //         {/* monsters - only chuumon is 3 mobs, others is 1 mob && each detector has 2 different spicies of monsters */}
+    //         {/* monster - image shortcut + name + type + hp + str&week */}
 
-            {/* monsters - only chuumon is 3 mobs, others is 1 mob && each detector has 2 different spicies of monsters */}
-            {/* monster - image shortcut + name + type + hp + str&week */}
+    //         {/* common rewords */}
 
-            {/* common rewords */}
-
-            {/* monster specific rewords */}
-        </div>
-    );
+    //         {/* monster specific rewords */}
+    //     </div>
+    // );
 }

@@ -1,10 +1,9 @@
 .filters {
-  margin: 20px 0;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  flex-direction: column;
+  gap: 5px;
+
+  width: 100%;
 }
 
 .combo {
@@ -44,22 +43,22 @@
   scroll-behavior: smooth;
 }
 
-.combo .list::-webkit-scrollbar,
-.search-list::-webkit-scrollbar {
-  width: 8px;  /* 스크롤바의 너비 */
+.filters .filtered-list::-webkit-scrollbar {
+  width: 10px; /* 스크롤바의 너비 */
 }
 
-.combo .list::-webkit-scrollbar-thumb,
-.search-list::-webkit-scrollbar-thumb {
+.filters .filtered-list::-webkit-scrollbar-thumb {
   height: 30%; /* 스크롤바의 길이 */
-  background: #217af4; /* 스크롤바의 색상 */
-  
-  border-radius: 10px;
+  background: var(--theme-light-white); /* 스크롤바의 색상 */
+
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
 }
 
-.combo .list::-webkit-scrollbar-track,
-.search-list::-webkit-scrollbar-track {
-  background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+.filters .filtered-list::-webkit-scrollbar-track {
+  background: var(--theme-light-background-selected); /*스크롤바 뒷 배경 색상*/
+  border-radius: 4px;
 }
 
 .list.active {
@@ -177,4 +176,96 @@
   border-color: var(--type-ultimate-deep);
   background-color: var(--type-ultimate-deep);
   color: var(--type-ultimate-thin);
+}
+
+.filters .search-bar {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 30px;
+
+  border: 1px solid var(--theme-light-background-400);
+  border-radius: 4px;
+}
+
+.filters .search-bar input {
+  padding: 2px 10px;
+
+  width: 100%;
+  height: calc(100% - 2px);
+
+  line-height: calc(100% - 2px);
+  text-align: left;
+}
+
+.filters .search-bar input:active {
+  outline: none;
+}
+
+.filters .filtered-list {
+  padding: 3px;
+  width: 100%;
+  height: 195px;
+  max-height: 195px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 4px;
+
+  border: 1px solid var(--theme-light-background-400);
+  border-radius: 4px;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.filters .filtered-evolution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 88px;
+
+  border: 1px solid var(--theme-light-background-400);
+  border-radius: 2px;
+
+  overflow: hidden;
+  transition: 300ms;
+}
+
+.filters .filtered-evolution img {
+  width: 100%;
+}
+
+.filters .filtered-evolution span {
+  width: 100%;
+  
+  font-size: 0.9rem;
+  word-break: keep-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.filters .filtered-evolution span > mark {
+  background-color: var(--type-child-deep);
+  color: var(--theme-light-white);
+
+  pointer-events: none;
+}
+
+.filters .filtered-evolution:hover {
+  background-color: #030303;
+}
+
+.filters .filtered-evolution:hover span {
+  color: var(--theme-light-background-400);
 }

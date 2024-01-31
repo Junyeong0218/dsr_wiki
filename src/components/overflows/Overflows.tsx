@@ -43,15 +43,18 @@ export default function Overflows(): React.ReactElement {
     }
 
     const mapSelector = useMemo(() => {
-        return <div className="map-selector">
+        return <div className="digidex-filter" key={getUUID()}>
+            <div className="title">맵</div>
+            <div className="checkboxes map-names">
             { all.map(each => (
-                <button type="button" className={`map-name-button ${selected.mapName === each.mapName ? "selected" : ""}`} 
-                        onClick={() => setSelected(each)} key={getUUID()}>
-                    {each.mapName}
-                </button>
-            ))
-            }
-        </div>;
+                <label htmlFor={each.mapName} key={getUUID()}>
+                    <input type="radio" id={each.mapName} checked={selected.mapName === each.mapName}
+                                                          onChange={() => setSelected(each)}/>
+                    <span>{each.mapName}</span>
+                </label>
+            ))}
+            </div>
+        </div>
     }, [selected]);
 
     const overflowShortcut = useMemo(() => {

@@ -39,9 +39,10 @@ function Digidex() {
     const query = location.search;
     const selected = query.trim() === "" ? null : decodeURIComponent(query.replace("?digimon=", ""));
     if (selected) {
-        return (react_1.default.createElement("div", { className: "digidex" },
-            react_1.default.createElement(evolutions_1.default, { selected: selected }),
-            react_1.default.createElement(digimonInfo_1.default, { selected: selected })));
+        return (react_1.default.createElement("div", { className: "main" },
+            react_1.default.createElement("div", { className: "digidex", style: { flexWrap: "nowrap" } },
+                react_1.default.createElement(evolutions_1.default, { selected: selected }),
+                react_1.default.createElement(digimonInfo_1.default, { selected: selected }))));
     }
     const all = (0, functions_1.getAllDigimons)(false);
     const [filtered, setFiltered] = (0, react_1.useState)(all);
@@ -77,14 +78,15 @@ function Digidex() {
         }
         setFiltered(digimons);
     }, [selectedGrade, selectedType, selectedElement]);
-    return (react_1.default.createElement("div", { className: "digidex" },
-        react_1.default.createElement(digidexFilter_1.default, { selectedGrade: selectedGrade, setSelectedGrade: setSelectedGrade, selectedType: selectedType, setSelectedType: setSelectedType, selectedElement: selectedElement, setSelectedElement: setSelectedElement, all: all, setFiltered: setFiltered }),
-        filtered.map(each => {
-            const style = each.name.length > 8 ? { fontSize: "12px" } : {};
-            return react_1.default.createElement(react_router_dom_1.Link, { to: `/digidex?digimon=${each.name}`, key: (0, commons_1.getUUID)() },
-                react_1.default.createElement("button", { type: "button", className: "digimon-button" },
-                    react_1.default.createElement("img", { src: `/images/${each.name}.png`, loading: "lazy" }),
-                    each.tag ? react_1.default.createElement("span", { style: style, dangerouslySetInnerHTML: { __html: each.tag } }) : react_1.default.createElement("span", { style: style }, each.name)));
-        })));
+    return (react_1.default.createElement("div", { className: "main" },
+        react_1.default.createElement("div", { className: "digidex" },
+            react_1.default.createElement(digidexFilter_1.default, { selectedGrade: selectedGrade, setSelectedGrade: setSelectedGrade, selectedType: selectedType, setSelectedType: setSelectedType, selectedElement: selectedElement, setSelectedElement: setSelectedElement, all: all, setFiltered: setFiltered }),
+            filtered.map(each => {
+                const style = each.name.length > 8 ? { fontSize: "12px" } : {};
+                return react_1.default.createElement(react_router_dom_1.Link, { to: `/digimons/digidex?digimon=${each.name}`, key: (0, commons_1.getUUID)() },
+                    react_1.default.createElement("button", { type: "button", className: "digimon-button" },
+                        react_1.default.createElement("img", { src: `/images/${each.name}.png`, loading: "lazy" }),
+                        each.tag ? react_1.default.createElement("span", { style: style, dangerouslySetInnerHTML: { __html: each.tag } }) : react_1.default.createElement("span", { style: style }, each.name)));
+            }))));
 }
 exports.default = Digidex;

@@ -1,14 +1,9 @@
 .digidex {
-  margin-top: 100px;
   padding-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 13px;
   width: 100%;
-  max-width: 1045px;
-  max-height: calc(100% - 210px);
-
-  overflow-y: scroll;
 }
 
 .digidex::-webkit-scrollbar {
@@ -31,23 +26,66 @@
 
 .digidex-filters {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
 
   width: 100%;
-  height: 30px;
 }
 
 .digidex-filter {
-  padding: 0 10px;
+  padding: 5px 10px;
 
-  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
-  border: 1px solid var(--white);
-  border-radius: 8px;
+  /* border: 1px solid var(--white); */
+  /* border-radius: 8px; */
 
   font-weight: 700;
+}
+
+.digidex-filter .title {
+  min-width: 100px;
+
+  line-height: 30px;
+}
+
+.digidex-filter .checkboxes {
+  max-width: 1040px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  border-left: 1px solid var(--theme-light-background-400);
+
+}
+
+.digidex-filter .checkboxes label {
+  padding: 0 10px;
+
+  min-width: 100px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.digidex-filter .checkboxes label * {
+  pointer-events: none;
+}
+
+.digidex-filter .checkboxes label span {
+  padding-left: 10px;
+
+  flex-grow: 1;
+  
+  text-align: center;
 }
 
 .digidex-filter option {
@@ -56,12 +94,14 @@
 }
 
 .digidex-search-input {
-  padding: 0 10px;
-  flex-grow: 0.985;
+  padding: 5px 10px;
+
+  width: 100%;
   height: 100%;
 
-  border: 1px solid var(--white);
-  border-radius: 8px;
+  border: 1px solid var(--theme-light-background-400);
+  background-color: var(--theme-light-white);
+  border-radius: 4px;
 }
 
 .digimon-button {
@@ -72,7 +112,7 @@
   width: 100px;
   height: 130px;
 
-  border: 1px solid var(--white);
+  border: 1px solid var(--black);
   border-radius: 4px;
 
   overflow: hidden;
@@ -105,31 +145,58 @@
 .evolutions {
   margin-right: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 100px;
 }
 
-.evolutions .evolution {
-  margin: 0;
+.evolutions .evolution-info {
   position: relative;
+}
 
-  padding: 15px 30px 5px 15px;
+.evolutions .evolution-info .title {
+  padding: 2px 10px;
 
-  display: flex;
+  border: 1px solid var(--theme-light-background-selected);
+  border-radius: 4px;
+  font-size: 1rem;
+
+  transition: 300ms;
+}
+
+.evolutions .evolution-info .title:hover {
+  background-color: var(--theme-light-background-selected);
+}
+
+.evolutions .evolution-info .title.disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.evolutions .evolution-info .evolution {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  padding: 15px;
+
+  display: none;
   flex-direction: row;
   align-items: center;
 
-  border: 1px solid var(--white);
+  width: fit-content;
+
+  border: 1px solid var(--theme-light-font-color);
   border-radius: 4px;
 }
 
-.evolution + .evolution {
-  margin-top: 10px;
+.evolutions .evolution-info .evolution.active {
+  display: flex;
 }
 
-.evolution .title {
+/* .evolution .title {
   position: absolute;
   top: -10px;
   left: 10px;
@@ -145,7 +212,7 @@
   color: var(--black);
   line-height: 20px;
   z-index: 1;
-}
+} */
 
 .digimon-info {
   display: flex;
@@ -204,7 +271,7 @@
 
 .digimon-shortcut-container .back-button {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 10px;
 
   padding: 2px 5px;
@@ -229,14 +296,29 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  flex-grow: 1;
   gap: 5px;
 }
 
-.digimon-shortcut-info * {
+.digimon-shortcut-info > * {
   font-size: 18px;
 }
 
-.digimon-shortcut-info .digimon-name {
+.digimon-shortcut-info > img {
+  width: 30px;
+}
+
+.digimon-shortcut-info .digimon-name-container {
+  padding-right: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.digimon-shortcut-info .digimon-name-container .digimon-name {
   font-size: 24px;
   font-weight: 700;
 }
@@ -270,7 +352,7 @@
 
 .digimon-stat table,
 .digimon-stat table td {
-  border: 1px solid var(--white);
+  border: 1px solid var(--theme-light-background-selected);
   border-collapse: collapse;
 }
 

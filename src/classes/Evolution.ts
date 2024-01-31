@@ -18,6 +18,9 @@ export class Evolution {
     digimonType: string;
     befores: Array<EvolutionInfo> | null;
     afters: Array<EvolutionInfo> | null;
+
+    totalDistance?: number;
+    tag?: string;
     
     constructor(raw: IEvolution) {
         this.id = raw.id;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Stage } from "../../classes/Overflow";
 import Reword from "./Reword";
 import { getUUID } from "../../functions/commons";
@@ -6,23 +6,16 @@ import { getUUID } from "../../functions/commons";
 type StageProps = { stage: Stage };
 
 export default function StageTag({ stage }: StageProps): React.ReactElement {
-    return (
-        <div className="stage">
-            <div className="monsters">
-                <span>stage {stage.id}</span>
-                { stage.monsters.map((monster, index) => {
-                    // const digimon = Digimon.getByName(monster.name)!;
+    const [isFold, SetIsFold] = useState(true);
 
+    return (
+        <div className={`stage ${isFold ? "fold": ""}`}>
+            <button type="button" className="title" onClick={() => SetIsFold(!isFold)}>stage {stage.id}</button>
+            <div className="monsters">
+                { stage.monsters.map((monster, index) => {
                     return <div className="monster" key={getUUID()}>
                         <img src={`/images/${monster.name}.png`} className="stage-monster-image"  data-id={`${stage.id}-${index}`}/>
                         <img src={`/images/${monster.digimonType}.png`} />
-                        {/* <span>{monster.name}</span>
-                        <span>Lv.{monster.level}</span>
-                        <span>hp : {monster.hp}</span>
-                        <div>
-                            <img src={`/images/${digimon.strength} 강점.png`} />
-                            <img src={`/images/${digimon.weakness} 약점.png`} />
-                        </div> */}
                     </div>
                 })}
             </div>

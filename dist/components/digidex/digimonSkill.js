@@ -5,10 +5,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
 const digimonSkillTable_1 = __importDefault(require("./digimonSkillTable"));
+const commons_1 = require("../../functions/commons");
 function DigimonSkill({ digimonName, skill }) {
     return (react_1.default.createElement("div", { className: "skill" },
         react_1.default.createElement("div", { className: "skill-shortcut" },
-            react_1.default.createElement("img", { src: `/images/${digimonName}_${skill.name}.png` }),
+            react_1.default.createElement("img", { src: `/images/${digimonName}_${(0, commons_1.getNameExceptColon)(skill.name)}.png` }),
             react_1.default.createElement("div", { className: "skill-info" },
                 react_1.default.createElement("div", { className: "skill-title" },
                     react_1.default.createElement("span", { className: "skill-name" }, skill.name),

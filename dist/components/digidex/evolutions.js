@@ -41,8 +41,11 @@ function Evolutions({ selected }) {
         return react_1.default.createElement(react_1.default.Fragment, null);
     (0, functions_1.getJustBeforeEvolution)(evolution);
     (0, functions_1.getJustAfterEvolution)(evolution);
+    console.log(evolution);
     const navigate = (0, react_router_dom_1.useNavigate)();
     const [commonEvolution, jogressEvolution] = (0, functions_1.divideEvolutionByMethod)(evolution);
+    console.log(commonEvolution);
+    console.log(jogressEvolution);
     const changeDigimon = (event) => {
         const target = event.target;
         let digimonName = "";
@@ -54,7 +57,7 @@ function Evolutions({ selected }) {
         }
         else
             return;
-        console.log(digimonName);
+        // console.log(digimonName);
         if (digimonName.includes("돌연변이"))
             return;
         navigate(`/digidex?digimon=${digimonName}`);
@@ -66,7 +69,7 @@ function Evolutions({ selected }) {
                 react_1.default.createElement(toLeftProfileGroup_1.default, { digimon: evolution }),
                 react_1.default.createElement(toLeftProfileLine_1.default, { digimon: evolution }),
                 react_1.default.createElement(profile_1.default, { digimon: evolution })),
-            commonEvolution.afters &&
+            commonEvolution.afters.length > 0 &&
                 react_1.default.createElement("div", { className: "evolution" },
                     react_1.default.createElement("span", { className: "title" }, "\uC77C\uBC18 \uC9C4\uD654"),
                     react_1.default.createElement(profile_1.default, { digimon: commonEvolution }),

@@ -29,7 +29,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
         // return 
         <div className="commons">
                     <svg width={200} height={20}>
-                        <line x1={10} y1={10} x2={190} y2={10} style={{stroke: "var(--white)", strokeWidth: `${2}px`}} strokeDasharray="4,4" />
+                        <line x1={10} y1={10} x2={190} y2={10} style={{stroke: "var(--theme-light-font-color)", strokeWidth: `${2}px`}} strokeDasharray="4,4" />
                     </svg>
                     <span className="semi-title">일반 진화</span>
                     { commons.length > 0 && digimon.grade < 5 &&
@@ -94,7 +94,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
         // return 
         <div className="jogress">
                         <svg width={200} height={20}>
-                        <line x1={10} y1={10} x2={190} y2={10} style={{stroke: "var(--white)", strokeWidth: `${2}px`}}  strokeDasharray="4,4" />
+                        <line x1={10} y1={10} x2={190} y2={10} style={{stroke: "var(--theme-light-font-color)", strokeWidth: `${2}px`}}  strokeDasharray="4,4" />
                     </svg>
                     <span className="semi-title">조그레스 진화</span>
                     <div className="conditions">
@@ -129,7 +129,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
     return (
         <div id="evolution-description" className={`modal ${isActive ? "active" : ""}`} style={style} >
             <div className="window">
-                <span className="title">진화 조건</span>
+                <span className="title">{digimon.name} 진화 조건</span>
                 { commonsRevolution }
                 { jogressRevolution }
             </div>

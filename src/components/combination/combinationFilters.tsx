@@ -12,6 +12,7 @@ type FilterProps = {
 export default function CombinationFilters({ all, setFiltered }: FilterProps): React.ReactElement {
     const options = useMemo(() => ["전체", "포션", "소모 아이템", "탐지기", "스킬 강화석", "기타"], []);
 
+    const [selected, setSelected] = useState("전체");
     const selectRef = useRef<HTMLSelectElement>(null);
     const textRef = useRef<HTMLInputElement>(null);
     const [text, setText] = useState("");
@@ -21,10 +22,11 @@ export default function CombinationFilters({ all, setFiltered }: FilterProps): R
             const regex = /[`~!@#$^&*_|+\-=?;'",.<>\{\}\[\]\\\/]/g;
             const typed = event.target.value;
 
-            selectRef.current!.value = "전체";
+            setSelected("전체");
+
             if(typed === "") {
                 setText(typed);
-                setFiltered(null);
+                setFiltered(all);
             } else if(!regex.test(typed) && typed !== "") {
                 setText(typed);
                 const searched = getSearchedCombinations(event.target.value.trim());
@@ -52,11 +54,23 @@ export default function CombinationFilters({ all, setFiltered }: FilterProps): R
 
     return (
         <div className="combination-filters">
-            <select ref={selectRef} onChange={filterByType} value={selectRef.current?.value} key={getUUID()}>
+            <div className="digidex-filter">
+                <div className="title">아이템 타입</div>
+                <div className="checkboxes">
+                    { options.map(option => (
+                        <label htmlFor={option} key={getUUID()}>
+                            <input type="radio" id={option} checked={selected === option}
+                                                            onChange={() => setSelected(option)} />
+                            <span>{option}</span>
+                        </label>
+                    )) }
+                </div>
+            </div>
+            {/* <select ref={selectRef} onChange={filterByType} value={selectRef.current?.value} key={getUUID()}>
                 { options.map(option => (
                     <option value={option} key={getUUID()}>{option}</option>
                 ))}
-            </select>
+            </select> */}
             { textInput }
         </div>
     );

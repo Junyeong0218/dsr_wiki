@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getItemById = exports.getItems = void 0;
+exports.getItemByName = exports.getItemById = exports.getItems = void 0;
 const classes_1 = require("../classes");
 const items_json_1 = __importDefault(require("../json/items.json"));
 const origin = new Array();
@@ -25,3 +25,8 @@ const getItemById = (id) => {
     return (_a = origin.find(item => item.id === id)) !== null && _a !== void 0 ? _a : null;
 };
 exports.getItemById = getItemById;
+const getItemByName = (name, tradable = true) => {
+    loadItems();
+    return origin.find(item => item.name === name && item.canTrade === tradable);
+};
+exports.getItemByName = getItemByName;
