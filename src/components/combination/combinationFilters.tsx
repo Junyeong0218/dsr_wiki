@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { ItemType } from "../../enums";
 import { getSearchedCombinations } from "../../functions/searchFunctions";
 import { getUUID } from "../../functions/commons";
@@ -35,18 +35,30 @@ export default function CombinationFilters({ all, setFiltered }: FilterProps): R
         }
     }
 
-    const filterByType = (event: React.ChangeEvent<HTMLSelectElement>): void => {
+    useEffect(() => {
         setText("");
 
-        const value = event.target.value;
-        if(value === "전체") setFiltered(null);
+        if(selected === "전체") setFiltered(all);
         else {
-            const typeId = Object.values(ItemType).findIndex(each => each === value) + 1;
-            const filtered = all.filter(each => each.resultItem.type === typeId);
+            const type = Object.values(ItemType).findIndex(each => each === selected) + 1;
+            const filtered = all.filter(each => each.resultItem.type === type);
             
             setFiltered(filtered);
         }
-    }
+    }, [selected]);
+
+    // const filterByType = (event: React.ChangeEvent<HTMLSelectElement>): void => {
+    //     setText("");
+
+    //     const value = event.target.value;
+    //     if(value === "전체") setFiltered(null);
+    //     else {
+    //         const typeId = Object.values(ItemType).findIndex(each => each === value) + 1;
+    //         const filtered = all.filter(each => each.resultItem.type === typeId);
+            
+    //         setFiltered(filtered);
+    //     }
+    // }
 
     const textInput = useMemo(() => {
         return <input ref={textRef} type="text" className="search-input" value={text} onChange={updateText} placeholder="제작할 아이템의 이름 혹은 초성을 입력하세요." />

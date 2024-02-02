@@ -869,7 +869,7 @@
     "bigRate": 0.06,
     "ingredients": [
       { "itemId": 84, "count": 1 },
-      { "itemId": 256, "count": 1 }
+      { "itemId": 261, "count": 1 }
     ]
   },
   {
@@ -902,7 +902,7 @@
     "bigRate": 0.03,
     "ingredients": [
       { "itemId": 84, "count": 1 },
-      { "itemId": 257, "count": 1 }
+      { "itemId": 262, "count": 1 }
     ]
   },
   {
@@ -956,7 +956,7 @@
   {
     "id": 56,
     "resultItem": {
-      "id": 255,
+      "id": 260,
       "type": 7,
       "name": "최하급 스킬 보호석",
       "price": 0,
@@ -966,12 +966,12 @@
     "reqBit": 1500,
     "rate": 0.75,
     "bigRate": 0.02,
-    "ingredients": [{ "itemId": 253, "count": 10 }]
+    "ingredients": [{ "itemId": 258, "count": 10 }]
   },
   {
     "id": 57,
     "resultItem": {
-      "id": 263,
+      "id": 268,
       "type": 7,
       "name": "OF 접근권한 : ZERO",
       "price": 0,
@@ -982,16 +982,16 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 258, "count": 1 },
-      { "itemId": 259, "count": 1 },
-      { "itemId": 260, "count": 1 },
-      { "itemId": 261, "count": 1 }
+      { "itemId": 263, "count": 1 },
+      { "itemId": 264, "count": 1 },
+      { "itemId": 265, "count": 1 },
+      { "itemId": 266, "count": 1 }
     ]
   },
   {
     "id": 58,
     "resultItem": {
-      "id": 266,
+      "id": 271,
       "type": 7,
       "name": "최고급 강화 재료",
       "price": 0,
@@ -1001,12 +1001,12 @@
     "reqBit": 5000,
     "rate": 0.75,
     "bigRate": 0.05,
-    "ingredients": [{ "itemId": 264, "count": 2 }]
+    "ingredients": [{ "itemId": 269, "count": 2 }]
   },
   {
     "id": 59,
     "resultItem": {
-      "id": 268,
+      "id": 273,
       "type": 7,
       "name": "하급 비밀 첨가제",
       "price": 0,
@@ -1016,12 +1016,12 @@
     "reqBit": 10000,
     "rate": 0.65,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 267, "count": 3 }]
+    "ingredients": [{ "itemId": 272, "count": 3 }]
   },
   {
     "id": 60,
     "resultItem": {
-      "id": 270,
+      "id": 275,
       "type": 7,
       "name": "하급 조합 촉매제",
       "price": 0,
@@ -1031,12 +1031,12 @@
     "reqBit": 5000,
     "rate": 0.75,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 269, "count": 3 }]
+    "ingredients": [{ "itemId": 274, "count": 3 }]
   },
   {
     "id": 61,
     "resultItem": {
-      "id": 282,
+      "id": 287,
       "type": 7,
       "name": "찢겨진 고정책",
       "price": 0,
@@ -1046,12 +1046,12 @@
     "reqBit": 500,
     "rate": 1,
     "bigRate": 0.02,
-    "ingredients": [{ "itemId": 272, "count": 1 }]
+    "ingredients": [{ "itemId": 277, "count": 1 }]
   },
   {
     "id": 62,
     "resultItem": {
-      "id": 282,
+      "id": 287,
       "type": 7,
       "name": "찢겨진 고정책",
       "price": 0,
@@ -1061,12 +1061,12 @@
     "reqBit": 500,
     "rate": 1,
     "bigRate": 0.02,
-    "ingredients": [{ "itemId": 274, "count": 1 }]
+    "ingredients": [{ "itemId": 279, "count": 1 }]
   },
   {
     "id": 63,
     "resultItem": {
-      "id": 282,
+      "id": 287,
       "type": 7,
       "name": "찢겨진 고정책",
       "price": 0,
@@ -1076,12 +1076,12 @@
     "reqBit": 500,
     "rate": 1,
     "bigRate": 0.02,
-    "ingredients": [{ "itemId": 276, "count": 1 }]
+    "ingredients": [{ "itemId": 281, "count": 1 }]
   },
   {
     "id": 64,
     "resultItem": {
-      "id": 282,
+      "id": 287,
       "type": 7,
       "name": "찢겨진 고정책",
       "price": 0,
@@ -1091,12 +1091,12 @@
     "reqBit": 500,
     "rate": 1,
     "bigRate": 0.02,
-    "ingredients": [{ "itemId": 278, "count": 1 }]
+    "ingredients": [{ "itemId": 283, "count": 1 }]
   },
   {
     "id": 65,
     "resultItem": {
-      "id": 282,
+      "id": 287,
       "type": 7,
       "name": "찢겨진 고정책",
       "price": 0,
@@ -1106,12 +1106,12 @@
     "reqBit": 500,
     "rate": 1,
     "bigRate": 0.02,
-    "ingredients": [{ "itemId": 280, "count": 1 }]
+    "ingredients": [{ "itemId": 285, "count": 1 }]
   },
   {
     "id": 66,
     "resultItem": {
-      "id": 287,
+      "id": 292,
       "type": 7,
       "name": "에보류터",
       "price": 0,
@@ -1122,15 +1122,15 @@
     "rate": 0.1,
     "bigRate": 0.02,
     "ingredients": [
-      { "itemId": 298, "count": 1 },
-      { "itemId": 300, "count": 1 },
-      { "itemId": 302, "count": 1 }
+      { "itemId": 306, "count": 1 },
+      { "itemId": 308, "count": 1 },
+      { "itemId": 310, "count": 1 }
     ]
   },
   {
     "id": 67,
     "resultItem": {
-      "id": 288,
+      "id": 293,
       "type": 7,
       "name": "에보류터",
       "price": 0,
@@ -1141,15 +1141,15 @@
     "rate": 0.1,
     "bigRate": 0.02,
     "ingredients": [
-      { "itemId": 299, "count": 1 },
-      { "itemId": 301, "count": 1 },
-      { "itemId": 303, "count": 1 }
+      { "itemId": 307, "count": 1 },
+      { "itemId": 309, "count": 1 },
+      { "itemId": 311, "count": 1 }
     ]
   },
   {
     "id": 68,
     "resultItem": {
-      "id": 294,
+      "id": 299,
       "type": 7,
       "name": "메탈그레이몬의 흉갑",
       "price": 0,
@@ -1169,7 +1169,7 @@
   {
     "id": 69,
     "resultItem": {
-      "id": 296,
+      "id": 301,
       "type": 7,
       "name": "파워드라몬 개조파츠",
       "price": 0,
@@ -1180,18 +1180,77 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 290, "count": 1 },
-      { "itemId": 291, "count": 1 },
-      { "itemId": 292, "count": 1 },
-      { "itemId": 293, "count": 1 },
-      { "itemId": 294, "count": 1 },
-      { "itemId": 295, "count": 1 }
+      { "itemId": 295, "count": 1 },
+      { "itemId": 296, "count": 1 },
+      { "itemId": 297, "count": 1 },
+      { "itemId": 298, "count": 1 },
+      { "itemId": 299, "count": 1 },
+      { "itemId": 300, "count": 1 }
     ]
   },
   {
     "id": 70,
     "resultItem": {
-      "id": 300,
+      "id": 303,
+      "type": 7,
+      "name": "키메라몬 생체 파츠-A",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 100,
+    "reqBit": 100000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 253, "count": 1 },
+      { "itemId": 239, "count": 1 },
+      { "itemId": 257, "count": 1 },
+      { "itemId": 251, "count": 1 },
+      { "itemId": 215, "count": 1 }
+    ]
+  },
+  {
+    "id": 71,
+    "resultItem": {
+      "id": 304,
+      "type": 7,
+      "name": "키메라몬 생체 파츠-B",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 100,
+    "reqBit": 100000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 255, "count": 1 },
+      { "itemId": 256, "count": 1 },
+      { "itemId": 254, "count": 1 },
+      { "itemId": 252, "count": 1 }
+    ]
+  },
+  {
+    "id": 72,
+    "resultItem": {
+      "id": 305,
+      "type": 7,
+      "name": "키메라몬의 생체 데이터",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 110,
+    "reqBit": 500000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 303, "count": 1 },
+      { "itemId": 304, "count": 1 }
+    ]
+  },
+  {
+    "id": 73,
+    "resultItem": {
+      "id": 308,
       "type": 7,
       "name": "부서진 제로유니트",
       "price": 0,
@@ -1201,12 +1260,12 @@
     "reqBit": 35000,
     "rate": 1,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 302, "count": 1 }]
+    "ingredients": [{ "itemId": 310, "count": 1 }]
   },
   {
-    "id": 71,
+    "id": 74,
     "resultItem": {
-      "id": 302,
+      "id": 310,
       "type": 7,
       "name": "빛나는 제로유니트",
       "price": 0,
@@ -1216,12 +1275,12 @@
     "reqBit": 35000,
     "rate": 1,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 300, "count": 1 }]
+    "ingredients": [{ "itemId": 308, "count": 1 }]
   },
   {
-    "id": 72,
+    "id": 75,
     "resultItem": {
-      "id": 373,
+      "id": 381,
       "type": 9,
       "name": "감로망 쉐이크",
       "price": 0,
@@ -1232,15 +1291,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 357, "count": 1 },
-      { "itemId": 355, "count": 1 },
-      { "itemId": 311, "count": 1 }
+      { "itemId": 365, "count": 1 },
+      { "itemId": 363, "count": 1 },
+      { "itemId": 319, "count": 1 }
     ]
   },
   {
-    "id": 73,
+    "id": 76,
     "resultItem": {
-      "id": 371,
+      "id": 379,
       "type": 9,
       "name": "루비드헬 쉐이크",
       "price": 0,
@@ -1251,15 +1310,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 355, "count": 1 },
-      { "itemId": 361, "count": 1 },
-      { "itemId": 311, "count": 1 }
+      { "itemId": 363, "count": 1 },
+      { "itemId": 369, "count": 1 },
+      { "itemId": 319, "count": 1 }
     ]
   },
   {
-    "id": 74,
+    "id": 77,
     "resultItem": {
-      "id": 375,
+      "id": 383,
       "type": 9,
       "name": "신비코코넛 쉐이크",
       "price": 0,
@@ -1270,15 +1329,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 365, "count": 1 },
-      { "itemId": 367, "count": 1 },
-      { "itemId": 311, "count": 1 }
+      { "itemId": 373, "count": 1 },
+      { "itemId": 375, "count": 1 },
+      { "itemId": 319, "count": 1 }
     ]
   },
   {
-    "id": 75,
+    "id": 78,
     "resultItem": {
-      "id": 374,
+      "id": 382,
       "type": 9,
       "name": "탐 콴 바나나 쉐이크",
       "price": 0,
@@ -1289,15 +1348,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 369, "count": 1 },
-      { "itemId": 367, "count": 1 },
-      { "itemId": 311, "count": 1 }
+      { "itemId": 377, "count": 1 },
+      { "itemId": 375, "count": 1 },
+      { "itemId": 319, "count": 1 }
     ]
   },
   {
-    "id": 76,
+    "id": 79,
     "resultItem": {
-      "id": 376,
+      "id": 384,
       "type": 9,
       "name": "한라사과 쉐이크",
       "price": 0,
@@ -1308,15 +1367,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 359, "count": 1 },
-      { "itemId": 363, "count": 1 },
-      { "itemId": 311, "count": 1 }
+      { "itemId": 367, "count": 1 },
+      { "itemId": 371, "count": 1 },
+      { "itemId": 319, "count": 1 }
     ]
   },
   {
-    "id": 77,
+    "id": 80,
     "resultItem": {
-      "id": 372,
+      "id": 380,
       "type": 9,
       "name": "한라홍 쉐이크",
       "price": 0,
@@ -1327,15 +1386,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 359, "count": 1 },
-      { "itemId": 357, "count": 1 },
-      { "itemId": 311, "count": 1 }
+      { "itemId": 367, "count": 1 },
+      { "itemId": 365, "count": 1 },
+      { "itemId": 319, "count": 1 }
     ]
   },
   {
-    "id": 78,
+    "id": 81,
     "resultItem": {
-      "id": 370,
+      "id": 378,
       "type": 9,
       "name": "아오리 드헬 쉐이크",
       "price": 0,
@@ -1346,15 +1405,15 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 363, "count": 1 },
-      { "itemId": 361, "count": 1 },
-      { "itemId": 311, "count": 1 }
+      { "itemId": 371, "count": 1 },
+      { "itemId": 369, "count": 1 },
+      { "itemId": 319, "count": 1 }
     ]
   },
   {
-    "id": 79,
+    "id": 82,
     "resultItem": {
-      "id": 377,
+      "id": 385,
       "type": 10,
       "name": "만개의 날개",
       "price": 0,
@@ -1365,14 +1424,14 @@
     "rate": 1,
     "bigRate": 0,
     "ingredients": [
-      { "itemId": 309, "count": 50 },
-      { "itemId": 310, "count": 1 }
+      { "itemId": 317, "count": 50 },
+      { "itemId": 318, "count": 1 }
     ]
   },
   {
-    "id": 80,
+    "id": 83,
     "resultItem": {
-      "id": 378,
+      "id": 386,
       "type": 10,
       "name": "고양이 귀 머리띠",
       "price": 0,
@@ -1382,6 +1441,6 @@
     "reqBit": 0,
     "rate": 1,
     "bigRate": 0,
-    "ingredients": [{ "itemId": 309, "count": 19 }]
+    "ingredients": [{ "itemId": 317, "count": 19 }]
   }
 ]

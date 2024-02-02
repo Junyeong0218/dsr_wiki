@@ -86,7 +86,7 @@ export default function DigidexFilter({ all, setFiltered }: DigidexFilterProps):
             const regex = /[a-zA-Z0-9]|[ \[\]{}()<>?|`~!@#$%^&*-_+=,.;:\"'\\]/g;
             const typed = event.target.value;
 
-            setConditions({...defaultCondition});
+            // setConditions({...defaultCondition});
 
             if(typed === "") {
                 localStorage.removeItem("digidex_search");

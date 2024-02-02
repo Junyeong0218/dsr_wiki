@@ -42,12 +42,12 @@ export default function Evolutions({ digimon }: EvolutionsProps): React.ReactEle
     const evolutions = useMemo(() => {
         return <div className="evolutions" onClick={changeDigimon}>
                     <div className="evolution-info">
-                        <button type="button" className="title" onClick={() => setActivePrevEvo(!activePrevEvo)}>이전 진화</button>
-                        <div className={`evolution ${activePrevEvo ? "active" : ""}`}>
+                        <button type="button" className={`title ${!evolution.befores ? "disabled" : ""}`} onClick={() => setActivePrevEvo(!activePrevEvo)}>이전 진화</button>
+                        { evolution.befores && <div className={`evolution ${activePrevEvo ? "active" : ""}`}>
                             <ToLeftProfileGroup digimon={evolution} />
                             <ToLeftProfileLine digimon={evolution} />
                             <Profile digimon={evolution} />
-                        </div>
+                        </div> }
                     </div>
                     { <div className="evolution-info">
                             <button className={`title ${commonEvolution.afters!.length > 0 ? "" : "disabled"}`} onClick={() => setActiveNextEvo(!activeNextEvo)}>일반 진화</button>
