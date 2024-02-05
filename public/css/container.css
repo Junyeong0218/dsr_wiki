@@ -413,7 +413,7 @@ button:disabled {
   border-radius: 5px;
 
   opacity: 0.98;
-  z-index: 1;
+  z-index: 101;
 }
 
 /* #evolution-description {

@@ -16,6 +16,9 @@ export default function Header(): React.ReactElement {
                         <Link to="/" className="text-nav">홈</Link>
                     </div>
                     <div className="nav-element">
+                        <Link to="/guides" className="text-nav">기초 가이드</Link>
+                    </div>
+                    <div className="nav-element">
                         <Link to="/digimons/digidex" className="text-nav">디지몬</Link>
                         <div className="nav-subs">
                             <Link to="/digimons/digidex" className="text-nav">디지몬 도감</Link>
@@ -32,9 +35,9 @@ export default function Header(): React.ReactElement {
                             <Link to="/dungeons/overflows" className="text-nav">오버플로우 던전</Link>
                         </div>
                     </div>
-                    <div className="nav-element">
+                    {/* <div className="nav-element">
                         <Link to="/raids" className="text-nav">레이드</Link>
-                    </div>
+                    </div> */}
                     <div className="nav-element">
                         <Link to="/tools/adjustments" className="text-nav">도구</Link>
                         <div className="nav-subs">

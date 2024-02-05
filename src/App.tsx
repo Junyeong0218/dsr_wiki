@@ -13,6 +13,7 @@ import Detectors from "./components/detector/Detector";
 import Adjustments from "./components/adjustment/Adjustments";
 import Potentials from "./components/potential/Potentials";
 import Raids from "./components/raids/Raid";
+import Guides from "./components/guides/Guides";
 
 export default function App(): React.ReactElement {
     return (
@@ -23,6 +24,9 @@ export default function App(): React.ReactElement {
                     <Routes>
                         <Route path="/" element={<Main />} />
 
+                        <Route path="/guides" element={<Guides />} />
+                        <Route path="/guides/:id" element={<Guides />} />
+
                         <Route path="/digimons/digidex" element={<Digidex />} />
                         <Route path="/digimons/evolutions" element={<EvolutionSearcher />} />
 
@@ -31,7 +35,7 @@ export default function App(): React.ReactElement {
                         <Route path="/dungeons/overflows" element={<Overflows />} />
                         <Route path="/dungeons/detectors" element={<Detectors />} />
 
-                        <Route path="/raids" element={<Raids />} />
+                        {/* <Route path="/raids" element={<Raids />} /> */}
                         
                         <Route path="/tools/adjustments" element={<Adjustments />} />
                         <Route path="/tools/potentials" element={<Potentials />} />

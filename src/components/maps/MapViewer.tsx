@@ -51,13 +51,14 @@ export default function MapViewer({ map }: MapViewerProps) {
                 selectedDigimon.current = digimon;
 
                 const mapRect = target.parentElement!.parentElement!.getBoundingClientRect();
-                const modalHeight = 171 + (digimon.dropItems?.length || 0) * 28;
+                const modalHeight = 211 + (digimon.dropItems?.length || 0) * 28;
                 
                 // console.log(event.pageY, modalHeight, "  ", window.innerHeight)
-                if(event.pageY + modalHeight >= window.innerHeight - 20) {
-                    setDropsModalPosition({ top: event.pageY - modalHeight - mapRect.top, left: event.pageX - mapRect.left + 2 });
+                // console.log(event.pageY + modalHeight, "  ", window.innerHeight - 20)
+                if(event.pageY + modalHeight >= window.innerHeight - 10) {
+                    setDropsModalPosition({ top: window.innerHeight - modalHeight - mapRect.top - 10, left: event.pageX - mapRect.left + 2 });
                 } else {
-                    setDropsModalPosition({ top: event.pageY - mapRect.top + 10, left: event.pageX - mapRect.left + 2 });
+                    setDropsModalPosition({ top: event.pageY - mapRect.top - 10, left: event.pageX - mapRect.left + 2 });
                 }
                 setIsOpenDrops(true);
                 setIsOpenShop(false);
@@ -66,6 +67,14 @@ export default function MapViewer({ map }: MapViewerProps) {
                 setIsOpenShop(false);
             }
         }
+    }
+
+    const mouseLeaveHandler = (event: React.MouseEvent<HTMLDivElement>) => {
+        const relatedTarget = event.relatedTarget as HTMLDivElement;
+        if(relatedTarget.classList.contains("modal") || relatedTarget.classList.contains("map-container")) return;
+
+        setIsOpenDrops(false);
+        setIsOpenShop(false);
     }
 
     const getItems = () => {
@@ -166,7 +175,7 @@ export default function MapViewer({ map }: MapViewerProps) {
 
     return (
         <div className="map-viewer">
-            <div className="map-container" onMouseMove={captureMouse}>
+            <div className="map-container" onMouseMove={captureMouse} onMouseLeave={mouseLeaveHandler}>
                 <img className="map" src={`/images/${map.name}.png`} />
 
                 { monsters }
