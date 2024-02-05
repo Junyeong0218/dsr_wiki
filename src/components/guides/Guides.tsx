@@ -18,7 +18,7 @@ export default function Guides(): React.ReactElement {
         const response = await fetch('/.netlify/functions/getGuides')
         const result: Array<Guide> = await response.json()
 
-        console.log(result);
+        // console.log(result);
 
         setList(result.sort((a, b) => a.id - b.id));
     }
