@@ -22,11 +22,15 @@ export default function DigidexFilter({ all, setFiltered }: DigidexFilterProps):
     const defaultCondition: Conditions = {
         grades: [...grades], 
         digimonTypes: [...digimonTypes], 
-        elements: [...elements]
+        elements: [...elements],
+        strengths: [...elements],
+        weaknesses: [...elements]
     }
 
     const prevConditions = localStorage.getItem("digidex_conditions");
     const [conditions, setConditions] = useState<Conditions>(!prevConditions ? defaultCondition : JSON.parse(prevConditions));
+    if(!conditions["strengths"]) conditions["strengths"] = [...elements];
+    if(!conditions["weaknesses"]) conditions["weaknesses"] = [...elements];
 
     const prevText = localStorage.getItem("digidex_search");
     const [text, setText] = useState(prevText ? prevText : "");
@@ -48,6 +52,9 @@ export default function DigidexFilter({ all, setFiltered }: DigidexFilterProps):
             }
             return false;
         });
+
+        filtered = filtered.filter(each => conditions.strengths.includes(each.strength));
+        filtered = filtered.filter(each => conditions.weaknesses.includes(each.weakness));
 
         setFiltered([...filtered]);
     }, [conditions]);
@@ -71,6 +78,7 @@ export default function DigidexFilter({ all, setFiltered }: DigidexFilterProps):
 
     const toggleCheckbox = (event: React.ChangeEvent, flag: string, value: string) => {
         const target = event.target as HTMLInputElement;
+        console.log(flag);
 
         if(target.checked) {
             conditions[`${flag}`].push(value);
@@ -158,6 +166,42 @@ export default function DigidexFilter({ all, setFiltered }: DigidexFilterProps):
                         <label htmlFor={element} key={getUUID()}>
                             <input type="checkbox" id={element} checked={conditions.elements.includes(element)}
                                                                 onChange={(event) => toggleCheckbox(event, "elements", element)} />
+                            <span>{element}</span>
+                        </label>
+                    )) }
+                </div>
+            </div>
+            {/* 강점 */}
+            <div className="digidex-filter">
+                <div className="title">강점</div>
+                <div className="checkboxes">
+                    <label htmlFor="strength-all">
+                        <input type="checkbox" id="strength-all" checked={conditions.strengths.length === elements.length}
+                                                                onChange={(event) => toggleAll(event, "strengths")}/>
+                        <span>전체</span>
+                    </label>
+                    { elements.map(element => (
+                        <label htmlFor={`강점_${element}`} key={getUUID()}>
+                            <input type="checkbox" id={`강점_${element}`} checked={conditions.strengths.includes(element)}
+                                                                onChange={(event) => toggleCheckbox(event, "strengths", element)} />
+                            <span>{element}</span>
+                        </label>
+                    )) }
+                </div>
+            </div>
+            {/* 약점 */}
+            <div className="digidex-filter">
+                <div className="title">약점</div>
+                <div className="checkboxes">
+                    <label htmlFor="weakness-all">
+                        <input type="checkbox" id="weakness-all" checked={conditions.weaknesses.length === elements.length}
+                                                                onChange={(event) => toggleAll(event, "weaknesses")}/>
+                        <span>전체</span>
+                    </label>
+                    { elements.map(element => (
+                        <label htmlFor={`약점_${element}`} key={getUUID()}>
+                            <input type="checkbox" id={`약점_${element}`} checked={conditions.weaknesses.includes(element)}
+                                                                onChange={(event) => toggleCheckbox(event, "weaknesses", element)} />
                             <span>{element}</span>
                         </label>
                     )) }

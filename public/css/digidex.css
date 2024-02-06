@@ -85,6 +85,7 @@
 
   flex-grow: 1;
   
+  font-size: 0.9rem;
   text-align: center;
 }
 
@@ -102,6 +103,65 @@
   border: 1px solid var(--theme-light-background-400);
   background-color: var(--theme-light-white);
   border-radius: 4px;
+}
+
+.toggle-table-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+
+.toggle-table-container .toggle-container {
+  padding: 5px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  cursor: pointer;
+}
+
+.toggle-table-container .toggle-container > span {
+  font-size: 0.95rem;
+  line-height: 20px;
+}
+
+.toggle-table-container .toggle-container > span.selected {
+  font-weight: 700;
+}
+
+.toggle-table-container .toggle-container .circle-container {
+  position: relative;
+
+  width: 40px;
+  height: 100%;
+
+  border: 1px solid var(--theme-light-background-400);
+  border-radius: 10px;
+  background-color: var(--theme-light-background-selected);
+
+  transition: 300ms;
+}
+
+.toggle-table-container .toggle-container .circle-container .circle {
+  position: absolute;
+  top: 0px;
+  left: 1px;
+
+  width: 18px;
+  height: 18px;
+
+  border: 1px solid var(--theme-light-background-400);
+  border-radius: 9px;
+  background-color: var(--theme-light-font-color);
+
+  transition: 300ms;
+}
+
+.toggle-table-container .toggle-container .circle-container.right .circle {
+  transform: translateX(100%);
 }
 
 .digimon-button {
@@ -474,4 +534,134 @@
 .badge.effect {
   background-color: var(--type-perfect-deep);
   color: white;
+}
+
+.digidex-table {
+  width: 100%;
+
+  /* border-collapse: collapse; */
+  border-collapse: separate;
+  border-spacing: 0px;
+  border-top: 1px solid var(--theme-light-font-color);
+  border-bottom: 1px solid var(--theme-light-font-color);
+}
+
+.digidex-table thead {
+}
+
+.digidex-table thead tr td {
+  border-bottom: 1px solid var(--theme-light-font-color);
+
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.digidex-table td {
+  padding: 2px 2px;
+  
+  word-break: keep-all;
+  white-space: nowrap;
+
+  border-left: 1px solid var(--theme-light-background-400);
+  border-right: 1px solid var(--theme-light-background-400);
+}
+
+.digidex-table tbody tr td {
+  height: 30px;
+
+  font-size: 0.75rem;
+}
+
+.digidex-table tbody tr:not(:last-child) td {
+  border-bottom: 1px solid var(--theme-light-background-400);
+}
+
+/* .digidex-table tbody tr td.casting {
+  border: 2px solid var(--type-adult-deep) !important;
+} */
+
+.digidex-table tbody tr td.casting {
+  /* border: 2px solid var(--type-baby1-deep); */
+  /* border: 2px solid var(--type-perfect-deep); */
+  border: 2px solid #ff0000;
+}
+
+.digidex-table tbody tr td.global {
+  border: 2px solid var(--theme-light-font-color);
+}
+
+.digidex-table tbody tr td.melee {
+  background-color: var(--type-baby1-thin);
+}
+
+.digidex-table tbody tr td.ranged {
+  background-color: var(--type-adult-thin);
+}
+
+.digidex-table tbody tr td img {
+  height: 100%;
+
+  vertical-align: middle;
+}
+
+.digidex-table tbody tr td span.bold {
+  font: inherit;
+  font-weight: 700;
+}
+
+.table-legend-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+
+  width: 100%;
+}
+
+.table-legend-container .table-legend {
+  padding: 5px 15px 5px 5px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+
+  height: 30px;
+}
+
+.table-legend-container .table-legend:not(:last-child) {
+  border-right: 1px solid var(--theme-light-background-400);
+}
+
+.table-legend-container .table-legend .box {
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid var(--theme-light-background-400);
+  border-radius: 3px;
+}
+
+.table-legend-container .table-legend .box.casting {
+  border: 2px solid #ff0000;
+}
+
+.table-legend-container .table-legend .box.global {
+  border: 2px solid var(--theme-light-font-color);
+}
+
+.table-legend-container .table-legend .box.melee {
+  background-color: var(--type-baby1-thin);
+  border: none;
+}
+
+.table-legend-container .table-legend .box.ranged {
+  background-color: var(--type-adult-thin);
+  border: none;
+}
+
+.table-legend-container .table-legend .text {
+  font-size: 0.9rem;
+  font-weight: 700;
 }

@@ -4,7 +4,7 @@ export interface ISkill {
     range: string,
     element: string,
     target: string,
-    targetCount: number,
+    targetCount: string,
     effect: string | null,
     additionalTurn: number | null,
     coefficients: Array<number>
@@ -16,7 +16,7 @@ export class Skill {
     range: string;
     element: string;
     target: string;
-    targetCount: number;
+    targetCount: string;
     effect: string | null;
     additionalTurn: number | null;
     coefficients: Array<number>;
