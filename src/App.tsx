@@ -14,6 +14,7 @@ import Adjustments from "./components/adjustment/Adjustments";
 import Potentials from "./components/potential/Potentials";
 import Raids from "./components/raids/Raid";
 import Guides from "./components/guides/Guides";
+import Guide from "./components/guides/Guide";
 
 export default function App(): React.ReactElement {
     return (
@@ -25,7 +26,7 @@ export default function App(): React.ReactElement {
                         <Route path="/" element={<Main />} />
 
                         <Route path="/guides" element={<Guides />} />
-                        <Route path="/guides/:id" element={<Guides />} />
+                        <Route path="/guides/:id" element={<Guide />} />
 
                         <Route path="/digimons/digidex" element={<Digidex />} />
                         <Route path="/digimons/evolutions" element={<EvolutionSearcher />} />
