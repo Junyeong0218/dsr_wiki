@@ -75,11 +75,7 @@ export default function Digidex(): React.ReactElement {
     
     const filterOptionContainer = useRef<HTMLDivElement>(null);
 
-    console.log(sortFilters);
-    console.log(tempSorts);
-
     const pushToTemp = (event: React.ChangeEvent<HTMLSelectElement>, index: number) => {
-        console.log(index);
         tempSorts[index].type = event.target.value;
         setTempSorts([...tempSorts]);
     }
