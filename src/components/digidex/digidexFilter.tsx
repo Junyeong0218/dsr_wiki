@@ -4,8 +4,14 @@ import { getUUID } from "../../functions/commons";
 import { Digimon } from "../../classes";
 import { getSearchedDigimons } from "../../functions/searchFunctions";
 
+type Filter = {
+    type: string,
+    method: string
+}
+
 type DigidexFilterProps = { 
     all: Array<Digimon>,
+    sortFilters: Array<Filter>,
     setFiltered: React.Dispatch<React.SetStateAction<Digimon[]>>
 }
 
@@ -13,7 +19,7 @@ type Conditions = {
     [key:string]: Array<string>
 }
 
-export default function DigidexFilter({ all, setFiltered }: DigidexFilterProps): React.ReactElement {
+export default function DigidexFilter({ all, sortFilters, setFiltered }: DigidexFilterProps): React.ReactElement {
     const grades = Object.values(Grades).filter(each => each !== "유년기1" && each !== "유년기2");
     const digimonTypes = Object.values(DigimonTypes);
     const digimonTypesEng = Object.values(DigimonTypesEng);
@@ -56,8 +62,54 @@ export default function DigidexFilter({ all, setFiltered }: DigidexFilterProps):
         filtered = filtered.filter(each => conditions.strengths.includes(each.strength));
         filtered = filtered.filter(each => conditions.weaknesses.includes(each.weakness));
 
+        filtered = filtered.sort((a, b) => {
+            let result: number = 0;
+
+            for(let i = 0; i < sortFilters.length; i++) {
+                let innerResult: number = 0;
+                const filter = sortFilters[i];
+                let aValue: number | string;
+                let bValue: number | string;
+
+                if(filter.type.includes("skill")) {
+                    const index = Number(filter.type.substring(0, 1)) - 1
+                    const aSkill = a.skills[index];
+                    const bSkill = b.skills[index];
+
+                    if(aSkill) aValue = aSkill.attackCount * aSkill.coefficients[9];
+                    else       aValue = 0;
+
+                    if(bSkill) bValue = bSkill.attackCount * bSkill.coefficients[9];
+                    else       bValue = 0;
+                } else {
+                    aValue = a[filter.type];
+                    bValue = b[filter.type];
+                    // if(filter.method === "asc") {
+                    //     result = a.name.localeCompare(b.name);
+                    // } else {
+                    //     result = b.name.localeCompare(a.name);
+                    // }
+                }
+                
+                if(typeof aValue === "number" && typeof bValue === "number") {
+                    if(filter.method === "asc") innerResult = aValue - bValue;
+                    else                        innerResult = bValue - aValue;
+                } else if(typeof aValue === "string" && typeof bValue === "string") {
+                    if(filter.method === "asc") innerResult = aValue.localeCompare(bValue);
+                    else                        innerResult = bValue.localeCompare(aValue);
+                }
+
+                if(innerResult !== 0) {
+                    result = innerResult;
+                    break;
+                }
+            }
+            
+            return result;
+        });
+
         setFiltered([...filtered]);
-    }, [conditions]);
+    }, [conditions, sortFilters]);
 
     const toggleAll = (event: React.ChangeEvent, flag: string) => {
         const target = event.target as HTMLInputElement;

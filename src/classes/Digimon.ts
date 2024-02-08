@@ -22,6 +22,7 @@ export interface IDigimon {
 }
 
 export class Digimon {
+    [key: string]: any;
     id: number;
     name: string;
     grade: number;

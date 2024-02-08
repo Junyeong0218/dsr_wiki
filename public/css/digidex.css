@@ -108,18 +108,21 @@
 .toggle-table-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
 
   width: 100%;
 }
 
-.toggle-table-container .toggle-container {
+.toggle-table-container .toggle-container,
+.toggle-table-container .sort-container {
   padding: 5px;
 
   display: flex;
   flex-direction: row;
   gap: 5px;
+}
 
+.toggle-table-container .toggle-container {
   cursor: pointer;
 }
 
@@ -162,6 +165,102 @@
 
 .toggle-table-container .toggle-container .circle-container.right .circle {
   transform: translateX(100%);
+}
+
+.toggle-table-container .sort-container {
+  position: relative;
+}
+
+.toggle-table-container .sort-container > button {
+  padding: 2px 10px;
+
+  background-color: var(--theme-light-font-color);
+  /* border: 1px solid var(--theme-light-font-color); */
+  border-radius: 15px;
+
+  font-size: 0.95rem;
+  color: var(--theme-light-background-400);
+
+  cursor: pointer;
+
+  transition: 300ms;
+}
+
+.toggle-table-container .sort-container > button.filtered {
+  background-color: var(--type-baby1-thin);
+
+  color: var(--theme-light-font-color);
+  font-weight: 700;
+}
+
+.toggle-table-container .sort-container > button:hover {
+  background-color: var(--type-child-deep);
+}
+
+.toggle-table-container .sort-container > .modal {
+  top: 10px;
+  left: 85px;
+  
+  background-color: var(--theme-light-background-500);
+}
+
+.toggle-table-container .sort-container > .modal > .window > .title {
+  font-weight: 700;
+}
+
+.toggle-table-container .sort-container > .modal > .window > .options {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.toggle-table-container .sort-container > .modal > .window > .options > .row {
+  padding: 3px 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-table-container .sort-container > .modal > .window > .options > .row * {
+  font-size: 0.9rem;
+  text-align: center;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.toggle-table-container .sort-container > .modal > .window > .options > .row > span {
+  min-width: 50px;
+
+  font-weight: 700;
+}
+
+.toggle-table-container .sort-container > .modal > .window > .options > .row > select,
+.toggle-table-container .sort-container > .modal > .window > .options > .row > select > option {
+  cursor: pointer;
+}
+
+.toggle-table-container .sort-container > .modal > .window > .buttons {
+  width: 100%;
+}
+
+.toggle-table-container .sort-container > .modal > .window > .buttons button {
+  width: 100%;
+
+  background-color: var(--theme-light-background-500);
+  border-radius: 4px;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 25px;
+  transition: 300ms;
+}
+
+.toggle-table-container .sort-container > .modal > .window > .buttons button:hover {
+  filter: invert(1);
 }
 
 .digimon-button {

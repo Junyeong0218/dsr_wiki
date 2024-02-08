@@ -92,6 +92,8 @@ Object.freeze(DigimonTypes);
 Object.freeze(Elements);
 
 export {
+    IStringKey,
+    
     Grades,
     GradeClassNames,
     RequireStatName,
