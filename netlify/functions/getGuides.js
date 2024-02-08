@@ -2,11 +2,11 @@ const { MongoClient } = require("mongodb");
 
 const mongoClient = new MongoClient(process.env.MONGODB_URI);
 
-const clientPromise = mongoClient.connect();
-
 const handler = async (event) => {
+    const clientPromise = await mongoClient.connect();
+    
     try {
-        const database = (await clientPromise).db(process.env.MONGODB_DATABASE);
+        const database = clientPromise.db(process.env.MONGODB_DATABASE);
         const collection = database.collection("guides");
         const results = await collection.find({}).toArray();
 
@@ -19,7 +19,7 @@ const handler = async (event) => {
     } catch (error) {
         return { statusCode: 500, body: error.toString() }
     } finally {
-        (await clientPromise).close();
+        clientPromise.close();
     }
 }
 

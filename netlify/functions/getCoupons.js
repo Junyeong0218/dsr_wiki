@@ -2,12 +2,12 @@ const { MongoClient } = require("mongodb");
 
 const mongoClient = new MongoClient(process.env.MONGODB_URI);
 
-const clientPromise = mongoClient.connect();
-
 const handler = async (event) => {
+    const clientPromise = await mongoClient.connect();
+
     try {
         const now = new Date();
-        const database = (await clientPromise).db(process.env.MONGODB_DATABASE);
+        const database = clientPromise.db(process.env.MONGODB_DATABASE);
         const collection = database.collection("coupons");
         const results = await collection.aggregate([
             { "$addFields": {
@@ -38,7 +38,7 @@ const handler = async (event) => {
         console.log(error)
         return { statusCode: 500, body: error.toString() }
     } finally {
-        (await clientPromise).close();
+        clientPromise.close();
     }
 }
 
