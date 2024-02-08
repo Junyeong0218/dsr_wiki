@@ -15,8 +15,8 @@ export default function Guides(): React.ReactElement {
     const navigate = useNavigate();
 
     const loadList = async () => {
-        const response = await fetch('/.netlify/functions/getGuides')
-        const result: Array<Guide> = await response.json()
+        const response = await fetch('/.netlify/functions/getGuides');
+        const result: Array<Guide> = await response.json();
 
         setList(result.sort((a, b) => b.id - a.id));
     }

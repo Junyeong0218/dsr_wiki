@@ -86,41 +86,25 @@ export default function Main(): React.ReactElement {
             }
         }).catch(error => {
             console.log(error);
-        })
+        });
 
-        fetch(`${url}?sheetName=coupons`).then(async response => {
-            const result = await response.json();
-            
-            if(result.ok) {
-                const coupons:Array<Coupon> = result.data;
-                setCoupons(coupons.filter(e => e.active));
-                localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
-            }
+        fetch("/.netlify/functions/getCoupons").then(async response => {
+            const coupons:Array<Coupon> = await response.json();
+
+            localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
+            setCoupons(coupons);
         }).catch(error => {
             console.log(error);
-        })
+        });
 
-        fetch(`${url}?sheetName=ladders`).then(async response => {
-            const result = await response.json();
-            
-            if(result.ok) {
-                const ladders:Array<Ladder> = result.data;
-                const today = new Date();
-                const month = today.getMonth();
-                const day = today.getDate();
+        fetch("/.netlify/functions/getLadder").then(async response => {
+            const ladder:Ladder = await response.json();
 
-                const ladder = ladders.find(ladder => {
-                    const date = new Date(ladder.date);
-
-                    return date.getMonth() === month && date.getDate() === day;
-                }) ?? null;
-
-                setLadder(ladder);
-                localStorage.setItem("ladder", JSON.stringify(ladder));
-            }
+            localStorage.setItem("ladder", JSON.stringify(ladder));
+            setLadder(ladder);
         }).catch(error => {
             console.log(error);
-        })
+        });
     }, []);
 
     const getWeekdayText = (weekday: number): string => {
