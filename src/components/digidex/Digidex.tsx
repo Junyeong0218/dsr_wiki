@@ -118,9 +118,9 @@ export default function Digidex(): React.ReactElement {
                             <td>SP</td>
                             <td>힘</td>
                             <td>지능</td>
-                            <td>속도</td>
                             <td>수비</td>
                             <td>저항</td>
+                            <td>속도</td>
                             <td>강점</td>
                             <td>약점</td>
                             <td>1스킬</td>
@@ -139,9 +139,9 @@ export default function Digidex(): React.ReactElement {
                                 <td>{each.sp.toLocaleString("ko-KR")}</td>
                                 <td>{each.str.toLocaleString("ko-KR")}</td>
                                 <td>{each.int.toLocaleString("ko-KR")}</td>
-                                <td>{each.spd.toLocaleString("ko-KR")}</td>
                                 <td>{each.def.toLocaleString("ko-KR")}</td>
                                 <td>{each.res.toLocaleString("ko-KR")}</td>
+                                <td>{each.spd.toLocaleString("ko-KR")}</td>
                                 <td title={getDigimonQualityText(each.strengthEffect, false)}>
                                     <img src={`/images/${each.strength} 강점.png`} />
                                     &nbsp;
