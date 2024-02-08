@@ -7,12 +7,9 @@ const clientPromise = mongoClient.connect();
 const handler = async (event) => {
     try {
         const now = new Date();
-        const year = now.getFullYear();
-        const month = String(now.getMonth() + 1).padStart(2, "0");
-        const date = String(now.getDate()).padStart(2, "0");
         const database = (await clientPromise).db(process.env.MONGODB_DATABASE);
         const collection = database.collection("coupons");
-        const results = collection.aggregate([
+        const results = await collection.aggregate([
             { "$addFields": {
                 "start": { "$dateFromString": { "dateString": "$startDate"} },
                 "exp": { "$dateFromString": { "dateString": "$expDate"} }
@@ -21,22 +18,17 @@ const handler = async (event) => {
                 "start": { "$lte": now },
                 "exp": { "$gte": now }
             }}
-        ]);
+        ]).toArray();
 
         const list = [];
-        while(await results.hasNext()) {
-            const next = await results.next();
-            if(next) {
-                list.push({
-                    name: next.name,
-                    code: next.code,
-                    startDate: next.startDate,
-                    expDate: next.expDate
-                });
-            }
-        }
-
-        await (await clientPromise).close();
+        results.forEach(result => {
+            list.push({
+                name: result.name,
+                code: result.code,
+                startDate: result.startDate,
+                expDate: result.expDate
+            });
+        });
 
         return {
             statusCode: 200,
@@ -45,6 +37,8 @@ const handler = async (event) => {
     } catch (error) {
         console.log(error)
         return { statusCode: 500, body: error.toString() }
+    } finally {
+        (await clientPromise).close();
     }
 }
 

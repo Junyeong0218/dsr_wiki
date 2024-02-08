@@ -10,7 +10,7 @@ const handler = async (event) => {
         const collection = database.collection("guides");
         const results = await collection.find({}).toArray();
 
-        await (await clientPromise).close();
+        // await (await clientPromise).close();
 
         return {
             statusCode: 200,
@@ -18,6 +18,8 @@ const handler = async (event) => {
         }
     } catch (error) {
         return { statusCode: 500, body: error.toString() }
+    } finally {
+        (await clientPromise).close();
     }
 }
 

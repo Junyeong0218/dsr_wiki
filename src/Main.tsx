@@ -90,7 +90,7 @@ export default function Main(): React.ReactElement {
 
         fetch("/.netlify/functions/getCoupons").then(async response => {
             const coupons:Array<Coupon> = await response.json();
-
+            
             localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
             setCoupons(coupons);
         }).catch(error => {

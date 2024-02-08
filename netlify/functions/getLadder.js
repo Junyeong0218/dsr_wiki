@@ -15,8 +15,8 @@ const handler = async (event) => {
         const result = await collection.findOne({
             date: `${year}-${month}-${date}`
         });
-        
-        await (await clientPromise).close();
+
+        // await (await clientPromise).close();
 
         return {
             statusCode: 200,
@@ -25,6 +25,8 @@ const handler = async (event) => {
     } catch (error) {
         console.log(error)
         return { statusCode: 500, body: error.toString() }
+    } finally {
+        (await clientPromise).close();
     }
 }
 
