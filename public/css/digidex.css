@@ -79,7 +79,8 @@
 .digidex-filter2 .checkboxes label {
   padding: 0.4rem;
 
-  height: 3.239740820734341vh;
+  /* height: 3.239740820734341vh; */
+  height: 30px;
 
   display: flex;
   flex-direction: row;
