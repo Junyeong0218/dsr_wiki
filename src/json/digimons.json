@@ -1,25 +1,6 @@
 [
   {
     "id": 1,
-    "name": "name",
-    "grade": null,
-    "digimonType": "digimonType",
-    "hp": null,
-    "sp": null,
-    "str": null,
-    "int": null,
-    "spd": null,
-    "def": null,
-    "res": null,
-    "strength": "strength",
-    "strengthEffect": "strengthEfficient",
-    "weakness": "weakness",
-    "weaknessEffect": "weaknessEfficient",
-    "fieldTypes": [],
-    "skills": []
-  },
-  {
-    "id": 2,
     "name": "가지몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -65,7 +46,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "고부리몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -109,7 +90,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "기자몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -154,7 +135,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "길몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -198,7 +179,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "돌몬",
     "grade": 3,
     "digimonType": "Da",
@@ -242,7 +223,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "레나몬",
     "grade": 3,
     "digimonType": "Da",
@@ -289,7 +270,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "머슈몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -333,7 +314,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "베타몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -377,7 +358,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "브이몬",
     "grade": 3,
     "digimonType": "Fr",
@@ -419,7 +400,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "샤코몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -463,7 +444,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "쉬라몬",
     "grade": 3,
     "digimonType": "Va",
@@ -507,7 +488,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "아구몬",
     "grade": 3,
     "digimonType": "Va",
@@ -551,7 +532,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "아기벌몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -597,7 +578,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "에렉몬",
     "grade": 3,
     "digimonType": "Da",
@@ -639,7 +620,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "에렉몬(보라)",
     "grade": 3,
     "digimonType": "Vi",
@@ -686,7 +667,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "올챙몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -731,7 +712,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "울퉁몬",
     "grade": 3,
     "digimonType": "Da",
@@ -773,7 +754,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "임프몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -820,7 +801,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 19,
     "name": "츄몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -864,7 +845,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 20,
     "name": "캔들몬",
     "grade": 3,
     "digimonType": "Da",
@@ -906,7 +887,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 21,
     "name": "케라몬",
     "grade": 3,
     "digimonType": "Uk",
@@ -950,7 +931,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 22,
     "name": "코에몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -994,7 +975,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 23,
     "name": "코테몬",
     "grade": 3,
     "digimonType": "Da",
@@ -1040,7 +1021,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 24,
     "name": "쿠네몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -1087,7 +1068,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 25,
     "name": "크랩몬",
     "grade": 3,
     "digimonType": "Da",
@@ -1129,7 +1110,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 26,
     "name": "테리어몬",
     "grade": 3,
     "digimonType": "Va",
@@ -1175,7 +1156,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 27,
     "name": "테이파몬",
     "grade": 3,
     "digimonType": "Va",
@@ -1221,7 +1202,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 28,
     "name": "텐타몬",
     "grade": 3,
     "digimonType": "Va",
@@ -1265,7 +1246,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 29,
     "name": "톱니몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -1309,7 +1290,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 30,
     "name": "파닥몬",
     "grade": 3,
     "digimonType": "Da",
@@ -1351,7 +1332,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 31,
     "name": "파피몬",
     "grade": 3,
     "digimonType": "Da",
@@ -1396,7 +1377,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 32,
     "name": "팔몬",
     "grade": 3,
     "digimonType": "Da",
@@ -1441,7 +1422,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 33,
     "name": "플로라몬",
     "grade": 3,
     "digimonType": "Da",
@@ -1488,7 +1469,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 34,
     "name": "플롯트몬",
     "grade": 3,
     "digimonType": "Va",
@@ -1530,7 +1511,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 35,
     "name": "피요몬",
     "grade": 3,
     "digimonType": "Va",
@@ -1577,7 +1558,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 36,
     "name": "피코데블몬",
     "grade": 3,
     "digimonType": "Vi",
@@ -1621,7 +1602,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 37,
     "name": "호크몬",
     "grade": 3,
     "digimonType": "Fr",
@@ -1668,7 +1649,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 38,
     "name": "가드로몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -1728,7 +1709,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 39,
     "name": "가루몬",
     "grade": 4,
     "digimonType": "Va",
@@ -1783,7 +1764,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 40,
     "name": "가르고몬",
     "grade": 4,
     "digimonType": "Va",
@@ -1839,7 +1820,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 41,
     "name": "가트몬",
     "grade": 4,
     "digimonType": "Va",
@@ -1894,7 +1875,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 42,
     "name": "개굴몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -1954,7 +1935,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 43,
     "name": "고릴라몬",
     "grade": 4,
     "digimonType": "Da",
@@ -2015,7 +1996,7 @@
     ]
   },
   {
-    "id": 45,
+    "id": 44,
     "name": "고스몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -2074,7 +2055,7 @@
     ]
   },
   {
-    "id": 46,
+    "id": 45,
     "name": "구미호몬",
     "grade": 4,
     "digimonType": "Da",
@@ -2135,7 +2116,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 46,
     "name": "그라우몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -2195,7 +2176,7 @@
     ]
   },
   {
-    "id": 48,
+    "id": 47,
     "name": "그레이몬",
     "grade": 4,
     "digimonType": "Va",
@@ -2254,7 +2235,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": 48,
     "name": "꼬끼몬",
     "grade": 4,
     "digimonType": "Da",
@@ -2314,7 +2295,7 @@
     ]
   },
   {
-    "id": 50,
+    "id": 49,
     "name": "니드몬",
     "grade": 4,
     "digimonType": "Da",
@@ -2375,7 +2356,7 @@
     ]
   },
   {
-    "id": 51,
+    "id": 50,
     "name": "다크티라노몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -2436,7 +2417,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": 51,
     "name": "데블드라몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -2496,7 +2477,7 @@
     ]
   },
   {
-    "id": 53,
+    "id": 52,
     "name": "데블몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -2555,7 +2536,7 @@
     ]
   },
   {
-    "id": 54,
+    "id": 53,
     "name": "델타몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -2616,7 +2597,7 @@
     ]
   },
   {
-    "id": 55,
+    "id": 54,
     "name": "돌가몬",
     "grade": 4,
     "digimonType": "Da",
@@ -2673,7 +2654,7 @@
     ]
   },
   {
-    "id": 56,
+    "id": 55,
     "name": "두리몬",
     "grade": 4,
     "digimonType": "Da",
@@ -2731,7 +2712,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": 56,
     "name": "라프타드라몬",
     "grade": 4,
     "digimonType": "Va",
@@ -2791,7 +2772,7 @@
     ]
   },
   {
-    "id": 58,
+    "id": 57,
     "name": "레드베지몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -2848,7 +2829,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 58,
     "name": "레어몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -2904,7 +2885,7 @@
     ]
   },
   {
-    "id": 60,
+    "id": 59,
     "name": "레오몬",
     "grade": 4,
     "digimonType": "Va",
@@ -2964,7 +2945,7 @@
     ]
   },
   {
-    "id": 61,
+    "id": 60,
     "name": "로오치몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -3024,7 +3005,7 @@
     ]
   },
   {
-    "id": 62,
+    "id": 61,
     "name": "록몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -3082,7 +3063,7 @@
     ]
   },
   {
-    "id": 63,
+    "id": 62,
     "name": "말벌몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -3142,7 +3123,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": 63,
     "name": "매드레오몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -3200,7 +3181,7 @@
     ]
   },
   {
-    "id": 65,
+    "id": 64,
     "name": "메라몬",
     "grade": 4,
     "digimonType": "Da",
@@ -3260,7 +3241,7 @@
     ]
   },
   {
-    "id": 66,
+    "id": 65,
     "name": "메카노몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -3320,7 +3301,7 @@
     ]
   },
   {
-    "id": 67,
+    "id": 66,
     "name": "모노크로몬",
     "grade": 4,
     "digimonType": "Da",
@@ -3376,7 +3357,7 @@
     ]
   },
   {
-    "id": 68,
+    "id": 67,
     "name": "모야몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -3436,7 +3417,7 @@
     ]
   },
   {
-    "id": 69,
+    "id": 68,
     "name": "모털몬",
     "grade": 4,
     "digimonType": "Va",
@@ -3493,7 +3474,7 @@
     ]
   },
   {
-    "id": 70,
+    "id": 69,
     "name": "무사몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -3548,7 +3529,7 @@
     ]
   },
   {
-    "id": 71,
+    "id": 70,
     "name": "버드라몬",
     "grade": 4,
     "digimonType": "Va",
@@ -3606,7 +3587,7 @@
     ]
   },
   {
-    "id": 72,
+    "id": 71,
     "name": "번개콩알몬",
     "grade": 4,
     "digimonType": "Da",
@@ -3662,7 +3643,7 @@
     ]
   },
   {
-    "id": 73,
+    "id": 72,
     "name": "베지몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -3723,7 +3704,7 @@
     ]
   },
   {
-    "id": 74,
+    "id": 73,
     "name": "브이드라몬",
     "grade": 4,
     "digimonType": "Va",
@@ -3783,7 +3764,7 @@
     ]
   },
   {
-    "id": 75,
+    "id": 74,
     "name": "소울몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -3840,7 +3821,7 @@
     ]
   },
   {
-    "id": 76,
+    "id": 75,
     "name": "쉘몬",
     "grade": 4,
     "digimonType": "Da",
@@ -3896,7 +3877,7 @@
     ]
   },
   {
-    "id": 77,
+    "id": 76,
     "name": "스나이몬",
     "grade": 4,
     "digimonType": "Va",
@@ -3954,7 +3935,7 @@
     ]
   },
   {
-    "id": 78,
+    "id": 77,
     "name": "스카몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -4009,7 +3990,7 @@
     ]
   },
   {
-    "id": 79,
+    "id": 78,
     "name": "스타몬",
     "grade": 4,
     "digimonType": "Da",
@@ -4064,7 +4045,7 @@
     ]
   },
   {
-    "id": 80,
+    "id": 79,
     "name": "스파이더몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -4122,7 +4103,7 @@
     ]
   },
   {
-    "id": 81,
+    "id": 80,
     "name": "시드라몬",
     "grade": 4,
     "digimonType": "Da",
@@ -4180,7 +4161,7 @@
     ]
   },
   {
-    "id": 82,
+    "id": 81,
     "name": "씨라몬",
     "grade": 4,
     "digimonType": "Da",
@@ -4239,7 +4220,7 @@
     ]
   },
   {
-    "id": 83,
+    "id": 82,
     "name": "아이스몬",
     "grade": 4,
     "digimonType": "Da",
@@ -4296,7 +4277,7 @@
     ]
   },
   {
-    "id": 84,
+    "id": 83,
     "name": "아큐라몬",
     "grade": 4,
     "digimonType": "Fr",
@@ -4352,7 +4333,7 @@
     ]
   },
   {
-    "id": 85,
+    "id": 84,
     "name": "에어드라몬",
     "grade": 4,
     "digimonType": "Va",
@@ -4409,7 +4390,7 @@
     ]
   },
   {
-    "id": 86,
+    "id": 85,
     "name": "에이프몬",
     "grade": 4,
     "digimonType": "Va",
@@ -4468,7 +4449,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 86,
     "name": "엑스브이몬",
     "grade": 4,
     "digimonType": "Fr",
@@ -4528,7 +4509,7 @@
     ]
   },
   {
-    "id": 88,
+    "id": 87,
     "name": "엔젤몬",
     "grade": 4,
     "digimonType": "Va",
@@ -4586,7 +4567,7 @@
     ]
   },
   {
-    "id": 89,
+    "id": 88,
     "name": "연체몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -4641,7 +4622,7 @@
     ]
   },
   {
-    "id": 90,
+    "id": 89,
     "name": "옥토몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -4696,7 +4677,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 90,
     "name": "요우코몬",
     "grade": 4,
     "digimonType": "Da",
@@ -4757,7 +4738,7 @@
     ]
   },
   {
-    "id": 92,
+    "id": 91,
     "name": "우가몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -4810,7 +4791,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": 92,
     "name": "우드몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -4867,7 +4848,7 @@
     ]
   },
   {
-    "id": 94,
+    "id": 93,
     "name": "워매몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -4922,7 +4903,7 @@
     ]
   },
   {
-    "id": 95,
+    "id": 94,
     "name": "원뿔몬",
     "grade": 4,
     "digimonType": "Va",
@@ -4977,7 +4958,7 @@
     ]
   },
   {
-    "id": 96,
+    "id": 95,
     "name": "위자몬",
     "grade": 4,
     "digimonType": "Da",
@@ -5034,7 +5015,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": 96,
     "name": "유니몬",
     "grade": 4,
     "digimonType": "Va",
@@ -5087,7 +5068,7 @@
     ]
   },
   {
-    "id": 98,
+    "id": 97,
     "name": "이블몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -5145,7 +5126,7 @@
     ]
   },
   {
-    "id": 99,
+    "id": 98,
     "name": "캅테리몬",
     "grade": 4,
     "digimonType": "Va",
@@ -5203,7 +5184,7 @@
     ]
   },
   {
-    "id": 100,
+    "id": 99,
     "name": "켄터스몬",
     "grade": 4,
     "digimonType": "Da",
@@ -5259,7 +5240,7 @@
     ]
   },
   {
-    "id": 101,
+    "id": 100,
     "name": "쿠가몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -5319,7 +5300,7 @@
     ]
   },
   {
-    "id": 102,
+    "id": 101,
     "name": "크리사리몬",
     "grade": 4,
     "digimonType": "Uk",
@@ -5379,7 +5360,7 @@
     ]
   },
   {
-    "id": 103,
+    "id": 102,
     "name": "키위몬",
     "grade": 4,
     "digimonType": "Da",
@@ -5435,7 +5416,7 @@
     ]
   },
   {
-    "id": 104,
+    "id": 103,
     "name": "태스크몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -5491,7 +5472,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 104,
     "name": "탱크몬",
     "grade": 4,
     "digimonType": "Da",
@@ -5550,7 +5531,7 @@
     ]
   },
   {
-    "id": 106,
+    "id": 105,
     "name": "토토몬",
     "grade": 4,
     "digimonType": "Fr",
@@ -5608,7 +5589,7 @@
     ]
   },
   {
-    "id": 107,
+    "id": 106,
     "name": "티라노몬",
     "grade": 4,
     "digimonType": "Da",
@@ -5665,7 +5646,7 @@
     ]
   },
   {
-    "id": 108,
+    "id": 107,
     "name": "프리지몬",
     "grade": 4,
     "digimonType": "Va",
@@ -5722,7 +5703,7 @@
     ]
   },
   {
-    "id": 109,
+    "id": 108,
     "name": "플라이몬",
     "grade": 4,
     "digimonType": "Vi",
@@ -5783,7 +5764,7 @@
     ]
   },
   {
-    "id": 110,
+    "id": 109,
     "name": "해바라기몬",
     "grade": 4,
     "digimonType": "Da",
@@ -5841,7 +5822,7 @@
     ]
   },
   {
-    "id": 111,
+    "id": 110,
     "name": "화염리자몬",
     "grade": 4,
     "digimonType": "Da",
@@ -5902,7 +5883,7 @@
     ]
   },
   {
-    "id": 112,
+    "id": 111,
     "name": "가루다몬",
     "grade": 5,
     "digimonType": "Va",
@@ -5958,7 +5939,7 @@
     ]
   },
   {
-    "id": 113,
+    "id": 112,
     "name": "가비지몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -6016,7 +5997,7 @@
     ]
   },
   {
-    "id": 114,
+    "id": 113,
     "name": "고래몬",
     "grade": 5,
     "digimonType": "Va",
@@ -6076,7 +6057,7 @@
     ]
   },
   {
-    "id": 115,
+    "id": 114,
     "name": "기가드라몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -6137,7 +6118,7 @@
     ]
   },
   {
-    "id": 116,
+    "id": 115,
     "name": "네오데블몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -6196,7 +6177,7 @@
     ]
   },
   {
-    "id": 117,
+    "id": 116,
     "name": "다이버몬",
     "grade": 5,
     "digimonType": "Da",
@@ -6251,7 +6232,7 @@
     ]
   },
   {
-    "id": 118,
+    "id": 117,
     "name": "데드메라몬",
     "grade": 5,
     "digimonType": "Da",
@@ -6311,7 +6292,7 @@
     ]
   },
   {
-    "id": 119,
+    "id": 118,
     "name": "데이터몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -6371,7 +6352,7 @@
     ]
   },
   {
-    "id": 120,
+    "id": 119,
     "name": "도사몬",
     "grade": 5,
     "digimonType": "Da",
@@ -6430,7 +6411,7 @@
     ]
   },
   {
-    "id": 121,
+    "id": 120,
     "name": "도우몬",
     "grade": 5,
     "digimonType": "Da",
@@ -6489,7 +6470,7 @@
     ]
   },
   {
-    "id": 122,
+    "id": 121,
     "name": "드라고몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -6547,7 +6528,7 @@
     ]
   },
   {
-    "id": 123,
+    "id": 122,
     "name": "디지타몬",
     "grade": 5,
     "digimonType": "Da",
@@ -6603,7 +6584,7 @@
     ]
   },
   {
-    "id": 124,
+    "id": 123,
     "name": "라일라몬",
     "grade": 5,
     "digimonType": "Da",
@@ -6660,7 +6641,7 @@
     ]
   },
   {
-    "id": 125,
+    "id": 124,
     "name": "래피드몬",
     "grade": 5,
     "digimonType": "Va",
@@ -6718,7 +6699,7 @@
     ]
   },
   {
-    "id": 126,
+    "id": 125,
     "name": "레이디데블몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -6778,7 +6759,7 @@
     ]
   },
   {
-    "id": 127,
+    "id": 126,
     "name": "리벨리몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -6836,7 +6817,7 @@
     ]
   },
   {
-    "id": 128,
+    "id": 127,
     "name": "릴리몬",
     "grade": 5,
     "digimonType": "Da",
@@ -6894,7 +6875,7 @@
     ]
   },
   {
-    "id": 129,
+    "id": 128,
     "name": "마구라몬",
     "grade": 5,
     "digimonType": "Da",
@@ -6951,7 +6932,7 @@
     ]
   },
   {
-    "id": 130,
+    "id": 129,
     "name": "마린데블몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -6965,7 +6946,7 @@
     "strength": "물",
     "strengthEffect": "회피",
     "weakness": "빛",
-    "weaknessEffect": "회피불가]",
+    "weaknessEffect": "회피불가",
     "fieldTypes": ["DA", "DS"],
     "skills": [
       {
@@ -7011,7 +6992,7 @@
     ]
   },
   {
-    "id": 131,
+    "id": 130,
     "name": "마스터티라노몬",
     "grade": 5,
     "digimonType": "Va",
@@ -7066,7 +7047,7 @@
     ]
   },
   {
-    "id": 132,
+    "id": 131,
     "name": "맘몬",
     "grade": 5,
     "digimonType": "Va",
@@ -7122,7 +7103,7 @@
     ]
   },
   {
-    "id": 133,
+    "id": 132,
     "name": "메가드라몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -7180,7 +7161,7 @@
     ]
   },
   {
-    "id": 134,
+    "id": 133,
     "name": "메가로그라우몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -7238,7 +7219,7 @@
     ]
   },
   {
-    "id": 135,
+    "id": 134,
     "name": "메가시드라몬",
     "grade": 5,
     "digimonType": "Da",
@@ -7293,7 +7274,7 @@
     ]
   },
   {
-    "id": 136,
+    "id": 135,
     "name": "메탈그레이몬",
     "grade": 5,
     "digimonType": "Va",
@@ -7351,7 +7332,7 @@
     ]
   },
   {
-    "id": 137,
+    "id": 136,
     "name": "메탈콩알몬",
     "grade": 5,
     "digimonType": "Da",
@@ -7410,7 +7391,7 @@
     ]
   },
   {
-    "id": 138,
+    "id": 137,
     "name": "메탈티라노몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -7466,7 +7447,7 @@
     ]
   },
   {
-    "id": 139,
+    "id": 138,
     "name": "묘티스몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -7525,7 +7506,7 @@
     ]
   },
   {
-    "id": 140,
+    "id": 139,
     "name": "미스티몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -7584,7 +7565,7 @@
     ]
   },
   {
-    "id": 141,
+    "id": 140,
     "name": "바알몬",
     "grade": 5,
     "digimonType": "Fr",
@@ -7641,7 +7622,7 @@
     ]
   },
   {
-    "id": 142,
+    "id": 141,
     "name": "배드퍼펫몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -7698,7 +7679,7 @@
     ]
   },
   {
-    "id": 143,
+    "id": 142,
     "name": "베이더몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -7759,7 +7740,7 @@
     ]
   },
   {
-    "id": 144,
+    "id": 143,
     "name": "브롯사몬",
     "grade": 5,
     "digimonType": "Da",
@@ -7819,7 +7800,7 @@
     ]
   },
   {
-    "id": 145,
+    "id": 144,
     "name": "블루메라몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -7878,7 +7859,7 @@
     ]
   },
   {
-    "id": 146,
+    "id": 145,
     "name": "빅콩알몬",
     "grade": 5,
     "digimonType": "Da",
@@ -7931,7 +7912,7 @@
     ]
   },
   {
-    "id": 147,
+    "id": 146,
     "name": "뿌띠몬",
     "grade": 5,
     "digimonType": "Da",
@@ -7989,7 +7970,7 @@
     ]
   },
   {
-    "id": 148,
+    "id": 147,
     "name": "스컬그레이몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -8047,7 +8028,7 @@
     ]
   },
   {
-    "id": 149,
+    "id": 148,
     "name": "스컬사탄몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -8105,7 +8086,7 @@
     ]
   },
   {
-    "id": 150,
+    "id": 149,
     "name": "스콜피온몬",
     "grade": 5,
     "digimonType": "Da",
@@ -8163,7 +8144,7 @@
     ]
   },
   {
-    "id": 151,
+    "id": 150,
     "name": "실피드몬",
     "grade": 5,
     "digimonType": "Fr",
@@ -8220,7 +8201,7 @@
     ]
   },
   {
-    "id": 152,
+    "id": 151,
     "name": "아라크네몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -8281,7 +8262,7 @@
     ]
   },
   {
-    "id": 153,
+    "id": 152,
     "name": "아트라캅테리몬",
     "grade": 5,
     "digimonType": "Va",
@@ -8336,7 +8317,7 @@
     ]
   },
   {
-    "id": 154,
+    "id": 153,
     "name": "안드로몬",
     "grade": 5,
     "digimonType": "Va",
@@ -8396,7 +8377,7 @@
     ]
   },
   {
-    "id": 155,
+    "id": 154,
     "name": "에어로브이드라몬",
     "grade": 5,
     "digimonType": "Va",
@@ -8453,7 +8434,7 @@
     ]
   },
   {
-    "id": 156,
+    "id": 155,
     "name": "에테몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -8511,7 +8492,7 @@
     ]
   },
   {
-    "id": 157,
+    "id": 156,
     "name": "엔젤우몬",
     "grade": 5,
     "digimonType": "Va",
@@ -8569,7 +8550,7 @@
     ]
   },
   {
-    "id": 158,
+    "id": 157,
     "name": "왕개굴몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -8627,7 +8608,7 @@
     ]
   },
   {
-    "id": 159,
+    "id": 158,
     "name": "운석몬",
     "grade": 5,
     "digimonType": "Da",
@@ -8684,7 +8665,7 @@
     ]
   },
   {
-    "id": 160,
+    "id": 159,
     "name": "워가루몬",
     "grade": 5,
     "digimonType": "Va",
@@ -8740,7 +8721,7 @@
     ]
   },
   {
-    "id": 161,
+    "id": 160,
     "name": "인펠몬",
     "grade": 5,
     "digimonType": "Uk",
@@ -8798,7 +8779,7 @@
     ]
   },
   {
-    "id": 162,
+    "id": 161,
     "name": "조커몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -8858,7 +8839,7 @@
     ]
   },
   {
-    "id": 163,
+    "id": 162,
     "name": "쥬드몬",
     "grade": 5,
     "digimonType": "Va",
@@ -8915,7 +8896,7 @@
     ]
   },
   {
-    "id": 164,
+    "id": 163,
     "name": "쥬레이몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -8971,7 +8952,7 @@
     ]
   },
   {
-    "id": 165,
+    "id": 164,
     "name": "초핫카이몬",
     "grade": 5,
     "digimonType": "Da",
@@ -9029,7 +9010,7 @@
     ]
   },
   {
-    "id": 166,
+    "id": 165,
     "name": "캐논벌몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -9089,7 +9070,7 @@
     ]
   },
   {
-    "id": 167,
+    "id": 166,
     "name": "콩알몬",
     "grade": 5,
     "digimonType": "Da",
@@ -9146,7 +9127,7 @@
     ]
   },
   {
-    "id": 168,
+    "id": 167,
     "name": "키메라몬",
     "grade": 5,
     "digimonType": "Da",
@@ -9203,7 +9184,7 @@
     ]
   },
   {
-    "id": 169,
+    "id": 168,
     "name": "트리케라몬",
     "grade": 5,
     "digimonType": "Da",
@@ -9259,7 +9240,7 @@
     ]
   },
   {
-    "id": 170,
+    "id": 169,
     "name": "패롯몬",
     "grade": 5,
     "digimonType": "Va",
@@ -9317,7 +9298,7 @@
     ]
   },
   {
-    "id": 171,
+    "id": 170,
     "name": "팬텀몬",
     "grade": 5,
     "digimonType": "Vi",
@@ -9378,7 +9359,7 @@
     ]
   },
   {
-    "id": 172,
+    "id": 171,
     "name": "퍼펫몬",
     "grade": 5,
     "digimonType": "Va",
@@ -9434,7 +9415,7 @@
     ]
   },
   {
-    "id": 173,
+    "id": 172,
     "name": "펌프몬",
     "grade": 5,
     "digimonType": "Da",
@@ -9490,7 +9471,7 @@
     ]
   },
   {
-    "id": 174,
+    "id": 173,
     "name": "폭탄몬",
     "grade": 5,
     "digimonType": "Va",
@@ -9548,7 +9529,7 @@
     ]
   },
   {
-    "id": 175,
+    "id": 174,
     "name": "피콜몬",
     "grade": 5,
     "digimonType": "Da",
@@ -9605,7 +9586,7 @@
     ]
   },
   {
-    "id": 176,
+    "id": 175,
     "name": "홀리엔젤몬",
     "grade": 5,
     "digimonType": "Va",
@@ -9663,7 +9644,7 @@
     ]
   },
   {
-    "id": 177,
+    "id": 176,
     "name": "화이트레오몬",
     "grade": 5,
     "digimonType": "Va",
@@ -9723,7 +9704,7 @@
     ]
   },
   {
-    "id": 178,
+    "id": 177,
     "name": "갓드라몬",
     "grade": 6,
     "digimonType": "Va",
@@ -9781,7 +9762,7 @@
     ]
   },
   {
-    "id": 179,
+    "id": 178,
     "name": "네오반데몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -9842,7 +9823,7 @@
     ]
   },
   {
-    "id": 180,
+    "id": 179,
     "name": "넵튠몬",
     "grade": 6,
     "digimonType": "Va",
@@ -9900,7 +9881,7 @@
     ]
   },
   {
-    "id": 181,
+    "id": 180,
     "name": "데스몬",
     "grade": 6,
     "digimonType": "Da",
@@ -9960,7 +9941,7 @@
     ]
   },
   {
-    "id": 182,
+    "id": 181,
     "name": "듀크몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -10020,7 +10001,7 @@
     ]
   },
   {
-    "id": 183,
+    "id": 182,
     "name": "디아블로몬",
     "grade": 6,
     "digimonType": "Uk",
@@ -10080,7 +10061,7 @@
     ]
   },
   {
-    "id": 184,
+    "id": 183,
     "name": "로제몬",
     "grade": 6,
     "digimonType": "Da",
@@ -10140,7 +10121,7 @@
     ]
   },
   {
-    "id": 185,
+    "id": 184,
     "name": "마린엔젤몬",
     "grade": 6,
     "digimonType": "Va",
@@ -10196,7 +10177,7 @@
     ]
   },
   {
-    "id": 186,
+    "id": 185,
     "name": "메기드라몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -10257,7 +10238,7 @@
     ]
   },
   {
-    "id": 187,
+    "id": 186,
     "name": "메탈가루몬",
     "grade": 6,
     "digimonType": "Da",
@@ -10313,7 +10294,7 @@
     ]
   },
   {
-    "id": 188,
+    "id": 187,
     "name": "메탈시드라몬",
     "grade": 6,
     "digimonType": "Da",
@@ -10369,7 +10350,7 @@
     ]
   },
   {
-    "id": 189,
+    "id": 188,
     "name": "메탈에테몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -10427,7 +10408,7 @@
     ]
   },
   {
-    "id": 190,
+    "id": 189,
     "name": "바이킹몬",
     "grade": 6,
     "digimonType": "Fr",
@@ -10483,7 +10464,7 @@
     ]
   },
   {
-    "id": 191,
+    "id": 190,
     "name": "반쵸레오몬",
     "grade": 6,
     "digimonType": "Va",
@@ -10539,7 +10520,7 @@
     ]
   },
   {
-    "id": 192,
+    "id": 191,
     "name": "베놈묘티스몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -10597,7 +10578,7 @@
     ]
   },
   {
-    "id": 193,
+    "id": 192,
     "name": "베르제브몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -10657,7 +10638,7 @@
     ]
   },
   {
-    "id": 194,
+    "id": 193,
     "name": "베르제브몬(C)",
     "grade": 6,
     "digimonType": "Vi",
@@ -10715,7 +10696,7 @@
     ]
   },
   {
-    "id": 195,
+    "id": 194,
     "name": "샤벨레오몬",
     "grade": 6,
     "digimonType": "Da",
@@ -10773,7 +10754,7 @@
     ]
   },
   {
-    "id": 196,
+    "id": 195,
     "name": "샤크라몬",
     "grade": 6,
     "digimonType": "Da",
@@ -10828,7 +10809,7 @@
     ]
   },
   {
-    "id": 197,
+    "id": 196,
     "name": "세라피몬",
     "grade": 6,
     "digimonType": "Va",
@@ -10889,7 +10870,7 @@
     ]
   },
   {
-    "id": 198,
+    "id": 197,
     "name": "세인트가르고몬",
     "grade": 6,
     "digimonType": "Va",
@@ -10950,7 +10931,7 @@
     ]
   },
   {
-    "id": 199,
+    "id": 198,
     "name": "스컬맘몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11008,7 +10989,7 @@
     ]
   },
   {
-    "id": 200,
+    "id": 199,
     "name": "오파니몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11068,7 +11049,7 @@
     ]
   },
   {
-    "id": 201,
+    "id": 200,
     "name": "워그레이몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11123,7 +11104,7 @@
     ]
   },
   {
-    "id": 202,
+    "id": 201,
     "name": "이바몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11183,7 +11164,7 @@
     ]
   },
   {
-    "id": 203,
+    "id": 202,
     "name": "쿠즈하몬",
     "grade": 6,
     "digimonType": "Da",
@@ -11238,7 +11219,7 @@
     ]
   },
   {
-    "id": 204,
+    "id": 203,
     "name": "타이거베스파몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11296,7 +11277,7 @@
     ]
   },
   {
-    "id": 205,
+    "id": 204,
     "name": "타이타몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11354,7 +11335,7 @@
     ]
   },
   {
-    "id": 206,
+    "id": 205,
     "name": "파라사이몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11410,7 +11391,7 @@
     ]
   },
   {
-    "id": 207,
+    "id": 206,
     "name": "파워드라몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11470,7 +11451,7 @@
     ]
   },
   {
-    "id": 208,
+    "id": 207,
     "name": "페닉스몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11529,7 +11510,7 @@
     ]
   },
   {
-    "id": 209,
+    "id": 208,
     "name": "프레시오몬",
     "grade": 6,
     "digimonType": "Da",
@@ -11589,7 +11570,7 @@
     ]
   },
   {
-    "id": 210,
+    "id": 209,
     "name": "피노키몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11642,7 +11623,7 @@
     ]
   },
   {
-    "id": 211,
+    "id": 210,
     "name": "피에몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11698,7 +11679,7 @@
     ]
   },
   {
-    "id": 212,
+    "id": 211,
     "name": "헤라클레스캅테리몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11756,7 +11737,7 @@
     ]
   },
   {
-    "id": 213,
+    "id": 212,
     "name": "홀리드라몬",
     "grade": 6,
     "digimonType": "Va",

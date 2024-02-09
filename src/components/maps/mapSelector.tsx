@@ -30,11 +30,11 @@ export default function MapSelector({ maps, selectedMap, setMap }: MapSelectorPr
     return (
         <div className="map-selector">
             { Object.keys(mapShortcuts).map(category => (
-                <div className="digidex-filter" key={getUUID()}>
+                <div className="digidex-filter2" key={getUUID()}>
                     <div className="title">{category}</div>
                     <div className="checkboxes map-names">
                     { mapShortcuts[`${category}`].map(map => (
-                        <label htmlFor={map.name} key={getUUID()}>
+                        <label htmlFor={map.name} key={getUUID()} className={selectedMap.name === map.name ? "checked" : ""}>
                             <input type="radio" id={map.name} checked={selectedMap.name === map.name}
                                                                 onChange={() => setMap(map.id)}/>
                             <span>{map.name}</span>

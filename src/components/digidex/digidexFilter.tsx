@@ -170,90 +170,100 @@ export default function DigidexFilter({ all, sortFilters, setFiltered }: Digidex
     return (
         <div className="digidex-filters">
             {/* 진화도 */}
-            <div className="digidex-filter">
+            <div className="digidex-filter2">
                 <div className="title">진화 단계</div>
                 <div className="checkboxes">
-                    <label htmlFor="evo-all">
+                    <label htmlFor="evo-all" className={conditions.grades.length === grades.length ? "checked" : ""}>
                         <input type="checkbox" id="evo-all" checked={conditions.grades.length === grades.length}
                                                             onChange={(event) => toggleAll(event, "grades")}/>
+                        <img src={`/images/filter_all.png`} />
                         <span>전체</span>
                     </label>
                     { grades.map(grade => (
-                        <label htmlFor={grade} key={getUUID()}>
+                        <label htmlFor={grade} key={getUUID()} className={conditions.grades.includes(grade) ? "checked" : ""}>
                             <input type="checkbox" id={grade} checked={conditions.grades.includes(grade)}
                                                               onChange={(event) => toggleCheckbox(event, "grades", grade)} />
+                            <img src={`/images/무배경_${grade === "성장기" ? "길몬" : grade === "성숙기" ? "그라우몬" : grade === "완전체" ? "메가로그라우몬" : "듀크몬"}.png`} />
                             <span>{grade}</span>
                         </label>
                     )) }
                 </div>
             </div>
             {/* 타입 */}
-            <div className="digidex-filter">
+            <div className="digidex-filter2">
                 <div className="title">타입</div>
                 <div className="checkboxes">
-                    <label htmlFor="type-all">
+                    <label htmlFor="type-all" className={conditions.digimonTypes.length === digimonTypes.length ? "checked" : ""}>
                         <input type="checkbox" id="type-all" checked={conditions.digimonTypes.length === digimonTypes.length}
                                                              onChange={(event) => toggleAll(event, "digimonTypes")}/>
+                        <img src={`/images/filter_all.png`} />
                         <span>전체</span>
                     </label>
-                    { digimonTypes.map(type => (
-                        <label htmlFor={type} key={getUUID()}>
+                    { digimonTypes.map((type, index) => (
+                        <label htmlFor={type} key={getUUID()} className={conditions.digimonTypes.includes(type) ? "checked" : ""}>
                             <input type="checkbox" id={type} checked={conditions.digimonTypes.includes(type)}
                                                              onChange={(event) => toggleCheckbox(event, "digimonTypes", type)} />
+                            <img src={`/images/${Object.values(DigimonTypesEng)[index]}.png`} />
                             <span>{type}</span>
                         </label>
                     )) }
                 </div>
             </div>
             {/* 스킬속성 */}
-            <div className="digidex-filter">
+            <div className="digidex-filter2">
                 <div className="title">스킬속성</div>
                 <div className="checkboxes">
-                    <label htmlFor="element-all">
+                    <label htmlFor="element-all" className={conditions.elements.length === elements.length ? "checked" : ""}>
                         <input type="checkbox" id="element-all" checked={conditions.elements.length === elements.length}
                                                                 onChange={(event) => toggleAll(event, "elements")}/>
+                        <img src={`/images/filter_all.png`} />
                         <span>전체</span>
                     </label>
                     { elements.map(element => (
-                        <label htmlFor={element} key={getUUID()}>
+                        <label htmlFor={element} key={getUUID()} className={conditions.elements.includes(element) ? "checked" : ""}>
                             <input type="checkbox" id={element} checked={conditions.elements.includes(element)}
                                                                 onChange={(event) => toggleCheckbox(event, "elements", element)} />
+                            <img src={`/images/스킬_${element}.png`} />
                             <span>{element}</span>
                         </label>
                     )) }
                 </div>
             </div>
             {/* 강점 */}
-            <div className="digidex-filter">
+            <div className="digidex-filter2">
                 <div className="title">강점</div>
                 <div className="checkboxes">
-                    <label htmlFor="strength-all">
+                    <label htmlFor="strength-all" className={conditions.strengths.length === elements.length ? "checked" : ""}>
                         <input type="checkbox" id="strength-all" checked={conditions.strengths.length === elements.length}
                                                                 onChange={(event) => toggleAll(event, "strengths")}/>
+                        <img src={`/images/filter_all.png`} />
                         <span>전체</span>
                     </label>
                     { elements.map(element => (
-                        <label htmlFor={`강점_${element}`} key={getUUID()}>
+                        <label htmlFor={`강점_${element}`} key={getUUID()} className={conditions.strengths.includes(element) ? "checked" : ""}>
                             <input type="checkbox" id={`강점_${element}`} checked={conditions.strengths.includes(element)}
                                                                 onChange={(event) => toggleCheckbox(event, "strengths", element)} />
+                            <img src={`/images/스킬_${element}.png`} />
                             <span>{element}</span>
                         </label>
                     )) }
                 </div>
             </div>
             {/* 약점 */}
-            <div className="digidex-filter">
+            <div className="digidex-filter2">
                 <div className="title">약점</div>
                 <div className="checkboxes">
-                    <label htmlFor="weakness-all">
+                    <label htmlFor="weakness-all" className={conditions.weaknesses.length === elements.length ? "checked" : ""}>
                         <input type="checkbox" id="weakness-all" checked={conditions.weaknesses.length === elements.length}
                                                                 onChange={(event) => toggleAll(event, "weaknesses")}/>
+                        <img src={`/images/filter_all.png`} />
                         <span>전체</span>
                     </label>
                     { elements.map(element => (
-                        <label htmlFor={`약점_${element}`} key={getUUID()}>
+                        <label htmlFor={`약점_${element}`} key={getUUID()} className={conditions.weaknesses.includes(element) ? "checked" : ""}>
                             <input type="checkbox" id={`약점_${element}`} checked={conditions.weaknesses.includes(element)}
                                                                 onChange={(event) => toggleCheckbox(event, "weaknesses", element)} />
+                            <img src={`/images/스킬_${element}.png`} />
                             <span>{element}</span>
                         </label>
                     )) }

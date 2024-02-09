@@ -64,10 +64,12 @@ export default function Digidex(): React.ReactElement {
         return list;
     }
 
-    const defaultFilters: Array<Filter> = []
-    
+    const localStorageFilterData = localStorage.getItem("sortFilters");
+    const defaultFilters: Array<Filter> = [];
+    const loadedFilterData = localStorageFilterData ? JSON.parse(localStorageFilterData) : null;
+
     const all = getAllDigimons(false);
-    const [sortFilters, setSortFilters] = useState<Array<Filter>>(defaultFilters);
+    const [sortFilters, setSortFilters] = useState<Array<Filter>>(loadedFilterData ?? defaultFilters);
     const [filtered, setFiltered] = useState(all);
     const [isTable, setIsTable] = useState(false);
     const [isOpenSortModal, setIsOpenSortModal] = useState(false);
@@ -102,6 +104,8 @@ export default function Digidex(): React.ReactElement {
         for(let i = temp.length; i < 12; i++) {
             temp.push(new FilterObj());
         }
+
+        localStorage.setItem("sortFilters", JSON.stringify(selectedSorts));
         setTempSorts(temp);
         setSortFilters(selectedSorts);
         setIsOpenSortModal(false);
@@ -192,16 +196,18 @@ export default function Digidex(): React.ReactElement {
     }, [filtered]);
 
     const digimonButtons = useMemo(() => {
-        return filtered.map(each => {
-            const style = each.name.length > 8 ? {fontSize: "12px"} : {};
+        return <div className="digimon-buttons">
+            { filtered.map(each => {
+                const style = each.name.length > 8 ? {fontSize: "12px"} : {};
 
-            return <Link to={`/digimons/digidex?digimon=${each.name}`} key={getUUID()}>
-                        <button type="button" className="digimon-button">
-                            <img src={`/images/${each.name}.png`} loading="lazy" />
-                            { each.tag ? <span style={style} dangerouslySetInnerHTML={{__html: each.tag}}></span> : <span style={style}>{each.name}</span>}
-                        </button>
-                    </Link>
-        });
+                return <Link to={`/digimons/digidex?digimon=${each.name}`} key={getUUID()}>
+                            <button type="button" className="digimon-button">
+                                <img src={`/images/${each.name}.png`} loading="lazy" />
+                                { each.tag ? <span style={style} dangerouslySetInnerHTML={{__html: each.tag}}></span> : <span style={style}>{each.name}</span>}
+                            </button>
+                        </Link>
+            })}
+        </div>
     }, [filtered]);
     
     return (

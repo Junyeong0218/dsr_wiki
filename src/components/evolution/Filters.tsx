@@ -65,18 +65,20 @@ export default function Filters({ selectedDigimon, setSelectedDigimon }: Filters
 
     return (
         <div className="filters">
-            <div className="digidex-filter">
+            <div className="digidex-filter2">
                 <div className="title">진화 단계</div>
                 <div className="checkboxes">
-                    <label htmlFor="evo-all">
+                    <label htmlFor="evo-all" className={selectedGrade === "전체" ? "checked" : ""}>
                         <input type="radio" id="evo-all" checked={selectedGrade === "전체"}
                                                          onChange={(event) => setSelectedGrade("전체")}/>
+                        <img src="/images/filter_all.png" />
                         <span>전체</span>
                     </label>
                     { grades.map(grade => (
-                        <label htmlFor={grade} key={getUUID()}>
+                        <label htmlFor={grade} key={getUUID()} className={selectedGrade === grade ? "checked" : ""}>
                             <input type="radio" id={grade} checked={selectedGrade === grade}
                                                            onChange={(event) => setSelectedGrade(grade)} />
+                            <img src={`/images/무배경_${grade === "유년기1" ? "쟈리몬" : grade === "유년기2" ? "기기몬" : grade === "성장기" ? "길몬" : grade === "성숙기" ? "그라우몬" : grade === "완전체" ? "메가로그라우몬" : "듀크몬"}.png`} />
                             <span>{grade}</span>
                         </label>
                     )) }

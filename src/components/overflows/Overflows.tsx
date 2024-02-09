@@ -43,11 +43,11 @@ export default function Overflows(): React.ReactElement {
     }
 
     const mapSelector = useMemo(() => {
-        return <div className="digidex-filter" key={getUUID()}>
+        return <div className="digidex-filter2" key={getUUID()}>
             <div className="title">맵</div>
             <div className="checkboxes map-names">
             { all.map(each => (
-                <label htmlFor={each.mapName} key={getUUID()}>
+                <label htmlFor={each.mapName} key={getUUID()} className={selected.mapName === each.mapName ? "checked" : ""}>
                     <input type="radio" id={each.mapName} checked={selected.mapName === each.mapName}
                                                           onChange={() => setSelected(each)}/>
                     <span>{each.mapName}</span>
