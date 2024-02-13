@@ -43,6 +43,7 @@ export default function Header(): React.ReactElement {
                         <div className="nav-subs">
                             <Link to="/tools/adjustments" className="text-nav">교정 시뮬</Link>
                             <Link to="/tools/potentials" className="text-nav">포텐셜 시뮬</Link>
+                            <Link to="/tools/skills" className="text-nav">스킬강화 시뮬</Link>
                         </div>
                     </div>
                     <div className="nav-element">

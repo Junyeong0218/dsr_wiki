@@ -261,7 +261,7 @@ header .background {
 }
 
 header .background.open {
-  height: 150px;
+  height: 200px;
 
   transition: height 250ms ease-in-out;
 }

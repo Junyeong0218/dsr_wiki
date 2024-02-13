@@ -611,17 +611,28 @@
 }
 
 .digimon-stat .digimon-quality > span:nth-child(2) {
+  min-width: 70px;
+
   font-weight: 700;
+  text-align: center;
+  word-break: keep-all;
+  white-space: nowrap;
 }
 
 .digimon-stat .digimon-quality > span.description {
   font-size: 14px;
+
+  word-break: keep-all;
+  white-space: nowrap;
 }
 
 .digimon-stat .digimon-quality > span.description mark {
   font: inherit;
   font-weight: 700;
   color: var(--type-child-deep);
+
+  word-break: keep-all;
+  white-space: wrap;
 }
 
 .digimon-stat .field-types {
