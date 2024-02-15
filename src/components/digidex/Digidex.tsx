@@ -59,9 +59,12 @@ export default function Digidex(): React.ReactElement {
 
     const createFilters = (includeList?: Array<FilterObj>) => {
         const list = [];
-        if(includeList !== undefined && includeList !== null) includeList.forEach(e => list.push(e));
-        let length = includeList === undefined ? 0 : includeList.length;
-        for(let i = 0; i < 12 - length; i++) list.push(new FilterObj());
+        if(includeList !== undefined && includeList !== null) 
+            includeList.forEach(e => list.push(e));
+
+        const length = includeList === undefined && includeList !== null ? 0 : includeList.length;
+        for(let i = 0; i < 12 - length; i++) 
+            list.push(new FilterObj());
 
         return list;
     }
