@@ -13,9 +13,9 @@ export default function DigimonStatusTable({ digimon }: DigimonStatusTableProps)
                     <td>SP</td>
                     <td>힘</td>
                     <td>지능</td>
-                    <td>속도</td>
                     <td>수비</td>
                     <td>저항</td>
+                    <td>속도</td>
                 </tr>
             </thead>
             <tbody>
@@ -24,9 +24,9 @@ export default function DigimonStatusTable({ digimon }: DigimonStatusTableProps)
                     <td>{getCommaString(digimon.sp)}</td>
                     <td>{getCommaString(digimon.str)}</td>
                     <td>{getCommaString(digimon.int)}</td>
-                    <td>{getCommaString(digimon.spd)}</td>
                     <td>{getCommaString(digimon.def)}</td>
                     <td>{getCommaString(digimon.res)}</td>
+                    <td>{getCommaString(digimon.spd)}</td>
                 </tr>
             </tbody>
         </table>

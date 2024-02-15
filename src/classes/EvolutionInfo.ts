@@ -54,6 +54,6 @@ export class EvolutionInfo {
         this.with = raw.with;
     }
 
-    getRate = (): number => Math.floor(this.rate * 10_000) * 100 / 10_000;
-    getBonding = () => Math.floor(this.reqBonding * 10_000) * 100 / 10_000;
+    getRate = (): number => Math.round(this.rate * 10_0000) / 1000;
+    getBonding = () => Math.round(this.reqBonding * 10_0000) / 1000;
 }

@@ -152,7 +152,7 @@ export default function DigidexFilter({ all, sortFilters, setFiltered }: Digidex
                 localStorage.removeItem("digidex_search");
 
                 setText(typed);
-                setFiltered(all);
+                setConditions({ ...conditions });
             } else if(!regex.test(typed) && typed !== "") {
                 localStorage.setItem("digidex_search", typed);
 

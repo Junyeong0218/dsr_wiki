@@ -57,9 +57,11 @@ export default function Digidex(): React.ReactElement {
         );
     }
 
-    const createFilters = () => {
+    const createFilters = (includeList?: Array<FilterObj>) => {
         const list = [];
-        for(let i = 0; i < 12; i++) list.push(new FilterObj());
+        if(includeList !== undefined) includeList.forEach(e => list.push(e));
+        let length = includeList === undefined ? 0 : includeList.length;
+        for(let i = 0; i < 12 - length; i++) list.push(new FilterObj());
 
         return list;
     }
@@ -73,7 +75,7 @@ export default function Digidex(): React.ReactElement {
     const [filtered, setFiltered] = useState(all);
     const [isTable, setIsTable] = useState(false);
     const [isOpenSortModal, setIsOpenSortModal] = useState(false);
-    const [tempSorts, setTempSorts] = useState<Array<Filter>>(createFilters());
+    const [tempSorts, setTempSorts] = useState<Array<Filter>>(createFilters(loadedFilterData));
     
     const filterOptionContainer = useRef<HTMLDivElement>(null);
 
