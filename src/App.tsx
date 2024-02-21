@@ -16,6 +16,7 @@ import Raids from "./components/raids/Raid";
 import Guides from "./components/guides/Guides";
 import Guide from "./components/guides/Guide";
 import SkillSimulator from "./components/skillSimulator/SkillSimulator";
+import BabySimulator from "./components/babySimulator/BabySimulator";
 
 export default function App(): React.ReactElement {
     return (
@@ -40,6 +41,7 @@ export default function App(): React.ReactElement {
                         {/* <Route path="/raids" element={<Raids />} /> */}
                         
                         <Route path="/tools/adjustments" element={<Adjustments />} />
+                        <Route path="/tools/babies" element={<BabySimulator />} />
                         <Route path="/tools/potentials" element={<Potentials />} />
                         <Route path="/tools/skills" element={<SkillSimulator />} />
 

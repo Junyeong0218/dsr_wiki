@@ -14,6 +14,7 @@ export default function Filters({ selectedDigimon, setSelectedDigimon }: Filters
     const [selectedGrade, setSelectedGrade] = useState<string>("전체");
     const [text, setText] = useState("");
     const [filtered, setFiltered] = useState<Array<Evolution>>([]);
+    const [isFold, setIsFold] = useState(true);
     
     const all = getAllEvolutions(false);
     const grades = Object.values(Grades);
@@ -87,16 +88,20 @@ export default function Filters({ selectedDigimon, setSelectedDigimon }: Filters
             <div className="search-bar">
                 { textInput }
             </div>
-            <div className="filtered-list">
-                { filtered.map(each => (
-                    <button type="button" className="filtered-evolution" key={getUUID()} onClick={() => selectDigimon(each)}>
-                        <img src={`/images/${each.name}.png`} />
-                        { each.tag ? <span dangerouslySetInnerHTML={{ __html: each.tag }}></span> :
-                                     <span>{each.name}</span>
-                        }
-                    </button>
-                ))}
+            <div className="filtered-list-container">
+                <div className={`filtered-list ${isFold ? "fold" : ""}`}>
+                    { filtered.map(each => (
+                        <button type="button" className="filtered-evolution" key={getUUID()} onClick={() => selectDigimon(each)}>
+                            <img src={`/images/${each.name}.png`} />
+                            { each.tag ? <span dangerouslySetInnerHTML={{ __html: each.tag }}></span> :
+                                        <span>{each.name}</span>
+                            }
+                        </button>
+                    ))}
+                </div>
+                <button type="button" className="spread" onClick={() => setIsFold(!isFold)}>{isFold ? "▼" : "▲"}</button>
             </div>
+            
         </div>
     );
 }

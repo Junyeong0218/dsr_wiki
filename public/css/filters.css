@@ -43,6 +43,13 @@
   scroll-behavior: smooth;
 }
 
+.filters .filtered-list-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
 .filters .filtered-list::-webkit-scrollbar {
   width: 10px; /* 스크롤바의 너비 */
 }
@@ -59,6 +66,19 @@
 .filters .filtered-list::-webkit-scrollbar-track {
   background: var(--theme-light-background-selected); /*스크롤바 뒷 배경 색상*/
   border-radius: 4px;
+}
+
+.filters .filtered-list-container .spread {
+  padding: 0.2rem 0.5rem;
+
+  width: 100%;
+
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  background-color: var(--theme-light-background-selected);
+
+  font-size: 0.8rem;
+  color: var(--theme-light-font-color);
 }
 
 .list.active {
@@ -209,8 +229,8 @@
 .filters .filtered-list {
   padding: 3px;
   width: 100%;
-  height: 195px;
-  max-height: 195px;
+  min-height: 195px;
+  max-height: 550px;
 
   display: flex;
   flex-direction: row;
@@ -225,6 +245,11 @@
   overflow-x: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  transition: 300ms;
+}
+
+.filters .filtered-list.fold {
+  max-height: 195px;
 }
 
 .filters .filtered-evolution {
