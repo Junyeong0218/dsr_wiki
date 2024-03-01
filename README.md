@@ -1,6 +1,6 @@
 # 디지몬 슈퍼럼블 위키
 
-<a href="https://dsr-wiki.netlify.app/" target="_blank">디지몬 슈퍼럼블 위키 바로가기</a>
+<a href="https://dsr-wiki.netlify.app/" target="_blank" alt="디지몬 슈퍼럼블 위키">디지몬 슈퍼럼블 위키 바로가기</a>
 > MMOPRG 디지몬 슈퍼럼블 위키사이트 입니다.<br>
 > 오늘의 컨텐츠, 도감, 진화트리, 각종 시뮬레이터 등의 기능을 가지고 있습니다.
 <br>
