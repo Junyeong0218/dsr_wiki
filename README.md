@@ -49,26 +49,26 @@
 <br>
 
 ### 시뮬레이터
-> 교정 시뮬레이터
+> 교정 시뮬레이터<br>
 > 특정 재화를 이용한 스테이터스 분배 시스템 시뮬레이터
 
 ![adjustments](https://github.com/Junyeong0218/dsr_wiki/assets/94529254/5bb823fa-7d86-42b0-b46a-e8b9dd9d0cfa)
 
-> 유년기 육성&교정 시뮬레이터
+> 유년기 육성&교정 시뮬레이터<br>
 > 유년기 디지몬 육성 시뮬레이션을 통한 육성 과정 및 육성 결과를 통한 스테이터스 분배 시스템 학습
 
 ![babies](https://github.com/Junyeong0218/dsr_wiki/assets/94529254/43708bee-7024-47de-b836-974a5e54aed3)
 
 <br>
 
-> 포텐셜 시뮬레이터
+> 포텐셜 시뮬레이터<br>
 > 게임 내 금전재화를 이용한 스테이터스 강화 시스템 시뮬레이터
 
 ![potentials](https://github.com/Junyeong0218/dsr_wiki/assets/94529254/3719515c-250c-42f3-926b-c3b53c2ccf84)
 
 <br>
 
-> 스킬강화 시뮬레이터
+> 스킬강화 시뮬레이터<br>
 > 게임 내 재화를 이용한 스킬 강화 시스템 시뮬레이터
 
 ![skills](https://github.com/Junyeong0218/dsr_wiki/assets/94529254/6c0ff284-1640-4dd2-8fce-24e139514075)
