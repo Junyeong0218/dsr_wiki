@@ -72,13 +72,14 @@ function MapViewer({ map }) {
                 const digimon = map.monsters.find(monster => monster.id === id);
                 selectedDigimon.current = digimon;
                 const mapRect = target.parentElement.parentElement.getBoundingClientRect();
-                const modalHeight = 171 + (((_a = digimon.dropItems) === null || _a === void 0 ? void 0 : _a.length) || 0) * 28;
+                const modalHeight = 211 + (((_a = digimon.dropItems) === null || _a === void 0 ? void 0 : _a.length) || 0) * 28;
                 // console.log(event.pageY, modalHeight, "  ", window.innerHeight)
-                if (event.pageY + modalHeight >= window.innerHeight - 20) {
-                    setDropsModalPosition({ top: event.pageY - modalHeight - mapRect.top, left: event.pageX - mapRect.left + 2 });
+                // console.log(event.pageY + modalHeight, "  ", window.innerHeight - 20)
+                if (event.pageY + modalHeight >= window.innerHeight - 10) {
+                    setDropsModalPosition({ top: window.innerHeight - modalHeight - mapRect.top - 10, left: event.pageX - mapRect.left + 2 });
                 }
                 else {
-                    setDropsModalPosition({ top: event.pageY - mapRect.top + 10, left: event.pageX - mapRect.left + 2 });
+                    setDropsModalPosition({ top: event.pageY - mapRect.top - 10, left: event.pageX - mapRect.left + 2 });
                 }
                 setIsOpenDrops(true);
                 setIsOpenShop(false);
@@ -88,6 +89,13 @@ function MapViewer({ map }) {
                 setIsOpenShop(false);
             }
         }
+    };
+    const mouseLeaveHandler = (event) => {
+        const relatedTarget = event.relatedTarget;
+        if (relatedTarget.classList.contains("modal") || relatedTarget.classList.contains("map-container"))
+            return;
+        setIsOpenDrops(false);
+        setIsOpenShop(false);
     };
     const getItems = () => {
         var _a;
@@ -153,7 +161,7 @@ function MapViewer({ map }) {
     const shopModal = (0, react_1.useMemo)(() => { var _a, _b; return react_1.default.createElement(ShopModal_1.default, { isOpen: isOpenShop, items: (_b = (_a = selectedShop.current) === null || _a === void 0 ? void 0 : _a.items) !== null && _b !== void 0 ? _b : [], position: shopModalPosition }); }, [isOpenShop, shopModalPosition]);
     const monsterModal = (0, react_1.useMemo)(() => react_1.default.createElement(DropsModal_1.default, { isOpen: isOpenDrops, monster: selectedDigimon.current, position: dropsModalPosition }), [isOpenDrops, dropsModalPosition]);
     return (react_1.default.createElement("div", { className: "map-viewer" },
-        react_1.default.createElement("div", { className: "map-container", onMouseMove: captureMouse },
+        react_1.default.createElement("div", { className: "map-container", onMouseMove: captureMouse, onMouseLeave: mouseLeaveHandler },
             react_1.default.createElement("img", { className: "map", src: `/images/${map.name}.png` }),
             monsters,
             portals,

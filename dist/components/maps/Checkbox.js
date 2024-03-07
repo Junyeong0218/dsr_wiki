@@ -28,6 +28,7 @@ function Checkbox({ id, text, checked, setChecked }) {
     const checkbox = (0, react_1.useMemo)(() => {
         return react_1.default.createElement("label", { className: "check-box-container", htmlFor: id },
             react_1.default.createElement("input", { type: "checkbox", defaultChecked: checked, onChange: (e) => setChecked(e.target.checked), className: "check-box", id: id }),
+            react_1.default.createElement("img", { src: `/images/${text}.png` }),
             text);
     }, [checked]);
     return checkbox;

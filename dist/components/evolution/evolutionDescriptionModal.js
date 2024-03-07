@@ -43,7 +43,7 @@ function EvolutionDescriptionModal({ isActive, position, digimon }) {
             // return 
             react_1.default.createElement("div", { className: "commons" },
                 react_1.default.createElement("svg", { width: 200, height: 20 },
-                    react_1.default.createElement("line", { x1: 10, y1: 10, x2: 190, y2: 10, style: { stroke: "var(--white)", strokeWidth: `${2}px` }, strokeDasharray: "4,4" })),
+                    react_1.default.createElement("line", { x1: 10, y1: 10, x2: 190, y2: 10, style: { stroke: "var(--theme-light-font-color)", strokeWidth: `${2}px` }, strokeDasharray: "4,4" })),
                 react_1.default.createElement("span", { className: "semi-title" }, "\uC77C\uBC18 \uC9C4\uD654"),
                 commons.length > 0 && digimon.grade < 5 &&
                     react_1.default.createElement("div", { className: "targets" }, commons.map(d => (react_1.default.createElement("div", { className: "target", key: (0, commons_1.getUUID)() },
@@ -87,7 +87,7 @@ function EvolutionDescriptionModal({ isActive, position, digimon }) {
             // return 
             react_1.default.createElement("div", { className: "jogress" },
                 react_1.default.createElement("svg", { width: 200, height: 20 },
-                    react_1.default.createElement("line", { x1: 10, y1: 10, x2: 190, y2: 10, style: { stroke: "var(--white)", strokeWidth: `${2}px` }, strokeDasharray: "4,4" })),
+                    react_1.default.createElement("line", { x1: 10, y1: 10, x2: 190, y2: 10, style: { stroke: "var(--theme-light-font-color)", strokeWidth: `${2}px` }, strokeDasharray: "4,4" })),
                 react_1.default.createElement("span", { className: "semi-title" }, "\uC870\uADF8\uB808\uC2A4 \uC9C4\uD654"),
                 react_1.default.createElement("div", { className: "conditions" },
                     react_1.default.createElement("div", { className: "conditions jogress" },
@@ -108,7 +108,9 @@ function EvolutionDescriptionModal({ isActive, position, digimon }) {
     }, [digimon]);
     return (react_1.default.createElement("div", { id: "evolution-description", className: `modal ${isActive ? "active" : ""}`, style: style },
         react_1.default.createElement("div", { className: "window" },
-            react_1.default.createElement("span", { className: "title" }, "\uC9C4\uD654 \uC870\uAC74"),
+            react_1.default.createElement("span", { className: "title" },
+                digimon.name,
+                " \uC9C4\uD654 \uC870\uAC74"),
             commonsRevolution,
             jogressRevolution)));
 }

@@ -5,6 +5,7 @@ class Map {
     constructor(raw) {
         this.id = raw.id;
         this.name = raw.name;
+        this.category = raw.category;
         this.portals = null;
         this.warps = null;
         this.shops = null;

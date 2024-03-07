@@ -65,9 +65,11 @@ function Main() {
     let prevChecklist = getPrevChecklist();
     let prevNotices = localStorage.getItem("notices") ? JSON.parse(localStorage.getItem("notices")) : [];
     let prevCoupons = localStorage.getItem("coupons") ? JSON.parse(localStorage.getItem("coupons")) : [];
+    let prevLadder = localStorage.getItem("ladder") ? JSON.parse(localStorage.getItem("ladder")) : null;
     const [checklist, setChecklist] = (0, react_1.useState)(prevChecklist);
     const [notices, setNotices] = (0, react_1.useState)(prevNotices);
     const [coupons, setCoupons] = (0, react_1.useState)(prevCoupons);
+    const [ladder, setLadder] = (0, react_1.useState)(prevLadder);
     (0, react_1.useEffect)(() => {
         const url = "https://script.google.com/macros/s/AKfycbzW0bOmuKVwka0LeClnrw68dNV4hi77bnbrZbeEOZjadwj1e-TnRiFBgC49z57F_PJkqw/exec";
         fetch(`${url}?sheetName=notices`).then((response) => __awaiter(this, void 0, void 0, function* () {
@@ -80,13 +82,17 @@ function Main() {
         })).catch(error => {
             console.log(error);
         });
-        fetch(`${url}?sheetName=coupons`).then((response) => __awaiter(this, void 0, void 0, function* () {
-            const result = yield response.json();
-            if (result.ok) {
-                const coupons = result.data;
-                setCoupons(coupons.filter(e => e.active));
-                localStorage.setItem("coupons", JSON.stringify(coupons));
-            }
+        fetch("/.netlify/functions/getCoupons").then((response) => __awaiter(this, void 0, void 0, function* () {
+            const coupons = yield response.json();
+            localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
+            setCoupons(coupons);
+        })).catch(error => {
+            console.log(error);
+        });
+        fetch("/.netlify/functions/getLadder").then((response) => __awaiter(this, void 0, void 0, function* () {
+            const ladder = yield response.json();
+            localStorage.setItem("ladder", JSON.stringify(ladder));
+            setLadder(ladder);
         })).catch(error => {
             console.log(error);
         });
@@ -146,8 +152,7 @@ function Main() {
                 react_1.default.createElement("div", { className: "content-shortcut" },
                     react_1.default.createElement("div", { className: "title" }, "\uC624\uB298\uC758 \uB798\uB354"),
                     react_1.default.createElement("div", { className: "content" },
-                        react_1.default.createElement("div", { className: "row" },
-                            react_1.default.createElement("img", { src: "/images/daily_Ultimate.png" }))))),
+                        react_1.default.createElement("div", { className: "row" }, ladder && react_1.default.createElement("img", { src: `/images/daily_${ladder.grade}.png` }))))),
             react_1.default.createElement("div", { className: "content-shortcut dashboard-center" },
                 react_1.default.createElement("div", { className: "title" }, "\uCCB4\uD06C\uB9AC\uC2A4\uD2B8"),
                 react_1.default.createElement("div", { className: "content" }, checklist.list.map(element => (react_1.default.createElement("label", { htmlFor: element.titleEng, key: (0, commons_1.getUUID)() },
@@ -159,7 +164,7 @@ function Main() {
                     react_1.default.createElement("div", { className: "content" }, notices.map(notice => {
                         const date = new Date(notice.date).getTime();
                         const now = new Date().getTime();
-                        return react_1.default.createElement(react_router_dom_1.Link, { className: "row long", to: `${DSR_ROOT}${notice.href}`, key: (0, commons_1.getUUID)(), title: notice.title },
+                        return react_1.default.createElement(react_router_dom_1.Link, { className: "row long", to: `${DSR_ROOT}${notice.href}`, target: "_blank", key: (0, commons_1.getUUID)(), title: notice.title },
                             react_1.default.createElement("span", null, notice.title),
                             now - date < 60 * 60 * 24 * 5 * 1000 && react_1.default.createElement("i", { className: 'new' },
                                 react_1.default.createElement("img", { src: "/images/new_tag.png", alt: "" })));

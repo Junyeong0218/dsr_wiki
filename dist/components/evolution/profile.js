@@ -12,8 +12,7 @@ function Profile({ digimon, align = null }) {
     if (!digimon.name.includes("돌연변이"))
         alignStyle['cursor'] = "pointer";
     return (react_1.default.createElement("div", { className: "profile", style: alignStyle },
-        react_1.default.createElement("img", { className: "profile-image", src: `/images/${fileName}.png` }),
-        react_1.default.createElement("span", null, digimon.name),
+        react_1.default.createElement("img", { className: "profile-image", src: `/images/${fileName}.png`, alt: digimon.name, "data-id": digimon.name }),
         digimon.grade > 2 &&
             react_1.default.createElement("img", { className: "profile-digimon-type", src: `/images/${digimon.digimonType}.png` })));
 }

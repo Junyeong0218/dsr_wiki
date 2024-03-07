@@ -28,8 +28,8 @@ const enums_1 = require("../../enums");
 const searchFunctions_1 = require("../../functions/searchFunctions");
 const commons_1 = require("../../functions/commons");
 function CombinationFilters({ all, setFiltered }) {
-    var _a;
     const options = (0, react_1.useMemo)(() => ["전체", "포션", "소모 아이템", "탐지기", "스킬 강화석", "기타"], []);
+    const [selected, setSelected] = (0, react_1.useState)("전체");
     const selectRef = (0, react_1.useRef)(null);
     const textRef = (0, react_1.useRef)(null);
     const [text, setText] = (0, react_1.useState)("");
@@ -37,10 +37,10 @@ function CombinationFilters({ all, setFiltered }) {
         if (event.target.tagName === "INPUT") {
             const regex = /[`~!@#$^&*_|+\-=?;'",.<>\{\}\[\]\\\/]/g;
             const typed = event.target.value;
-            selectRef.current.value = "전체";
+            setSelected("전체");
             if (typed === "") {
                 setText(typed);
-                setFiltered(null);
+                setFiltered(all);
             }
             else if (!regex.test(typed) && typed !== "") {
                 setText(typed);
@@ -49,22 +49,36 @@ function CombinationFilters({ all, setFiltered }) {
             }
         }
     };
-    const filterByType = (event) => {
+    (0, react_1.useEffect)(() => {
         setText("");
-        const value = event.target.value;
-        if (value === "전체")
-            setFiltered(null);
+        if (selected === "전체")
+            setFiltered(all);
         else {
-            const typeId = Object.values(enums_1.ItemType).findIndex(each => each === value) + 1;
-            const filtered = all.filter(each => each.resultItem.type === typeId);
+            const type = Object.values(enums_1.ItemType).findIndex(each => each === selected) + 1;
+            const filtered = all.filter(each => each.resultItem.type === type);
             setFiltered(filtered);
         }
-    };
+    }, [selected]);
+    // const filterByType = (event: React.ChangeEvent<HTMLSelectElement>): void => {
+    //     setText("");
+    //     const value = event.target.value;
+    //     if(value === "전체") setFiltered(null);
+    //     else {
+    //         const typeId = Object.values(ItemType).findIndex(each => each === value) + 1;
+    //         const filtered = all.filter(each => each.resultItem.type === typeId);
+    //         setFiltered(filtered);
+    //     }
+    // }
     const textInput = (0, react_1.useMemo)(() => {
         return react_1.default.createElement("input", { ref: textRef, type: "text", className: "search-input", value: text, onChange: updateText, placeholder: "\uC81C\uC791\uD560 \uC544\uC774\uD15C\uC758 \uC774\uB984 \uD639\uC740 \uCD08\uC131\uC744 \uC785\uB825\uD558\uC138\uC694." });
     }, [text]);
     return (react_1.default.createElement("div", { className: "combination-filters" },
-        react_1.default.createElement("select", { ref: selectRef, onChange: filterByType, value: (_a = selectRef.current) === null || _a === void 0 ? void 0 : _a.value, key: (0, commons_1.getUUID)() }, options.map(option => (react_1.default.createElement("option", { value: option, key: (0, commons_1.getUUID)() }, option)))),
+        react_1.default.createElement("div", { className: "digidex-filter2" },
+            react_1.default.createElement("div", { className: "title" }, "\uC544\uC774\uD15C \uD0C0\uC785"),
+            react_1.default.createElement("div", { className: "checkboxes" }, options.map(option => (react_1.default.createElement("label", { htmlFor: option, key: (0, commons_1.getUUID)(), className: selected === option ? "checked" : "" },
+                react_1.default.createElement("input", { type: "radio", id: option, checked: selected === option, onChange: () => setSelected(option) }),
+                react_1.default.createElement("img", { src: `/images/${option === "전체" ? "filter_all" : option === "포션" ? "무배경_크로와상" : option === "소모 아이템" ? "무배경_소모아이템" : option === "탐지기" ? "무배경_보급형 탐지기" : option === "스킬 강화석" ? "무배경_궁스강" : "무배경_부제유"}.png` }),
+                react_1.default.createElement("span", null, option)))))),
         textInput));
 }
 exports.default = CombinationFilters;

@@ -29,8 +29,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
 const classes_1 = require("../../classes");
 const functions_1 = require("../../functions");
-const Filters_1 = __importDefault(require("../Filters"));
-const SearchBar_1 = __importDefault(require("../SearchBar"));
+const Filters_1 = __importDefault(require("./Filters"));
 const EvolutionTree_1 = __importDefault(require("./EvolutionTree"));
 const evolutionDescriptionModal_1 = __importDefault(require("./evolutionDescriptionModal"));
 const commons_1 = require("../../functions/commons");
@@ -44,7 +43,8 @@ function EvolutionSearcher() {
         var _a;
         const target = event.target;
         if ((target === null || target === void 0 ? void 0 : target.className) === "profile-image") {
-            const targetName = target.nextElementSibling.innerText;
+            // const targetName = (target.nextElementSibling! as HTMLSpanElement).innerText;
+            const targetName = target.dataset.id;
             if (targetName.includes("[돌연변이]")) {
                 setPosition({ top: 0, left: 0 });
                 setIsOpen(false);
@@ -83,10 +83,10 @@ function EvolutionSearcher() {
         const target = event.target;
         let digimonName = "";
         if (target.className === "profile") {
-            digimonName = target.children[1].innerText;
+            digimonName = target.querySelector(".profile-image").dataset.id;
         }
         else if (target.className === "profile-image") {
-            digimonName = target.nextElementSibling.innerText;
+            digimonName = target.dataset.id;
         }
         else
             return;
@@ -115,9 +115,9 @@ function EvolutionSearcher() {
     const comboFilters = (0, react_1.useMemo)(() => {
         return react_1.default.createElement(Filters_1.default, { selectedDigimon: selectedDigimon, setSelectedDigimon: setSelectedDigimon, key: "digimon_filter" });
     }, [selectedDigimon]);
-    const searchBar = (0, react_1.useMemo)(() => {
-        return react_1.default.createElement(SearchBar_1.default, { setSelectedDigimon: setSelectedDigimon });
-    }, []);
+    // const searchBar = useMemo(() => {
+    //     return <SearchBar setSelectedDigimon={setSelectedDigimon}/>
+    // }, []);
     const evolution = (0, react_1.useMemo)(() => {
         return react_1.default.createElement(EvolutionTree_1.default, { selectedDigimon: selectedDigimon, reload: reload, key: (0, commons_1.getUUID)() });
     }, [selectedDigimon]);
@@ -131,11 +131,9 @@ function EvolutionSearcher() {
                 "\uC811\uAE30/\uD3BC\uCE58\uAE30 \uBC84\uD2BC \uC228\uAE30\uAE30"));
     }, [selectedDigimon, hideFoldButton]);
     return (react_1.default.createElement("div", { className: `main ${hideFoldButton ? "hide-fold-button" : ""}`, onMouseMove: captureMouse, onClick: changeDigimon },
-        react_1.default.createElement("h1", { className: "title-message" }, "\uC9C4\uD654 \uC0C1\uD0DC\uC5D0 \uB9DE\uB294 \uB514\uC9C0\uBAAC\uC744 \uC120\uD0DD\uD558\uC138\uC694."),
         comboFilters,
-        searchBar,
-        evolution,
         inputs,
+        evolution,
         react_1.default.createElement(evolutionDescriptionModal_1.default, { isActive: isOpen, digimon: modalDigimon.current, position: position })));
 }
 exports.default = EvolutionSearcher;

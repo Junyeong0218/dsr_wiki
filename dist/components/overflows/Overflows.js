@@ -62,7 +62,11 @@ function Overflows() {
         setIsOpenModal(false);
     };
     const mapSelector = (0, react_1.useMemo)(() => {
-        return react_1.default.createElement("div", { className: "map-selector" }, all.map(each => (react_1.default.createElement("button", { type: "button", className: `map-name-button ${selected.mapName === each.mapName ? "selected" : ""}`, onClick: () => setSelected(each), key: (0, commons_1.getUUID)() }, each.mapName))));
+        return react_1.default.createElement("div", { className: "digidex-filter2", key: (0, commons_1.getUUID)() },
+            react_1.default.createElement("div", { className: "title" }, "\uB9F5"),
+            react_1.default.createElement("div", { className: "checkboxes map-names" }, all.map(each => (react_1.default.createElement("label", { htmlFor: each.mapName, key: (0, commons_1.getUUID)(), className: selected.mapName === each.mapName ? "checked" : "" },
+                react_1.default.createElement("input", { type: "radio", id: each.mapName, checked: selected.mapName === each.mapName, onChange: () => setSelected(each) }),
+                react_1.default.createElement("span", null, each.mapName))))));
     }, [selected]);
     const overflowShortcut = (0, react_1.useMemo)(() => {
         return react_1.default.createElement(OverflowShortcut_1.default, { selected: selected });

@@ -4,8 +4,8 @@ exports.EvolutionInfo = void 0;
 class EvolutionInfo {
     constructor(raw) {
         this.isFold = false;
-        this.getRate = () => Math.floor(this.rate * 10000) * 100 / 10000;
-        this.getBonding = () => Math.floor(this.reqBonding * 10000) * 100 / 10000;
+        this.getRate = () => Math.round(this.rate * 1000000) / 10000;
+        this.getBonding = () => Math.round(this.reqBonding * 1000000) / 10000;
         this.from = raw.from;
         this.to = raw.to;
         this.digimon = null;

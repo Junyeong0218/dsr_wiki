@@ -14,6 +14,7 @@ function ToLeftProfileLine({ digimon, reload }) {
     const jogress = ((_b = digimon.befores) === null || _b === void 0 ? void 0 : _b.filter(each => each.method === "조그레스")) || [];
     const commonReqItems = (commons === null || commons === void 0 ? void 0 : commons.filter((each, index) => each.ingredient !== "")) || [];
     const jogressReqItems = jogress.filter((each, index) => each.ingredient !== "" && index === 0) || [];
+    const GAP = 5;
     const getLeftScore = (d) => {
         var _a;
         if (d.befores === null)
@@ -43,12 +44,22 @@ function ToLeftProfileLine({ digimon, reload }) {
         }
         return acc;
     };
-    const getWholeTop = (digimon) => enums_1.PROFILE_HEIGHT * getLeftScore(digimon);
+    const getWholeTop = (digimon) => {
+        const leftScore = getLeftScore(digimon);
+        let acc = enums_1.PROFILE_HEIGHT * leftScore;
+        if (leftScore > 1)
+            acc += GAP * (leftScore - 1);
+        return acc;
+    };
     const getMiddleTop = (digimon) => getWholeTop(digimon) / 2;
     const getRateTop = (_digimon, i) => {
         const ownIndex = digimon.befores.findIndex(before => before.from === _digimon.id);
+        const untilScore = getLeftScoreUntil(digimon, i);
+        let untilHeight = enums_1.PROFILE_HEIGHT * untilScore;
+        if (untilScore > 0)
+            untilHeight += GAP * untilScore;
         // 이전까지의 순수 높이 + 현재 높이의 절반 - 20
-        return enums_1.PROFILE_HEIGHT * getLeftScoreUntil(digimon, i)
+        return untilHeight
             + getMiddleTop(digimon.befores[ownIndex].digimon)
             - 20;
     };

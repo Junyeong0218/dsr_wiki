@@ -148,8 +148,8 @@ function Potentials() {
         selected.current = undefined;
     };
     const getSpanClassName = (statType) => {
-        if (statType === "속도" || statType === "수비" || statType === "회피율")
-            return "black";
+        if (statType === "저항" || statType === "힘" || statType === "지능" || statType === "크리율")
+            return "white";
         return "";
     };
     return (react_1.default.createElement("div", { className: "main" },
@@ -163,7 +163,7 @@ function Potentials() {
                             " ",
                             cell.value,
                             "%"))))))))),
-                react_1.default.createElement("div", { className: "stats" }, stats.map(stat => (react_1.default.createElement("div", { className: "stat" },
+                react_1.default.createElement("div", { className: "stats" }, stats.map(stat => (react_1.default.createElement("div", { className: "stat", key: (0, commons_1.getUUID)() },
                     react_1.default.createElement("span", { className: "title" }, stat.statType),
                     react_1.default.createElement("span", { className: stat.value !== 0 ? "value" : "" },
                         "+",

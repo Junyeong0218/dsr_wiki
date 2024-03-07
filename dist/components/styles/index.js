@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getToRightTextStyle = exports.getToLeftTextStyle = exports.flexColumn = exports.flexRowAndAlignStart = exports.flexRowAndAlignEnd = exports.flexRow = exports.jogressLineStyle = exports.revolutionLineStyle = void 0;
-const revolutionLineStyle = { stroke: "#e6e6e6", strokeWidth: 5 + "px", strokeLinecap: "round" };
+const revolutionLineStyle = { stroke: "#000000", strokeWidth: 5 + "px", strokeLinecap: "round" };
 exports.revolutionLineStyle = revolutionLineStyle;
 const jogressLineStyle = { stroke: "#ed1c24", strokeWidth: 5 + "px", strokeLinecap: "round" };
 exports.jogressLineStyle = jogressLineStyle;
@@ -11,7 +11,7 @@ const flexRowAndAlignStart = { flexDirection: "row", alignSelf: "flex-start" };
 exports.flexRowAndAlignStart = flexRowAndAlignStart;
 const flexRow = { flexDirection: "row" };
 exports.flexRow = flexRow;
-const flexColumn = { flexDirection: "column" };
+const flexColumn = { flexDirection: "column", gap: "5px" };
 exports.flexColumn = flexColumn;
 const getToLeftTextStyle = (top) => { return { position: "absolute", top: `${top}px`, "left": "0px" }; };
 exports.getToLeftTextStyle = getToLeftTextStyle;

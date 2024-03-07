@@ -13,17 +13,17 @@ function DigimonStatusTable({ digimon }) {
                 react_1.default.createElement("td", null, "SP"),
                 react_1.default.createElement("td", null, "\uD798"),
                 react_1.default.createElement("td", null, "\uC9C0\uB2A5"),
-                react_1.default.createElement("td", null, "\uC18D\uB3C4"),
                 react_1.default.createElement("td", null, "\uC218\uBE44"),
-                react_1.default.createElement("td", null, "\uC800\uD56D"))),
+                react_1.default.createElement("td", null, "\uC800\uD56D"),
+                react_1.default.createElement("td", null, "\uC18D\uB3C4"))),
         react_1.default.createElement("tbody", null,
             react_1.default.createElement("tr", null,
                 react_1.default.createElement("td", null, (0, commons_1.getCommaString)(digimon.hp)),
                 react_1.default.createElement("td", null, (0, commons_1.getCommaString)(digimon.sp)),
                 react_1.default.createElement("td", null, (0, commons_1.getCommaString)(digimon.str)),
                 react_1.default.createElement("td", null, (0, commons_1.getCommaString)(digimon.int)),
-                react_1.default.createElement("td", null, (0, commons_1.getCommaString)(digimon.spd)),
                 react_1.default.createElement("td", null, (0, commons_1.getCommaString)(digimon.def)),
-                react_1.default.createElement("td", null, (0, commons_1.getCommaString)(digimon.res))))));
+                react_1.default.createElement("td", null, (0, commons_1.getCommaString)(digimon.res)),
+                react_1.default.createElement("td", null, (0, commons_1.getCommaString)(digimon.spd))))));
 }
 exports.default = DigimonStatusTable;

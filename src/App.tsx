@@ -12,44 +12,52 @@ import Overflows from "./components/overflows/Overflows";
 import Detectors from "./components/detector/Detector";
 import Adjustments from "./components/adjustment/Adjustments";
 import Potentials from "./components/potential/Potentials";
-import Raids from "./components/raids/Raid";
+// import Raids from "./components/raids/Raid";
 import Guides from "./components/guides/Guides";
 import Guide from "./components/guides/Guide";
 import SkillSimulator from "./components/skillSimulator/SkillSimulator";
 import BabySimulator from "./components/babySimulator/BabySimulator";
+import TRItems from "./components/tr/items/TRItems";
 
 export default function App(): React.ReactElement {
     return (
         <StrictMode>
             <BrowserRouter>
                 <div id="container">
-                    <Header />
                     <Routes>
-                        <Route path="/" element={<Main />} />
+                        <Route path="/dsr/*" element={<Header />} />
+                    </Routes>
+                    <Routes>
+                        <Route path="/dsr/" element={<Main />} />
 
-                        <Route path="/guides" element={<Guides />} />
-                        <Route path="/guides/:id" element={<Guide />} />
+                        <Route path="/dsr/guides" element={<Guides />} />
+                        <Route path="/dsr/guides/:id" element={<Guide />} />
 
-                        <Route path="/digimons/digidex" element={<Digidex />} />
-                        <Route path="/digimons/evolutions" element={<EvolutionSearcher />} />
+                        <Route path="/dsr/digimons/digidex" element={<Digidex />} />
+                        <Route path="/dsr/digimons/evolutions" element={<EvolutionSearcher />} />
 
-                        <Route path="/maps" element={<Maps />} />
+                        <Route path="/dsr/maps" element={<Maps />} />
 
-                        <Route path="/dungeons/overflows" element={<Overflows />} />
-                        <Route path="/dungeons/detectors" element={<Detectors />} />
+                        <Route path="/dsr/dungeons/overflows" element={<Overflows />} />
+                        <Route path="/dsr/dungeons/detectors" element={<Detectors />} />
 
                         {/* <Route path="/raids" element={<Raids />} /> */}
                         
-                        <Route path="/tools/adjustments" element={<Adjustments />} />
-                        <Route path="/tools/babies" element={<BabySimulator />} />
-                        <Route path="/tools/potentials" element={<Potentials />} />
-                        <Route path="/tools/skills" element={<SkillSimulator />} />
+                        <Route path="/dsr/tools/adjustments" element={<Adjustments />} />
+                        <Route path="/dsr/tools/babies" element={<BabySimulator />} />
+                        <Route path="/dsr/tools/potentials" element={<Potentials />} />
+                        <Route path="/dsr/tools/skills" element={<SkillSimulator />} />
 
-                        <Route path="/items/combinations" element={<CombinationSearcher />} />
+                        <Route path="/dsr/items/combinations" element={<CombinationSearcher />} />
                         
                         <Route path="*" element={<NotFound />} />
                     </Routes>
-                    <Footer />
+                    <Routes>
+                        <Route path="/dsr/*" element={<Footer />} />
+                    </Routes>
+                    <Routes>
+                        <Route path="/tr/items" element={<TRItems />} />
+                    </Routes>
                 </div>
             </BrowserRouter>
         </StrictMode>
