@@ -1,5 +1,5 @@
 import React, { StrictMode } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Main from "./Main";
 import NotFound from "./NotFound";
 import Header from "./components/Header";
@@ -17,7 +17,6 @@ import Guides from "./components/guides/Guides";
 import Guide from "./components/guides/Guide";
 import SkillSimulator from "./components/skillSimulator/SkillSimulator";
 import BabySimulator from "./components/babySimulator/BabySimulator";
-import TRItems from "./components/tr/items/TRItems";
 
 export default function App(): React.ReactElement {
     return (
@@ -25,10 +24,13 @@ export default function App(): React.ReactElement {
             <BrowserRouter>
                 <div id="container">
                     <Routes>
+                        <Route path="/" element={<Navigate replace to="/dsr" />} />
+                    </Routes>
+                    <Routes>
                         <Route path="/dsr/*" element={<Header />} />
                     </Routes>
                     <Routes>
-                        <Route path="/dsr/" element={<Main />} />
+                        <Route path="/dsr" element={<Main />} />
 
                         <Route path="/dsr/guides" element={<Guides />} />
                         <Route path="/dsr/guides/:id" element={<Guide />} />
@@ -49,14 +51,11 @@ export default function App(): React.ReactElement {
                         <Route path="/dsr/tools/skills" element={<SkillSimulator />} />
 
                         <Route path="/dsr/items/combinations" element={<CombinationSearcher />} />
-                        
-                        <Route path="*" element={<NotFound />} />
+
+                        <Route path="/dsr/*" element={<NotFound />} />
                     </Routes>
                     <Routes>
                         <Route path="/dsr/*" element={<Footer />} />
-                    </Routes>
-                    <Routes>
-                        <Route path="/tr/items" element={<TRItems />} />
                     </Routes>
                 </div>
             </BrowserRouter>

@@ -1,0 +1,96 @@
+.guides {
+    width: 100%;
+
+    border-top: 1px solid var(--theme-light-font-color);
+    border-bottom: 1px solid var(--theme-light-font-color);
+}
+
+.guides td {
+    padding: 5px 0;
+
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+.guides td:first-child {
+    border-right: 1px solid var(--theme-light-background-400);
+}
+
+.guides thead tr td,
+.guides tbody tr:not(:last-child) td {
+    border-bottom: 1px solid var(--theme-light-background-400);
+}
+
+.guides tbody tr td {
+    cursor: pointer;
+
+    transition: 200ms;
+}
+
+.guides tbody tr:hover td {
+    background-color: var(--theme-light-background-400);
+}
+
+.guide-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    flex-grow: 1;
+}
+
+.guide-container .guide-title-container {
+    padding: 10px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid var(--theme-light-font-color);
+    border-bottom: 1px solid var(--theme-light-font-color);
+}
+
+.guide-container .guide-title-container > span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.guide-container .guide-description {
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 100%;
+}
+
+.guide-container .guide-description > div {
+    margin: 5px 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+
+    font-size: 18px;
+    word-break: keep-all;
+    white-space: wrap;
+    vertical-align: middle;
+}
+
+.guide-container .guide-description > div.title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.guide-container .guide-description > div > img {
+    height: 25px;
+}

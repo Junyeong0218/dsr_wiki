@@ -16,13 +16,13 @@ export default function Header(): React.ReactElement {
                         <Link to="/" className="text-nav">홈</Link>
                     </div>
                     <div className="nav-element">
-                        <Link to="/guides" className="text-nav">기초 가이드</Link>
+                        <Link to="/dsr/guides" className="text-nav">기초 가이드</Link>
                     </div>
                     <div className="nav-element">
-                        <Link to="/digimons/digidex" className="text-nav">디지몬</Link>
+                        <Link to="/dsr/digimons/digidex" className="text-nav">디지몬</Link>
                         <div className="nav-subs">
-                            <Link to="/digimons/digidex" className="text-nav">디지몬 도감</Link>
-                            <Link to="/digimons/evolutions" className="text-nav">진화트리</Link>
+                            <Link to="/dsr/digimons/digidex" className="text-nav">디지몬 도감</Link>
+                            <Link to="/dsr/digimons/evolutions" className="text-nav">진화트리</Link>
                         </div>
                     </div>
                     <div className="nav-element">
@@ -39,16 +39,16 @@ export default function Header(): React.ReactElement {
                         <Link to="/raids" className="text-nav">레이드</Link>
                     </div> */}
                     <div className="nav-element">
-                        <Link to="/tools/adjustments" className="text-nav">도구</Link>
+                        <Link to="/dsr/tools/adjustments" className="text-nav">도구</Link>
                         <div className="nav-subs">
-                            <Link to="/tools/adjustments" className="text-nav">교정 시뮬</Link>
-                            <Link to="/tools/babies" className="text-nav">유년기 시뮬</Link>
-                            <Link to="/tools/potentials" className="text-nav">포텐셜 시뮬</Link>
-                            <Link to="/tools/skills" className="text-nav">스킬강화 시뮬</Link>
+                            <Link to="/dsr/tools/adjustments" className="text-nav">교정 시뮬</Link>
+                            <Link to="/dsr/tools/babies" className="text-nav">유년기 시뮬</Link>
+                            <Link to="/dsr/tools/potentials" className="text-nav">포텐셜 시뮬</Link>
+                            <Link to="/dsr/tools/skills" className="text-nav">스킬강화 시뮬</Link>
                         </div>
                     </div>
                     <div className="nav-element">
-                        <Link to="/items/combinations" className="text-nav">아이템</Link>
+                        <Link to="/dsr/items/combinations" className="text-nav">아이템</Link>
                     </div>
                     <div className="nav-element">
                         <Link to="https://www.digimonsuperrumble.com" target="_blank" className="text-nav">외부 링크</Link>

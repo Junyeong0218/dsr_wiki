@@ -1,0 +1,599 @@
+.skill-simulator-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.skill-simulator-container > div {
+    width: 100%;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+}
+
+.digimon-selector {
+    padding: 0.2rem;
+
+    width: 100%;
+    max-height: calc(100vh - 143.59px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.digimon-selector .search-bar {
+    /* padding: 0.2rem; */
+    
+    width: 100%;
+}
+
+.digimon-selector .search-bar input {
+    padding: 2px 5px;
+    width: 100%;
+    height: 30px;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+}
+
+.digimon-selector .digimons {
+    /* padding: 0.2rem; */
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    gap: 0.2rem;
+
+    overflow-y: scroll;
+}
+
+.digimon-selector .digimons::-webkit-scrollbar {
+    width: 10px; /* 스크롤바의 너비 */
+}
+
+.digimon-selector .digimons::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: var(--theme-light-background-selected); /* 스크롤바의 색상 */
+
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.digimon-selector .digimons::-webkit-scrollbar-track {
+    background: var(--theme-light-background-600); /*스크롤바 뒷 배경 색상*/
+    border-radius: 4px;
+}
+
+.digimon-selector .digimons .digimon {
+    width: 100%;
+    min-height: 52px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.3rem;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+
+    cursor: pointer;
+    overflow: hidden;
+    transition: 200ms;
+}
+
+.digimon-selector .digimons .digimon:hover {
+    background-color: var(--theme-light-background-selected);
+}
+
+.digimon-selector .digimons .digimon > img {
+    height: 50px;
+}
+
+.digimon-selector .digimons .digimon .simulator-digimon-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.digimon-selector .digimons .digimon .simulator-digimon-info .name {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.digimon-selector .digimons .digimon .simulator-digimon-info .name mark {
+    font-size: inherit;
+    font-weight: 700;
+    background-color: var(--type-adult-thin);
+}
+
+.digimon-selector .digimons .digimon .simulator-digimon-info .grade {
+    font-size: 0.8rem;
+}
+
+.digimon-selector .selected-digimon-info {
+    /* padding: 0.2rem; */
+    /* padding-left: 0.4rem; */
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+}
+
+.digimon-selector .selected-digimon-info > img {
+    border-radius: 0.2rem;
+}
+
+.digimon-selector .selected-digimon-info .digimon-info-shortcut {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 0.15rem;
+}
+
+.digimon-selector .selected-digimon-info .digimon-info-shortcut span {
+    font-size: 1rem;
+    line-height: 1.875rem;
+}
+
+.digimon-selector .selected-digimon-info .digimon-info-shortcut .name {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.digimon-selector .selected-digimon-info .digimon-info-shortcut span img {
+    height: 1.5625rem;
+}
+
+.digimon-selector .selected-digimon-info .digimon-info-shortcut .element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.digimon-selector .digimon-stats {
+    margin-top: 15px;
+    /* padding-left: 0.4rem; */
+
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-simulator-container .skill-simulator {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.625rem;
+
+    border: none;
+    border-radius: 0;
+}
+
+.skill-simulator-container .skill-simulator .skill-list {
+    width: 100%;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+}
+
+.skill-simulator-container .skill-simulator .skill-list .title {
+    padding: 3px 0;
+    background-color: var(--theme-light-background-selected);
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.skill-simulator-container .skill-simulator .skill-list .skill {
+    margin-top: 0.3rem;
+    padding: 0 10px;
+    width: 100%;
+    min-height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.skill-simulator-container .skill-simulator .skill-list .skill:last-child {
+    margin-bottom: 0.3rem;
+}
+
+.skill-simulator-container .skill-simulator .skill-list .skill:hover {
+    background-color: var(--theme-light-background-600);
+}
+
+.skill-simulator-container .skill-simulator .skill-list .skill.selected {
+    background-color: var(--type-child-thin);
+}
+
+.skill-simulator-container .skill-simulator .skill-descriptions {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.3125rem;
+}
+
+.skill-simulator-container .skill-simulator .skill-descriptions .skill-description {
+    width: 100%;
+    min-height: calc(0.3rem * 4 + 1.25rem * 4);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    gap: 0.3rem;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+}
+
+.skill-simulator-container .skill-simulator .skill-descriptions .skill-description .title {
+    padding: 3px 0;
+
+    width: 100%;
+
+    background-color: var(--theme-light-background-selected);
+
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.skill-simulator-container .skill-simulator .skill-descriptions .skill-description span {
+    padding-left: 0.3rem;
+    width: 100%;
+    height: 1.25rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 0.9rem;
+}
+
+.skill-simulator-container .skill-simulator .skill-descriptions .skill-description span:last-child {
+    margin-bottom: 0.2rem;
+}
+
+.skill-simulator-container .skill-simulator .skill-descriptions .skill-description span mark {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.skill-simulator-container .skill-simulator .skill-descriptions .skill-description span img {
+    height: 21px;
+}
+
+.skill-simulator-container .skill-simulator .skill-descriptions .arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container > .title {
+    padding: 3px 0;
+
+    width: 100%;
+
+    background-color: var(--theme-light-background-selected);
+
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container .usable-items {
+    padding: 0.3rem;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container .usable-items .usable-item {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3125rem;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container .usable-items .usable-item .cell {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 0.3rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container .usable-items .usable-item .cell.disabled {
+    cursor: not-allowed;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container .usable-items .usable-item .cell.clickable {
+    cursor: pointer;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container .usable-items .usable-item .cell > img {
+    border-radius: 0.3rem;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container .usable-items .usable-item .cell .remove-button {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+
+    width: 15px;
+    height: 15px;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container .usable-items .usable-item .cell .remove-button img {
+    width: 100%;
+
+    pointer-events: none;
+}
+
+.skill-simulator-container .skill-simulator .usable-item-container .usable-items .usable-item .title {
+    width: 80px;
+    
+    font-size: 0.9rem;
+    text-align: center;
+    word-break: keep-all;
+    white-space: wrap;
+}
+
+.usable-items .usable-item .modal {
+    top: 30px;
+    left: 75px;
+}
+
+.usable-items .usable-item .modal .window .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.3125rem;
+}
+
+.usable-items .usable-item .modal .window .items .item {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.3125rem;
+
+    transition: 200ms;
+}
+
+.usable-items .usable-item .modal .window .items .item:hover {
+    background-color: var(--theme-light-background-selected);
+}
+
+.usable-items .usable-item .modal .window .items .item img {
+    border-radius: 0.3rem;
+}
+
+.usable-items .usable-item .modal .window .items .item .item-info {
+    padding-right: 20px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3125rem;
+}
+
+.usable-items .usable-item .modal .window .items .item .item-info span {
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+.usable-items .usable-item .modal .window .items .item .item-info .name {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.usable-items .usable-item .modal .window .items .item .item-info .effect {
+    font-size: 0.85rem;
+    color: var(--type-perfect-deep);
+}
+
+.skill-simulator-container .skill-simulator .rate-container,
+.skill-simulator-container .skill-simulator .bit-container,
+.skill-simulator-container .result-container .propability-container,
+.skill-simulator-container .result-container .spent-container,
+.skill-simulator-container .result-container .bit-container {
+    width: 100%;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+}
+
+.skill-simulator-container .skill-simulator .rate-container .title,
+.skill-simulator-container .skill-simulator .bit-container .title,
+.skill-simulator-container .result-container .propability-container > .title,
+.skill-simulator-container .result-container .spent-container .title,
+.skill-simulator-container .result-container .bit-container .title {
+    padding: 3px 0;
+
+    width: 100%;
+
+    background-color: var(--theme-light-background-selected);
+
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.skill-simulator-container .skill-simulator .rate-container .rates {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+}
+
+.skill-simulator-container .skill-simulator .rate-container .rates span {
+    margin-top: 0.3rem;
+    padding: 0 10px;
+
+    font-size: 1rem;
+}
+
+.skill-simulator-container .skill-simulator .rate-container .rates span:last-child {
+    margin-bottom: 0.3rem;
+}
+
+.skill-simulator-container .skill-simulator .rate-container .rates span.success > mark {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--type-child-deep);
+}
+
+.skill-simulator-container .skill-simulator .rate-container .rates span.fail > mark {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(-type-perfect-deep);
+}
+
+.skill-simulator-container .skill-simulator .rate-container .rates span.down > mark {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--type-baby1-deep);
+}
+
+.skill-simulator-container .skill-simulator .bit-container .bits,
+.skill-simulator-container .result-container .bit-container .bits {
+    padding: 5px 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-simulator-container .skill-simulator .enhance-button-container {
+    width: 100%;
+}
+
+.skill-simulator-container .skill-simulator .enhance-button-container .enhance-button {
+    padding: 10px 0;
+
+    width: 100%;
+    
+    border: 1px solid var(--type-child-thin);
+    background-color: var(--type-child-thin);
+    border-radius: 0.3rem;
+
+    font-size: 1.1rem;
+    font-weight: 700;
+
+    transition: 200ms;
+}
+
+.skill-simulator-container .skill-simulator .enhance-button-container .enhance-button:hover {
+    background-color: var(--type-child-deep);
+    border-color: var(--type-child-deep);
+    color: var(--theme-light-white);
+}
+
+.skill-simulator-container .skill-simulator .enhance-button-container .enhance-button.disabled {
+    background-color: var(--theme-light-background-600);
+    border-color: var(--theme-light-background-600);
+    color: var(--theme-light-font-color);
+
+    cursor: not-allowed;
+}
+
+.skill-simulator-container .result-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+
+    border: none;
+    border-radius: 0;
+}
+
+.skill-simulator-container .result-container .spent-container {
+    width: 100%;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+}
+
+.skill-simulator-container .result-container .spent-container .spents {
+    padding: 0.3rem;
+    width: 100%;
+    min-height: calc(60px * 4 + 0.3rem * 4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.3rem;
+}
+
+.skill-simulator-container .result-container .spent-container .spents .spent {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3125rem;
+}
+
+.skill-simulator-container .result-container .spent-container .spents .spent img {
+    border-radius: 0.3rem;
+}
+
+.skill-simulator-container .result-container .spent-container .spents .spent .spent-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+.skill-simulator-container .result-container .spent-container .spents .spent .spent-info span {
+    font-size: 0.9rem;
+}
+
+.skill-simulator-container .result-container .spent-container .spents .spent .spent-info span:first-child {
+    font-weight: 700;
+}

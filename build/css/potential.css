@@ -1,0 +1,255 @@
+.potential-board-container {
+    position: relative;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.potential-board {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.potential-board table {
+    border: 2px solid var(--theme-light-font-color);
+    border-collapse: collapse;
+}
+
+.potential-board table tr {
+    display: flex;
+}
+
+.potential-board table td {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 101px;
+    height: 101px;
+
+    border: 2px solid var(--theme-light-font-color);
+    border-collapse: collapse;
+}
+
+.potential-board table td.preview {
+    opacity: 0.5;
+}
+
+.potential-board table td.blank * {
+    display: none;
+}
+
+.potential-board table td img {
+    width: 100%;
+
+    pointer-events: none;
+}
+
+.potential-board table td span {
+    position: absolute;
+
+    width: 70px;
+
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    word-break: keep-all;
+    white-space: wrap;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+.potential-board table td span.black {
+    color: var(--black);
+}
+
+.potential-board-container .spent-bits {
+    padding: 10px 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.potential-board-container .stats {
+    width: 200px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.potential-board .stat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.potential-board .stat * {
+    padding: 2px 10px;
+
+    height: 100%;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.potential-board .stat .value {
+    border-radius: 12.5px;
+    background-color: var(--type-child-thin);
+    color: var(--black);
+}
+
+.potentials {
+    margin-top: 10px;
+    padding: 15px;
+
+    min-width: 1024px;
+    /* width: 100%; */
+    height: 170px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    border-radius: 20px;
+    background-color: rgb(153, 153, 153);
+}
+
+.potentials .potential-group {
+    position: relative;
+
+    min-width: 100px;
+    max-width: 150px;
+    min-height: 100px;
+    max-height: 170px;
+
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: move;
+}
+
+.potentials .potential-group * {
+    pointer-events: none;
+}
+
+.potentials .potential-group.one img {
+    width: 100%;
+    height: 100%;
+}
+
+.potentials .potential-group.one span {
+    position: absolute;
+
+    display: inline;
+
+    width: 70px;
+
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2rem;
+    word-break: keep-all;
+    white-space: wrap;
+}
+
+.potentials .potential-group .potential {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.potentials .potential-group .potential.blank {
+    width: 75px;
+    height: 75px;
+
+    background-color: transparent;
+}
+
+.potentials .potential-group .potential img,
+.potentials .potential-group .potential span {
+    pointer-events: none;
+}
+
+.potentials .potential-group .potential img {
+    width: 75px;
+}
+
+.potentials .potential-group .potential span {
+    position: absolute;
+
+    width: 50px;
+
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: center;
+    word-break: keep-all;
+    white-space: wrap;
+}
+
+.potentials .potential-group.column {
+    flex-direction: column;
+}
+
+.potentials .potential-group.right_down,
+.potentials .potential-group.right_up {
+    min-width: 150px;
+    flex-wrap: wrap;
+}
+
+.potentials .potential-group span.white {
+    color: var(--theme-light-white);
+}
+
+.create-potential-buttons {
+    margin-top: 20px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.create-potential-buttons button {
+    padding: 10px 30px;
+
+    border: 1px solid var(--white);
+    border-radius: 5px;
+
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    transition: 200ms;
+}
+
+.create-potential-buttons button:first-child:hover {
+    border-color: var(--type-adult-deep);
+    background-color: var(--type-adult-deep);
+}

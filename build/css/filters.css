@@ -1,0 +1,296 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  width: 100%;
+}
+
+.combo {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: var(--combo-width);
+  height: 25px;
+  border: 1px var(--white) solid;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.combo .list {
+  position: absolute;
+  top: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: inherit;
+  min-height: 100px;
+  max-height: 150px;
+  border: 1px solid gray;
+  background-color: white;
+
+  overflow-x: hidden;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: 300ms;
+  scroll-behavior: smooth;
+}
+
+.filters .filtered-list-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.filters .filtered-list::-webkit-scrollbar {
+  width: 10px; /* 스크롤바의 너비 */
+}
+
+.filters .filtered-list::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: var(--theme-light-white); /* 스크롤바의 색상 */
+
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.filters .filtered-list::-webkit-scrollbar-track {
+  background: var(--theme-light-background-selected); /*스크롤바 뒷 배경 색상*/
+  border-radius: 4px;
+}
+
+.filters .filtered-list-container .spread {
+  padding: 0.2rem 0.5rem;
+
+  width: 100%;
+
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  background-color: var(--theme-light-background-selected);
+
+  font-size: 0.8rem;
+  color: var(--theme-light-font-color);
+}
+
+.list.active {
+  visibility: visible;
+  overflow-y: scroll;
+  opacity: 1;
+  z-index: 1;
+}
+
+.combo .selected {
+  flex-grow: 1;
+  height: inherit;
+
+  font-size: var(--combo-font-size);
+  text-align: center;
+  line-height: 25px;
+  color: inherit;
+}
+
+.combo .list .combo-button {
+  width: calc(var(--combo-width) - 19px);
+  height: 20px;
+
+  font-size: var(--combo-font-size);
+  font-weight: 500;
+  text-align: center;
+  line-height: 20px;
+
+  color: rgb(24, 24, 24);
+}
+
+.combo .triangle {
+  width: 25px;
+  height: 25px;
+
+  font-size: var(--combo-triangle-size);
+  text-align: center;
+  line-height: 25px;
+  color: inherit;
+
+  transition: all ease 300ms;
+}
+
+.triangle.active {
+  transform: rotate(180deg);
+}
+
+.combo.baby1 {
+  border-color: var(--type-baby1-thin);
+  background-color: var(--type-baby1-thin);
+  color: var(--type-baby1-deep);
+}
+.combo.baby2 {
+  border-color: var(--type-baby2-thin);
+  background-color: var(--type-baby2-thin);
+  color: var(--type-baby2-deep);
+}
+.combo.child {
+  border-color: var(--type-child-thin);
+  background-color: var(--type-child-thin);
+  color: var(--type-child-deep);
+}
+.combo.adult {
+  border-color: var(--type-adult-thin);
+  background-color: var(--type-adult-thin);
+  color: var(--type-adult-deep);
+}
+.combo.perfect {
+  border-color: var(--type-perfect-thin);
+  background-color: var(--type-perfect-thin);
+  color: var(--type-perfect-deep);
+}
+.combo.ultimate {
+  border-color: var(--type-ultimate-thin);
+  background-color: var(--type-ultimate-thin);
+  color: var(--type-ultimate-deep);
+}
+.combo.ultimate {
+  border-color: var(--type-ultimate-thin);
+  background-color: var(--type-ultimate-thin);
+  color: var(--type-ultimate-deep);
+}
+
+.combo:nth-child(2).baby1 {
+  border-color: var(--type-baby1-deep);
+  background-color: var(--type-baby1-deep);
+  color: var(--type-baby1-thin);
+}
+.combo:nth-child(2).baby2 {
+  border-color: var(--type-baby2-deep);
+  background-color: var(--type-baby2-deep);
+  color: var(--type-baby2-thin);
+}
+.combo:nth-child(2).child {
+  border-color: var(--type-child-deep);
+  background-color: var(--type-child-deep);
+  color: var(--type-child-thin);
+}
+.combo:nth-child(2).adult {
+  border-color: var(--type-adult-deep);
+  background-color: var(--type-adult-deep);
+  color: var(--type-adult-thin);
+}
+.combo:nth-child(2).perfect {
+  border-color: var(--type-perfect-deep);
+  background-color: var(--type-perfect-deep);
+  color: var(--type-perfect-thin);
+}
+.combo:nth-child(2).ultimate {
+  border-color: var(--type-ultimate-deep);
+  background-color: var(--type-ultimate-deep);
+  color: var(--type-ultimate-thin);
+}
+.combo:nth-child(2).ultimate {
+  border-color: var(--type-ultimate-deep);
+  background-color: var(--type-ultimate-deep);
+  color: var(--type-ultimate-thin);
+}
+
+.filters .search-bar {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 30px;
+
+  border: 1px solid var(--theme-light-background-400);
+  border-radius: 4px;
+}
+
+.filters .search-bar input {
+  padding: 2px 10px;
+
+  width: 100%;
+  height: calc(100% - 2px);
+
+  line-height: calc(100% - 2px);
+  text-align: left;
+}
+
+.filters .search-bar input:active {
+  outline: none;
+}
+
+.filters .filtered-list {
+  padding: 3px;
+  width: 100%;
+  min-height: 195px;
+  max-height: 550px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 4px;
+
+  border: 1px solid var(--theme-light-background-400);
+  border-radius: 4px;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  transition: 300ms;
+}
+
+.filters .filtered-list.fold {
+  max-height: 195px;
+}
+
+.filters .filtered-evolution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 88px;
+
+  border: 1px solid var(--theme-light-background-400);
+  border-radius: 2px;
+
+  overflow: hidden;
+  transition: 300ms;
+}
+
+.filters .filtered-evolution img {
+  width: 100%;
+}
+
+.filters .filtered-evolution span {
+  width: 100%;
+  
+  font-size: 0.9rem;
+  word-break: keep-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.filters .filtered-evolution span > mark {
+  background-color: var(--type-child-deep);
+  color: var(--theme-light-white);
+
+  pointer-events: none;
+}
+
+.filters .filtered-evolution:hover {
+  background-color: #030303;
+}
+
+.filters .filtered-evolution:hover span {
+  color: var(--theme-light-background-400);
+}

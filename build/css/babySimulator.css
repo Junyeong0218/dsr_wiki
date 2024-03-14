@@ -1,0 +1,606 @@
+.baby-simulator-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.baby-simulator,
+.baby-informations {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hatch-container {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.hatch-container img.selected {
+    position: absolute;
+
+    border-radius: 20px;
+
+    transform: rotate(340deg);
+}
+
+.hatch-container .interact-buttons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+    border-radius: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    z-index: 1;
+}
+
+.hatch-container .interact-buttons > button {
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.hatch-container .interact-buttons > button img {
+    width: 52px;
+
+    border-radius: 26px;
+}
+
+.hatch-container .interact-buttons > button span {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--theme-light-background-400);
+
+    word-break: keep-all;
+    white-space: wrap;
+}
+
+.hatch-container .interact-buttons .modal {
+    background-color: rgba(0, 0, 0, 0.95);
+
+    visibility: hidden;
+}
+
+.hatch-container .interact-buttons .modal.active {
+    visibility: visible;
+}
+
+.hatch-container .interact-buttons .modal .toys {
+    width: 100%;
+    max-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    overflow-y: scroll;
+}
+
+.hatch-container .interact-buttons .modal .toys::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+.hatch-container .interact-buttons .modal .toys::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #d7dde2; /* 스크롤바의 색상 */
+
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.hatch-container .interact-buttons .modal .toys::-webkit-scrollbar-track {
+    background: #484a4b;  /*스크롤바 뒷 배경 색상*/
+    border-radius: 4px;
+}
+
+.hatch-container .interact-buttons .modal button {
+    padding: 0.2rem 0.5rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.hatch-container .interact-buttons .modal button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hatch-container .interact-buttons .modal button img {
+    width: 70px;
+}
+
+.hatch-container .interact-buttons .modal button .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hatch-container .interact-buttons .modal button .description span {
+    font-size: 0.8rem;
+    color: var(--theme-light-background-400);
+}
+
+.hatch-container .interact-buttons .modal button .description span.title {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.simulator-logs-container,
+.baby-evolution-container {
+    min-width: 260px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+}
+
+.simulator-logs-container > .title,
+.baby-evolution-container .title {
+    padding: 3px 0;
+
+    width: 100%;
+    min-height: 27px;
+
+    background-color: var(--theme-light-background-selected);
+
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.simulator-logs-container .simulator-logs {
+    width: 100%;
+    height: 100%;
+    max-height: 407.6px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    overflow-y: scroll;
+}
+
+.simulator-logs-container .simulator-logs::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+.simulator-logs-container .simulator-logs::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #484a4b; /* 스크롤바의 색상 */
+
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.simulator-logs-container .simulator-logs::-webkit-scrollbar-track {
+    background: #d7dde2;  /*스크롤바 뒷 배경 색상*/
+    border-radius: 4px;
+}
+
+.simulator-logs-container .simulator-logs .log {
+    padding: 0.2rem 0.5rem;
+    width: 100%;
+}
+
+.simulator-logs-container .simulator-logs .log .title {
+    width: 100%;
+    height: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 0.8rem;
+}
+
+.simulator-logs-container .simulator-logs .log .title img {
+    width: 20px;
+    height: 20px;
+}
+
+.simulator-logs-container .simulator-logs .log .description {
+    font-size: 0.7rem;
+}
+
+.egg-selector {
+    margin-top: auto;
+    width: 100%;
+
+    justify-self: flex-end;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.egg-selector .eggs {
+    padding: 0.7rem;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    border: 1px solid var(--theme-light-font-color);
+    border-radius: 0.4rem;
+    background-color: var(--theme-light-font-color);
+}
+
+.egg-selector .eggs .egg {
+    width: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.egg-selector .eggs .egg:hover {
+    box-shadow: 0px 0px 4px 4px var(--theme-light-background-400);
+}
+
+.egg-selector .eggs .egg.selected {
+    box-shadow: 0px 0px 4px 4px var(--type-baby2-thin);
+}
+
+.egg-selector .eggs .egg img {
+    width: 100%;
+
+    border-radius: 0.3rem;
+}
+
+.egg-selector .eggs .egg span {
+    font-size: 0.85rerm;
+    color: var(--theme-light-background-400);
+    word-break: keep-all;
+    white-space: wrap;
+}
+
+.egg-selector .eggs .egg.selected span {
+    font-weight: 700;
+}
+
+.egg-selector .submit,
+.baby-status-container .evolve {
+    padding: 0.5rem 3rem;
+
+    border: 1px solid var(--type-child-deep);
+    border-radius: 0.5rem;
+    background-color: var(--type-child-thin);
+
+    font-size: 1.1rem;
+
+    transition: 200ms;
+}
+
+.egg-selector .submit:hover,
+.baby-status-container .evolve:hover {
+    background-color: var(--type-child-deep);
+
+    font-weight: 700;
+    color: var(--theme-light-background-400);
+}
+
+.baby-informations {
+    flex-grow: 1;
+}
+
+.baby-status-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.baby-status-container .baby-status {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-grow: 1; */
+    gap: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    border-radius: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.baby-status-container .baby-status .baby-shorcut {
+    padding: 0.7rem 0;
+
+    min-width: 200px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.baby-status-container .baby-status .baby-shorcut div {
+    color: var(--theme-light-background-400);
+}
+
+.baby-status-container .baby-status .baby-shorcut img {
+    border: 1px solid var(--theme-light-background-400);
+    border-radius: 0.4rem;
+}
+
+.baby-status-container .baby-status .baby-shorcut .title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.baby-status-container .evolve {
+    width: 100%;
+}
+
+.baby-status-description {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.baby-status-description * {
+    color: var(--theme-light-background-400);
+}
+
+.baby-status-description .time-container {
+    position: absolute;
+    top: 0.7rem;
+    left: 0.5rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.baby-status-description .gauge-container {
+    padding: 0.2rem 0.5rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.baby-status-description .gauge-container .gauge-title-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.baby-status-description .gauge-container .gauge-title-container .title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.baby-status-description .gauge-container .gauge-title-container .value {
+    font-size: 0.9rem;
+}
+
+.baby-status-description .gauge-container .gauge-track,
+.baby-status-description .gauge-container .gauge-track-dot {
+    width: 100%;
+    height: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 1px solid var(--theme-light-background-400);
+    border-radius: 5px;
+
+    overflow: hidden;
+}
+
+.baby-status-description .gauge-container .gauge-track-dot {
+    gap: 5px;
+}
+
+.baby-status-description .gauge-container .gauge-track .gauge,
+.baby-status-description .gauge-container .gauge-track-dot .gauge-dot {
+    height: 100%;
+
+    border-radius: 5px;
+
+    transition: 300ms;
+}
+
+.baby-status-description .gauge-container .gauge-track-dot .gauge-dot {
+    border-radius: 0;
+}
+
+.baby-status-description .gauge-container .gauge-track .gauge.cyan {
+    background-color: aquamarine;
+}
+.baby-status-description .gauge-container .gauge-track .gauge.orange {
+    background-color: orange;
+}
+
+.baby-status-description .gauge-container .gauge-track-dot .gauge-dot.red {
+    background-color: var(--type-baby1-deep);
+}
+.baby-status-description .gauge-container .gauge-track-dot .gauge-dot.blue {
+    background-color: var(--type-adult-deep);
+}
+
+.baby-evolution-container .baby-evolutions {
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#baby-simulator-result-modal {
+    border-color: var(--theme-light-font-color);
+    background-color: var(--theme-light-font-color);
+}
+
+.baby-simulator-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.baby-simulator-result .title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--theme-light-background-400);
+}
+
+.baby-simulator-result .title.big {
+    font-size: 1.5rem;
+}
+
+.child-evolution-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.child-digimon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.child-digimon > img {
+    width: 100px;
+}
+
+.child-digimon .child-digimon-shortcut {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.child-digimon .child-digimon-shortcut .digimon-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--theme-light-background-400);
+}
+
+.child-digimon .child-digimon-shortcut img {
+    width: 30px;
+}
+
+.baby-simulator-result .spent-currencies {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.baby-simulator-result .spent-currencies .foods,
+.baby-simulator-result .spent-currencies .toys {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.baby-simulator-result .spent-currencies > div > .spent-item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.baby-simulator-result .spent-currencies > div > .spent-item > img {
+    width: 50px;
+}
+
+.baby-simulator-result .spent-currencies > div > .spent-item .spent-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.baby-simulator-result .spent-currencies > div > .spent-item .spent-item-info span {
+    font-size: 0.85rem;
+    color: var(--theme-light-background-400);
+}
+
+.baby-simulator-result .refresh {
+    padding: 0.2rem 0.5rem;
+
+    width: 100%;
+    
+    border: 1px solid var(--type-adult-thin);
+    border-radius: 0.4rem;
+    background-color: var(--type-adult-thin);
+
+    transition: 300ms;
+}
+
+.baby-simulator-result .refresh:hover {
+    border-color: var(--type-adult-deep);
+    background-color: var(--type-adult-deep);
+    color: var(--theme-light-background-400);
+}
