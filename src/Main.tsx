@@ -121,28 +121,7 @@ export default function Main(): React.ReactElement {
     }
 
     const getCouponDateText = (coupon: Coupon): string => {
-        let text = "";
-        const startDate = new Date(coupon.startDate);
-        const tz = startDate.getTimezoneOffset();
-
-        // if(tz === 0) {
-            text += `${startDate.getFullYear()}.${startDate.getMonth() + 1}.${startDate.getDate()}(${getWeekdayText(startDate.getDay())})-`;
-        // } else {
-        //     const fixedStartDate = new Date(startDate.getTime() + tz * 60 * 1000 * (-1));
-        //     text += `${fixedStartDate.getFullYear()}.${fixedStartDate.getMonth() + 1}.${fixedStartDate.getDate()}(${getWeekdayText(fixedStartDate.getDay())})-`;
-        // }
-
-        const expDate = new Date(coupon.expDate);
-        const expTz = expDate.getTimezoneOffset();
-
-        // if(tz === 0) {
-            text += `${expDate.getFullYear()}.${expDate.getMonth() + 1}.${expDate.getDate()}(${getWeekdayText(expDate.getDay())}) ${expDate.getHours()}:${expDate.getMinutes()}`;
-        // } else {
-        //     const fixedExpDate = new Date(expDate.getTime() + expTz * 60 * 1000 * (-1));
-        //     text += `${fixedExpDate.getFullYear()}.${fixedExpDate.getMonth() + 1}.${fixedExpDate.getDate()}(${getWeekdayText(fixedExpDate.getDay())}) ${fixedExpDate.getHours()}:${fixedExpDate.getMinutes()}`;
-        // }
-
-        return text;
+        return `${coupon.startDate} ~ ${coupon.expDate}`;
     }
 
     const toggleCheckbox = (event: React.ChangeEvent, dailyCheck: DailyCheck) => {

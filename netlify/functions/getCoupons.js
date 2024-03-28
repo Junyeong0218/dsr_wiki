@@ -1,4 +1,6 @@
 const { MongoClient } = require("mongodb");
+const moment = require("moment");
+require('moment/locale/ko');
 
 const mongoClient = new MongoClient(process.env.MONGODB_URI);
 
@@ -25,8 +27,8 @@ const handler = async (event) => {
             list.push({
                 name: result.name,
                 code: result.code,
-                startDate: result.startDate,
-                expDate: result.expDate
+                startDate: moment(result.startDate).locale('ko').format("YYYY-MM-DD(ddd)"),
+                expDate: moment(result.expDate).locale('ko').format("YYYY-MM-DD(ddd) HH:mm")
             });
         });
 
