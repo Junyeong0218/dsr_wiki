@@ -11714,51 +11714,58 @@
     "name": "오파니몬 폴다운모드",
     "grade": 6,
     "digimonType": "Va",
-    "hp": 0,
-    "sp": 0,
-    "str": 0,
-    "int": 0,
-    "spd": 0,
-    "def": 0,
-    "res": 0,
+    "hp": 6022,
+    "sp": 1706,
+    "str": 1053,
+    "int": 1046,
+    "spd": 473,
+    "def": 846,
+    "res": 846,
     "strength": "어둠",
-    "strengthEffect": "",
+    "strengthEffect": "내성",
     "weakness": "빛",
-    "weaknessEffect": "",
+    "weaknessEffect": "회피불가",
     "fieldTypes": ["DA"],
     "skills": [
       {
         "name": "연속 베기",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "플레임 헬 사이즈",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "방어 감소",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.18, 0.1885, 0.197, 0.2055, 0.214, 0.2225, 0.231, 0.2395, 0.248,
+          0.2565
+        ]
       },
       {
         "name": "데몬즈 크리스털",
-        "attackCount": 0,
-        "range": "",
+        "attackCount": 5,
+        "range": "원거리",
         "element": "어둠",
-        "target": "",
-        "targetCount": "",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
