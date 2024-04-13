@@ -143,10 +143,14 @@
     padding: 2px 20px;
 
     font-size: 1rem;
-    color: var(--white);
+    color: var(--theme-light-font-color);
 
-    border: 1px solid var(--white);
+    border: 1px solid var(--theme-light-font-color);
     border-radius: 20px;
+}
+
+.gauges-container .buttons button:hover {
+    color: var(--white);
 }
 
 .gauges-container .buttons .submit-button:hover {
