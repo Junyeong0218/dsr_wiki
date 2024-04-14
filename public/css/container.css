@@ -345,6 +345,26 @@ header .background.open {
   width: 20px;
 }
 
+.description > a {
+  padding: 3px 5px;
+  border-radius: 30px;
+  background-color: var(--theme-light-font-color);
+  color: var(--theme-light-background-400);
+}
+
+.description > a:hover {
+  filter: invert(0.2);
+}
+
+.description > a > img {
+  margin-right: 3px;
+}
+
+.description > a > i {
+  margin-left: 3px;
+  color: var(--theme-light-background-400);
+}
+
 .event {
   justify-content: center;
   align-items: flex-end;
