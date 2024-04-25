@@ -6,7 +6,7 @@ const handler = async (event) => {
     const clientPromise = await mongoClient.connect();
     
     try {
-        const now = new Date();
+        const now = new Date(new Date().getTime() + 1000 * 60 * 60 * 9);
         const year = now.getFullYear();
         const month = String(now.getMonth() + 1).padStart(2, "0");
         const date = String(now.getDate()).padStart(2, "0");
