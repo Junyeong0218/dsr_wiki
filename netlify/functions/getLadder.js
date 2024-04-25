@@ -17,6 +17,8 @@ const handler = async (event) => {
         });
 
         // await (await clientPromise).close();
+        console.log(now);
+        console.log(`${year}-${month}-${date}`);
         console.log(result);
 
         return {
