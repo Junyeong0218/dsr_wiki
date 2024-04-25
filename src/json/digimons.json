@@ -11362,6 +11362,66 @@
   },
   {
     "id": 206,
+    "name": "블랙세라피몬",
+    "grade": 6,
+    "digimonType": "Vi",
+    "hp": 5410,
+    "sp": 2050,
+    "str": 1039,
+    "int": 910,
+    "spd": 469,
+    "def": 774,
+    "res": 1003,
+    "strength": "불",
+    "strengthEffect": "반사",
+    "weakness": "빛",
+    "weaknessEffect": "회피불가",
+    "fieldTypes": ["Nso"],
+    "skills": [
+      {
+        "name": "펀치",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": null,
+        "additionalTurn": null,
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
+      },
+      {
+        "name": "세븐 헬즈",
+        "attackCount": 7,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": null,
+        "additionalTurn": null,
+        "coefficients": [
+          0.1428, 0.15, 0.1571, 0.1642, 0.1714, 0.1785, 0.1857, 0.1928, 0.2,
+          0.2071
+        ]
+      },
+      {
+        "name": "테스타먼트",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": null,
+        "additionalTurn": null,
+        "coefficients": [
+          0.3475, 0.36, 0.3725, 0.385, 0.3975, 0.41, 0.4225, 0.435, 0.4475, 0.46
+        ]
+      }
+    ]
+  },
+  {
+    "id": 207,
     "name": "샤벨레오몬",
     "grade": 6,
     "digimonType": "Da",
@@ -11419,7 +11479,7 @@
     ]
   },
   {
-    "id": 207,
+    "id": 208,
     "name": "샤크라몬",
     "grade": 6,
     "digimonType": "Da",
@@ -11474,7 +11534,7 @@
     ]
   },
   {
-    "id": 208,
+    "id": 209,
     "name": "세라피몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11535,7 +11595,7 @@
     ]
   },
   {
-    "id": 209,
+    "id": 210,
     "name": "세인트가르고몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11596,7 +11656,7 @@
     ]
   },
   {
-    "id": 210,
+    "id": 211,
     "name": "스컬맘몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11654,7 +11714,7 @@
     ]
   },
   {
-    "id": 211,
+    "id": 212,
     "name": "오파니몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11714,7 +11774,7 @@
     ]
   },
   {
-    "id": 212,
+    "id": 213,
     "name": "오파니몬 폴다운모드",
     "grade": 6,
     "digimonType": "Va",
@@ -11774,7 +11834,7 @@
     ]
   },
   {
-    "id": 213,
+    "id": 214,
     "name": "워그레이몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11829,7 +11889,7 @@
     ]
   },
   {
-    "id": 214,
+    "id": 215,
     "name": "이바몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11889,7 +11949,7 @@
     ]
   },
   {
-    "id": 215,
+    "id": 216,
     "name": "쿠즈하몬",
     "grade": 6,
     "digimonType": "Da",
@@ -11944,7 +12004,7 @@
     ]
   },
   {
-    "id": 216,
+    "id": 217,
     "name": "크로스몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12002,7 +12062,7 @@
     ]
   },
   {
-    "id": 217,
+    "id": 218,
     "name": "타이거베스파몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12060,7 +12120,7 @@
     ]
   },
   {
-    "id": 218,
+    "id": 219,
     "name": "타이타몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12118,7 +12178,7 @@
     ]
   },
   {
-    "id": 219,
+    "id": 220,
     "name": "파라사이몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12174,7 +12234,65 @@
     ]
   },
   {
-    "id": 220,
+    "id": 221,
+    "name": "파라오몬",
+    "grade": 6,
+    "digimonType": "Vi",
+    "hp": 4904,
+    "sp": 1864,
+    "str": 896,
+    "int": 989,
+    "spd": 405,
+    "def": 1010,
+    "res": 996,
+    "strength": "어둠",
+    "strengthEffect": "",
+    "weakness": "불",
+    "weaknessEffect": "",
+    "fieldTypes": ["Nso"],
+    "skills": [
+      {
+        "name": "커스 스태프",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": null,
+        "additionalTurn": null,
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
+      },
+      {
+        "name": "네크로미스트",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "바람",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "매료",
+        "additionalTurn": null,
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      },
+      {
+        "name": "투 탕 릴",
+        "attackCount": 6,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": null,
+        "additionalTurn": null,
+        "coefficients": [
+          0.1666, 0.175, 0.1833, 0.1916, 0.2, 0.2083, 0.2166, 0.225, 0.2333,
+          0.2416
+        ]
+      }
+    ]
+  },
+  {
+    "id": 222,
     "name": "파워드라몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12234,7 +12352,7 @@
     ]
   },
   {
-    "id": 221,
+    "id": 223,
     "name": "페닉스몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12293,7 +12411,7 @@
     ]
   },
   {
-    "id": 222,
+    "id": 224,
     "name": "프레시오몬",
     "grade": 6,
     "digimonType": "Da",
@@ -12353,7 +12471,7 @@
     ]
   },
   {
-    "id": 223,
+    "id": 225,
     "name": "피노키몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12406,7 +12524,7 @@
     ]
   },
   {
-    "id": 224,
+    "id": 226,
     "name": "피에몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12462,7 +12580,7 @@
     ]
   },
   {
-    "id": 225,
+    "id": 227,
     "name": "헤라클레스캅테리몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12520,7 +12638,7 @@
     ]
   },
   {
-    "id": 226,
+    "id": 228,
     "name": "홀리드라몬",
     "grade": 6,
     "digimonType": "Va",
