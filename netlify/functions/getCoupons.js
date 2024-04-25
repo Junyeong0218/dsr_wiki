@@ -8,7 +8,7 @@ const handler = async (event) => {
     const clientPromise = await mongoClient.connect();
 
     try {
-        const now = new Date();
+        const now = new Date(new Date().getTime() + 1000 * 60 * 60 * 9);
         const database = clientPromise.db(process.env.MONGODB_DATABASE);
         const collection = database.collection("coupons");
         const results = await collection.aggregate([

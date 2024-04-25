@@ -16,11 +16,6 @@ const handler = async (event) => {
             date: `${year}-${month}-${date}`
         });
 
-        // await (await clientPromise).close();
-        console.log(now);
-        console.log(`${year}-${month}-${date}`);
-        console.log(result);
-
         return {
             statusCode: 200,
             body: JSON.stringify(result),
