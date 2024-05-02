@@ -48,9 +48,9 @@ export default function Header(): React.ReactElement {
                         </div>
                     </div>
                     <div className="nav-element">
-                        <Link to="/items/equipments" className="text-nav">아이템</Link>
+                        <Link to="/items/equipments/tamer" className="text-nav">아이템</Link>
                         <div className="nav-subs">
-                            <Link to="/items/equipments" className="text-nav">장비</Link>
+                            <Link to="/items/equipments/tamer" className="text-nav">테이머 장비</Link>
                             <Link to="/items/combinations" className="text-nav">조합표</Link>
                         </div>
                     </div>

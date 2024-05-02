@@ -17,7 +17,7 @@ import Guides from "./components/guides/Guides";
 import Guide from "./components/guides/Guide";
 import SkillSimulator from "./components/skillSimulator/SkillSimulator";
 import BabySimulator from "./components/babySimulator/BabySimulator";
-import EquipmentSearcher from "./components/Equipments/EquipmentSearcher";
+import TamerEquipmentSearcher from "./components/TamerEquipments/TamerEquipmentSearcher";
 
 export default function App(): React.ReactElement {
     return (
@@ -46,7 +46,7 @@ export default function App(): React.ReactElement {
                         <Route path="/tools/potentials" element={<Potentials />} />
                         <Route path="/tools/skills" element={<SkillSimulator />} />
 
-                        <Route path="/items/equipments" element={<EquipmentSearcher />} />
+                        <Route path="/items/equipments/tamer" element={<TamerEquipmentSearcher />} />
                         <Route path="/items/combinations" element={<CombinationSearcher />} />
                         
                         <Route path="*" element={<NotFound />} />
