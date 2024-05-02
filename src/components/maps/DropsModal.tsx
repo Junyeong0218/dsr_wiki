@@ -1,7 +1,7 @@
 import React from "react";
 import { getItemById } from "../../functions/getItemsFunctions";
 import { getUUID } from "../../functions/commons";
-import { Digimon, Monster } from "../../classes";
+import { Digimon, Item, Monster } from "../../classes";
 import { getDigimonQualityText } from "../../functions";
 
 type DropsModalProps = { 
@@ -15,6 +15,19 @@ export default function DropsModal({ isOpen, monster, position }: DropsModalProp
 
     const digimon = Digimon.getByName(monster.name);
     if(!digimon) return <div id="drops-modal" className={`modal ${isOpen ? "active" : ""}`} style={{ top: position.top, left: position.left }}></div>
+    
+    const getItemImageName = (item: Item): string => {
+        if(item.type === 11) {
+            const typeName = item.name.split(" ")[1];
+
+            return `드랍_${typeName}`;
+        }
+
+        if(item.name.includes("조합법"))
+            return "조합법";
+
+        return item.name;
+    }
     
     return (
         <div id="drops-modal" className={`modal ${isOpen ? "active" : ""}`} style={{ top: position.top, left: position.left }}>
@@ -40,10 +53,10 @@ export default function DropsModal({ isOpen, monster, position }: DropsModalProp
                 <div className="drop-items">
                     { monster && monster.dropItems && monster.dropItems.map(itemId => {
                         const item = getItemById(itemId)!;
-
+                        
                         return (
                             <div className="drop-item" key={getUUID()}>
-                                <img src={`/images/${item.name.includes("조합법") ? "조합법" : item.name}.png`} />
+                                <img src={`/images/${getItemImageName(item)}.png`} />
                                 <span>{item.name}</span>
                             </div>
                         );

@@ -15,6 +15,7 @@ const getBlankFlags = (): IFlags => {
         "디지코어": new Array<number>(),
         "기타": new Array<number>(),
         "퀘스트 아이템": new Array<number>(),
+        "테이머 장비": new Array<number>(),
     };
 }
 
