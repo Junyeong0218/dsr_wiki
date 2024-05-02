@@ -18,6 +18,8 @@
 }
 
 .content-shortcut {
+    width: 100%;
+
     border: 1px solid var(--theme-light-background-500);
     background-color: var( --theme-light-white);
     border-radius: 0.25rem;
@@ -29,8 +31,20 @@
 }
 
 .content-shortcut .title {
+    width: 100%;
+
     border-bottom: 1px solid rgba(128, 128, 128, 0.2);
     background-color: var(--theme-light-background-400);
+
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.content-shortcut .title a {
+    display: block;
+    
+    width: 100%;
 
     font-size: 15px;
     text-align: center;
