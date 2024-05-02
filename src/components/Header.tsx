@@ -15,9 +15,9 @@ export default function Header(): React.ReactElement {
                     <div className="nav-element">
                         <Link to="/" className="text-nav">홈</Link>
                     </div>
-                    <div className="nav-element">
+                    {/* <div className="nav-element">
                         <Link to="/guides" className="text-nav">기초 가이드</Link>
-                    </div>
+                    </div> */}
                     <div className="nav-element">
                         <Link to="/digimons/digidex" className="text-nav">디지몬</Link>
                         <div className="nav-subs">
@@ -48,7 +48,11 @@ export default function Header(): React.ReactElement {
                         </div>
                     </div>
                     <div className="nav-element">
-                        <Link to="/items/combinations" className="text-nav">아이템</Link>
+                        <Link to="/items/equipments" className="text-nav">아이템</Link>
+                        <div className="nav-subs">
+                            <Link to="/items/equipments" className="text-nav">장비</Link>
+                            <Link to="/items/combinations" className="text-nav">조합표</Link>
+                        </div>
                     </div>
                     <div className="nav-element">
                         <Link to="https://www.digimonsuperrumble.com" target="_blank" className="text-nav">외부 링크</Link>

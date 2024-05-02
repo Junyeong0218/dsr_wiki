@@ -17,6 +17,7 @@ import Guides from "./components/guides/Guides";
 import Guide from "./components/guides/Guide";
 import SkillSimulator from "./components/skillSimulator/SkillSimulator";
 import BabySimulator from "./components/babySimulator/BabySimulator";
+import EquipmentSearcher from "./components/Equipments/EquipmentSearcher";
 
 export default function App(): React.ReactElement {
     return (
@@ -27,8 +28,8 @@ export default function App(): React.ReactElement {
                     <Routes>
                         <Route path="/" element={<Main />} />
 
-                        <Route path="/guides" element={<Guides />} />
-                        <Route path="/guides/:id" element={<Guide />} />
+                        {/* <Route path="/guides" element={<Guides />} />
+                        <Route path="/guides/:id" element={<Guide />} /> */}
 
                         <Route path="/digimons/digidex" element={<Digidex />} />
                         <Route path="/digimons/evolutions" element={<EvolutionSearcher />} />
@@ -45,6 +46,7 @@ export default function App(): React.ReactElement {
                         <Route path="/tools/potentials" element={<Potentials />} />
                         <Route path="/tools/skills" element={<SkillSimulator />} />
 
+                        <Route path="/items/equipments" element={<EquipmentSearcher />} />
                         <Route path="/items/combinations" element={<CombinationSearcher />} />
                         
                         <Route path="*" element={<NotFound />} />

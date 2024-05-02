@@ -3,20 +3,11 @@ import { getAllOverflows } from './functions';
 import { getOfficialNotices } from './functions/getOffcialNotices';
 import { getUUID } from './functions/commons';
 import { Link } from 'react-router-dom';
+import YoutubePlayer from './components/dashboard/YoutubePlayer';
+import UpdateArticles from './components/dashboard/UpdateArticles';
+import Coupons from './components/dashboard/Coupons';
+import Ladders from './components/dashboard/Ladders';
 
-type Notice = {
-    href: string,
-    title: string,
-    date: string
-}
-
-type Coupon = {
-    name: string,
-    code: string,
-    startDate: string,
-    expDate: string,
-    active: boolean
-}
 
 type DailyCheck = {
     title: string,
@@ -29,13 +20,6 @@ type CheckList = {
     created: Date,
     lastModified: Date
 }
-
-type Ladder = {
-    date: string,
-    grade: string
-}
-
-const DSR_ROOT = "https://www.digimonsuperrumble.com/";
 
 const generateChecklist = (): CheckList => {
     return {
@@ -65,64 +49,21 @@ const getPrevChecklist = (): CheckList => {
 
 export default function Main(): React.ReactElement {
     let prevChecklist = getPrevChecklist();
-    let prevNotices = localStorage.getItem("notices") ? JSON.parse(localStorage.getItem("notices")!) : [];
-    let prevCoupons = localStorage.getItem("coupons") ? JSON.parse(localStorage.getItem("coupons")!) : [];
-    let prevLadder = localStorage.getItem("ladder") ? JSON.parse(localStorage.getItem("ladder")!) : null;
+    
     const [checklist, setChecklist] = useState<CheckList>(prevChecklist);
-    const [notices, setNotices] = useState<Array<Notice>>(prevNotices);
-    const [coupons, setCoupons] = useState<Array<Coupon>>(prevCoupons);
-    const [ladder, setLadder] = useState<Ladder|null>(prevLadder);
 
-    useEffect(() => {
-        const url = "https://script.google.com/macros/s/AKfycbzW0bOmuKVwka0LeClnrw68dNV4hi77bnbrZbeEOZjadwj1e-TnRiFBgC49z57F_PJkqw/exec";
-
-        fetch(`${url}?sheetName=notices`).then(async response => {
-            const result = await response.json();
-            
-            if(result.ok) {
-                const notices:Array<Notice> = result.data;
-                setNotices(notices.filter((e, i) => i < 5));
-                localStorage.setItem("notices", JSON.stringify(notices.filter((e, i) => i < 5)));
-            }
-        }).catch(error => {
-            console.log(error);
-        });
-
-        fetch("/.netlify/functions/getCoupons").then(async response => {
-            const coupons:Array<Coupon> = await response.json();
-            
-            localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
-            setCoupons(coupons);
-        }).catch(error => {
-            console.log(error);
-        });
-
-        fetch("/.netlify/functions/getLadder").then(async response => {
-            const ladder:Ladder = await response.json();
-
-            localStorage.setItem("ladder", JSON.stringify(ladder));
-            setLadder(ladder);
-        }).catch(error => {
-            console.log(error);
-        });
-    }, []);
-
-    const getWeekdayText = (weekday: number): string => {
-        switch(weekday) {
-            case 0: return "일";
-            case 1: return "월";
-            case 2: return "화";
-            case 3: return "수";
-            case 4: return "목";
-            case 5: return "금";
-            case 6: return "토";
-            default: return "";
-        }
-    }
-
-    const getCouponDateText = (coupon: Coupon): string => {
-        return `${coupon.startDate} ~ ${coupon.expDate}`;
-    }
+    // const getWeekdayText = (weekday: number): string => {
+    //     switch(weekday) {
+    //         case 0: return "일";
+    //         case 1: return "월";
+    //         case 2: return "화";
+    //         case 3: return "수";
+    //         case 4: return "목";
+    //         case 5: return "금";
+    //         case 6: return "토";
+    //         default: return "";
+    //     }
+    // }
 
     const toggleCheckbox = (event: React.ChangeEvent, dailyCheck: DailyCheck) => {
         const target = event.target as HTMLInputElement;
@@ -132,10 +73,6 @@ export default function Main(): React.ReactElement {
         checklist.lastModified = new Date();
         localStorage.setItem("checklist", JSON.stringify(checklist));
         setChecklist({...checklist});
-    }
-
-    const copyCoupon = (coupon: Coupon) => {
-        navigator.clipboard.writeText(coupon.code).then(() => alert("복사 완료"));
     }
 
     const today = new Date().getDay();
@@ -158,54 +95,38 @@ export default function Main(): React.ReactElement {
                     {/* 오늘의 래더 */}
                     <div className="content-shortcut">
                         <div className="title">오늘의 래더</div>
-                        <div className="content">
-                            <div className="row">
-                                { ladder && <img src={`/images/daily_${ladder.grade}.png`}/> }
-                            </div>
-                        </div>
+                        <Ladders />
                     </div>
                 </aside>
-                <div className="content-shortcut dashboard-center">
-                    <div className="title">체크리스트</div>
-                    <div className="content">
-                        { checklist.list.map(element => (
-                            <label htmlFor={element.titleEng} key={getUUID()}>
-                                <input type="checkbox" id={element.titleEng} checked={element.checked} onChange={(event) => toggleCheckbox(event, element)}/>
-                                <span>{element.title}</span>
-                            </label>
-                        ))}
+                <div className="dashboard-center">
+                    <div className="content-shortcut">
+                        <div className="title">체크리스트</div>
+                        <div className="content">
+                            { checklist.list.map(element => (
+                                <label htmlFor={element.titleEng} key={getUUID()}>
+                                    <input type="checkbox" id={element.titleEng} checked={element.checked} onChange={(event) => toggleCheckbox(event, element)}/>
+                                    <span>{element.title}</span>
+                                </label>
+                            ))}
+                        </div>
+                    </div>
+                    <div className="content-shortcut">
+                        <div className="title">
+                            <Link to={"https://www.youtube.com/@purr95"} target="_blank">밍루블 유튜브 <i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
+                        </div>
+                        <YoutubePlayer />
                     </div>
                 </div>
                 <aside className="dashboard-right">
                     {/* 디슈럼 업데이트 내역 */}
                     <div className="content-shortcut">
                         <div className="title">디슈럼 업데이트 공지</div>
-                        <div className="content">
-                            { notices.map(notice => {
-                                const date = new Date(notice.date).getTime();
-                                const now = new Date().getTime();
-                                
-                                return <Link className="row long" to={`${DSR_ROOT}${notice.href}`} target="_blank" key={getUUID()} title={notice.title}>
-                                    <span>{notice.title}</span>
-                                    {now - date < 60 * 60 * 24 * 5 * 1000 && <i className='new'><img src="/images/new_tag.png" alt="" /></i>}
-                                </Link>
-                            })}
-                        </div>
+                        <UpdateArticles />
                     </div>
                     {/* 쿠폰 */}
                     <div className="content-shortcut">
                         <div className="title">적용 가능한 쿠폰</div>
-                        <div className="content">
-                            { coupons.length === 0 && <div className="coupon"><strong>쿠폰이 없습니다.</strong></div>}
-                            { coupons.map((coupon, index) => (
-                                <div className="coupon" key={getUUID()}>
-                                    <strong>{coupon.name}</strong>
-                                    <small>{getCouponDateText(coupon)}</small>
-                                    <button type='button' className='copy-coupon' title='누르면 복사돼요!' onClick={() => copyCoupon(coupon)}>{coupon.code}</button>
-                                    { index < coupons.length - 1 && <hr /> }
-                                </div>
-                            ))}
-                        </div>
+                        <Coupons />
                     </div>
                 </aside>
             </div>
