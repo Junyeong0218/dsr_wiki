@@ -11811,7 +11811,7 @@
         "element": "불",
         "target": "적",
         "targetCount": "단일",
-        "effect": "방어 감소",
+        "effect": "방어력 감소",
         "additionalTurn": null,
         "coefficients": [
           0.18, 0.1885, 0.197, 0.2055, 0.214, 0.2225, 0.231, 0.2395, 0.248,
@@ -12246,9 +12246,9 @@
     "def": 1010,
     "res": 996,
     "strength": "어둠",
-    "strengthEffect": "",
+    "strengthEffect": "내성",
     "weakness": "불",
-    "weaknessEffect": "",
+    "weaknessEffect": "약점",
     "fieldTypes": ["Nso"],
     "skills": [
       {

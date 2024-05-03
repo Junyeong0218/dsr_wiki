@@ -1668,25 +1668,27 @@
     "skills": [
       {
         "name": "솔 카롤",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "불",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "샤이니 링",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "불",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -2170,9 +2172,9 @@
     "def": 506,
     "res": 415,
     "strength": "불",
-    "strengthEffect": "",
+    "strengthEffect": "내성",
     "weakness": "물",
-    "weaknessEffect": "",
+    "weaknessEffect": "회피불가",
     "fieldTypes": ["DR", "ME", "NSp"],
     "skills": [
       {
@@ -2410,43 +2412,45 @@
     "def": 0,
     "res": 0,
     "strength": "어둠",
-    "strengthEffect": "",
+    "strengthEffect": "내성",
     "weakness": "빛",
-    "weaknessEffect": "",
+    "weaknessEffect": "회피불가",
     "fieldTypes": ["Nso", "UK"],
     "skills": [
       {
         "name": "스나이프 팽",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "다크 인페르노",
         "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
-        "effect": null,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "아군",
+        "targetCount": "단일",
+        "effect": "공격력 증가",
         "additionalTurn": null,
         "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       },
       {
         "name": "드레드 파이어",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 4,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.2625, 0.275, 0.2875, 0.3, 0.3125, 0.325, 0.3375, 0.35, 0.3625
+        ]
       }
     ]
   },
@@ -3643,36 +3647,41 @@
     "skills": [
       {
         "name": "헤비 어택",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "다크사이드 퀘이크",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "흙",
+        "target": "적",
+        "targetCount": "전체",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1282, 0.1346, 0.141, 0.1474, 0.1538, 0.1602, 0.1666, 0.173, 0.1794,
+          0.1858
+        ]
       },
       {
         "name": "데몬 암",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
       }
     ]
   },
@@ -4500,14 +4509,14 @@
     "skills": [
       {
         "name": "워터 웨이브",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "물",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "랍스터 스텝",
@@ -4522,14 +4531,16 @@
       },
       {
         "name": "트윈 넵튠",
-        "attackCount": 0,
-        "range": "근거리",
+        "attackCount": 2,
+        "range": "원거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.5, 0.525, 0.55, 0.575, 0.6, 0.625, 0.65, 0.675, 0.7, 0.725
+        ]
       }
     ]
   },
@@ -5636,36 +5647,42 @@
     "skills": [
       {
         "name": "휘두르기",
-        "attackCount": 0,
+        "attackCount": 2,
         "range": "근거리",
         "element": "물리",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
       },
       {
         "name": "크로노 브레이커",
-        "attackCount": 0,
-        "range": "근거리",
-        "element": "물리",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "강철",
         "target": "적",
         "targetCount": "단일",
-        "effect": null,
+        "effect": "스턴",
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.9, 0.9425, 0.985, 1.0275, 1.07, 1.1125, 1.155, 1.1975, 1.24, 1.2825
+        ]
       },
       {
         "name": "이어 버스팅",
-        "attackCount": 0,
+        "attackCount": 5,
         "range": "근거리",
-        "element": "물리",
+        "element": "강철",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
       }
     ]
   },
@@ -6391,14 +6408,14 @@
     "skills": [
       {
         "name": "베르세르크 소드",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 1,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
       },
       {
         "name": "체크메이트 브레이크",
@@ -6409,7 +6426,10 @@
         "targetCount": "단일",
         "effect": "출혈",
         "additionalTurn": null,
-        "coefficients": [0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1, 0.1047, 0.1094, 0.1141, 0.1188, 0.1235, 0.1282, 0.1329, 0.1376,
+          0.1423
+        ]
       },
       {
         "name": "더 듀얼",
@@ -7483,9 +7503,9 @@
     "def": 669,
     "res": 657,
     "strength": "불",
-    "strengthEffect": "",
+    "strengthEffect": "반사",
     "weakness": "얼음",
-    "weaknessEffect": "",
+    "weaknessEffect": "회피불가",
     "fieldTypes": ["DR", "ME", "NSp"],
     "skills": [
       {
@@ -7894,14 +7914,16 @@
     "skills": [
       {
         "name": "오벨리스크 샷",
-        "attackCount": 0,
-        "range": "",
-        "element": "",
-        "target": "",
-        "targetCount": "",
+        "attackCount": 3,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
         "effect": null,
         "additionalTurn": null,
-        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        "coefficients": [
+          0.1666, 0.1833, 0.2, 0.2166, 0.2333, 0.25, 0.2666, 0.2833, 0.3, 0.3166
+        ]
       },
       {
         "name": "스네이크 밴디지",
@@ -11811,7 +11833,7 @@
         "element": "불",
         "target": "적",
         "targetCount": "단일",
-        "effect": "방어 감소",
+        "effect": "방어력 감소",
         "additionalTurn": null,
         "coefficients": [
           0.18, 0.1885, 0.197, 0.2055, 0.214, 0.2225, 0.231, 0.2395, 0.248,
@@ -12279,7 +12301,7 @@
         "name": "투 탕 릴",
         "attackCount": 6,
         "range": "원거리",
-        "element": "더움",
+        "element": "어둠",
         "target": "적",
         "targetCount": "단일",
         "effect": null,
