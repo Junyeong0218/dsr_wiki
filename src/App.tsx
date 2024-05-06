@@ -18,6 +18,7 @@ import Guide from "./components/guides/Guide";
 import SkillSimulator from "./components/skillSimulator/SkillSimulator";
 import BabySimulator from "./components/babySimulator/BabySimulator";
 import TamerEquipmentSearcher from "./components/TamerEquipments/TamerEquipmentSearcher";
+import dotenv from "dotenv";
 
 export default function App(): React.ReactElement {
     return (
