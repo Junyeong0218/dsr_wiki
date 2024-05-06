@@ -27,7 +27,7 @@ export default function Coupons() : React.ReactElement {
         });
 
         const st2 = new Date().getTime();
-        fetch(`${process.env.REACT_APP_BACKEND_URL}/coupons/active`).then(async (response) => {
+        fetch(`/api/coupons/active`).then(async (response) => {
             const result = await response.json();
             console.log(result)
             if(result.code === 200) {
