@@ -29,7 +29,7 @@ export default function Ladders() : React.ReactElement {
                 console.log(newLadder);
                 console.log(`ladders function time : ${new Date().getTime() - st2}`)
                     
-                localStorage.setItem("ladder", JSON.stringify(v));
+                localStorage.setItem("ladder", JSON.stringify(newLadder));
                 setLadder(newLadder);
             }
         }).catch(error => {
