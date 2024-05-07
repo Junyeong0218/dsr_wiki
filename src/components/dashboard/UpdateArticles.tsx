@@ -17,7 +17,7 @@ export default function UpdateArticles() : React.ReactElement {
 
     useEffect(() => {
         const st1 = new Date().getTime();
-        fetch(`/api/coupons/active`).then(async (response) => {
+        fetch(`/api/notices`).then(async (response) => {
             const result = await response.json();
             console.log(result)
             if(result.status === 200) {

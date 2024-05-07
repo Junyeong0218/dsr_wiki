@@ -16,10 +16,10 @@ export default function YoutubePlayer() : React.ReactElement {
             const result = await response.json();
             console.log(result)
             if(result.status === 200) {
-                console.log(result.data.youtubeId);
+                console.log(result.data[0]);
                 console.log(`youtubeIds function time : ${new Date().getTime() - st2}`)
                     
-                setYoutubeId(result.data.youtubeId);
+                setYoutubeId(result.data[0].youtubeId);
             }
         }).catch(error => {
             console.log(error)
