@@ -32,8 +32,8 @@ export default function Coupons() : React.ReactElement {
             console.log(result)
             if(result.status === 200) {
                 const coupons:Array<Coupon> = result.data;
-                console.log(coupons);
-                console.log(`coupons function time : ${new Date().getTime() - st2}`)
+                // console.log(coupons);
+                // console.log(`coupons function time : ${new Date().getTime() - st2}`)
 
                 localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
                 setCoupons(coupons);

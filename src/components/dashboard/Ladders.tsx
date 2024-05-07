@@ -26,8 +26,8 @@ export default function Ladders() : React.ReactElement {
             console.log(result)
             if(result.status === 200) {
                 const newLadder:Ladder = result.data[0];
-                console.log(newLadder);
-                console.log(`ladders function time : ${new Date().getTime() - st2}`)
+                // console.log(newLadder);
+                // console.log(`ladders function time : ${new Date().getTime() - st2}`)
                     
                 localStorage.setItem("ladder", JSON.stringify(newLadder));
                 setLadder(newLadder);

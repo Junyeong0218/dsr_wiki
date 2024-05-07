@@ -22,8 +22,8 @@ export default function UpdateArticles() : React.ReactElement {
             console.log(result)
             if(result.status === 200) {
                 const notices:Array<Notice> = result.data;
-                console.log(notices);
-                console.log(`notices function time : ${new Date().getTime() - st1}`)
+                // console.log(notices);
+                // console.log(`notices function time : ${new Date().getTime() - st1}`)
 
                 setNotices(notices);
                 localStorage.setItem("notices", JSON.stringify(notices));
@@ -56,7 +56,7 @@ export default function UpdateArticles() : React.ReactElement {
                     const date = new Date(notice.date).getTime();
                     const now = new Date().getTime();
                     
-                    return <Link className="row long" to={`${DSR_ROOT}${notice.href}`} target="_blank" key={getUUID()} title={notice.title}>
+                    return <Link className="row long" to={`${notice.href}`} target="_blank" key={getUUID()} title={notice.title}>
                         <span>{notice.title}</span>
                         {now - date < 60 * 60 * 24 * 5 * 1000 && <i className='new'><img src="/images/new_tag.png" alt="" /></i>}
                     </Link>
