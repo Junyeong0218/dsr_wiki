@@ -11,13 +11,29 @@ export default function Ladders() : React.ReactElement {
     const [ladder, setLadder] = useState<Ladder|null>(prevLadder);
 
     useEffect(() => {
-        fetch("/.netlify/functions/getLadder").then(async response => {
-            const ladder:Ladder = await response.json();
+        // fetch("/.netlify/functions/getLadder").then(async response => {
+        //     const ladder:Ladder = await response.json();
 
-            localStorage.setItem("ladder", JSON.stringify(ladder));
-            setLadder(ladder);
+        //     localStorage.setItem("ladder", JSON.stringify(ladder));
+        //     setLadder(ladder);
+        // }).catch(error => {
+            //     console.log(error);
+            // });
+            
+        const st2 = new Date().getTime();
+        fetch(`/api/ladders/today`).then(async (response) => {
+            const result = await response.json();
+            console.log(result)
+            if(result.status === 200) {
+                const ladder:Ladder = result.data;
+                console.log(ladder);
+                console.log(`ladders function time : ${new Date().getTime() - st2}`)
+                    
+                localStorage.setItem("ladder", JSON.stringify(ladder));
+                setLadder(ladder);
+            }
         }).catch(error => {
-            console.log(error);
+            console.log(error)
         });
     }, []);
 

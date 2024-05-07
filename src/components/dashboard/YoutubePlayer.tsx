@@ -5,11 +5,25 @@ export default function YoutubePlayer() : React.ReactElement {
     const playerTag = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        fetch("/.netlify/functions/getRecentYoutube").then(async response => {
-            const result = await response.json();
+        // fetch("/.netlify/functions/getRecentYoutube").then(async response => {
+        //     const result = await response.json();
 
-            setYoutubeId(result.youtubeId);
-        }).catch();
+        //     setYoutubeId(result.youtubeId);
+        // }).catch();
+
+        const st2 = new Date().getTime();
+        fetch(`/api/youtubeIds/recent`).then(async (response) => {
+            const result = await response.json();
+            console.log(result)
+            if(result.status === 200) {
+                console.log(result.data.youtubeId);
+                console.log(`youtubeIds function time : ${new Date().getTime() - st2}`)
+                    
+                setYoutubeId(result.data.youtubeId);
+            }
+        }).catch(error => {
+            console.log(error)
+        });
     }, []);
 
     useEffect(() => {
