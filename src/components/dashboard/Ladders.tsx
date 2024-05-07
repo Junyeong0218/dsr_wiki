@@ -45,7 +45,7 @@ export default function Ladders() : React.ReactElement {
                 </div>
             </div>
         );
-    }, []);
+    }, [ladder]);
 
     return content;
 }
