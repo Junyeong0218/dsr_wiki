@@ -9574,7 +9574,7 @@
     "afters": [
       {
         "from": 184,
-        "to": 303,
+        "to": 305,
         "rate": 0.475,
         "ingredient": "",
         "method": "일반",
@@ -9589,7 +9589,7 @@
       },
       {
         "from": 184,
-        "to": 340,
+        "to": 342,
         "rate": 0.475,
         "ingredient": "",
         "method": "일반",
@@ -9644,7 +9644,7 @@
     "afters": [
       {
         "from": 185,
-        "to": 347,
+        "to": 349,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -9699,7 +9699,7 @@
     "afters": [
       {
         "from": 186,
-        "to": 309,
+        "to": 311,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -9769,7 +9769,7 @@
     "afters": [
       {
         "from": 187,
-        "to": 343,
+        "to": 345,
         "rate": 0.75,
         "ingredient": "",
         "method": "일반",
@@ -9784,7 +9784,7 @@
       },
       {
         "from": 187,
-        "to": 310,
+        "to": 312,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -9799,7 +9799,7 @@
       },
       {
         "from": 187,
-        "to": 300,
+        "to": 302,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -9829,7 +9829,7 @@
       },
       {
         "from": 187,
-        "to": 336,
+        "to": 338,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -9899,7 +9899,7 @@
     "afters": [
       {
         "from": 188,
-        "to": 345,
+        "to": 347,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -9954,7 +9954,7 @@
     "afters": [
       {
         "from": 189,
-        "to": 316,
+        "to": 318,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -10024,7 +10024,7 @@
     "afters": [
       {
         "from": 190,
-        "to": 358,
+        "to": 360,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -10039,7 +10039,7 @@
       },
       {
         "from": 190,
-        "to": 360,
+        "to": 362,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -10109,7 +10109,7 @@
     "afters": [
       {
         "from": 191,
-        "to": 304,
+        "to": 306,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -10164,7 +10164,7 @@
     "afters": [
       {
         "from": 192,
-        "to": 318,
+        "to": 320,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -10219,7 +10219,7 @@
     "afters": [
       {
         "from": 193,
-        "to": 320,
+        "to": 322,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -10249,7 +10249,7 @@
       },
       {
         "from": 193,
-        "to": 333,
+        "to": 335,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -10289,7 +10289,7 @@
     "afters": [
       {
         "from": 194,
-        "to": 357,
+        "to": 359,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -10344,7 +10344,7 @@
     "afters": [
       {
         "from": 195,
-        "to": 312,
+        "to": 314,
         "rate": 0.425,
         "ingredient": "",
         "method": "일반",
@@ -10359,7 +10359,7 @@
       },
       {
         "from": 195,
-        "to": 351,
+        "to": 353,
         "rate": 0.425,
         "ingredient": "",
         "method": "일반",
@@ -10374,7 +10374,7 @@
       },
       {
         "from": 195,
-        "to": 332,
+        "to": 334,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -10429,7 +10429,7 @@
     "afters": [
       {
         "from": 196,
-        "to": 322,
+        "to": 324,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -10514,7 +10514,7 @@
     "afters": [
       {
         "from": 197,
-        "to": 320,
+        "to": 322,
         "rate": 0.75,
         "ingredient": "",
         "method": "일반",
@@ -10529,7 +10529,7 @@
       },
       {
         "from": 197,
-        "to": 333,
+        "to": 335,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -10544,7 +10544,7 @@
       },
       {
         "from": 197,
-        "to": 322,
+        "to": 324,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -10653,7 +10653,7 @@
     "afters": [
       {
         "from": 199,
-        "to": 323,
+        "to": 325,
         "rate": 0.75,
         "ingredient": "",
         "method": "일반",
@@ -10668,7 +10668,7 @@
       },
       {
         "from": 199,
-        "to": 300,
+        "to": 302,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -10683,7 +10683,7 @@
       },
       {
         "from": 199,
-        "to": 310,
+        "to": 312,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -10713,7 +10713,7 @@
       },
       {
         "from": 199,
-        "to": 334,
+        "to": 336,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -10768,7 +10768,7 @@
     "afters": [
       {
         "from": 200,
-        "to": 303,
+        "to": 305,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -10783,7 +10783,7 @@
       },
       {
         "from": 200,
-        "to": 333,
+        "to": 335,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -10877,7 +10877,7 @@
     "afters": [
       {
         "from": 202,
-        "to": 361,
+        "to": 363,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -10956,7 +10956,7 @@
     "afters": [
       {
         "from": 204,
-        "to": 351,
+        "to": 353,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11011,7 +11011,7 @@
     "afters": [
       {
         "from": 205,
-        "to": 296,
+        "to": 298,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11066,7 +11066,7 @@
     "afters": [
       {
         "from": 206,
-        "to": 364,
+        "to": 366,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11169,7 +11169,7 @@
     "afters": [
       {
         "from": 209,
-        "to": 353,
+        "to": 355,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11224,7 +11224,7 @@
     "afters": [
       {
         "from": 210,
-        "to": 326,
+        "to": 328,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11294,7 +11294,7 @@
     "afters": [
       {
         "from": 211,
-        "to": 302,
+        "to": 304,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -11309,7 +11309,7 @@
       },
       {
         "from": 211,
-        "to": 330,
+        "to": 332,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -11364,7 +11364,7 @@
     "afters": [
       {
         "from": 212,
-        "to": 303,
+        "to": 305,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11434,7 +11434,7 @@
     "afters": [
       {
         "from": 213,
-        "to": 356,
+        "to": 358,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11504,7 +11504,7 @@
     "afters": [
       {
         "from": 214,
-        "to": 307,
+        "to": 309,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11559,7 +11559,7 @@
     "afters": [
       {
         "from": 215,
-        "to": 350,
+        "to": 352,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11614,7 +11614,7 @@
     "afters": [
       {
         "from": 216,
-        "to": 338,
+        "to": 340,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11669,7 +11669,7 @@
     "afters": [
       {
         "from": 217,
-        "to": 325,
+        "to": 327,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -11724,7 +11724,7 @@
     "afters": [
       {
         "from": 218,
-        "to": 295,
+        "to": 297,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11779,7 +11779,7 @@
     "afters": [
       {
         "from": 219,
-        "to": 354,
+        "to": 356,
         "rate": 0.425,
         "ingredient": "",
         "method": "일반",
@@ -11794,7 +11794,7 @@
       },
       {
         "from": 219,
-        "to": 331,
+        "to": 333,
         "rate": 0.425,
         "ingredient": "",
         "method": "일반",
@@ -11809,7 +11809,7 @@
       },
       {
         "from": 219,
-        "to": 321,
+        "to": 323,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -11879,7 +11879,7 @@
     "afters": [
       {
         "from": 220,
-        "to": 328,
+        "to": 330,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -11934,7 +11934,7 @@
     "afters": [
       {
         "from": 221,
-        "to": 341,
+        "to": 343,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -12004,7 +12004,7 @@
     "afters": [
       {
         "from": 222,
-        "to": 358,
+        "to": 360,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -12104,7 +12104,7 @@
     "afters": [
       {
         "from": 223,
-        "to": 297,
+        "to": 299,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -12119,7 +12119,7 @@
       },
       {
         "from": 223,
-        "to": 335,
+        "to": 337,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -12198,7 +12198,7 @@
     "afters": [
       {
         "from": 225,
-        "to": 342,
+        "to": 344,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -12292,21 +12292,6 @@
     "afters": [
       {
         "from": 227,
-        "to": 337,
-        "rate": 0.425,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 227,
         "to": 339,
         "rate": 0.425,
         "ingredient": "",
@@ -12322,7 +12307,22 @@
       },
       {
         "from": 227,
-        "to": 335,
+        "to": 341,
+        "rate": 0.425,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 227,
+        "to": 337,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -12392,7 +12392,7 @@
     "afters": [
       {
         "from": 228,
-        "to": 319,
+        "to": 321,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -12462,7 +12462,7 @@
     "afters": [
       {
         "from": 229,
-        "to": 319,
+        "to": 321,
         "rate": 0.475,
         "ingredient": "",
         "method": "일반",
@@ -12477,7 +12477,7 @@
       },
       {
         "from": 229,
-        "to": 301,
+        "to": 303,
         "rate": 0.475,
         "ingredient": "",
         "method": "일반",
@@ -12532,7 +12532,7 @@
     "afters": [
       {
         "from": 230,
-        "to": 346,
+        "to": 348,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -12587,7 +12587,7 @@
     "afters": [
       {
         "from": 231,
-        "to": 336,
+        "to": 338,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -12666,7 +12666,7 @@
     "afters": [
       {
         "from": 233,
-        "to": 317,
+        "to": 319,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -12721,7 +12721,7 @@
     "afters": [
       {
         "from": 234,
-        "to": 316,
+        "to": 318,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -12800,7 +12800,7 @@
     "afters": [
       {
         "from": 236,
-        "to": 363,
+        "to": 365,
         "rate": 0.425,
         "ingredient": "",
         "method": "일반",
@@ -12815,7 +12815,7 @@
       },
       {
         "from": 236,
-        "to": 323,
+        "to": 325,
         "rate": 0.425,
         "ingredient": "",
         "method": "일반",
@@ -12830,7 +12830,7 @@
       },
       {
         "from": 236,
-        "to": 300,
+        "to": 302,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -12885,7 +12885,7 @@
     "afters": [
       {
         "from": 237,
-        "to": 314,
+        "to": 316,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -12955,7 +12955,7 @@
     "afters": [
       {
         "from": 238,
-        "to": 306,
+        "to": 308,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -13010,7 +13010,7 @@
     "afters": [
       {
         "from": 239,
-        "to": 305,
+        "to": 307,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -13065,7 +13065,7 @@
     "afters": [
       {
         "from": 240,
-        "to": 307,
+        "to": 309,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -13080,7 +13080,7 @@
       },
       {
         "from": 240,
-        "to": 311,
+        "to": 313,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -13110,7 +13110,7 @@
       },
       {
         "from": 240,
-        "to": 334,
+        "to": 336,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -13180,7 +13180,7 @@
     "afters": [
       {
         "from": 241,
-        "to": 351,
+        "to": 353,
         "rate": 0.75,
         "ingredient": "",
         "method": "일반",
@@ -13195,7 +13195,7 @@
       },
       {
         "from": 241,
-        "to": 332,
+        "to": 334,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -13210,7 +13210,7 @@
       },
       {
         "from": 241,
-        "to": 360,
+        "to": 362,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -13265,7 +13265,7 @@
     "afters": [
       {
         "from": 242,
-        "to": 342,
+        "to": 344,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -13280,7 +13280,7 @@
       },
       {
         "from": 242,
-        "to": 359,
+        "to": 361,
         "rate": 0.425,
         "ingredient": "",
         "method": "일반",
@@ -13295,7 +13295,7 @@
       },
       {
         "from": 242,
-        "to": 328,
+        "to": 330,
         "rate": 0.425,
         "ingredient": "",
         "method": "일반",
@@ -13350,7 +13350,7 @@
     "afters": [
       {
         "from": 243,
-        "to": 350,
+        "to": 352,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -13405,7 +13405,7 @@
     "afters": [
       {
         "from": 244,
-        "to": 324,
+        "to": 326,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -13420,7 +13420,7 @@
       },
       {
         "from": 244,
-        "to": 349,
+        "to": 351,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -13475,7 +13475,7 @@
     "afters": [
       {
         "from": 245,
-        "to": 362,
+        "to": 364,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -13530,7 +13530,7 @@
     "afters": [
       {
         "from": 246,
-        "to": 323,
+        "to": 325,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -13600,7 +13600,7 @@
     "afters": [
       {
         "from": 247,
-        "to": 339,
+        "to": 341,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -13615,7 +13615,7 @@
       },
       {
         "from": 247,
-        "to": 335,
+        "to": 337,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -13670,7 +13670,7 @@
     "afters": [
       {
         "from": 248,
-        "to": 340,
+        "to": 342,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -13740,7 +13740,7 @@
     "afters": [
       {
         "from": 249,
-        "to": 339,
+        "to": 341,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -13755,7 +13755,7 @@
       },
       {
         "from": 249,
-        "to": 344,
+        "to": 346,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -13810,7 +13810,7 @@
     "afters": [
       {
         "from": 250,
-        "to": 348,
+        "to": 350,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -13865,7 +13865,7 @@
     "afters": [
       {
         "from": 251,
-        "to": 329,
+        "to": 331,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -13880,7 +13880,7 @@
       },
       {
         "from": 251,
-        "to": 332,
+        "to": 334,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -13935,7 +13935,7 @@
     "afters": [
       {
         "from": 252,
-        "to": 299,
+        "to": 301,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -14005,7 +14005,7 @@
     "afters": [
       {
         "from": 253,
-        "to": 356,
+        "to": 358,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -14060,7 +14060,7 @@
     "afters": [
       {
         "from": 254,
-        "to": 298,
+        "to": 300,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -14115,7 +14115,7 @@
     "afters": [
       {
         "from": 255,
-        "to": 352,
+        "to": 354,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -14130,7 +14130,7 @@
       },
       {
         "from": 255,
-        "to": 313,
+        "to": 315,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -14200,38 +14200,8 @@
     "afters": [
       {
         "from": 256,
-        "to": 315,
+        "to": 317,
         "rate": 0.375,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 256,
-        "to": 320,
-        "rate": 0.375,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 256,
-        "to": 333,
-        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -14246,6 +14216,36 @@
       {
         "from": 256,
         "to": 322,
+        "rate": 0.375,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 256,
+        "to": 335,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 256,
+        "to": 324,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -14300,7 +14300,7 @@
     "afters": [
       {
         "from": 257,
-        "to": 359,
+        "to": 361,
         "rate": 0.475,
         "ingredient": "",
         "method": "일반",
@@ -14315,7 +14315,7 @@
       },
       {
         "from": 257,
-        "to": 327,
+        "to": 329,
         "rate": 0.475,
         "ingredient": "",
         "method": "일반",
@@ -14385,7 +14385,7 @@
     "afters": [
       {
         "from": 258,
-        "to": 353,
+        "to": 355,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -14470,7 +14470,7 @@
     "afters": [
       {
         "from": 259,
-        "to": 308,
+        "to": 310,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -14555,7 +14555,7 @@
       },
       {
         "from": 260,
-        "to": 325,
+        "to": 327,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -14592,7 +14592,7 @@
     "digimonType": "Va",
     "befores": [
       {
-        "from": 295,
+        "from": 297,
         "to": 261,
         "rate": 0.05,
         "ingredient": "에보류터",
@@ -14616,7 +14616,7 @@
     "digimonType": "Va",
     "befores": [
       {
-        "from": 297,
+        "from": 299,
         "to": 262,
         "rate": 0.05,
         "ingredient": "에보류터",
@@ -14635,13 +14635,37 @@
   },
   {
     "id": 263,
+    "name": "[돌연변이]나이트몬",
+    "grade": 5,
+    "digimonType": "Da",
+    "befores": [
+      {
+        "from": 301,
+        "to": 263,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 778,
+        "reqSpd": 370,
+        "reqRes": 0,
+        "reqDef": 876,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 264,
     "name": "[돌연변이]도사몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 304,
-        "to": 263,
+        "from": 306,
+        "to": 264,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14658,14 +14682,14 @@
     "afters": null
   },
   {
-    "id": 264,
+    "id": 265,
     "name": "[돌연변이]도우몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 305,
-        "to": 264,
+        "from": 307,
+        "to": 265,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14682,14 +14706,14 @@
     "afters": null
   },
   {
-    "id": 265,
+    "id": 266,
     "name": "[돌연변이]드라고몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 306,
-        "to": 265,
+        "from": 308,
+        "to": 266,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14706,14 +14730,14 @@
     "afters": null
   },
   {
-    "id": 266,
+    "id": 267,
     "name": "[돌연변이]디지타몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 307,
-        "to": 266,
+        "from": 309,
+        "to": 267,
         "rate": 0.05,
         "ingredient": "원념이 깃든 스컬그레이몬의 뼈",
         "method": "일반",
@@ -14730,14 +14754,14 @@
     "afters": null
   },
   {
-    "id": 267,
+    "id": 268,
     "name": "[돌연변이]래피드몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 309,
-        "to": 267,
+        "from": 311,
+        "to": 268,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14754,14 +14778,14 @@
     "afters": null
   },
   {
-    "id": 268,
+    "id": 269,
     "name": "[돌연변이]레이디데블몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 310,
-        "to": 268,
+        "from": 312,
+        "to": 269,
         "rate": 0.25,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -14772,20 +14796,20 @@
         "reqSpd": 0,
         "reqRes": 923,
         "reqDef": 0,
-        "with": 343
+        "with": 345
       }
     ],
     "afters": null
   },
   {
-    "id": 269,
+    "id": 270,
     "name": "[돌연변이]릴리몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 312,
-        "to": 269,
+        "from": 314,
+        "to": 270,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14802,14 +14826,14 @@
     "afters": null
   },
   {
-    "id": 270,
+    "id": 271,
     "name": "[돌연변이]맘몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 316,
-        "to": 270,
+        "from": 318,
+        "to": 271,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14826,14 +14850,14 @@
     "afters": null
   },
   {
-    "id": 271,
+    "id": 272,
     "name": "[돌연변이]메가로그라우몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 318,
-        "to": 271,
+        "from": 320,
+        "to": 272,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14850,14 +14874,14 @@
     "afters": null
   },
   {
-    "id": 272,
+    "id": 273,
     "name": "[돌연변이]메가시드라몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 319,
-        "to": 272,
+        "from": 321,
+        "to": 273,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14874,14 +14898,14 @@
     "afters": null
   },
   {
-    "id": 273,
+    "id": 274,
     "name": "[돌연변이]메탈그레이몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 320,
-        "to": 273,
+        "from": 322,
+        "to": 274,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14898,14 +14922,14 @@
     "afters": null
   },
   {
-    "id": 274,
+    "id": 275,
     "name": "[돌연변이]메탈티라노몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 322,
-        "to": 274,
+        "from": 324,
+        "to": 275,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14922,14 +14946,14 @@
     "afters": null
   },
   {
-    "id": 275,
+    "id": 276,
     "name": "[돌연변이]묘티스몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 323,
-        "to": 275,
+        "from": 325,
+        "to": 276,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14946,14 +14970,38 @@
     "afters": null
   },
   {
-    "id": 276,
+    "id": 277,
+    "name": "[돌연변이]미스티몬",
+    "grade": 5,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 326,
+        "to": 277,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 833,
+        "reqInt": 0,
+        "reqSpd": 370,
+        "reqRes": 760,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 278,
     "name": "[돌연변이]미이라몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 325,
-        "to": 276,
+        "from": 327,
+        "to": 278,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -14970,14 +15018,14 @@
     "afters": null
   },
   {
-    "id": 277,
+    "id": 279,
     "name": "[돌연변이]바알몬",
     "grade": 5,
     "digimonType": "Fr",
     "befores": [
       {
-        "from": 326,
-        "to": 277,
+        "from": 328,
+        "to": 279,
         "rate": 0.05,
         "ingredient": "주작몬의 기운",
         "method": "일반",
@@ -14991,8 +15039,8 @@
         "with": 0
       },
       {
-        "from": 326,
-        "to": 277,
+        "from": 328,
+        "to": 279,
         "rate": 0.75,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -15003,20 +15051,20 @@
         "reqSpd": 432,
         "reqRes": 640,
         "reqDef": 0,
-        "with": 349
+        "with": 351
       }
     ],
     "afters": null
   },
   {
-    "id": 278,
+    "id": 280,
     "name": "[돌연변이]베이더몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 328,
-        "to": 278,
+        "from": 330,
+        "to": 280,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15033,14 +15081,14 @@
     "afters": null
   },
   {
-    "id": 279,
+    "id": 281,
     "name": "[돌연변이]스컬그레이몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 333,
-        "to": 279,
+        "from": 335,
+        "to": 281,
         "rate": 0.05,
         "ingredient": "키메라몬의 생체 데이터",
         "method": "일반",
@@ -15057,14 +15105,14 @@
     "afters": null
   },
   {
-    "id": 280,
+    "id": 282,
     "name": "[돌연변이]스컬사탄몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 334,
-        "to": 280,
+        "from": 336,
+        "to": 282,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15081,14 +15129,14 @@
     "afters": null
   },
   {
-    "id": 281,
+    "id": 283,
     "name": "[돌연변이]아트라캅테리몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 339,
-        "to": 281,
+        "from": 341,
+        "to": 283,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15105,14 +15153,14 @@
     "afters": null
   },
   {
-    "id": 282,
+    "id": 284,
     "name": "[돌연변이]에테몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 342,
-        "to": 282,
+        "from": 344,
+        "to": 284,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15129,14 +15177,14 @@
     "afters": null
   },
   {
-    "id": 283,
+    "id": 285,
     "name": "[돌연변이]엔젤우몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 343,
-        "to": 283,
+        "from": 345,
+        "to": 285,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15153,14 +15201,14 @@
     "afters": null
   },
   {
-    "id": 284,
+    "id": 286,
     "name": "[돌연변이]워가루몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 347,
-        "to": 284,
+        "from": 349,
+        "to": 286,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15177,14 +15225,14 @@
     "afters": null
   },
   {
-    "id": 285,
+    "id": 287,
     "name": "[돌연변이]인펠몬",
     "grade": 5,
     "digimonType": "Uk",
     "befores": [
       {
-        "from": 348,
-        "to": 285,
+        "from": 350,
+        "to": 287,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15201,14 +15249,14 @@
     "afters": null
   },
   {
-    "id": 286,
+    "id": 288,
     "name": "[돌연변이]조커몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 349,
-        "to": 286,
+        "from": 351,
+        "to": 288,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15222,8 +15270,8 @@
         "with": 0
       },
       {
-        "from": 349,
-        "to": 286,
+        "from": 351,
+        "to": 288,
         "rate": 0.75,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -15234,20 +15282,20 @@
         "reqSpd": 383,
         "reqRes": 680,
         "reqDef": 0,
-        "with": 326
+        "with": 328
       }
     ],
     "afters": null
   },
   {
-    "id": 287,
+    "id": 289,
     "name": "[돌연변이]쥬드몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 350,
-        "to": 287,
+        "from": 352,
+        "to": 289,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15264,14 +15312,14 @@
     "afters": null
   },
   {
-    "id": 288,
+    "id": 290,
     "name": "[돌연변이]쥬레이몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 351,
-        "to": 288,
+        "from": 353,
+        "to": 290,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15288,14 +15336,14 @@
     "afters": null
   },
   {
-    "id": 289,
+    "id": 291,
     "name": "[돌연변이]캐논벌몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 353,
-        "to": 289,
+        "from": 355,
+        "to": 291,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15312,14 +15360,14 @@
     "afters": null
   },
   {
-    "id": 290,
+    "id": 292,
     "name": "[돌연변이]키메라몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 355,
-        "to": 290,
+        "from": 357,
+        "to": 292,
         "rate": 0.05,
         "ingredient": "파워드라몬 개조파츠",
         "method": "일반",
@@ -15336,14 +15384,14 @@
     "afters": null
   },
   {
-    "id": 291,
+    "id": 293,
     "name": "[돌연변이]패롯몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 357,
-        "to": 291,
+        "from": 359,
+        "to": 293,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15360,14 +15408,14 @@
     "afters": null
   },
   {
-    "id": 292,
+    "id": 294,
     "name": "[돌연변이]피콜몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 362,
-        "to": 292,
+        "from": 364,
+        "to": 294,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15384,14 +15432,14 @@
     "afters": null
   },
   {
-    "id": 293,
+    "id": 295,
     "name": "[돌연변이]홀리엔젤몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 363,
-        "to": 293,
+        "from": 365,
+        "to": 295,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15408,14 +15456,14 @@
     "afters": null
   },
   {
-    "id": 294,
+    "id": 296,
     "name": "[돌연변이]화이트레오몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 364,
-        "to": 294,
+        "from": 366,
+        "to": 296,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15432,14 +15480,14 @@
     "afters": null
   },
   {
-    "id": 295,
+    "id": 297,
     "name": "가루다몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
         "from": 218,
-        "to": 295,
+        "to": 297,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -15455,8 +15503,8 @@
     ],
     "afters": [
       {
-        "from": 295,
-        "to": 402,
+        "from": 297,
+        "to": 407,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15470,7 +15518,7 @@
         "with": 0
       },
       {
-        "from": 295,
+        "from": 297,
         "to": 261,
         "rate": 0.05,
         "ingredient": "에보류터",
@@ -15487,107 +15535,13 @@
     ]
   },
   {
-    "id": 296,
+    "id": 298,
     "name": "가비지몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 205,
-        "to": 296,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 297,
-    "name": "고래몬",
-    "grade": 5,
-    "digimonType": "Va",
-    "befores": [
-      {
-        "from": 223,
-        "to": 297,
-        "rate": 0.1,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 297,
-        "to": 373,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 374,
-        "reqRes": 708,
-        "reqDef": 821,
-        "with": 0
-      },
-      {
-        "from": 297,
-        "to": 367,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 374,
-        "reqRes": 708,
-        "reqDef": 821,
-        "with": 0
-      },
-      {
-        "from": 297,
-        "to": 262,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 374,
-        "reqRes": 708,
-        "reqDef": 821,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 298,
-    "name": "기가드라몬",
-    "grade": 5,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 254,
         "to": 298,
         "rate": 0.95,
         "ingredient": "",
@@ -15606,14 +15560,14 @@
   },
   {
     "id": 299,
-    "name": "나이트몬",
+    "name": "고래몬",
     "grade": 5,
-    "digimonType": "Da",
+    "digimonType": "Va",
     "befores": [
       {
-        "from": 252,
+        "from": 223,
         "to": 299,
-        "rate": 0.95,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -15626,48 +15580,64 @@
         "with": 0
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 299,
+        "to": 378,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 374,
+        "reqRes": 708,
+        "reqDef": 821,
+        "with": 0
+      },
+      {
+        "from": 299,
+        "to": 369,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 374,
+        "reqRes": 708,
+        "reqDef": 821,
+        "with": 0
+      },
+      {
+        "from": 299,
+        "to": 262,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 374,
+        "reqRes": 708,
+        "reqDef": 821,
+        "with": 0
+      }
+    ]
   },
   {
     "id": 300,
-    "name": "네오데블몬",
+    "name": "기가드라몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 187,
+        "from": 254,
         "to": 300,
-        "rate": 0.1,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 199,
-        "to": 300,
-        "rate": 0.1,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 236,
-        "to": 300,
-        "rate": 0.1,
+        "rate": 0.95,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -15684,14 +15654,14 @@
   },
   {
     "id": 301,
-    "name": "다이버몬",
+    "name": "나이트몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 229,
+        "from": 252,
         "to": 301,
-        "rate": 0.475,
+        "rate": 0.95,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -15704,18 +15674,94 @@
         "with": 0
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 301,
+        "to": 371,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 778,
+        "reqSpd": 370,
+        "reqRes": 0,
+        "reqDef": 876,
+        "with": 0
+      },
+      {
+        "from": 301,
+        "to": 375,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 778,
+        "reqSpd": 370,
+        "reqRes": 0,
+        "reqDef": 876,
+        "with": 0
+      },
+      {
+        "from": 301,
+        "to": 263,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 778,
+        "reqSpd": 370,
+        "reqRes": 0,
+        "reqDef": 876,
+        "with": 0
+      }
+    ]
   },
   {
     "id": 302,
-    "name": "데드메라몬",
+    "name": "네오데블몬",
     "grade": 5,
-    "digimonType": "Da",
+    "digimonType": "Vi",
     "befores": [
       {
-        "from": 211,
+        "from": 187,
         "to": 302,
-        "rate": 0.85,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 199,
+        "to": 302,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 236,
+        "to": 302,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -15732,44 +15778,14 @@
   },
   {
     "id": 303,
-    "name": "데이터몬",
+    "name": "다이버몬",
     "grade": 5,
-    "digimonType": "Vi",
+    "digimonType": "Da",
     "befores": [
       {
-        "from": 184,
+        "from": 229,
         "to": 303,
         "rate": 0.475,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 200,
-        "to": 303,
-        "rate": 0.85,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 212,
-        "to": 303,
-        "rate": 0.95,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -15786,14 +15802,14 @@
   },
   {
     "id": 304,
-    "name": "도사몬",
+    "name": "데드메라몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 191,
+        "from": 211,
         "to": 304,
-        "rate": 0.95,
+        "rate": 0.85,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -15806,62 +15822,46 @@
         "with": 0
       }
     ],
-    "afters": [
-      {
-        "from": 304,
-        "to": 395,
-        "rate": 0.85,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.04,
-        "reqStr": 0,
-        "reqInt": 768,
-        "reqSpd": 453,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 304,
-        "to": 387,
-        "rate": 0.1,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.04,
-        "reqStr": 0,
-        "reqInt": 768,
-        "reqSpd": 453,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 304,
-        "to": 263,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.04,
-        "reqStr": 0,
-        "reqInt": 768,
-        "reqSpd": 453,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ]
+    "afters": null
   },
   {
     "id": 305,
-    "name": "도우몬",
+    "name": "데이터몬",
     "grade": 5,
-    "digimonType": "Da",
+    "digimonType": "Vi",
     "befores": [
       {
-        "from": 239,
+        "from": 184,
+        "to": 305,
+        "rate": 0.475,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 200,
+        "to": 305,
+        "rate": 0.85,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 212,
         "to": 305,
         "rate": 0.95,
         "ingredient": "",
@@ -15876,47 +15876,16 @@
         "with": 0
       }
     ],
-    "afters": [
-      {
-        "from": 305,
-        "to": 395,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 677,
-        "reqInt": 852,
-        "reqSpd": 494,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 305,
-        "to": 264,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 677,
-        "reqInt": 852,
-        "reqSpd": 494,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ]
+    "afters": null
   },
   {
     "id": 306,
-    "name": "드라고몬",
+    "name": "도사몬",
     "grade": 5,
-    "digimonType": "Vi",
+    "digimonType": "Da",
     "befores": [
       {
-        "from": 238,
+        "from": 191,
         "to": 306,
         "rate": 0.95,
         "ingredient": "",
@@ -15934,7 +15903,132 @@
     "afters": [
       {
         "from": 306,
-        "to": 367,
+        "to": 400,
+        "rate": 0.85,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.04,
+        "reqStr": 0,
+        "reqInt": 768,
+        "reqSpd": 453,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 306,
+        "to": 392,
+        "rate": 0.1,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.04,
+        "reqStr": 0,
+        "reqInt": 768,
+        "reqSpd": 453,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 306,
+        "to": 264,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.04,
+        "reqStr": 0,
+        "reqInt": 768,
+        "reqSpd": 453,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "name": "도우몬",
+    "grade": 5,
+    "digimonType": "Da",
+    "befores": [
+      {
+        "from": 239,
+        "to": 307,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 307,
+        "to": 400,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 677,
+        "reqInt": 852,
+        "reqSpd": 494,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 307,
+        "to": 265,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 677,
+        "reqInt": 852,
+        "reqSpd": 494,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "name": "드라고몬",
+    "grade": 5,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 238,
+        "to": 308,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 308,
+        "to": 369,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15948,8 +16042,8 @@
         "with": 0
       },
       {
-        "from": 306,
-        "to": 265,
+        "from": 308,
+        "to": 266,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -15965,14 +16059,14 @@
     ]
   },
   {
-    "id": 307,
+    "id": 309,
     "name": "디지타몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
         "from": 214,
-        "to": 307,
+        "to": 309,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -15987,7 +16081,7 @@
       },
       {
         "from": 240,
-        "to": 307,
+        "to": 309,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -16003,8 +16097,8 @@
     ],
     "afters": [
       {
-        "from": 307,
-        "to": 398,
+        "from": 309,
+        "to": 403,
         "rate": 0.95,
         "ingredient": "원념이 깃든 스컬그레이몬의 뼈",
         "method": "일반",
@@ -16018,8 +16112,8 @@
         "with": 0
       },
       {
-        "from": 307,
-        "to": 266,
+        "from": 309,
+        "to": 267,
         "rate": 0.05,
         "ingredient": "원념이 깃든 스컬그레이몬의 뼈",
         "method": "일반",
@@ -16035,14 +16129,14 @@
     ]
   },
   {
-    "id": 308,
+    "id": 310,
     "name": "라일라몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
         "from": 259,
-        "to": 308,
+        "to": 310,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -16059,14 +16153,14 @@
     "afters": null
   },
   {
-    "id": 309,
+    "id": 311,
     "name": "래피드몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
         "from": 186,
-        "to": 309,
+        "to": 311,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -16082,8 +16176,8 @@
     ],
     "afters": [
       {
-        "from": 309,
-        "to": 389,
+        "from": 311,
+        "to": 394,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16097,8 +16191,8 @@
         "with": 0
       },
       {
-        "from": 309,
-        "to": 267,
+        "from": 311,
+        "to": 268,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16114,14 +16208,14 @@
     ]
   },
   {
-    "id": 310,
+    "id": 312,
     "name": "레이디데블몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 187,
-        "to": 310,
+        "to": 312,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -16136,7 +16230,7 @@
       },
       {
         "from": 199,
-        "to": 310,
+        "to": 312,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -16152,8 +16246,8 @@
     ],
     "afters": [
       {
-        "from": 310,
-        "to": 374,
+        "from": 312,
+        "to": 379,
         "rate": 0.25,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -16164,11 +16258,11 @@
         "reqSpd": 0,
         "reqRes": 923,
         "reqDef": 0,
-        "with": 343
+        "with": 345
       },
       {
-        "from": 310,
-        "to": 268,
+        "from": 312,
+        "to": 269,
         "rate": 0.75,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -16179,97 +16273,18 @@
         "reqSpd": 0,
         "reqRes": 923,
         "reqDef": 0,
-        "with": 343
+        "with": 345
       }
     ]
   },
   {
-    "id": 311,
+    "id": 313,
     "name": "리벨리몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 240,
-        "to": 311,
-        "rate": 0.1,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 312,
-    "name": "릴리몬",
-    "grade": 5,
-    "digimonType": "Da",
-    "befores": [
-      {
-        "from": 195,
-        "to": 312,
-        "rate": 0.425,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 312,
-        "to": 371,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 831,
-        "reqInt": 737,
-        "reqSpd": 0,
-        "reqRes": 738,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 312,
-        "to": 269,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 831,
-        "reqInt": 737,
-        "reqSpd": 0,
-        "reqRes": 738,
-        "reqDef": 0,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 313,
-    "name": "마구라몬",
-    "grade": 5,
-    "digimonType": "Da",
-    "befores": [
-      {
-        "from": 255,
         "to": 313,
         "rate": 0.1,
         "ingredient": "",
@@ -16288,14 +16303,14 @@
   },
   {
     "id": 314,
-    "name": "마린데블몬",
+    "name": "릴리몬",
     "grade": 5,
-    "digimonType": "Vi",
+    "digimonType": "Da",
     "befores": [
       {
-        "from": 237,
+        "from": 195,
         "to": 314,
-        "rate": 0.95,
+        "rate": 0.425,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -16308,18 +16323,49 @@
         "with": 0
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 314,
+        "to": 376,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 831,
+        "reqInt": 737,
+        "reqSpd": 0,
+        "reqRes": 738,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 314,
+        "to": 270,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 831,
+        "reqInt": 737,
+        "reqSpd": 0,
+        "reqRes": 738,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
   },
   {
     "id": 315,
-    "name": "마스터티라노몬",
+    "name": "마구라몬",
     "grade": 5,
-    "digimonType": "Va",
+    "digimonType": "Da",
     "befores": [
       {
-        "from": 256,
+        "from": 255,
         "to": 315,
-        "rate": 0.375,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -16336,83 +16382,13 @@
   },
   {
     "id": 316,
-    "name": "맘몬",
-    "grade": 5,
-    "digimonType": "Va",
-    "befores": [
-      {
-        "from": 189,
-        "to": 316,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 234,
-        "to": 316,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 316,
-        "to": 390,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 828,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 441,
-        "reqDef": 949,
-        "with": 0
-      },
-      {
-        "from": 316,
-        "to": 270,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 828,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 441,
-        "reqDef": 949,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 317,
-    "name": "메가드라몬",
+    "name": "마린데블몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 233,
-        "to": 317,
+        "from": 237,
+        "to": 316,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -16429,13 +16405,52 @@
     "afters": null
   },
   {
-    "id": 318,
-    "name": "메가로그라우몬",
+    "id": 317,
+    "name": "마스터티라노몬",
     "grade": 5,
-    "digimonType": "Vi",
+    "digimonType": "Va",
     "befores": [
       {
-        "from": 192,
+        "from": 256,
+        "to": 317,
+        "rate": 0.375,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 318,
+    "name": "맘몬",
+    "grade": 5,
+    "digimonType": "Va",
+    "befores": [
+      {
+        "from": 189,
+        "to": 318,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 234,
         "to": 318,
         "rate": 0.95,
         "ingredient": "",
@@ -16453,7 +16468,86 @@
     "afters": [
       {
         "from": 318,
-        "to": 369,
+        "to": 395,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 828,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 441,
+        "reqDef": 949,
+        "with": 0
+      },
+      {
+        "from": 318,
+        "to": 271,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 828,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 441,
+        "reqDef": 949,
+        "with": 0
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "name": "메가드라몬",
+    "grade": 5,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 233,
+        "to": 319,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 320,
+    "name": "메가로그라우몬",
+    "grade": 5,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 192,
+        "to": 320,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 320,
+        "to": 373,
         "rate": 0.85,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16467,8 +16561,8 @@
         "with": 0
       },
       {
-        "from": 318,
-        "to": 375,
+        "from": 320,
+        "to": 380,
         "rate": 0.1,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16482,8 +16576,8 @@
         "with": 0
       },
       {
-        "from": 318,
-        "to": 271,
+        "from": 320,
+        "to": 272,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16499,14 +16593,14 @@
     ]
   },
   {
-    "id": 319,
+    "id": 321,
     "name": "메가시드라몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
         "from": 228,
-        "to": 319,
+        "to": 321,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -16521,7 +16615,7 @@
       },
       {
         "from": 229,
-        "to": 319,
+        "to": 321,
         "rate": 0.475,
         "ingredient": "",
         "method": "일반",
@@ -16537,8 +16631,8 @@
     ],
     "afters": [
       {
-        "from": 319,
-        "to": 377,
+        "from": 321,
+        "to": 382,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16552,8 +16646,8 @@
         "with": 0
       },
       {
-        "from": 319,
-        "to": 272,
+        "from": 321,
+        "to": 273,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16569,14 +16663,14 @@
     ]
   },
   {
-    "id": 320,
+    "id": 322,
     "name": "메탈그레이몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
         "from": 193,
-        "to": 320,
+        "to": 322,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -16591,7 +16685,7 @@
       },
       {
         "from": 197,
-        "to": 320,
+        "to": 322,
         "rate": 0.75,
         "ingredient": "",
         "method": "일반",
@@ -16606,7 +16700,7 @@
       },
       {
         "from": 256,
-        "to": 320,
+        "to": 322,
         "rate": 0.375,
         "ingredient": "",
         "method": "일반",
@@ -16622,8 +16716,8 @@
     ],
     "afters": [
       {
-        "from": 320,
-        "to": 393,
+        "from": 322,
+        "to": 398,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16637,8 +16731,8 @@
         "with": 0
       },
       {
-        "from": 320,
-        "to": 273,
+        "from": 322,
+        "to": 274,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16654,14 +16748,14 @@
     ]
   },
   {
-    "id": 321,
+    "id": 323,
     "name": "메탈콩알몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
         "from": 219,
-        "to": 321,
+        "to": 323,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -16678,14 +16772,14 @@
     "afters": null
   },
   {
-    "id": 322,
+    "id": 324,
     "name": "메탈티라노몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 196,
-        "to": 322,
+        "to": 324,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -16700,7 +16794,7 @@
       },
       {
         "from": 197,
-        "to": 322,
+        "to": 324,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -16715,7 +16809,7 @@
       },
       {
         "from": 256,
-        "to": 322,
+        "to": 324,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -16731,8 +16825,8 @@
     ],
     "afters": [
       {
-        "from": 322,
-        "to": 401,
+        "from": 324,
+        "to": 406,
         "rate": 0.95,
         "ingredient": "파워드라몬 개조파츠",
         "method": "일반",
@@ -16746,8 +16840,8 @@
         "with": 0
       },
       {
-        "from": 322,
-        "to": 274,
+        "from": 324,
+        "to": 275,
         "rate": 0.05,
         "ingredient": "파워드라몬 개조파츠",
         "method": "일반",
@@ -16763,14 +16857,14 @@
     ]
   },
   {
-    "id": 323,
+    "id": 325,
     "name": "묘티스몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 199,
-        "to": 323,
+        "to": 325,
         "rate": 0.75,
         "ingredient": "",
         "method": "일반",
@@ -16785,7 +16879,7 @@
       },
       {
         "from": 236,
-        "to": 323,
+        "to": 325,
         "rate": 0.425,
         "ingredient": "",
         "method": "일반",
@@ -16800,7 +16894,7 @@
       },
       {
         "from": 246,
-        "to": 323,
+        "to": 325,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -16816,8 +16910,8 @@
     ],
     "afters": [
       {
-        "from": 323,
-        "to": 382,
+        "from": 325,
+        "to": 387,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16831,8 +16925,8 @@
         "with": 0
       },
       {
-        "from": 323,
-        "to": 275,
+        "from": 325,
+        "to": 276,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16848,14 +16942,14 @@
     ]
   },
   {
-    "id": 324,
+    "id": 326,
     "name": "미스티몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 244,
-        "to": 324,
+        "to": 326,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -16869,17 +16963,63 @@
         "with": 0
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 326,
+        "to": 372,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 833,
+        "reqInt": 0,
+        "reqSpd": 370,
+        "reqRes": 760,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 326,
+        "to": 375,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 833,
+        "reqInt": 0,
+        "reqSpd": 370,
+        "reqRes": 760,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 326,
+        "to": 277,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 833,
+        "reqInt": 0,
+        "reqSpd": 370,
+        "reqRes": 760,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
   },
   {
-    "id": 325,
+    "id": 327,
     "name": "미이라몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 217,
-        "to": 325,
+        "to": 327,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -16894,7 +17034,7 @@
       },
       {
         "from": 260,
-        "to": 325,
+        "to": 327,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -16910,8 +17050,8 @@
     ],
     "afters": [
       {
-        "from": 325,
-        "to": 400,
+        "from": 327,
+        "to": 405,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16925,8 +17065,8 @@
         "with": 0
       },
       {
-        "from": 325,
-        "to": 276,
+        "from": 327,
+        "to": 278,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -16942,14 +17082,14 @@
     ]
   },
   {
-    "id": 326,
+    "id": 328,
     "name": "바알몬",
     "grade": 5,
     "digimonType": "Fr",
     "befores": [
       {
         "from": 210,
-        "to": 326,
+        "to": 328,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -16965,8 +17105,8 @@
     ],
     "afters": [
       {
-        "from": 326,
-        "to": 383,
+        "from": 328,
+        "to": 388,
         "rate": 0.475,
         "ingredient": "주작몬의 기운",
         "method": "일반",
@@ -16980,8 +17120,8 @@
         "with": 0
       },
       {
-        "from": 326,
-        "to": 384,
+        "from": 328,
+        "to": 389,
         "rate": 0.475,
         "ingredient": "주작몬의 기운",
         "method": "일반",
@@ -16995,8 +17135,8 @@
         "with": 0
       },
       {
-        "from": 326,
-        "to": 277,
+        "from": 328,
+        "to": 279,
         "rate": 0.05,
         "ingredient": "주작몬의 기운",
         "method": "일반",
@@ -17010,8 +17150,8 @@
         "with": 0
       },
       {
-        "from": 326,
-        "to": 366,
+        "from": 328,
+        "to": 368,
         "rate": 0.25,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -17022,11 +17162,11 @@
         "reqSpd": 432,
         "reqRes": 640,
         "reqDef": 0,
-        "with": 349
+        "with": 351
       },
       {
-        "from": 326,
-        "to": 277,
+        "from": 328,
+        "to": 279,
         "rate": 0.75,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -17037,114 +17177,20 @@
         "reqSpd": 432,
         "reqRes": 640,
         "reqDef": 0,
-        "with": 349
+        "with": 351
       }
     ]
   },
   {
-    "id": 327,
+    "id": 329,
     "name": "배드퍼펫몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 257,
-        "to": 327,
-        "rate": 0.475,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 328,
-    "name": "베이더몬",
-    "grade": 5,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 220,
-        "to": 328,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 242,
-        "to": 328,
-        "rate": 0.425,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 328,
-        "to": 394,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 799,
-        "reqSpd": 310,
-        "reqRes": 694,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 328,
-        "to": 278,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 799,
-        "reqSpd": 310,
-        "reqRes": 694,
-        "reqDef": 0,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 329,
-    "name": "브롯사몬",
-    "grade": 5,
-    "digimonType": "Da",
-    "befores": [
-      {
-        "from": 251,
         "to": 329,
-        "rate": 0.85,
+        "rate": 0.475,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -17161,14 +17207,29 @@
   },
   {
     "id": 330,
-    "name": "블루메라몬",
+    "name": "베이더몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 211,
+        "from": 220,
         "to": 330,
-        "rate": 0.1,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 242,
+        "to": 330,
+        "rate": 0.425,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -17181,18 +17242,49 @@
         "with": 0
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 330,
+        "to": 399,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 799,
+        "reqSpd": 310,
+        "reqRes": 694,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 330,
+        "to": 280,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 799,
+        "reqSpd": 310,
+        "reqRes": 694,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
   },
   {
     "id": 331,
-    "name": "빅콩알몬",
+    "name": "브롯사몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 219,
+        "from": 251,
         "to": 331,
-        "rate": 0.425,
+        "rate": 0.85,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -17209,42 +17301,12 @@
   },
   {
     "id": 332,
-    "name": "뿌띠몬",
+    "name": "블루메라몬",
     "grade": 5,
-    "digimonType": "Da",
+    "digimonType": "Vi",
     "befores": [
       {
-        "from": 195,
-        "to": 332,
-        "rate": 0.1,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 241,
-        "to": 332,
-        "rate": 0.1,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 251,
+        "from": 211,
         "to": 332,
         "rate": 0.1,
         "ingredient": "",
@@ -17263,13 +17325,91 @@
   },
   {
     "id": 333,
+    "name": "빅콩알몬",
+    "grade": 5,
+    "digimonType": "Da",
+    "befores": [
+      {
+        "from": 219,
+        "to": 333,
+        "rate": 0.425,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 334,
+    "name": "뿌띠몬",
+    "grade": 5,
+    "digimonType": "Da",
+    "befores": [
+      {
+        "from": 195,
+        "to": 334,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 241,
+        "to": 334,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 251,
+        "to": 334,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 335,
     "name": "스컬그레이몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 193,
-        "to": 333,
+        "to": 335,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -17284,7 +17424,7 @@
       },
       {
         "from": 197,
-        "to": 333,
+        "to": 335,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -17299,7 +17439,7 @@
       },
       {
         "from": 200,
-        "to": 333,
+        "to": 335,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -17314,7 +17454,7 @@
       },
       {
         "from": 256,
-        "to": 333,
+        "to": 335,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -17330,8 +17470,8 @@
     ],
     "afters": [
       {
-        "from": 333,
-        "to": 355,
+        "from": 335,
+        "to": 357,
         "rate": 0.95,
         "ingredient": "키메라몬의 생체 데이터",
         "method": "일반",
@@ -17345,8 +17485,8 @@
         "with": 0
       },
       {
-        "from": 333,
-        "to": 279,
+        "from": 335,
+        "to": 281,
         "rate": 0.05,
         "ingredient": "키메라몬의 생체 데이터",
         "method": "일반",
@@ -17362,14 +17502,14 @@
     ]
   },
   {
-    "id": 334,
+    "id": 336,
     "name": "스컬사탄몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 240,
-        "to": 334,
+        "to": 336,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -17384,7 +17524,7 @@
       },
       {
         "from": 199,
-        "to": 334,
+        "to": 336,
         "rate": 0.5,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -17400,8 +17540,8 @@
     ],
     "afters": [
       {
-        "from": 334,
-        "to": 368,
+        "from": 336,
+        "to": 370,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -17415,8 +17555,8 @@
         "with": 0
       },
       {
-        "from": 334,
-        "to": 280,
+        "from": 336,
+        "to": 282,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -17432,14 +17572,14 @@
     ]
   },
   {
-    "id": 335,
+    "id": 337,
     "name": "스콜피온몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
         "from": 223,
-        "to": 335,
+        "to": 337,
         "rate": 0.85,
         "ingredient": "",
         "method": "일반",
@@ -17454,7 +17594,7 @@
       },
       {
         "from": 227,
-        "to": 335,
+        "to": 337,
         "rate": 0.1,
         "ingredient": "",
         "method": "일반",
@@ -17469,71 +17609,8 @@
       },
       {
         "from": 247,
-        "to": 335,
-        "rate": 0.1,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 336,
-    "name": "실피드몬",
-    "grade": 5,
-    "digimonType": "Fr",
-    "befores": [
-      {
-        "from": 187,
-        "to": 336,
-        "rate": 0.5,
-        "ingredient": "홀리 링",
-        "method": "조그레스",
-        "reqLevel": 60,
-        "reqBonding": 0.02,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 231
-      },
-      {
-        "from": 231,
-        "to": 336,
-        "rate": 0.5,
-        "ingredient": "홀리 링",
-        "method": "조그레스",
-        "reqLevel": 60,
-        "reqBonding": 0.02,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 187
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 337,
-    "name": "아라크네몬",
-    "grade": 5,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 227,
         "to": 337,
-        "rate": 0.425,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -17550,33 +17627,48 @@
   },
   {
     "id": 338,
-    "name": "아수라몬",
+    "name": "실피드몬",
     "grade": 5,
-    "digimonType": "Va",
+    "digimonType": "Fr",
     "befores": [
       {
-        "from": 216,
+        "from": 187,
         "to": 338,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
+        "rate": 0.5,
+        "ingredient": "홀리 링",
+        "method": "조그레스",
+        "reqLevel": 60,
+        "reqBonding": 0.02,
         "reqStr": 0,
         "reqInt": 0,
         "reqSpd": 0,
         "reqRes": 0,
         "reqDef": 0,
-        "with": 0
+        "with": 231
+      },
+      {
+        "from": 231,
+        "to": 338,
+        "rate": 0.5,
+        "ingredient": "홀리 링",
+        "method": "조그레스",
+        "reqLevel": 60,
+        "reqBonding": 0.02,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 187
       }
     ],
     "afters": null
   },
   {
     "id": 339,
-    "name": "아트라캅테리몬",
+    "name": "아라크네몬",
     "grade": 5,
-    "digimonType": "Va",
+    "digimonType": "Vi",
     "befores": [
       {
         "from": 227,
@@ -17592,94 +17684,18 @@
         "reqRes": 0,
         "reqDef": 0,
         "with": 0
-      },
-      {
-        "from": 247,
-        "to": 339,
-        "rate": 0.85,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 249,
-        "to": 339,
-        "rate": 0.85,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
       }
     ],
-    "afters": [
-      {
-        "from": 339,
-        "to": 406,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 691,
-        "reqSpd": 406,
-        "reqRes": 681,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 339,
-        "to": 281,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 691,
-        "reqSpd": 406,
-        "reqRes": 681,
-        "reqDef": 0,
-        "with": 0
-      }
-    ]
+    "afters": null
   },
   {
     "id": 340,
-    "name": "안드로몬",
+    "name": "아수라몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 184,
-        "to": 340,
-        "rate": 0.475,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 248,
+        "from": 216,
         "to": 340,
         "rate": 0.95,
         "ingredient": "",
@@ -17698,13 +17714,113 @@
   },
   {
     "id": 341,
-    "name": "에어로브이드라몬",
+    "name": "아트라캅테리몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 221,
+        "from": 227,
         "to": 341,
+        "rate": 0.425,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 247,
+        "to": 341,
+        "rate": 0.85,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 249,
+        "to": 341,
+        "rate": 0.85,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 341,
+        "to": 411,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 691,
+        "reqSpd": 406,
+        "reqRes": 681,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 341,
+        "to": 283,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 691,
+        "reqSpd": 406,
+        "reqRes": 681,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "name": "안드로몬",
+    "grade": 5,
+    "digimonType": "Va",
+    "befores": [
+      {
+        "from": 184,
+        "to": 342,
+        "rate": 0.475,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 248,
+        "to": 342,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -17721,14 +17837,38 @@
     "afters": null
   },
   {
-    "id": 342,
+    "id": 343,
+    "name": "에어로브이드라몬",
+    "grade": 5,
+    "digimonType": "Va",
+    "befores": [
+      {
+        "from": 221,
+        "to": 343,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 344,
     "name": "에테몬",
     "grade": 5,
     "digimonType": "Vi",
     "befores": [
       {
         "from": 225,
-        "to": 342,
+        "to": 344,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -17743,161 +17883,6 @@
       },
       {
         "from": 242,
-        "to": 342,
-        "rate": 0.1,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 342,
-        "to": 378,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 673,
-        "reqSpd": 372,
-        "reqRes": 0,
-        "reqDef": 844,
-        "with": 0
-      },
-      {
-        "from": 342,
-        "to": 282,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 673,
-        "reqSpd": 372,
-        "reqRes": 0,
-        "reqDef": 844,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 343,
-    "name": "엔젤우몬",
-    "grade": 5,
-    "digimonType": "Va",
-    "befores": [
-      {
-        "from": 187,
-        "to": 343,
-        "rate": 0.75,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 343,
-        "to": 391,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.14,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 343,
-        "to": 407,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.14,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 343,
-        "to": 283,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.14,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 343,
-        "to": 374,
-        "rate": 0.25,
-        "ingredient": "홀리 링",
-        "method": "조그레스",
-        "reqLevel": 90,
-        "reqBonding": 0.00666,
-        "reqStr": 0,
-        "reqInt": 815,
-        "reqSpd": 0,
-        "reqRes": 865,
-        "reqDef": 0,
-        "with": 310
-      },
-      {
-        "from": 343,
-        "to": 283,
-        "rate": 0.75,
-        "ingredient": "홀리 링",
-        "method": "조그레스",
-        "reqLevel": 90,
-        "reqBonding": 0.00666,
-        "reqStr": 0,
-        "reqInt": 815,
-        "reqSpd": 0,
-        "reqRes": 865,
-        "reqDef": 0,
-        "with": 310
-      }
-    ]
-  },
-  {
-    "id": 344,
-    "name": "오쿠와몬",
-    "grade": 5,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 249,
         "to": 344,
         "rate": 0.1,
         "ingredient": "",
@@ -17912,18 +17897,49 @@
         "with": 0
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 344,
+        "to": 383,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 673,
+        "reqSpd": 372,
+        "reqRes": 0,
+        "reqDef": 844,
+        "with": 0
+      },
+      {
+        "from": 344,
+        "to": 284,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 673,
+        "reqSpd": 372,
+        "reqRes": 0,
+        "reqDef": 844,
+        "with": 0
+      }
+    ]
   },
   {
     "id": 345,
-    "name": "왕개굴몬",
+    "name": "엔젤우몬",
     "grade": 5,
-    "digimonType": "Vi",
+    "digimonType": "Va",
     "befores": [
       {
-        "from": 188,
+        "from": 187,
         "to": 345,
-        "rate": 0.95,
+        "rate": 0.75,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -17936,18 +17952,94 @@
         "with": 0
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 345,
+        "to": 396,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.14,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 345,
+        "to": 412,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.14,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 345,
+        "to": 285,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.14,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 345,
+        "to": 379,
+        "rate": 0.25,
+        "ingredient": "홀리 링",
+        "method": "조그레스",
+        "reqLevel": 90,
+        "reqBonding": 0.00666,
+        "reqStr": 0,
+        "reqInt": 815,
+        "reqSpd": 0,
+        "reqRes": 865,
+        "reqDef": 0,
+        "with": 312
+      },
+      {
+        "from": 345,
+        "to": 285,
+        "rate": 0.75,
+        "ingredient": "홀리 링",
+        "method": "조그레스",
+        "reqLevel": 90,
+        "reqBonding": 0.00666,
+        "reqStr": 0,
+        "reqInt": 815,
+        "reqSpd": 0,
+        "reqRes": 865,
+        "reqDef": 0,
+        "with": 312
+      }
+    ]
   },
   {
     "id": 346,
-    "name": "운석몬",
+    "name": "오쿠와몬",
     "grade": 5,
-    "digimonType": "Da",
+    "digimonType": "Vi",
     "befores": [
       {
-        "from": 230,
+        "from": 249,
         "to": 346,
-        "rate": 0.95,
+        "rate": 0.1,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -17964,394 +18056,14 @@
   },
   {
     "id": 347,
-    "name": "워가루몬",
+    "name": "왕개굴몬",
     "grade": 5,
-    "digimonType": "Va",
+    "digimonType": "Vi",
     "befores": [
       {
-        "from": 185,
+        "from": 188,
         "to": 347,
         "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 347,
-        "to": 376,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 712,
-        "reqSpd": 344,
-        "reqRes": 725,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 347,
-        "to": 284,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 712,
-        "reqSpd": 344,
-        "reqRes": 725,
-        "reqDef": 0,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 348,
-    "name": "인펠몬",
-    "grade": 5,
-    "digimonType": "Uk",
-    "befores": [
-      {
-        "from": 250,
-        "to": 348,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 348,
-        "to": 370,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 815,
-        "reqSpd": 318,
-        "reqRes": 845,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 348,
-        "to": 399,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 815,
-        "reqSpd": 318,
-        "reqRes": 845,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 348,
-        "to": 285,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 815,
-        "reqSpd": 318,
-        "reqRes": 845,
-        "reqDef": 0,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 349,
-    "name": "조커몬",
-    "grade": 5,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 244,
-        "to": 349,
-        "rate": 0.1,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 349,
-        "to": 405,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 770,
-        "reqInt": 816,
-        "reqSpd": 482,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 349,
-        "to": 286,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 770,
-        "reqInt": 816,
-        "reqSpd": 482,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 349,
-        "to": 366,
-        "rate": 0.25,
-        "ingredient": "홀리 링",
-        "method": "조그레스",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 824,
-        "reqSpd": 383,
-        "reqRes": 680,
-        "reqDef": 0,
-        "with": 326
-      },
-      {
-        "from": 349,
-        "to": 286,
-        "rate": 0.75,
-        "ingredient": "홀리 링",
-        "method": "조그레스",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 824,
-        "reqSpd": 383,
-        "reqRes": 680,
-        "reqDef": 0,
-        "with": 326
-      }
-    ]
-  },
-  {
-    "id": 350,
-    "name": "쥬드몬",
-    "grade": 5,
-    "digimonType": "Va",
-    "befores": [
-      {
-        "from": 215,
-        "to": 350,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 243,
-        "to": 350,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 350,
-        "to": 380,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 837,
-        "reqInt": 0,
-        "reqSpd": 291,
-        "reqRes": 0,
-        "reqDef": 802,
-        "with": 0
-      },
-      {
-        "from": 350,
-        "to": 403,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 837,
-        "reqInt": 0,
-        "reqSpd": 291,
-        "reqRes": 0,
-        "reqDef": 802,
-        "with": 0
-      },
-      {
-        "from": 350,
-        "to": 287,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 837,
-        "reqInt": 0,
-        "reqSpd": 291,
-        "reqRes": 0,
-        "reqDef": 802,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 351,
-    "name": "쥬레이몬",
-    "grade": 5,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 195,
-        "to": 351,
-        "rate": 0.425,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 204,
-        "to": 351,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 241,
-        "to": 351,
-        "rate": 0.75,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 351,
-        "to": 404,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 890,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 764,
-        "reqDef": 628,
-        "with": 0
-      },
-      {
-        "from": 351,
-        "to": 288,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 890,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 764,
-        "reqDef": 628,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 352,
-    "name": "초핫카이몬",
-    "grade": 5,
-    "digimonType": "Da",
-    "befores": [
-      {
-        "from": 255,
-        "to": 352,
-        "rate": 0.85,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -18367,14 +18079,14 @@
     "afters": null
   },
   {
-    "id": 353,
-    "name": "캐논벌몬",
+    "id": 348,
+    "name": "운석몬",
     "grade": 5,
-    "digimonType": "Vi",
+    "digimonType": "Da",
     "befores": [
       {
-        "from": 209,
-        "to": 353,
+        "from": 230,
+        "to": 348,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -18386,10 +18098,19 @@
         "reqRes": 0,
         "reqDef": 0,
         "with": 0
-      },
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 349,
+    "name": "워가루몬",
+    "grade": 5,
+    "digimonType": "Va",
+    "befores": [
       {
-        "from": 258,
-        "to": 353,
+        "from": 185,
+        "to": 349,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -18405,47 +18126,372 @@
     ],
     "afters": [
       {
-        "from": 353,
-        "to": 397,
+        "from": 349,
+        "to": 381,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
-        "reqBonding": 0.0008,
-        "reqStr": 915,
-        "reqInt": 796,
-        "reqSpd": 0,
-        "reqRes": 0,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 712,
+        "reqSpd": 344,
+        "reqRes": 725,
         "reqDef": 0,
         "with": 0
       },
       {
-        "from": 353,
-        "to": 289,
+        "from": 349,
+        "to": 286,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
-        "reqBonding": 0.0008,
-        "reqStr": 915,
-        "reqInt": 796,
-        "reqSpd": 0,
-        "reqRes": 0,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 712,
+        "reqSpd": 344,
+        "reqRes": 725,
         "reqDef": 0,
         "with": 0
       }
     ]
   },
   {
+    "id": 350,
+    "name": "인펠몬",
+    "grade": 5,
+    "digimonType": "Uk",
+    "befores": [
+      {
+        "from": 250,
+        "to": 350,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 350,
+        "to": 374,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 815,
+        "reqSpd": 318,
+        "reqRes": 845,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 350,
+        "to": 404,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 815,
+        "reqSpd": 318,
+        "reqRes": 845,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 350,
+        "to": 287,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 815,
+        "reqSpd": 318,
+        "reqRes": 845,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "name": "조커몬",
+    "grade": 5,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 244,
+        "to": 351,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 351,
+        "to": 410,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 770,
+        "reqInt": 816,
+        "reqSpd": 482,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 351,
+        "to": 288,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 770,
+        "reqInt": 816,
+        "reqSpd": 482,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 351,
+        "to": 368,
+        "rate": 0.25,
+        "ingredient": "홀리 링",
+        "method": "조그레스",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 824,
+        "reqSpd": 383,
+        "reqRes": 680,
+        "reqDef": 0,
+        "with": 328
+      },
+      {
+        "from": 351,
+        "to": 288,
+        "rate": 0.75,
+        "ingredient": "홀리 링",
+        "method": "조그레스",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 824,
+        "reqSpd": 383,
+        "reqRes": 680,
+        "reqDef": 0,
+        "with": 328
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "name": "쥬드몬",
+    "grade": 5,
+    "digimonType": "Va",
+    "befores": [
+      {
+        "from": 215,
+        "to": 352,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 243,
+        "to": 352,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 352,
+        "to": 385,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 837,
+        "reqInt": 0,
+        "reqSpd": 291,
+        "reqRes": 0,
+        "reqDef": 802,
+        "with": 0
+      },
+      {
+        "from": 352,
+        "to": 408,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 837,
+        "reqInt": 0,
+        "reqSpd": 291,
+        "reqRes": 0,
+        "reqDef": 802,
+        "with": 0
+      },
+      {
+        "from": 352,
+        "to": 289,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 837,
+        "reqInt": 0,
+        "reqSpd": 291,
+        "reqRes": 0,
+        "reqDef": 802,
+        "with": 0
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "name": "쥬레이몬",
+    "grade": 5,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 195,
+        "to": 353,
+        "rate": 0.425,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 204,
+        "to": 353,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 241,
+        "to": 353,
+        "rate": 0.75,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 353,
+        "to": 409,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 890,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 764,
+        "reqDef": 628,
+        "with": 0
+      },
+      {
+        "from": 353,
+        "to": 290,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 890,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 764,
+        "reqDef": 628,
+        "with": 0
+      }
+    ]
+  },
+  {
     "id": 354,
-    "name": "콩알몬",
+    "name": "초핫카이몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 219,
+        "from": 255,
         "to": 354,
-        "rate": 0.425,
+        "rate": 0.85,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -18462,68 +18508,13 @@
   },
   {
     "id": 355,
-    "name": "키메라몬",
+    "name": "캐논벌몬",
     "grade": 5,
-    "digimonType": "Da",
+    "digimonType": "Vi",
     "befores": [
       {
-        "from": 333,
+        "from": 209,
         "to": 355,
-        "rate": 0.95,
-        "ingredient": "키메라몬의 생체 데이터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 355,
-        "to": 379,
-        "rate": 0.95,
-        "ingredient": "파워드라몬 개조파츠",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.01,
-        "reqStr": 1000,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 1000,
-        "with": 0
-      },
-      {
-        "from": 355,
-        "to": 290,
-        "rate": 0.05,
-        "ingredient": "파워드라몬 개조파츠",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.01,
-        "reqStr": 1000,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 1000,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 356,
-    "name": "트리케라몬",
-    "grade": 5,
-    "digimonType": "Da",
-    "befores": [
-      {
-        "from": 213,
-        "to": 356,
         "rate": 0.95,
         "ingredient": "",
         "method": "일반",
@@ -18537,9 +18528,64 @@
         "with": 0
       },
       {
-        "from": 253,
-        "to": 356,
+        "from": 258,
+        "to": 355,
         "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 355,
+        "to": 402,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.0008,
+        "reqStr": 915,
+        "reqInt": 796,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 355,
+        "to": 291,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.0008,
+        "reqStr": 915,
+        "reqInt": 796,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "name": "콩알몬",
+    "grade": 5,
+    "digimonType": "Da",
+    "befores": [
+      {
+        "from": 219,
+        "to": 356,
+        "rate": 0.425,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -18556,17 +18602,17 @@
   },
   {
     "id": 357,
-    "name": "패롯몬",
+    "name": "키메라몬",
     "grade": 5,
-    "digimonType": "Va",
+    "digimonType": "Da",
     "befores": [
       {
-        "from": 194,
+        "from": 335,
         "to": 357,
         "rate": 0.95,
-        "ingredient": "",
+        "ingredient": "키메라몬의 생체 데이터",
         "method": "일반",
-        "reqLevel": 50,
+        "reqLevel": 90,
         "reqBonding": 0,
         "reqStr": 0,
         "reqInt": 0,
@@ -18579,46 +18625,46 @@
     "afters": [
       {
         "from": 357,
-        "to": 396,
+        "to": 384,
         "rate": 0.95,
-        "ingredient": "에보류터",
+        "ingredient": "파워드라몬 개조파츠",
         "method": "일반",
         "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
+        "reqBonding": 0.01,
+        "reqStr": 1000,
         "reqInt": 0,
-        "reqSpd": 390,
+        "reqSpd": 0,
         "reqRes": 0,
-        "reqDef": 929,
+        "reqDef": 1000,
         "with": 0
       },
       {
         "from": 357,
-        "to": 291,
+        "to": 292,
         "rate": 0.05,
-        "ingredient": "에보류터",
+        "ingredient": "파워드라몬 개조파츠",
         "method": "일반",
         "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
+        "reqBonding": 0.01,
+        "reqStr": 1000,
         "reqInt": 0,
-        "reqSpd": 390,
+        "reqSpd": 0,
         "reqRes": 0,
-        "reqDef": 929,
+        "reqDef": 1000,
         "with": 0
       }
     ]
   },
   {
     "id": 358,
-    "name": "팬텀몬",
+    "name": "트리케라몬",
     "grade": 5,
-    "digimonType": "Vi",
+    "digimonType": "Da",
     "befores": [
       {
-        "from": 190,
+        "from": 213,
         "to": 358,
-        "rate": 0.85,
+        "rate": 0.95,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -18631,7 +18677,7 @@
         "with": 0
       },
       {
-        "from": 222,
+        "from": 253,
         "to": 358,
         "rate": 0.95,
         "ingredient": "",
@@ -18650,29 +18696,14 @@
   },
   {
     "id": 359,
-    "name": "퍼펫몬",
+    "name": "패롯몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 242,
+        "from": 194,
         "to": 359,
-        "rate": 0.425,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 257,
-        "to": 359,
-        "rate": 0.475,
+        "rate": 0.95,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -18685,18 +18716,49 @@
         "with": 0
       }
     ],
-    "afters": null
+    "afters": [
+      {
+        "from": 359,
+        "to": 401,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 390,
+        "reqRes": 0,
+        "reqDef": 929,
+        "with": 0
+      },
+      {
+        "from": 359,
+        "to": 293,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 390,
+        "reqRes": 0,
+        "reqDef": 929,
+        "with": 0
+      }
+    ]
   },
   {
     "id": 360,
-    "name": "펌프몬",
+    "name": "팬텀몬",
     "grade": 5,
-    "digimonType": "Da",
+    "digimonType": "Vi",
     "befores": [
       {
         "from": 190,
         "to": 360,
-        "rate": 0.1,
+        "rate": 0.85,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -18709,9 +18771,9 @@
         "with": 0
       },
       {
-        "from": 241,
+        "from": 222,
         "to": 360,
-        "rate": 0.1,
+        "rate": 0.95,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -18728,14 +18790,29 @@
   },
   {
     "id": 361,
-    "name": "폭탄몬",
+    "name": "퍼펫몬",
     "grade": 5,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 202,
+        "from": 242,
         "to": 361,
-        "rate": 0.95,
+        "rate": 0.425,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 257,
+        "to": 361,
+        "rate": 0.475,
         "ingredient": "",
         "method": "일반",
         "reqLevel": 50,
@@ -18752,137 +18829,75 @@
   },
   {
     "id": 362,
+    "name": "펌프몬",
+    "grade": 5,
+    "digimonType": "Da",
+    "befores": [
+      {
+        "from": 190,
+        "to": 362,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 241,
+        "to": 362,
+        "rate": 0.1,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 363,
+    "name": "폭탄몬",
+    "grade": 5,
+    "digimonType": "Va",
+    "befores": [
+      {
+        "from": 202,
+        "to": 363,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 364,
     "name": "피콜몬",
     "grade": 5,
     "digimonType": "Da",
     "befores": [
       {
         "from": 245,
-        "to": 362,
-        "rate": 0.95,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 362,
-        "to": 373,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 834,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 748,
-        "reqDef": 738,
-        "with": 0
-      },
-      {
-        "from": 362,
-        "to": 292,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 834,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 748,
-        "reqDef": 738,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 363,
-    "name": "홀리엔젤몬",
-    "grade": 5,
-    "digimonType": "Va",
-    "befores": [
-      {
-        "from": 236,
-        "to": 363,
-        "rate": 0.425,
-        "ingredient": "",
-        "method": "일반",
-        "reqLevel": 50,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 0,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": [
-      {
-        "from": 363,
-        "to": 388,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.07,
-        "reqStr": 0,
-        "reqInt": 801,
-        "reqSpd": 344,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 363,
-        "to": 365,
-        "rate": 0.475,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.07,
-        "reqStr": 0,
-        "reqInt": 801,
-        "reqSpd": 344,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      },
-      {
-        "from": 363,
-        "to": 293,
-        "rate": 0.05,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.07,
-        "reqStr": 0,
-        "reqInt": 801,
-        "reqSpd": 344,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ]
-  },
-  {
-    "id": 364,
-    "name": "화이트레오몬",
-    "grade": 5,
-    "digimonType": "Va",
-    "befores": [
-      {
-        "from": 206,
         "to": 364,
         "rate": 0.95,
         "ingredient": "",
@@ -18900,7 +18915,132 @@
     "afters": [
       {
         "from": 364,
-        "to": 386,
+        "to": 378,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 834,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 748,
+        "reqDef": 738,
+        "with": 0
+      },
+      {
+        "from": 364,
+        "to": 294,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 834,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 748,
+        "reqDef": 738,
+        "with": 0
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "name": "홀리엔젤몬",
+    "grade": 5,
+    "digimonType": "Va",
+    "befores": [
+      {
+        "from": 236,
+        "to": 365,
+        "rate": 0.425,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 365,
+        "to": 393,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.07,
+        "reqStr": 0,
+        "reqInt": 801,
+        "reqSpd": 344,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 365,
+        "to": 367,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.07,
+        "reqStr": 0,
+        "reqInt": 801,
+        "reqSpd": 344,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      },
+      {
+        "from": 365,
+        "to": 295,
+        "rate": 0.05,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.07,
+        "reqStr": 0,
+        "reqInt": 801,
+        "reqSpd": 344,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "name": "화이트레오몬",
+    "grade": 5,
+    "digimonType": "Va",
+    "befores": [
+      {
+        "from": 206,
+        "to": 366,
+        "rate": 0.95,
+        "ingredient": "",
+        "method": "일반",
+        "reqLevel": 50,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 0,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": [
+      {
+        "from": 366,
+        "to": 391,
         "rate": 0.85,
         "ingredient": "에보류터",
         "method": "일반",
@@ -18914,8 +19054,8 @@
         "with": 0
       },
       {
-        "from": 364,
-        "to": 381,
+        "from": 366,
+        "to": 386,
         "rate": 0.1,
         "ingredient": "에보류터",
         "method": "일반",
@@ -18929,8 +19069,8 @@
         "with": 0
       },
       {
-        "from": 364,
-        "to": 294,
+        "from": 366,
+        "to": 296,
         "rate": 0.05,
         "ingredient": "에보류터",
         "method": "일반",
@@ -18946,14 +19086,14 @@
     ]
   },
   {
-    "id": 365,
+    "id": 367,
     "name": "갓드라몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 363,
-        "to": 365,
+        "from": 365,
+        "to": 367,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
@@ -18970,14 +19110,14 @@
     "afters": null
   },
   {
-    "id": 366,
+    "id": 368,
     "name": "네오반데몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 326,
-        "to": 366,
+        "from": 328,
+        "to": 368,
         "rate": 0.25,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -18988,11 +19128,11 @@
         "reqSpd": 432,
         "reqRes": 640,
         "reqDef": 0,
-        "with": 349
+        "with": 351
       },
       {
-        "from": 349,
-        "to": 366,
+        "from": 351,
+        "to": 368,
         "rate": 0.25,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -19003,20 +19143,20 @@
         "reqSpd": 383,
         "reqRes": 680,
         "reqDef": 0,
-        "with": 326
+        "with": 328
       }
     ],
     "afters": null
   },
   {
-    "id": 367,
+    "id": 369,
     "name": "넵튠몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 306,
-        "to": 367,
+        "from": 308,
+        "to": 369,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19030,8 +19170,8 @@
         "with": 0
       },
       {
-        "from": 297,
-        "to": 367,
+        "from": 299,
+        "to": 369,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19048,14 +19188,14 @@
     "afters": null
   },
   {
-    "id": 368,
+    "id": 370,
     "name": "데스몬",
     "grade": 6,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 334,
-        "to": 368,
+        "from": 336,
+        "to": 370,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19072,14 +19212,62 @@
     "afters": null
   },
   {
-    "id": 369,
+    "id": 371,
+    "name": "두프트몬",
+    "grade": 6,
+    "digimonType": "Da",
+    "befores": [
+      {
+        "from": 301,
+        "to": 371,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 778,
+        "reqSpd": 370,
+        "reqRes": 0,
+        "reqDef": 876,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 372,
+    "name": "듀나스몬",
+    "grade": 6,
+    "digimonType": "Da",
+    "befores": [
+      {
+        "from": 326,
+        "to": 372,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 833,
+        "reqInt": 0,
+        "reqSpd": 370,
+        "reqRes": 760,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 373,
     "name": "듀크몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 318,
-        "to": 369,
+        "from": 320,
+        "to": 373,
         "rate": 0.85,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19096,14 +19284,14 @@
     "afters": null
   },
   {
-    "id": 370,
+    "id": 374,
     "name": "디아블로몬",
     "grade": 6,
     "digimonType": "Uk",
     "befores": [
       {
-        "from": 348,
-        "to": 370,
+        "from": 350,
+        "to": 374,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19120,14 +19308,53 @@
     "afters": null
   },
   {
-    "id": 371,
+    "id": 375,
+    "name": "로드나이트몬",
+    "grade": 6,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 301,
+        "to": 375,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 778,
+        "reqSpd": 370,
+        "reqRes": 0,
+        "reqDef": 876,
+        "with": 0
+      },
+      {
+        "from": 326,
+        "to": 375,
+        "rate": 0.475,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 833,
+        "reqInt": 0,
+        "reqSpd": 370,
+        "reqRes": 760,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 376,
     "name": "로제몬",
     "grade": 6,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 312,
-        "to": 371,
+        "from": 314,
+        "to": 376,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19144,14 +19371,14 @@
     "afters": null
   },
   {
-    "id": 372,
+    "id": 377,
     "name": "리리스몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 391,
-        "to": 372,
+        "from": 396,
+        "to": 377,
         "rate": 0.5,
         "ingredient": "악의 근원",
         "method": "일반",
@@ -19168,14 +19395,14 @@
     "afters": null
   },
   {
-    "id": 373,
+    "id": 378,
     "name": "마린엔젤몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 362,
-        "to": 373,
+        "from": 364,
+        "to": 378,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19189,8 +19416,8 @@
         "with": 0
       },
       {
-        "from": 297,
-        "to": 373,
+        "from": 299,
+        "to": 378,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19207,14 +19434,14 @@
     "afters": null
   },
   {
-    "id": 374,
+    "id": 379,
     "name": "마스테몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 310,
-        "to": 374,
+        "from": 312,
+        "to": 379,
         "rate": 0.25,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -19225,11 +19452,11 @@
         "reqSpd": 0,
         "reqRes": 923,
         "reqDef": 0,
-        "with": 343
+        "with": 345
       },
       {
-        "from": 343,
-        "to": 374,
+        "from": 345,
+        "to": 379,
         "rate": 0.25,
         "ingredient": "홀리 링",
         "method": "조그레스",
@@ -19240,20 +19467,20 @@
         "reqSpd": 0,
         "reqRes": 865,
         "reqDef": 0,
-        "with": 310
+        "with": 312
       }
     ],
     "afters": null
   },
   {
-    "id": 375,
+    "id": 380,
     "name": "메기드라몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 318,
-        "to": 375,
+        "from": 320,
+        "to": 380,
         "rate": 0.1,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19270,14 +19497,14 @@
     "afters": null
   },
   {
-    "id": 376,
+    "id": 381,
     "name": "메탈가루몬",
     "grade": 6,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 347,
-        "to": 376,
+        "from": 349,
+        "to": 381,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19294,14 +19521,14 @@
     "afters": null
   },
   {
-    "id": 377,
+    "id": 382,
     "name": "메탈시드라몬",
     "grade": 6,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 319,
-        "to": 377,
+        "from": 321,
+        "to": 382,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19318,14 +19545,14 @@
     "afters": null
   },
   {
-    "id": 378,
+    "id": 383,
     "name": "메탈에테몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 342,
-        "to": 378,
+        "from": 344,
+        "to": 383,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19342,14 +19569,14 @@
     "afters": null
   },
   {
-    "id": 379,
+    "id": 384,
     "name": "밀레니엄몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 355,
-        "to": 379,
+        "from": 357,
+        "to": 384,
         "rate": 0.95,
         "ingredient": "파워드라몬 개조파츠",
         "method": "일반",
@@ -19366,14 +19593,14 @@
     "afters": null
   },
   {
-    "id": 380,
+    "id": 385,
     "name": "바이킹몬",
     "grade": 6,
     "digimonType": "Fr",
     "befores": [
       {
-        "from": 350,
-        "to": 380,
+        "from": 352,
+        "to": 385,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19390,135 +19617,15 @@
     "afters": null
   },
   {
-    "id": 381,
+    "id": 386,
     "name": "반쵸레오몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 364,
-        "to": 381,
-        "rate": 0.1,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0.056,
-        "reqStr": 0,
-        "reqInt": 0,
-        "reqSpd": 291,
-        "reqRes": 0,
-        "reqDef": 837,
-        "with": 0
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 382,
-    "name": "베놈묘티스몬",
-    "grade": 6,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 323,
-        "to": 382,
-        "rate": 0.95,
-        "ingredient": "에보류터",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 0,
-        "reqInt": 718,
-        "reqSpd": 376,
-        "reqRes": 795,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 383,
-    "name": "베르제브몬",
-    "grade": 6,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 326,
-        "to": 383,
-        "rate": 0.475,
-        "ingredient": "주작몬의 기운",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 804,
-        "reqInt": 884,
-        "reqSpd": 461,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 384,
-    "name": "베르제브몬(c)",
-    "grade": 6,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 326,
-        "to": 384,
-        "rate": 0.475,
-        "ingredient": "주작몬의 기운",
-        "method": "일반",
-        "reqLevel": 90,
-        "reqBonding": 0,
-        "reqStr": 804,
-        "reqInt": 884,
-        "reqSpd": 461,
-        "reqRes": 0,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 385,
-    "name": "블랙세라피몬",
-    "grade": 6,
-    "digimonType": "Vi",
-    "befores": [
-      {
-        "from": 388,
-        "to": 385,
-        "rate": 1,
-        "ingredient": "악의 근원",
-        "method": "일반",
-        "reqLevel": 95,
-        "reqBonding": 0,
-        "reqStr": 1248,
-        "reqInt": 0,
-        "reqSpd": 543,
-        "reqRes": 1206,
-        "reqDef": 0,
-        "with": 0
-      }
-    ],
-    "afters": null
-  },
-  {
-    "id": 386,
-    "name": "샤벨레오몬",
-    "grade": 6,
-    "digimonType": "Da",
-    "befores": [
-      {
-        "from": 364,
+        "from": 366,
         "to": 386,
-        "rate": 0.85,
+        "rate": 0.1,
         "ingredient": "에보류터",
         "method": "일반",
         "reqLevel": 90,
@@ -19535,13 +19642,133 @@
   },
   {
     "id": 387,
+    "name": "베놈묘티스몬",
+    "grade": 6,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 325,
+        "to": 387,
+        "rate": 0.95,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 0,
+        "reqInt": 718,
+        "reqSpd": 376,
+        "reqRes": 795,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 388,
+    "name": "베르제브몬",
+    "grade": 6,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 328,
+        "to": 388,
+        "rate": 0.475,
+        "ingredient": "주작몬의 기운",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 804,
+        "reqInt": 884,
+        "reqSpd": 461,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 389,
+    "name": "베르제브몬(c)",
+    "grade": 6,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 328,
+        "to": 389,
+        "rate": 0.475,
+        "ingredient": "주작몬의 기운",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0,
+        "reqStr": 804,
+        "reqInt": 884,
+        "reqSpd": 461,
+        "reqRes": 0,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 390,
+    "name": "블랙세라피몬",
+    "grade": 6,
+    "digimonType": "Vi",
+    "befores": [
+      {
+        "from": 393,
+        "to": 390,
+        "rate": 1,
+        "ingredient": "악의 근원",
+        "method": "일반",
+        "reqLevel": 95,
+        "reqBonding": 0,
+        "reqStr": 1248,
+        "reqInt": 0,
+        "reqSpd": 543,
+        "reqRes": 1206,
+        "reqDef": 0,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 391,
+    "name": "샤벨레오몬",
+    "grade": 6,
+    "digimonType": "Da",
+    "befores": [
+      {
+        "from": 366,
+        "to": 391,
+        "rate": 0.85,
+        "ingredient": "에보류터",
+        "method": "일반",
+        "reqLevel": 90,
+        "reqBonding": 0.056,
+        "reqStr": 0,
+        "reqInt": 0,
+        "reqSpd": 291,
+        "reqRes": 0,
+        "reqDef": 837,
+        "with": 0
+      }
+    ],
+    "afters": null
+  },
+  {
+    "id": 392,
     "name": "샤크라몬",
     "grade": 6,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 304,
-        "to": 387,
+        "from": 306,
+        "to": 392,
         "rate": 0.1,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19558,14 +19785,14 @@
     "afters": null
   },
   {
-    "id": 388,
+    "id": 393,
     "name": "세라피몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 363,
-        "to": 388,
+        "from": 365,
+        "to": 393,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19581,8 +19808,8 @@
     ],
     "afters": [
       {
-        "from": 388,
-        "to": 385,
+        "from": 393,
+        "to": 390,
         "rate": 1,
         "ingredient": "악의 근원",
         "method": "일반",
@@ -19598,14 +19825,14 @@
     ]
   },
   {
-    "id": 389,
+    "id": 394,
     "name": "세인트가르고몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 309,
-        "to": 389,
+        "from": 311,
+        "to": 394,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19622,14 +19849,14 @@
     "afters": null
   },
   {
-    "id": 390,
+    "id": 395,
     "name": "스컬맘몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 316,
-        "to": 390,
+        "from": 318,
+        "to": 395,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19646,14 +19873,14 @@
     "afters": null
   },
   {
-    "id": 391,
+    "id": 396,
     "name": "오파니몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 343,
-        "to": 391,
+        "from": 345,
+        "to": 396,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19669,8 +19896,8 @@
     ],
     "afters": [
       {
-        "from": 391,
-        "to": 372,
+        "from": 396,
+        "to": 377,
         "rate": 0.5,
         "ingredient": "악의 근원",
         "method": "일반",
@@ -19684,8 +19911,8 @@
         "with": 0
       },
       {
-        "from": 391,
-        "to": 392,
+        "from": 396,
+        "to": 397,
         "rate": 0.5,
         "ingredient": "악의 근원",
         "method": "일반",
@@ -19701,14 +19928,14 @@
     ]
   },
   {
-    "id": 392,
+    "id": 397,
     "name": "오파니몬 폴다운모드",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 391,
-        "to": 392,
+        "from": 396,
+        "to": 397,
         "rate": 0.5,
         "ingredient": "악의 근원",
         "method": "일반",
@@ -19725,14 +19952,14 @@
     "afters": null
   },
   {
-    "id": 393,
+    "id": 398,
     "name": "워그레이몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 320,
-        "to": 393,
+        "from": 322,
+        "to": 398,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19749,14 +19976,14 @@
     "afters": null
   },
   {
-    "id": 394,
+    "id": 399,
     "name": "이바몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 328,
-        "to": 394,
+        "from": 330,
+        "to": 399,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19773,14 +20000,14 @@
     "afters": null
   },
   {
-    "id": 395,
+    "id": 400,
     "name": "쿠즈하몬",
     "grade": 6,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 304,
-        "to": 395,
+        "from": 306,
+        "to": 400,
         "rate": 0.85,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19794,8 +20021,8 @@
         "with": 0
       },
       {
-        "from": 305,
-        "to": 395,
+        "from": 307,
+        "to": 400,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19812,14 +20039,14 @@
     "afters": null
   },
   {
-    "id": 396,
+    "id": 401,
     "name": "크로스몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 357,
-        "to": 396,
+        "from": 359,
+        "to": 401,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19836,14 +20063,14 @@
     "afters": null
   },
   {
-    "id": 397,
+    "id": 402,
     "name": "타이거베스파몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 353,
-        "to": 397,
+        "from": 355,
+        "to": 402,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19860,14 +20087,14 @@
     "afters": null
   },
   {
-    "id": 398,
+    "id": 403,
     "name": "타이타몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 307,
-        "to": 398,
+        "from": 309,
+        "to": 403,
         "rate": 0.95,
         "ingredient": "원념이 깃든 스컬그레이몬의 뼈",
         "method": "일반",
@@ -19884,14 +20111,14 @@
     "afters": null
   },
   {
-    "id": 399,
+    "id": 404,
     "name": "파라사이몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 348,
-        "to": 399,
+        "from": 350,
+        "to": 404,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19908,14 +20135,14 @@
     "afters": null
   },
   {
-    "id": 400,
+    "id": 405,
     "name": "파라오몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 325,
-        "to": 400,
+        "from": 327,
+        "to": 405,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19932,14 +20159,14 @@
     "afters": null
   },
   {
-    "id": 401,
+    "id": 406,
     "name": "파워드라몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 322,
-        "to": 401,
+        "from": 324,
+        "to": 406,
         "rate": 0.95,
         "ingredient": "파워드라몬 개조파츠",
         "method": "일반",
@@ -19956,14 +20183,14 @@
     "afters": null
   },
   {
-    "id": 402,
+    "id": 407,
     "name": "페닉스몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 295,
-        "to": 402,
+        "from": 297,
+        "to": 407,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -19980,14 +20207,14 @@
     "afters": null
   },
   {
-    "id": 403,
+    "id": 408,
     "name": "프레시오몬",
     "grade": 6,
     "digimonType": "Da",
     "befores": [
       {
-        "from": 350,
-        "to": 403,
+        "from": 352,
+        "to": 408,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
@@ -20004,14 +20231,14 @@
     "afters": null
   },
   {
-    "id": 404,
+    "id": 409,
     "name": "피노키몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 351,
-        "to": 404,
+        "from": 353,
+        "to": 409,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -20028,14 +20255,14 @@
     "afters": null
   },
   {
-    "id": 405,
+    "id": 410,
     "name": "피에몬",
     "grade": 6,
     "digimonType": "Vi",
     "befores": [
       {
-        "from": 349,
-        "to": 405,
+        "from": 351,
+        "to": 410,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -20052,14 +20279,14 @@
     "afters": null
   },
   {
-    "id": 406,
+    "id": 411,
     "name": "헤라클레스캅테리몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 339,
-        "to": 406,
+        "from": 341,
+        "to": 411,
         "rate": 0.95,
         "ingredient": "에보류터",
         "method": "일반",
@@ -20076,14 +20303,14 @@
     "afters": null
   },
   {
-    "id": 407,
+    "id": 412,
     "name": "홀리드라몬",
     "grade": 6,
     "digimonType": "Va",
     "befores": [
       {
-        "from": 343,
-        "to": 407,
+        "from": 345,
+        "to": 412,
         "rate": 0.475,
         "ingredient": "에보류터",
         "method": "일반",
