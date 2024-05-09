@@ -22,16 +22,22 @@ export default function ToRightProfileLine({ digimon, reload }: LineProps): Reac
     const getRightScore = (d: Evolution): number => {
         if(d.afters === null) return 1;
         if(d.afters[0].isFold) return 1;
-        if(d.grade === 5) return d.afters.length;
+        // if(d.grade === 5) {
+        //     let further = 0;
+
+        //     d.afters.forEach(after => {
+        //         after.digimon?.afters
+        //     });
+        // } return d.afters.length;
 
         let acc = 0;
 
         d.afters?.forEach((a, i) => {
-            if(a.duplicated) {
-                acc++;
-            } else {
+            // if(a.duplicated) {
+            //     acc++;
+            // } else {
                 acc += getRightScore(a.digimon!);
-            }
+            // }
         });
         return acc;
     }
@@ -52,7 +58,7 @@ export default function ToRightProfileLine({ digimon, reload }: LineProps): Reac
         let acc = PROFILE_HEIGHT * rightScore;
 
         if(rightScore > 1) acc += GAP * (rightScore - 1);
-
+        if(digimon.name === "엔젤우몬") console.log(rightScore, acc)
         return acc;
     }
 
