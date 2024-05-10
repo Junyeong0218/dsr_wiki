@@ -6,7 +6,8 @@ type Ladder = {
 }
 
 export default function Ladders() : React.ReactElement {
-    let prevLadder = localStorage.getItem("ladder") ? JSON.parse(localStorage.getItem("ladder")!) : null;
+    const prevLadderLocal = localStorage.getItem("ladder");
+    let prevLadder = !prevLadderLocal ? JSON.parse(localStorage.getItem("ladder")!) : null;
 
     const [ladder, setLadder] = useState<Ladder|null>(prevLadder);
 
