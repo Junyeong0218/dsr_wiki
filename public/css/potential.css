@@ -240,7 +240,7 @@
 .create-potential-buttons button {
     padding: 10px 30px;
 
-    border: 1px solid var(--white);
+    border: 1px solid var(--theme-light-font-color);
     border-radius: 5px;
 
     font-size: 1.4rem;
@@ -252,4 +252,5 @@
 .create-potential-buttons button:first-child:hover {
     border-color: var(--type-adult-deep);
     background-color: var(--type-adult-deep);
+    color: var(--theme-light-white);
 }

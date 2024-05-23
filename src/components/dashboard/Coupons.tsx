@@ -43,8 +43,25 @@ export default function Coupons() : React.ReactElement {
         });
     }, []);
 
+    const getDateText = (dateString: string, includeTime: boolean = false) => {
+        const date = new Date(dateString);
+        const localized = new Date(date.getTime() + 1000 * 60 * 60 * 9);
+
+        const year = localized.getFullYear();
+        const month = String(localized.getMonth() + 1).padStart(2, "0");
+        const day = String(localized.getDate()).padStart(2, "0");
+
+        if(!includeTime)
+            return `${year}-${month}-${day}`;
+
+        const hour = String(localized.getHours()).padStart(2, "0");
+        const minute = String(localized.getMinutes()).padStart(2, "0");
+
+        return `${year}-${month}-${day} ${hour}:${minute}`;
+    }
+
     const getCouponDateText = (coupon: Coupon): string => {
-        return `${coupon.startDate} ~ ${coupon.expDate}`;
+        return `${getDateText(coupon.startDate)} ~ ${getDateText(coupon.expDate, true)}`;
     }
 
     const copyCoupon = (coupon: Coupon) => {

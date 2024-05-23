@@ -22,7 +22,7 @@ export default function DigimonInfo({ selected }: DigimonInfoProps): React.React
             <DigimonShortcut digimon={digimon} />
             <DigimonStatus digimon={digimon} />
             <DigimonSkills digimon={digimon} />
-            <DigimonEvaluation digimon={digimon} />
+            {/* <DigimonEvaluation digimon={digimon} /> */}
         </div>
     );
 }
