@@ -462,6 +462,7 @@ button:disabled {
 .window .title {
   font-size: 17px;
   color: var(--theme-light-font-color);
+  white-space: nowrap;
 }
 
 .window .semi-title {

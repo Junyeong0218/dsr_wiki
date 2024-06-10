@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import { getUUID } from "../../functions/commons";
 import { RequireStatName } from "../../enums";
 import { Evolution } from "../../classes";
+import { getDigimonFileName } from "../../functions/getDigimonFileName";
 
 type ModalProps = { 
     isActive: boolean, 
@@ -28,65 +29,65 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
         return commons.length > 0 &&
         // return 
         <div className="commons">
-                    <svg width={200} height={20}>
-                        <line x1={10} y1={10} x2={190} y2={10} style={{stroke: "var(--theme-light-font-color)", strokeWidth: `${2}px`}} strokeDasharray="4,4" />
-                    </svg>
-                    <span className="semi-title">일반 진화</span>
-                    { commons.length > 0 && digimon.grade < 5 &&
-                        <div className="targets">
-                            { commons.map(d => (
-                                <div className="target" key={getUUID()}>
-                                    <img src={`/images/${d.digimon!.name}.png`} />
-                                    <span>{d.digimon!.name}</span>
-                                    <span>{`${d.getRate()}%`}</span>
+            <svg width={200} height={20}>
+                <line x1={10} y1={10} x2={190} y2={10} style={{stroke: "var(--theme-light-font-color)", strokeWidth: `${2}px`}} strokeDasharray="4,4" />
+            </svg>
+            <span className="semi-title">일반 진화</span>
+            { commons.length > 0 && digimon.grade < 5 &&
+                <div className="targets">
+                    { commons.map(d => (
+                        <div className="target" key={getUUID()}>
+                            <img src={`/images/${getDigimonFileName(d.digimon!.name)}.png`} />
+                            <span>{d.digimon!.name}</span>
+                            <span>{`${d.getRate()}%`}</span>
+                        </div>
+                    )) }
+                </div>
+            }
+            { commons.length > 0 && digimon.grade < 5 &&
+                <div className="conditions">
+                    <div className="conditions common">
+                        { Object.keys(commons[0])?.filter(key => Object.keys(RequireStatName).includes(key) && commons[0][key] !== 0 && commons[0][key] !== "").map(key => (
+                            <div className="condition" key={getUUID()}>
+                                <span className="condition-title">{RequireStatName[key]}</span>
+                                <span className="condition-value">{key === "reqBonding" ? commons[0].getBonding() + "%" : commons[0][key]}</span>
+                            </div>
+                        )) }
+                        { commons[0].ingredient !== "" &&
+                            <div className="condition">
+                                <span className="condition-title">아이템</span>
+                                <span>
+                                    {commons[0].ingredient}&nbsp;
+                                    <img src={`/images/${commons[0].ingredient}.png`} />
+                                </span>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+            { commons.length > 0 && digimon.grade >= 5 && 
+                <div className="conditions">
+                    { commons.map(common => (
+                        <div className="conditions common" key={getUUID()}>
+                            <img src={`/images/${getDigimonFileName(common.digimon!.name)}.png`} />
+                            <span className="digimon-name">{common.digimon!.name}<br />{`${common.getRate()}%`}</span>
+                            { Object.keys(common)?.filter(key => Object.keys(RequireStatName).includes(key) && common[key] !== 0 && common[key] !== "").map(key => (
+                                <div className="condition" key={getUUID()}>
+                                    <span className="condition-title">{RequireStatName[key]}</span>
+                                    <span className="condition-value">{key === "reqBonding" ? common.getBonding() + "%" : common[key]}</span>
                                 </div>
                             )) }
+                            { common.ingredient !== "" && 
+                                <div className="condition" style={{alignSelf: "flex-end"}}>
+                                    <img src={`/images/${common.ingredient}.png`} />
+                                    <span className="digimon-name">{common.ingredient}</span>
+                                </div> 
+                            }
                         </div>
-                    }
-                    { commons.length > 0 && digimon.grade < 5 &&
-                        <div className="conditions">
-                            <div className="conditions common">
-                                { Object.keys(commons[0])?.filter(key => Object.keys(RequireStatName).includes(key) && commons[0][key] !== 0 && commons[0][key] !== "").map(key => (
-                                    <div className="condition" key={getUUID()}>
-                                        <span className="condition-title">{RequireStatName[key]}</span>
-                                        <span className="condition-value">{key === "reqBonding" ? commons[0].getBonding() + "%" : commons[0][key]}</span>
-                                    </div>
-                                )) }
-                                { commons[0].ingredient !== "" &&
-                                    <div className="condition">
-                                        <span className="condition-title">아이템</span>
-                                        <span>
-                                            {commons[0].ingredient}&nbsp;
-                                            <img src={`/images/${commons[0].ingredient}.png`} />
-                                        </span>
-                                    </div>
-                                }
-                            </div>
-                        </div>
-                    }
-                    { commons.length > 0 && digimon.grade >= 5 && 
-                        <div className="conditions">
-                            { commons.map(common => (
-                                <div className="conditions common" key={getUUID()}>
-                                    <img src={`/images/${common.digimon!.name}.png`} />
-                                    <span className="digimon-name">{common.digimon!.name}<br />{`${common.getRate()}%`}</span>
-                                    { Object.keys(common)?.filter(key => Object.keys(RequireStatName).includes(key) && common[key] !== 0 && common[key] !== "").map(key => (
-                                        <div className="condition" key={getUUID()}>
-                                            <span className="condition-title">{RequireStatName[key]}</span>
-                                            <span className="condition-value">{key === "reqBonding" ? common.getBonding() + "%" : common[key]}</span>
-                                        </div>
-                                    )) }
-                                    { common.ingredient !== "" && 
-                                        <div className="condition" style={{alignSelf: "flex-end"}}>
-                                            <img src={`/images/${common.ingredient}.png`} />
-                                            <span className="digimon-name">{common.ingredient}</span>
-                                        </div> 
-                                    }
-                                </div>
-                            ))}
-                        </div>
-                    }
+                    ))}
                 </div>
+            }
+        </div>
     }, [digimon]);
 
     const jogressRevolution = useMemo(() => {

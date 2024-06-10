@@ -2,6 +2,7 @@ import React from "react";
 import DigimonSkillTable from "./digimonSkillTable";
 import { Skill } from "../../classes";
 import { getNameExceptColon } from "../../functions/commons";
+import { getDigimonFileName } from "../../functions/getDigimonFileName";
 
 type DigimonSkillProps = { digimonName: string, skill: Skill }
 
@@ -9,7 +10,7 @@ export default function DigimonSkill({ digimonName, skill }: DigimonSkillProps):
     return (
         <div className="skill">
             <div className="skill-shortcut">
-                <img src={`/images/${digimonName}_${getNameExceptColon(skill.name)}.png`} />
+                <img src={`/images/${getDigimonFileName(digimonName)}_${getNameExceptColon(skill.name)}.png`} />
                 <div className="skill-info">
                     <div className="skill-title">
                         <span className="skill-name">{skill.name}</span>

@@ -4,6 +4,7 @@ import { getAllEvolutions, getEvolutions } from "../../functions";
 import { Evolution } from "../../classes";
 import { getUUID } from "../../functions/commons";
 import { getSearchedEvolutions } from "../../functions/searchFunctions";
+import { getDigimonFileName } from "../../functions/getDigimonFileName";
 
 type FiltersProps = { 
     selectedDigimon: Evolution|null, 
@@ -92,7 +93,7 @@ export default function Filters({ selectedDigimon, setSelectedDigimon }: Filters
                 <div className={`filtered-list ${isFold ? "fold" : ""}`}>
                     { filtered.map(each => (
                         <button type="button" className="filtered-evolution" key={getUUID()} onClick={() => selectDigimon(each)}>
-                            <img src={`/images/${each.name}.png`} />
+                            <img src={`/images/${getDigimonFileName(each.name)}.png`} />
                             { each.tag ? <span dangerouslySetInnerHTML={{ __html: each.tag }}></span> :
                                         <span>{each.name}</span>
                             }

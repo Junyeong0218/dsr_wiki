@@ -7,6 +7,7 @@ import { getNameExceptColon, getUUID } from "../../functions/commons";
 import DigimonStatus from "../digidex/digimonStatus";
 import { getItemById, getItemByName } from "../../functions/getItemsFunctions";
 import { enhanceSkill, getEnhanceRate } from "../../functions/skillSimulatorFunctions";
+import { getDigimonFileName } from "../../functions/getDigimonFileName";
 
 type Spent = {
     spentItems: Array<SpentItem>,
@@ -207,7 +208,7 @@ export default function SkillSimulator(): React.ReactElement {
                     { text === "" && !selectedDigimon && <div className="digimons">↑ 디지몬 검색 ↑</div> }
                     { text === "" && selectedDigimon && 
                         <div className="selected-digimon-info">
-                            <img src={`/images/${selectedDigimon.name}.png`} />
+                            <img src={`/images/${getDigimonFileName(selectedDigimon.name)}.png`} />
                             <div className="digimon-info-shortcut">
                                 <span className="name">{selectedDigimon.name}</span>
                                 <span className="grade">{Grades[selectedDigimon.grade]}</span>
@@ -222,7 +223,7 @@ export default function SkillSimulator(): React.ReactElement {
                                     setText("");
                                     setSelectedDigimon(digimon);
                                 }}>
-                                    <img src={`/images/${digimon.name}.png`} />
+                                    <img src={`/images/${getDigimonFileName(digimon.name)}.png`} />
                                     <div className="simulator-digimon-info">
                                         { digimon.tag && <span className="name" dangerouslySetInnerHTML={{ __html: digimon.tag }}></span> }
                                         { !digimon.tag && <span className="name">{digimon.name}</span> }
@@ -238,7 +239,7 @@ export default function SkillSimulator(): React.ReactElement {
                         {/* 1 ~ 3 skill */}
                         { selectedDigimon && selectedDigimon.skills.map((skill, index) => (
                             <div className={`skill ${skillIndex === index ? "selected" : ""}`} key={getUUID()} onClick={() => setSkillIndex(index)}>
-                                <img src={`/images/${selectedDigimon.name}_${getNameExceptColon(skill.name)}.png`} key={getUUID()}/>
+                                <img src={`/images/${getDigimonFileName(selectedDigimon.name)}_${getNameExceptColon(skill.name)}.png`} key={getUUID()}/>
                                 <span>{skill.name}</span>
                                 <span>Lv.{skillLevels[index + 1]}</span>
                             </div>

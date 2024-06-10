@@ -6,6 +6,7 @@ import DigimonInfo from "./digimonInfo";
 import DigidexFilter from "./digidexFilter";
 import { Grades, IStringKey } from "../../enums";
 import getSortText from "../../functions/getSortText";
+import { getDigimonFileName } from "../../functions/getDigimonFileName";
 
 type Filter = {
     type: string,
@@ -79,6 +80,8 @@ export default function Digidex(): React.ReactElement {
     const [isTable, setIsTable] = useState(false);
     const [isOpenSortModal, setIsOpenSortModal] = useState(false);
     const [tempSorts, setTempSorts] = useState<Array<Filter>>(createFilters(loadedFilterData));
+
+    console.log(all);
     
     const filterOptionContainer = useRef<HTMLDivElement>(null);
 
@@ -207,7 +210,7 @@ export default function Digidex(): React.ReactElement {
 
                 return <Link to={`/digimons/digidex?digimon=${each.name}`} key={getUUID()}>
                             <button type="button" className="digimon-button">
-                                <img src={`/images/${each.name}.png`} loading="lazy" />
+                                <img src={`/images/${getDigimonFileName(each.name)}.png`} loading="lazy" />
                                 { each.tag ? <span style={style} dangerouslySetInnerHTML={{__html: each.tag}}></span> : <span style={style}>{each.name}</span>}
                             </button>
                         </Link>

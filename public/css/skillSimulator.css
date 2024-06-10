@@ -170,6 +170,22 @@
     gap: 20px;
 }
 
+.digimon-selector .digimon-stats .digimon-quality {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.digimon-selector .digimon-stats .digimon-quality > span:nth-child(2) {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.digimon-selector .digimon-stats .digimon-quality > .description {
+    min-width: 209px;
+    max-width: 209px;
+    white-space: wrap;
+}
+
 .skill-simulator-container .skill-simulator {
     display: flex;
     flex-direction: column;
