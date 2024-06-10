@@ -45,7 +45,8 @@ export default function Coupons() : React.ReactElement {
 
     const getDateText = (dateString: string, includeTime: boolean = false) => {
         const date = new Date(dateString);
-        const localized = new Date(date.getTime() + 1000 * 60 * 60 * 9);
+        // const localized = new Date(date.getTime() + 1000 * 60 * 60 * 9);
+        const localized = date
 
         const year = localized.getFullYear();
         const month = String(localized.getMonth() + 1).padStart(2, "0");
