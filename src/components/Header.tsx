@@ -45,6 +45,7 @@ export default function Header(): React.ReactElement {
                             <Link to="/tools/babies" className="text-nav">유년기 시뮬</Link>
                             <Link to="/tools/potentials" className="text-nav">포텐셜 시뮬</Link>
                             <Link to="/tools/skills" className="text-nav">스킬강화 시뮬</Link>
+                            <Link to="/tools/quests" className="text-nav">퀘스트<span style={{ fontSize: "12px"}}>BETA</span></Link>
                         </div>
                     </div>
                     <div className="nav-element">

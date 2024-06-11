@@ -19,6 +19,7 @@ import SkillSimulator from "./components/skillSimulator/SkillSimulator";
 import BabySimulator from "./components/babySimulator/BabySimulator";
 import TamerEquipmentSearcher from "./components/TamerEquipments/TamerEquipmentSearcher";
 import dotenv from "dotenv";
+import QuestViewer from "./components/quest/Quest";
 
 export default function App(): React.ReactElement {
     return (
@@ -46,6 +47,7 @@ export default function App(): React.ReactElement {
                         <Route path="/tools/babies" element={<BabySimulator />} />
                         <Route path="/tools/potentials" element={<Potentials />} />
                         <Route path="/tools/skills" element={<SkillSimulator />} />
+                        <Route path="/tools/quests" element={<QuestViewer />} />
 
                         <Route path="/items/equipments/tamer" element={<TamerEquipmentSearcher />} />
                         <Route path="/items/combinations" element={<CombinationSearcher />} />
