@@ -44,7 +44,7 @@
           {
             "id": "6",
             "speaker": "흰수염도사",
-            "sentence": "그렇다는 건 디지털 월드에서는 몇 년이 지났다는 뜻이지."
+            "sentence": "그렇단다. 너희가 이미 현실 세계로 온 지도 벌써 며칠이 지났단다."
           },
           {
             "id": "7",
@@ -121,68 +121,69 @@
             "speaker": "아이 엄마",
             "sentence": "몸조심하고 건강히 돌아와야 해!"
           },
+          { "id": "23", "speaker": "알림", "sentence": "포탈로 이동 후" },
           {
-            "id": "23",
+            "id": "24",
             "speaker": "유저",
             "sentence": "여긴...! 돌아온 건가?!"
           },
-          { "id": "24", "speaker": "쉬라몬", "sentence": "돌아온 거네." },
-          { "id": "25", "speaker": "팔몬", "sentence": "밤인가?" },
-          { "id": "26", "speaker": "뿔몬", "sentence": "그런가 봐." },
-          { "id": "27", "speaker": "피요몬", "sentence": "저기 하늘을 봐봐!" },
-          { "id": "28", "speaker": "코로몬", "sentence": "저건...!" },
+          { "id": "25", "speaker": "쉬라몬", "sentence": "돌아온 거네." },
+          { "id": "26", "speaker": "팔몬", "sentence": "밤인가?" },
+          { "id": "27", "speaker": "뿔몬", "sentence": "그런가 봐." },
+          { "id": "28", "speaker": "피요몬", "sentence": "저기 하늘을 봐봐!" },
+          { "id": "29", "speaker": "코로몬", "sentence": "저건...!" },
           {
-            "id": "29",
+            "id": "30",
             "speaker": "알림",
             "sentence": "(현실 세계의 지도가 보인다.)"
           },
           {
-            "id": "30",
+            "id": "31",
             "speaker": "뿔몬",
             "sentence": "응? 저건 현실 세계잖아!"
           },
           {
-            "id": "31",
+            "id": "32",
             "speaker": "텐타몬",
             "sentence": "현실 세계에서 이 세계가 보였던 것처럼 이 세계에서도 현실 세계가 보이는 거야!"
           },
           {
-            "id": "32",
+            "id": "33",
             "speaker": "플롯트몬",
             "sentence": "테이머, 넌 어디인지 모르겠어?"
           },
           {
-            "id": "33",
+            "id": "34",
             "speaker": "유저",
             "sentence": "응. 흰수염 도사님은 우리를 어디로 보내신 거지?"
           },
           {
-            "id": "34",
+            "id": "35",
             "speaker": "플롯트몬",
             "sentence": "지형이나 분위기가 바뀌긴 했는데... 내 생각이 맞는다면 여긴 파일섬이야."
           },
           {
-            "id": "35",
+            "id": "36",
             "speaker": "유저",
             "sentence": "파일 섬이라고? 이런 곳이 파일 섬에 있었나?"
           },
           {
-            "id": "36",
+            "id": "37",
             "speaker": "플롯트몬",
             "sentence": "현실 세계와 디지털 월드는 시간의 격차가 있다고 했잖아. 파일 섬의 시간이 훨씬 빠르니 분위기가 바뀌기엔 충분해."
           },
           {
-            "id": "37",
+            "id": "38",
             "speaker": "플롯트몬",
             "sentence": "지형이 변한건 이상하지만. 더 자세한건 살펴봐야 알 것 같아."
           },
-          { "id": "38", "speaker": "유저", "sentence": "음..." },
+          { "id": "39", "speaker": "유저", "sentence": "음..." },
           {
-            "id": "39",
+            "id": "40",
             "speaker": "플롯트몬",
             "sentence": "돌아다니면서 파악하자. 그게 빠르겠어."
           },
-          { "id": "40", "speaker": "유저", "sentence": "알겠어." }
+          { "id": "41", "speaker": "유저", "sentence": "알겠어." }
         ]
       }
     ]
@@ -204,19 +205,19 @@
         "isForceEncounter": false,
         "rewards": [],
         "conversations": [
-          { "id": "41", "speaker": "츄몬", "sentence": "흑... 흑흑..." },
-          { "id": "42", "speaker": "유저", "sentence": "너는 츄몬아냐?" },
-          { "id": "43", "speaker": "츄몬", "sentence": "테, 테이머!" },
+          { "id": "42", "speaker": "츄몬", "sentence": "흑... 흑흑..." },
+          { "id": "43", "speaker": "유저", "sentence": "너는 츄몬아냐?" },
+          { "id": "44", "speaker": "츄몬", "sentence": "테, 테이머!" },
           {
-            "id": "44",
+            "id": "45",
             "speaker": "팔몬",
             "sentence": "정말이네? 사막지대의 츄몬이야!"
           },
-          { "id": "45", "speaker": "츄몬", "sentence": "흑... 흐아아아앙!" },
-          { "id": "46", "speaker": "유저", "sentence": "지...진정해!" },
-          { "id": "47", "speaker": "츄몬", "sentence": "흐아아아아아아앙!!!" },
+          { "id": "46", "speaker": "츄몬", "sentence": "흑... 흐아아아앙!" },
+          { "id": "47", "speaker": "유저", "sentence": "지...진정해!" },
+          { "id": "48", "speaker": "츄몬", "sentence": "흐아아아아아아앙!!!" },
           {
-            "id": "48",
+            "id": "49",
             "speaker": "유저",
             "sentence": "이런... 대화가 안되잖아?"
           }
@@ -231,9 +232,9 @@
         "isForceEncounter": false,
         "rewards": [],
         "conversations": [
-          { "id": "49", "speaker": "쉬라몬", "sentence": "어떻게 하지?" },
+          { "id": "50", "speaker": "쉬라몬", "sentence": "어떻게 하지?" },
           {
-            "id": "50",
+            "id": "51",
             "speaker": "유저",
             "sentence": "음... 우선 츄몬이 진정될 때까지 기다려 보자."
           }
@@ -258,100 +259,100 @@
         "isForceEncounter": false,
         "rewards": [],
         "conversations": [
-          { "id": "51", "speaker": "유저", "sentence": "이제 진정됐어 츄몬?" },
+          { "id": "52", "speaker": "유저", "sentence": "이제 진정됐어 츄몬?" },
           {
-            "id": "52",
+            "id": "53",
             "speaker": "츄몬",
             "sentence": "흑... 응... 이제 괜찮아... 다행이다... 돌아와 준거구나..."
           },
           {
-            "id": "53",
+            "id": "54",
             "speaker": "유저",
             "sentence": "너 왜 혼자 잇어? 그 몰골은 또 뭐고. 무슨 일 있었어?"
           },
           {
-            "id": "54",
+            "id": "55",
             "speaker": "츄몬",
             "sentence": "스카몬을... 스카몬을 찾아줘 테이머!"
           },
           {
-            "id": "55",
+            "id": "56",
             "speaker": "유저",
             "sentence": "스카몬이 왜? 무슨 일이야?"
           },
           {
-            "id": "56",
+            "id": "57",
             "speaker": "츄몬",
             "sentence": "너희가 떠나고 난 스카몬이랑 둘이 지냈어. 그런데 어느 날 갑자기 강력한 어둠의 힘이 이 세계를 집어삼켰어."
           },
           {
-            "id": "57",
+            "id": "58",
             "speaker": "츄몬",
             "sentence": "그리고 어둠의 힘은 자신이 지배하기 쉽도록 세계를 바꿔버리고 있어."
           },
           {
-            "id": "58",
+            "id": "59",
             "speaker": "츄몬",
             "sentence": "스카몬은 파일 섬이 바뀔 때 땅이 변하면서 크게 다치고 나는 도망가느라 그 이후는 몰라..."
           },
           {
-            "id": "59",
+            "id": "60",
             "speaker": "유저",
             "sentence": "정리하자면 어둠의 힘에 의해 디지털 월드가 바뀌었다는 거야?"
           },
           {
-            "id": "60",
+            "id": "61",
             "speaker": "츄몬",
             "sentence": "응. 그리고 그 현상은 지금도 일어나고 있어..."
           },
-          { "id": "61", "speaker": "유저", "sentence": "이런...! 따... 땅이!" },
-          { "id": "62", "speaker": "유저", "sentence": "저건...." },
-          { "id": "63", "speaker": "뿔몬", "sentence": "스파이럴 마운틴..." },
+          { "id": "62", "speaker": "유저", "sentence": "이런...! 따... 땅이!" },
+          { "id": "63", "speaker": "유저", "sentence": "저건...." },
+          { "id": "64", "speaker": "뿔몬", "sentence": "스파이럴 마운틴..." },
           {
-            "id": "64",
+            "id": "65",
             "speaker": "쉬라몬",
             "sentence": "디지몬 세계가 이런 모습이 돼있을 줄이야."
           },
           {
-            "id": "65",
+            "id": "66",
             "speaker": "유저",
             "sentence": "다른 디지몬들은 어떻게 된 거야? 레오몬이라던가."
           },
           {
-            "id": "66",
+            "id": "67",
             "speaker": "츄몬",
             "sentence": "모르겠어. 하지만 착한 녀석들은 모두 죽인다고 했으니까..."
           },
-          { "id": "67", "speaker": "유저", "sentence": "누가?" },
-          { "id": "68", "speaker": "츄몬", "sentence": "어, 어둠의 사천왕." },
+          { "id": "68", "speaker": "유저", "sentence": "누가?" },
+          { "id": "69", "speaker": "츄몬", "sentence": "어, 어둠의 사천왕." },
           {
-            "id": "69",
+            "id": "70",
             "speaker": "유저",
             "sentence": "우리들이 싸울 상대는 그 어둠의 사천왕인가."
           },
           {
-            "id": "70",
+            "id": "71",
             "speaker": "츄몬",
             "sentence": "싸워? 말도 안 돼! 분명 당해버릴 거야!"
           },
           {
-            "id": "71",
+            "id": "72",
             "speaker": "코로몬",
             "sentence": "우리들은 그 묘티스몬도 무찔렀다구!"
           },
           {
-            "id": "72",
+            "id": "73",
             "speaker": "팔몬",
             "sentence": "괜찮아. 선택받은 아이와 함께라면 세계를 구할 수 있다니까."
           },
           {
-            "id": "73",
+            "id": "74",
             "speaker": "유저",
             "sentence": "그보다 어서 스카몬을 찾아올게! 기다리고 있어 츄몬!"
           },
-          { "id": "74", "speaker": "츄몬", "sentence": "고마워! 테이머!" },
+          { "id": "75", "speaker": "츄몬", "sentence": "고마워! 테이머!" },
           {
-            "id": "75",
+            "id": "76",
             "speaker": "유저",
             "sentence": "모두 흩어져서 찾아보자!"
           }
@@ -367,11 +368,11 @@
         "rewards": null,
         "conversations": [
           {
-            "id": "76",
+            "id": "77",
             "speaker": "쉬라몬",
             "sentence": "테이머! 여기야! 여기 스카몬을 찾았어!"
           },
-          { "id": "77", "speaker": "유저", "sentence": "정말이야?! 지금 갈게!" }
+          { "id": "78", "speaker": "유저", "sentence": "정말이야?! 지금 갈게!" }
         ]
       }
     ]
@@ -393,31 +394,31 @@
         "isForceEncounter": false,
         "rewards": [],
         "conversations": [
-          { "id": "78", "speaker": "유저", "sentence": "스카몬!" },
-          { "id": "79", "speaker": "스카몬", "sentence": "테... 테이머..." },
+          { "id": "79", "speaker": "유저", "sentence": "스카몬!" },
+          { "id": "80", "speaker": "스카몬", "sentence": "테... 테이머..." },
           {
-            "id": "80",
+            "id": "81",
             "speaker": "유저",
             "sentence": "스카몬! 대체 어떻게 된 거야?!"
           },
           {
-            "id": "81",
+            "id": "82",
             "speaker": "스카몬",
             "sentence": "디지털... 월드가... 바뀌면서.... 틈새로... 떨어지면서.... 이... 이렇게..."
           },
           {
-            "id": "82",
+            "id": "83",
             "speaker": "스카몬",
             "sentence": "츄... 츄몬을... 잘... 부탁..."
           },
-          { "id": "83", "speaker": "유저", "sentence": "스카몬!!!" },
+          { "id": "84", "speaker": "유저", "sentence": "스카몬!!!" },
           {
-            "id": "84",
+            "id": "85",
             "speaker": "쉬라몬",
             "sentence": "스카몬이... 죽었어...!"
           },
           {
-            "id": "85",
+            "id": "86",
             "speaker": "유저",
             "sentence": "돌아가서 츄몬에게 알려주자..."
           }
@@ -433,34 +434,34 @@
         "rewards": [],
         "conversations": [
           {
-            "id": "86",
+            "id": "87",
             "speaker": "츄몬",
             "sentence": "테이머! 돌아왔구나! 스카몬은?!"
           },
           {
-            "id": "87",
+            "id": "88",
             "speaker": "유저",
             "sentence": "스카몬은... 죽었어... 내가 갔을 땐 이미 늦어서... 미안해 츄몬."
           },
-          { "id": "88", "speaker": "츄몬", "sentence": "흑... 흐아아아앙!" },
-          { "id": "89", "speaker": "유저", "sentence": "츄몬..." },
+          { "id": "89", "speaker": "츄몬", "sentence": "흑... 흐아아아앙!" },
+          { "id": "90", "speaker": "유저", "sentence": "츄몬..." },
           {
-            "id": "90",
+            "id": "91",
             "speaker": "쉬라몬",
             "sentence": "이제 어떻게 하지...?"
           },
           {
-            "id": "91",
+            "id": "92",
             "speaker": "유저",
             "sentence": "우선은 흰수염 도사님과 연락을 시도해보자. 어떻게 해야 할지 알려 주지 않을까?"
           },
           {
-            "id": "92",
+            "id": "93",
             "speaker": "텐타몬",
             "sentence": "그게 지금 계속 연락을 하려 하는데 연락이 되지 않아."
           },
           {
-            "id": "93",
+            "id": "94",
             "speaker": "텐타몬",
             "sentence": "전파의 문제일지도 모르니까 자리를 이동해서 연락이 되는지 살펴보자."
           }
@@ -476,32 +477,32 @@
         "rewards": [],
         "conversations": [
           {
-            "id": "94",
+            "id": "95",
             "speaker": "텐타몬",
             "sentence": "음... 여기서도 연락이 안 되네..."
           },
-          { "id": "95", "speaker": "유저", "sentence": "너무 막막하네..." },
+          { "id": "96", "speaker": "유저", "sentence": "너무 막막하네..." },
           {
-            "id": "96",
+            "id": "97",
             "speaker": "메탈시드라몬",
             "sentence": "선택받은 아이들이여. 기다리고 있었다."
           },
           {
-            "id": "97",
+            "id": "98",
             "speaker": "츄몬",
             "sentence": "메, 메탈시드라몬이다!"
           },
           {
-            "id": "98",
+            "id": "99",
             "speaker": "텐타몬",
             "sentence": "저건... 메탈시드라몬!!! 전신을 최강의 금속인 크롬디지조이드로 감싼 궁극체 디지몬이야!\\r\\n엄청난 파워와 최고의 스피드를 지닌 강력한 녀석이야! 모두 조심해!"
           },
           {
-            "id": "99",
+            "id": "100",
             "speaker": "코로몬",
             "sentence": "다들 진화해서 싸우자!"
           },
-          { "id": "100", "speaker": "플롯트몬", "sentence": "그래!" }
+          { "id": "101", "speaker": "플롯트몬", "sentence": "그래!" }
         ]
       },
       {
@@ -517,37 +518,37 @@
         ],
         "conversations": [
           {
-            "id": "101",
+            "id": "102",
             "speaker": "유저",
             "sentence": "크윽... 다들 괜찮아?! 다들 진화가...!"
           },
           {
-            "id": "102",
+            "id": "103",
             "speaker": "메탈시드라몬",
             "sentence": "하하하! 나에게 반항할 순 없다!"
           },
           {
-            "id": "103",
+            "id": "104",
             "speaker": "팔몬",
             "sentence": "어째서...? 8 대 1 인데...!"
           },
           {
-            "id": "104",
+            "id": "105",
             "speaker": "텐타몬",
             "sentence": "역시 궁극체야...! 아무리 8 대 1이라도 성숙기로는 어림없는 것 같아!"
           },
           {
-            "id": "105",
+            "id": "106",
             "speaker": "쉬라몬",
             "sentence": "왜 그런 강한 녀석이 갑자기 튀어나오는 거냐구!!!"
           },
           {
-            "id": "106",
+            "id": "107",
             "speaker": "유저",
             "sentence": "안되겠어...! 도망치자!"
           },
           {
-            "id": "107",
+            "id": "108",
             "speaker": "메탈시드라몬",
             "sentence": "하하하! 얼마든지 도망쳐 보거라!"
           }
@@ -563,7 +564,7 @@
         "rewards": [],
         "conversations": [
           {
-            "id": "108",
+            "id": "109",
             "speaker": "유저",
             "sentence": "이런...! 더 도망칠 곳이...! 다른 곳으로 가자!"
           }
@@ -578,9 +579,9 @@
         "isForceEncounter": false,
         "rewards": [],
         "conversations": [
-          { "id": "109", "speaker": "유저", "sentence": "여기도 막했잖아!" },
+          { "id": "110", "speaker": "유저", "sentence": "여기도 막했잖아!" },
           {
-            "id": "110",
+            "id": "111",
             "speaker": "메탈시드라몬",
             "sentence": "후후후 발버둥은 끝인가?"
           }
@@ -596,70 +597,70 @@
         "rewards": null,
         "conversations": [
           {
-            "id": "111",
+            "id": "112",
             "speaker": "메탈시드라몬",
             "sentence": "이제 놀이는 끝이다. 너흴 우리들의 소굴로 보내주마!"
           },
-          { "id": "112", "speaker": "아구몬", "sentence": "안돼!" },
-          { "id": "113", "speaker": "팔몬", "sentence": "아아아악!" },
-          { "id": "114", "speaker": "피요몬", "sentence": "으아아아아아!" },
-          { "id": "115", "speaker": "알림", "sentence": "피라미드로 이동 후" },
-          { "id": "116", "speaker": "유저", "sentence": "얘들아!" },
-          { "id": "117", "speaker": "아구몬", "sentence": "으... 아파라..." },
-          { "id": "118", "speaker": "유저", "sentence": "여기는...?" },
-          { "id": "119", "speaker": "파닥몬", "sentence": "테이머! 저길 봐!" },
+          { "id": "113", "speaker": "아구몬", "sentence": "안돼!" },
+          { "id": "114", "speaker": "팔몬", "sentence": "아아아악!" },
+          { "id": "115", "speaker": "피요몬", "sentence": "으아아아아아!" },
+          { "id": "116", "speaker": "알림", "sentence": "피라미드로 이동 후" },
+          { "id": "117", "speaker": "유저", "sentence": "얘들아!" },
+          { "id": "118", "speaker": "아구몬", "sentence": "으... 아파라..." },
+          { "id": "119", "speaker": "유저", "sentence": "여기는...?" },
+          { "id": "120", "speaker": "파닥몬", "sentence": "테이머! 저길 봐!" },
           {
-            "id": "120",
+            "id": "121",
             "speaker": "피에몬",
             "sentence": "착한 어린이 여러분! 안녕하세요~"
           },
-          { "id": "121", "speaker": "아구몬", "sentence": "저 녀석은...?" },
+          { "id": "122", "speaker": "아구몬", "sentence": "저 녀석은...?" },
           {
-            "id": "122",
+            "id": "123",
             "speaker": "츄몬",
             "sentence": "어둠의 사천왕 중 하나인 피에몬이야!"
           },
-          { "id": "123", "speaker": "유저", "sentence": "뭐라고?!" },
+          { "id": "124", "speaker": "유저", "sentence": "뭐라고?!" },
           {
-            "id": "124",
+            "id": "125",
             "speaker": "피에몬",
             "sentence": "오늘은 정말 재밌는 이야기를 해주려고 해요~"
           },
           {
-            "id": "125",
+            "id": "126",
             "speaker": "피에몬",
             "sentence": "옛날 옛적, '테이머'라는 인간 하나가 있었습니다."
           },
           {
-            "id": "126",
+            "id": "127",
             "speaker": "피에몬",
             "sentence": "그는 동료라고 부르는 시답잖은 디지몬들을 이끌고 함께 스파이럴 마운틴에 올랐죠."
           },
           {
-            "id": "127",
+            "id": "128",
             "speaker": "피에몬",
             "sentence": "그리고 어둠의 사천왕에게 당해 목숨을 잃고 말았답니다. 이야기 끝~"
           },
           {
-            "id": "128",
+            "id": "129",
             "speaker": "파닥몬",
             "sentence": "뭐야 그게! 하나도 재미없잖아!"
           },
           {
-            "id": "129",
+            "id": "130",
             "speaker": "피에몬",
             "sentence": "앞으로 당신들에게 닥칠 운명을 말해준 것뿐이에요. 감사하세요."
           },
           {
-            "id": "130",
+            "id": "131",
             "speaker": "아구몬",
             "sentence": "너 따위한테 당할 것 같냐!"
           },
-          { "id": "131", "speaker": "유저", "sentence": "얘들아!" },
-          { "id": "132", "speaker": "아구몬", "sentence": "응! 진화할게!" },
-          { "id": "133", "speaker": "파피몬", "sentence": "나도!" },
+          { "id": "132", "speaker": "유저", "sentence": "얘들아!" },
+          { "id": "133", "speaker": "아구몬", "sentence": "응! 진화할게!" },
+          { "id": "134", "speaker": "파피몬", "sentence": "나도!" },
           {
-            "id": "134",
+            "id": "135",
             "speaker": "메탈시드라몬",
             "sentence": "후후후 내가 먼저 상대해 주지."
           }
@@ -692,14 +693,14 @@
         ],
         "conversations": [
           {
-            "id": "135",
+            "id": "136",
             "speaker": "유저",
             "sentence": "가자! 워그레이몬, 메탈가루몬!"
           },
-          { "id": "136", "speaker": "워그레이몬", "sentence": "알겠어!" },
-          { "id": "137", "speaker": "메탈가루몬", "sentence": "좋아!" },
+          { "id": "137", "speaker": "워그레이몬", "sentence": "알겠어!" },
+          { "id": "138", "speaker": "메탈가루몬", "sentence": "좋아!" },
           {
-            "id": "138",
+            "id": "139",
             "speaker": "피노키몬",
             "sentence": "하하하 다음은 나야!"
           }
@@ -718,7 +719,7 @@
         ],
         "conversations": [
           {
-            "id": "139",
+            "id": "140",
             "speaker": "파워드라몬",
             "sentence": "별것 없군, 다음은 나다."
           }
@@ -737,7 +738,7 @@
         ],
         "conversations": [
           {
-            "id": "140",
+            "id": "141",
             "speaker": "피에몬",
             "sentence": "후후후 마지막으로 당신들을 절망으로 빠트려드리지요."
           }
@@ -752,37 +753,37 @@
         "isForceEncounter": false,
         "rewards": null,
         "conversations": [
-          { "id": "141", "speaker": "아구몬", "sentence": "크으윽!" },
-          { "id": "142", "speaker": "파피몬", "sentence": "으아악!" },
-          { "id": "143", "speaker": "유저", "sentence": "이, 이런...!" },
+          { "id": "142", "speaker": "아구몬", "sentence": "크으윽!" },
+          { "id": "143", "speaker": "파피몬", "sentence": "으아악!" },
+          { "id": "144", "speaker": "유저", "sentence": "이, 이런...!" },
           {
-            "id": "144",
+            "id": "145",
             "speaker": "피요몬",
             "sentence": "궁극체가 둘이나 있는데...!"
           },
           {
-            "id": "145",
+            "id": "146",
             "speaker": "피에몬",
             "sentence": "같은 궁극체라도, 당신들은 진화한 시기가 느렸지요."
           },
           {
-            "id": "146",
+            "id": "147",
             "speaker": "피에몬",
             "sentence": "자, 그럼 누구부터 처리해 줄까요?"
           },
           {
-            "id": "147",
+            "id": "148",
             "speaker": "팔몬",
             "sentence": "시... 싫어! 왜 이런 곳에서 죽지 않으면 안 되는거야!"
           },
-          { "id": "148", "speaker": "츄몬", "sentence": "팔몬..." },
+          { "id": "149", "speaker": "츄몬", "sentence": "팔몬..." },
           {
-            "id": "149",
+            "id": "150",
             "speaker": "팔몬",
             "sentence": "더 살아서 맛있는 것도 더 먹고 싶구 더 놀고 싶다구...!"
           },
           {
-            "id": "150",
+            "id": "151",
             "speaker": "피에몬",
             "sentence": "정말 시끄럽군요. 당신부터 처리하겠습니다."
           }
@@ -807,54 +808,54 @@
         "isForceEncounter": false,
         "rewards": [],
         "conversations": [
-          { "id": "151", "speaker": "유저", "sentence": "츄몬... 피콜몬..." },
-          { "id": "152", "speaker": "피요몬", "sentence": "..." },
+          { "id": "152", "speaker": "유저", "sentence": "츄몬... 피콜몬..." },
+          { "id": "153", "speaker": "피요몬", "sentence": "..." },
           {
-            "id": "153",
+            "id": "154",
             "speaker": "텐타몬",
             "sentence": "너무 슬퍼하지 마 테이머."
           },
           {
-            "id": "154",
+            "id": "155",
             "speaker": "가트몬",
             "sentence": "그래. 피콜몬의 희생은 너 하나만을 위한 게 아니었어. 선택받은 아이인 너를 구하는 건 디지털 월드의 평화를 위한 것이기도 해."
           },
           {
-            "id": "155",
+            "id": "156",
             "speaker": "유저",
             "sentence": "... 그래. 그렇겠지. 하지만 내가 더 강했다면 츄몬과 피콜몬이 날 대신해 죽지 않았을 거야..."
           },
-          { "id": "156", "speaker": "텐타몬", "sentence": "테이머..." },
+          { "id": "157", "speaker": "텐타몬", "sentence": "테이머..." },
           {
-            "id": "157",
+            "id": "158",
             "speaker": "유저",
             "sentence": "그들이 디지털 월드를 위해 죽었다는 말을 위안 삼아 넣기는 거 난 못하겠어."
           },
           {
-            "id": "158",
+            "id": "159",
             "speaker": "유저",
             "sentence": "싸워보니 알겠어. 씁쓸하지만 사천왕은 나보다 훨씬 강해. 아마 난 이길 수 없을..."
           },
-          { "id": "159", "speaker": "파닥몬", "sentence": "에잇!" },
-          { "id": "160", "speaker": "유저", "sentence": "파닥몬...?" },
+          { "id": "160", "speaker": "파닥몬", "sentence": "에잇!" },
+          { "id": "161", "speaker": "유저", "sentence": "파닥몬...?" },
           {
-            "id": "161",
+            "id": "162",
             "speaker": "파닥몬",
             "sentence": "자꾸 약해 빠진 소리 할 거야?! 넌 싫어하는 것 같지만 선택받은 아이는 특별해!"
           },
           {
-            "id": "162",
+            "id": "163",
             "speaker": "파닥몬",
             "sentence": "이 세계를 구할 수 있는 사람으로 네가 지목된 거야. 이길 수 없는 적은 없다구!"
           },
-          { "id": "163", "speaker": "유저", "sentence": "파닥몬... 하지만..." },
+          { "id": "164", "speaker": "유저", "sentence": "파닥몬... 하지만..." },
           {
-            "id": "164",
+            "id": "165",
             "speaker": "파피몬",
             "sentence": "저기, 얘기 중에 미안한데 팔몬하고 쉬라몬, 아구몬이 보이지 않아."
           },
           {
-            "id": "165",
+            "id": "166",
             "speaker": "유저",
             "sentence": "... 이런 얘기 할 때가 아니었어. 어서 찾아보자!"
           }
@@ -870,51 +871,51 @@
         "rewards": [],
         "conversations": [
           {
-            "id": "166",
+            "id": "167",
             "speaker": "유저",
             "sentence": "그런데 너희들은 괜찮아?"
           },
           {
-            "id": "167",
+            "id": "168",
             "speaker": "피요몬",
             "sentence": "괜찮지 않은 것 같아. 모두 지쳐있어."
           },
           {
-            "id": "168",
+            "id": "169",
             "speaker": "파피몬",
             "sentence": "그건 그렇고 여기는..."
           },
           {
-            "id": "169",
+            "id": "170",
             "speaker": "파피몬",
             "sentence": "왠지 낯익은 느낌이 들어."
           },
           {
-            "id": "170",
+            "id": "171",
             "speaker": "유저",
             "sentence": "전화박스가 있는 걸 보니..."
           },
           {
-            "id": "171",
+            "id": "172",
             "speaker": "유저",
             "sentence": "파일 섬의 해변이 아닐까?"
           },
           {
-            "id": "172",
+            "id": "173",
             "speaker": "파피몬",
             "sentence": "다시 파일 섬에 왔다는 것은..."
           },
           {
-            "id": "173",
+            "id": "174",
             "speaker": "피요몬",
             "sentence": "무슨 의미가 있는 걸까?"
           },
           {
-            "id": "174",
+            "id": "175",
             "speaker": "가트몬",
             "sentence": "의미가 있으니까 파일 섬에 오지 않았을까?"
           },
-          { "id": "175", "speaker": "유저", "sentence": "그런가..." }
+          { "id": "176", "speaker": "유저", "sentence": "그런가..." }
         ]
       },
       {
@@ -927,75 +928,75 @@
         "rewards": [],
         "conversations": [
           {
-            "id": "176",
+            "id": "177",
             "speaker": "파닥몬",
             "sentence": "으... 테이머... 나 배고파..."
           },
           {
-            "id": "177",
+            "id": "178",
             "speaker": "유저",
             "sentence": "조금만 참자 파닥몬. 우선 합류한 다음 먹을 걸 찾아보자."
           },
           {
-            "id": "178",
+            "id": "179",
             "speaker": "파닥몬",
             "sentence": "그렇지만... 배고파서 못 움직이겠어..."
           },
           {
-            "id": "179",
+            "id": "180",
             "speaker": "유저",
             "sentence": "하아... 조금만 힘내보자 파닥몬..."
           },
-          { "id": "180", "speaker": "파닥몬", "sentence": "흑..." },
+          { "id": "181", "speaker": "파닥몬", "sentence": "흑..." },
           {
-            "id": "181",
+            "id": "182",
             "speaker": "가트몬",
             "sentence": "... 테이머 다들 너무 지쳐있어. 조금 쉬었다 찾아보는 게 어때?"
           },
-          { "id": "182", "speaker": "유저", "sentence": "후... 그렇지만..." },
-          { "id": "183", "speaker": "가트몬", "sentence": "테이머." },
-          { "id": "184", "speaker": "유저", "sentence": "응... 가트몬..." },
-          { "id": "185", "speaker": "가트몬", "sentence": "너 지금 마치..." },
+          { "id": "183", "speaker": "유저", "sentence": "후... 그렇지만..." },
+          { "id": "184", "speaker": "가트몬", "sentence": "테이머." },
+          { "id": "185", "speaker": "유저", "sentence": "응... 가트몬..." },
+          { "id": "186", "speaker": "가트몬", "sentence": "너 지금 마치..." },
           {
-            "id": "186",
+            "id": "187",
             "speaker": "가트몬",
             "sentence": "무언가에 쫒기는 것 같아."
           },
           {
-            "id": "187",
+            "id": "188",
             "speaker": "가트몬",
             "sentence": "너무 성급해. 왜 그런 거야?"
           },
           {
-            "id": "188",
+            "id": "189",
             "speaker": "유저",
             "sentence": "어둠의 사천왕과 싸워보니 알겠어... 그들은 나보다 훨씬 강해. 아마 난 이길 수 없겠지..."
           },
           {
-            "id": "189",
+            "id": "190",
             "speaker": "유저",
             "sentence": "그런데 그 상황에서 동료들이 셋이나 사라졌어."
           },
           {
-            "id": "190",
+            "id": "191",
             "speaker": "유저",
             "sentence": "그들을 잃게 되면 난 더 이상..."
           },
           {
-            "id": "191",
+            "id": "192",
             "speaker": "유저",
             "sentence": "미안해... 다들 힘들 텐데..."
           },
-          { "id": "192", "speaker": "유저", "sentence": "조금 쉬었다 가자." },
-          { "id": "193", "speaker": "가트몬", "sentence": "테이머..." },
-          { "id": "194", "speaker": "파피몬", "sentence": "..." },
+          { "id": "193", "speaker": "유저", "sentence": "조금 쉬었다 가자." },
+          { "id": "194", "speaker": "가트몬", "sentence": "테이머..." },
+          { "id": "195", "speaker": "파피몬", "sentence": "..." },
           {
-            "id": "195",
+            "id": "196",
             "speaker": "피요몬",
             "sentence": "어 저기 뭔가가 있어!"
           },
           {
-            "id": "196",
+            "id": "197",
             "speaker": "유저",
             "sentence": "아구몬? 쉬라몬? 팔몬? 누구지? 어서 가 보자!"
           }
@@ -1014,107 +1015,107 @@
           { "name": "궁극체 스킬 강화석", "canTrade": false, "count": 10 }
         ],
         "conversations": [
-          { "id": "197", "speaker": "유저", "sentence": "이건..." },
-          { "id": "198", "speaker": "피요몬", "sentence": "그냥 튜브네..." },
+          { "id": "198", "speaker": "유저", "sentence": "이건..." },
+          { "id": "199", "speaker": "피요몬", "sentence": "그냥 튜브네..." },
           {
-            "id": "199",
+            "id": "200",
             "speaker": "유저",
             "sentence": "··· 도대체 얘들은 어디 간 거야..."
           },
-          { "id": "200", "speaker": "쉘몬", "sentence": "크아아악!" },
+          { "id": "201", "speaker": "쉘몬", "sentence": "크아아악!" },
           {
-            "id": "201",
+            "id": "202",
             "speaker": "파닥몬",
             "sentence": "저건... 쉘몬이잖아!"
           },
           {
-            "id": "202",
+            "id": "203",
             "speaker": "가트몬",
             "sentence": "뭐야 너희 쉘몬을 알고 있어?"
           },
           {
-            "id": "203",
+            "id": "204",
             "speaker": "유저",
             "sentence": "예전에 싸운 적 있어. 성장기로는 녀석을 당해낼 순 없어! 도망쳐!"
           },
           {
-            "id": "204",
+            "id": "205",
             "speaker": "텐타몬",
             "sentence": "이런! 도망치기는 너무 늦었어! 싸워야 해!"
           },
-          { "id": "205", "speaker": "알림", "sentence": "쉘몬과 전투 후" },
+          { "id": "206", "speaker": "알림", "sentence": "쉘몬과 전투 후" },
           {
-            "id": "206",
+            "id": "207",
             "speaker": "유저",
             "sentence": "뭐지...? 쉘몬이 이렇게 약했나...?"
           },
           {
-            "id": "207",
+            "id": "208",
             "speaker": "유저",
             "sentence": "지금은 지쳐서 그렇지만 우리들... 확실히 강해진 느낌이야."
           },
           {
-            "id": "208",
+            "id": "209",
             "speaker": "파피몬",
             "sentence": "거봐! 넌 약하지 않다고 했잖아! 방금 엄청 쉽게 이겼지? 그치, 가트몬?"
           },
-          { "id": "209", "speaker": "가트몬", "sentence": "그래." },
+          { "id": "210", "speaker": "가트몬", "sentence": "그래." },
           {
-            "id": "210",
+            "id": "211",
             "speaker": "파피몬",
             "sentence": "네가 정말 약했다면 이렇게 단숨에 쉘몬을 해치우지 못했을 거야. 너 자신을 좀 더 믿어 봐.\\r\\n테이머 넌 충분히 강해. 그리고 더 강해질 거고!"
           },
-          { "id": "211", "speaker": "유저", "sentence": "파피몬..." },
+          { "id": "212", "speaker": "유저", "sentence": "파피몬..." },
           {
-            "id": "212",
+            "id": "213",
             "speaker": "텐타몬",
             "sentence": "이전까지는 생각해 본 적 없지만 선택받은 아이라는 말이 널 힘들게 했을 것 같아. 누군가의 희생이 무겁게 느껴지는 것도 이해해. 몰라줘서 미안해."
           },
           {
-            "id": "213",
+            "id": "214",
             "speaker": "파닥몬",
             "sentence": "야. 텐타몬! 그렇게 말하면 어떡해?"
           },
           {
-            "id": "214",
+            "id": "215",
             "speaker": "텐타몬",
             "sentence": "하지만 테이머. 츄몬과 피콜몬뿐만 아니라 네 곁에 있는 우리 누구도 목숨을 잃는 걸 두려워하지 않아.\\r\\n이건 어쩔 수 없는 사실이야."
           },
-          { "id": "215", "speaker": "유저", "sentence": "..." },
+          { "id": "216", "speaker": "유저", "sentence": "..." },
           {
-            "id": "216",
+            "id": "217",
             "speaker": "텐타몬",
             "sentence": "그만큼 우리 모두 디지털 월드의 평화가 간절해. 긴 시간, 어둠의 힘에 통제당하며 숨어 지내야 했으니까 너라는 기회가 있을 때 목숨을 걸고서라도 지킬 거야."
           },
-          { "id": "217", "speaker": "유저", "sentence": "텐타몬..." },
+          { "id": "218", "speaker": "유저", "sentence": "텐타몬..." },
           {
-            "id": "218",
+            "id": "219",
             "speaker": "가트몬",
             "sentence": "앞으로 널 힘들게 하는 일이 없을 거라고 장담은 못 해. 하지만 그때마다 네 곁에 우리가 있을 거니까 기죽지마. 알겠어?"
           },
           {
-            "id": "219",
+            "id": "220",
             "speaker": "유저",
             "sentence": "든든하네. ... 그래도 너넨 죽지 말아 줘."
           },
           {
-            "id": "220",
+            "id": "221",
             "speaker": "가트몬",
             "sentence": "난 그렇게 쉽게 죽지 않아."
           },
-          { "id": "221", "speaker": "유저", "sentence": "응..." },
+          { "id": "222", "speaker": "유저", "sentence": "응..." },
           {
-            "id": "222",
+            "id": "223",
             "speaker": "피요몬",
             "sentence": "자! 그럼 다시 힘내서 가보자!"
           },
-          { "id": "223", "speaker": "유저", "sentence": "어디로?" },
+          { "id": "224", "speaker": "유저", "sentence": "어디로?" },
           {
-            "id": "224",
+            "id": "225",
             "speaker": "피요몬",
             "sentence": "아까 튜브 쪽으로 갈 때 저쪽에서 매점같이 생긴 건물을 본 것 같아!"
           },
-          { "id": "225", "speaker": "유저", "sentence": "매점? 좋아! 가보자!" }
+          { "id": "226", "speaker": "유저", "sentence": "매점? 좋아! 가보자!" }
         ]
       },
       {
@@ -1149,56 +1150,56 @@
         "isForceEncounter": false,
         "rewards": [],
         "conversations": [
-          { "id": "226", "speaker": "유저", "sentence": "정말 매점이 있잖아!" },
+          { "id": "227", "speaker": "유저", "sentence": "정말 매점이 있잖아!" },
           {
-            "id": "227",
+            "id": "228",
             "speaker": "파닥몬",
             "sentence": "다행이야! 엄청 배고팠는데!"
           },
-          { "id": "228", "speaker": "피요몬", "sentence": "빨리 들어가 보자!" },
-          { "id": "229", "speaker": "가트몬", "sentence": "잠깐!" },
-          { "id": "230", "speaker": "유저", "sentence": "왜? 가트몬?" },
+          { "id": "229", "speaker": "피요몬", "sentence": "빨리 들어가 보자!" },
+          { "id": "230", "speaker": "가트몬", "sentence": "잠깐!" },
+          { "id": "231", "speaker": "유저", "sentence": "왜? 가트몬?" },
           {
-            "id": "231",
+            "id": "232",
             "speaker": "파닥몬",
             "sentence": "나 배고파! 빨리 가자!"
           },
-          { "id": "232", "speaker": "가트몬", "sentence": "혹시 함정이..." },
+          { "id": "233", "speaker": "가트몬", "sentence": "혹시 함정이..." },
           {
-            "id": "233",
+            "id": "234",
             "speaker": "텐타몬",
             "sentence": "괜찮아! 오면서 봤는데 주변에 아무도 없었어! 어서 가자!"
           },
-          { "id": "234", "speaker": "가트몬", "sentence": "..." },
+          { "id": "235", "speaker": "가트몬", "sentence": "..." },
           {
-            "id": "235",
+            "id": "236",
             "speaker": "가트몬",
             "sentence": "휴... 그래 가보자."
           },
-          { "id": "236", "speaker": "유저", "sentence": "(뭔가 수상한데...)" },
-          { "id": "237", "speaker": "알림", "sentence": "매점 안으로 이동 후" },
+          { "id": "237", "speaker": "유저", "sentence": "(뭔가 수상한데...)" },
+          { "id": "238", "speaker": "알림", "sentence": "매점 안으로 이동 후" },
           {
-            "id": "238",
+            "id": "239",
             "speaker": "스콜피온몬",
             "sentence": "크크큭... 멍청한 놈들."
           },
           {
-            "id": "239",
+            "id": "240",
             "speaker": "스콜피온몬",
             "sentence": "메탈시드라몬님이 아주 좋아하시겠군."
           },
           {
-            "id": "240",
+            "id": "241",
             "speaker": "스콜피온몬",
             "sentence": "조금만 기다려라! 곧 메탈시드라몬님이 처리해 줄 테니. 크크큭!"
           },
-          { "id": "241", "speaker": "팔몬", "sentence": "갔나...?" },
+          { "id": "242", "speaker": "팔몬", "sentence": "갔나...?" },
           {
-            "id": "242",
+            "id": "243",
             "speaker": "쉬라몬",
             "sentence": "스콜피온몬이 다시 돌아오기 전에 어서 구출하자!"
           },
-          { "id": "243", "speaker": "팔몬", "sentence": "그래!" }
+          { "id": "244", "speaker": "팔몬", "sentence": "그래!" }
         ]
       },
       {
@@ -1211,65 +1212,65 @@
         "rewards": [],
         "conversations": [
           {
-            "id": "244",
+            "id": "245",
             "speaker": "메탈시드라몬",
             "sentence": "하하하! 잘했다 스콜피온몬!"
           },
           {
-            "id": "245",
+            "id": "246",
             "speaker": "메탈시드라몬",
             "sentence": "그래야 어둠의 사천왕의 부하라 할 수 있지."
           },
           {
-            "id": "246",
+            "id": "247",
             "speaker": "메탈시드라몬",
             "sentence": "상을 내리겠다."
           },
           {
-            "id": "247",
+            "id": "248",
             "speaker": "스콜피온몬",
             "sentence": "감사합니다! 메탈시드라몬님!"
           },
           {
-            "id": "248",
+            "id": "249",
             "speaker": "메탈시드라몬",
             "sentence": "난 선택받은 아이를 처치하고 오겠다."
           },
-          { "id": "249", "speaker": "스콜피온몬", "sentence": "넵!" },
-          { "id": "250", "speaker": "피요몬", "sentence": "으으..." },
-          { "id": "251", "speaker": "파닥몬", "sentence": "여긴...?" },
+          { "id": "250", "speaker": "스콜피온몬", "sentence": "넵!" },
+          { "id": "251", "speaker": "피요몬", "sentence": "으으..." },
+          { "id": "252", "speaker": "파닥몬", "sentence": "여긴...?" },
           {
-            "id": "252",
+            "id": "253",
             "speaker": "쉬라몬",
             "sentence": "다들 정신을 차렸구나!"
           },
-          { "id": "253", "speaker": "유저", "sentence": "팔몬! 쉬라몬!" },
-          { "id": "254", "speaker": "팔몬", "sentence": "쉿! 조용해!" },
+          { "id": "254", "speaker": "유저", "sentence": "팔몬! 쉬라몬!" },
+          { "id": "255", "speaker": "팔몬", "sentence": "쉿! 조용해!" },
           {
-            "id": "255",
+            "id": "256",
             "speaker": "메탈시드라몬",
             "sentence": "거기 누구냐!"
           },
-          { "id": "256", "speaker": "팔몬", "sentence": "이런! 들켜버렸어!" },
+          { "id": "257", "speaker": "팔몬", "sentence": "이런! 들켜버렸어!" },
           {
-            "id": "257",
+            "id": "258",
             "speaker": "메탈시드라몬",
             "sentence": "도망갔잖아! 스콜피온몬! 일처리를 어떻게 하는 거냐...!"
           },
           {
-            "id": "258",
+            "id": "259",
             "speaker": "메탈시드라몬",
             "sentence": "어서 녀석들을 쫒아라!!!"
           },
-          { "id": "259", "speaker": "팔몬", "sentence": "도망치자!" },
-          { "id": "260", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          { "id": "260", "speaker": "팔몬", "sentence": "도망치자!" },
+          { "id": "261", "speaker": "알림", "sentence": "분기점으로 이동 후" },
           {
-            "id": "261",
+            "id": "262",
             "speaker": "스콜피온몬",
             "sentence": "헉... 헉... 잡았다! 이 녀석들!"
           },
           {
-            "id": "262",
+            "id": "263",
             "speaker": "유저",
             "sentence": "이런...! 어쩔 수 없지! 싸우자!"
           }
@@ -1289,53 +1290,53 @@
         ],
         "conversations": [
           {
-            "id": "263",
+            "id": "264",
             "speaker": "알림",
             "sentence": "스콜피온몬과 전투 후"
           },
           {
-            "id": "264",
+            "id": "265",
             "speaker": "스콜피온몬",
             "sentence": "으아악! 아파 아!"
           },
           {
-            "id": "265",
+            "id": "266",
             "speaker": "메탈시드라몬",
             "sentence": "쓸모없는 놈!"
           },
           {
-            "id": "266",
+            "id": "267",
             "speaker": "유저",
             "sentence": "으윽! 벌써 따라잡혔잖아!"
           },
           {
-            "id": "267",
+            "id": "268",
             "speaker": "메탈시드라몬",
             "sentence": "스콜피온몬! 어떻게 된 거냐! 설마 녀석들에게 패배한 건가?!"
           },
           {
-            "id": "268",
+            "id": "269",
             "speaker": "스콜피온몬",
             "sentence": "메탈시드라몬님 그게... 저..."
           },
           {
-            "id": "269",
+            "id": "270",
             "speaker": "메탈시드라몬",
             "sentence": "용서 못 한다!"
           },
-          { "id": "270", "speaker": "스콜피온몬", "sentence": "끄으으윽!" },
+          { "id": "271", "speaker": "스콜피온몬", "sentence": "끄으으윽!" },
           {
-            "id": "271",
+            "id": "272",
             "speaker": "유저",
             "sentence": "잔인한 녀석...! 자기 부하를!"
           },
           {
-            "id": "272",
+            "id": "273",
             "speaker": "유저",
             "sentence": "이럴 때가 아니야 어서 도망치자!"
           },
           {
-            "id": "273",
+            "id": "274",
             "speaker": "메탈시드라몬",
             "sentence": "놓치지 않는다!"
           }
@@ -4136,7 +4137,7 @@
     "name": "한 발자국 앞으로",
     "exp": 176,
     "bit": 63550,
-    "rewards": [],
+    "rewards": [{ "name": "24000 EXP 물약", "canTrade": false, "count": 3 }],
     "questGoals": [
       {
         "id": 1,
@@ -4145,8 +4146,3112 @@
         "isBattle": true,
         "isForceLose": false,
         "isForceEncounter": true,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 2,
+        "goalCount": 1,
+        "goalDescription": "우가몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "915", "speaker": "유저", "sentence": "우가몬!" },
+          { "id": "916", "speaker": "우가몬", "sentence": "..." },
+          {
+            "id": "917",
+            "speaker": "팔몬",
+            "sentence": "움직이지 않네... 죽은 걸까?"
+          },
+          { "id": "918", "speaker": "유저", "sentence": "다친 것 같아." },
+          { "id": "919", "speaker": "쉬라몬", "sentence": "어떻게 하지?" },
+          {
+            "id": "920",
+            "speaker": "유저",
+            "sentence": "깨어나면 우릴 공격하지 않을까?"
+          },
+          {
+            "id": "921",
+            "speaker": "쉬라몬",
+            "sentence": "내버려두는 게 좋겠어."
+          },
+          { "id": "922", "speaker": "유저", "sentence": "팔몬? 뭘 하려고?" },
+          { "id": "923", "speaker": "팔몬", "sentence": "심한 상처..." },
+          { "id": "924", "speaker": "우가몬", "sentence": "으윽..." },
+          {
+            "id": "925",
+            "speaker": "우가몬",
+            "sentence": "너... 넌! 선택받은 아이...!"
+          },
+          {
+            "id": "926",
+            "speaker": "팔몬",
+            "sentence": "움직이지 마. 상처가 벌어져."
+          },
+          {
+            "id": "927",
+            "speaker": "팔몬",
+            "sentence": "쉬라몬 너는 물을 찾아줘."
+          },
+          {
+            "id": "928",
+            "speaker": "팔몬",
+            "sentence": "테이머 너는 약초를 찾아줘."
+          },
+          { "id": "929", "speaker": "유저", "sentence": "응 알겠어." }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 3,
+        "goalDescription": "약초 수집하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 4,
+        "goalCount": 1,
+        "goalDescription": "팔몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "930",
+            "speaker": "유저",
+            "sentence": "여기 약초를 찾아왔어."
+          },
+          { "id": "931", "speaker": "팔몬", "sentence": "고마워 테이머." },
+          {
+            "id": "932",
+            "speaker": "우가몬",
+            "sentence": "너... 너희들... 하지 마!"
+          },
+          { "id": "933", "speaker": "팔몬", "sentence": "얌전히 있어!" },
+          { "id": "934", "speaker": "우가몬", "sentence": "네..." },
+          { "id": "935", "speaker": "팔몬", "sentence": "..." },
+          { "id": "936", "speaker": "우가몬", "sentence": "아! 아파!" },
+          {
+            "id": "937",
+            "speaker": "팔몬",
+            "sentence": "덩치는 커다래서 그것도 못 참아?"
+          },
+          { "id": "938", "speaker": "우가몬", "sentence": "..." },
+          {
+            "id": "939",
+            "speaker": "우가몬",
+            "sentence": "어째서? 어째서 나 같은 걸 구해준 거야?"
+          },
+          {
+            "id": "940",
+            "speaker": "팔몬",
+            "sentence": "그거 말고 할 말이 있지 않아?"
+          },
+          { "id": "941", "speaker": "우가몬", "sentence": "..." },
+          {
+            "id": "942",
+            "speaker": "우가몬",
+            "sentence": "고... 고마.. 고마..."
+          },
+          {
+            "id": "943",
+            "speaker": "팔몬",
+            "sentence": "무리해서 말하지 않아도 돼. 그럼 건강해."
+          },
+          { "id": "944", "speaker": "우가몬", "sentence": "기... 기다려!" },
+          { "id": "945", "speaker": "우가몬", "sentence": "고... 고마워요..." },
+          { "id": "946", "speaker": "팔몬", "sentence": "아뇨~ 천만에요~" },
+          {
+            "id": "947",
+            "speaker": "쉬라몬",
+            "sentence": "흐음~ 우가몬은 이렇게 우는구나."
+          },
+          {
+            "id": "948",
+            "speaker": "우가몬",
+            "sentence": "눈에 먼지가 들어간 거야!"
+          },
+          { "id": "949", "speaker": "피노키몬", "sentence": "노~올~자~" },
+          {
+            "id": "950",
+            "speaker": "피노키몬",
+            "sentence": "수수께끼 하면서 노올자~"
+          },
+          { "id": "951", "speaker": "유저", "sentence": "피노키몬!" },
+          { "id": "952", "speaker": "팔몬", "sentence": "수수께끼라니?" },
+          {
+            "id": "953",
+            "speaker": "피노키몬",
+            "sentence": "나한테 부족한 건 뭘까~?"
+          },
+          { "id": "954", "speaker": "쉬라몬", "sentence": "부족한 거?" },
+          { "id": "955", "speaker": "피노키몬", "sentence": "빨리 대답해." },
+          {
+            "id": "956",
+            "speaker": "피노키몬",
+            "sentence": "대답하지 않으면 죽일 거야."
+          },
+          { "id": "957", "speaker": "유저", "sentence": "..." },
+          {
+            "id": "958",
+            "speaker": "피노키몬",
+            "sentence": "대답하지 못하나 보네. 그럼 잘 가~"
+          },
+          {
+            "id": "959",
+            "speaker": "쉬라몬",
+            "sentence": "안되겠다! 내가 진화해서 막아볼게!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 1,
+        "goalDescription": "피노키몬과 전투하기",
+        "isBattle": true,
+        "isForceLose": true,
+        "isForceEncounter": true,
+        "rewards": [
+          { "name": "포션박스 Lv.3", "canTrade": false, "count": 10 },
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 },
+          { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 15 }
+        ],
+        "conversations": [
+          { "id": "960", "speaker": "알림", "sentence": "전투 후" },
+          {
+            "id": "961",
+            "speaker": "피노키몬",
+            "sentence": "어림없지, 내 망치 맛이나 봐라!"
+          },
+          { "id": "962", "speaker": "쥬드몬", "sentence": "으윽...!" },
+          {
+            "id": "963",
+            "speaker": "피노키몬",
+            "sentence": "하하하! 진화하면 날 막을 수 있을 거라 생각했어? 이제 죽어!"
+          },
+          { "id": "964", "speaker": "메탈에테몬", "sentence": "잠깐!" },
+          { "id": "965", "speaker": "피노키몬", "sentence": "응? 뭐야 넌!" },
+          { "id": "966", "speaker": "유저", "sentence": "너는... 에테몬?!" },
+          {
+            "id": "967",
+            "speaker": "메탈에테몬",
+            "sentence": "에테몬은 옛날 얘기!"
+          },
+          {
+            "id": "968",
+            "speaker": "메탈에테몬",
+            "sentence": "지금은 다시 태어난 메탈에테몬이지~!"
+          },
+          {
+            "id": "969",
+            "speaker": "유저",
+            "sentence": "죽은 줄 알았는데...!"
+          },
+          {
+            "id": "970",
+            "speaker": "메탈에테몬",
+            "sentence": "자~ 지금부터는 눈물겨운 이야기!"
+          },
+          {
+            "id": "971",
+            "speaker": "메탈에테몬",
+            "sentence": "과거 사막지대에서 이 몸이 죽은 건 다들 알고 계시죵~?"
+          },
+          {
+            "id": "972",
+            "speaker": "메탈에테몬",
+            "sentence": "지옥에서 이 몸은 계속해서 고통받고 있었답니다~"
+          },
+          {
+            "id": "973",
+            "speaker": "메탈에테몬",
+            "sentence": "하지만 이 몸이 다시 등장한 이유!"
+          },
+          {
+            "id": "974",
+            "speaker": "메탈에테몬",
+            "sentence": "그 이유는 바로바로!"
+          },
+          {
+            "id": "975",
+            "speaker": "메탈에테몬",
+            "sentence": "이 몸을 이 꼴로 만든 선택받은 아이를 향한 복수의 의지!"
+          },
+          {
+            "id": "976",
+            "speaker": "메탈에테몬",
+            "sentence": "그렇게 이 몸은 메탈에테몬으로 다시 태어나고 이 세계로 다시 돌아온 거지~!"
+          },
+          {
+            "id": "977",
+            "speaker": "메탈에테몬",
+            "sentence": "바로 너에게 복수하기 위해서~~"
+          },
+          { "id": "978", "speaker": "피노키몬", "sentence": "... 끝난 거야?" },
+          {
+            "id": "979",
+            "speaker": "메탈에테몬",
+            "sentence": "아직 끝나지 않았단다 꼬마야."
+          },
+          {
+            "id": "980",
+            "speaker": "피노키몬",
+            "sentence": "뭐? 꼬마라고?! 너 죽을래?"
+          },
+          {
+            "id": "981",
+            "speaker": "메탈에테몬",
+            "sentence": "어머 어머 이 꼬마 녀석 말하는 것 좀 봐!"
+          },
+          {
+            "id": "982",
+            "speaker": "피노키몬",
+            "sentence": "자꾸 꼬마라고 하지 마!"
+          },
+          { "id": "983", "speaker": "유저", "sentence": "이 틈에 도망가자!" }
+        ]
+      },
+      {
+        "id": 6,
+        "goalCount": 1,
+        "goalDescription": "몰래 도망치기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": [
+          { "id": "984", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          { "id": "985", "speaker": "피노키몬", "sentence": "야야! 아프잖아!" },
+          {
+            "id": "986",
+            "speaker": "메탈에테몬",
+            "sentence": "자~ 그럼 이 기회에 선택받은 아이..."
+          },
+          { "id": "987", "speaker": "메탈에테몬", "sentence": "어라? 없네." },
+          { "id": "988", "speaker": "피노키몬", "sentence": "너 때문이야!" },
+          { "id": "989", "speaker": "메탈에테몬", "sentence": "너 때문이지!" },
+          {
+            "id": "990",
+            "speaker": "피노키몬",
+            "sentence": "지겨워. 집에 갈래. 간다."
+          },
+          {
+            "id": "991",
+            "speaker": "메탈에테몬",
+            "sentence": "저 귀염성 없는 꼬마 녀석!"
+          },
+          {
+            "id": "992",
+            "speaker": "메탈에테몬",
+            "sentence": "오히려 좋아! 방해하는 녀석이 사라졌으니 선택받은 아이는 내 거다!"
+          },
+          {
+            "id": "993",
+            "speaker": "메탈에테몬",
+            "sentence": "기다려라 선택받은 아이! 복수의 화신으로 바뀐 이 몸이 간다!"
+          },
+          {
+            "id": "994",
+            "speaker": "쉬라몬",
+            "sentence": "따라오지 않는 걸 보니 성공적으로 도망친 것 같아."
+          },
+          { "id": "995", "speaker": "유저", "sentence": "그러게." },
+          {
+            "id": "996",
+            "speaker": "팔몬",
+            "sentence": "그런데 우가몬 너는 뭘 하고 있었던 거야?"
+          },
+          {
+            "id": "997",
+            "speaker": "우가몬",
+            "sentence": "나는 레오몬과 싸우기 위해 레오몬을 찾고 있었지."
+          },
+          {
+            "id": "998",
+            "speaker": "쉬라몬",
+            "sentence": "레오몬과 왜 싸우려 하는데?"
+          },
+          {
+            "id": "999",
+            "speaker": "우가몬",
+            "sentence": "레오몬과 왜 싸우냐고?"
+          },
+          {
+            "id": "1000",
+            "speaker": "쉬라몬",
+            "sentence": "응. 너희들이 싸우는 의미는 뭐야?"
+          },
+          {
+            "id": "1001",
+            "speaker": "우가몬",
+            "sentence": "의미라... 그런 어려운 건 몰라."
+          },
+          {
+            "id": "1002",
+            "speaker": "우가몬",
+            "sentence": "레오몬과 나는 숙명이야. 영원한 라이벌이라고 해야 하나?"
+          },
+          {
+            "id": "1003",
+            "speaker": "쉬라몬",
+            "sentence": "너희 중에 누군가 이기면 그다음은?"
+          },
+          {
+            "id": "1004",
+            "speaker": "우가몬",
+            "sentence": "그다음은? 그럼 이겼다! 하고 기분 좋겠지 뭐."
+          },
+          { "id": "1005", "speaker": "쉬라몬", "sentence": "그 이후에는?" },
+          {
+            "id": "1006",
+            "speaker": "우가몬",
+            "sentence": "으... 시끄러! 난 레오몬을 무찌를 거야! 그 뒤 일은 될 대로 되라지!"
+          },
+          {
+            "id": "1007",
+            "speaker": "쉬라몬",
+            "sentence": "결국 싸운다는 말이네..."
+          },
+          { "id": "1008", "speaker": "메탈에테몬", "sentence": "찾~았다~!" },
+          { "id": "1009", "speaker": "유저", "sentence": "벌써?! 도망치자!" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "type": 1,
+    "name": "돌아온 메탈에테몬",
+    "exp": 178,
+    "bit": 64400,
+    "rewards": [
+      { "name": "포션박스 Lv.3", "canTrade": false, "count": 10 },
+      { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 10 },
+      { "name": "쓸만한 자애 귀걸이A", "canTrade": false, "count": 1 }
+    ],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 0,
+        "goalDescription": "메탈에테몬을 피해 도망치기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1010", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1011",
+            "speaker": "메탈에테몬",
+            "sentence": "찾았다! 요 녀석들!"
+          },
+          { "id": "1012", "speaker": "메탈에테몬", "sentence": "죽어라아아앗!" }
+        ]
+      },
+      {
+        "id": 2,
+        "goalCount": 1,
+        "goalDescription": "메탈에테몬과 대결하기",
+        "isBattle": true,
+        "isForceLose": true,
+        "isForceEncounter": true,
+        "rewards": [
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 },
+          { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 10 }
+        ],
+        "conversations": [
+          {
+            "id": "1013",
+            "speaker": "메탈에테몬",
+            "sentence": "후후후 선택받은 아이도 별거 없는걸?!"
+          },
+          { "id": "1014", "speaker": "샤벨레오몬", "sentence": "멈춰라!" },
+          {
+            "id": "1015",
+            "speaker": "메탈에테몬",
+            "sentence": "잉?! 넌 뭐야!"
+          },
+          { "id": "1016", "speaker": "샤벨레오몬", "sentence": "이쪽으로!" }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 0,
+        "goalDescription": "샤벨레오몬을 따라 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1017", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1018",
+            "speaker": "유저",
+            "sentence": "그런데 넌... 누구야?"
+          },
+          { "id": "1019", "speaker": "샤벨레오몬", "sentence": "진정해." },
+          { "id": "1020", "speaker": "유저", "sentence": "그 목소리는...?" },
+          { "id": "1021", "speaker": "우가몬", "sentence": "혹시?" },
+          { "id": "1022", "speaker": "우가몬", "sentence": "이 자식..." },
+          {
+            "id": "1023",
+            "speaker": "메탈에테몬",
+            "sentence": "놓치지 않을 거야~~"
+          },
+          {
+            "id": "1024",
+            "speaker": "샤벨레오몬",
+            "sentence": "이야기는 나중에. 어서 날 따라와!"
+          },
+          {
+            "id": "1025",
+            "speaker": "메탈에테몬",
+            "sentence": "기다리고 있어~! 꼭 찾아 줄 테다~!"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "goalCount": 0,
+        "goalDescription": "샤벨레오몬을 따라 계속해서 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1026",
+            "speaker": "유저",
+            "sentence": "저 녀석들... 길을 막고 있어... 메탈에테몬의 부하인가? 처치하고 이동하자!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 15,
+        "goalDescription": "길을 막는 디지몬(브롯사몬)들 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 6,
+        "goalCount": 0,
+        "goalDescription": "샤벨레오몬을 따라 계속해서 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
         "rewards": null,
         "conversations": null
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": 1,
+    "name": "재회를 약속하며",
+    "exp": 180,
+    "bit": 65250,
+    "rewards": [
+      { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 10 },
+      { "name": "포션박스 Lv.3", "canTrade": false, "count": 10 }
+    ],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 1,
+        "goalDescription": "레오몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1027", "speaker": "유저", "sentence": "어라? 여기는..." },
+          {
+            "id": "1028",
+            "speaker": "쉬라몬",
+            "sentence": "여기는 나랑 파닥몬, 파피몬이 부당하게 일했던 레스토랑이잖아?"
+          },
+          {
+            "id": "1029",
+            "speaker": "쉬라몬",
+            "sentence": "이상하다... 분명 바다 근처에 있었는데..."
+          },
+          {
+            "id": "1030",
+            "speaker": "레오몬",
+            "sentence": "어쨌든, 여기서 쉬도록 하자."
+          },
+          {
+            "id": "1031",
+            "speaker": "유저",
+            "sentence": "레오몬! 역시 레오몬이었어! 살아있었구나!"
+          },
+          {
+            "id": "1032",
+            "speaker": "레오몬",
+            "sentence": "걱정을 끼쳤구나 선택받은 아이여."
+          },
+          {
+            "id": "1033",
+            "speaker": "유저",
+            "sentence": "레오몬 진화할 수 있는 거야?"
+          },
+          {
+            "id": "1034",
+            "speaker": "레오몬",
+            "sentence": "하지만 금방 원래 상태로 돌아가버리더군. 힘이 부족한 모양이지. 그래서 지금도 진화를 풀고 있다."
+          },
+          {
+            "id": "1035",
+            "speaker": "우가몬",
+            "sentence": "하! 지금 진화할 수 있다고 자랑하는 거야?"
+          },
+          {
+            "id": "1036",
+            "speaker": "레오몬",
+            "sentence": "우가몬. 너는 그대로군."
+          },
+          {
+            "id": "1037",
+            "speaker": "우가몬",
+            "sentence": "그래서 한판 하자는 거야?! 덤벼!"
+          },
+          {
+            "id": "1038",
+            "speaker": "레오몬",
+            "sentence": "일단 상처나 치료하지? 너와의 싸움은 그 후다."
+          },
+          { "id": "1039", "speaker": "우가몬", "sentence": "..." },
+          { "id": "1040", "speaker": "유저", "sentence": "누구냐?!" },
+          {
+            "id": "1041",
+            "speaker": "개굴몬",
+            "sentence": "목숨만은 살려줘 개굴..."
+          },
+          { "id": "1042", "speaker": "올챙몬", "sentence": "살려줘 올챙..." },
+          { "id": "1043", "speaker": "유저", "sentence": "너희들?!" },
+          {
+            "id": "1044",
+            "speaker": "팔몬",
+            "sentence": "개굴몬하고 올챙몬?!"
+          },
+          {
+            "id": "1045",
+            "speaker": "개굴몬",
+            "sentence": "어! 공주님이다 개굴!"
+          },
+          { "id": "1046", "speaker": "올챙몬", "sentence": "공주님 올챙!" },
+          {
+            "id": "1047",
+            "speaker": "팔몬",
+            "sentence": "너희 왜 여기 있는 거야? 개굴몬 성은?"
+          },
+          {
+            "id": "1048",
+            "speaker": "개굴몬",
+            "sentence": "성은 어둠의 사천왕이 부숴버렸어 개굴..."
+          },
+          {
+            "id": "1049",
+            "speaker": "올챙몬",
+            "sentence": "그 후에 부하들이 공격을 시작했어 올챙."
+          },
+          {
+            "id": "1050",
+            "speaker": "올챙몬",
+            "sentence": "우리는 목숨만 유지하고 여기까지 도망쳤어 올챙."
+          },
+          { "id": "1051", "speaker": "팔몬", "sentence": "너무해..." },
+          {
+            "id": "1052",
+            "speaker": "유저",
+            "sentence": "자기 편이 아니라면 전부 죽이나 보네."
+          },
+          { "id": "1053", "speaker": "우가몬", "sentence": "마음에 안 들어!" },
+          {
+            "id": "1054",
+            "speaker": "유저",
+            "sentence": "더 이상 녀석들의 뜻대로 둘 수 없어!"
+          },
+          {
+            "id": "1055",
+            "speaker": "레오몬",
+            "sentence": "그래서 나는 선택받은 아이인 너를 찾아다녔다."
+          },
+          {
+            "id": "1056",
+            "speaker": "레오몬",
+            "sentence": "어둠의 사천왕을 처치하고 이 세상을 원래대로 돌리기 위해서는 선택받은 아이의 힘이 필요하지."
+          },
+          {
+            "id": "1057",
+            "speaker": "쉬라몬",
+            "sentence": "처음부터 어둠의 사천왕과 싸웠으면..."
+          },
+          {
+            "id": "1058",
+            "speaker": "우가몬",
+            "sentence": "캬하하하 너 바보냐?"
+          },
+          {
+            "id": "1059",
+            "speaker": "우가몬",
+            "sentence": "그랬으면 바로 죽었을걸!"
+          },
+          {
+            "id": "1060",
+            "speaker": "팔몬",
+            "sentence": "그래도 우리 때문에 다른 디지몬이 죽는 일은 없었겠지..."
+          },
+          { "id": "1061", "speaker": "유저", "sentence": "팔몬..." },
+          {
+            "id": "1062",
+            "speaker": "레오몬",
+            "sentence": "그게 어쩌면 너희들의 시련일지도 모르지."
+          },
+          { "id": "1063", "speaker": "팔몬", "sentence": "시련?" },
+          {
+            "id": "1064",
+            "speaker": "레오몬",
+            "sentence": "그래. 선택받은 아이가 정말 이 세계를 구할 수 있을지에 대한 시련."
+          },
+          {
+            "id": "1065",
+            "speaker": "레오몬",
+            "sentence": "무한산에서 데블몬에게 당했다면, 아마 거기까지 였겠지."
+          },
+          {
+            "id": "1066",
+            "speaker": "레오몬",
+            "sentence": "하지만 너희들은 그 시련을 훌륭히 완수하고 어둠의 사천왕과 싸울 정도까지 성장했다."
+          },
+          {
+            "id": "1067",
+            "speaker": "레오몬",
+            "sentence": "지금이야말로 어둠의 사천왕을 처치할 때다. 다른 동료들은 어디 있지? 서둘러야 할 것 같다."
+          },
+          {
+            "id": "1068",
+            "speaker": "유저",
+            "sentence": "그게 실은... 개별행동을 하고 있어..."
+          },
+          {
+            "id": "1069",
+            "speaker": "레오몬",
+            "sentence": "개별행동? 아마 다른 시련이겠지."
+          },
+          {
+            "id": "1070",
+            "speaker": "알림",
+            "sentence": "아구몬 무리로 화면 전환"
+          },
+          {
+            "id": "1071",
+            "speaker": "뿌띠몬",
+            "sentence": "무슨 짓을 하는 거임! 너희들!"
+          },
+          {
+            "id": "1072",
+            "speaker": "아구몬",
+            "sentence": "무슨 짓이냐니 너희들 피노키몬의 부하잖아."
+          },
+          {
+            "id": "1073",
+            "speaker": "뿌띠몬",
+            "sentence": "말도 안 되는 소리임!"
+          },
+          {
+            "id": "1074",
+            "speaker": "플로라몬",
+            "sentence": "부하 같은 게 아냐."
+          },
+          { "id": "1075", "speaker": "파닥몬", "sentence": "그럼 뭔데?" },
+          {
+            "id": "1076",
+            "speaker": "뿌띠몬",
+            "sentence": "피노키몬은 우리를 장난감으로 생각함! 우린 그렇게 생각 안 함!"
+          },
+          {
+            "id": "1077",
+            "speaker": "뿌띠몬",
+            "sentence": "우리끼리 하는 얘긴데... 우리도 피노키몬을 엄청 싫어함!"
+          },
+          {
+            "id": "1078",
+            "speaker": "파닥몬",
+            "sentence": "생각났음! 피노키몬에게는 친구가 없었음."
+          },
+          { "id": "1079", "speaker": "뿌띠몬", "sentence": "그래 맞아." },
+          {
+            "id": "1080",
+            "speaker": "가트몬",
+            "sentence": "피노키몬은 참 불쌍한 애임."
+          },
+          {
+            "id": "1081",
+            "speaker": "플로라몬",
+            "sentence": "따라하지 않아도 되는데..."
+          },
+          {
+            "id": "1082",
+            "speaker": "아구몬",
+            "sentence": "그래서 피노키몬은 안에 있는 거야?"
+          },
+          {
+            "id": "1083",
+            "speaker": "뿌띠몬",
+            "sentence": "없는 걸로 알고 있음. 나간 걸로 알고 있음."
+          },
+          {
+            "id": "1084",
+            "speaker": "아구몬",
+            "sentence": "좋아 그럼 우릴 도와주지 않을래? 피노키몬이 오면 습격을 할 거야."
+          },
+          {
+            "id": "1085",
+            "speaker": "뿌띠몬",
+            "sentence": "알겠음 잘 부탁함."
+          },
+          {
+            "id": "1086",
+            "speaker": "뿌띠몬",
+            "sentence": "아! 한 가지 말해둘게 생각났음. 피노키몬에겐 이르면 안 됨!"
+          },
+          { "id": "1087", "speaker": "가트몬", "sentence": "알고 있음~" }
+        ]
+      },
+      {
+        "id": 2,
+        "goalCount": 1,
+        "goalDescription": "메탈에테몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1088",
+            "speaker": "레오몬",
+            "sentence": "... 다들 조심해라."
+          },
+          { "id": "1089", "speaker": "우가몬", "sentence": "오셨구만." },
+          {
+            "id": "1090",
+            "speaker": "메탈에테몬",
+            "sentence": "겨우 찾았네. 자~ 완전 묵사발을 내주겠어~!"
+          },
+          {
+            "id": "1091",
+            "speaker": "레오몬",
+            "sentence": "메탈에테몬! 내가 상대다! 진화해서 상대해 주지!"
+          },
+          {
+            "id": "1092",
+            "speaker": "샤벨레오몬",
+            "sentence": "여긴 내게 맡기고 어서 도망쳐라!"
+          },
+          {
+            "id": "1093",
+            "speaker": "유저",
+            "sentence": "안돼! 그럴 순 없어!"
+          },
+          { "id": "1094", "speaker": "쉬라몬", "sentence": "좋아! 나도!" },
+          { "id": "1095", "speaker": "팔몬", "sentence": "멈춰!" },
+          { "id": "1096", "speaker": "쉬라몬", "sentence": "왜 그래 팔몬?" },
+          {
+            "id": "1097",
+            "speaker": "팔몬",
+            "sentence": "샤벨레오몬 말대로 우린 도망치자..."
+          },
+          { "id": "1098", "speaker": "샤벨레오몬", "sentence": "크윽...!" },
+          {
+            "id": "1099",
+            "speaker": "메탈에테몬",
+            "sentence": "별 것도 아닌 게 까불어~"
+          },
+          {
+            "id": "1100",
+            "speaker": "쉬라몬",
+            "sentence": "하지만 샤벨레오몬이!"
+          },
+          {
+            "id": "1101",
+            "speaker": "우가몬",
+            "sentence": "기다려! 레오몬을 처치하는 건 나야!"
+          },
+          {
+            "id": "1102",
+            "speaker": "유저",
+            "sentence": "그만둬 우가몬 네 상대가 아냐."
+          },
+          { "id": "1103", "speaker": "우가몬", "sentence": "시끄러!" },
+          {
+            "id": "1104",
+            "speaker": "팔몬",
+            "sentence": "그렇게 다친 몸으로 그만둬!"
+          },
+          {
+            "id": "1105",
+            "speaker": "메탈에테몬",
+            "sentence": "셔럽~! 그렇게 보채지 않아도 모두 처치해 줄 거야~"
+          },
+          {
+            "id": "1106",
+            "speaker": "쉬라몬",
+            "sentence": "샤벨레오몬을 혼자 둘 순 없어. 나도 싸우겠어!"
+          },
+          { "id": "1107", "speaker": "유저", "sentence": "... 미안해 팔몬" },
+          {
+            "id": "1108",
+            "speaker": "팔몬",
+            "sentence": "싫어! 이제 싫다구..."
+          },
+          {
+            "id": "1109",
+            "speaker": "알림",
+            "sentence": "메탈에테몬 처치 및 컷신 후"
+          },
+          {
+            "id": "1110",
+            "speaker": "메탈에테몬",
+            "sentence": "우아아아악! 거짓말이야~~~~~~~!"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 1,
+        "goalDescription": "레오몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [
+          { "name": "24000 EXP 물약", "canTrade": false, "count": 3 },
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 20 },
+          { "name": "부서진 레오몬 디지코어", "canTrade": false, "count": 1 }
+        ],
+        "conversations": [
+          { "id": "1111", "speaker": "유저", "sentence": "레오몬!" },
+          {
+            "id": "1112",
+            "speaker": "팔몬",
+            "sentence": "싫어! 죽는 건 싫어!"
+          },
+          { "id": "1113", "speaker": "쉬라몬", "sentence": "레오몬..." },
+          {
+            "id": "1114",
+            "speaker": "팔몬",
+            "sentence": "부탁이야... 죽지 말아 줘!"
+          },
+          {
+            "id": "1115",
+            "speaker": "레오몬",
+            "sentence": "슬퍼할 필요 없다. 나는 시작의 마을에서 다시 태어날 뿐이니까."
+          },
+          {
+            "id": "1116",
+            "speaker": "레오몬",
+            "sentence": "우가몬 미안하다. 너와의 결착은 그때까지 미루도록 하자..."
+          },
+          { "id": "1117", "speaker": "우가몬", "sentence": "레오몬..." },
+          { "id": "1118", "speaker": "팔몬", "sentence": "싫어어어!!!" },
+          { "id": "1119", "speaker": "쉬라몬", "sentence": "제길!" },
+          {
+            "id": "1120",
+            "speaker": "쉬라몬",
+            "sentence": "팔몬 시작의 마을로 가자."
+          },
+          {
+            "id": "1121",
+            "speaker": "팔몬",
+            "sentence": "시작의 마을로 가면 레오몬 뿐 아니라 츄몬도 피콜몬도 지금까지 희생한 모든 디지몬들을 만날 수 있는 거겠지?"
+          },
+          {
+            "id": "1122",
+            "speaker": "쉬라몬",
+            "sentence": "그럴 거야! 그러니 시작의 마을로 가자!"
+          },
+          {
+            "id": "1123",
+            "speaker": "우가몬",
+            "sentence": "내가 얼마 전에 다녀왔었는데 시작의 마을은 없어졌어..."
+          },
+          {
+            "id": "1124",
+            "speaker": "우가몬",
+            "sentence": "어둠의 사천왕 녀석들에게 완전 폐허가 돼있었지."
+          },
+          {
+            "id": "1125",
+            "speaker": "우가몬",
+            "sentence": "녀석들을 무찌르기 전에는 시작의 마을은 돌아오지 않을 거야."
+          },
+          {
+            "id": "1126",
+            "speaker": "쉬라몬",
+            "sentence": "난 아무것도 안 하고 여기 있는 건 싫어!"
+          },
+          {
+            "id": "1127",
+            "speaker": "쉬라몬",
+            "sentence": "팔몬, 이제는 싫어도 어둠의 사천왕을 처치하지 않으면 안 돼!"
+          },
+          {
+            "id": "1128",
+            "speaker": "팔몬",
+            "sentence": "... 알겠어 시작의 마을을 원래대로 돌려놓기 위해선 나도 함께 할게."
+          },
+          {
+            "id": "1129",
+            "speaker": "유저",
+            "sentence": "우가몬 너도 우릴 도와줄 수 있어?"
+          },
+          {
+            "id": "1130",
+            "speaker": "우가몬",
+            "sentence": "흥! 너희와 손잡을 생각 없어!"
+          },
+          {
+            "id": "1131",
+            "speaker": "우가몬",
+            "sentence": "하지만 레오몬과 결착을 내기 위해선 어쩔 수 없지."
+          },
+          {
+            "id": "1132",
+            "speaker": "유저",
+            "sentence": "좋아 그럼 우선 동료들을 모으자."
+          },
+          { "id": "1133", "speaker": "쉬라몬", "sentence": "동료?" },
+          {
+            "id": "1134",
+            "speaker": "유저",
+            "sentence": "어둠의 사천왕에 대항하는 디지몬들이 있을거야 그 디지몬들을 모으자."
+          },
+          { "id": "1135", "speaker": "쉬라몬", "sentence": "좋아!" },
+          {
+            "id": "1136",
+            "speaker": "개굴몬",
+            "sentence": "공주님 저희도 데려가 주세요 개굴."
+          },
+          { "id": "1137", "speaker": "팔몬", "sentence": "안돼." },
+          { "id": "1138", "speaker": "올챙몬", "sentence": "왜 안돼 올챙?" },
+          {
+            "id": "1139",
+            "speaker": "팔몬",
+            "sentence": "공주님이 아니라 팔몬이라고 부르면 데려가 줄게!"
+          },
+          {
+            "id": "1140",
+            "speaker": "개굴몬",
+            "sentence": "팔몬 우리도 데려가 줘 개굴."
+          },
+          { "id": "1141", "speaker": "팔몬", "sentence": "물론이지!" }
+        ]
+      },
+      {
+        "id": 4,
+        "goalCount": 1,
+        "goalDescription": "쉬라몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1142",
+            "speaker": "유저",
+            "sentence": "좋아 그럼 너희는 동료들을 모아줘."
+          },
+          {
+            "id": "1143",
+            "speaker": "유저",
+            "sentence": "나는 아구몬 쪽에 합류해서 움직일게."
+          },
+          {
+            "id": "1144",
+            "speaker": "쉬라몬",
+            "sentence": "응 알겠어! 나중에 봐 테이머!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 0,
+        "goalDescription": "아구몬 일행과 합류하러 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1145", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1146",
+            "speaker": "피노키몬",
+            "sentence": "키위몬! 지금 집에 누군가 쳐들어 왔다니까 나는 집으로 가볼 테니 너희는 이 주변에서 선택받은 아이를 찾고 있어!"
+          },
+          { "id": "1147", "speaker": "키위몬", "sentence": "네! 피노키몬님!" },
+          {
+            "id": "1148",
+            "speaker": "유저",
+            "sentence": "(아구몬 일행은 피노키몬의 집으로 간 것 같네. 피노키몬의 집으로 빨리 가보자.)"
+          },
+          {
+            "id": "1149",
+            "speaker": "유저",
+            "sentence": "(피노키몬의 집으로 가기 위해선 키위몬을 처리하지 않으면 안 되겠다. 키위몬을 처치하자.)"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "goalCount": 15,
+        "goalDescription": "길을 막는 키위몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": null,
+        "conversations": null
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "type": 1,
+    "name": "피노키몬을 처치하라!",
+    "exp": 182,
+    "bit": 66100,
+    "rewards": [
+      { "name": "24000 EXP 물약", "canTrade": false, "count": 5 },
+      { "name": "쓸만한 자애 반지B", "canTrade": false, "count": 1 }
+    ],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 1,
+        "goalDescription": "아구몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1150",
+            "speaker": "유저",
+            "sentence": "아구몬! 파닥몬! 피요몬! 텐타몬! 가트몬!"
+          },
+          { "id": "1151", "speaker": "아구몬", "sentence": "테이머!" },
+          {
+            "id": "1152",
+            "speaker": "유저",
+            "sentence": "지금 이 곳으로 피노키몬이 오고 있어! 준비하자!"
+          },
+          {
+            "id": "1153",
+            "speaker": "피요몬",
+            "sentence": "응 알겠어! 나중에 봐 테이머!"
+          },
+          {
+            "id": "1154",
+            "speaker": "피노키몬",
+            "sentence": "이 녀석들! 먹대로 내 집에 침입하다니 불법 침입으로 고소할 거야!"
+          },
+          { "id": "1155", "speaker": "유저", "sentence": "벌써 왔다고?" },
+          {
+            "id": "1156",
+            "speaker": "아구몬",
+            "sentence": "슬슬 결착을 짓자! 피노키몬!"
+          },
+          {
+            "id": "1157",
+            "speaker": "피노키몬",
+            "sentence": "흥! 좋아! 승부하자!"
+          },
+          {
+            "id": "1158",
+            "speaker": "피노키몬",
+            "sentence": "가라! 레드베지몬!"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "goalCount": 10,
+        "goalDescription": "레드베지몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1159",
+            "speaker": "알림",
+            "sentence": "레드베지몬과 전투 후"
+          },
+          {
+            "id": "1160",
+            "speaker": "피노키몬",
+            "sentence": "이익! 레드베지몬! 뭐 하는 거야 정말! 쓸모없는 녀석들!"
+          },
+          { "id": "1161", "speaker": "유저", "sentence": "피노키몬! 덤벼라!" },
+          {
+            "id": "1162",
+            "speaker": "피노키몬",
+            "sentence": "너희 따위 처치해 주마!"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 1,
+        "goalDescription": "피노키몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": [
+          { "id": "1163", "speaker": "알림", "sentence": "피노키몬과 전투 후" },
+          {
+            "id": "1164",
+            "speaker": "유저",
+            "sentence": "피노키몬. 승부가 났군."
+          },
+          {
+            "id": "1165",
+            "speaker": "피노키몬",
+            "sentence": "이 바보 녀석들 이걸로 끝난 것 같아?!"
+          },
+          {
+            "id": "1166",
+            "speaker": "피노키몬",
+            "sentence": "레드베지몬! 녀석들을 막아!"
+          },
+          {
+            "id": "1167",
+            "speaker": "텐타몬",
+            "sentence": "피노키몬이 도망친다!"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "goalCount": 10,
+        "goalDescription": "레드베지몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1168",
+            "speaker": "알림",
+            "sentence": "레드베지몬과 전투 후"
+          },
+          { "id": "1169", "speaker": "피노키몬", "sentence": "누구야!" },
+          {
+            "id": "1170",
+            "speaker": "피노키몬",
+            "sentence": "아! 마침 잘 왔다! 저 녀석들을 혼내줘!"
+          },
+          { "id": "1171", "speaker": "메탈가루몬", "sentence": "..." },
+          {
+            "id": "1172",
+            "speaker": "피노키몬",
+            "sentence": "내 말 들어! 녀석들을 처치하라고!"
+          },
+          {
+            "id": "1173",
+            "speaker": "메탈가루몬",
+            "sentence": "동료를 죽이라는 명령을 들을 것 같아?"
+          },
+          {
+            "id": "1174",
+            "speaker": "피노키몬",
+            "sentence": "뭐? 건방지게! 내 명령을 들으라고!"
+          },
+          { "id": "1175", "speaker": "알림", "sentence": "컷신" },
+          {
+            "id": "1176",
+            "speaker": "피노키몬",
+            "sentence": "쥬레이몬... 내게 부족한 게 뭐야..."
+          },
+          {
+            "id": "1177",
+            "speaker": "아구몬",
+            "sentence": "뭐야? 갑자기 숲이...!"
+          },
+          {
+            "id": "1178",
+            "speaker": "텐타몬",
+            "sentence": "누군가 피노키몬을 처치한 것 같아."
+          },
+          { "id": "1179", "speaker": "유저", "sentence": "누구지...?" },
+          {
+            "id": "1180",
+            "speaker": "가트몬",
+            "sentence": "어쨌든 빨리 이곳을 벗어나야 할 것 같아."
+          },
+          {
+            "id": "1181",
+            "speaker": "유저",
+            "sentence": "응! 다음 지역으로 가는 길을 아까 봐 뒀어 날 따라와!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 0,
+        "goalDescription": "도서 지역으로 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": [
+          { "id": "1182", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1183",
+            "speaker": "유저",
+            "sentence": "쉬라몬과 팔몬은 잘 빠져나갔을까...? 걱정되네."
+          },
+          { "id": "1184", "speaker": "가트몬", "sentence": "콜록콜록.." },
+          {
+            "id": "1185",
+            "speaker": "유저",
+            "sentence": "가트몬, 괜찮아? 상태가 안 좋아 보이는데."
+          },
+          {
+            "id": "1186",
+            "speaker": "가트몬",
+            "sentence": "모르겠어. 감기인가 봐. 열이 좀 나네"
+          },
+          {
+            "id": "1187",
+            "speaker": "유저",
+            "sentence": "이런, 주변에 쉴 곳 없나? 안정을 좀 취해야 할 것 같은데."
+          },
+          {
+            "id": "1188",
+            "speaker": "텐타몬",
+            "sentence": "내가 한번 정찰하고 올게! 너희들은 잠시 쉬고 있어."
+          },
+          { "id": "1189", "speaker": "유저", "sentence": "그래, 고마워." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "type": 1,
+    "name": "조용한 도시",
+    "exp": 184,
+    "bit": 66950,
+    "rewards": [
+      { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 20 }
+    ],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 50,
+        "goalDescription": "텐타몬 기다리기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 2,
+        "goalCount": 1,
+        "goalDescription": "텐타몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1190",
+            "speaker": "텐타몬",
+            "sentence": "얘들아, 저쪽에 아무도 없는 빈 저택이 있어! 그곳에서 쉬면 좋을 것 같아!"
+          },
+          {
+            "id": "1191",
+            "speaker": "가트몬",
+            "sentence": "저택? 그냥 들어가도 되는 걸까... 뭔가 수상해."
+          },
+          {
+            "id": "1192",
+            "speaker": "유저",
+            "sentence": "좋아, 일단 가자. 집이라면 충분히 쉴 수 있을 거야."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 0,
+        "goalDescription": "도시 내부로 진입하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1193", "speaker": "알림", "sentence": "컷신" }
+        ]
+      },
+      {
+        "id": 4,
+        "goalCount": 0,
+        "goalDescription": "도시 둘러보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1194", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1195",
+            "speaker": "유저",
+            "sentence": "도시가 좀 이상한 것 같아. 온갖 다양한 건축 양식들이 줄지어 있는걸."
+          },
+          {
+            "id": "1196",
+            "speaker": "유저",
+            "sentence": "내가 살던 세계의 나라 각 곳의 랜드마크가 섞여있어."
+          },
+          {
+            "id": "1197",
+            "speaker": "파닥몬",
+            "sentence": "사람이 한 명도 없고 조용해."
+          },
+          {
+            "id": "1198",
+            "speaker": "유저",
+            "sentence": "일단 가트몬의 안정이 우선이니까. 이 집이 좋겠다. 들어가자."
+          },
+          {
+            "id": "1199",
+            "speaker": "유저",
+            "sentence": "집에 쓸만한 게 있는지 찾아봐야겠어. 흩어져서 찾아보자!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 4,
+        "goalDescription": "집 주변 살펴보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 6,
+        "goalCount": 1,
+        "goalDescription": "피요몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": [
+          {
+            "id": "1200",
+            "speaker": "아구몬",
+            "sentence": "집 안을 뒤져봤는데 음식이나 약은 없고, 상자나 용기 안엔 모두 텅 비었어."
+          },
+          {
+            "id": "1201",
+            "speaker": "유저",
+            "sentence": "밖으로 나가는 수밖에 없나?"
+          },
+          {
+            "id": "1202",
+            "speaker": "유저",
+            "sentence": "피요몬, 파닥몬. 나는 약을 구하러 병원을 찾으러 나가봐야겠어."
+          },
+          {
+            "id": "1203",
+            "speaker": "유저",
+            "sentence": "나가있는 동안 가트몬을 잘 보살펴 줘."
+          },
+          {
+            "id": "1204",
+            "speaker": "피요몬",
+            "sentence": "알았어, 맡겨둬. 조심해서 다녀와!"
+          },
+          {
+            "id": "1205",
+            "speaker": "유저",
+            "sentence": "아구몬, 텐타몬은 나와 함께 가줘."
+          },
+          { "id": "1206", "speaker": "텐타몬", "sentence": "응!" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "type": 1,
+    "name": "감기약을 찾아서",
+    "exp": 186,
+    "bit": 67800,
+    "rewards": [{ "name": "포션박스 Lv.3", "canTrade": false, "count": 15 }],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 0,
+        "goalDescription": "병원 찾아보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1207", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1208",
+            "speaker": "유저",
+            "sentence": "병원이 어디에 있을까? 저쪽으로 가볼까?"
+          },
+          {
+            "id": "1209",
+            "speaker": "텐타몬",
+            "sentence": "무작정 가는 것 보단 정보를 최대한 모아가는 게 좋겠어."
+          },
+          {
+            "id": "1210",
+            "speaker": "텐타몬",
+            "sentence": "공중전화다! 전화 연결이 되나?"
+          },
+          { "id": "1211", "speaker": "아구몬", "sentence": "..." },
+          { "id": "1212", "speaker": "아구몬", "sentence": "안되네..." },
+          {
+            "id": "1213",
+            "speaker": "텐타몬",
+            "sentence": "내가 금방 찾아보고 올게. 여기서 조금만 기다려 줘."
+          },
+          { "id": "1214", "speaker": "유저", "sentence": "알았어." }
+        ]
+      },
+      {
+        "id": 2,
+        "goalCount": 100,
+        "goalDescription": "텐타몬 기다리기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 3,
+        "goalCount": 1,
+        "goalDescription": "텐타몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1215", "speaker": "텐타몬", "sentence": "얘들아, 찾았어!" },
+          {
+            "id": "1216",
+            "speaker": "텐타몬",
+            "sentence": "여기서 멀리 떨어지지 않은 곳에 큰 병원이 있어. 한번 가보자."
+          },
+          {
+            "id": "1217",
+            "speaker": "유저",
+            "sentence": "그래. 선택받은 아이가 정말 이 세계를 구할 수 있을지에 대한 시련."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "goalCount": 0,
+        "goalDescription": "병원으로 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1218", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1219",
+            "speaker": "유저",
+            "sentence": "꽤 큰걸? 여기라면 약도 충분히 있을 것 같아."
+          },
+          {
+            "id": "1220",
+            "speaker": "아구몬",
+            "sentence": "어서 안으로 들어가 보자"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 0,
+        "goalDescription": "병원 근처 둘러보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1221",
+            "speaker": "텐타몬",
+            "sentence": "이런, 병원 문이 잠겨있네. 이 근처를 찾아보자."
+          },
+          { "id": "1222", "speaker": "유저", "sentence": "약이 어디 있을까?" }
+        ]
+      },
+      {
+        "id": 6,
+        "goalCount": 1,
+        "goalDescription": "감기약 찾아보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": [
+          {
+            "id": "1223",
+            "speaker": "아구몬",
+            "sentence": "이건 뭐라고 적혀있는지도 모르겠어."
+          },
+          {
+            "id": "1224",
+            "speaker": "유저",
+            "sentence": "이건 그림을 보니 위장약 같아..."
+          },
+          {
+            "id": "1225",
+            "speaker": "유저",
+            "sentence": "여기 어딘가 감기약이 있을 텐데..."
+          },
+          {
+            "id": "1226",
+            "speaker": "유저",
+            "sentence": "찾았다!! 내가 옛날에 먹던 감기약과 통이 똑같아."
+          },
+          {
+            "id": "1227",
+            "speaker": "유저",
+            "sentence": "찾아서 다행이야. 이제 어서 가트몬에게 가져다 주자."
+          },
+          { "id": "1228", "speaker": "??", "sentence": "쾅!!!" },
+          { "id": "1229", "speaker": "유저", "sentence": "이게 무슨 소리지?" },
+          {
+            "id": "1230",
+            "speaker": "아구몬",
+            "sentence": "여길 봐 테이머, 기가드라몬이 병원 근처를 돌아다니고 있어!"
+          },
+          {
+            "id": "1231",
+            "speaker": "텐타몬",
+            "sentence": "갑자기 기가드라몬이 왜?"
+          },
+          {
+            "id": "1232",
+            "speaker": "아구몬",
+            "sentence": "파워드라몬이 시켜서 우릴 찾는 걸까?"
+          },
+          {
+            "id": "1233",
+            "speaker": "텐타몬",
+            "sentence": "그런가 봐. 그렇지만 우리가 여기 있던 걸 어떻게 알았을까?"
+          },
+          {
+            "id": "1234",
+            "speaker": "아구몬",
+            "sentence": "잘 모르겠어. 감시 카메라라도 달린 걸까?"
+          },
+          {
+            "id": "1235",
+            "speaker": "유저",
+            "sentence": "일단 기가드라몬을 뚫고 가야겠어. 서두르자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "type": 1,
+    "name": "수난시대",
+    "exp": 190,
+    "bit": 68650,
+    "rewards": [
+      { "name": "24000 EXP 물약", "canTrade": false, "count": 3 },
+      { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 20 }
+    ],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 15,
+        "goalDescription": "길을 막는 기가드라몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 2,
+        "goalCount": 0,
+        "goalDescription": "병원 탈출하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1236", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1237",
+            "speaker": "유저",
+            "sentence": "헉헉.. 일단은 다들 무사히 빠져나온 것 같아."
+          },
+          {
+            "id": "1238",
+            "speaker": "아구몬",
+            "sentence": "테이머.. 적이 여기에도 있어."
+          },
+          {
+            "id": "1239",
+            "speaker": "텐타몬",
+            "sentence": "이번엔 메가드라몬인가.."
+          },
+          {
+            "id": "1240",
+            "speaker": "유저",
+            "sentence": "어쩔 수 없지. 빨리 가려면 메가드라몬도 처치하고 가는 수밖에."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 15,
+        "goalDescription": "메가드라몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 4,
+        "goalCount": 0,
+        "goalDescription": "메가드라몬을 피해 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1241", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1242",
+            "speaker": "유저",
+            "sentence": "헉헉... 어떻게 우리의 동선을 다 알고 있는 거지?"
+          },
+          {
+            "id": "1243",
+            "speaker": "텐타몬",
+            "sentence": "누군가 우릴 미행하고 있나?"
+          },
+          {
+            "id": "1244",
+            "speaker": "아구몬",
+            "sentence": "서둘러 돌아가지 않으면 잡히고 말겠어."
+          },
+          { "id": "1245", "speaker": "??", "sentence": "콰콰쾅!" },
+          {
+            "id": "1246",
+            "speaker": "아구몬",
+            "sentence": "저기 봐, 저 녀석들은..."
+          },
+          { "id": "1247", "speaker": "텐타몬", "sentence": "메카노몬이다!" },
+          {
+            "id": "1248",
+            "speaker": "유저",
+            "sentence": "대체 얼마나 몰려오는 거야."
+          },
+          {
+            "id": "1249",
+            "speaker": "아구몬",
+            "sentence": "돌아가려면 메카노몬들을 쓰러트려야 해."
+          },
+          {
+            "id": "1250",
+            "speaker": "텐타몬",
+            "sentence": "수가 너무 많아서 싸워도 싸워도 끝이 안 보여!"
+          },
+          {
+            "id": "1251",
+            "speaker": "유저",
+            "sentence": "다들 조금만 힘내! 거의 다 왔어."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 15,
+        "goalDescription": "메카노몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 6,
+        "goalCount": 0,
+        "goalDescription": "메카노몬을 피해 집으로 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1252", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1253",
+            "speaker": "아구몬",
+            "sentence": "헉헉... 저건 또 뭐야"
+          },
+          {
+            "id": "1254",
+            "speaker": "텐타몬",
+            "sentence": "탱크몬? 집으로 가는 길이 싹 다 탱크몬으로 둘러싸여 있어."
+          },
+          {
+            "id": "1255",
+            "speaker": "유저",
+            "sentence": "슬슬 지치는데, 싸울 수 있겠어?"
+          },
+          { "id": "1256", "speaker": "아구몬", "sentence": "힘내볼게, 가자!" }
+        ]
+      },
+      {
+        "id": 7,
+        "goalCount": 15,
+        "goalDescription": "탱크몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": null,
+        "conversations": [
+          { "id": "1257", "speaker": "알림", "sentence": "탱크몬 처치 후" },
+          {
+            "id": "1258",
+            "speaker": "아구몬",
+            "sentence": "더 이상은 무리야."
+          },
+          {
+            "id": "1259",
+            "speaker": "텐타몬",
+            "sentence": "저쪽에 큰 건물이 있어."
+          },
+          {
+            "id": "1260",
+            "speaker": "유저",
+            "sentence": "교회 같은데? 일단 가서 몸을 숨기자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "type": 1,
+    "name": "수난시대2",
+    "exp": 194,
+    "bit": 69500,
+    "rewards": [
+      { "name": "24000 EXP 물약", "canTrade": false, "count": 3 },
+      { "name": "EVP데이터 칩(100%)", "canTrade": false, "count": 3 }
+    ],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 0,
+        "goalDescription": "교회로 피신하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1261", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1262",
+            "speaker": "유저",
+            "sentence": "이 주변은 아무도 없는 것 같네."
+          },
+          {
+            "id": "1263",
+            "speaker": "유저",
+            "sentence": "일단 여기서 기다리면 메카노몬과 탱크몬이 없어질 때까지 기다리는 게 낫겠어."
+          },
+          {
+            "id": "1264",
+            "speaker": "아구몬",
+            "sentence": "안돼! 지금 이 순간에도 가트몬은 끙끙 앓고 있을 거야. 빨리 약을 가져다줘야 한다고."
+          },
+          {
+            "id": "1265",
+            "speaker": "텐타몬",
+            "sentence": "우리 둘이서 저 무리들을 무찌르는 것은 불가능해! 우린 지금 진화할 기력도 없잖아!"
+          },
+          {
+            "id": "1266",
+            "speaker": "아구몬",
+            "sentence": "우릴 찾을 때까지 계속 있으면 어쩔 건데! 마냥 여기서 기다릴 수만은 없어!"
+          },
+          {
+            "id": "1267",
+            "speaker": "유저",
+            "sentence": "얘들아, 싸우지 말고 진정해. 난 아구몬 말대로 가트몬에게 돌아가야 한다고 생각해."
+          },
+          {
+            "id": "1268",
+            "speaker": "유저",
+            "sentence": "일단 여기서 작전을 짜고 밖으로 나가자."
+          },
+          { "id": "1269", "speaker": "??", "sentence": "콰콰쾅!!!" },
+          {
+            "id": "1270",
+            "speaker": "??",
+            "sentence": "(밖에서 큰 소리가 계속해서 들린다.)"
+          },
+          {
+            "id": "1271",
+            "speaker": "아구몬",
+            "sentence": "우리가 안 보여서 무작정 도시를 공격하기 시작했나 봐!"
+          },
+          {
+            "id": "1272",
+            "speaker": "유저",
+            "sentence": "어쩔 수 없지. 내가 어떻게든 저들을 상대할 테니까 너희 둘은 이 약을 가트몬에게 전달해 줘."
+          },
+          {
+            "id": "1273",
+            "speaker": "텐타몬",
+            "sentence": "괜찮겠어, 테이머?"
+          },
+          {
+            "id": "1274",
+            "speaker": "유저",
+            "sentence": "그럼, 내가 먼저 나가서 주의를 끌 테니 들키지 않게 조심해서 가!"
+          },
+          {
+            "id": "1275",
+            "speaker": "아구몬",
+            "sentence": "알았어. 무사해야 해!"
+          },
+          {
+            "id": "1276",
+            "speaker": "유저",
+            "sentence": "메카노몬, 탱크몬! 여기다!!"
+          },
+          {
+            "id": "1277",
+            "speaker": "아구몬",
+            "sentence": "우린 어서 가자! 텐타몬."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "goalCount": 15,
+        "goalDescription": "메카노몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 3,
+        "goalCount": 15,
+        "goalDescription": "탱크몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 4,
+        "goalCount": 0,
+        "goalDescription": "집으로 돌아가기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1278", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1279",
+            "speaker": "아구몬",
+            "sentence": "헉헉.. 다행히 들키지 않았어."
+          },
+          {
+            "id": "1280",
+            "speaker": "텐타몬",
+            "sentence": "잠깐, 무언가 날아오는 소리가 나!"
+          },
+          {
+            "id": "1281",
+            "speaker": "아구몬",
+            "sentence": "저건... 기가드라몬!"
+          },
+          {
+            "id": "1282",
+            "speaker": "텐타몬",
+            "sentence": "안돼! 가트몬이 있는 집으로 가고 있어."
+          },
+          {
+            "id": "1283",
+            "speaker": "아구몬",
+            "sentence": "빨리 가서 대피하라고 해야겠어. 언제 저 집을 파괴할지 몰라!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 0,
+        "goalDescription": "집으로 돌아가기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1284", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          { "id": "1285", "speaker": "아구몬", "sentence": "헉헉, 얘들아!" },
+          {
+            "id": "1286",
+            "speaker": "피요몬",
+            "sentence": "아구몬, 텐타몬! 돌아왔구나. 약은 가지고 온 거야? 테이머는?"
+          },
+          {
+            "id": "1287",
+            "speaker": "텐타몬",
+            "sentence": "테이머는... 곧 돌아올 거야. 그나저나 이곳은 위험해! 기가드라몬이 우리를 찾고 있어."
+          },
+          {
+            "id": "1288",
+            "speaker": "텐타몬",
+            "sentence": "오래 찾지 못하면 이곳도 파괴시켜 버릴 거야. 밖으로 대피하는 게 좋겠어."
+          },
+          {
+            "id": "1289",
+            "speaker": "아구몬",
+            "sentence": "가트몬, 움직일 수 있겠어?"
+          },
+          {
+            "id": "1290",
+            "speaker": "가트몬",
+            "sentence": "응, 어서 움직이자."
+          },
+          { "id": "1291", "speaker": "??", "sentence": "쾅!!" },
+          {
+            "id": "1292",
+            "speaker": "기가드라몬",
+            "sentence": "여기 있었군, 꼬맹이들."
+          },
+          { "id": "1293", "speaker": "아구몬", "sentence": "기가드라몬!!" },
+          {
+            "id": "1294",
+            "speaker": "기가드라몬",
+            "sentence": "파워드라몬님이 선택받은 아이를 찾고 있다."
+          },
+          {
+            "id": "1295",
+            "speaker": "기가드라몬",
+            "sentence": "너희들은 여기서 죽어줘야겠어."
+          },
+          {
+            "id": "1296",
+            "speaker": "아구몬",
+            "sentence": "쉽게 죽어주진 않을 테다!"
+          },
+          { "id": "1297", "speaker": "유저", "sentence": "나를 찾고 있다고?" },
+          { "id": "1298", "speaker": "파닥몬", "sentence": "테이머!" },
+          {
+            "id": "1299",
+            "speaker": "기가드라몬",
+            "sentence": "제 발로 나타나 주다니. 한 번에 처리하면 되겠구나!"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "goalCount": 1,
+        "goalDescription": "기가드라몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": null,
+        "conversations": [
+          { "id": "1300", "speaker": "알림", "sentence": "전투 후" },
+          {
+            "id": "1301",
+            "speaker": "기가드라몬",
+            "sentence": "크윽.. 내가 지다니..."
+          },
+          {
+            "id": "1302",
+            "speaker": "유저",
+            "sentence": "어서 여길 나가자. 위치가 발각되어서 위험해."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "type": 1,
+    "name": "관계자 외 출입금지",
+    "exp": 198,
+    "bit": 70350,
+    "rewards": [],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 0,
+        "goalDescription": "집에서 탈출하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 2,
+        "goalCount": 0,
+        "goalDescription": "아구몬과 텐타몬 찾아보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [
+          { "name": "포션박스 Lv.3", "canTrade": false, "count": 20 }
+        ],
+        "conversations": [
+          {
+            "id": "1303",
+            "speaker": "알림",
+            "sentence": "컷신 후 강철도시 지하로 이동"
+          },
+          {
+            "id": "1304",
+            "speaker": "피요몬",
+            "sentence": "아야야... 여긴 어디지?"
+          },
+          { "id": "1305", "speaker": "가트몬", "sentence": "으으..." },
+          {
+            "id": "1306",
+            "speaker": "파닥몬",
+            "sentence": "가트몬! 몸은 좀 괜찮아?"
+          },
+          {
+            "id": "1307",
+            "speaker": "가트몬",
+            "sentence": "응, 약 먹고 나니 아까보단 좀 나아진 것 같아."
+          },
+          {
+            "id": "1308",
+            "speaker": "유저",
+            "sentence": "다행이다. 우선 다른 애들을 찾아봐야겠어."
+          },
+          { "id": "1309", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1310",
+            "speaker": "폭탄몬",
+            "sentence": "너희들은 뭐야? 이 앞은 관계자 외 출입금지다!"
+          },
+          {
+            "id": "1311",
+            "speaker": "유저",
+            "sentence": "폭탄몬이잖아! 파워드라몬의 부하인가?"
+          },
+          {
+            "id": "1312",
+            "speaker": "유저",
+            "sentence": "어쩔 수 없지. 처리하면서 가는 수밖에."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 15,
+        "goalDescription": "폭탄몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 4,
+        "goalCount": 0,
+        "goalDescription": "계속해서 아구몬과 텐타몬 찾아보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": [
+          { "id": "1313", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1314",
+            "speaker": "유저",
+            "sentence": "여긴 공장 같은데? 도시 지하에 이런 공장이 있다니."
+          },
+          { "id": "1315", "speaker": "??", "sentence": "(찰싹찰싹!!)" },
+          { "id": "1316", "speaker": "유저", "sentence": "응? 무슨 소리지?" },
+          {
+            "id": "1317",
+            "speaker": "워매몬",
+            "sentence": "흑흑... 제발 때리지 말아 주세요... 너무 아파요..."
+          },
+          {
+            "id": "1318",
+            "speaker": "배드퍼펫몬",
+            "sentence": "맞기 싫으면 빨리빨리 움직이란 말이야! 너희 때문에 도시가 멈추면 그땐 맞는 걸로 끝나지 않을 거야!"
+          },
+          {
+            "id": "1319",
+            "speaker": "유저",
+            "sentence": "도시가 멈춘다고? 그럼 이 공장이 파워드라몬이 관리하는 공장인 건가? 그럼 저 소리는..."
+          },
+          {
+            "id": "1320",
+            "speaker": "피요몬",
+            "sentence": "파워드라몬이 디지몬들을 붙잡아 강제로 일을 시킨 거였어."
+          },
+          {
+            "id": "1321",
+            "speaker": "파닥몬",
+            "sentence": "어서 빨리 동료들을 찾아야 하는데 그냥 지나칠 수도 없고, 이를 어쩐다?"
+          },
+          { "id": "1322", "speaker": "유저", "sentence": "..." },
+          {
+            "id": "1323",
+            "speaker": "유저",
+            "sentence": "역시 그냥 두고 볼 수만은 없지. 일단 공장 내부를 살펴보자."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "type": 1,
+    "name": "워매몬을 구출하라",
+    "exp": 202,
+    "bit": 71200,
+    "rewards": [{ "name": "24000 EXP 물약", "canTrade": false, "count": 3 }],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 0,
+        "goalDescription": "공장 내부 살펴보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1324", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1325",
+            "speaker": "파닥몬",
+            "sentence": "퍼펫몬들이 많이 보이네. 다 워매몬을 감시하는 녀석들인가 봐."
+          },
+          {
+            "id": "1326",
+            "speaker": "유저",
+            "sentence": "워매몬들이 쉽게 탈출할 수 있도록 퍼펫몬들을 좀 없애야겠어."
+          },
+          {
+            "id": "1327",
+            "speaker": "배드퍼펫몬",
+            "sentence": "더! 더 빨리 움직여!!!"
+          },
+          {
+            "id": "1328",
+            "speaker": "워매몬",
+            "sentence": "더 이상은... 살려주세요..."
+          },
+          {
+            "id": "1329",
+            "speaker": "피요몬",
+            "sentence": "배드퍼펫몬이 워매몬들을 때리며 일을 시키고 있어. 불쌍해라... 이제 어떡하면 좋지?"
+          },
+          {
+            "id": "1330",
+            "speaker": "유저",
+            "sentence": "아무래도 워매몬들을 그냥 지나치긴 힘들지? 도와주고 싶은데 너희들은 어떻게 생각해?"
+          },
+          { "id": "1331", "speaker": "배드퍼펫몬", "sentence": "거기 누구냐!" },
+          { "id": "1332", "speaker": "유저", "sentence": "헉 들켰다! 도망쳐!" },
+          {
+            "id": "1333",
+            "speaker": "배드퍼펫몬",
+            "sentence": "어림없지, 다시는 발도 못 들이게 해주마!"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "goalCount": 1,
+        "goalDescription": "배드퍼펫몬과 대결하기",
+        "isBattle": true,
+        "isForceLose": true,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": [
+          { "id": "1334", "speaker": "알림", "sentence": "대결 후" },
+          {
+            "id": "1335",
+            "speaker": "유저",
+            "sentence": "크윽... 강하다. 일단 도망치고 재정비하고 와야겠어! 가자!!"
+          },
+          { "id": "1336", "speaker": "배드퍼펫몬", "sentence": "거기 서라!" }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 0,
+        "goalDescription": "배드퍼펫몬을 피해 도망치기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1337", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1338",
+            "speaker": "배드퍼펫몬",
+            "sentence": "이 녀석들 어디에 있는 거냐!"
+          },
+          { "id": "1339", "speaker": "유저", "sentence": "어떻게 하지?" },
+          {
+            "id": "1340",
+            "speaker": "피요몬",
+            "sentence": "이렇게 하자. 나랑 파닥몬이 저 녀석을 유인할 테니까 너와 가트몬은 워매몬들을 구해줘!"
+          },
+          {
+            "id": "1341",
+            "speaker": "유저",
+            "sentence": "... 좋아 그렇게 하자. 대신 둘 다 조심해야 해."
+          },
+          {
+            "id": "1342",
+            "speaker": "파닥몬",
+            "sentence": "알겠어 테이머 걱정하지 마!"
+          },
+          {
+            "id": "1343",
+            "speaker": "피요몬",
+            "sentence": "그럼 이따가 보자!"
+          },
+          {
+            "id": "1344",
+            "speaker": "유저",
+            "sentence": "우린 어서 워매몬들을 구해주자."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "goalCount": 1,
+        "goalDescription": "워매몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1345", "speaker": "유저", "sentence": "워매몬! 괜찮아?" },
+          { "id": "1346", "speaker": "워매몬", "sentence": "너는... 테이머?!" },
+          {
+            "id": "1347",
+            "speaker": "유저",
+            "sentence": "너무 경계하지 마 워매몬. 우린 널 구해주러 왔어."
+          },
+          { "id": "1348", "speaker": "워매몬", "sentence": "정말이야?!" },
+          {
+            "id": "1349",
+            "speaker": "워매몬",
+            "sentence": "배드퍼펫몬이 오기 전에 빨리 우릴 구해줘!"
+          },
+          {
+            "id": "1350",
+            "speaker": "피요몬",
+            "sentence": "따라올 테면 따라와봐!"
+          },
+          { "id": "1351", "speaker": "배드퍼펫몬", "sentence": "이 자식들!" },
+          {
+            "id": "1352",
+            "speaker": "파닥몬",
+            "sentence": "피요몬! 이제 어떻게 하지?!"
+          },
+          {
+            "id": "1353",
+            "speaker": "피요몬",
+            "sentence": "도망칠 수 밖에 없잖아!!!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 3,
+        "goalDescription": "워매몬 구출하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 6,
+        "goalCount": 1,
+        "goalDescription": "워매몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": [
+          {
+            "id": "1354",
+            "speaker": "워매몬",
+            "sentence": "우릴 구해줘서 고마워 테이머!"
+          },
+          {
+            "id": "1355",
+            "speaker": "유저",
+            "sentence": "배드퍼펫몬이 돌아오기 전에 도망치자!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "type": 1,
+    "name": "더 깊은 지하로",
+    "exp": 206,
+    "bit": 72050,
+    "rewards": [
+      { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 10 },
+      { "name": "포션박스 Lv.3", "canTrade": false, "count": 10 }
+    ],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 0,
+        "goalDescription": "워매몬들과 함께 도망치기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1356", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1357",
+            "speaker": "파닥몬",
+            "sentence": "여긴 막다른 길이야. 신전 같은데?"
+          },
+          {
+            "id": "1358",
+            "speaker": "배드퍼펫몬",
+            "sentence": "이 녀석들! 잘도 도망갔겠다! 더 이상 빠져나갈 구멍은 없다!"
+          },
+          {
+            "id": "1359",
+            "speaker": "유저",
+            "sentence": "잠깐!! 배드퍼펫몬, 네 녀석의 상대는 우리들이다!"
+          },
+          { "id": "1360", "speaker": "피요몬", "sentence": "테이머! 가트몬!" },
+          {
+            "id": "1361",
+            "speaker": "배드퍼펫몬",
+            "sentence": "뭐? 하하하, 겨우 너희들이 나를 상대할 수 있겠어?"
+          },
+          {
+            "id": "1362",
+            "speaker": "가트몬",
+            "sentence": "혼자서는 무리겠지만 여럿이 힘을 합치면 모르지."
+          },
+          {
+            "id": "1363",
+            "speaker": "파닥몬",
+            "sentence": "어라, 가트몬 몸에서 빛이 나."
+          },
+          {
+            "id": "1364",
+            "speaker": "피요몬",
+            "sentence": "뭐지, 갑자기 몸에서 힘이 나는 것 같아!"
+          },
+          { "id": "1365", "speaker": "파닥몬", "sentence": "나도!" },
+          {
+            "id": "1366",
+            "speaker": "유저",
+            "sentence": "가트몬의 힘인가? 워매몬들에게서 생기가 느껴진다."
+          },
+          {
+            "id": "1367",
+            "speaker": "유저",
+            "sentence": "이 상태라면 배드퍼펫몬을 이길 수 있겠어! 가자!"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "goalCount": 1,
+        "goalDescription": "배드퍼펫몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": true,
+        "rewards": [],
+        "conversations": [
+          { "id": "1368", "speaker": "알림", "sentence": "전투 후" },
+          {
+            "id": "1369",
+            "speaker": "배드퍼펫몬",
+            "sentence": "아이고! 나 죽는다!"
+          },
+          {
+            "id": "1370",
+            "speaker": "배드퍼펫몬",
+            "sentence": "고작 네 녀석들에게 내가 당하다니... 저 밝은 빛은 대체 뭐지?"
+          },
+          {
+            "id": "1371",
+            "speaker": "배드퍼펫몬",
+            "sentence": "일단... 헉헉, 도망부터 가야겠어. 후퇴다!"
+          },
+          {
+            "id": "1372",
+            "speaker": "유저",
+            "sentence": "배드퍼펫몬은 도망친 거 같지? 너희도 어서 도시를 탈출하도록 해."
+          },
+          {
+            "id": "1373",
+            "speaker": "워매몬",
+            "sentence": "고마워, 테이머. 덕분에 이곳에서 나갈 수 있게 되었어. 구해줘서 고마워!"
+          },
+          {
+            "id": "1374",
+            "speaker": "유저",
+            "sentence": "별말씀을, 그리고 우리뿐만 아니라 너희 워매몬들도 함께 한 일 인걸."
+          },
+          {
+            "id": "1375",
+            "speaker": "유저",
+            "sentence": "이제 파워드라몬의 눈에 띄지 않는 곳으로 떠나 최대한 안전한 곳에 숨어 있어."
+          },
+          {
+            "id": "1376",
+            "speaker": "유저",
+            "sentence": "내 동료들이 사천왕 모두를 해치우고 디지털 월드가 다시 평화로워지도록 만들 거야. 조금만 기다려줘."
+          },
+          {
+            "id": "1377",
+            "speaker": "워매몬",
+            "sentence": "그래... 어둠의 사천왕을 해치우는 게 선택받은 아이인 네 숙명인 거구나... 고마워. 무사해야 해!"
+          },
+          {
+            "id": "1378",
+            "speaker": "유저",
+            "sentence": "워매몬들은 무사히 돌려보냈고, 우리는 이제 다른 동료들을 찾아보자."
+          },
+          { "id": "1379", "speaker": "파닥몬", "sentence": "그래 좋아." },
+          {
+            "id": "1380",
+            "speaker": "피요몬",
+            "sentence": "어어? 땅이 흔들린다!"
+          },
+          { "id": "1381", "speaker": "알림", "sentence": "더 아래로 이동됨" },
+          {
+            "id": "1382",
+            "speaker": "파닥몬",
+            "sentence": "아이고, 땅이 또 꺼진 거 같아... 더 지하 깉은 곳으로 떨어진 건가?"
+          },
+          {
+            "id": "1383",
+            "speaker": "피요몬",
+            "sentence": "응? 저 익숙한 실루엣은... 아구몬! 텐타몬!"
+          },
+          {
+            "id": "1384",
+            "speaker": "아구몬",
+            "sentence": "테이머!! 그리고 모두 무사했구나! 너희를 찾으려고 돌아다니고 있었어!"
+          },
+          {
+            "id": "1385",
+            "speaker": "유저",
+            "sentence": "우리도 마찬가지야. 길이 엇갈리지 않아서 다행인걸."
+          },
+          {
+            "id": "1386",
+            "speaker": "가트몬",
+            "sentence": "잠깐... 저기 누군가 오고 있어."
+          },
+          { "id": "1387", "speaker": "유저", "sentence": "뭐?" },
+          {
+            "id": "1388",
+            "speaker": "유저",
+            "sentence": "(정말이다... 저 멀리서 발소리가 들려. 파워드라몬의 부하일까?)"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 50,
+        "goalDescription": "누군가 다가오기까지 기다리기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 4,
+        "goalCount": 1,
+        "goalDescription": "안드로몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": [
+          { "id": "1389", "speaker": "유저", "sentence": "어라, 너는..." },
+          { "id": "1390", "speaker": "아구몬", "sentence": "안드로몬!" },
+          {
+            "id": "1391",
+            "speaker": "안드로몬",
+            "sentence": "설마 너희들일 줄이야!"
+          },
+          {
+            "id": "1392",
+            "speaker": "유저",
+            "sentence": "그건 우리가 할 말이야! 이런 곳에서 뭘 하고 있던 거야?"
+          },
+          {
+            "id": "1393",
+            "speaker": "안드로몬",
+            "sentence": "나는 파워드라몬이 지배한 이 도시를 해방시키기 위해 녀석 몰래 이곳에 숨어서 놈의 빈틈을 노리고 있었다."
+          },
+          {
+            "id": "1394",
+            "speaker": "안드로몬",
+            "sentence": "상황을 보며 때를 기다리고 있었는데 방금 전 파워드라몬이 스스로 도시를 폭파시켰다."
+          },
+          {
+            "id": "1395",
+            "speaker": "가트몬",
+            "sentence": "아, 그건... 설명하긴 복잡하지만 우리 때문이야."
+          },
+          {
+            "id": "1396",
+            "speaker": "안드로몬",
+            "sentence": "그렇군. 너희들은 무엇을 하고 있던 거지?"
+          },
+          { "id": "1397", "speaker": "유저", "sentence": "우리들은..." },
+          { "id": "1398", "speaker": "안드로몬", "sentence": "잠깐, 온다...!" },
+          { "id": "1399", "speaker": "유저", "sentence": "응? 뭐가?" },
+          { "id": "1400", "speaker": "??", "sentence": "(쾅!!!)" },
+          {
+            "id": "1401",
+            "speaker": "파워드라몬",
+            "sentence": "여기 있었나, 선택받은 아이, 그리고 애송이들."
+          },
+          {
+            "id": "1402",
+            "speaker": "유저",
+            "sentence": "파워드라몬! 벌써 우리를 찾아내다니..."
+          },
+          {
+            "id": "1403",
+            "speaker": "파워드라몬",
+            "sentence": "내 도시에서 너희들을 찾는 것쯤이야 식은 죽 먹기지. 그나저나 안드로몬도 같이 있었군. 한꺼번에 처리해 주마."
+          },
+          {
+            "id": "1404",
+            "speaker": "안드로몬",
+            "sentence": "물러나, 파워드라몬은 내가 상대하지."
+          },
+          { "id": "1405", "speaker": "아구몬", "sentence": "안드로몬!" },
+          {
+            "id": "1406",
+            "speaker": "유저",
+            "sentence": "이런, 안드로몬이 밀리고 있어."
+          },
+          { "id": "1407", "speaker": "유저", "sentence": "쫒아가자!" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "type": 1,
+    "name": "파워드라몬을 처치하라!",
+    "exp": 210,
+    "bit": 72900,
+    "rewards": [
+      { "name": "5% 고정책", "canTrade": false, "count": 1 },
+      { "name": "24000 EXP 물약", "canTrade": false, "count": 3 }
+    ],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 0,
+        "goalDescription": "안드로몬 쫒아가기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1408", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1409",
+            "speaker": "유저",
+            "sentence": "안드로몬을 도와 파워드라몬을 처치하자!"
+          },
+          { "id": "1410", "speaker": "파워드라몬", "sentence": "가소롭다!" }
+        ]
+      },
+      {
+        "id": 2,
+        "goalCount": 1,
+        "goalDescription": "파워드라몬과 대결하기",
+        "isBattle": true,
+        "isForceLose": true,
+        "isForceEncounter": false,
+        "rewards": [
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 }
+        ],
+        "conversations": [
+          { "id": "1411", "speaker": "알림", "sentence": "대결 후" },
+          {
+            "id": "1412",
+            "speaker": "유저",
+            "sentence": "으윽... 너무 강력해. 우리 힘만으론 부족한가."
+          },
+          {
+            "id": "1413",
+            "speaker": "아구몬",
+            "sentence": "나는 왜 진화가 안되는 거야! 파피몬이 떠난 후로 진화가 되질 않아... 나는...!"
+          },
+          { "id": "1414", "speaker": "유저", "sentence": "아구몬..." },
+          { "id": "1415", "speaker": "파워드라몬", "sentence": "이제 끝이다." },
+          { "id": "1416", "speaker": "가트몬", "sentence": "테이머, 조심해!" },
+          { "id": "1417", "speaker": "유저", "sentence": "(눈을 질끈 감는다)" },
+          { "id": "1418", "speaker": "유저", "sentence": "..." },
+          { "id": "1419", "speaker": "유저", "sentence": "응? 왜 잠잠하지?" },
+          { "id": "1420", "speaker": "가트몬", "sentence": "저건..." },
+          { "id": "1421", "speaker": "워매몬", "sentence": "야아아압!" },
+          {
+            "id": "1422",
+            "speaker": "피요몬",
+            "sentence": "워매몬들?! 어째서 여기에...!"
+          },
+          {
+            "id": "1423",
+            "speaker": "파닥몬",
+            "sentence": "워매몬! 안전한 곳으로 대피한 거 아니었어?!"
+          },
+          {
+            "id": "1424",
+            "speaker": "파워드라몬",
+            "sentence": "송사리들이 귀찮게."
+          },
+          { "id": "1425", "speaker": "유저", "sentence": "워매몬!!!" },
+          {
+            "id": "1426",
+            "speaker": "파워드라몬",
+            "sentence": "나와 싸울 생각인가. 가소롭군."
+          },
+          { "id": "1427", "speaker": "유저", "sentence": "안 돼!" },
+          {
+            "id": "1428",
+            "speaker": "??",
+            "sentence": "(큰 소리와 함께 파워드라몬 몸에 붙어 있던 수백 마리의 워매몬들이 사라졌다.)"
+          },
+          { "id": "1429", "speaker": "가트몬", "sentence": "워매몬..." },
+          {
+            "id": "1430",
+            "speaker": "파워드라몬",
+            "sentence": "흠, 고작 공격 한번 막겠다고 목숨을 버리다니, 우스운 죽음이군."
+          },
+          {
+            "id": "1431",
+            "speaker": "가트몬",
+            "sentence": "워매몬의 죽음을 쉽게 말하지 마!"
+          },
+          { "id": "1432", "speaker": "파워드라몬", "sentence": "뭐라?" },
+          {
+            "id": "1433",
+            "speaker": "가트몬",
+            "sentence": "워매몬들은 테이머를 지키기 위해 용기를 낸 거야. 넌 그 용기를 비웃을 자격이 없어!"
+          },
+          {
+            "id": "1434",
+            "speaker": "텐타몬",
+            "sentence": "가트몬의 몸에서 빛이 나고 있어."
+          },
+          {
+            "id": "1435",
+            "speaker": "아구몬",
+            "sentence": "어라, 몸에 힘이...!"
+          },
+          {
+            "id": "1436",
+            "speaker": "파워드라몬",
+            "sentence": "오냐, 마음껏 떠들어 봐라. 이번에야말로 없애줄 테니."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 1,
+        "goalDescription": "파워드라몬 처치하기",
+        "isBattle": true,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1437", "speaker": "알림", "sentence": "전투 후 컷신" },
+          { "id": "1438", "speaker": "유저", "sentence": "코로몬...!" },
+          {
+            "id": "1439",
+            "speaker": "코로몬",
+            "sentence": "힘이... 다 빠졌어..."
+          },
+          {
+            "id": "1440",
+            "speaker": "가트몬",
+            "sentence": "이런, 파워드라몬을 해치웠더니 도시가 붕괴되기 시작했어."
+          },
+          {
+            "id": "1441",
+            "speaker": "피요몬",
+            "sentence": "어서 밖으로 빠져나가야 해!"
+          },
+          { "id": "1442", "speaker": "유저", "sentence": "밖으로 나가자!" }
+        ]
+      },
+      {
+        "id": 4,
+        "goalCount": 0,
+        "goalDescription": "지상으로 올라가기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1443", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1444",
+            "speaker": "안드로몬",
+            "sentence": "도시가 붕괴되었으니 나의 역할은 이걸로 끝이구나."
+          },
+          {
+            "id": "1445",
+            "speaker": "유저",
+            "sentence": "고생 많았어, 안드로몬. 나머지 사천왕은 우리가 해치울 테니 믿고 조금만 기다려 줘."
+          },
+          {
+            "id": "1446",
+            "speaker": "안드로몬",
+            "sentence": "나도 같이 가지. 이곳의 목표는 도달했으니까 말이야."
+          },
+          {
+            "id": "1447",
+            "speaker": "유저",
+            "sentence": "안드로몬이 합류해 준다면 든든하지! 잘 부탁해."
+          },
+          {
+            "id": "1448",
+            "speaker": "유저",
+            "sentence": "자, 그럼 다음 지역으로 가볼까?"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 0,
+        "goalDescription": "다음 지역으로 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": null
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "type": 1,
+    "name": "모이는 동료들",
+    "exp": 214,
+    "bit": 73750,
+    "rewards": [],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 1,
+        "goalDescription": "워매몬의 명복을 빌어주기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1449",
+            "speaker": "피요몬",
+            "sentence": "가는 길에 워매몬들을 기리는 무덤을 만들어 주고 싶어."
+          },
+          {
+            "id": "1450",
+            "speaker": "유저",
+            "sentence": "그럼 이 근처에 만들어 주자."
+          },
+          {
+            "id": "1451",
+            "speaker": "피요몬",
+            "sentence": "다 만들었다! 워매몬들에게 기도할래. 테이머도 같이 하자."
+          },
+          {
+            "id": "1452",
+            "speaker": "알림",
+            "sentence": "워매몬의 명복을 빈 후"
+          },
+          {
+            "id": "1453",
+            "speaker": "유저",
+            "sentence": "워매몬들이 무사히 시작의 마을에서 다시 태어날 수 있기를..."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "goalCount": 1,
+        "goalDescription": "쉬라몬과 팔몬 도와주기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1454",
+            "speaker": "코로몬",
+            "sentence": "어, 저건 쉬라몬과 팔몬네 아니야?"
+          },
+          {
+            "id": "1455",
+            "speaker": "유저",
+            "sentence": "매드레오몬과 싸우고 있나 봐. 가서 도와주자!"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "goalCount": 1,
+        "goalDescription": "팔몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1456",
+            "speaker": "유저",
+            "sentence": "쉬라몬! 팔몬! 그리고 모두들!"
+          },
+          {
+            "id": "1457",
+            "speaker": "팔몬",
+            "sentence": "너희들! 무사히 빠져나왔구나. 다행이야."
+          },
+          {
+            "id": "1458",
+            "speaker": "유저",
+            "sentence": "우리가 여기로 올 줄 알고 있었던 거야?"
+          },
+          {
+            "id": "1459",
+            "speaker": "쉬라몬",
+            "sentence": "멀리서 도시가 원래대로 돌아가는 것을 봤어. 너희들이 파워드라몬 처치에 성공한 것을 알 수 있었지."
+          },
+          {
+            "id": "1460",
+            "speaker": "유저",
+            "sentence": "그렇구나. 너희도 어디 다친 곳은 없지?"
+          },
+          { "id": "1461", "speaker": "팔몬", "sentence": "응, 우린 괜찮아." },
+          {
+            "id": "1462",
+            "speaker": "쉬라몬",
+            "sentence": "합류할 수 있게 되어 다행이야. 테이머가 말한 대로 동료들을 많이 모았어!"
+          },
+          {
+            "id": "1463",
+            "speaker": "쉬라몬",
+            "sentence": "개굴몬, 올챙몬, 우가몬이 합류하기로 했어. 우가몬은 근방 정찰을 하고 있으니 부르면 도와주러 와 줄 거야!"
+          },
+          {
+            "id": "1464",
+            "speaker": "유저",
+            "sentence": "좋아, 같이 길을 따라서 쭉 가보자."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "goalCount": 0,
+        "goalDescription": "길을 따라 가보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          { "id": "1465", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          {
+            "id": "1466",
+            "speaker": "팔몬",
+            "sentence": "오래 걸었더니 배가 고프고 힘들다..."
+          },
+          {
+            "id": "1467",
+            "speaker": "팔몬",
+            "sentence": "어디 먹을 거 없을까? 먹으면 힘이 날 것 같은데."
+          },
+          {
+            "id": "1468",
+            "speaker": "개굴몬",
+            "sentence": "우리가 근처에 먹을 것이 있는지 찾아보고 올게 개굴!"
+          },
+          {
+            "id": "1469",
+            "speaker": "팔몬",
+            "sentence": "둘만 가도 괜찮겠어?"
+          },
+          {
+            "id": "1470",
+            "speaker": "올챙몬",
+            "sentence": "괜찮아! 우리도 도움을 주고 싶어 올챙."
+          },
+          {
+            "id": "1471",
+            "speaker": "유저",
+            "sentence": "나도 같이 가자. 셋이서 찾으면 금방 찾을 수 있을 거야."
+          },
+          {
+            "id": "1472",
+            "speaker": "유저",
+            "sentence": "나머지는 여기서 좀 쉬고 있어!"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "goalCount": 1,
+        "goalDescription": "먹을 것을 찾아보기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": null
+      },
+      {
+        "id": 6,
+        "goalCount": 1,
+        "goalDescription": "팔몬에게 건네주기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": [],
+        "conversations": [
+          {
+            "id": "1473",
+            "speaker": "유저",
+            "sentence": "얘들아, 먹을 것 좀 가지고 왔어."
+          },
+          {
+            "id": "1474",
+            "speaker": "팔몬",
+            "sentence": "와~ 먹자 먹자. 고마워 테이머!"
+          },
+          {
+            "id": "1475",
+            "speaker": "유저",
+            "sentence": "이제 기력 좀 회복했어?"
+          },
+          {
+            "id": "1476",
+            "speaker": "팔몬",
+            "sentence": "응! 지금 상태론 어디든 갈 수 있을 거 같아."
+          },
+          {
+            "id": "1477",
+            "speaker": "유저",
+            "sentence": "좋아, 다들 조금만 더 힘내서 가자!"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "goalCount": 0,
+        "goalDescription": "다시 길을 따라 이동하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": [
+          { "id": "1478", "speaker": "알림", "sentence": "분기점으로 이동 후" },
+          { "id": "1479", "speaker": "유저", "sentence": "도착했다." },
+          { "id": "1480", "speaker": "알림", "sentence": "컷신" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "type": 1,
+    "name": "황폐해진 시작의 마을",
+    "exp": 218,
+    "bit": 74600,
+    "rewards": [],
+    "questGoals": [
+      {
+        "id": 1,
+        "goalCount": 1,
+        "goalDescription": "코로몬과 대화하기",
+        "isBattle": false,
+        "isForceLose": false,
+        "isForceEncounter": false,
+        "rewards": null,
+        "conversations": [
+          {
+            "id": "1481",
+            "speaker": "코로몬",
+            "sentence": "여기가 시작의 마을이라니."
+          },
+          {
+            "id": "1482",
+            "speaker": "피요몬",
+            "sentence": "처참해, 디지몬 알이 다 깨져있어."
+          },
+          {
+            "id": "1483",
+            "speaker": "가트몬",
+            "sentence": "생기 넘치던 시작의 마을을 이렇게 만들다니..."
+          },
+          { "id": "1484", "speaker": "파닥몬", "sentence": "정말 너무해." },
+          { "id": "1485", "speaker": "팔몬", "sentence": "저기 누군가가 있어." }
+        ]
       }
     ]
   }

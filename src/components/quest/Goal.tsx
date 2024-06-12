@@ -72,11 +72,15 @@ export default function QuestGoal({ goal }: QuestGoalProps): React.ReactElement 
         setSpread(!spread);
     }
 
+    const forTest = () => {
+        console.log(goal.rewards);
+    }
+
     return <button type="button" className={`quest-goal`} onClick={toggleSpread}>
         <div className="goal-subject">
             { goal.goalDescription }&nbsp;
             { goal.goalCount > 0 ? `(0/${goal.goalCount})` : ""}
-            { goal.rewards ? <img className="reward-icon" src="/images/quest_reward.png" /> : "" }
+            { goal.rewards && goal.rewards.length > 0 ? <img className="reward-icon" src="/images/quest_reward.png" onMouseEnter={forTest} /> : "" }
             { goal.isBattle ? <div className="badge red">전투 미션</div> : "" }
             { goal.isForceEncounter ? <div className="badge red">선공 몬스터</div> : "" }
             { goal.isForceLose ? <div className="badge red">패배 미션</div> : "" }

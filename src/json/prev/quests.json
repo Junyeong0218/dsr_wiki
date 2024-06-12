@@ -14,7 +14,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "1",
@@ -49,7 +49,7 @@
           {
             "id": "7",
             "speaker": "코로몬",
-            "sentence": "\"... 우리는 디지털 월드의 위기를 다 구하지 않고 왔으니까"
+            "sentence": "... 우리는 디지털 월드의 위기를 다 구하지 않고 왔으니까, 지금쯤 무슨 일이 벌어진 건가?"
           },
           { "id": "8", "speaker": "피요몬", "sentence": "그 여파가..." },
           {
@@ -146,7 +146,11 @@
             "speaker": "텐타몬",
             "sentence": "현실 세계에서 이 세계가 보였던 것처럼 이 세계에서도 현실 세계가 보이는 거야!"
           },
-          { "id": "32", "speaker": "플롯트몬", "sentence": "\"테이머" },
+          {
+            "id": "32",
+            "speaker": "플롯트몬",
+            "sentence": "테이머, 넌 어디인지 모르겠어?"
+          },
           {
             "id": "33",
             "speaker": "유저",
@@ -198,11 +202,11 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "41", "speaker": "츄몬", "sentence": "흑... 흑흑..." },
           { "id": "42", "speaker": "유저", "sentence": "너는 츄몬아냐?" },
-          { "id": "43", "speaker": "츄몬", "sentence": "\"테" },
+          { "id": "43", "speaker": "츄몬", "sentence": "테, 테이머!" },
           {
             "id": "44",
             "speaker": "팔몬",
@@ -225,7 +229,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "49", "speaker": "쉬라몬", "sentence": "어떻게 하지?" },
           {
@@ -242,7 +246,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": null
       },
       {
@@ -252,7 +256,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "51", "speaker": "유저", "sentence": "이제 진정됐어 츄몬?" },
           {
@@ -319,7 +323,7 @@
             "sentence": "모르겠어. 하지만 착한 녀석들은 모두 죽인다고 했으니까..."
           },
           { "id": "67", "speaker": "유저", "sentence": "누가?" },
-          { "id": "68", "speaker": "츄몬", "sentence": "\"어" },
+          { "id": "68", "speaker": "츄몬", "sentence": "어, 어둠의 사천왕." },
           {
             "id": "69",
             "speaker": "유저",
@@ -387,7 +391,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "78", "speaker": "유저", "sentence": "스카몬!" },
           { "id": "79", "speaker": "스카몬", "sentence": "테... 테이머..." },
@@ -426,7 +430,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "86",
@@ -469,7 +473,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "94",
@@ -482,11 +486,15 @@
             "speaker": "메탈시드라몬",
             "sentence": "선택받은 아이들이여. 기다리고 있었다."
           },
-          { "id": "97", "speaker": "츄몬", "sentence": "\"메" },
+          {
+            "id": "97",
+            "speaker": "츄몬",
+            "sentence": "메, 메탈시드라몬이다!"
+          },
           {
             "id": "98",
             "speaker": "텐타몬",
-            "sentence": "\"저건... 메탈시드라몬!!! 전신을 최강의 금속인 크롬디지조이드로 감싼 궁극체 디지몬이야!\\r\\n엄청난 파워와 최고의 스피드를 지닌 강력한 녀석이야! 모두 조심해!\""
+            "sentence": "저건... 메탈시드라몬!!! 전신을 최강의 금속인 크롬디지조이드로 감싼 궁극체 디지몬이야!\\r\\n엄청난 파워와 최고의 스피드를 지닌 강력한 녀석이야! 모두 조심해!"
           },
           {
             "id": "99",
@@ -504,9 +512,8 @@
         "isForceLose": true,
         "isForceEncounter": false,
         "rewards": [
-          { "name": "디", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 },
+          { "name": "포션박스 Lv.3", "canTrade": false, "count": 4 }
         ],
         "conversations": [
           {
@@ -553,7 +560,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "108",
@@ -569,7 +576,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "109", "speaker": "유저", "sentence": "여기도 막했잖아!" },
           {
@@ -618,7 +625,11 @@
             "speaker": "피에몬",
             "sentence": "오늘은 정말 재밌는 이야기를 해주려고 해요~"
           },
-          { "id": "125", "speaker": "피에몬", "sentence": "\"옛날 옛적" },
+          {
+            "id": "125",
+            "speaker": "피에몬",
+            "sentence": "옛날 옛적, '테이머'라는 인간 하나가 있었습니다."
+          },
           {
             "id": "126",
             "speaker": "피에몬",
@@ -662,7 +673,11 @@
     "name": "습격! 어둠의 사천왕",
     "exp": 156,
     "bit": 55050,
-    "rewards": [],
+    "rewards": [
+      { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 },
+      { "name": "포션박스 Lv.3", "canTrade": false, "count": 4 },
+      { "name": "투박한 광명 목걸이A", "canTrade": false, "count": 1 }
+    ],
     "questGoals": [
       {
         "id": 1,
@@ -672,12 +687,15 @@
         "isForceLose": true,
         "isForceEncounter": false,
         "rewards": [
-          { "name": "디", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 },
+          { "name": "포션박스 Lv.3", "canTrade": false, "count": 4 }
         ],
         "conversations": [
-          { "id": "135", "speaker": "유저", "sentence": "\"가자! 워그레이몬" },
+          {
+            "id": "135",
+            "speaker": "유저",
+            "sentence": "가자! 워그레이몬, 메탈가루몬!"
+          },
           { "id": "136", "speaker": "워그레이몬", "sentence": "알겠어!" },
           { "id": "137", "speaker": "메탈가루몬", "sentence": "좋아!" },
           {
@@ -695,12 +713,15 @@
         "isForceLose": true,
         "isForceEncounter": false,
         "rewards": [
-          { "name": "디", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 },
+          { "name": "포션박스 Lv.3", "canTrade": false, "count": 4 }
         ],
         "conversations": [
-          { "id": "139", "speaker": "파워드라몬", "sentence": "\"별것 없군" }
+          {
+            "id": "139",
+            "speaker": "파워드라몬",
+            "sentence": "별것 없군, 다음은 나다."
+          }
         ]
       },
       {
@@ -711,9 +732,8 @@
         "isForceLose": true,
         "isForceEncounter": false,
         "rewards": [
-          { "name": "디", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 },
+          { "name": "포션박스 Lv.3", "canTrade": false, "count": 4 }
         ],
         "conversations": [
           {
@@ -734,14 +754,22 @@
         "conversations": [
           { "id": "141", "speaker": "아구몬", "sentence": "크으윽!" },
           { "id": "142", "speaker": "파피몬", "sentence": "으아악!" },
-          { "id": "143", "speaker": "유저", "sentence": "\"이" },
+          { "id": "143", "speaker": "유저", "sentence": "이, 이런...!" },
           {
             "id": "144",
             "speaker": "피요몬",
             "sentence": "궁극체가 둘이나 있는데...!"
           },
-          { "id": "145", "speaker": "피에몬", "sentence": "\"같은 궁극체라도" },
-          { "id": "146", "speaker": "피에몬", "sentence": "\"자" },
+          {
+            "id": "145",
+            "speaker": "피에몬",
+            "sentence": "같은 궁극체라도, 당신들은 진화한 시기가 느렸지요."
+          },
+          {
+            "id": "146",
+            "speaker": "피에몬",
+            "sentence": "자, 그럼 누구부터 처리해 줄까요?"
+          },
           {
             "id": "147",
             "speaker": "팔몬",
@@ -777,7 +805,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "151", "speaker": "유저", "sentence": "츄몬... 피콜몬..." },
           { "id": "152", "speaker": "피요몬", "sentence": "..." },
@@ -820,7 +848,11 @@
             "sentence": "이 세계를 구할 수 있는 사람으로 네가 지목된 거야. 이길 수 없는 적은 없다구!"
           },
           { "id": "163", "speaker": "유저", "sentence": "파닥몬... 하지만..." },
-          { "id": "164", "speaker": "파피몬", "sentence": "\"저기" },
+          {
+            "id": "164",
+            "speaker": "파피몬",
+            "sentence": "저기, 얘기 중에 미안한데 팔몬하고 쉬라몬, 아구몬이 보이지 않아."
+          },
           {
             "id": "165",
             "speaker": "유저",
@@ -835,7 +867,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "166",
@@ -892,7 +924,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "176",
@@ -977,10 +1009,9 @@
         "isForceLose": false,
         "isForceEncounter": false,
         "rewards": [
-          { "name": "2", "canTrade": false, "count": 0 },
-          { "name": "0", "canTrade": false, "count": 0 },
-          { "name": "E", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "24000 EXP 물약", "canTrade": false, "count": 3 },
+          { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 10 },
+          { "name": "궁극체 스킬 강화석", "canTrade": false, "count": 10 }
         ],
         "conversations": [
           { "id": "197", "speaker": "유저", "sentence": "이건..." },
@@ -1025,13 +1056,13 @@
           {
             "id": "208",
             "speaker": "파피몬",
-            "sentence": "\"거봐! 넌 약하지 않다고 했잖아! 방금 엄청 쉽게 이겼지? 그치"
+            "sentence": "거봐! 넌 약하지 않다고 했잖아! 방금 엄청 쉽게 이겼지? 그치, 가트몬?"
           },
           { "id": "209", "speaker": "가트몬", "sentence": "그래." },
           {
             "id": "210",
             "speaker": "파피몬",
-            "sentence": "\"네가 정말 약했다면 이렇게 단숨에 쉘몬을 해치우지 못했을 거야. 너 자신을 좀 더 믿어 봐.\\r\\n테이머 넌 충분히 강해. 그리고 더 강해질 거고!\""
+            "sentence": "네가 정말 약했다면 이렇게 단숨에 쉘몬을 해치우지 못했을 거야. 너 자신을 좀 더 믿어 봐.\\r\\n테이머 넌 충분히 강해. 그리고 더 강해질 거고!"
           },
           { "id": "211", "speaker": "유저", "sentence": "파피몬..." },
           {
@@ -1047,13 +1078,13 @@
           {
             "id": "214",
             "speaker": "텐타몬",
-            "sentence": "\"하지만 테이머. 츄몬과 피콜몬뿐만 아니라 네 곁에 있는 우리 누구도 목숨을 잃는 걸 두려워하지 않아.\\r\\n이건 어쩔 수 없는 사실이야.\""
+            "sentence": "하지만 테이머. 츄몬과 피콜몬뿐만 아니라 네 곁에 있는 우리 누구도 목숨을 잃는 걸 두려워하지 않아.\\r\\n이건 어쩔 수 없는 사실이야."
           },
           { "id": "215", "speaker": "유저", "sentence": "..." },
           {
             "id": "216",
             "speaker": "텐타몬",
-            "sentence": "\"그만큼 우리 모두 디지털 월드의 평화가 간절해. 긴 시간"
+            "sentence": "그만큼 우리 모두 디지털 월드의 평화가 간절해. 긴 시간, 어둠의 힘에 통제당하며 숨어 지내야 했으니까 너라는 기회가 있을 때 목숨을 걸고서라도 지킬 거야."
           },
           { "id": "217", "speaker": "유저", "sentence": "텐타몬..." },
           {
@@ -1104,7 +1135,10 @@
     "name": "메탈시드라몬의 함정",
     "exp": 160,
     "bit": 56750,
-    "rewards": [],
+    "rewards": [
+      { "name": "투박한 광명 목걸이A", "canTrade": false, "count": 1 },
+      { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 10 }
+    ],
     "questGoals": [
       {
         "id": 1,
@@ -1113,7 +1147,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "226", "speaker": "유저", "sentence": "정말 매점이 있잖아!" },
           {
@@ -1174,7 +1208,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "244",
@@ -1249,10 +1283,9 @@
         "isForceLose": false,
         "isForceEncounter": true,
         "rewards": [
-          { "name": "2", "canTrade": false, "count": 0 },
-          { "name": "0", "canTrade": false, "count": 0 },
-          { "name": "E", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "24000 EXP 물약", "canTrade": false, "count": 3 },
+          { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 10 },
+          { "name": "강화된 포텐셜 조각", "canTrade": false, "count": 5 }
         ],
         "conversations": [
           {
@@ -1315,7 +1348,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "275",
@@ -1338,9 +1371,8 @@
         "isForceLose": true,
         "isForceEncounter": false,
         "rewards": [
-          { "name": "디", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 },
+          { "name": "포션박스 Lv.3", "canTrade": false, "count": 4 }
         ],
         "conversations": [
           {
@@ -1417,13 +1449,13 @@
           {
             "id": "297",
             "speaker": "고래몬",
-            "sentence": "\"디지털 월드의 디지몬들은 본능적으로 알고 있어요. 사천왕을 해치울 사람은 선택받은 아이인 당신뿐이라는 것을요.\\r\\n사천왕들 또한 그 사실을 알고 있기 때문에 반드시 당신을 없애려 할 겁니다.\\r\\n자신들을 위협하는 유일한 존재니까요.\""
+            "sentence": "디지털 월드의 디지몬들은 본능적으로 알고 있어요. 사천왕을 해치울 사람은 선택받은 아이인 당신뿐이라는 것을요.\\r\\n사천왕들 또한 그 사실을 알고 있기 때문에 반드시 당신을 없애려 할 겁니다.\\r\\n자신들을 위협하는 유일한 존재니까요."
           },
           { "id": "298", "speaker": "유저", "sentence": "그렇구나..." },
           {
             "id": "299",
             "speaker": "고래몬",
-            "sentence": "\"자의든 타의든 사천왕을 돕는 디지몬들이 있을 거고"
+            "sentence": "자의든 타의든 사천왕을 돕는 디지몬들이 있을 거고, 저처럼 당신을 돕는 디지몬들도 있을 겁니다.\\r\\n그 어디에도 끼지 못한 채 두려움에 떨고 있는 디지몬들도 있겠군요. 모두가 용기를 낼 수 있는 건 아니니까요."
           },
           { "id": "300", "speaker": "유저", "sentence": "그 또한 이해해." },
           {
@@ -1445,7 +1477,7 @@
           {
             "id": "305",
             "speaker": "고래몬",
-            "sentence": "\"보면 아실 겁니다. 얼마 전 메탈시드라몬에게 쫒기고 있는 걸 보고 이곳으로 데리고 왔거든요.\\r\\n그라면 당신에게 든든한 동료가 될 겁니다. 아직 이곳에 있을 겁니다.\""
+            "sentence": "보면 아실 겁니다. 얼마 전 메탈시드라몬에게 쫒기고 있는 걸 보고 이곳으로 데리고 왔거든요.\\r\\n그라면 당신에게 든든한 동료가 될 겁니다. 아직 이곳에 있을 겁니다."
           },
           {
             "id": "306",
@@ -1487,7 +1519,11 @@
     "name": "다시만난 아구몬",
     "exp": 162,
     "bit": 57600,
-    "rewards": [],
+    "rewards": [
+      { "name": "24000 EXP 물약", "canTrade": false, "count": 6 },
+      { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 10 },
+      { "name": "포션박스 Lv.3", "canTrade": false, "count": 4 }
+    ],
     "questGoals": [
       {
         "id": 1,
@@ -1497,10 +1533,8 @@
         "isForceLose": false,
         "isForceEncounter": true,
         "rewards": [
-          { "name": "2", "canTrade": false, "count": 0 },
-          { "name": "0", "canTrade": false, "count": 0 },
-          { "name": "E", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "24000 EXP 물약", "canTrade": false, "count": 6 },
+          { "name": "강화된 포텐셜 조각", "canTrade": false, "count": 5 }
         ],
         "conversations": null
       },
@@ -1511,9 +1545,13 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
-          { "id": "314", "speaker": "유저", "sentence": "\"아구몬" },
+          {
+            "id": "314",
+            "speaker": "유저",
+            "sentence": "아구몬, 괜찮아? 대체 다이버몬들이 왜 너를 쫒는 거야?"
+          },
           {
             "id": "315",
             "speaker": "아구몬",
@@ -1606,7 +1644,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": null
       },
       {
@@ -1616,7 +1654,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": null
       },
       {
@@ -1626,7 +1664,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "338",
@@ -1689,7 +1727,7 @@
     "name": "메탈시드라몬을 처치하라!",
     "exp": 164,
     "bit": 58450,
-    "rewards": [],
+    "rewards": [{ "name": "쓸만한 광명 반지B", "canTrade": false, "count": 1 }],
     "questGoals": [
       {
         "id": 1,
@@ -1698,12 +1736,16 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "350", "speaker": "알림", "sentence": "이동 후" },
           { "id": "351", "speaker": "유저", "sentence": "여긴...?" },
-          { "id": "352", "speaker": "가트몬", "sentence": "\"테이머" },
-          { "id": "353", "speaker": "유저", "sentence": "\"그래" },
+          {
+            "id": "352",
+            "speaker": "가트몬",
+            "sentence": "테이머, 저 다리 위로 올라가자. 메탈시드라몬을 유인하기 위해선 잘 보이는 곳으로 가야 할 것 같아."
+          },
+          { "id": "353", "speaker": "유저", "sentence": "그래, 가트몬." },
           {
             "id": "354",
             "speaker": "다이버몬",
@@ -1734,7 +1776,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "359", "speaker": "알림", "sentence": "분기점으로 이동 후" },
           {
@@ -1760,9 +1802,7 @@
         "isForceLose": true,
         "isForceEncounter": true,
         "rewards": [
-          { "name": "디", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 }
         ],
         "conversations": [
           { "id": "365", "speaker": "알림", "sentence": "전투 후" },
@@ -1771,7 +1811,7 @@
           {
             "id": "368",
             "speaker": "워그레이몬",
-            "sentence": "\"나도 함께 싸울게"
+            "sentence": "나도 함께 싸울게, 테이머!"
           },
           {
             "id": "369",
@@ -1798,9 +1838,9 @@
         "isForceLose": false,
         "isForceEncounter": false,
         "rewards": [
-          { "name": "궁", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null },
-          { "name": "셜", "canTrade": false, "count": 4 }
+          { "name": "궁극체 포텐셜 4", "canTrade": false, "count": 1 },
+          { "name": "궁극체 스킬 강화석", "canTrade": false, "count": 10 },
+          { "name": "24000 EXP 물약", "canTrade": false, "count": 15 }
         ],
         "conversations": [
           { "id": "372", "speaker": "알림", "sentence": "전투 후 컷신" }
@@ -1863,11 +1903,15 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "382", "speaker": "팔몬", "sentence": "저기... 테이머..." },
           { "id": "383", "speaker": "유저", "sentence": "무슨 일이야? 팔몬." },
-          { "id": "384", "speaker": "팔몬", "sentence": "\"고래몬하고 피콜몬" },
+          {
+            "id": "384",
+            "speaker": "팔몬",
+            "sentence": "고래몬하고 피콜몬, 츄몬, 위자몬 그리고 우리를 위해 희생당한 디지몬들의 무덤을 만들고 싶어."
+          },
           {
             "id": "385",
             "speaker": "피요몬",
@@ -1926,7 +1970,11 @@
             "speaker": "파피몬",
             "sentence": "앞으로 나아가는 게 옳다는 건 나도 알겠어."
           },
-          { "id": "403", "speaker": "파피몬", "sentence": "\"그렇지만" },
+          {
+            "id": "403",
+            "speaker": "파피몬",
+            "sentence": "그렇지만, 한 발짝 물러나서 다른 이를 생각할 수도 있는 거잖아."
+          },
           {
             "id": "404",
             "speaker": "아구몬",
@@ -1937,13 +1985,21 @@
             "speaker": "파피몬",
             "sentence": "그런 건 모두 알고 있잖아! 그렇지만...!"
           },
-          { "id": "406", "speaker": "피요몬", "sentence": "\"저기" },
+          {
+            "id": "406",
+            "speaker": "피요몬",
+            "sentence": "저기, 이제 그만해. 다들 격해졌어."
+          },
           {
             "id": "407",
             "speaker": "유저",
             "sentence": "다들 그만해. 알겠어 팔몬 그들을 위해 무덤을 만들자."
           },
-          { "id": "408", "speaker": "유저", "sentence": "\"아구몬" },
+          {
+            "id": "408",
+            "speaker": "유저",
+            "sentence": "아구몬, 내가 금방 만들 테니 잠시만 시간을 내자."
+          },
           { "id": "409", "speaker": "팔몬", "sentence": "응..." },
           { "id": "410", "speaker": "아구몬", "sentence": "알겠어 테이머." }
         ]
@@ -1955,7 +2011,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": null
       },
       {
@@ -1965,7 +2021,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "411", "speaker": "유저", "sentence": "다 됐다." },
           { "id": "412", "speaker": "피요몬", "sentence": "..." },
@@ -2018,7 +2074,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "425",
@@ -2103,7 +2159,11 @@
             "sentence": "다들 알고 있는 거라고! 그런 말 하지 않아도 되잖아!"
           },
           { "id": "447", "speaker": "파닥몬", "sentence": "다들 싸우지 마..." },
-          { "id": "448", "speaker": "아구몬", "sentence": "\"이대로라면" },
+          {
+            "id": "448",
+            "speaker": "아구몬",
+            "sentence": "이대로라면, 끌려다니기만 하다 당할 거야."
+          },
           {
             "id": "449",
             "speaker": "아구몬",
@@ -2189,7 +2249,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "473", "speaker": "파닥몬", "sentence": "우아앗! 뭐야!" },
           { "id": "474", "speaker": "유저", "sentence": "파닥몬! 왜 그래?" },
@@ -2200,7 +2260,11 @@
             "sentence": "응. 갑자기 간지러웠다가 괜찮아지긴 했는데... 뭐였을까?"
           },
           { "id": "477", "speaker": "파피몬", "sentence": "이상은 없는 거지?" },
-          { "id": "478", "speaker": "파닥몬", "sentence": "\"저기" },
+          {
+            "id": "478",
+            "speaker": "파닥몬",
+            "sentence": "저기, 그만 좀 해줘!"
+          },
           {
             "id": "479",
             "speaker": "파닥몬",
@@ -2296,9 +2360,8 @@
         "isForceLose": true,
         "isForceEncounter": true,
         "rewards": [
-          { "name": "디", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null }
+          { "name": "디지몬 부활 칩", "canTrade": false, "count": 3 },
+          { "name": "포션박스 Lv.3", "canTrade": false, "count": 4 }
         ],
         "conversations": [
           {
@@ -2368,7 +2431,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "522", "speaker": "유저", "sentence": "얘들아!" },
           { "id": "523", "speaker": "가트몬", "sentence": "테이머! 파피몬!" },
@@ -2413,7 +2476,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "532", "speaker": "유저", "sentence": "아구몬! 팔몬!" },
           { "id": "533", "speaker": "팔몬", "sentence": "드디어 찾았다!" },
@@ -2430,7 +2493,7 @@
           {
             "id": "536",
             "speaker": "유저",
-            "sentence": "\"... 전부 모이면 말해줄게"
+            "sentence": "... 전부 모이면 말해줄게, 우선 나머지 아이들을 찾아보자."
           },
           { "id": "537", "speaker": "아구몬", "sentence": "응! 알겠어!" }
         ]
@@ -2445,22 +2508,38 @@
         "rewards": null,
         "conversations": [
           { "id": "538", "speaker": "유저", "sentence": "텐타몬! 피요몬!" },
-          { "id": "539", "speaker": "피요몬", "sentence": "\"거 봐" },
+          {
+            "id": "539",
+            "speaker": "피요몬",
+            "sentence": "거 봐, 내가 찾아온다고 그랬지?"
+          },
           { "id": "540", "speaker": "텐타몬", "sentence": "그렇네..." },
           { "id": "541", "speaker": "유저", "sentence": "무슨 얘기야?" },
-          { "id": "542", "speaker": "피요몬", "sentence": "\"응" },
+          {
+            "id": "542",
+            "speaker": "피요몬",
+            "sentence": "응, 텐타몬은 너희를 찾으러 가자고 했는데 내가 엇갈릴 것 같으니 여기서 찾아올 때까지 기다리자 했어."
+          },
           {
             "id": "543",
             "speaker": "유저",
             "sentence": "좋은 선택이었어 피요몬."
           },
-          { "id": "544", "speaker": "가트몬", "sentence": "\"이제 다 모였네" },
+          {
+            "id": "544",
+            "speaker": "가트몬",
+            "sentence": "이제 다 모였네, 무슨 얘기를 하려고 했던 거야?"
+          },
           {
             "id": "545",
             "speaker": "팔몬",
             "sentence": "잠깐만 아직 파닥몬이 없어."
           },
-          { "id": "546", "speaker": "가트몬", "sentence": "\"그러게" },
+          {
+            "id": "546",
+            "speaker": "가트몬",
+            "sentence": "그러게, 파닥몬부터 찾으러 가자."
+          },
           { "id": "547", "speaker": "유저", "sentence": "아니야 파닥몬은..." },
           {
             "id": "548",
@@ -2503,7 +2582,10 @@
     "name": "적의 소굴로",
     "exp": 170,
     "bit": 61000,
-    "rewards": [],
+    "rewards": [
+      { "name": "투박한 자애 팔찌A", "canTrade": false, "count": 1 },
+      { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 30 }
+    ],
     "questGoals": [
       {
         "id": 1,
@@ -2512,7 +2594,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "559", "speaker": "알림", "sentence": "이동 후" },
           { "id": "560", "speaker": "키위몬", "sentence": "잠깐!" },
@@ -2537,10 +2619,7 @@
         "isForceLose": false,
         "isForceEncounter": true,
         "rewards": [
-          { "name": "E", "canTrade": false, "count": null },
-          { "name": "데", "canTrade": false, "count": null },
-          { "name": " ", "canTrade": false, "count": null },
-          { "name": "중", "canTrade": false, "count": null }
+          { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 30 }
         ],
         "conversations": [
           { "id": "564", "speaker": "피노키몬", "sentence": "키키킥! 찾았다~" },
@@ -2648,7 +2727,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "588",
@@ -2684,7 +2763,7 @@
         "isBattle": true,
         "isForceLose": false,
         "isForceEncounter": true,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "593", "speaker": "알림", "sentence": "전투 후" },
           {
@@ -2740,7 +2819,11 @@
             "speaker": "파닥몬",
             "sentence": "잠깐 자리를 비웠어! 돌아오기 전에 도망치자!"
           },
-          { "id": "608", "speaker": "유저", "sentence": "\"아니" },
+          {
+            "id": "608",
+            "speaker": "유저",
+            "sentence": "아니, 지금이 기회일지 몰라."
+          },
           { "id": "609", "speaker": "텐타몬", "sentence": "무슨 기회?" },
           {
             "id": "610",
@@ -2776,7 +2859,9 @@
     "name": "흔들리는 마음",
     "exp": 172,
     "bit": 61850,
-    "rewards": [],
+    "rewards": [
+      { "name": "EVP데이터 칩(중형)", "canTrade": false, "count": 30 }
+    ],
     "questGoals": [
       {
         "id": 1,
@@ -2785,7 +2870,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "618",
@@ -2801,7 +2886,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "619",
@@ -2901,7 +2986,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "640",
@@ -3070,7 +3155,7 @@
         "isBattle": true,
         "isForceLose": false,
         "isForceEncounter": true,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "678",
@@ -3130,7 +3215,11 @@
             "speaker": "쥬레이몬",
             "sentence": "요즘 아이들은 너무 쉽게 답을 알려고 하는군요."
           },
-          { "id": "692", "speaker": "쥬레이몬", "sentence": "\"후후후" },
+          {
+            "id": "692",
+            "speaker": "쥬레이몬",
+            "sentence": "후후후, 하지만 특별히 알려드리겠습니다."
+          },
           {
             "id": "693",
             "speaker": "쥬레이몬",
@@ -3191,7 +3280,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "708",
@@ -3287,7 +3376,11 @@
             "sentence": "친구라고요? 자신을 속이면 안 되죠."
           },
           { "id": "726", "speaker": "파피몬", "sentence": "..." },
-          { "id": "727", "speaker": "쥬레이몬", "sentence": "\"동료" },
+          {
+            "id": "727",
+            "speaker": "쥬레이몬",
+            "sentence": "동료, 친구, 우정! 허울만 좋은 단어들!"
+          },
           {
             "id": "728",
             "speaker": "쥬레이몬",
@@ -3332,7 +3425,11 @@
             "speaker": "쥬레이몬",
             "sentence": "워그레이몬과 메탈가루몬을 서로 싸우게 했습니다!"
           },
-          { "id": "740", "speaker": "피노키몬", "sentence": "\"헤에" },
+          {
+            "id": "740",
+            "speaker": "피노키몬",
+            "sentence": "헤에, 재밌겠는데?"
+          },
           {
             "id": "741",
             "speaker": "쥬레이몬",
@@ -3445,7 +3542,7 @@
     "name": "흩어진 동료들",
     "exp": 174,
     "bit": 62700,
-    "rewards": [],
+    "rewards": [{ "name": "24000 EXP 물약", "canTrade": false, "count": 3 }],
     "questGoals": [
       {
         "id": 1,
@@ -3454,7 +3551,7 @@
         "isBattle": true,
         "isForceLose": false,
         "isForceEncounter": true,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "767", "speaker": "아구몬", "sentence": "크윽! 너 정말...!" },
           { "id": "768", "speaker": "피요몬", "sentence": "메탈가루몬..." },
@@ -3538,7 +3635,7 @@
         "isBattle": true,
         "isForceLose": false,
         "isForceEncounter": true,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           {
             "id": "788",
@@ -3633,7 +3730,7 @@
         "isBattle": false,
         "isForceLose": false,
         "isForceEncounter": false,
-        "rewards": null,
+        "rewards": [],
         "conversations": [
           { "id": "812", "speaker": "유저", "sentence": "가트몬! 너 몸이...!" },
           {
@@ -3645,7 +3742,7 @@
           {
             "id": "815",
             "speaker": "가트몬",
-            "sentence": "\"쥬레이몬은 당신과 워그레이몬 사이에 분열을 만들기 위해 당신의 약한 마음을 이용한 거예요.\\r\\n이 상황은 쥬레이몬이 원하던 겁니다.\""
+            "sentence": "쥬레이몬은 당신과 워그레이몬 사이에 분열을 만들기 위해 당신의 약한 마음을 이용한 거예요.\\r\\n이 상황은 쥬레이몬이 원하던 겁니다."
           },
           { "id": "816", "speaker": "메탈가루몬", "sentence": "..." },
           {
@@ -3666,7 +3763,7 @@
           {
             "id": "820",
             "speaker": "가트몬",
-            "sentence": "\"아닙니다. 저 또한 다른 디지몬들처럼 데이터로 이루어진 존재예요.\\r\\n다만 실체화를 할 수 없기 때문에 이분의 몸을 잠시 빌렸습니다.\""
+            "sentence": "아닙니다. 저 또한 다른 디지몬들처럼 데이터로 이루어진 존재예요.\\r\\n다만 실체화를 할 수 없기 때문에 이분의 몸을 잠시 빌렸습니다."
           },
           {
             "id": "821",
@@ -3678,17 +3775,25 @@
             "speaker": "가트몬",
             "sentence": "네. 당신들의 궁금증과 디지털 세계에 얽힌 이야기를 풀어드리기 위해 왔습니다."
           },
-          { "id": "823", "speaker": "가트몬", "sentence": "\"머나먼 과거" },
+          {
+            "id": "823",
+            "speaker": "가트몬",
+            "sentence": "머나먼 과거, 디지털 월드가 어둠의 힘에 지배당하는 것을 막기 위해 준비하던 사람들이 있었습니다."
+          },
           {
             "id": "824",
             "speaker": "가트몬",
-            "sentence": "\"그 사람들은 4년 전"
+            "sentence": "그 사람들은 4년 전, 현실 세계에 디지몬 알이 떨어지면서 만들어진 틈 사이로 '선택받은 아이'를 탐색하고 있었습니다."
           },
-          { "id": "825", "speaker": "가트몬", "sentence": "\"선하고 강한" },
+          {
+            "id": "825",
+            "speaker": "가트몬",
+            "sentence": "선하고 강한, 훌륭한 장점과 개성을 가진 사람. 언젠가 디지털 세계가 위험에 처했을 때 이곳을 도울 인물로 뽑아둔 것이\\r\\n바로 당신 '테이머'입니다."
+          },
           {
             "id": "826",
             "speaker": "가트몬",
-            "sentence": "\"당신의 데이터를 토대로 당신이 가진 특성들을 나누어 디지몬 알을 배양했고"
+            "sentence": "당신의 데이터를 토대로 당신이 가진 특성들을 나누어 디지몬 알을 배양했고, 그들이 디지털 월드에 위험에 닥쳤을 때 당신을 도와 세계를 구할 수 있도록 계획을 실행했습니다."
           },
           {
             "id": "827",
@@ -3698,7 +3803,7 @@
           {
             "id": "828",
             "speaker": "가트몬",
-            "sentence": "\"하지만 막바지 단계에서 사천왕의 습격으로 어둠의 힘에 대항하기 위해 준비하던 사람들은 모두 실체를 잃었고"
+            "sentence": "하지만 막바지 단계에서 사천왕의 습격으로 어둠의 힘에 대항하기 위해 준비하던 사람들은 모두 실체를 잃었고,\\r\\n데이터가 되어 세계를 떠돌 수밖에 없는 처지가 되었습니다."
           },
           {
             "id": "829",
@@ -3708,7 +3813,7 @@
           {
             "id": "830",
             "speaker": "가트몬",
-            "sentence": "\"여러문은 기본적으로 따스한 마음을 가진 디지몬들이지만 엇나간 마음은 방금 전처럼\\r\\n당신들을 괴롭게 할 것입니다.\""
+            "sentence": "여러문은 기본적으로 따스한 마음을 가진 디지몬들이지만 엇나간 마음은 방금 전처럼\\r\\n당신들을 괴롭게 할 것입니다."
           },
           {
             "id": "831",
@@ -3809,7 +3914,7 @@
           {
             "id": "855",
             "speaker": "메탈가루몬",
-            "sentence": "\"미안해. 테이머. 하지만 지금 이 상태로는 널 도울 수 없을 것 같아. 내가 해야 할 일과 가져야 할 마음이 뭔지\\r\\n찾을 때까지 혼자 다니고 싶어.\""
+            "sentence": "미안해. 테이머. 하지만 지금 이 상태로는 널 도울 수 없을 것 같아. 내가 해야 할 일과 가져야 할 마음이 뭔지\\r\\n찾을 때까지 혼자 다니고 싶어."
           },
           {
             "id": "856",
@@ -3822,7 +3927,11 @@
             "sentence": "나도... 이곳에 남을게."
           },
           { "id": "858", "speaker": "유저", "sentence": "팔몬?" },
-          { "id": "859", "speaker": "팔몬", "sentence": "\"미" },
+          {
+            "id": "859",
+            "speaker": "팔몬",
+            "sentence": "미, 미안해. 하지만 나도 준비가 되지 않은 것 같아. 누군가 죽고 싸우는 모습을 더 보고 싶지 않아. 미안해...."
+          },
           {
             "id": "860",
             "speaker": "피요몬",
@@ -3939,7 +4048,11 @@
             "speaker": "아구몬",
             "sentence": "음... 피노키몬의 집으로 가자."
           },
-          { "id": "889", "speaker": "파닥몬", "sentence": "\"기다리지 않고" },
+          {
+            "id": "889",
+            "speaker": "파닥몬",
+            "sentence": "기다리지 않고, 이쪽에서 먼저 공격하자는 거지?"
+          },
           {
             "id": "890",
             "speaker": "가트몬",
@@ -3950,7 +4063,11 @@
             "speaker": "가트몬",
             "sentence": "서두르지 않으면 디지털 월드도 현실 세계도 돌이킬 수 없어질 거야."
           },
-          { "id": "892", "speaker": "피요몬", "sentence": "\"자" },
+          {
+            "id": "892",
+            "speaker": "피요몬",
+            "sentence": "자, 잠깐만! 피노키몬은 궁극체잖아? 간단히 처치할 수 있는 상대가 아니야!"
+          },
           {
             "id": "893",
             "speaker": "아구몬",
