@@ -66,6 +66,13 @@
     gap: 10px;
 }
 
+.overflow-shortcut-infos .overflow-req-item img {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 5px;
+}
+
 .overflow-shortcut-infos .overflow-req-item span {
     font-size: 18px;
     font-weight: 700;

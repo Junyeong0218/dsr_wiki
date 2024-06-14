@@ -15,10 +15,11 @@ export default function ShopModal({ isOpen, items, position }: ShopModalProps): 
                 <div className="title">상점</div>
                 { items && items.map(itemId => {
                     const item = getItemById(itemId)!;
+                    console.log(item)
 
                     return (
                         <div className="shop-item" key={getUUID()}>
-                            <img src={`/images/${item.name}.png`}/>
+                            <img src={`/images/${item.name.includes("조합법") ? "조합법" : item.name}.png`}/>
                             <span className="item-name">{item.name}</span>
                             <div className="item-price">
                                 {item.price}

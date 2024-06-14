@@ -2302,7 +2302,7 @@
         "level": 93,
         "hp": 13247,
         "point": { "x": 315, "y": 155 },
-        "dropItems": [5, 11, 86, 90, 94, 199, 181, 532]
+        "dropItems": [5, 11, 86, 90, 94, 199, 181, 82, 532]
       },
       {
         "id": 2,
@@ -2544,5 +2544,734 @@
       },
       { "id": 2, "description": "국제 전시장", "point": { "x": 223, "y": 157 } }
     ]
+  },
+  {
+    "id": 18,
+    "name": "네트워크 바다",
+    "category": "스파이럴 마운틴",
+    "monsters": [
+      {
+        "id": 1,
+        "name": "쉘몬",
+        "digimonType": "Da",
+        "level": 95,
+        "hp": 14151,
+        "point": { "x": 465, "y": 285 },
+        "dropItems": [5, 11, 85, 199, 111, 82]
+      },
+      {
+        "id": 2,
+        "name": "연체몬",
+        "digimonType": "Vi",
+        "level": 96,
+        "hp": 15317,
+        "point": { "x": 465, "y": 375 },
+        "dropItems": [5, 11, 85, 199, 553, 82]
+      },
+      {
+        "id": 3,
+        "name": "다이버몬",
+        "digimonType": "Da",
+        "level": 95,
+        "hp": 15165,
+        "point": { "x": 315, "y": 35 },
+        "dropItems": [5, 11, 86, 199, 186, 82]
+      },
+      {
+        "id": 4,
+        "name": "다이버몬",
+        "digimonType": "Da",
+        "level": 95,
+        "hp": 15165,
+        "point": { "x": 120, "y": 480 },
+        "dropItems": [5, 11, 86, 199, 186, 82]
+      },
+      {
+        "id": 5,
+        "name": "프레시오몬",
+        "digimonType": "Da",
+        "level": 96,
+        "hp": 19242,
+        "point": { "x": 88, "y": 332 },
+        "dropItems": [5, 11, 88, 199, 554, 82]
+      }
+    ],
+    "shops": [
+      {
+        "type": "common",
+        "point": { "x": 95, "y": 477 },
+        "items": [1, 3, 5, 7, 9, 10, 11, 13, 15, 30, 32, 549, 550]
+      }
+    ],
+    "cubes": [
+      { "id": 201, "point": { "x": 515, "y": 263 } },
+      { "id": 202, "point": { "x": 495, "y": 305 } },
+      { "id": 203, "point": { "x": 485, "y": 420 } },
+      { "id": 204, "point": { "x": 370, "y": 38 } },
+      { "id": 205, "point": { "x": 320, "y": 68 } },
+      { "id": 206, "point": { "x": 101, "y": 272 } },
+      { "id": 207, "point": { "x": 110, "y": 476 } },
+      { "id": 208, "point": { "x": 80, "y": 480 } },
+      { "id": 209, "point": { "x": 90, "y": 480 } }
+    ],
+    "portals": [
+      {
+        "to": 17,
+        "description": "국제 전시장 포탈",
+        "point": { "x": 462, "y": 197 }
+      },
+      {
+        "to": null,
+        "description": "초승달 섬",
+        "point": { "x": 460, "y": 236 }
+      },
+      {
+        "to": null,
+        "description": "해변가 도로",
+        "point": { "x": 332, "y": 14 }
+      },
+      {
+        "to": 19,
+        "description": "수목 지구 포탈",
+        "point": { "x": 92, "y": 518 }
+      }
+    ],
+    "warps": [
+      {
+        "id": 1,
+        "description": "네트워크 해변",
+        "point": { "x": 481, "y": 241 }
+      },
+      { "id": 2, "description": "초승달 섬", "point": { "x": 347, "y": 23 } },
+      {
+        "id": 3,
+        "description": "네트워크 해변가 도로",
+        "point": { "x": 139, "y": 478 }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "수목 지구",
+    "category": "스파이럴 마운틴",
+    "monsters": [
+      {
+        "id": 1,
+        "name": "가비지몬",
+        "digimonType": "Vi",
+        "level": 96,
+        "hp": 14627,
+        "point": { "x": 425, "y": 150 },
+        "dropItems": [5, 11, 86, 90, 92, 96, 199, 171]
+      },
+      {
+        "id": 2,
+        "name": "가비지몬",
+        "digimonType": "Vi",
+        "level": 96,
+        "hp": 14627,
+        "point": { "x": 375, "y": 245 },
+        "dropItems": [5, 11, 86, 90, 92, 96, 199, 171]
+      },
+      {
+        "id": 3,
+        "name": "가비지몬",
+        "digimonType": "Vi",
+        "level": 96,
+        "hp": 14627,
+        "point": { "x": 235, "y": 160 },
+        "dropItems": [5, 11, 86, 90, 92, 96, 199, 171]
+      },
+      {
+        "id": 4,
+        "name": "키위몬",
+        "digimonType": "Da",
+        "level": 96,
+        "hp": 18376,
+        "point": { "x": 305, "y": 165 },
+        "dropItems": [5, 11, 85, 199, 557, 82]
+      },
+      {
+        "id": 5,
+        "name": "우드몬",
+        "digimonType": "Vi",
+        "level": 97,
+        "hp": 15589,
+        "point": { "x": 315, "y": 205 },
+        "dropItems": [5, 11, 85, 199, 119, 82]
+      },
+      {
+        "id": 6,
+        "name": "스컬맘몬",
+        "digimonType": "Va",
+        "level": 96,
+        "hp": 18666,
+        "point": { "x": 425, "y": 295 },
+        "dropItems": [5, 11, 88, 199, 558, 82]
+      },
+      {
+        "id": 7,
+        "name": "뿌띠몬",
+        "digimonType": "Da",
+        "level": 97,
+        "hp": 14863,
+        "point": { "x": 215, "y": 110 },
+        "dropItems": [5, 11, 86, 199, 556]
+      },
+      {
+        "id": 8,
+        "name": "레드베지몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 21004,
+        "point": { "x": 195, "y": 80 },
+        "dropItems": [5, 11, 85, 199, 555, 82]
+      },
+      {
+        "id": 9,
+        "name": "브롯사몬",
+        "digimonType": "Da",
+        "level": 97,
+        "hp": 14615,
+        "point": { "x": 265, "y": 315 },
+        "dropItems": [5, 11, 86, 199, 168]
+      },
+      {
+        "id": 10,
+        "name": "오쿠와몬",
+        "digimonType": "Vi",
+        "level": 97,
+        "hp": 16492,
+        "point": { "x": 105, "y": 315 },
+        "dropItems": [5, 11, 86, 199, 559]
+      },
+      {
+        "id": 11,
+        "name": "고그마몬",
+        "digimonType": "Va",
+        "level": 97,
+        "hp": 14844,
+        "point": { "x": 95, "y": 408 },
+        "dropItems": [5, 11, 86, 199, 560]
+      }
+    ],
+    "shops": null,
+    "cubes": [
+      { "id": 210, "point": { "x": 477, "y": 153 } },
+      { "id": 211, "point": { "x": 425, "y": 112 } },
+      { "id": 212, "point": { "x": 358, "y": 200 } },
+      { "id": 213, "point": { "x": 470, "y": 270 } },
+      { "id": 214, "point": { "x": 385, "y": 305 } },
+      { "id": 215, "point": { "x": 272, "y": 166 } },
+      { "id": 216, "point": { "x": 236, "y": 93 } },
+      { "id": 217, "point": { "x": 172, "y": 80 } },
+      { "id": 218, "point": { "x": 222, "y": 318 } },
+      { "id": 219, "point": { "x": 175, "y": 342 } },
+      { "id": 220, "point": { "x": 151, "y": 352 } },
+      { "id": 221, "point": { "x": 123, "y": 312 } },
+      { "id": 222, "point": { "x": 126, "y": 411 } },
+      { "id": 223, "point": { "x": 94, "y": 390 } }
+    ],
+    "portals": [
+      {
+        "to": 18,
+        "description": "네트워크 바다 포탈",
+        "point": { "x": 320, "y": 30 }
+      },
+      {
+        "to": 20,
+        "description": "강철 도시 포탈",
+        "point": { "x": 150, "y": 420 }
+      }
+    ],
+    "warps": [
+      {
+        "id": 1,
+        "description": "수목 지구 공터",
+        "point": { "x": 413, "y": 112 }
+      },
+      {
+        "id": 2,
+        "description": "수목 지구 폐허",
+        "point": { "x": 90, "y": 290 }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "강철 도시",
+    "category": "스파이럴 마운틴",
+    "monsters": [
+      {
+        "id": 1,
+        "name": "메카노몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 19234,
+        "point": { "x": 210, "y": 225 },
+        "dropItems": [5, 11, 85, 199, 136]
+      },
+      {
+        "id": 2,
+        "name": "메카노몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 19234,
+        "point": { "x": 200, "y": 275 },
+        "dropItems": [5, 11, 85, 199, 136]
+      },
+      {
+        "id": 3,
+        "name": "메가드라몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 17388,
+        "point": { "x": 214, "y": 321 },
+        "dropItems": [5, 11, 86, 199, 180]
+      },
+      {
+        "id": 4,
+        "name": "메가드라몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 17388,
+        "point": { "x": 294, "y": 321 },
+        "dropItems": [5, 11, 86, 199, 180]
+      },
+      {
+        "id": 5,
+        "name": "메가드라몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 17388,
+        "point": { "x": 305, "y": 270 },
+        "dropItems": [5, 11, 86, 199, 180]
+      },
+      {
+        "id": 6,
+        "name": "메가드라몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 17388,
+        "point": { "x": 275, "y": 215 },
+        "dropItems": [5, 11, 86, 199, 180]
+      },
+      {
+        "id": 7,
+        "name": "데이터몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 17628,
+        "point": { "x": 375, "y": 272 },
+        "dropItems": [5, 11, 86, 199, 173]
+      },
+      {
+        "id": 8,
+        "name": "빅콩알몬",
+        "digimonType": "Da",
+        "level": 98,
+        "hp": 15029,
+        "point": { "x": 375, "y": 382 },
+        "dropItems": [5, 11, 86, 199, 552]
+      },
+      {
+        "id": 9,
+        "name": "빅콩알몬",
+        "digimonType": "Da",
+        "level": 98,
+        "hp": 15029,
+        "point": { "x": 475, "y": 330 },
+        "dropItems": [5, 11, 86, 199, 552]
+      },
+      {
+        "id": 10,
+        "name": "기가드라몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 17388,
+        "point": { "x": 305, "y": 382 },
+        "dropItems": [5, 11, 86, 199, 181]
+      },
+      {
+        "id": 11,
+        "name": "기가드라몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 17388,
+        "point": { "x": 225, "y": 382 },
+        "dropItems": [5, 11, 86, 199, 181]
+      },
+      {
+        "id": 12,
+        "name": "기가드라몬",
+        "digimonType": "Vi",
+        "level": 98,
+        "hp": 17388,
+        "point": { "x": 185, "y": 412 },
+        "dropItems": [5, 11, 86, 199, 181]
+      },
+      {
+        "id": 13,
+        "name": "타이거베스파몬",
+        "digimonType": "Vi",
+        "level": 99,
+        "hp": 18835,
+        "point": { "x": 305, "y": 166 },
+        "dropItems": [5, 11, 88, 199, 561]
+      },
+      {
+        "id": 14,
+        "name": "탱크몬",
+        "digimonType": "Da",
+        "level": 98,
+        "hp": 14904,
+        "point": { "x": 446, "y": 272 },
+        "dropItems": [5, 11, 85, 199, 161]
+      },
+      {
+        "id": 15,
+        "name": "탱크몬",
+        "digimonType": "Da",
+        "level": 98,
+        "hp": 14904,
+        "point": { "x": 516, "y": 222 },
+        "dropItems": [5, 11, 85, 199, 161]
+      }
+    ],
+    "shops": [
+      {
+        "type": "common",
+        "point": { "x": 325, "y": 240 },
+        "items": [1, 3, 5, 7, 9, 10, 11, 13, 15, 30, 32, 549, 550]
+      },
+      {
+        "type": "battle",
+        "point": { "x": 330, "y": 245 },
+        "items": [26, 27, 28, 29, 30, 31, 32, 33]
+      }
+    ],
+    "cubes": [
+      { "id": 224, "point": { "x": 113, "y": 272 } },
+      { "id": 225, "point": { "x": 206, "y": 199 } },
+      { "id": 226, "point": { "x": 180, "y": 226 } },
+      { "id": 227, "point": { "x": 255, "y": 242 } },
+      { "id": 228, "point": { "x": 331, "y": 340 } },
+      { "id": 229, "point": { "x": 328, "y": 181 } },
+      { "id": 230, "point": { "x": 402, "y": 167 } },
+      { "id": 231, "point": { "x": 367, "y": 232 } },
+      { "id": 232, "point": { "x": 410, "y": 194 } },
+      { "id": 233, "point": { "x": 505, "y": 207 } },
+      { "id": 234, "point": { "x": 539, "y": 194 } },
+      { "id": 235, "point": { "x": 440, "y": 430 } },
+      { "id": 236, "point": { "x": 418, "y": 366 } },
+      { "id": 237, "point": { "x": 395, "y": 412 } },
+      { "id": 238, "point": { "x": 345, "y": 404 } },
+      { "id": 239, "point": { "x": 285, "y": 380 } },
+      { "id": 240, "point": { "x": 171, "y": 457 } },
+      { "id": 241, "point": { "x": 242, "y": 414 } },
+      { "id": 242, "point": { "x": 167, "y": 384 } }
+    ],
+    "portals": [
+      {
+        "to": 19,
+        "description": "수목 지구 포탈",
+        "point": { "x": 98, "y": 258 }
+      },
+      {
+        "to": 21,
+        "description": "강철 도시 지하 1층 포탈",
+        "point": { "x": 380, "y": 213 }
+      },
+      {
+        "to": 22,
+        "description": "어둠의 권역 포탈",
+        "point": { "x": 555, "y": 258 }
+      }
+    ],
+    "warps": [
+      {
+        "id": 1,
+        "description": "강철 도시 광장",
+        "point": { "x": 288, "y": 265 }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "강철 도시 지하",
+    "category": "스파이럴 마운틴",
+    "monsters": [
+      {
+        "id": 1,
+        "name": "폭탄몬",
+        "digimonType": "Va",
+        "level": 98,
+        "hp": 18803,
+        "point": { "x": 396, "y": 442 },
+        "dropItems": [5, 11, 86, 199, 562]
+      },
+      {
+        "id": 2,
+        "name": "퍼펫몬",
+        "digimonType": "Va",
+        "level": 99,
+        "hp": 22980,
+        "point": { "x": 326, "y": 512 },
+        "dropItems": [5, 11, 86, 199, 122]
+      }
+    ],
+    "shops": null,
+    "cubes": [
+      { "id": 243, "point": { "x": 335, "y": 445 } },
+      { "id": 244, "point": { "x": 373, "y": 550 } },
+      { "id": 245, "point": { "x": 299, "y": 528 } },
+      { "id": 246, "point": { "x": 255, "y": 415 } }
+    ],
+    "portals": [
+      {
+        "to": 20,
+        "description": "강철 도시 포탈",
+        "point": { "x": 420, "y": 518 }
+      },
+      {
+        "to": null,
+        "description": "강철 도시 지하 2층 포탈",
+        "point": { "x": 125, "y": 415 }
+      },
+      {
+        "to": null,
+        "description": "강철 도시 지하 1층 포탈",
+        "point": { "x": 395, "y": 57 }
+      }
+    ],
+    "warps": null
+  },
+  {
+    "id": 22,
+    "name": "어둠의 권역",
+    "category": "스파이럴 마운틴",
+    "monsters": [
+      {
+        "id": 1,
+        "name": "매드레오몬",
+        "digimonType": "Vi",
+        "level": 99,
+        "hp": 21666,
+        "point": { "x": 180, "y": 495 },
+        "dropItems": [5, 11, 86, 199, 566]
+      },
+      {
+        "id": 2,
+        "name": "배드퍼펫몬",
+        "digimonType": "Vi",
+        "level": 99,
+        "hp": 26716,
+        "point": { "x": 310, "y": 485 },
+        "dropItems": [5, 11, 86, 199, 564]
+      },
+      {
+        "id": 3,
+        "name": "도우몬",
+        "digimonType": "Da",
+        "level": 99,
+        "hp": 21358,
+        "point": { "x": 230, "y": 170 },
+        "dropItems": [5, 11, 86, 199, 563]
+      },
+      {
+        "id": 4,
+        "name": "도우몬",
+        "digimonType": "Da",
+        "level": 99,
+        "hp": 21358,
+        "point": { "x": 360, "y": 200 },
+        "dropItems": [5, 11, 86, 199, 563]
+      },
+      {
+        "id": 5,
+        "name": "데블드라몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 24551,
+        "point": { "x": 485, "y": 130 },
+        "dropItems": [5, 11, 85, 199, 149]
+      },
+      {
+        "id": 6,
+        "name": "데블드라몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 24551,
+        "point": { "x": 485, "y": 270 },
+        "dropItems": [5, 11, 85, 199, 149]
+      }
+    ],
+    "shops": null,
+    "cubes": [
+      { "id": 247, "point": { "x": 281, "y": 486 } },
+      { "id": 248, "point": { "x": 275, "y": 417 } },
+      { "id": 249, "point": { "x": 357, "y": 373 } },
+      { "id": 250, "point": { "x": 422, "y": 366 } },
+      { "id": 251, "point": { "x": 213, "y": 385 } },
+      { "id": 252, "point": { "x": 328, "y": 165 } },
+      { "id": 253, "point": { "x": 410, "y": 263 } },
+      { "id": 254, "point": { "x": 336, "y": 289 } }
+    ],
+    "portals": [
+      {
+        "to": 20,
+        "description": "강철 도시 포탈",
+        "point": { "x": 3, "y": 405 }
+      },
+      {
+        "to": 23,
+        "description": "스파이럴 마운틴 정상 포탈",
+        "point": { "x": 562, "y": 253 }
+      }
+    ],
+    "warps": [
+      {
+        "id": 1,
+        "description": "폐허가 된 시작의 마을",
+        "point": { "x": 195, "y": 302 }
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "스파이럴 마운틴 정상",
+    "category": "스파이럴 마운틴",
+    "monsters": [
+      {
+        "id": 1,
+        "name": "네오데블몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 21375,
+        "point": { "x": 445, "y": 125 },
+        "dropItems": [5, 11, 86, 199, 565]
+      },
+      {
+        "id": 2,
+        "name": "네오데블몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 21375,
+        "point": { "x": 295, "y": 95 },
+        "dropItems": [5, 11, 86, 199, 565]
+      },
+      {
+        "id": 3,
+        "name": "네오데블몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 21375,
+        "point": { "x": 225, "y": 60 },
+        "dropItems": [5, 11, 86, 199, 565]
+      },
+      {
+        "id": 4,
+        "name": "네오반데몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 18533,
+        "point": { "x": 120, "y": 240 },
+        "dropItems": [5, 11, 88, 199, 567]
+      },
+      {
+        "id": 5,
+        "name": "네오반데몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 18533,
+        "point": { "x": 155, "y": 392 },
+        "dropItems": [5, 11, 88, 199, 567]
+      },
+      {
+        "id": 6,
+        "name": "네오반데몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 18533,
+        "point": { "x": 230, "y": 525 },
+        "dropItems": [5, 11, 88, 199, 567]
+      },
+      {
+        "id": 7,
+        "name": "이블몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 20558,
+        "point": { "x": 300, "y": 495 },
+        "dropItems": [5, 11, 85, 199, 169]
+      },
+      {
+        "id": 8,
+        "name": "이블몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 20558,
+        "point": { "x": 365, "y": 425 },
+        "dropItems": [5, 11, 85, 199, 169]
+      },
+      {
+        "id": 9,
+        "name": "이블몬",
+        "digimonType": "Vi",
+        "level": 100,
+        "hp": 20558,
+        "point": { "x": 415, "y": 335 },
+        "dropItems": [5, 11, 85, 199, 169]
+      }
+    ],
+    "shops": null,
+    "cubes": [
+      { "id": 255, "point": { "x": 462, "y": 133 } },
+      { "id": 256, "point": { "x": 358, "y": 110 } },
+      { "id": 257, "point": { "x": 218, "y": 27 } },
+      { "id": 258, "point": { "x": 142, "y": 442 } },
+      { "id": 259, "point": { "x": 277, "y": 454 } },
+      { "id": 260, "point": { "x": 247, "y": 454 } }
+    ],
+    "portals": [
+      {
+        "to": 22,
+        "description": "어둠의 권역 포탈",
+        "point": { "x": 500, "y": 207 }
+      },
+      {
+        "to": 24,
+        "description": "??? 지역 포탈",
+        "point": { "x": 453, "y": 398 }
+      }
+    ],
+    "warps": [
+      {
+        "id": 1,
+        "description": "정상으로 가는 길",
+        "point": { "x": 272, "y": 70 }
+      },
+      {
+        "id": 2,
+        "description": "스파이럴 마운틴 정상 부근",
+        "point": { "x": 375, "y": 381 }
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "???",
+    "category": "스파이럴 마운틴",
+    "monsters": [],
+    "shops": null,
+    "cubes": null,
+    "portals": [
+      {
+        "to": 23,
+        "description": "스파이럴 마운틴 정상 포탈",
+        "point": { "x": 290, "y": 310 }
+      }
+    ],
+    "warps": null
   }
 ]

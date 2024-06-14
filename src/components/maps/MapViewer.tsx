@@ -71,10 +71,15 @@ export default function MapViewer({ map }: MapViewerProps) {
 
     const mouseLeaveHandler = (event: React.MouseEvent<HTMLDivElement>) => {
         const relatedTarget = event.relatedTarget as HTMLDivElement;
-        if(relatedTarget.classList.contains("modal") || relatedTarget.classList.contains("map-container")) return;
+        try {
+            if(relatedTarget.classList.contains("modal") || relatedTarget.classList.contains("map-container")) return;
 
-        setIsOpenDrops(false);
-        setIsOpenShop(false);
+            setIsOpenDrops(false);
+            setIsOpenShop(false);
+        } catch (e) {
+            setIsOpenDrops(false);
+            setIsOpenShop(false);
+        }
     }
 
     const getItems = () => {
@@ -176,7 +181,7 @@ export default function MapViewer({ map }: MapViewerProps) {
     return (
         <div className="map-viewer">
             <div className="map-container" onMouseMove={captureMouse} onMouseLeave={mouseLeaveHandler}>
-                <img className="map" src={`/images/${map.name}.png`} />
+                <img className="map" src={`/images/${map.name === "???" ? "아포카리몬 맵" : map.name}.png`} />
 
                 { monsters }
                 { portals }

@@ -6316,5 +6316,60 @@
         ]
       }
     ]
+  },
+  {
+    "mapName": "???",
+    "reqItem": {
+      "id": 551,
+      "type": 7,
+      "name": "OF 접근권한 : G",
+      "price": 0,
+      "canTrade": false
+    },
+    "point": { "x": 153, "y": 135 },
+    "weekdays": [1, 4, 0],
+    "stages": [
+      {
+        "stage": 1,
+        "monsters": [
+          {
+            "id": 1,
+            "name": "스콜피온몬",
+            "digimonType": "Da",
+            "level": 91,
+            "hp": 14840,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 2,
+            "name": "디지타몬",
+            "digimonType": "Da",
+            "level": 90,
+            "hp": 11062,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          },
+          {
+            "id": 3,
+            "name": "트리케라몬",
+            "digimonType": "Da",
+            "level": 91,
+            "hp": 15320,
+            "point": { "x": 0, "y": 0 },
+            "dropItems": null
+          }
+        ],
+        "firstRewords": [
+          { "itemId": 8, "count": 30 },
+          { "itemId": 14, "count": 30 },
+          { "itemId": 71, "count": 10 }
+        ],
+        "repeatRewords": [
+          { "itemId": 63, "count": 3 },
+          { "itemId": 324, "count": 14 }
+        ]
+      }
+    ]
   }
 ]

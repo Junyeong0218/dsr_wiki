@@ -25,7 +25,14 @@ export default function QuestViewer(): React.ReactElement {
     }
 
     const questList = useMemo(() => {
-        return <div className="quest-list">
+        const fullHeight = window.innerHeight - 16; // 16 = .main vertical padding
+        const headerHeight = window.document.querySelector("header")?.getBoundingClientRect().height ?? 0;
+        const footerHeight = window.document.querySelector(".footer")?.getBoundingClientRect().height ?? 0;
+        const style = { maxHeight: `${fullHeight - headerHeight - footerHeight}px`}
+
+        console.log(headerHeight)
+        console.log(footerHeight)
+        return <div className="quest-list" style={style}>
                     { all.map(each => (
                         <button type="button" className={`quest-shortcut ${selectedQuest?.id === each.id ? "active" : ""}`} onClick={() => changeQuest(each)} key={getUUID()}>
                             <span>{each.name}</span>
@@ -48,7 +55,7 @@ export default function QuestViewer(): React.ReactElement {
                                         const innerText = `${reward.name} * ${reward.count}`;
                                         const isTradable = `${reward.canTrade ? "<mark class='green'>거래가능</mark>" : "<mark class='red'>거래불가</mark>"}`;
 
-                                        return <div className="reward">
+                                        return <div className="reward" key={getUUID()}>
                                             <img src={`/images/${encodeURIComponent(imageName)}.png`} />
                                             <div className="reward-description">
                                                 <span dangerouslySetInnerHTML={{ __html: innerText }}></span>
