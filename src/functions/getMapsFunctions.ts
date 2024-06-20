@@ -35,7 +35,10 @@ const loadMaps = (): void => {
             if(each.monsters) {
                 map.monsters = new Array();
                 each.monsters.forEach((m: IMonster) => {
-                    map.monsters!.push(new Monster(m));
+                    const monster = new Monster(m);
+                    monster.mapId = map.id;
+                    
+                    map.monsters!.push(monster);
                 });
             }
             if(each.cubes) {
@@ -46,6 +49,8 @@ const loadMaps = (): void => {
             }
 
             origin.push(map);
+
+            // if(map.id === 13) console.log(map)
         });
     }
 }

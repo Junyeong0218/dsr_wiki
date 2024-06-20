@@ -79,6 +79,8 @@ export default function Main(): React.ReactElement {
     const activeOverflows = getAllOverflows().filter(of => of.weekdays.includes(today));
     const text = activeOverflows.map(of => `${of.mapName} - ${of.reqItem.name}`);
 
+    console.log(window.innerWidth)
+    console.log(window.innerHeight)
     return (
         <div className="main">
             <div className="dashboard">

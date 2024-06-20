@@ -1,0 +1,287 @@
+.calculator {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.calculator > div {
+    width: 100%;
+
+    border: 1px solid var(--theme-light-background-selected);
+    border-radius: 0.3rem;
+}
+
+.user-digimon,
+.target-monster,
+.calculate-result-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-digimon > .title,
+.target-monster > .title,
+.calculate-result-container > .title {
+    width: 100%;
+    height: 30px;
+
+    background-color: var(--theme-light-background-selected);
+
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+}
+
+.digimon-selector-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.grade-selector {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.grade-selector > button {
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--theme-light-background-600);
+    transition: 300ms;
+}
+
+.grade-selector > button:hover {
+    background-color: var(--theme-light-background-selected);
+}
+
+.grade-selector > button.active {
+    background-color: var(--type-adult-thin);
+}
+
+.digimon-selector,
+.map-selector {
+    width: 100%;
+    height: 30px;
+
+    flex-direction: row;
+    align-items: center;
+
+    border-bottom: 1px solid var(--theme-light-background-selected);
+
+    font-weight: 700;
+    text-align-last:center;
+    line-height: 30px;
+    
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+
+.user-digimon-info {
+    padding: 0 10px;
+
+    width: 100%;
+    /* height: 100px; */
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.user-digimon-info > .user-digimon-image {
+    width: 100px;
+    height: 100px;
+}
+
+.user-digimon-info > .status {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.user-digimon-info > .status > .row {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.user-digimon-info > .status > .row > .title {
+    min-width: 50px;
+}
+
+.user-digimon-info > .status > .row span {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.user-digimon-info > .status > .row > div,
+.user-digimon-info > .status > .row > span {
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 14px;
+}
+
+.user-digimon-info > .status > .row img {
+    height: 25px;
+}
+
+.skill-selector-container,
+.optional-stats {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-selector-container > .title,
+.optional-stats > .title,
+.current-stat > .title,
+.req-strs > .title,
+.damage > .title {
+    width: 100%;
+    height: 30px;
+
+    background-color: var(--theme-light-background-600);
+
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+}
+
+.map-selector {
+    border-top: 1px solid var(--theme-light-background-selected);
+}
+
+.level-selector {
+    width: 100%;
+
+    display: flex;
+    flex-flow: wrap;
+}
+
+.level-selector > button {
+    width: 20%;
+    height: 45px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    transition: 300ms;
+}
+
+.level-selector > button:hover {
+    background-color: var(--theme-light-background-selected);
+}
+
+.level-selector > button.active {
+    background-color: var(--type-adult-thin);
+}
+
+.level-selector > button * {
+    font-size: 14px;
+}
+
+.optional-stat {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-bottom: 1px solid var(--theme-light-background-selected);
+}
+
+.optional-stat > div,
+.optional-stat > .title {
+    width: 100%;
+
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.optional-stat > div {
+    height: 100%;
+
+    display: flex;
+
+    border-left: 1px solid var(--theme-light-background-selected);
+}
+
+.optional-stat > div input {
+    width: 100%;
+    height: 100%;
+
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+
+    transition: 300ms;
+}
+
+.optional-stat > div input:hover {
+    background-color: var(--theme-light-background-selected);
+}
+
+.current-stat > div,
+.damage > div {
+    width: 100%;
+    height: 30px;
+
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+}
+
+.req-str {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    transition: 300ms;
+}
+
+.req-str > span {
+    font-size: 14px;
+}
+
+.req-str.active {
+    background-color: var(--type-child-thin);
+}
+
+.req-str.inactive {
+    background-color: var(--type-baby1-thin);
+}
