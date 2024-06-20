@@ -1,38 +1,116 @@
-import React, { useMemo, useState } from "react";
-import { Monster } from "../../classes";
+import React, { useEffect, useMemo, useRef, useState } from "react";
+import { Map, Monster } from "../../classes";
 import { getMaps } from "../../functions";
 import { getUUID } from "../../functions/commons";
+import ReactSelect, { ActionMeta, SingleValue } from "react-select";
 
 type props = {
     monster: Monster | undefined,
     setMonster: React.Dispatch<React.SetStateAction<Monster | undefined>>
 }
 
+type MapShotcut = {
+    [key:string]: Array<Map>
+}
+
+type Option = {
+    label: string
+    value: string | number
+}
+
 export default function MonsterSelector({ monster, setMonster }: props): React.ReactElement {
     const maps = useMemo(() => getMaps(), []);
-    // const mapNames = useMemo(() => maps.map(m => {
-    //     return { id: m.id, name: m.name };
-    // }), []);
-    const [selectedMap, setSelectedMap] = useState<number>(monster?.mapId ?? 22);
-    const monsters = maps.find(e => e.id === selectedMap)!.monsters;
-    const filtered = monsters !== null ? [ {id: 0, name: "", level: 0}, ...monsters ] : [ {id: 0, name: "", level: 0} ];
+    const categories = useMemo(() => {
+        const shortcuts: MapShotcut = {};
+        maps.forEach((map) => {
+            let shortcut = shortcuts[`${map.category}`];
+            if(!shortcut) {
+                shortcuts[`${map.category}`] = [];
+            }
 
-    const mapSelector = useMemo(() => {
-        return <select className="map-selector" defaultValue={selectedMap} onChange={(e) => setSelectedMap(Number(e.target.value))}>
-                    { maps.map(map => {
-                    return <option value={map.id} key={getUUID()}>{map.name}</option>
-                    }) }
-                </select>
+            shortcuts[`${map.category}`].push(map);
+        });
+        
+        return shortcuts;
     }, []);
+    
+    const categoryOptions = Object.keys(categories).map(c => {
+        return { label: c, value: c };
+    });
+
+    const [selectedCategory, setSelectedCategory] = useState<Option>(categoryOptions[0]);
+    const [selectedMap, setSelectedMap] = useState<Option>({ label: categories[selectedCategory.value][0].name, value: categories[selectedCategory.value][0].id});
+
+    const baseMonster = categories[selectedCategory.value][0].monsters![0];
+    const basicMonster = !monster ? { label: `${baseMonster.name}(${baseMonster.level})`, value: baseMonster.id } : { label: `${monster.name}(${monster.level})`, value: baseMonster.id };
+    const [selectedMonster, setSelectedMonster] = useState<Option>(basicMonster);
+
+    const onChangeCategory = (newValue: SingleValue<Option>, actionMeta: ActionMeta<Option>) => {
+        if(!newValue) return;
+
+        setSelectedCategory(newValue);
+    }
+
+    const categorySelector = <ReactSelect styles={{
+        control: (baseStyles, state) => ({
+          ...baseStyles,
+          borderRadius: 0,
+          borderLeft: 0,
+          borderRight: 0,
+          textAlignLast: "center",
+          backgroundColor: "transparent",
+          fontSize: 14
+        }),
+    }} options={categoryOptions} value={selectedCategory} onChange={onChangeCategory} />
+    
+    const onChangeMap = (newValue: SingleValue<Option>, actionMeta: ActionMeta<Option>) => {
+        if(!newValue) return;
+
+        setSelectedMap(newValue);
+    }
+    const mapOptions = !selectedCategory ? categories["파일섬"].map(m => { return { label: m.name, value: m.id }}) : 
+                                           categories[selectedCategory.value].map(m => { return { label: m.name, value: m.id }});
+    const mapSelector = <ReactSelect styles={{
+        control: (baseStyles, state) => ({
+          ...baseStyles,
+          borderRadius: 0,
+          borderTop: 0,
+          borderLeft: 0,
+          borderRight: 0,
+          textAlignLast: "center",
+          backgroundColor: "transparent",
+          fontSize: 14
+        }),
+    }} options={mapOptions} value={selectedMap} onChange={onChangeMap} />
+
+    const onChangeMonster = (newValue: SingleValue<Option>, actionMeta: ActionMeta<Option>) => {
+        if(!newValue) return;
+
+        setSelectedMonster(newValue);
+
+        const monster = maps.find(m => m.id === selectedMap.value)!.monsters!.find(m => m.id === newValue.value);
+        setMonster(monster);
+    }
+    const monsterOptions = !selectedCategory ? categories["파일섬"][0].monsters!.map(m => { return { label: `${m.name}(${m.level})`, value: m.id }}) : 
+                                               maps.find(m => m.id === selectedMap.value)!.monsters!.map(m => { return { label: `${m.name}(${m.level})`, value: m.id }});
+    const monsterSelector = <ReactSelect styles={{
+        control: (baseStyles, state) => ({
+          ...baseStyles,
+          borderRadius: 0,
+          borderTop: 0,
+          borderLeft: 0,
+          borderRight: 0,
+          textAlignLast: "center",
+          backgroundColor: "transparent",
+          fontSize: 14
+        }),
+    }} options={monsterOptions} value={selectedMonster} onChange={onChangeMonster} />
 
     return (
         <div className="monster-selector-container">
+            { categorySelector }
             { mapSelector }
-            <select className="digimon-selector" defaultValue={monster?.id} onChange={(e) => setMonster(monsters?.find(m => m.id === Number(e.target.value)))}>
-                { filtered.map(monster => {
-                   return <option value={monster.id} key={getUUID()}>{monster.name}{monster.name !== "" && `(${monster.level})`}</option>
-                }) }
-            </select>
+            { monsterSelector }
         </div>
     );
 }

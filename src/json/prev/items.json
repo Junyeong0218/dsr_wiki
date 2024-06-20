@@ -2928,5 +2928,144 @@
     "price": 0,
     "canTrade": true
   },
-  { "id": 548, "type": 11, "name": "속임수 팔찌", "price": 0, "canTrade": true }
+  {
+    "id": 548,
+    "type": 11,
+    "name": "속임수 팔찌",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 549,
+    "type": 2,
+    "name": "조합법 : 순수의 모자 (남)",
+    "price": 10000,
+    "canTrade": false
+  },
+  {
+    "id": 550,
+    "type": 2,
+    "name": "조합법 : 순수의 모자 (여)",
+    "price": 10000,
+    "canTrade": false
+  },
+  {
+    "id": 551,
+    "type": 7,
+    "name": "OF 접근권한 : G",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 552,
+    "type": 6,
+    "name": "부서진 빅콩알몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 553,
+    "type": 6,
+    "name": "부서진 연체몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 554,
+    "type": 6,
+    "name": "부서진 프레시오몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 555,
+    "type": 6,
+    "name": "부서진 레드베지몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 556,
+    "type": 6,
+    "name": "부서진 뿌띠몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 557,
+    "type": 6,
+    "name": "부서진 키위몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 558,
+    "type": 6,
+    "name": "부서진 스컬맘몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 559,
+    "type": 6,
+    "name": "부서진 오쿠와몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 560,
+    "type": 6,
+    "name": "부서진 고그마몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 561,
+    "type": 6,
+    "name": "부서진 타이거베스파몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 562,
+    "type": 6,
+    "name": "부서진 폭탄몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 563,
+    "type": 6,
+    "name": "부서진 도우몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 564,
+    "type": 6,
+    "name": "부서진 배드퍼펫몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 565,
+    "type": 6,
+    "name": "부서진 네오데블몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 566,
+    "type": 6,
+    "name": "부서진 매드레오몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 567,
+    "type": 6,
+    "name": "부서진 네오반데몬 디지코어",
+    "price": 0,
+    "canTrade": true
+  }
 ]

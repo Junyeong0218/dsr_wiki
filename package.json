@@ -32,6 +32,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
     "react-scripts": "^5.0.1",
+    "react-select": "^5.8.0",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",

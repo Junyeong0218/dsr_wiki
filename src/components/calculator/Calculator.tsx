@@ -45,16 +45,17 @@ export default function Calculator(): React.ReactElement {
         return <UserDigimonInfo key={getUUID()} userDigimon={userDigimon} />
     }, [userDigimon]);
 
-    const SkillSelectorTag = useMemo(() => {
-        return <SkillSelector key={getUUID()} userDigimon={userDigimon} skillIndex={skillIndex} setSkillIndex={setSkillIndex}
-                                                                        skillLevel={skillLevel} setSkillLevel={setSkillLevel} />
-    }, [userDigimon, skillLevel]);
+    // const SkillSelectorTag = useMemo(() => {
+    //     return 
+    // }, [userDigimon, skillLevel]);
 
     const userDigimonTag = <div className="user-digimon">
                                 <div className="title">공격할 디지몬</div>
                                 { DigimonSelectorTag }
                                 { UserDigimonInfoTag }
-                                { SkillSelectorTag }
+                                {/* { SkillSelectorTag } */}
+                                <SkillSelector key={getUUID()} userDigimon={userDigimon} skillIndex={skillIndex} setSkillIndex={setSkillIndex}
+                                                                                         skillLevel={skillLevel} setSkillLevel={setSkillLevel} />
                                 <div className="optional-stats">
                                     <div className="title">추가 능력치</div>
                                     <div className="optional-stat">

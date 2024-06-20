@@ -20,6 +20,7 @@
             "digimonType": "Da",
             "level": 21,
             "hp": 1417,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -29,6 +30,7 @@
             "digimonType": "Da",
             "level": 21,
             "hp": 1501,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -38,6 +40,7 @@
             "digimonType": "Da",
             "level": 21,
             "hp": 951,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -60,6 +63,7 @@
             "digimonType": "Va",
             "level": 22,
             "hp": 1661,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -69,6 +73,7 @@
             "digimonType": "Va",
             "level": 22,
             "hp": 1107,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -78,6 +83,7 @@
             "digimonType": "Va",
             "level": 22,
             "hp": 1023,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -100,6 +106,7 @@
             "digimonType": "Vi",
             "level": 23,
             "hp": 1015,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -109,6 +116,7 @@
             "digimonType": "Vi",
             "level": 23,
             "hp": 1128,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -118,6 +126,7 @@
             "digimonType": "Vi",
             "level": 23,
             "hp": 878,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -140,6 +149,7 @@
             "digimonType": "Va",
             "level": 24,
             "hp": 1236,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -149,6 +159,7 @@
             "digimonType": "Vi",
             "level": 24,
             "hp": 1193,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -158,6 +169,7 @@
             "digimonType": "Da",
             "level": 24,
             "hp": 984,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -180,6 +192,7 @@
             "digimonType": "Vi",
             "level": 25,
             "hp": 818,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -189,6 +202,7 @@
             "digimonType": "Vi",
             "level": 25,
             "hp": 818,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -198,6 +212,7 @@
             "digimonType": "Vi",
             "level": 25,
             "hp": 818,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -220,6 +235,7 @@
             "digimonType": "Da",
             "level": 26,
             "hp": 1223,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -229,6 +245,7 @@
             "digimonType": "Da",
             "level": 26,
             "hp": 1223,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -238,6 +255,7 @@
             "digimonType": "Da",
             "level": 26,
             "hp": 1223,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -260,6 +278,7 @@
             "digimonType": "Va",
             "level": 27,
             "hp": 1289,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -269,6 +288,7 @@
             "digimonType": "Va",
             "level": 27,
             "hp": 1289,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -278,6 +298,7 @@
             "digimonType": "Va",
             "level": 27,
             "hp": 1289,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -300,6 +321,7 @@
             "digimonType": "Vi",
             "level": 28,
             "hp": 1365,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -309,6 +331,7 @@
             "digimonType": "Da",
             "level": 28,
             "hp": 1165,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -318,6 +341,7 @@
             "digimonType": "Va",
             "level": 28,
             "hp": 1267,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -340,6 +364,7 @@
             "digimonType": "Vi",
             "level": 29,
             "hp": 1143,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -349,6 +374,7 @@
             "digimonType": "Vi",
             "level": 29,
             "hp": 1810,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -358,6 +384,7 @@
             "digimonType": "Vi",
             "level": 29,
             "hp": 1364,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -380,6 +407,7 @@
             "digimonType": "Vi",
             "level": 30,
             "hp": 1061,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -389,6 +417,7 @@
             "digimonType": "Vi",
             "level": 30,
             "hp": 1061,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -398,6 +427,7 @@
             "digimonType": "Vi",
             "level": 30,
             "hp": 1061,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -420,6 +450,7 @@
             "digimonType": "Da",
             "level": 31,
             "hp": 1321,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -429,6 +460,7 @@
             "digimonType": "Vi",
             "level": 31,
             "hp": 1232,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -438,6 +470,7 @@
             "digimonType": "Da",
             "level": 31,
             "hp": 1013,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -462,6 +495,7 @@
             "digimonType": "Fr",
             "level": 32,
             "hp": 1594,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -471,6 +505,7 @@
             "digimonType": "Fr",
             "level": 32,
             "hp": 1594,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -480,6 +515,7 @@
             "digimonType": "Fr",
             "level": 32,
             "hp": 1594,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -504,6 +540,7 @@
             "digimonType": "Uk",
             "level": 33,
             "hp": 1262,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -513,6 +550,7 @@
             "digimonType": "Uk",
             "level": 33,
             "hp": 1262,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -522,6 +560,7 @@
             "digimonType": "Uk",
             "level": 33,
             "hp": 1262,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -546,6 +585,7 @@
             "digimonType": "Va",
             "level": 34,
             "hp": 1557,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -555,6 +595,7 @@
             "digimonType": "Va",
             "level": 34,
             "hp": 3151,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -564,6 +605,7 @@
             "digimonType": "Vi",
             "level": 34,
             "hp": 945,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -588,6 +630,7 @@
             "digimonType": "Da",
             "level": 35,
             "hp": 1446,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -597,6 +640,7 @@
             "digimonType": "Va",
             "level": 35,
             "hp": 3015,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -606,6 +650,7 @@
             "digimonType": "Vi",
             "level": 35,
             "hp": 1137,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -631,6 +676,7 @@
             "digimonType": "Va",
             "level": 36,
             "hp": 1130,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -640,6 +686,7 @@
             "digimonType": "Va",
             "level": 36,
             "hp": 2904,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -649,6 +696,7 @@
             "digimonType": "Vi",
             "level": 36,
             "hp": 1202,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -673,6 +721,7 @@
             "digimonType": "Va",
             "level": 37,
             "hp": 1050,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -682,6 +731,7 @@
             "digimonType": "Va",
             "level": 37,
             "hp": 2980,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -691,6 +741,7 @@
             "digimonType": "Vi",
             "level": 37,
             "hp": 1339,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -716,6 +767,7 @@
             "digimonType": "Da",
             "level": 38,
             "hp": 1561,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -725,6 +777,7 @@
             "digimonType": "Da",
             "level": 38,
             "hp": 4247,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -734,6 +787,7 @@
             "digimonType": "Vi",
             "level": 38,
             "hp": 902,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -758,6 +812,7 @@
             "digimonType": "Va",
             "level": 39,
             "hp": 1269,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -767,6 +822,7 @@
             "digimonType": "Va",
             "level": 39,
             "hp": 3004,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -776,6 +832,7 @@
             "digimonType": "Vi",
             "level": 39,
             "hp": 1049,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -800,6 +857,7 @@
             "digimonType": "Da",
             "level": 40,
             "hp": 1016,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -809,6 +867,7 @@
             "digimonType": "Va",
             "level": 40,
             "hp": 2319,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -818,6 +877,7 @@
             "digimonType": "Vi",
             "level": 40,
             "hp": 913,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -842,6 +902,7 @@
             "digimonType": "Va",
             "level": 41,
             "hp": 1402,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -851,6 +912,7 @@
             "digimonType": "Va",
             "level": 41,
             "hp": 2062,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -860,6 +922,7 @@
             "digimonType": "Vi",
             "level": 41,
             "hp": 1307,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -885,6 +948,7 @@
             "digimonType": "Vi",
             "level": 42,
             "hp": 1267,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -894,6 +958,7 @@
             "digimonType": "Vi",
             "level": 42,
             "hp": 3253,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -903,6 +968,7 @@
             "digimonType": "Da",
             "level": 42,
             "hp": 1267,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -927,6 +993,7 @@
             "digimonType": "Vi",
             "level": 43,
             "hp": 1493,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -936,6 +1003,7 @@
             "digimonType": "Da",
             "level": 43,
             "hp": 3962,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -945,6 +1013,7 @@
             "digimonType": "Vi",
             "level": 43,
             "hp": 1242,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -970,6 +1039,7 @@
             "digimonType": "Da",
             "level": 44,
             "hp": 1426,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -979,6 +1049,7 @@
             "digimonType": "Da",
             "level": 44,
             "hp": 4440,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -988,6 +1059,7 @@
             "digimonType": "Vi",
             "level": 44,
             "hp": 1491,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1012,6 +1084,7 @@
             "digimonType": "Da",
             "level": 45,
             "hp": 1100,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1021,6 +1094,7 @@
             "digimonType": "Da",
             "level": 45,
             "hp": 2790,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1030,6 +1104,7 @@
             "digimonType": "Vi",
             "level": 45,
             "hp": 2059,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1054,6 +1129,7 @@
             "digimonType": "Da",
             "level": 46,
             "hp": 1375,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1063,6 +1139,7 @@
             "digimonType": "Vi",
             "level": 46,
             "hp": 2805,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1072,6 +1149,7 @@
             "digimonType": "Va",
             "level": 46,
             "hp": 2748,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1096,6 +1174,7 @@
             "digimonType": "Vi",
             "level": 47,
             "hp": 989,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1105,6 +1184,7 @@
             "digimonType": "Vi",
             "level": 47,
             "hp": 2850,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1114,6 +1194,7 @@
             "digimonType": "Vi",
             "level": 47,
             "hp": 3504,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1139,6 +1220,7 @@
             "digimonType": "Vi",
             "level": 48,
             "hp": 1355,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1148,6 +1230,7 @@
             "digimonType": "Vi",
             "level": 48,
             "hp": 2862,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1157,6 +1240,7 @@
             "digimonType": "Vi",
             "level": 48,
             "hp": 2515,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1181,6 +1265,7 @@
             "digimonType": "Vi",
             "level": 49,
             "hp": 1450,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1190,6 +1275,7 @@
             "digimonType": "Vi",
             "level": 49,
             "hp": 2095,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1199,6 +1285,7 @@
             "digimonType": "Da",
             "level": 49,
             "hp": 3419,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1224,6 +1311,7 @@
             "digimonType": "Vi",
             "level": 50,
             "hp": 2168,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1233,6 +1321,7 @@
             "digimonType": "Vi",
             "level": 50,
             "hp": 3203,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1242,6 +1331,7 @@
             "digimonType": "Vi",
             "level": 50,
             "hp": 2449,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1281,6 +1371,7 @@
             "digimonType": "Da",
             "level": 41,
             "hp": 2714,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1290,6 +1381,7 @@
             "digimonType": "Va",
             "level": 41,
             "hp": 2633,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1299,6 +1391,7 @@
             "digimonType": "Va",
             "level": 41,
             "hp": 2370,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1321,6 +1414,7 @@
             "digimonType": "Da",
             "level": 41,
             "hp": 1700,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1330,6 +1424,7 @@
             "digimonType": "Va",
             "level": 41,
             "hp": 2003,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1339,6 +1434,7 @@
             "digimonType": "Va",
             "level": 41,
             "hp": 2066,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1361,6 +1457,7 @@
             "digimonType": "Vi",
             "level": 42,
             "hp": 2015,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1370,6 +1467,7 @@
             "digimonType": "Vi",
             "level": 42,
             "hp": 1873,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1379,6 +1477,7 @@
             "digimonType": "Va",
             "level": 42,
             "hp": 1995,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1401,6 +1500,7 @@
             "digimonType": "Vi",
             "level": 42,
             "hp": 2038,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1410,6 +1510,7 @@
             "digimonType": "Vi",
             "level": 42,
             "hp": 1913,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1419,6 +1520,7 @@
             "digimonType": "Va",
             "level": 42,
             "hp": 2038,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1441,6 +1543,7 @@
             "digimonType": "Vi",
             "level": 43,
             "hp": 2050,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1450,6 +1553,7 @@
             "digimonType": "Va",
             "level": 43,
             "hp": 2746,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1459,6 +1563,7 @@
             "digimonType": "Da",
             "level": 43,
             "hp": 2910,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1481,6 +1586,7 @@
             "digimonType": "Vi",
             "level": 43,
             "hp": 2275,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1490,6 +1596,7 @@
             "digimonType": "Vi",
             "level": 43,
             "hp": 2007,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1499,6 +1606,7 @@
             "digimonType": "Va",
             "level": 43,
             "hp": 2050,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1521,6 +1629,7 @@
             "digimonType": "Vi",
             "level": 44,
             "hp": 1503,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1530,6 +1639,7 @@
             "digimonType": "Da",
             "level": 44,
             "hp": 1668,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1539,6 +1649,7 @@
             "digimonType": "Va",
             "level": 44,
             "hp": 1586,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1561,6 +1672,7 @@
             "digimonType": "Vi",
             "level": 44,
             "hp": 1277,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1570,6 +1682,7 @@
             "digimonType": "Va",
             "level": 44,
             "hp": 1833,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1579,6 +1692,7 @@
             "digimonType": "Va",
             "level": 44,
             "hp": 1297,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1601,6 +1715,7 @@
             "digimonType": "Va",
             "level": 45,
             "hp": 2009,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1610,6 +1725,7 @@
             "digimonType": "Da",
             "level": 45,
             "hp": 1781,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1619,6 +1735,7 @@
             "digimonType": "Vi",
             "level": 45,
             "hp": 2051,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1641,6 +1758,7 @@
             "digimonType": "Vi",
             "level": 45,
             "hp": 2551,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1650,6 +1768,7 @@
             "digimonType": "Da",
             "level": 45,
             "hp": 2737,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1659,6 +1778,7 @@
             "digimonType": "Da",
             "level": 45,
             "hp": 2488,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1681,6 +1801,7 @@
             "digimonType": "Vi",
             "level": 46,
             "hp": 2053,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1690,6 +1811,7 @@
             "digimonType": "Da",
             "level": 46,
             "hp": 2430,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1699,6 +1821,7 @@
             "digimonType": "Va",
             "level": 46,
             "hp": 2733,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1723,6 +1846,7 @@
             "digimonType": "Vi",
             "level": 46,
             "hp": 1983,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1732,6 +1856,7 @@
             "digimonType": "Vi",
             "level": 46,
             "hp": 1983,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1741,6 +1866,7 @@
             "digimonType": "Va",
             "level": 46,
             "hp": 2383,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1765,6 +1891,7 @@
             "digimonType": "Da",
             "level": 47,
             "hp": 2794,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1774,6 +1901,7 @@
             "digimonType": "Da",
             "level": 47,
             "hp": 2041,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1783,6 +1911,7 @@
             "digimonType": "Va",
             "level": 47,
             "hp": 2299,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1807,6 +1936,7 @@
             "digimonType": "Vi",
             "level": 47,
             "hp": 1994,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1816,6 +1946,7 @@
             "digimonType": "Da",
             "level": 47,
             "hp": 2513,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1825,6 +1956,7 @@
             "digimonType": "Va",
             "level": 47,
             "hp": 2349,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1849,6 +1981,7 @@
             "digimonType": "Da",
             "level": 48,
             "hp": 2809,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1858,6 +1991,7 @@
             "digimonType": "Da",
             "level": 48,
             "hp": 2169,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1867,6 +2001,7 @@
             "digimonType": "Da",
             "level": 48,
             "hp": 3351,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1891,6 +2026,7 @@
             "digimonType": "Va",
             "level": 48,
             "hp": 3068,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1900,6 +2036,7 @@
             "digimonType": "Vi",
             "level": 48,
             "hp": 2310,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1909,6 +2046,7 @@
             "digimonType": "Va",
             "level": 48,
             "hp": 2361,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1933,6 +2071,7 @@
             "digimonType": "Va",
             "level": 49,
             "hp": 2346,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1942,6 +2081,7 @@
             "digimonType": "Vi",
             "level": 49,
             "hp": 1967,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1951,6 +2091,7 @@
             "digimonType": "Da",
             "level": 49,
             "hp": 2038,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -1975,6 +2116,7 @@
             "digimonType": "Vi",
             "level": 49,
             "hp": 2180,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1984,6 +2126,7 @@
             "digimonType": "Vi",
             "level": 49,
             "hp": 1919,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -1993,6 +2136,7 @@
             "digimonType": "Da",
             "level": 49,
             "hp": 3131,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2017,6 +2161,7 @@
             "digimonType": "Vi",
             "level": 50,
             "hp": 2239,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2026,6 +2171,7 @@
             "digimonType": "Da",
             "level": 50,
             "hp": 2072,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2035,6 +2181,7 @@
             "digimonType": "Da",
             "level": 50,
             "hp": 2480,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2059,6 +2206,7 @@
             "digimonType": "Va",
             "level": 50,
             "hp": 3194,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2068,6 +2216,7 @@
             "digimonType": "Da",
             "level": 50,
             "hp": 2551,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2077,6 +2226,7 @@
             "digimonType": "Vi",
             "level": 50,
             "hp": 2024,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2102,6 +2252,7 @@
             "digimonType": "Vi",
             "level": 51,
             "hp": 3326,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2111,6 +2262,7 @@
             "digimonType": "Da",
             "level": 51,
             "hp": 3122,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2120,6 +2272,7 @@
             "digimonType": "Vi",
             "level": 51,
             "hp": 3399,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2144,6 +2297,7 @@
             "digimonType": "Da",
             "level": 52,
             "hp": 2758,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2153,6 +2307,7 @@
             "digimonType": "Vi",
             "level": 52,
             "hp": 3337,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2162,6 +2317,7 @@
             "digimonType": "Vi",
             "level": 52,
             "hp": 3785,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2186,6 +2342,7 @@
             "digimonType": "Va",
             "level": 53,
             "hp": 3042,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2195,6 +2352,7 @@
             "digimonType": "Vi",
             "level": 53,
             "hp": 2836,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2204,6 +2362,7 @@
             "digimonType": "Vi",
             "level": 53,
             "hp": 2495,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2228,6 +2387,7 @@
             "digimonType": "Da",
             "level": 54,
             "hp": 4936,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2237,6 +2397,7 @@
             "digimonType": "Vi",
             "level": 54,
             "hp": 2980,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2246,6 +2407,7 @@
             "digimonType": "Vi",
             "level": 54,
             "hp": 2281,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2270,6 +2432,7 @@
             "digimonType": "Da",
             "level": 55,
             "hp": 4435,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2279,6 +2442,7 @@
             "digimonType": "Da",
             "level": 55,
             "hp": 3101,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2288,6 +2452,7 @@
             "digimonType": "Va",
             "level": 55,
             "hp": 3581,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2313,6 +2478,7 @@
             "digimonType": "Da",
             "level": 56,
             "hp": 4711,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2322,6 +2488,7 @@
             "digimonType": "Vi",
             "level": 56,
             "hp": 3914,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2331,6 +2498,7 @@
             "digimonType": "Vi",
             "level": 56,
             "hp": 4869,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2355,6 +2523,7 @@
             "digimonType": "Va",
             "level": 57,
             "hp": 3053,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2364,6 +2533,7 @@
             "digimonType": "Vi",
             "level": 57,
             "hp": 3972,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2373,6 +2543,7 @@
             "digimonType": "Vi",
             "level": 57,
             "hp": 3490,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2397,6 +2568,7 @@
             "digimonType": "Va",
             "level": 58,
             "hp": 2506,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2406,6 +2578,7 @@
             "digimonType": "Vi",
             "level": 58,
             "hp": 2903,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2415,6 +2588,7 @@
             "digimonType": "Vi",
             "level": 58,
             "hp": 3938,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2439,6 +2613,7 @@
             "digimonType": "Vi",
             "level": 59,
             "hp": 4197,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2448,6 +2623,7 @@
             "digimonType": "Vi",
             "level": 59,
             "hp": 2628,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2457,6 +2633,7 @@
             "digimonType": "Da",
             "level": 59,
             "hp": 5094,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2481,6 +2658,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 4166,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2490,6 +2668,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4566,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2499,6 +2678,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 5704,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2538,6 +2718,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 4697,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2547,6 +2728,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4557,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2556,6 +2738,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4102,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2579,6 +2762,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 2941,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2588,6 +2772,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 3466,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2597,6 +2782,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 3577,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2619,6 +2805,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3466,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2628,6 +2815,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3221,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2637,6 +2825,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 3431,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2660,6 +2849,7 @@
             "digimonType": "Da",
             "level": 55,
             "hp": 5544,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2669,6 +2859,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 3507,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2678,6 +2869,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3507,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2701,6 +2893,7 @@
             "digimonType": "Vi",
             "level": 56,
             "hp": 5423,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2710,6 +2903,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 4977,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2719,6 +2913,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3507,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2741,6 +2936,7 @@
             "digimonType": "Vi",
             "level": 57,
             "hp": 5857,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2750,6 +2946,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 3757,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2759,6 +2956,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 3639,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2782,6 +2980,7 @@
             "digimonType": "Da",
             "level": 58,
             "hp": 4811,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2791,6 +2990,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 2889,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2800,6 +3000,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 4620,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2823,6 +3024,7 @@
             "digimonType": "Vi",
             "level": 59,
             "hp": 2968,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2832,6 +3034,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 2363,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2841,6 +3044,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3301,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2864,6 +3068,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 6379,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2873,6 +3078,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3961,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2882,6 +3088,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 3881,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2905,6 +3112,7 @@
             "digimonType": "Vi",
             "level": 61,
             "hp": 6165,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2914,6 +3122,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 4808,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2923,6 +3132,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 4928,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2946,6 +3156,7 @@
             "digimonType": "Da",
             "level": 62,
             "hp": 2645,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2955,6 +3166,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4688,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2964,6 +3176,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3521,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -2988,6 +3201,7 @@
             "digimonType": "Da",
             "level": 63,
             "hp": 4746,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -2997,6 +3211,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4088,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3006,6 +3221,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3401,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3029,6 +3245,7 @@
             "digimonType": "Va",
             "level": 64,
             "hp": 6978,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3038,6 +3255,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4166,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3047,6 +3265,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 5066,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3071,6 +3290,7 @@
             "digimonType": "Vi",
             "level": 65,
             "hp": 5015,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3080,6 +3300,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4258,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3089,6 +3310,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3614,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3113,6 +3335,7 @@
             "digimonType": "Vi",
             "level": 65,
             "hp": 4731,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3122,6 +3345,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 6044,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3131,6 +3355,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 5066,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3154,6 +3379,7 @@
             "digimonType": "Vi",
             "level": 66,
             "hp": 4222,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3163,6 +3389,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4258,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3172,6 +3399,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 5534,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3196,6 +3424,7 @@
             "digimonType": "Vi",
             "level": 67,
             "hp": 7189,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3205,6 +3434,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 3656,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3214,6 +3444,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4209,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3238,6 +3469,7 @@
             "digimonType": "Va",
             "level": 68,
             "hp": 4681,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3247,6 +3479,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 5617,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3256,6 +3489,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3911,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3280,6 +3514,7 @@
             "digimonType": "Vi",
             "level": 69,
             "hp": 6469,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3289,6 +3524,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 4428,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3298,6 +3534,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3996,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3322,6 +3559,7 @@
             "digimonType": "Va",
             "level": 70,
             "hp": 6151,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3331,6 +3569,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3614,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3340,6 +3579,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 15211,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3364,6 +3604,7 @@
             "digimonType": "Va",
             "level": 71,
             "hp": 5060,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3373,6 +3614,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 4258,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3382,6 +3624,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 11111,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3406,6 +3649,7 @@
             "digimonType": "Va",
             "level": 72,
             "hp": 4882,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3415,6 +3659,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 4726,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3424,6 +3669,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 9184,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3447,6 +3693,7 @@
             "digimonType": "Va",
             "level": 73,
             "hp": 4851,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3456,6 +3703,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 3103,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3465,6 +3713,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 10091,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3489,6 +3738,7 @@
             "digimonType": "Da",
             "level": 74,
             "hp": 4769,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3498,6 +3748,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 2636,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3507,6 +3758,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 15211,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3531,6 +3783,7 @@
             "digimonType": "Va",
             "level": 74,
             "hp": 5788,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3540,6 +3793,7 @@
             "digimonType": "Va",
             "level": 73,
             "hp": 5277,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3549,6 +3803,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 4207,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3573,6 +3828,7 @@
             "digimonType": "Va",
             "level": 75,
             "hp": 4830,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3582,6 +3838,7 @@
             "digimonType": "Da",
             "level": 74,
             "hp": 5186,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3591,6 +3848,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 4172,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3616,6 +3874,7 @@
             "digimonType": "Va",
             "level": 75,
             "hp": 4101,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3625,6 +3884,7 @@
             "digimonType": "Va",
             "level": 74,
             "hp": 6294,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3634,6 +3894,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 2696,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3659,6 +3920,7 @@
             "digimonType": "Va",
             "level": 75,
             "hp": 5611,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3668,6 +3930,7 @@
             "digimonType": "Va",
             "level": 75,
             "hp": 5251,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3677,6 +3940,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 2206,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3702,6 +3966,7 @@
             "digimonType": "Da",
             "level": 75,
             "hp": 5857,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3711,6 +3976,7 @@
             "digimonType": "Va",
             "level": 75,
             "hp": 4458,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3720,6 +3986,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 6608,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3745,6 +4012,7 @@
             "digimonType": "Va",
             "level": 75,
             "hp": 6367,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3754,6 +4022,7 @@
             "digimonType": "Vi",
             "level": 75,
             "hp": 6740,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3763,6 +4032,7 @@
             "digimonType": "Va",
             "level": 65,
             "hp": 8259,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3802,6 +4072,7 @@
             "digimonType": "Va",
             "level": 71,
             "hp": 6170,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3811,6 +4082,7 @@
             "digimonType": "Da",
             "level": 71,
             "hp": 6509,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3820,6 +4092,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4759,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3843,6 +4116,7 @@
             "digimonType": "Va",
             "level": 71,
             "hp": 5506,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3852,6 +4126,7 @@
             "digimonType": "Da",
             "level": 71,
             "hp": 4725,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3861,6 +4136,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 6185,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3884,6 +4160,7 @@
             "digimonType": "Va",
             "level": 71,
             "hp": 4867,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3893,6 +4170,7 @@
             "digimonType": "Vi",
             "level": 71,
             "hp": 7922,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3902,6 +4180,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 4704,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3925,6 +4204,7 @@
             "digimonType": "Va",
             "level": 71,
             "hp": 5247,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3934,6 +4214,7 @@
             "digimonType": "Vi",
             "level": 71,
             "hp": 5506,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3943,6 +4224,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 4371,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -3966,6 +4248,7 @@
             "digimonType": "Da",
             "level": 72,
             "hp": 5573,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3975,6 +4258,7 @@
             "digimonType": "Vi",
             "level": 72,
             "hp": 6824,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -3984,6 +4268,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 6824,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4007,6 +4292,7 @@
             "digimonType": "Va",
             "level": 72,
             "hp": 6764,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4016,6 +4302,7 @@
             "digimonType": "Da",
             "level": 72,
             "hp": 7792,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4025,6 +4312,7 @@
             "digimonType": "Va",
             "level": 60,
             "hp": 8052,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4048,6 +4336,7 @@
             "digimonType": "Va",
             "level": 72,
             "hp": 5628,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4057,6 +4346,7 @@
             "digimonType": "Da",
             "level": 72,
             "hp": 7051,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4066,6 +4356,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 5161,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4089,6 +4380,7 @@
             "digimonType": "Va",
             "level": 72,
             "hp": 4778,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4098,6 +4390,7 @@
             "digimonType": "Vi",
             "level": 72,
             "hp": 6028,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4107,6 +4400,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 7932,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4130,6 +4424,7 @@
             "digimonType": "Va",
             "level": 73,
             "hp": 6842,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4139,6 +4434,7 @@
             "digimonType": "Vi",
             "level": 73,
             "hp": 5756,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4148,6 +4444,7 @@
             "digimonType": "Da",
             "level": 60,
             "hp": 6252,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4171,6 +4468,7 @@
             "digimonType": "Va",
             "level": 73,
             "hp": 6554,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4180,6 +4478,7 @@
             "digimonType": "Vi",
             "level": 73,
             "hp": 6782,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4189,6 +4488,7 @@
             "digimonType": "Vi",
             "level": 60,
             "hp": 7392,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4211,6 +4511,7 @@
             "digimonType": "Da",
             "level": 73,
             "hp": 5821,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4220,6 +4521,7 @@
             "digimonType": "Va",
             "level": 73,
             "hp": 6753,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4229,6 +4531,7 @@
             "digimonType": "Vi",
             "level": 70,
             "hp": 7186,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4253,6 +4556,7 @@
             "digimonType": "Da",
             "level": 73,
             "hp": 5871,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4262,6 +4566,7 @@
             "digimonType": "Va",
             "level": 73,
             "hp": 4433,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4271,6 +4576,7 @@
             "digimonType": "Da",
             "level": 70,
             "hp": 5883,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4295,6 +4601,7 @@
             "digimonType": "Vi",
             "level": 74,
             "hp": 5741,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4304,6 +4611,7 @@
             "digimonType": "Vi",
             "level": 74,
             "hp": 4708,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4313,6 +4621,7 @@
             "digimonType": "Vi",
             "level": 70,
             "hp": 3617,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4337,6 +4646,7 @@
             "digimonType": "Vi",
             "level": 74,
             "hp": 6181,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4346,6 +4656,7 @@
             "digimonType": "Vi",
             "level": 74,
             "hp": 7990,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4355,6 +4666,7 @@
             "digimonType": "Va",
             "level": 70,
             "hp": 6384,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4379,6 +4691,7 @@
             "digimonType": "Da",
             "level": 74,
             "hp": 5061,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4388,6 +4701,7 @@
             "digimonType": "Da",
             "level": 74,
             "hp": 5342,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4397,6 +4711,7 @@
             "digimonType": "Vi",
             "level": 70,
             "hp": 7726,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4421,6 +4736,7 @@
             "digimonType": "Vi",
             "level": 74,
             "hp": 3112,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4430,6 +4746,7 @@
             "digimonType": "Vi",
             "level": 74,
             "hp": 7250,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4439,6 +4756,7 @@
             "digimonType": "Da",
             "level": 70,
             "hp": 6326,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4463,6 +4781,7 @@
             "digimonType": "Vi",
             "level": 75,
             "hp": 7271,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4472,6 +4791,7 @@
             "digimonType": "Vi",
             "level": 75,
             "hp": 7003,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4481,6 +4801,7 @@
             "digimonType": "Va",
             "level": 70,
             "hp": 6083,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4505,6 +4826,7 @@
             "digimonType": "Vi",
             "level": 75,
             "hp": 7003,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4514,6 +4836,7 @@
             "digimonType": "Da",
             "level": 75,
             "hp": 6579,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4523,6 +4846,7 @@
             "digimonType": "Da",
             "level": 70,
             "hp": 7362,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4547,6 +4871,7 @@
             "digimonType": "Da",
             "level": 75,
             "hp": 6579,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4556,6 +4881,7 @@
             "digimonType": "Da",
             "level": 75,
             "hp": 5357,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4565,6 +4891,7 @@
             "digimonType": "Va",
             "level": 70,
             "hp": 7298,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4589,6 +4916,7 @@
             "digimonType": "Da",
             "level": 76,
             "hp": 5802,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4598,6 +4926,7 @@
             "digimonType": "Va",
             "level": 76,
             "hp": 7874,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4607,6 +4936,7 @@
             "digimonType": "Vi",
             "level": 70,
             "hp": 5411,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4630,6 +4960,7 @@
             "digimonType": "Va",
             "level": 76,
             "hp": 7874,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4639,6 +4970,7 @@
             "digimonType": "Va",
             "level": 76,
             "hp": 6896,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4648,6 +4980,7 @@
             "digimonType": "Da",
             "level": 70,
             "hp": 5961,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4672,6 +5005,7 @@
             "digimonType": "Vi",
             "level": 76,
             "hp": 6092,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4681,6 +5015,7 @@
             "digimonType": "Va",
             "level": 76,
             "hp": 6117,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4690,6 +5025,7 @@
             "digimonType": "Va",
             "level": 70,
             "hp": 7234,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4714,6 +5050,7 @@
             "digimonType": "Va",
             "level": 77,
             "hp": 6914,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4723,6 +5060,7 @@
             "digimonType": "Da",
             "level": 77,
             "hp": 6403,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4732,6 +5070,7 @@
             "digimonType": "Va",
             "level": 70,
             "hp": 6440,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4756,6 +5095,7 @@
             "digimonType": "Vi",
             "level": 77,
             "hp": 5126,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4765,6 +5105,7 @@
             "digimonType": "Va",
             "level": 77,
             "hp": 5388,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4774,6 +5115,7 @@
             "digimonType": "Vi",
             "level": 70,
             "hp": 8589,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4798,6 +5140,7 @@
             "digimonType": "Vi",
             "level": 77,
             "hp": 8701,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4807,6 +5150,7 @@
             "digimonType": "Va",
             "level": 77,
             "hp": 5337,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4816,6 +5160,7 @@
             "digimonType": "Vi",
             "level": 70,
             "hp": 4161,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4841,6 +5186,7 @@
             "digimonType": "Va",
             "level": 78,
             "hp": 6079,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4850,6 +5196,7 @@
             "digimonType": "Va",
             "level": 78,
             "hp": 6640,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4859,6 +5206,7 @@
             "digimonType": "Va",
             "level": 70,
             "hp": 6440,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4884,6 +5232,7 @@
             "digimonType": "Vi",
             "level": 78,
             "hp": 7800,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4893,6 +5242,7 @@
             "digimonType": "Da",
             "level": 78,
             "hp": 6932,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4902,6 +5252,7 @@
             "digimonType": "Va",
             "level": 70,
             "hp": 5825,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4927,6 +5278,7 @@
             "digimonType": "Vi",
             "level": 79,
             "hp": 6590,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4936,6 +5288,7 @@
             "digimonType": "Da",
             "level": 79,
             "hp": 7010,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4945,6 +5298,7 @@
             "digimonType": "Va",
             "level": 70,
             "hp": 6795,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -4970,6 +5324,7 @@
             "digimonType": "Va",
             "level": 79,
             "hp": 8570,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4979,6 +5334,7 @@
             "digimonType": "Vi",
             "level": 79,
             "hp": 7971,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -4988,6 +5344,7 @@
             "digimonType": "Vi",
             "level": 70,
             "hp": 9361,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5013,6 +5370,7 @@
             "digimonType": "Vi",
             "level": 80,
             "hp": 7855,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5022,6 +5380,7 @@
             "digimonType": "Da",
             "level": 80,
             "hp": 8058,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5031,6 +5390,7 @@
             "digimonType": "Da",
             "level": 80,
             "hp": 6525,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5070,6 +5430,7 @@
             "digimonType": "Vi",
             "level": 86,
             "hp": 7281,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5079,6 +5440,7 @@
             "digimonType": "Da",
             "level": 85,
             "hp": 8678,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5088,6 +5450,7 @@
             "digimonType": "Vi",
             "level": 86,
             "hp": 7281,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5111,6 +5474,7 @@
             "digimonType": "Da",
             "level": 86,
             "hp": 10476,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5120,6 +5484,7 @@
             "digimonType": "Da",
             "level": 86,
             "hp": 10476,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5129,6 +5494,7 @@
             "digimonType": "Da",
             "level": 86,
             "hp": 10476,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5152,6 +5518,7 @@
             "digimonType": "Va",
             "level": 86,
             "hp": 9052,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5161,6 +5528,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 11878,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5170,6 +5538,7 @@
             "digimonType": "Va",
             "level": 86,
             "hp": 12366,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5192,6 +5561,7 @@
             "digimonType": "Da",
             "level": 86,
             "hp": 11421,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5201,6 +5571,7 @@
             "digimonType": "Vi",
             "level": 86,
             "hp": 12458,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5210,6 +5581,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 11648,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5233,6 +5605,7 @@
             "digimonType": "Va",
             "level": 87,
             "hp": 10030,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5242,6 +5615,7 @@
             "digimonType": "Da",
             "level": 86,
             "hp": 10422,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5251,6 +5625,7 @@
             "digimonType": "Va",
             "level": 87,
             "hp": 9003,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5274,6 +5649,7 @@
             "digimonType": "Da",
             "level": 87,
             "hp": 11878,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5283,6 +5659,7 @@
             "digimonType": "Da",
             "level": 86,
             "hp": 12887,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5292,6 +5669,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 12345,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5315,6 +5693,7 @@
             "digimonType": "Va",
             "level": 87,
             "hp": 11204,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5324,6 +5703,7 @@
             "digimonType": "Da",
             "level": 87,
             "hp": 9109,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5333,6 +5713,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 11048,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5356,6 +5737,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 11172,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5365,6 +5747,7 @@
             "digimonType": "Da",
             "level": 87,
             "hp": 11030,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5374,6 +5757,7 @@
             "digimonType": "Va",
             "level": 87,
             "hp": 12144,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5397,6 +5781,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 11130,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5406,6 +5791,7 @@
             "digimonType": "Da",
             "level": 88,
             "hp": 12057,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5415,6 +5801,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 11089,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5438,6 +5825,7 @@
             "digimonType": "Va",
             "level": 87,
             "hp": 12222,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5447,6 +5835,7 @@
             "digimonType": "Vi",
             "level": 89,
             "hp": 12218,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5456,6 +5845,7 @@
             "digimonType": "Va",
             "level": 87,
             "hp": 12070,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5479,6 +5869,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 14417,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5488,6 +5879,7 @@
             "digimonType": "Va",
             "level": 90,
             "hp": 17115,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5497,6 +5889,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 14417,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5520,6 +5913,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 13079,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5529,6 +5923,7 @@
             "digimonType": "Vi",
             "level": 90,
             "hp": 14233,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5538,6 +5933,7 @@
             "digimonType": "Vi",
             "level": 87,
             "hp": 13079,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5562,6 +5958,7 @@
             "digimonType": "Da",
             "level": 88,
             "hp": 12130,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5571,6 +5968,7 @@
             "digimonType": "Vi",
             "level": 90,
             "hp": 17055,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5580,6 +5978,7 @@
             "digimonType": "Vi",
             "level": 88,
             "hp": 13065,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5604,6 +6003,7 @@
             "digimonType": "Va",
             "level": 88,
             "hp": 13161,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5613,6 +6013,7 @@
             "digimonType": "Da",
             "level": 90,
             "hp": 16182,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5622,6 +6023,7 @@
             "digimonType": "Vi",
             "level": 88,
             "hp": 12080,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5646,6 +6048,7 @@
             "digimonType": "Va",
             "level": 88,
             "hp": 12149,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5655,6 +6058,7 @@
             "digimonType": "Va",
             "level": 91,
             "hp": 16103,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5664,6 +6068,7 @@
             "digimonType": "Va",
             "level": 88,
             "hp": 12149,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5688,6 +6093,7 @@
             "digimonType": "Va",
             "level": 88,
             "hp": 14032,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5697,6 +6103,7 @@
             "digimonType": "Da",
             "level": 88,
             "hp": 12015,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5706,6 +6113,7 @@
             "digimonType": "Da",
             "level": 91,
             "hp": 16084,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5730,6 +6138,7 @@
             "digimonType": "Va",
             "level": 88,
             "hp": 12006,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5739,6 +6148,7 @@
             "digimonType": "Vi",
             "level": 88,
             "hp": 12047,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5748,6 +6158,7 @@
             "digimonType": "Va",
             "level": 91,
             "hp": 16508,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5772,6 +6183,7 @@
             "digimonType": "Vi",
             "level": 88,
             "hp": 12057,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5781,6 +6193,7 @@
             "digimonType": "Va",
             "level": 88,
             "hp": 12057,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5790,6 +6203,7 @@
             "digimonType": "Vi",
             "level": 92,
             "hp": 16272,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5814,6 +6228,7 @@
             "digimonType": "Va",
             "level": 88,
             "hp": 10565,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5823,6 +6238,7 @@
             "digimonType": "Da",
             "level": 92,
             "hp": 14077,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5832,6 +6248,7 @@
             "digimonType": "Vi",
             "level": 88,
             "hp": 12057,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5856,6 +6273,7 @@
             "digimonType": "Vi",
             "level": 89,
             "hp": 12056,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5865,6 +6283,7 @@
             "digimonType": "Va",
             "level": 92,
             "hp": 18079,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5874,6 +6293,7 @@
             "digimonType": "Vi",
             "level": 89,
             "hp": 12079,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5898,6 +6318,7 @@
             "digimonType": "Da",
             "level": 89,
             "hp": 11030,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5907,6 +6328,7 @@
             "digimonType": "Da",
             "level": 92,
             "hp": 11053,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5916,6 +6338,7 @@
             "digimonType": "Da",
             "level": 89,
             "hp": 15126,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5940,6 +6363,7 @@
             "digimonType": "Da",
             "level": 90,
             "hp": 12222,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5949,6 +6373,7 @@
             "digimonType": "Da",
             "level": 90,
             "hp": 12222,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5958,6 +6383,7 @@
             "digimonType": "Da",
             "level": 90,
             "hp": 12222,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -5982,6 +6408,7 @@
             "digimonType": "Da",
             "level": 90,
             "hp": 12640,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -5991,6 +6418,7 @@
             "digimonType": "Da",
             "level": 92,
             "hp": 15285,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6000,6 +6428,7 @@
             "digimonType": "Va",
             "level": 90,
             "hp": 12937,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -6024,6 +6453,7 @@
             "digimonType": "Vi",
             "level": 90,
             "hp": 11094,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6033,6 +6463,7 @@
             "digimonType": "Vi",
             "level": 92,
             "hp": 13099,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6042,6 +6473,7 @@
             "digimonType": "Vi",
             "level": 90,
             "hp": 11071,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -6066,6 +6498,7 @@
             "digimonType": "Fr",
             "level": 92,
             "hp": 15065,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6075,6 +6508,7 @@
             "digimonType": "Fr",
             "level": 92,
             "hp": 15065,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6084,6 +6518,7 @@
             "digimonType": "Va",
             "level": 89,
             "hp": 13022,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -6109,6 +6544,7 @@
             "digimonType": "Da",
             "level": 93,
             "hp": 15131,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6118,6 +6554,7 @@
             "digimonType": "Da",
             "level": 93,
             "hp": 15080,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6127,6 +6564,7 @@
             "digimonType": "Va",
             "level": 89,
             "hp": 11011,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -6152,6 +6590,7 @@
             "digimonType": "Va",
             "level": 93,
             "hp": 17072,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6161,6 +6600,7 @@
             "digimonType": "Da",
             "level": 93,
             "hp": 16109,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6170,6 +6610,7 @@
             "digimonType": "Va",
             "level": 89,
             "hp": 13050,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -6195,6 +6636,7 @@
             "digimonType": "Uk",
             "level": 93,
             "hp": 16128,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6204,6 +6646,7 @@
             "digimonType": "Uk",
             "level": 93,
             "hp": 16128,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6213,6 +6656,7 @@
             "digimonType": "Uk",
             "level": 89,
             "hp": 13013,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -6238,6 +6682,7 @@
             "digimonType": "Va",
             "level": 93,
             "hp": 16104,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6247,6 +6692,7 @@
             "digimonType": "Va",
             "level": 93,
             "hp": 16579,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6256,6 +6702,7 @@
             "digimonType": "Va",
             "level": 93,
             "hp": 16160,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -6281,6 +6728,7 @@
             "digimonType": "Va",
             "level": 95,
             "hp": 18591,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6290,6 +6738,7 @@
             "digimonType": "Vi",
             "level": 95,
             "hp": 19273,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6299,6 +6748,7 @@
             "digimonType": "Da",
             "level": 95,
             "hp": 18093,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }
@@ -6338,6 +6788,7 @@
             "digimonType": "Da",
             "level": 91,
             "hp": 14840,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6347,6 +6798,7 @@
             "digimonType": "Da",
             "level": 90,
             "hp": 11062,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           },
@@ -6356,6 +6808,7 @@
             "digimonType": "Da",
             "level": 91,
             "hp": 15320,
+            "def": 0,
             "point": { "x": 0, "y": 0 },
             "dropItems": null
           }

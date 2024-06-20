@@ -26,14 +26,14 @@
 .target-monster > .title,
 .calculate-result-container > .title {
     width: 100%;
-    height: 30px;
+    height: 38px;
 
     background-color: var(--theme-light-background-selected);
 
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    line-height: 30px;
+    line-height: 38px;
 }
 
 .digimon-selector-container {
@@ -45,7 +45,7 @@
 
 .grade-selector {
     width: 100%;
-    height: 30px;
+    height: 38px;
 
     display: flex;
     flex-direction: row;
@@ -67,10 +67,10 @@
     background-color: var(--type-adult-thin);
 }
 
-.digimon-selector,
-.map-selector {
+.calculator .digimon-selector,
+.calculator .map-selector {
     width: 100%;
-    height: 30px;
+    height: 38px;
 
     flex-direction: row;
     align-items: center;
@@ -79,7 +79,7 @@
 
     font-weight: 700;
     text-align-last:center;
-    line-height: 30px;
+    line-height: 38px;
     
     scroll-behavior: smooth;
     cursor: pointer;
@@ -159,14 +159,14 @@
 .req-strs > .title,
 .damage > .title {
     width: 100%;
-    height: 30px;
+    height: 38px;
 
     background-color: var(--theme-light-background-600);
 
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    line-height: 30px;
+    line-height: 38px;
 }
 
 .map-selector {
@@ -253,12 +253,12 @@
 .current-stat > div,
 .damage > div {
     width: 100%;
-    height: 30px;
+    height: 27px;
 
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    line-height: 30px;
+    line-height: 27px;
 }
 
 .req-str {

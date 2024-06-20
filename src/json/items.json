@@ -3067,5 +3067,209 @@
     "name": "부서진 네오반데몬 디지코어",
     "price": 0,
     "canTrade": true
+  },
+  {
+    "id": 568,
+    "type": 7,
+    "name": "쿠즈하몬의 제사 도구",
+    "price": 0,
+    "canTrade": false
+  },
+  {
+    "id": 569,
+    "type": 11,
+    "name": "광명 귀걸이",
+    "price": 0,
+    "canTrade": true
+  },
+  { "id": 570, "type": 11, "name": "광명 반지", "price": 0, "canTrade": true },
+  { "id": 571, "type": 11, "name": "광명 팔찌", "price": 0, "canTrade": true },
+  {
+    "id": 572,
+    "type": 11,
+    "name": "광명 목걸이",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 573,
+    "type": 11,
+    "name": "자애 목걸이",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 574,
+    "type": 11,
+    "name": "자애 귀걸이",
+    "price": 0,
+    "canTrade": true
+  },
+  { "id": 575, "type": 11, "name": "자애 팔찌", "price": 0, "canTrade": true },
+  {
+    "id": 576,
+    "type": 11,
+    "name": "자애 목걸이",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 577,
+    "type": 11,
+    "name": "광휘 귀걸이",
+    "price": 0,
+    "canTrade": true
+  },
+  { "id": 578, "type": 11, "name": "광휘 팔찌", "price": 0, "canTrade": true },
+  { "id": 579, "type": 11, "name": "광휘 반지", "price": 0, "canTrade": true },
+  {
+    "id": 580,
+    "type": 11,
+    "name": "광휘 목걸이",
+    "price": 0,
+    "canTrade": true
+  },
+  { "id": 581, "type": 11, "name": "천사 팔찌", "price": 0, "canTrade": true },
+  { "id": 582, "type": 11, "name": "천사 반지", "price": 0, "canTrade": true },
+  {
+    "id": 583,
+    "type": 11,
+    "name": "천사 귀걸이",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 584,
+    "type": 11,
+    "name": "천사 목걸이",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 585,
+    "type": 7,
+    "name": "쉘몬의 머리카락",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 586,
+    "type": 7,
+    "name": "연체몬의 빨판",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 587,
+    "type": 7,
+    "name": "다이버몬의 작살",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 588,
+    "type": 7,
+    "name": "가비지몬의 머리 껍질",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 589,
+    "type": 7,
+    "name": "키위몬의 부리",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 590,
+    "type": 7,
+    "name": "뿌띠몬의 왕관",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 591,
+    "type": 7,
+    "name": "브롯사몬의 줄기",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 592,
+    "type": 7,
+    "name": "탱크몬의 포신",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 593,
+    "type": 7,
+    "name": "폭탄몬의 폭탄",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 594,
+    "type": 7,
+    "name": "매드레오몬의 손톱",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 595,
+    "type": 7,
+    "name": "데블드라몬의 꼬리",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 596,
+    "type": 7,
+    "name": "프레시오몬의 지느러미",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 597,
+    "type": 7,
+    "name": "스컬맘몬의 황금 상아",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 598,
+    "type": 7,
+    "name": "타이거베스파몬의 머플러",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 599,
+    "type": 7,
+    "name": "배드퍼펫몬의 망토",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 600,
+    "type": 7,
+    "name": "퍼펫몬의 반창고",
+    "price": 0,
+    "canTrade": true
+  },
+  { "id": 601, "type": 7, "name": "도우몬의 붓", "price": 0, "canTrade": true },
+  {
+    "id": 602,
+    "type": 7,
+    "name": "네오데블몬의 투구",
+    "price": 0,
+    "canTrade": true
+  },
+  {
+    "id": 603,
+    "type": 7,
+    "name": "네오반데몬의 견갑",
+    "price": 0,
+    "canTrade": true
   }
 ]
