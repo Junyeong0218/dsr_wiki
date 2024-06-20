@@ -27,12 +27,12 @@ const getLevelConstant = (level: number) => level * 12 + 24;
 const getAdvantage = (skill: Skill, monster: Monster) => {
     const monsterInfo = getDigimonByName(monster.name)!;
 
-    if(monsterInfo.weaknessEffect === "약점" ||
+    if(monsterInfo.weaknessEffect === "약점" &&
        skill.element === monsterInfo.weakness) {
         return 1.25;
     }
 
-    if(monsterInfo.strengthEffect === "내성" ||
+    if(monsterInfo.strengthEffect === "내성" &&
        skill.element === monsterInfo.strength) {
         return 0.75;
     }
@@ -80,16 +80,23 @@ const getReqStr = (userDigimon: Digimon | undefined, monster: Monster | undefine
     const levelConstant = getLevelConstant(100);
     const advantage = getAdvantage(skill, monster);
     const compatibility = getCompatibility(userDigimon.digimonType, monster.digimonType);
+
+    // console.log(skill.attackCount, "타수")
+    // console.log(skill.coefficients[skillInfo.skillLevel], "계수")
+    // console.log(compatibility, "상성")
+    // console.log(advantage, "강약점")
+    // console.log(levelConstant, "레벨 계수")
+    // console.log(LOWEST_DAMAGE_RATE, "데미지 범위 최소값")
+    // console.log(monster.def, "적 수비")
     
     return Math.ceil(goalHp / ( // 목표 체력
-                                    skill.attackCount * // 타수
                                     skill.coefficients[skillInfo.skillLevel] * // 계수
                                     compatibility * // 상성
                                     advantage * // 강약점
                                     levelConstant * // 레벨 계수
                                     LOWEST_DAMAGE_RATE / // 데미지 범위 최소값
                                     monster.def // 적 수비
-                              )
+                              ) / skill.attackCount // 타수
                     )
 }
 
@@ -115,14 +122,31 @@ const getDamage = (str: number, userDigimon: Digimon | undefined, monster: Monst
     const advantage = getAdvantage(skill, monster);
     const compatibility = getCompatibility(userDigimon.digimonType, monster.digimonType);
 
-    return Math.ceil(str * // 힘
-                     skill.attackCount * // 타수
-                     skill.coefficients[skillInfo.skillLevel] * // 계수
-                     compatibility * // 상성
-                     advantage * // 강약점
-                     levelConstant * // 레벨 계수
-                     LOWEST_DAMAGE_RATE / // 데미지 범위 최소값
-                     monster.def) // 적 수비
+    // let acc = str;
+    // console.log(acc, `힘`);
+    // acc *= skill.coefficients[skillInfo.skillLevel];
+    // console.log(acc, `힘 * 계수(${skill.coefficients[skillInfo.skillLevel]})`);
+    // acc *= compatibility;
+    // console.log(acc, `힘 * 계수 * 상성(${compatibility})`);
+    // acc *= advantage;
+    // console.log(acc, `힘 * 계수 * 상성 * 강약점(${advantage})`);
+    // acc *= levelConstant;
+    // console.log(acc, `힘 * 계수 * 상성 * 강약점 * 레벨계수(${levelConstant})`);
+    // acc *= LOWEST_DAMAGE_RATE;
+    // console.log(acc, `힘 * 계수 * 상성 * 강약점 * 레벨계수 * 범위최소값(${LOWEST_DAMAGE_RATE})`);
+    // acc /= monster.def;
+    // console.log(acc, `힘 * 계수 * 상성 * 강약점 * 레벨계수 * 범위최소값 / 몬스터 수비(${monster.def})`);
+    // console.log((str * skill.coefficients[skillInfo.skillLevel] * compatibility *
+    //             advantage * levelConstant * LOWEST_DAMAGE_RATE / monster.def), "1타 데미지")
+                
+    return Math.round(str * // 힘
+                      skill.coefficients[skillInfo.skillLevel] * // 계수
+                      compatibility * // 상성
+                      advantage * // 강약점
+                      levelConstant * // 레벨 계수
+                      LOWEST_DAMAGE_RATE / // 데미지 범위 최소값
+                      monster.def) * // 적 수비
+                      skill.attackCount // 타수
 }
 
 export {

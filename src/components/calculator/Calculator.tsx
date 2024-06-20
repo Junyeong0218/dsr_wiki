@@ -109,6 +109,8 @@ export default function Calculator(): React.ReactElement {
 
     const damage = getDamage((userDigimon?.str ?? 0) + additionalStr, userDigimon, monster, skillInfo);
 
+    // console.log((userDigimon?.str ?? 0) + additionalStr, "str");
+
     return (
         <div className="main">
             <div className="calculator">
