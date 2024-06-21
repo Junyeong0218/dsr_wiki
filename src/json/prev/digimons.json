@@ -7174,13 +7174,13 @@
     "name": "디지타몬",
     "grade": 5,
     "digimonType": "Da",
-    "hp": 3847,
-    "sp": 1248,
-    "str": 744,
-    "int": 624,
-    "spd": 271,
-    "def": 715,
-    "res": 687,
+    "hp": 4183,
+    "sp": 1357,
+    "str": 809,
+    "int": 678,
+    "spd": 295,
+    "def": 778,
+    "res": 747,
     "strength": "어둠",
     "strengthEffect": "반사",
     "weakness": "빛",
@@ -9875,8 +9875,7 @@
         "effect": null,
         "additionalTurn": 2.5,
         "coefficients": [
-          0.5, 0.5167, 0.5334, 0.5501, 0.5668, 0.5835, 0.6002, 0.6169, 0.6336,
-          0.6503
+          0.5, 0.5166, 0.5333, 0.55, 0.5666, 0.5833, 0.6, 0.6166, 0.6333, 0.65
         ]
       }
     ]
@@ -10003,13 +10002,13 @@
     "name": "토우몬",
     "grade": 5,
     "digimonType": "Fr",
-    "hp": 0,
-    "sp": 0,
-    "str": 0,
-    "int": 0,
-    "spd": 0,
-    "def": 0,
-    "res": 0,
+    "hp": 4780,
+    "sp": 1220,
+    "str": 771,
+    "int": 641,
+    "spd": 339,
+    "def": 803,
+    "res": 803,
     "strength": "불",
     "strengthEffect": "내성",
     "weakness": "천둥",
@@ -10582,13 +10581,13 @@
     "name": "화이트레오몬",
     "grade": 5,
     "digimonType": "Va",
-    "hp": 4499,
-    "sp": 1122,
-    "str": 715,
-    "int": 629,
-    "spd": 263,
-    "def": 709,
-    "res": 687,
+    "hp": 4892,
+    "sp": 1220,
+    "str": 778,
+    "int": 684,
+    "spd": 286,
+    "def": 771,
+    "res": 747,
     "strength": "얼음",
     "strengthEffect": "내성",
     "weakness": "불",
@@ -10815,6 +10814,66 @@
   },
   {
     "id": 197,
+    "name": "던데블몬",
+    "grade": 6,
+    "digimonType": "Vi",
+    "hp": 6454,
+    "sp": 1777,
+    "str": 1030,
+    "int": 806,
+    "spd": 511,
+    "def": 896,
+    "res": 1000,
+    "strength": "어둠",
+    "strengthEffect": "회피",
+    "weakness": "불",
+    "weaknessEffect": "회피불가",
+    "fieldTypes": ["Nso"],
+    "skills": [
+      {
+        "name": "디스트로이 클로",
+        "attackCount": 2,
+        "range": "근거리",
+        "element": "물리",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": null,
+        "additionalTurn": null,
+        "coefficients": [
+          0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475
+        ]
+      },
+      {
+        "name": "마이아스피우",
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": "방어력 감소",
+        "additionalTurn": null,
+        "coefficients": [
+          0.18, 0.1885, 0.197, 0.2055, 0.214, 0.2225, 0.231, 0.2395, 0.248,
+          0.2565
+        ]
+      },
+      {
+        "name": "얼티메이트 플레어",
+        "attackCount": 5,
+        "range": "근거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": null,
+        "additionalTurn": null,
+        "coefficients": [
+          0.2, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27, 0.28, 0.29
+        ]
+      }
+    ]
+  },
+  {
+    "id": 198,
     "name": "데스몬",
     "grade": 6,
     "digimonType": "Da",
@@ -10873,7 +10932,7 @@
     ]
   },
   {
-    "id": 198,
+    "id": 199,
     "name": "두프트몬",
     "grade": 6,
     "digimonType": "Da",
@@ -10932,7 +10991,7 @@
     ]
   },
   {
-    "id": 199,
+    "id": 200,
     "name": "듀나스몬",
     "grade": 6,
     "digimonType": "Da",
@@ -10991,7 +11050,7 @@
     ]
   },
   {
-    "id": 200,
+    "id": 201,
     "name": "듀크몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11051,7 +11110,7 @@
     ]
   },
   {
-    "id": 201,
+    "id": 202,
     "name": "디아블로몬",
     "grade": 6,
     "digimonType": "Uk",
@@ -11111,7 +11170,7 @@
     ]
   },
   {
-    "id": 202,
+    "id": 203,
     "name": "로드나이트몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11169,7 +11228,7 @@
     ]
   },
   {
-    "id": 203,
+    "id": 204,
     "name": "로제몬",
     "grade": 6,
     "digimonType": "Da",
@@ -11229,7 +11288,7 @@
     ]
   },
   {
-    "id": 204,
+    "id": 205,
     "name": "리리스몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11286,7 +11345,7 @@
     ]
   },
   {
-    "id": 205,
+    "id": 206,
     "name": "마린엔젤몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11342,7 +11401,7 @@
     ]
   },
   {
-    "id": 206,
+    "id": 207,
     "name": "마스테몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11400,7 +11459,7 @@
     ]
   },
   {
-    "id": 207,
+    "id": 208,
     "name": "메기드라몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11461,7 +11520,7 @@
     ]
   },
   {
-    "id": 208,
+    "id": 209,
     "name": "메탈가루몬",
     "grade": 6,
     "digimonType": "Da",
@@ -11517,7 +11576,7 @@
     ]
   },
   {
-    "id": 209,
+    "id": 210,
     "name": "메탈시드라몬",
     "grade": 6,
     "digimonType": "Da",
@@ -11573,7 +11632,7 @@
     ]
   },
   {
-    "id": 210,
+    "id": 211,
     "name": "메탈에테몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11631,7 +11690,7 @@
     ]
   },
   {
-    "id": 211,
+    "id": 212,
     "name": "밀레니엄몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11691,7 +11750,7 @@
     ]
   },
   {
-    "id": 212,
+    "id": 213,
     "name": "바이킹몬",
     "grade": 6,
     "digimonType": "Fr",
@@ -11747,7 +11806,7 @@
     ]
   },
   {
-    "id": 213,
+    "id": 214,
     "name": "반쵸레오몬",
     "grade": 6,
     "digimonType": "Va",
@@ -11803,7 +11862,7 @@
     ]
   },
   {
-    "id": 214,
+    "id": 215,
     "name": "베놈묘티스몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11861,7 +11920,7 @@
     ]
   },
   {
-    "id": 215,
+    "id": 216,
     "name": "베르제브몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -11921,7 +11980,7 @@
     ]
   },
   {
-    "id": 216,
+    "id": 217,
     "name": "베르제브몬(C)",
     "grade": 6,
     "digimonType": "Vi",
@@ -11979,7 +12038,7 @@
     ]
   },
   {
-    "id": 217,
+    "id": 218,
     "name": "블랙세라피몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12039,7 +12098,7 @@
     ]
   },
   {
-    "id": 218,
+    "id": 219,
     "name": "샤벨레오몬",
     "grade": 6,
     "digimonType": "Da",
@@ -12097,7 +12156,7 @@
     ]
   },
   {
-    "id": 219,
+    "id": 220,
     "name": "샤크라몬",
     "grade": 6,
     "digimonType": "Da",
@@ -12152,7 +12211,7 @@
     ]
   },
   {
-    "id": 220,
+    "id": 221,
     "name": "세라피몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12213,7 +12272,7 @@
     ]
   },
   {
-    "id": 221,
+    "id": 222,
     "name": "세인트가르고몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12274,7 +12333,7 @@
     ]
   },
   {
-    "id": 222,
+    "id": 223,
     "name": "스컬맘몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12332,17 +12391,17 @@
     ]
   },
   {
-    "id": 223,
+    "id": 224,
     "name": "슬래쉬엔젤몬",
     "grade": 6,
     "digimonType": "Va",
-    "hp": 0,
-    "sp": 0,
-    "str": 0,
-    "int": 0,
-    "spd": 0,
-    "def": 0,
-    "res": 0,
+    "hp": 5826,
+    "sp": 1987,
+    "str": 971,
+    "int": 978,
+    "spd": 485,
+    "def": 911,
+    "res": 926,
     "strength": "물리",
     "strengthEffect": "내성",
     "weakness": "불",
@@ -12390,7 +12449,7 @@
     ]
   },
   {
-    "id": 224,
+    "id": 225,
     "name": "알포스브이드라몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12449,7 +12508,7 @@
     ]
   },
   {
-    "id": 225,
+    "id": 226,
     "name": "오파니몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12509,7 +12568,7 @@
     ]
   },
   {
-    "id": 226,
+    "id": 227,
     "name": "오파니몬 폴다운모드",
     "grade": 6,
     "digimonType": "Va",
@@ -12569,7 +12628,7 @@
     ]
   },
   {
-    "id": 227,
+    "id": 228,
     "name": "워그레이몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12624,7 +12683,7 @@
     ]
   },
   {
-    "id": 228,
+    "id": 229,
     "name": "이바몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12684,7 +12743,7 @@
     ]
   },
   {
-    "id": 229,
+    "id": 230,
     "name": "쿠즈하몬",
     "grade": 6,
     "digimonType": "Da",
@@ -12739,7 +12798,62 @@
     ]
   },
   {
-    "id": 230,
+    "id": 231,
+    "name": "쿠즈하몬:무녀모드",
+    "grade": 6,
+    "digimonType": "Da",
+    "hp": 0,
+    "sp": 0,
+    "str": 0,
+    "int": 0,
+    "spd": 0,
+    "def": 0,
+    "res": 0,
+    "strength": "어둠",
+    "strengthEffect": "회피",
+    "weakness": "빛",
+    "weaknessEffect": "효과확률",
+    "fieldTypes": ["Nso", "UK"],
+    "skills": [
+      {
+        "name": "정화하기",
+        "attackCount": 5,
+        "range": "원거리",
+        "element": "빛",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": null,
+        "additionalTurn": null,
+        "coefficients": [
+          0.1, 0.11, 0.12, 0.13, 0.14, 0.15, 0.16, 0.17, 0.18, 0.19
+        ]
+      },
+      {
+        "name": "역반강술",
+        "attackCount": 1,
+        "range": "원거리",
+        "element": "어둠",
+        "target": "적",
+        "targetCount": "단일",
+        "effect": null,
+        "additionalTurn": null,
+        "coefficients": [1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.35, 1.4, 1.45]
+      },
+      {
+        "name": "태장계 만다라",
+        "attackCount": 0,
+        "range": "원거리",
+        "element": "빛",
+        "target": "전체",
+        "targetCount": "아군",
+        "effect": "방어력 증가",
+        "additionalTurn": null,
+        "coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      }
+    ]
+  },
+  {
+    "id": 232,
     "name": "크로스몬",
     "grade": 6,
     "digimonType": "Va",
@@ -12797,7 +12911,7 @@
     ]
   },
   {
-    "id": 231,
+    "id": 233,
     "name": "타이거베스파몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12855,17 +12969,17 @@
     ]
   },
   {
-    "id": 232,
+    "id": 234,
     "name": "타이타몬",
     "grade": 6,
     "digimonType": "Vi",
-    "hp": 5893,
-    "sp": 1835,
-    "str": 1003,
-    "int": 896,
-    "spd": 433,
-    "def": 924,
-    "res": 860,
+    "hp": 6140,
+    "sp": 1912,
+    "str": 1045,
+    "int": 933,
+    "spd": 451,
+    "def": 963,
+    "res": 896,
     "strength": "어둠",
     "strengthEffect": "내성",
     "weakness": "천둥",
@@ -12913,7 +13027,7 @@
     ]
   },
   {
-    "id": 233,
+    "id": 235,
     "name": "파라사이몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -12969,7 +13083,7 @@
     ]
   },
   {
-    "id": 234,
+    "id": 236,
     "name": "파라오몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -13027,7 +13141,7 @@
     ]
   },
   {
-    "id": 235,
+    "id": 237,
     "name": "파워드라몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -13086,7 +13200,7 @@
     ]
   },
   {
-    "id": 236,
+    "id": 238,
     "name": "페닉스몬",
     "grade": 6,
     "digimonType": "Va",
@@ -13145,7 +13259,7 @@
     ]
   },
   {
-    "id": 237,
+    "id": 239,
     "name": "프레시오몬",
     "grade": 6,
     "digimonType": "Da",
@@ -13205,7 +13319,7 @@
     ]
   },
   {
-    "id": 238,
+    "id": 240,
     "name": "피노키몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -13258,7 +13372,7 @@
     ]
   },
   {
-    "id": 239,
+    "id": 241,
     "name": "피에몬",
     "grade": 6,
     "digimonType": "Vi",
@@ -13314,7 +13428,7 @@
     ]
   },
   {
-    "id": 240,
+    "id": 242,
     "name": "헤라클레스캅테리몬",
     "grade": 6,
     "digimonType": "Va",
@@ -13372,7 +13486,7 @@
     ]
   },
   {
-    "id": 241,
+    "id": 243,
     "name": "홀리드라몬",
     "grade": 6,
     "digimonType": "Va",
@@ -13432,7 +13546,7 @@
     ]
   },
   {
-    "id": 242,
+    "id": 244,
     "name": "황제드라몬:드래곤모드",
     "grade": 6,
     "digimonType": "Fr",
@@ -13490,7 +13604,7 @@
     ]
   },
   {
-    "id": 243,
+    "id": 245,
     "name": "황제드라몬:파이터모드",
     "grade": 6,
     "digimonType": "Fr",

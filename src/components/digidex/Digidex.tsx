@@ -144,7 +144,7 @@ export default function Digidex(): React.ReactElement {
                     <tbody>
                         { filtered.map(each => (
                             <tr key={getUUID()}>
-                                <td><img src={`/images/${each.name}.png`} />&nbsp;{each.name}</td>
+                                <td><img src={`/images/${getDigimonFileName(each.name)}.png`} />&nbsp;{each.name}</td>
                                 <td>{Grades[each.grade]}</td>
                                 <td><img src={`/images/${each.digimonType}.png`} /></td>
                                 <td>{each.hp.toLocaleString("ko-KR")}</td>

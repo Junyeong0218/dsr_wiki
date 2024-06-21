@@ -91,8 +91,17 @@ export default function MonsterSelector({ monster, setMonster }: props): React.R
         const monster = maps.find(m => m.id === selectedMap.value)!.monsters!.find(m => m.id === newValue.value);
         setMonster(monster);
     }
-    const monsterOptions = !selectedCategory ? categories["파일섬"][0].monsters!.map(m => { return { label: `${m.name}(${m.level})`, value: m.id }}) : 
-                                               maps.find(m => m.id === selectedMap.value)!.monsters!.map(m => { return { label: `${m.name}(${m.level})`, value: m.id }});
+
+    const originMonsters = !selectedCategory ? categories["파일섬"][0].monsters!.sort((a, b) => a.level - b.level) : 
+                                               maps.find(m => m.id === selectedMap.value)!.monsters!.sort((a, b) => a.level - b.level);
+    const monsters = new Set<Monster>();
+    originMonsters.forEach(m => {
+        const array = [ ...monsters ];
+        const found = array.find(e => e.name === m.name && e.level === m.level);
+        if(!found)
+            monsters.add(m);
+    });
+    const monsterOptions = [ ...monsters ].map(m => { return { label: `${m.name}(${m.level})`, value: m.id }});
     const monsterSelector = <ReactSelect styles={{
         control: (baseStyles, state) => ({
           ...baseStyles,
