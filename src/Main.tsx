@@ -7,6 +7,7 @@ import YoutubePlayer from './components/dashboard/YoutubePlayer';
 import UpdateArticles from './components/dashboard/UpdateArticles';
 import Coupons from './components/dashboard/Coupons';
 import Ladders from './components/dashboard/Ladders';
+import CrownCalculator from './components/dashboard/CrownCalculator';
 
 
 type DailyCheck = {
@@ -94,6 +95,8 @@ export default function Main(): React.ReactElement {
                             ))}
                         </div>
                     </div>
+                    {/* 크라운 환산기 */}
+                    <CrownCalculator />
                     {/* 오늘의 래더 */}
                     <div className="content-shortcut">
                         <div className="title">오늘의 래더</div>

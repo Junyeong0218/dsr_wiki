@@ -85,6 +85,10 @@
     white-space: nowrap;
 }
 
+.content-shortcut .content .row span.no-width {
+    width: auto;
+}
+
 .content-shortcut .content .row i {
     position: relative;
 
@@ -101,6 +105,36 @@
 
 .content-shortcut .content .row > img {
     width: 100%;
+}
+
+.content-shortcut .content .row.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-shortcut .content .row input {
+    padding: 2px 5px;
+    width: 100%;
+    min-width: 60px;
+    max-width: 80px;
+    height: 20px;
+
+    border: 1px solid var(--theme-light-background-500);
+    border-radius: 3px;
+
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.content-shortcut .content .row select,
+.content-shortcut .content .row option {
+    font-size: 14px;
+}
+
+.content-shortcut .content hr {
+    border-bottom: 1px solid var(--theme-light-background-400);
 }
 
 .content-shortcut .content label {
