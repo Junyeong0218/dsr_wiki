@@ -156,7 +156,7 @@ export default function RaidTimer(): React.ReactElement {
                                           raid.name === "오파니몬:폴다운모드" ? ophanimonLabel : 
                                           raid.name === "블랙세라피몬" ? seraphimonLabel : ""
                                         }
-                                        <span className={`no-width ${raid.color}`}>{getTimeString(raid.time)}</span>
+                                        <span className={`no-width raid-time ${raid.color}`}>{getTimeString(raid.time)}</span>
                                     </div>
                 )}
                 {/* <div className="row flex-row">
