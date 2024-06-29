@@ -89,6 +89,16 @@
     width: auto;
 }
 
+.content-shortcut .content .row span.red {
+    color: var(--type-baby1-deep);
+    font-weight: 700;
+}
+
+.content-shortcut .content .row span.orange {
+    color: #ffa011;
+    font-weight: 700;
+}
+
 .content-shortcut .content .row i {
     position: relative;
 
@@ -131,6 +141,25 @@
 .content-shortcut .content .row select,
 .content-shortcut .content .row option {
     font-size: 14px;
+}
+
+.content-shortcut .content .row .raid-portrait {
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 14px;
+}
+
+.content-shortcut .content .row .raid-portrait > img {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 5px;
 }
 
 .content-shortcut .content hr {

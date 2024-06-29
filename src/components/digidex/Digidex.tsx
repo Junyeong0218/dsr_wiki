@@ -81,7 +81,7 @@ export default function Digidex(): React.ReactElement {
     const [isOpenSortModal, setIsOpenSortModal] = useState(false);
     const [tempSorts, setTempSorts] = useState<Array<Filter>>(createFilters(loadedFilterData));
 
-    console.log(all);
+    // console.log(all);
     
     const filterOptionContainer = useRef<HTMLDivElement>(null);
 
