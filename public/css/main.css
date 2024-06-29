@@ -114,11 +114,11 @@
     align-items: center;
 }
 
-.content-shortcut .content .row input {
+.content-shortcut .content .row > input {
     padding: 2px 5px;
     width: 100%;
     min-width: 60px;
-    max-width: 80px;
+    max-width: 70px;
     height: 20px;
 
     border: 1px solid var(--theme-light-background-500);
