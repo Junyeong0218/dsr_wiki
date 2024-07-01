@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { getUUID } from "../../functions/commons";
 
-const GOTSUMON1 = "01:00:00";
+const GOTSUMON1 = "06:15:00";
 const GOTSUMON2 = "23:00:00";
 const PUMPMON1 = "19:30:00";
 const PUMPMON2 = "21:30:00";
@@ -37,7 +37,6 @@ export default function RaidTimer(): React.ReactElement {
                 setCount(c => c + 1);
             }
 
-            console.log(audio.current?.dataset.audioname)
             if(audio.current?.dataset.audioname) {
                 const iframe = document.createElement("iframe");
                 iframe.src = audio.current!.dataset.audioname;

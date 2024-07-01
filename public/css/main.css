@@ -104,6 +104,10 @@
     font-weight: 700;
 }
 
+#iframeAudio {
+    display: none;
+}
+
 .content-shortcut .content .row i {
     position: relative;
 
