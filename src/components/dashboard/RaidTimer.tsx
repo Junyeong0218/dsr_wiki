@@ -1,5 +1,4 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import Audio from "./Audio";
 import { getUUID } from "../../functions/commons";
 
 const GOTSUMON1 = "01:00:00";
@@ -16,16 +15,53 @@ const HOUR = MINUTE * 60;
 const ONE_DAY = HOUR * 24;
 const TWO_WEEK = ONE_DAY * 14;
 
+const AUDIO_DIR = "/audios";
+
+type Raid = {
+    time: number
+    timeString: string
+    color: string
+    name: string
+}
+
 export default function RaidTimer(): React.ReactElement {
-    const [refresh, setRefresh] = useState(true);
+    const [count, setCount] = useState(0);
     const timer = useRef<NodeJS.Timeout>();
+    const audio = useRef<HTMLDivElement>(null);
     
     useEffect(() => {
         timer.current = setInterval(() => {
-            setRefresh(!refresh);
+            if(count === 10_000) {
+                setCount(0);
+            } else {
+                setCount(c => c + 1);
+            }
 
+            console.log(audio.current?.dataset.audioname)
+            if(audio.current?.dataset.audioname) {
+                const iframe = document.createElement("iframe");
+                iframe.src = audio.current!.dataset.audioname;
+                iframe.allow = "autoplay";
+                iframe.id = "iframeAudio";
+
+                audio.current?.appendChild(iframe);
+                iframe.onload = () => {
+                    const video = iframe.contentWindow?.document.querySelector("video");
+                    video!.onended = () => {
+                        iframe.remove();
+                    }
+
+                    setTimeout(() => {
+                        if(video?.paused) {
+                            iframe.remove();
+                        }
+                    }, 1000);
+                }
+            }
         }, 1000);
-    });
+
+        return () => clearInterval(timer.current);
+    }, []);
 
     const getTimeString = (time: number) => {
         const leftDay = time >= ONE_DAY ? Math.floor(time / ONE_DAY) : 0;
@@ -50,7 +86,7 @@ export default function RaidTimer(): React.ReactElement {
         return new Date(now.getTime() - SECOND * 1);
     }
 
-    const getLeftTimeDaily = (name: string, time: string) => {
+    const getLeftTimeDaily = (name: string, time: string): Raid => {
         const now = getNow();
         const raidHour = Number(time.substring(0,2));
         const raidMinute = Number(time.substring(3,5));
@@ -82,6 +118,7 @@ export default function RaidTimer(): React.ReactElement {
 
         return {
             time: left,
+            timeString: getTimeString(left),
             color: color,
             name: name
         };
@@ -98,7 +135,7 @@ export default function RaidTimer(): React.ReactElement {
         return startTime;
     }
 
-    const getLeftTimeWeekly = (name: string, time: string) => {
+    const getLeftTimeWeekly = (name: string, time: string): Raid => {
         const now = getNow();
         const nextRaid = new Date(getNextWeeklyRaid(now, time));
 
@@ -108,9 +145,27 @@ export default function RaidTimer(): React.ReactElement {
 
         return {
             time: left,
+            timeString: getTimeString(left),
             color: color,
             name: name
         };
+    }
+
+    const getRaidAudioName = (raid: Raid): string | undefined => {
+        if(raid.name === "오파니몬:폴다운모드" || raid.name === "블랙세라피몬") {
+            if(raid.timeString === "00:30:00") return `${AUDIO_DIR}/weekly_30minutes.wav`;
+            if(raid.timeString === "00:05:00") return `${AUDIO_DIR}/weekly_5minutes.wav`;
+        } else if(raid.name === "쿠가몬") {
+            if(raid.timeString === "00:05:00") return `${AUDIO_DIR}/kuwagamon_5minutes.wav`;
+            if(raid.timeString === "00:01:00") return `${AUDIO_DIR}/kuwagamon_1minute.wav`;
+        } else if(raid.name === "울퉁몬") {
+            if(raid.timeString === "00:05:00") return `${AUDIO_DIR}/gotsumon_5minutes.wav`;
+            if(raid.timeString === "00:01:00") return `${AUDIO_DIR}/gotsumon_1minute.wav`;
+        } else if(raid.name === "펌프몬") {
+            if(raid.timeString === "00:05:00") return `${AUDIO_DIR}/pumpmon_5minutes.wav`;
+            if(raid.timeString === "00:01:00") return `${AUDIO_DIR}/pumpmon_1minute.wav`;
+        }
+        return;
     }
 
     // console.log("울퉁몬1");
@@ -146,17 +201,19 @@ export default function RaidTimer(): React.ReactElement {
         return 1;
     });
 
+    const audioName = getRaidAudioName(raids[0]);
+
     return (
-        <div className="content-shortcut">
+        <div className="content-shortcut" ref={audio} data-audioname={audioName}>
             <div className="title">레이드 타이머</div>
             <div className="content">
-                { raids.map(raid => <div className="row flex-row">
+                { raids.map(raid => <div className="row flex-row" key={getUUID()}>
                                         { raid.name === "울퉁몬" ? gotsumonLabel : 
                                           raid.name === "펌프몬" ? pumpmonLabel : 
                                           raid.name === "오파니몬:폴다운모드" ? ophanimonLabel : 
                                           raid.name === "블랙세라피몬" ? seraphimonLabel : ""
                                         }
-                                        <span className={`no-width raid-time ${raid.color}`}>{getTimeString(raid.time)}</span>
+                                        <span className={`no-width raid-time ${raid.color}`}>{raid.timeString}</span>
                                     </div>
                 )}
                 {/* <div className="row flex-row">
@@ -183,7 +240,7 @@ export default function RaidTimer(): React.ReactElement {
                     { seraphimonLabel }
                     <span className={`no-width ${seraphimonTime.color}`}>{getTimeString(seraphimonTime.time)}</span>
                 </div> */}
-                {/* <Audio raids={raids} timeString={getTimeString(raids[0].time)} key={getUUID()} /> */}
+                <iframe src={`${AUDIO_DIR}/silence.mp3`} allow="autoplay" style={{ display: "none" }} />
             </div>
         </div>
     );
