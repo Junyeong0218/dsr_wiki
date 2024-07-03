@@ -34,7 +34,7 @@ export default function App(): React.ReactElement {
                         {/* <Route path="/guides" element={<Guides />} />
                         <Route path="/guides/:id" element={<Guide />} /> */}
 
-                        <Route path="/digimons/digidex" element={<Digidex />} />
+                        {/* <Route path="/digimons/digidex" element={<Digidex />} />
                         <Route path="/digimons/evolutions" element={<EvolutionSearcher />} />
 
                         <Route path="/maps" element={<Maps />} />
@@ -42,8 +42,6 @@ export default function App(): React.ReactElement {
                         <Route path="/dungeons/overflows" element={<Overflows />} />
                         <Route path="/dungeons/detectors" element={<Detectors />} />
 
-                        {/* <Route path="/raids" element={<Raids />} /> */}
-                        
                         <Route path="/tools/adjustments" element={<Adjustments />} />
                         <Route path="/tools/babies" element={<BabySimulator />} />
                         <Route path="/tools/potentials" element={<Potentials />} />
@@ -54,7 +52,7 @@ export default function App(): React.ReactElement {
                         <Route path="/items/equipments/tamer" element={<TamerEquipmentSearcher />} />
                         <Route path="/items/combinations" element={<CombinationSearcher />} />
                         
-                        <Route path="*" element={<NotFound />} />
+                        <Route path="*" element={<NotFound />} /> */}
                     </Routes>
                     <Footer />
                 </div>

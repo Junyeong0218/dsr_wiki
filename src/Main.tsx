@@ -50,6 +50,12 @@ const getPrevChecklist = (): CheckList => {
 }
 
 export default function Main(): React.ReactElement {
+    return (
+        <div className='main'>
+            무브의 악행으로 인해
+            무기한 문을 닫습니다.
+        </div>
+    );
     let prevChecklist = getPrevChecklist();
     
     const [checklist, setChecklist] = useState<CheckList>(prevChecklist);
