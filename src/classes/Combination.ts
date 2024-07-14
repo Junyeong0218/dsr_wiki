@@ -1,23 +1,47 @@
-import { Item } from "./Item";
+import { IItem, Item } from "./Item";
 
 export interface ICombinationIngredient {
     itemId: number,
     count: number;
+    canTrade: string;
 }
 
 export class CombinationIngredient {
     itemId: number;
     count: number;
+    canTrade: string;
 
     constructor(raw: ICombinationIngredient) {
         this.itemId = raw.itemId;
         this.count = raw.count;
+        this.canTrade = raw.canTrade;
+    }
+}
+
+export interface IResultItem {
+    id: number;
+    type: number;
+    name: string;
+    canTrade: boolean;
+}
+
+export class ResultItem {
+    id: number;
+    type: number;
+    name: string;
+    canTrade: boolean;
+
+    constructor(raw: IResultItem) {
+        this.id = raw.id;
+        this.type = raw.type;
+        this.name = raw.name;
+        this.canTrade = raw.canTrade;
     }
 }
 
 export interface ICombination {
     id: number,
-    resultItem: Item,
+    resultItem: ResultItem,
     reqPro: number,
     reqBit: number,
     rate: number,
@@ -27,7 +51,7 @@ export interface ICombination {
 
 export class Combination {
     id: number;
-    resultItem: Item;
+    resultItem: ResultItem;
     reqPro: number;
     reqBit: number;
     rate: number;

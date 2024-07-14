@@ -13,8 +13,8 @@ type LineProps = {
 export default function ToLeftProfileLine({ digimon, reload }: LineProps): React.ReactElement {
     const commons = digimon.befores?.filter(each => each.method === "일반");
     const jogress = digimon.befores?.filter(each => each.method === "조그레스") || [];
-    const commonReqItems = commons?.filter((each, index) => each.ingredient !== "") || [];
-    const jogressReqItems = jogress.filter((each, index) => each.ingredient !== "" && index === 0) || [];
+    const commonReqItems = commons?.filter((each, index) => each.ingredient !== null) || [];
+    const jogressReqItems = jogress.filter((each, index) => each.ingredient !== null && index === 0) || [];
 
     const GAP = 5;
     
@@ -142,13 +142,13 @@ export default function ToLeftProfileLine({ digimon, reload }: LineProps): React
             {/* 필요아이템 있는 경우 표시 */}
             { commonReqItems.length > 0 &&
                 <RequiredItem fileName={commonReqItems[0].ingredient} 
-                              left={43}
+                              left={42}
                               top={getMiddleTop(digimon) - 15}
                               key={getUUID()} />
             }
             { jogressReqItems.length > 0 &&
                 <RequiredItem fileName={jogressReqItems[0].ingredient} 
-                              left={43}
+                              left={42}
                               top={getMiddleTop(digimon) - 15}
                               key={getUUID()} />
             }

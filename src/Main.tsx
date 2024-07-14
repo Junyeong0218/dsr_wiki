@@ -52,8 +52,7 @@ const getPrevChecklist = (): CheckList => {
 export default function Main(): React.ReactElement {
     return (
         <div className='main'>
-            무브의 악행으로 인해
-            무기한 문을 닫습니다.
+            무브의 악행으로 인해 무기한 문을 닫습니다.
         </div>
     );
     let prevChecklist = getPrevChecklist();
@@ -98,7 +97,7 @@ export default function Main(): React.ReactElement {
                         <div className="title">오늘의 오버플로우 던전</div>
                         <div className="content">
                             { activeOverflows.map(overflow => (
-                                <div className="row" key={getUUID()}>{overflow.mapName}</div>
+                                <Link className="row" key={getUUID()} to={`/dungeons/overflows?map=${overflow.mapName}`}>{overflow.mapName}</Link>
                             ))}
                         </div>
                     </div>

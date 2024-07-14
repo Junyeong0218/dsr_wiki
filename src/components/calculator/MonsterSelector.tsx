@@ -43,7 +43,7 @@ export default function MonsterSelector({ monster, setMonster }: props): React.R
     const [selectedMap, setSelectedMap] = useState<Option>({ label: originMap.name, value: originMap.id});
 
     const baseMonster = categories[selectedCategory.value][0].monsters![0];
-    const basicMonster = !monster ? { label: `${baseMonster.name}(${baseMonster.level})`, value: baseMonster.id } : { label: `${monster.name}(${monster.level})`, value: baseMonster.id };
+    const basicMonster = !monster ? { label: `${baseMonster.name}(${baseMonster.level})`, value: baseMonster.id } : { label: `${monster.name}(${monster.level})`, value: monster.id };
     const [selectedMonster, setSelectedMonster] = useState<Option>(basicMonster);
 
     const onChangeCategory = (newValue: SingleValue<Option>, actionMeta: ActionMeta<Option>) => {

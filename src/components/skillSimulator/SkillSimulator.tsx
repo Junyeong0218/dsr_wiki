@@ -44,7 +44,7 @@ const getDefaultSpent = (grade: number|undefined): Spent => {
 }
 
 export default function SkillSimulator(): React.ReactElement {
-    const all = useRef<Array<Digimon>>(getAllDigimons(false));
+    const all = useRef<Array<Digimon>>(getAllDigimons(false, false));
     
     const [text, setText] = useState("");
     const [filtered, setFiltered] = useState<Array<Digimon>>(all.current);

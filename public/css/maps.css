@@ -364,7 +364,16 @@
   top: 10px;
   left: 60px;
 
-  font-size: 14px;
+  font-size: 13px;
+  color: var(--white);
+}
+
+#shop-modal .shop-item .item-limit {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+
+  font-size: 11px;
   color: var(--white);
 }
 

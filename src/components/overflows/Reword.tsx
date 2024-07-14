@@ -10,7 +10,7 @@ export default function Reword({ reword }: RewordProps): React.ReactElement {
             <img src={`/images/${encodeURIComponent(getNameExceptColon(reword.item.name))}.png`} title={reword.item.name}/>
             <div className="reword-info">
                 <span title={reword.item.name}>{reword.item.name}</span>
-                <span className={reword.item.canTrade ? "green" : "red"}>{reword.item.canTrade ? "거래가능" : "거래불가"}</span>
+                <span className={reword.canTrade ? "green" : "red"}>{reword.canTrade ? "거래가능" : "거래불가"}</span>
                 <span>{reword.count}ea</span>
             </div>
             

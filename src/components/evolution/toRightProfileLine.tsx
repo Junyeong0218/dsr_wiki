@@ -14,8 +14,8 @@ type LineProps = {
 export default function ToRightProfileLine({ digimon, reload }: LineProps): React.ReactElement {
     const commons = digimon.afters?.filter(each => each.method === "일반");
     const jogress = digimon.afters?.filter(each => each.method === "조그레스") || [];
-    const commonReqItems = commons?.filter((each, index) => each.ingredient !== "") || [];
-    const jogressReqItems = jogress?.filter((each, index) => each.ingredient !== "" && index === 0) || [];
+    const commonReqItems = commons?.filter((each, index) => each.ingredient !== null) || [];
+    const jogressReqItems = jogress?.filter((each, index) => each.ingredient !== null && index === 0) || [];
     
     const GAP = 5;
 
@@ -58,7 +58,7 @@ export default function ToRightProfileLine({ digimon, reload }: LineProps): Reac
         let acc = PROFILE_HEIGHT * rightScore;
 
         if(rightScore > 1) acc += GAP * (rightScore - 1);
-        if(digimon.name === "엔젤우몬") console.log(rightScore, acc)
+        // if(digimon.name === "엔젤우몬") console.log(rightScore, acc)
         return acc;
     }
 
@@ -146,7 +146,7 @@ export default function ToRightProfileLine({ digimon, reload }: LineProps): Reac
 
             {/* 조그레스 대상 디지몬 with */}
             { jogress.length > 0 &&
-                <JogressProfile digimon={Evolution.getById(jogress[0].with)!} 
+                <JogressProfile digimon={Evolution.getById(jogress[0].with!)!} 
                                 top={getRateTop(jogress[0].digimon!, digimon.afters!.findIndex(after => after.to === jogress[0].to && after.method === "조그레스")) + 30}
                                 key={getUUID()} />
             }
@@ -154,8 +154,9 @@ export default function ToRightProfileLine({ digimon, reload }: LineProps): Reac
             {/* 필요아이템 있는 경우 표시 */}
             { commonReqItems.length > 0 &&
                 <RequiredItem fileName={commonReqItems[0].ingredient} 
-                              left={7}
-                              top={PROFILE_HEIGHT * (commonReqItems.length / 2) - 15}
+                              left={8}
+                            //   top={PROFILE_HEIGHT * (commonReqItems.length / 2) - 15}
+                              top={getMiddleTop(digimon) - 15}
                               key={getUUID()} />
             }
             { jogressReqItems.length > 0 &&

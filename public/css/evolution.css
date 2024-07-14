@@ -189,4 +189,6 @@
   min-height: 30px;
   max-height: 30px;
   opacity: 1;
+
+  border-radius: 3px;
 }

@@ -4,7 +4,7 @@ export interface IEvolutionInfo {
     from: number,
     to: number,
     rate: number,
-    ingredient: string,
+    ingredient: string | null,
     method: string,
     reqLevel: number,
     reqBonding: number,
@@ -13,7 +13,7 @@ export interface IEvolutionInfo {
     reqSpd: number,
     reqRes: number,
     reqDef: number,
-    with: number
+    with: number | null;
 }
 
 export class EvolutionInfo {
@@ -24,7 +24,7 @@ export class EvolutionInfo {
     digimon: Evolution | null;
     isFold: boolean = false;
     rate: number;
-    ingredient: string;
+    ingredient: string | null;
     method: string;
     reqLevel: number;
     reqBonding: number;
@@ -33,7 +33,7 @@ export class EvolutionInfo {
     reqSpd: number;
     reqRes: number;
     reqDef: number;
-    with: number;
+    with: number | null;
 
     constructor(raw: IEvolutionInfo) {
         this.from = raw.from;

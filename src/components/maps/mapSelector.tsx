@@ -21,7 +21,9 @@ export default function MapSelector({ maps, selectedMap, setMap }: MapSelectorPr
                 shortcuts[`${map.category}`] = [];
             }
 
-            shortcuts[`${map.category}`].push(map);
+            if(!map.disable) {
+                shortcuts[`${map.category}`].push(map);
+            }
         });
         
         return shortcuts;

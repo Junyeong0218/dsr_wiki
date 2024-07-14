@@ -8,6 +8,7 @@ export interface IMap {
     id: number,
     name: string,
     category: string,
+    disable: boolean,
     portals: Array<any> | null,
     warps: Array<any> | null,
     shops: Array<any> | null,
@@ -19,6 +20,7 @@ export class Map {
     id: number;
     name: string;
     category: string;
+    disable: boolean;
     portals: Array<Portal> | null;
     warps: Array<Warp> | null;
     shops: Array<Shop> | null;
@@ -29,6 +31,7 @@ export class Map {
         this.id = raw.id;
         this.name = raw.name;
         this.category = raw.category;
+        this.disable = raw.disable;
         this.portals = null;
         this.warps = null;
         this.shops = null;

@@ -6,20 +6,21 @@ const origin: Array<Digimon> = new Array();
 
 const loadDigimons = (): void => {
     if(origin.length === 0) {
-        data.forEach((value: IDigimon) => {
+        data.filter(d => d.grade > 2).forEach((value: IDigimon) => {
             origin.push(new Digimon(value));
         });
     }
 }
 
-const deepCopyAll = (includeMutation: boolean): Array<Digimon> => {
+const deepCopyAll = (includeMutation: boolean, includeApo: boolean): Array<Digimon> => {
     loadDigimons();
 
     const all = new Array();
     for (const each of origin) {
         if(includeMutation || !each.name.includes("[돌연변이]"))
             // all.push(deepCopyDigimon(each));
-            all.push(new Digimon(each));
+            if(!includeApo && each.name !== "아포카리몬")
+                all.push(new Digimon(each));
     }
 
     return all;
@@ -45,7 +46,7 @@ const getDigimonByName = (name: string): Digimon|null => {
     return new Digimon(digimon);
 }
 
-const getAllDigimons = (includeMutation: boolean): Array<Digimon> => deepCopyAll(includeMutation);
+const getAllDigimons = (includeMutation: boolean, includeApo: boolean): Array<Digimon> => deepCopyAll(includeMutation, includeApo);
 
 export {
     getAllDigimons,

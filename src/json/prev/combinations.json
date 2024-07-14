@@ -1,0 +1,1778 @@
+[
+  {
+    "id": 1,
+    "resultItem": {
+      "id": 17,
+      "type": 1,
+      "name": "크루아상",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 1, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 202, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 2,
+    "resultItem": {
+      "id": 17,
+      "type": 1,
+      "name": "크루아상",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 1, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 203, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 3,
+    "resultItem": {
+      "id": 17,
+      "type": 1,
+      "name": "크루아상",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 1, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 204, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 4,
+    "resultItem": {
+      "id": 17,
+      "type": 1,
+      "name": "크루아상",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 1, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 200, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 5,
+    "resultItem": {
+      "id": 17,
+      "type": 1,
+      "name": "크루아상",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 50,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [{ "itemId": 1, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 6,
+    "resultItem": {
+      "id": 18,
+      "type": 1,
+      "name": "에그 타르트",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 35,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 3, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 208, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 7,
+    "resultItem": {
+      "id": 18,
+      "type": 1,
+      "name": "에그 타르트",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 35,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 3, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 213, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 8,
+    "resultItem": {
+      "id": 18,
+      "type": 1,
+      "name": "에그 타르트",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 35,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 3, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 214, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 9,
+    "resultItem": {
+      "id": 18,
+      "type": 1,
+      "name": "에그 타르트",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 35,
+    "reqBit": 200,
+    "rate": 0.9,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 17, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 10,
+    "resultItem": {
+      "id": 19,
+      "type": 1,
+      "name": "조각피자",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 70,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 5, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 219, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 11,
+    "resultItem": {
+      "id": 19,
+      "type": 1,
+      "name": "조각피자",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 70,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 5, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 225, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 12,
+    "resultItem": {
+      "id": 19,
+      "type": 1,
+      "name": "조각피자",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 70,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 5, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 220, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 13,
+    "resultItem": {
+      "id": 19,
+      "type": 1,
+      "name": "조각피자",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 70,
+    "reqBit": 350,
+    "rate": 0.85,
+    "bigRate": 0.01,
+    "ingredients": [{ "itemId": 18, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 14,
+    "resultItem": {
+      "id": 20,
+      "type": 1,
+      "name": "소세지빵",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 7, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 235, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 15,
+    "resultItem": {
+      "id": 20,
+      "type": 1,
+      "name": "소세지빵",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 7, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 239, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 16,
+    "resultItem": {
+      "id": 20,
+      "type": 1,
+      "name": "소세지빵",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 7, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 233, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 17,
+    "resultItem": {
+      "id": 20,
+      "type": 1,
+      "name": "소세지빵",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 500,
+    "rate": 0.85,
+    "bigRate": 0.01,
+    "ingredients": [{ "itemId": 19, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 18,
+    "resultItem": {
+      "id": 21,
+      "type": 1,
+      "name": "우유",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 9, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 202, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 19,
+    "resultItem": {
+      "id": 21,
+      "type": 1,
+      "name": "우유",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 9, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 203, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 20,
+    "resultItem": {
+      "id": 21,
+      "type": 1,
+      "name": "우유",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 9, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 204, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 21,
+    "resultItem": {
+      "id": 21,
+      "type": 1,
+      "name": "우유",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 9, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 200, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 22,
+    "resultItem": {
+      "id": 21,
+      "type": 1,
+      "name": "우유",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 50,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [{ "itemId": 9, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 23,
+    "resultItem": {
+      "id": 22,
+      "type": 1,
+      "name": "이온음료",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 40,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 10, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 208, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 24,
+    "resultItem": {
+      "id": 22,
+      "type": 1,
+      "name": "이온음료",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 40,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 10, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 213, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 25,
+    "resultItem": {
+      "id": 22,
+      "type": 1,
+      "name": "이온음료",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 40,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 10, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 214, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 26,
+    "resultItem": {
+      "id": 22,
+      "type": 1,
+      "name": "이온음료",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 40,
+    "reqBit": 200,
+    "rate": 0.9,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 21, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 27,
+    "resultItem": {
+      "id": 23,
+      "type": 1,
+      "name": "홍차",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 75,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 11, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 226, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 28,
+    "resultItem": {
+      "id": 23,
+      "type": 1,
+      "name": "홍차",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 75,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 11, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 227, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 29,
+    "resultItem": {
+      "id": 23,
+      "type": 1,
+      "name": "홍차",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 75,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 11, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 232, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 30,
+    "resultItem": {
+      "id": 23,
+      "type": 1,
+      "name": "홍차",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 75,
+    "reqBit": 350,
+    "rate": 0.85,
+    "bigRate": 0.01,
+    "ingredients": [{ "itemId": 22, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 31,
+    "resultItem": {
+      "id": 24,
+      "type": 1,
+      "name": "버블티",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 13, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 237, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 32,
+    "resultItem": {
+      "id": 24,
+      "type": 1,
+      "name": "버블티",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 13, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 242, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 33,
+    "resultItem": {
+      "id": 24,
+      "type": 1,
+      "name": "버블티",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 13, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 240, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 34,
+    "resultItem": {
+      "id": 24,
+      "type": 1,
+      "name": "버블티",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 500,
+    "rate": 0.85,
+    "bigRate": 0.01,
+    "ingredients": [{ "itemId": 23, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 35,
+    "resultItem": {
+      "id": 25,
+      "type": 1,
+      "name": "EVP데이터 칩(소형)",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 20,
+    "reqBit": 100,
+    "rate": 0.9,
+    "bigRate": 0.02,
+    "ingredients": [
+      { "itemId": 201, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 205, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 206, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 207, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 36,
+    "resultItem": {
+      "id": 25,
+      "type": 1,
+      "name": "EVP데이터 칩(소형)",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 85,
+    "reqBit": 100,
+    "rate": 0.9,
+    "bigRate": 0.02,
+    "ingredients": [
+      { "itemId": 221, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 224, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 223, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 37,
+    "resultItem": {
+      "id": 25,
+      "type": 1,
+      "name": "EVP데이터 칩(소형)",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 120,
+    "reqBit": 0,
+    "rate": 0.9,
+    "bigRate": 0.02,
+    "ingredients": [
+      { "itemId": 233, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 238, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 241, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 38,
+    "resultItem": {
+      "id": 34,
+      "type": 1,
+      "name": "HP차지데이터 M",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 50,
+    "reqBit": 0,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 30, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 210, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 211, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 39,
+    "resultItem": {
+      "id": 35,
+      "type": 1,
+      "name": "SP차지데이터 M",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 50,
+    "reqBit": 80,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 32, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 215, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 209, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 40,
+    "resultItem": {
+      "id": 37,
+      "type": 2,
+      "name": "경험치 20% 증가 (1일)",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 50000,
+    "rate": 0.8,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 36, "count": 3, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 41,
+    "resultItem": {
+      "id": 39,
+      "type": 2,
+      "name": "아이템 드랍률 50% (1일)",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 50000,
+    "rate": 0.8,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 38, "count": 3, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 42,
+    "resultItem": {
+      "id": 41,
+      "type": 2,
+      "name": "이동속도 30% 증가 (1일)",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 50000,
+    "rate": 0.8,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 40, "count": 3, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 43,
+    "resultItem": {
+      "id": 43,
+      "type": 2,
+      "name": "비트 획득율 100% (1일)",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 50000,
+    "rate": 0.8,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 42, "count": 3, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 44,
+    "resultItem": {
+      "id": 45,
+      "type": 2,
+      "name": "유대감 0.1% 증가 물약",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 145,
+    "reqBit": 5000,
+    "rate": 0.9,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 252, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 257, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 256, "count": 5, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 45,
+    "resultItem": {
+      "id": 45,
+      "type": 2,
+      "name": "유대감 0.1% 증가 물약",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 145,
+    "reqBit": 5000,
+    "rate": 0.9,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 253, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 254, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 255, "count": 5, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 46,
+    "resultItem": {
+      "id": 79,
+      "type": 3,
+      "name": "특수 탐지기",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 50,
+    "reqBit": 0,
+    "rate": 0.9,
+    "bigRate": 0.04,
+    "ingredients": [
+      { "itemId": 197, "count": 4, "canTrade": "TRUE" },
+      { "itemId": 78, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 47,
+    "resultItem": {
+      "id": 80,
+      "type": 3,
+      "name": "신형 탐지기",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 65,
+    "reqBit": 0,
+    "rate": 0.9,
+    "bigRate": 0.04,
+    "ingredients": [
+      { "itemId": 198, "count": 2, "canTrade": "TRUE" },
+      { "itemId": 79, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 48,
+    "resultItem": {
+      "id": 81,
+      "type": 3,
+      "name": "계곡 탐지기",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 100,
+    "reqBit": 0,
+    "rate": 0.9,
+    "bigRate": 0.04,
+    "ingredients": [
+      { "itemId": 199, "count": 3, "canTrade": "TRUE" },
+      { "itemId": 80, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 49,
+    "resultItem": {
+      "id": 85,
+      "type": 4,
+      "name": "성숙기 스킬 강화석",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 10,
+    "reqBit": 1000,
+    "rate": 0.9,
+    "bigRate": 0.01,
+    "ingredients": [{ "itemId": 84, "count": 3, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 50,
+    "resultItem": {
+      "id": 86,
+      "type": 4,
+      "name": "완전체 스킬 강화석",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 95,
+    "reqBit": 5000,
+    "rate": 0.65,
+    "bigRate": 0.03,
+    "ingredients": [
+      { "itemId": 245, "count": 4, "canTrade": "TRUE" },
+      { "itemId": 247, "count": 4, "canTrade": "TRUE" },
+      { "itemId": 248, "count": 4, "canTrade": "TRUE" },
+      { "itemId": 238, "count": 4, "canTrade": "TRUE" },
+      { "itemId": 85, "count": 3, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 51,
+    "resultItem": {
+      "id": 86,
+      "type": 4,
+      "name": "완전체 스킬 강화석",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 95,
+    "reqBit": 5000,
+    "rate": 0.65,
+    "bigRate": 0.03,
+    "ingredients": [
+      { "itemId": 221, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 229, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 219, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 226, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 85, "count": 3, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 52,
+    "resultItem": {
+      "id": 88,
+      "type": 4,
+      "name": "궁극체 스킬 강화석",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 1000,
+    "rate": 0.4,
+    "bigRate": 0.06,
+    "ingredients": [
+      { "itemId": 86, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 268, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 53,
+    "resultItem": {
+      "id": 88,
+      "type": 4,
+      "name": "궁극체 스킬 강화석",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 110,
+    "reqBit": 2000,
+    "rate": 0.25,
+    "bigRate": 0.03,
+    "ingredients": [{ "itemId": 86, "count": 3, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 54,
+    "resultItem": {
+      "id": 88,
+      "type": 4,
+      "name": "궁극체 스킬 강화석",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 110,
+    "reqBit": 2000,
+    "rate": 0.2,
+    "bigRate": 0.03,
+    "ingredients": [
+      { "itemId": 86, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 268, "count": 1, "canTrade": "FALSE" }
+    ]
+  },
+  {
+    "id": 55,
+    "resultItem": {
+      "id": 197,
+      "type": 7,
+      "name": "오래된 HDD",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 10,
+    "reqBit": 500,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [{ "itemId": 195, "count": 3, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 56,
+    "resultItem": {
+      "id": 198,
+      "type": 7,
+      "name": "고장난 USB",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 50,
+    "reqBit": 1000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [{ "itemId": 196, "count": 2, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 57,
+    "resultItem": {
+      "id": 199,
+      "type": 7,
+      "name": "오래된 USB",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 70,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 196, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 198, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 58,
+    "resultItem": {
+      "id": 266,
+      "type": 7,
+      "name": "최하급 스킬 보호석",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 95,
+    "reqBit": 1500,
+    "rate": 0.75,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 265, "count": 10, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 59,
+    "resultItem": {
+      "id": 275,
+      "type": 7,
+      "name": "OF 접근권한 : ZERO",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 100000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 270, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 271, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 272, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 273, "count": 1, "canTrade": "FALSE" }
+    ]
+  },
+  {
+    "id": 60,
+    "resultItem": {
+      "id": 278,
+      "type": 7,
+      "name": "최고급 강화 재료",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 20,
+    "reqBit": 5000,
+    "rate": 0.75,
+    "bigRate": 0.05,
+    "ingredients": [{ "itemId": 276, "count": 2, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 61,
+    "resultItem": {
+      "id": 280,
+      "type": 7,
+      "name": "하급 비밀 첨가제",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 10000,
+    "rate": 0.65,
+    "bigRate": 0,
+    "ingredients": [{ "itemId": 279, "count": 3, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 62,
+    "resultItem": {
+      "id": 282,
+      "type": 7,
+      "name": "하급 조합 촉매제",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 5000,
+    "rate": 0.75,
+    "bigRate": 0,
+    "ingredients": [{ "itemId": 281, "count": 3, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 63,
+    "resultItem": {
+      "id": 294,
+      "type": 7,
+      "name": "찢겨진 고정책",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 500,
+    "rate": 1,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 284, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 64,
+    "resultItem": {
+      "id": 294,
+      "type": 7,
+      "name": "찢겨진 고정책",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 500,
+    "rate": 1,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 286, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 65,
+    "resultItem": {
+      "id": 294,
+      "type": 7,
+      "name": "찢겨진 고정책",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 500,
+    "rate": 1,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 288, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 66,
+    "resultItem": {
+      "id": 294,
+      "type": 7,
+      "name": "찢겨진 고정책",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 500,
+    "rate": 1,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 290, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 67,
+    "resultItem": {
+      "id": 294,
+      "type": 7,
+      "name": "찢겨진 고정책",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 500,
+    "rate": 1,
+    "bigRate": 0.02,
+    "ingredients": [{ "itemId": 292, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 68,
+    "resultItem": {
+      "id": 323,
+      "type": 7,
+      "name": "강화된 포텐셜 조각",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 135,
+    "reqBit": 10000,
+    "rate": 0.95,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 321, "count": 100, "canTrade": "BOTH" },
+      { "itemId": 315, "count": 2, "canTrade": "BOTH" }
+    ]
+  },
+  {
+    "id": 69,
+    "resultItem": {
+      "id": 299,
+      "type": 7,
+      "name": "에보류터",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 25,
+    "reqBit": 25000,
+    "rate": 0.1,
+    "bigRate": 0.02,
+    "ingredients": [
+      { "itemId": 315, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 317, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 319, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 70,
+    "resultItem": {
+      "id": 299,
+      "type": 7,
+      "name": "에보류터",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 25,
+    "reqBit": 50000,
+    "rate": 0.1,
+    "bigRate": 0.02,
+    "ingredients": [
+      { "itemId": 315, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 317, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 319, "count": 1, "canTrade": "FALSE" }
+    ]
+  },
+  {
+    "id": 71,
+    "resultItem": {
+      "id": 306,
+      "type": 7,
+      "name": "메탈그레이몬의 흉갑",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 125,
+    "reqBit": 100000,
+    "rate": 0.35,
+    "bigRate": 0.02,
+    "ingredients": [
+      { "itemId": 226, "count": 10, "canTrade": "TRUE" },
+      { "itemId": 219, "count": 10, "canTrade": "TRUE" },
+      { "itemId": 224, "count": 10, "canTrade": "TRUE" },
+      { "itemId": 86, "count": 3, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 72,
+    "resultItem": {
+      "id": 308,
+      "type": 7,
+      "name": "파워드라몬 개조파츠",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 130,
+    "reqBit": 500000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 302, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 303, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 304, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 305, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 306, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 307, "count": 1, "canTrade": "FALSE" }
+    ]
+  },
+  {
+    "id": 73,
+    "resultItem": {
+      "id": 310,
+      "type": 7,
+      "name": "키메라몬 생체 파츠-A",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 100,
+    "reqBit": 100000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 260, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 246, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 264, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 258, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 222, "count": 1, "canTrade": "FALSE" }
+    ]
+  },
+  {
+    "id": 74,
+    "resultItem": {
+      "id": 311,
+      "type": 7,
+      "name": "키메라몬 생체 파츠-B",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 100,
+    "reqBit": 100000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 262, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 263, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 261, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 259, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 75,
+    "resultItem": {
+      "id": 312,
+      "type": 7,
+      "name": "키메라몬의 생체 데이터",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 110,
+    "reqBit": 500000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 310, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 311, "count": 1, "canTrade": "FALSE" }
+    ]
+  },
+  {
+    "id": 76,
+    "resultItem": {
+      "id": 317,
+      "type": 7,
+      "name": "부서진 제로유니트",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 55,
+    "reqBit": 35000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [{ "itemId": 319, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 77,
+    "resultItem": {
+      "id": 319,
+      "type": 7,
+      "name": "빛나는 제로유니트",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 55,
+    "reqBit": 35000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [{ "itemId": 317, "count": 1, "canTrade": "TRUE" }]
+  },
+  {
+    "id": 78,
+    "resultItem": {
+      "id": 391,
+      "type": 9,
+      "name": "감로망 쉐이크",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 1000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 375, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 373, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 329, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 79,
+    "resultItem": {
+      "id": 389,
+      "type": 9,
+      "name": "루비드헬 쉐이크",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 1000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 373, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 379, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 329, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 80,
+    "resultItem": {
+      "id": 393,
+      "type": 9,
+      "name": "신비코코넛 쉐이크",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 1000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 383, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 385, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 329, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 81,
+    "resultItem": {
+      "id": 392,
+      "type": 9,
+      "name": "탐 콴 바나나 쉐이크",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 1000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 387, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 385, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 329, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 82,
+    "resultItem": {
+      "id": 394,
+      "type": 9,
+      "name": "한라사과 쉐이크",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 1000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 377, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 381, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 329, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 83,
+    "resultItem": {
+      "id": 390,
+      "type": 9,
+      "name": "한라홍 쉐이크",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 1000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 377, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 375, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 329, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 84,
+    "resultItem": {
+      "id": 388,
+      "type": 9,
+      "name": "아오리 드헬 쉐이크",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 1000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 381, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 379, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 329, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 85,
+    "resultItem": {
+      "id": 395,
+      "type": 10,
+      "name": "만개의 날개",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 327, "count": 50, "canTrade": "FALSE" },
+      { "itemId": 328, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 86,
+    "resultItem": {
+      "id": 396,
+      "type": 10,
+      "name": "고양이 귀 머리띠",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 0,
+    "reqBit": 0,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [{ "itemId": 327, "count": 19, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 87,
+    "resultItem": {
+      "id": 624,
+      "type": 11,
+      "name": "빛바랜 디지바이스",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 145,
+    "reqBit": 100000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 624, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 628, "count": 1, "canTrade": "BOTH" }
+    ]
+  },
+  {
+    "id": 88,
+    "resultItem": {
+      "id": 625,
+      "type": 11,
+      "name": "디지바이스",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 150,
+    "reqBit": 112500,
+    "rate": 0.07,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 624, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 630, "count": 1, "canTrade": "BOTH" }
+    ]
+  },
+  {
+    "id": 89,
+    "resultItem": {
+      "id": 625,
+      "type": 11,
+      "name": "디지바이스",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 150,
+    "reqBit": 100000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 625, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 628, "count": 1, "canTrade": "BOTH" }
+    ]
+  },
+  {
+    "id": 90,
+    "resultItem": {
+      "id": 626,
+      "type": 11,
+      "name": "빛나는 디지바이스",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 150,
+    "reqBit": 187500,
+    "rate": 0.05,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 625, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 631, "count": 1, "canTrade": "BOTH" }
+    ]
+  },
+  {
+    "id": 91,
+    "resultItem": {
+      "id": 626,
+      "type": 11,
+      "name": "빛나는 디지바이스",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 150,
+    "reqBit": 100000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 626, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 628, "count": 1, "canTrade": "BOTH" },
+      { "itemId": 629, "count": 1, "canTrade": "BOTH" }
+    ]
+  },
+  {
+    "id": 92,
+    "resultItem": {
+      "id": 627,
+      "type": 11,
+      "name": "최후의 디지바이스",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 150,
+    "reqBit": 350000,
+    "rate": 0.03,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 626, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 632, "count": 1, "canTrade": "BOTH" }
+    ]
+  },
+  {
+    "id": 93,
+    "resultItem": {
+      "id": 627,
+      "type": 11,
+      "name": "최후의 디지바이스",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 150,
+    "reqBit": 100000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 627, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 628, "count": 1, "canTrade": "BOTH" },
+      { "itemId": 629, "count": 1, "canTrade": "BOTH" }
+    ]
+  },
+  {
+    "id": 94,
+    "resultItem": {
+      "id": 637,
+      "type": 11,
+      "name": "온전한 조화의 귀걸이",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 100000,
+    "rate": 0.05,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 633, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 596, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 587, "count": 12, "canTrade": "TRUE" },
+      { "itemId": 586, "count": 25, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 95,
+    "resultItem": {
+      "id": 638,
+      "type": 11,
+      "name": "온전한 조화의 목걸이",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 100000,
+    "rate": 0.05,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 634, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 603, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 602, "count": 12, "canTrade": "TRUE" },
+      { "itemId": 646, "count": 25, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 96,
+    "resultItem": {
+      "id": 639,
+      "type": 11,
+      "name": "온전한 조화의 팔찌",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 100000,
+    "rate": 0.05,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 635, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 598, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 593, "count": 12, "canTrade": "TRUE" },
+      { "itemId": 592, "count": 25, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 97,
+    "resultItem": {
+      "id": 640,
+      "type": 11,
+      "name": "온전한 조화의 반지",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 100000,
+    "rate": 0.05,
+    "bigRate": 0,
+    "ingredients": [
+      { "itemId": 636, "count": 1, "canTrade": "FALSE" },
+      { "itemId": 597, "count": 5, "canTrade": "TRUE" },
+      { "itemId": 588, "count": 12, "canTrade": "TRUE" },
+      { "itemId": 589, "count": 25, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 98,
+    "resultItem": {
+      "id": 622,
+      "type": 10,
+      "name": "순수의 모자 (남)",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 10000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [{ "itemId": 623, "count": 1, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 99,
+    "resultItem": {
+      "id": 623,
+      "type": 10,
+      "name": "순수의 모자 (여)",
+      "price": 0,
+      "canTrade": false
+    },
+    "reqPro": 0,
+    "reqBit": 10000,
+    "rate": 1,
+    "bigRate": 0,
+    "ingredients": [{ "itemId": 622, "count": 1, "canTrade": "FALSE" }]
+  },
+  {
+    "id": 100,
+    "resultItem": {
+      "id": 647,
+      "type": 1,
+      "name": "HP차지데이터 XL",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 145,
+    "reqBit": 500,
+    "rate": 0.9,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 31, "count": 2, "canTrade": "TRUE" },
+      { "itemId": 596, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 597, "count": 1, "canTrade": "TRUE" }
+    ]
+  },
+  {
+    "id": 101,
+    "resultItem": {
+      "id": 648,
+      "type": 1,
+      "name": "SP차지데이터 XL",
+      "price": 0,
+      "canTrade": true
+    },
+    "reqPro": 145,
+    "reqBit": 500,
+    "rate": 0.9,
+    "bigRate": 0.01,
+    "ingredients": [
+      { "itemId": 33, "count": 2, "canTrade": "TRUE" },
+      { "itemId": 598, "count": 1, "canTrade": "TRUE" },
+      { "itemId": 603, "count": 1, "canTrade": "TRUE" }
+    ]
+  }
+]

@@ -1,16 +1,17 @@
 import React from "react";
-import { Digimon, Monster } from "../../classes";
+import { Digimon } from "../../classes";
+import { IStageMontser } from "../../classes/Overflow";
 
 type DropsModalProps = { 
     isOpen: boolean, 
-    monster: Monster|null, 
+    monster: IStageMontser|null, 
     position: { top: number, left: number }
 }
 
 export default function MonsterDescriptionModal({ isOpen, monster, position }: DropsModalProps): React.ReactElement {
     if(!monster) return <div id="drops-modal" className={`modal ${isOpen ? "active" : ""}`} style={{ top: position.top, left: position.left }}></div>
 
-    const digimon = Digimon.getByName(monster.name)!;
+    const digimon = Digimon.getByName(monster.name)!
     
     return (
         <div id="overflow-monster-description-modal" className={`modal ${isOpen ? "active" : ""}`} style={{ top: position.top, left: position.left }}>

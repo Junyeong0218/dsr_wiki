@@ -146,7 +146,7 @@ export default function Adjustments(): React.ReactElement {
     const digiviceSimulator = useMemo(() => {
         return <div className="digivice-simulator">
                     <div className="digivice-container">
-                        <img src="/images/디지바이스.png" className="digivice "/>
+                        <img src="/images/디지바이스_시뮬.png" className="digivice "/>
                         <div className="digivice-screens">
                             <ul className="screen-mover">
                                 <li><span data-id="first">최초 교정</span></li>

@@ -112,6 +112,8 @@
 
 .combination-shortcut > img {
   height: 100%;
+
+  border-radius: 4px;
 }
 
 .shortcut-texts {
@@ -170,6 +172,8 @@
 .result-item-info img {
     width: 100px;
     height: 100px;
+
+    border-radius: 7px;
 }
 
 .result-item-info > .result-item-title {
@@ -228,24 +232,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    /* gap: 5px; */
 }
 
 .ingredient > img {
+    margin-bottom: 5px;
+
     width: 60px;
     height: 60px;
+
+    border-radius: 4px;
 }
 
 .ingredient > span {
     line-height: 25px;
 }
 
-.ingredient > .red {
+.ingredient > .tradable {
     font-size: 14px;
+    line-height: 18px;
+}
+
+.ingredient > .red {
     color: var(--type-baby1-deep);
 }
 
 .ingredient > .green {
-    font-size: 14px;
     color: var(--type-child-deep);
 }

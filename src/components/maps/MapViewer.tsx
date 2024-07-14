@@ -34,8 +34,14 @@ export default function MapViewer({ map }: MapViewerProps) {
             const classList = target.classList;
             
             if(classList.contains("shop") && map.shops) {
-                if(target.id === "common") selectedShop.current = map.shops[0];
-                else selectedShop.current = map.shops[1];
+                const shop = map.shops.find(s => s.point.x === Number(target.style.left.replace("px", "")) && s.point.y === Number(target.style.top.replace("px", "")))!;
+                console.log(Number(target.style.left.replace("px", "")));
+                console.log(Number(target.style.top.replace("px", "")));
+                console.log(map.shops);
+                console.log(shop);
+                // if(target.id === "common") selectedShop.current = map.shops[0];
+                // else selectedShop.current = map.shops[1];
+                selectedShop.current = shop;
                 
                 const mapRect = target.parentElement!.getBoundingClientRect();
                 if(event.pageY + 450 > window.innerHeight) {

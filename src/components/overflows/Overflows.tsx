@@ -4,16 +4,22 @@ import { getUUID } from "../../functions/commons";
 import OverflowShortcut from "./OverflowShortcut";
 import StageTag from "./Stage";
 import MonsterDescriptionModal from "./MonsterDescriptionModal";
-import { Monster } from "../../classes";
+import { IStageMontser } from "../../classes/Overflow";
+import { useLocation } from "react-router-dom";
 
 export default function Overflows(): React.ReactElement {
     const all = getAllOverflows();
 
-    const [selected, setSelected] = useState(all[0]);
+    const location = useLocation();
+    const search = location.search;
+    const query = search.trim() === "" ? null : decodeURIComponent(search.replace("?map=", ""));
+    const found = all.find(each => each.mapName === query);
+
+    const [selected, setSelected] = useState(found ?? all[0]);
     const [modalPosition, setModalPosition] = useState({ top: 0, left: 0 });
     const [isOpenModal, setIsOpenModal] = useState(false);
 
-    const selectedMonster = useRef<Monster|null>(null);
+    const selectedMonster = useRef<IStageMontser|null>(null);
 
     const captureMouse = (event: React.MouseEvent<HTMLDivElement>): void => {
         const target = event.target as HTMLImageElement;

@@ -9,8 +9,9 @@ export default function Ingredient({ ingredient }: IngredientProps): React.React
     const item = useMemo(() => getItemById(ingredient.itemId)!, [ingredient.itemId]);
     const itemImageName = useMemo(() => getNameExceptColon(item.name), [ingredient.itemId]);
 
-    const tradableTag = item.canTrade ? <span className="green">거래가능</span> :
-                                        <span className="red">거래불가</span>;
+    const tradableTag = ingredient.canTrade === "TRUE" ? <span className="tradable green">거래가능</span> :
+                        ingredient.canTrade === "FALSE" ? <span className="tradable red">거래불가</span> :
+                                                          <span className="tradable">거래여부 무관</span>;
     
     return (
         <div className="ingredient">

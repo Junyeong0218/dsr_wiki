@@ -22,13 +22,13 @@ export default function StageTag({ stage }: StageProps): React.ReactElement {
             <div className="rewords">
                 <div className="first-rewords">
                     <span className="title">첫 클리어</span>
-                    { stage.firstRewords.map(reword => (
+                    { stage.firstRewards.map(reword => (
                         <Reword reword={reword} key={getUUID()}/>
                     ))}
                 </div>
                 <div className="repeat-rewords">
                     <span className="title">반복</span>
-                    { stage.repeatRewords.map(reword => (
+                    { stage.repeatRewards.map(reword => (
                         <Reword reword={reword} key={getUUID()}/>
                     ))}
                 </div>

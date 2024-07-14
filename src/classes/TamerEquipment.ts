@@ -1,53 +1,68 @@
-interface ITamerEquipmentSet {
-    setName: string,
-    equipments: Array<ITamerEquipment>
-}
-
-class TamerEquipmentSet {
-    setName: string;
-    equipments: Array<TamerEquipment> = [];
-
-    constructor(raw: ITamerEquipmentSet) {
-        this.setName = raw.setName;
-        raw.equipments.forEach(e => this.equipments.push(new TamerEquipment(e)));
-    }
+interface IEquipmentOption {
+    name: string;
+    minValue: number;
+    maxValue: number;
 }
 
 interface ITamerEquipment {
-    setName: string,
-    part: string,
-    reqTamerLevel: number,
-    reqDigimonLevel: number,
-    isReleased: boolean
-}
-
-class StatRange {
-    min: number;
-    max: number;
-
-    constructor() {
-        this.min = 0;
-        this.max = 0;
-    }
+    id: number;
+    grade: string | null;
+    name: string;
+    part: string;
+    type: string | null;
+    reqTamerLevel: number;
+    reqDigimonLevel: number;
+    fullName: string;
+    options: Array<IEquipmentOption>;
 }
 
 class TamerEquipment {
-    setName: string;
+    id: number;
+    grade: string | null;
+    name: string;
     part: string;
+    type: string | null;
     reqTamerLevel: number;
     reqDigimonLevel: number;
-    isReleased: boolean;
-    normal: StatRange = new StatRange();
-    useful: StatRange = new StatRange();
-    intact: StatRange = new StatRange();
-    perfect: StatRange = new StatRange();
+    fullName: string;
+    options: Array<IEquipmentOption>;
 
     constructor(raw: ITamerEquipment) {
-        this.setName = raw.setName;
+        this.id = raw.id;
+        this.grade = raw.grade;
+        this.name = raw.name;
         this.part = raw.part;
+        this.type = raw.type;
         this.reqTamerLevel = raw.reqTamerLevel;
         this.reqDigimonLevel = raw.reqDigimonLevel;
-        this.isReleased = raw.isReleased;
+        this.fullName = raw.fullName;
+        this.options = raw.options;
+    }
+}
+
+interface IStatusOption {
+    name: string;
+    value: number;
+}
+
+interface ITamerEquipmentSet {
+    id: number;
+    setName: string;
+    status: Array<Array<IStatusOption>>
+    items: Array<number>
+}
+
+class TamerEquipmentSet {
+    id: number;
+    setName: string;
+    status: Array<Array<IStatusOption>>
+    items: Array<number>
+
+    constructor(raw: ITamerEquipmentSet) {
+        this.id = raw.id;
+        this.setName = raw.setName;
+        this.status = raw.status;
+        this.items = raw.items;
     }
 }
 

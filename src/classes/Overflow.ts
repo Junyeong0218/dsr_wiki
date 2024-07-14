@@ -5,42 +5,52 @@ import Point from "./Point";
 
 interface IRewordItem {
     itemId: number,
-    count: number
+    count: number,
+    canTrade: boolean
 }
 
 export class RewordItem {
     item: Item;
     count: number;
+    canTrade: boolean;
 
-    constructor(item: Item, count: number) {
+    constructor(item: Item, count: number, canTrade: boolean) {
         this.item = item;
         this.count = count;
+        this.canTrade = canTrade;
     }
+}
+
+export interface IStageMontser {
+    name: string;
+    digimonType: string;
+    level: number;
+    hp: number;
 }
 
 export interface IStage {
     stage: number,
-    monsters: Array<Monster>,
-    firstRewords: Array<IRewordItem>,
-    repeatRewords: Array<IRewordItem>
+    monsters: Array<IStageMontser>,
+    firstRewards: Array<IRewordItem>,
+    repeatRewards: Array<IRewordItem>
 }
 
 export class Stage {
     id: number;
-    monsters: Array<Monster>;
-    firstRewords: Array<RewordItem>;
-    repeatRewords: Array<RewordItem>;
+    monsters: Array<IStageMontser>;
+    firstRewards: Array<RewordItem>;
+    repeatRewards: Array<RewordItem>;
 
     constructor(raw: IStage, items: Array<Item>) {
         this.id = raw.stage;
         this.monsters = raw.monsters;
-        this.firstRewords = raw.firstRewords.map(reword => {
+        this.firstRewards = raw.firstRewards.map(reword => {
             const item = items.find(item => item.id === reword.itemId);
-            return new RewordItem(item!, reword.count);
+            return new RewordItem(item!, reword.count, reword.canTrade);
         });
-        this.repeatRewords = raw.repeatRewords.map(reword => {
+        this.repeatRewards = raw.repeatRewards.map(reword => {
             const item = items.find(item => item.id === reword.itemId);
-            return new RewordItem(item!, reword.count);
+            return new RewordItem(item!, reword.count, reword.canTrade);
         });
     }
 }

@@ -16,7 +16,7 @@ type Option = {
 
 export default function UserDigimonSelector({ userDigimon, setUserDigimon }: UserDigimonSelectorProps): React.ReactElement {
     const grades = useMemo(() => [5, 6], []);
-    const all = useMemo(() => getAllDigimons(false), []);
+    const all = useMemo(() => getAllDigimons(false, false), []);
     const [selectedGrade, setSelectedGrade] = useState<number>(userDigimon?.grade ?? 5);
 
     const basicDigimon = !userDigimon ? all.filter(e => e.grade === selectedGrade)[0] : userDigimon;

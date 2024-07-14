@@ -10,7 +10,7 @@ type FilterProps = {
 }
 
 export default function CombinationFilters({ all, setFiltered }: FilterProps): React.ReactElement {
-    const options = useMemo(() => ["전체", "포션", "소모 아이템", "탐지기", "스킬 강화석", "기타"], []);
+    const options = useMemo(() => ["전체", "포션", "테이머 장비", "소모 아이템", "탐지기", "스킬 강화석", "기타"], []);
 
     const [selected, setSelected] = useState("전체");
     const selectRef = useRef<HTMLSelectElement>(null);
@@ -73,7 +73,7 @@ export default function CombinationFilters({ all, setFiltered }: FilterProps): R
                         <label htmlFor={option} key={getUUID()} className={selected === option ? "checked" : ""}>
                             <input type="radio" id={option} checked={selected === option}
                                                             onChange={() => setSelected(option)} />
-                            <img src={`/images/${option === "전체" ? "filter_all" : option === "포션" ? "무배경_크로와상" : option === "소모 아이템" ? "무배경_소모아이템" : option === "탐지기" ? "무배경_보급형 탐지기" : option === "스킬 강화석" ? "무배경_궁스강" : "무배경_부제유"}.png`} />
+                            <img src={`/images/${option === "전체" ? "filter_all" : option === "포션" ? "무배경_크로와상" : option === "소모 아이템" ? "무배경_소모아이템" : option === "탐지기" ? "무배경_보급형 탐지기" : option === "스킬 강화석" ? "무배경_궁스강" : option === "테이머 장비" ? "무배경_디지바이스" : "무배경_부제유"}.png`} />
                             <span>{option}</span>
                         </label>
                     )) }
