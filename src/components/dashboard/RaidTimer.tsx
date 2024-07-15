@@ -54,7 +54,7 @@ export default function RaidTimer(): React.ReactElement {
                         if(video?.paused) {
                             iframe.remove();
                         }
-                    }, 1000);
+                    }, 3000);
                 }
             }
         }, 1000);

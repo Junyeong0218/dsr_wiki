@@ -21,6 +21,7 @@ import TamerEquipmentSearcher from "./components/TamerEquipments/TamerEquipmentS
 import dotenv from "dotenv";
 import QuestViewer from "./components/quest/Quest";
 import Calculator from "./components/calculator/Calculator";
+import Experiences from "./components/experience/Experiences";
 
 export default function App(): React.ReactElement {
     return (
@@ -34,8 +35,9 @@ export default function App(): React.ReactElement {
                         {/* <Route path="/guides" element={<Guides />} />
                         <Route path="/guides/:id" element={<Guide />} /> */}
 
-                        {/* <Route path="/digimons/digidex" element={<Digidex />} />
+                        <Route path="/digimons/digidex" element={<Digidex />} />
                         <Route path="/digimons/evolutions" element={<EvolutionSearcher />} />
+                        <Route path="/digimons/experiences" element={<Experiences />} />
 
                         <Route path="/maps" element={<Maps />} />
 
@@ -46,13 +48,13 @@ export default function App(): React.ReactElement {
                         <Route path="/tools/babies" element={<BabySimulator />} />
                         <Route path="/tools/potentials" element={<Potentials />} />
                         <Route path="/tools/skills" element={<SkillSimulator />} />
-                        <Route path="/tools/quests" element={<QuestViewer />} /> */}
+                        <Route path="/tools/quests" element={<QuestViewer />} />
                         <Route path="/tools/calculator" element={<Calculator />} />
 
-                        {/* <Route path="/items/equipments/tamer" element={<TamerEquipmentSearcher />} />
+                        <Route path="/items/equipments/tamer" element={<TamerEquipmentSearcher />} />
                         <Route path="/items/combinations" element={<CombinationSearcher />} />
                         
-                        <Route path="*" element={<NotFound />} /> */}
+                        <Route path="*" element={<NotFound />} />
                     </Routes>
                     <Footer />
                 </div>

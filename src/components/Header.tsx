@@ -23,6 +23,7 @@ export default function Header(): React.ReactElement {
                         <div className="nav-subs">
                             <Link to="/digimons/digidex" className="text-nav">디지몬 도감</Link>
                             <Link to="/digimons/evolutions" className="text-nav">진화트리</Link>
+                            <Link to="/digimons/experiences" className="text-nav">경험치 테이블</Link>
                         </div>
                     </div>
                     <div className="nav-element">
