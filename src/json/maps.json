@@ -6737,7 +6737,7 @@
         "isForceEncounter": false,
         "forceEvolution": null,
         "point": { "x": 445, "y": 125 },
-        "dropItems": [3, 7, 93, 95, 96, 97, 206, 214, 349, 593]
+        "dropItems": [3, 7, 75, 93, 95, 96, 97, 206, 214, 349, 593]
       },
       {
         "mapId": 27,
@@ -6751,7 +6751,7 @@
         "isForceEncounter": false,
         "forceEvolution": null,
         "point": { "x": 295, "y": 95 },
-        "dropItems": [3, 7, 93, 95, 96, 97, 206, 214, 349, 593]
+        "dropItems": [3, 7, 75, 93, 95, 96, 97, 206, 214, 349, 593]
       },
       {
         "mapId": 27,
@@ -6765,7 +6765,7 @@
         "isForceEncounter": false,
         "forceEvolution": null,
         "point": { "x": 225, "y": 60 },
-        "dropItems": [3, 7, 93, 95, 96, 97, 206, 214, 349, 593]
+        "dropItems": [3, 7, 75, 93, 95, 96, 97, 206, 214, 349, 593]
       },
       {
         "mapId": 27,

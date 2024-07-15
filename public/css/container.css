@@ -565,35 +565,36 @@ button:disabled {
   margin-top: 100px;
   padding: 0 20px;
 }
-/* 
-@media screen and (max-width:1023px) {
-  .header nav {
+
+@media screen and (min-device-width:360px) and (max-device-width:480px) {
+  header {
+    min-height: 101px;
+  }
+
+  header .background {
+    height: 101px;
+  }
+
+  .to-main-logo img {
+    height: 80px;
+  }
+
+  .header {
     position: absolute;
-    top: 0;
-    right: -200px;
+    top: 0.5rem;
+    left: 50%;
+    transform: translate(-50%, 0);
 
-    padding: 100px 20px 0;
-
-    flex-direction: column;
-    width: fit-content;
-    height: 100vh;
-
-    background-color: rgba(0, 0, 0);
-    border-left: 1px solid var(--white);
-    
-    transition: ease 500ms;
-    z-index: 2;
-  }
-
-  .header nav.open {
-    right: 0;
-  }
-
-  .header > .nav-container > .spread-menu-button {
+    max-width: 1140px;
     display: flex;
+    flex-direction: row;
+  
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    padding-left: calc(var(--bs-gutter-x)*.5);
+  
+    z-index: 100;
   }
-
-  .footer .events {
-    display: none;
-  }
-} */
+}

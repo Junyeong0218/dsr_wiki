@@ -112,7 +112,7 @@ export default function Main(): React.ReactElement {
                     </div>
                 </aside>
                 <div className="dashboard-center">
-                    <div className="content-shortcut">
+                    <div className="content-shortcut" id="checklist">
                         <div className="title">체크리스트</div>
                         <div className="content">
                             { checklist.list.map(element => (
