@@ -20,8 +20,8 @@ export default function YoutubePlayer() : React.ReactElement {
         // }).catch();
 
         const st2 = new Date().getTime();
-        // fetch(`/api/youtubeIds/recent`).then(async (response) => {
-        fetch(`http://koko198.cafe24.com:8000/youtubeIds/recent`).then(async (response) => {
+        fetch(`/api/youtubeIds/recent`).then(async (response) => {
+        // fetch(`http://koko198.cafe24.com:8000/youtubeIds/recent`).then(async (response) => {
             const result = await response.json();
             console.log(result)
             if(result.status === 200) {
