@@ -59,8 +59,8 @@ export default function DigidexFilter({ all, sortFilters, setFiltered }: Digidex
             return false;
         });
 
-        filtered = filtered.filter(each => conditions.strengths.includes(each.strength));
-        filtered = filtered.filter(each => conditions.weaknesses.includes(each.weakness));
+        filtered = filtered.filter(each => each.strength && conditions.strengths.includes(each.strength));
+        filtered = filtered.filter(each => each.weakness && conditions.weaknesses.includes(each.weakness));
 
         filtered = filtered.sort((a, b) => {
             let result: number = 0;

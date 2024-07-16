@@ -1,4 +1,4 @@
-const getDigimonQualityText = (quality: string, isTag: boolean = true): string => {
+const getDigimonQualityText = (quality: string | null, isTag: boolean = true): string => {
     switch(quality) {
         case "반사":
             if(isTag) return "해당 속성의 공격을 받으면 <mark>피해량의 25%</mark>를 되돌려 줍니다.";

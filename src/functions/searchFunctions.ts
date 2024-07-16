@@ -67,7 +67,7 @@ function createFuzzyMatcher(input: string) {
 // -------------------------------------
 
 const getSearchedDigimons = (search: string) => {
-  const digimons = getAllDigimons(false, false);
+  const digimons = getAllDigimons(false);
   const regex = createFuzzyMatcher(search);
 
   const searched = 

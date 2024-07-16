@@ -74,7 +74,7 @@ export default function Digidex(): React.ReactElement {
     const defaultFilters: Array<Filter> = [];
     const loadedFilterData = localStorageFilterData ? JSON.parse(localStorageFilterData) : null;
 
-    const all = getAllDigimons(false, false);
+    const all = getAllDigimons(false);
     const [sortFilters, setSortFilters] = useState<Array<Filter>>(loadedFilterData ?? defaultFilters);
     const [filtered, setFiltered] = useState(all);
     const [isTable, setIsTable] = useState(false);

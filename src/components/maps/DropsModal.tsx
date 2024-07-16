@@ -38,14 +38,14 @@ export default function DropsModal({ isOpen, monster, position }: DropsModalProp
                         <span className="digimon-name">{monster?.name}</span>
                         <span className="description-row">Level : {monster?.level}</span>
                         <span className="description-row">속성 :&nbsp;<img src={`/images/${monster?.digimonType}.png`} /></span>
-                        <span className="description-row" title={getDigimonQualityText(digimon.strengthEffect, false)}>강점 :&nbsp;
+                        { digimon.strengthEffect && <span className="description-row" title={getDigimonQualityText(digimon.strengthEffect, false)}>강점 :&nbsp;
                             <img src={`/images/${digimon.strength} 강점.png`} />&nbsp;
                             { digimon.strength } - { digimon.strengthEffect }
-                        </span>
-                        <span className="description-row" title={getDigimonQualityText(digimon.weaknessEffect, false)}>약점 :&nbsp;
+                        </span> }
+                        { digimon.weaknessEffect && <span className="description-row" title={getDigimonQualityText(digimon.weaknessEffect, false)}>약점 :&nbsp;
                             <img src={`/images/${digimon.weakness} 약점.png`} />&nbsp;
                             { digimon.weakness } - { digimon.weaknessEffect }
-                        </span>
+                        </span> }
                         <div className="hp-bar">HP {monster?.hp}</div>
                     </div>
                 </div>

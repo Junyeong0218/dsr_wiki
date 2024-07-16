@@ -53,7 +53,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
                                 <span className="condition-value">{key === "reqBonding" ? commons[0].getBonding() + "%" : commons[0][key]}</span>
                             </div>
                         )) }
-                        { commons[0].ingredient !== "" &&
+                        { commons[0].ingredient !== null &&
                             <div className="condition">
                                 <span className="condition-title">아이템</span>
                                 <span>
@@ -77,7 +77,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
                                     <span className="condition-value">{key === "reqBonding" ? common.getBonding() + "%" : common[key]}</span>
                                 </div>
                             )) }
-                            { common.ingredient !== "" && 
+                            { common.ingredient !== null && 
                                 <div className="condition" style={{alignSelf: "flex-end"}}>
                                     <img src={`/images/${common.ingredient}.png`} />
                                     <span className="digimon-name">{common.ingredient}</span>

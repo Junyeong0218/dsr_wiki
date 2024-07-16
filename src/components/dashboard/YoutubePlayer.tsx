@@ -5,6 +5,13 @@ export default function YoutubePlayer() : React.ReactElement {
     const playerTag = useRef<HTMLDivElement>(null);
     const contentRef = useRef<HTMLDivElement>(null);
 
+    const playerResizeHandler = (player: YT.Player) => {
+        const width = contentRef.current!.clientWidth - 16;
+        const height = width * 0.5625;
+
+        player.setSize(width, height);
+    }
+
     useEffect(() => {
         // fetch("/.netlify/functions/getRecentYoutube").then(async response => {
         //     const result = await response.json();
@@ -54,17 +61,16 @@ export default function YoutubePlayer() : React.ReactElement {
                 }
             });
 
-            const playerResizeHandler = () => {
-                const width = contentRef.current!.clientWidth - 16;
-                const height = width * 0.5625;
-    
-                player.setSize(width, height);
-            }
-    
-            window.addEventListener("resize", playerResizeHandler);
+            window.addEventListener("resize", () => {
+                playerResizeHandler(player);
+            });
         }
 
         onYouTubeIframeAPIReady();
+
+        return window.removeEventListener("resize", () => {
+            playerResizeHandler(player);
+        });
     }, [youtubeId]);
 
     return (

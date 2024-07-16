@@ -13,10 +13,10 @@ export interface IDigimon {
     spd: number,
     def: number,
     res: number,
-    strength: string,
-    strengthEffect: string,
-    weakness: string,
-    weaknessEffect: string,
+    strength: string | null,
+    strengthEffect: string | null,
+    weakness: string | null,
+    weaknessEffect: string | null,
     fieldTypes: Array<string>,
     skills: Array<any>
 }
@@ -34,10 +34,10 @@ export class Digimon {
     spd: number;
     def: number;
     res: number;
-    strength: string;
-    strengthEffect: string;
-    weakness: string;
-    weaknessEffect: string;
+    strength: string | null;
+    strengthEffect: string | null;
+    weakness: string | null;
+    weaknessEffect: string | null;
     fieldTypes: Array<string>;
     skills: Array<Skill>;
 
