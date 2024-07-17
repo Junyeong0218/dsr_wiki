@@ -76,12 +76,13 @@ export default function EventCalendar() {
             useDetailPopup: true
         });
 
-        fetch(`/api/events`).then(async (response) => {
-        // fetch(`http://koko198.cafe24.com:8000/events`).then(async (response) => {
+        // fetch(`/api/events`).then(async (response) => {
+        fetch(`http://koko198.cafe24.com:8000/events`).then(async (response) => {
             const result = await response.json();
             if(result.status === 200) {
+                console.log(result)
                 const events = result.data;
-                
+                    
                 calendar.createEvents(events.map((e: DSREvent, index: number) => {
                     const bg = getBackgroundColor(index);
                     return { ...e, 
@@ -90,6 +91,8 @@ export default function EventCalendar() {
                         backgroundColor: `var(--type-${bg}-thin)`
                     }
                 }));
+
+                calendar.render();
         
                 const startDate = calendar.getDateRangeStart().getTime();
                 const firstWeekEndDate = new Date(startDate + 1000 * 60 * 60 * 24 * 6).getTime();
@@ -115,14 +118,14 @@ export default function EventCalendar() {
                 //     (elements[0] as HTMLDivElement).style.setProperty("height", `${firstWeek.size === 0 ? 33 : (firstWeek.size + 1) * 26 + 8}px`);
                 //     (elements[1] as HTMLDivElement).style.setProperty("height", `${secondWeek.size === 0 ? 33 : (secondWeek.size + 1) * 26 + 9}px`);
                 // })
-                calendar.render();
-                setTimeout(() => {
-                    const elements = document.querySelectorAll(".toastui-calendar-month-week-item");
-                    (elements[0] as HTMLDivElement).style.setProperty("height", `${(firstWeek.size + 1) * 26 + 8}px`);
-                    (elements[1] as HTMLDivElement).style.setProperty("height", `${(secondWeek.size + 1) * 26 + 9}px`);
-                    (document.querySelector("#calendar") as HTMLDivElement).style.setProperty("height", `${BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26}px`);
-                    // setHeight(BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26);
-                }, 1000);
+                
+                // setTimeout(() => {
+                //     const elements = document.querySelectorAll(".toastui-calendar-month-week-item");
+                //     (elements[0] as HTMLDivElement).style.setProperty("height", `${(firstWeek.size + 1) * 26 + 8}px`);
+                //     (elements[1] as HTMLDivElement).style.setProperty("height", `${(secondWeek.size + 1) * 26 + 9}px`);
+                //     (document.querySelector("#calendar") as HTMLDivElement).style.setProperty("height", `${BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26}px`);
+                //     // setHeight(BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26);
+                // }, 1000);
             }
         }).catch(error => {
             console.log(error)
@@ -203,7 +206,6 @@ export default function EventCalendar() {
             <div className="title">이벤트 캘린더</div>
             <div className="content">
                 <div id="calendar" style={{ height: `1500px` }}></div>
-                {/* <div id="calendar" style={{ minHeight: "400px", maxHeight: "800px", height: "600px" }}></div> */}
             </div>
         </div>
     );
