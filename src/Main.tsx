@@ -9,6 +9,7 @@ import Coupons from './components/dashboard/Coupons';
 import Ladders from './components/dashboard/Ladders';
 import CrownCalculator from './components/dashboard/CrownCalculator';
 import RaidTimer from './components/dashboard/RaidTimer';
+import EventCalendar from './components/dashboard/EventCalendar';
 
 
 type DailyCheck = {
@@ -38,16 +39,16 @@ const generateChecklist = (): CheckList => {
     };
 }
 
-const getPrevChecklist = (): CheckList => {
-    if(!localStorage.getItem("checklist")) return generateChecklist();
+// const getPrevChecklist = (): CheckList => {
+//     if(!localStorage.getItem("checklist")) return generateChecklist();
 
-    const checklist = JSON.parse(localStorage.getItem("checklist")!);
-    const started = new Date(checklist.created).getDate();
-    const now = new Date().getDate();
-    if(started !== now) return generateChecklist();
+//     const checklist = JSON.parse(localStorage.getItem("checklist")!);
+//     const started = new Date(checklist.created).getDate();
+//     const now = new Date().getDate();
+//     if(started !== now) return generateChecklist();
 
-    return checklist;
-}
+//     return checklist;
+// }
 
 export default function Main(): React.ReactElement {
     // return (
@@ -55,9 +56,9 @@ export default function Main(): React.ReactElement {
     //         무브의 악행으로 인해 무기한 문을 닫습니다.
     //     </div>
     // );
-    let prevChecklist = getPrevChecklist();
-    
-    const [checklist, setChecklist] = useState<CheckList>(prevChecklist);
+    // let prevChecklist = getPrevChecklist();
+    localStorage.removeItem("checklist");
+    // const [checklist, setChecklist] = useState<CheckList>(prevChecklist);
 
     // const getWeekdayText = (weekday: number): string => {
     //     switch(weekday) {
@@ -72,22 +73,20 @@ export default function Main(): React.ReactElement {
     //     }
     // }
 
-    const toggleCheckbox = (event: React.ChangeEvent, dailyCheck: DailyCheck) => {
-        const target = event.target as HTMLInputElement;
-        const element = checklist.list.find(e => e.title === dailyCheck.title)!;
+    // const toggleCheckbox = (event: React.ChangeEvent, dailyCheck: DailyCheck) => {
+    //     const target = event.target as HTMLInputElement;
+    //     const element = checklist.list.find(e => e.title === dailyCheck.title)!;
 
-        element.checked = target.checked;
-        checklist.lastModified = new Date();
-        localStorage.setItem("checklist", JSON.stringify(checklist));
-        setChecklist({...checklist});
-    }
+    //     element.checked = target.checked;
+    //     checklist.lastModified = new Date();
+    //     localStorage.setItem("checklist", JSON.stringify(checklist));
+    //     setChecklist({...checklist});
+    // }
 
     const today = new Date().getDay();
     const activeOverflows = getAllOverflows().filter(of => of.weekdays.includes(today));
     const text = activeOverflows.map(of => `${of.mapName} - ${of.reqItem.name}`);
 
-    console.log(window.innerWidth)
-    console.log(window.innerHeight)
     return (
         <div className="main">
             <div className="dashboard">
@@ -112,7 +111,8 @@ export default function Main(): React.ReactElement {
                     </div>
                 </aside>
                 <div className="dashboard-center">
-                    <div className="content-shortcut" id="checklist">
+                    <EventCalendar />
+                    {/* <div className="content-shortcut" id="checklist">
                         <div className="title">체크리스트</div>
                         <div className="content">
                             { checklist.list.map(element => (
@@ -122,7 +122,7 @@ export default function Main(): React.ReactElement {
                                 </label>
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                     <div className="content-shortcut">
                         <div className="title">
                             <Link to={"https://www.youtube.com/@purr95"} target="_blank">밍루블 유튜브 <i className="fa-solid fa-arrow-up-right-from-square"></i></Link>

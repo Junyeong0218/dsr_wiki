@@ -62,9 +62,13 @@ body,
   font-size: 16px;
   font-weight: 400;
   /* color: rgb(207, 208, 214); */
-  color: var(--theme-light-font-color);
+  /* color: var(--theme-light-font-color); */
 
   outline: none;
+}
+
+a {
+  color: var(--theme-light-font-color);
 }
 
 ul, li {
