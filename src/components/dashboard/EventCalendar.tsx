@@ -125,7 +125,7 @@ export default function EventCalendar() {
                     (elements[1] as HTMLDivElement).style.setProperty("height", `${(secondWeek.size + 1) * 26 + 9}px`);
                     (document.querySelector("#calendar") as HTMLDivElement).style.setProperty("height", `${BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26}px`);
                     // setHeight(BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26);
-                }, 500);
+                }, 300);
             }
         }).catch(error => {
             console.log(error)
