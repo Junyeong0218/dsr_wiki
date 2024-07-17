@@ -120,7 +120,8 @@ export default function EventCalendar() {
                     const elements = document.querySelectorAll(".toastui-calendar-month-week-item");
                     (elements[0] as HTMLDivElement).style.setProperty("height", `${(firstWeek.size + 1) * 26 + 8}px`);
                     (elements[1] as HTMLDivElement).style.setProperty("height", `${(secondWeek.size + 1) * 26 + 9}px`);
-                    setHeight(BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26);
+                    (document.querySelector("#calendar") as HTMLDivElement).style.setProperty("height", `${BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26}px`);
+                    // setHeight(BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26);
                 }, 1000);
             }
         }).catch(error => {
@@ -201,7 +202,7 @@ export default function EventCalendar() {
         <div className="content-shortcut" id="event-calendar">
             <div className="title">이벤트 캘린더</div>
             <div className="content">
-                <div id="calendar" style={{ height: `${height}px` }}></div>
+                <div id="calendar" style={{ height: `1500px` }}></div>
                 {/* <div id="calendar" style={{ minHeight: "400px", maxHeight: "800px", height: "600px" }}></div> */}
             </div>
         </div>
