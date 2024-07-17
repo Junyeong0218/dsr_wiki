@@ -77,7 +77,6 @@ export default function EventCalendar() {
         });
 
         fetch(`/api/events`).then(async (response) => {
-        // fetch(`http://koko198.cafe24.com:8000/events`).then(async (response) => {
             const result = await response.json();
             if(result.status === 200) {
                 console.log(result)
@@ -112,19 +111,11 @@ export default function EventCalendar() {
                     }
                 });
         
-                // calendar.on("afterRenderEvent", event => {
-                //     setHeight(BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26);
-                //     const elements = document.querySelectorAll(".toastui-calendar-month-week-item");
-                //     (elements[0] as HTMLDivElement).style.setProperty("height", `${firstWeek.size === 0 ? 33 : (firstWeek.size + 1) * 26 + 8}px`);
-                //     (elements[1] as HTMLDivElement).style.setProperty("height", `${secondWeek.size === 0 ? 33 : (secondWeek.size + 1) * 26 + 9}px`);
-                // })
-                
                 setTimeout(() => {
                     const elements = document.querySelectorAll(".toastui-calendar-month-week-item");
                     (elements[0] as HTMLDivElement).style.setProperty("height", `${(firstWeek.size + 1) * 26 + 8}px`);
                     (elements[1] as HTMLDivElement).style.setProperty("height", `${(secondWeek.size + 1) * 26 + 9}px`);
                     (document.querySelector("#calendar") as HTMLDivElement).style.setProperty("height", `${BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26}px`);
-                    // setHeight(BASE_HEIGHT + firstWeek.size * 26 + secondWeek.size * 26);
                 }, 300);
             }
         }).catch(error => {

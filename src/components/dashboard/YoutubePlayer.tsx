@@ -13,21 +13,10 @@ export default function YoutubePlayer() : React.ReactElement {
     }
 
     useEffect(() => {
-        // fetch("/.netlify/functions/getRecentYoutube").then(async response => {
-        //     const result = await response.json();
-
-        //     setYoutubeId(result.youtubeId);
-        // }).catch();
-
-        const st2 = new Date().getTime();
         fetch(`/api/youtubeIds/recent`).then(async (response) => {
-        // fetch(`http://koko198.cafe24.com:8000/youtubeIds/recent`).then(async (response) => {
             const result = await response.json();
             console.log(result)
             if(result.status === 200) {
-                // console.log(result.data[0]);
-                // console.log(`youtubeIds function time : ${new Date().getTime() - st2}`)
-                    
                 setYoutubeId(result.data[0].youtubeId);
             }
         }).catch(error => {

@@ -15,25 +15,11 @@ export default function Coupons() : React.ReactElement {
     const [coupons, setCoupons] = useState<Array<Coupon>>(prevCoupons);
 
     useEffect(() => {
-        // const st1 = new Date().getTime();
-        // fetch("/.netlify/functions/getCoupons").then(async response => {
-        //     const coupons:Array<Coupon> = await response.json();
-            
-        //     localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
-        //     setCoupons(coupons);
-        //     console.log(`netlify function time : ${new Date().getTime() - st1}`)
-        // }).catch(error => {
-        //     console.log(error);
-        // });
-
-        const st2 = new Date().getTime();
         fetch(`/api/coupons/active`).then(async (response) => {
             const result = await response.json();
             console.log(result)
             if(result.status === 200) {
                 const coupons:Array<Coupon> = result.data;
-                // console.log(coupons);
-                // console.log(`coupons function time : ${new Date().getTime() - st2}`)
 
                 localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
                 setCoupons(coupons);
