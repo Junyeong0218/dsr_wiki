@@ -5,7 +5,7 @@
   "main": "src/index.tsx",
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf ./node_modules",
+    "build": "npm install & tsc & react-scripts build",
     "watch": "webpack --config webpack.common.js --watch",
     "test": "react-scripts test",
     "postinstall": "patch-package"
