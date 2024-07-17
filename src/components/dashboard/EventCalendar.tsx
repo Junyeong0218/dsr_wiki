@@ -76,8 +76,8 @@ export default function EventCalendar() {
             useDetailPopup: true
         });
 
-        // fetch(`/api/events`).then(async (response) => {
-        fetch(`http://koko198.cafe24.com:8000/events`).then(async (response) => {
+        fetch(`/api/events`).then(async (response) => {
+        // fetch(`http://koko198.cafe24.com:8000/events`).then(async (response) => {
             const result = await response.json();
             if(result.status === 200) {
                 console.log(result)
