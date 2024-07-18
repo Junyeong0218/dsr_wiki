@@ -1,18 +1,70 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { getUUID } from "../../functions/commons";
+import CouponModal from "./CouponModal";
+
+type CouponItem = {
+    couponId: number;
+    itemName: string;
+    count: number;
+}
 
 type Coupon = {
     name: string,
     code: string,
     startDate: string,
     expDate: string,
-    active: boolean
+    items: Array<CouponItem>
 }
 
 export default function Coupons() : React.ReactElement {
     let prevCoupons = localStorage.getItem("coupons") ? JSON.parse(localStorage.getItem("coupons")!) : [];
 
     const [coupons, setCoupons] = useState<Array<Coupon>>(prevCoupons);
+    const [isOpen, setIsOpen] = useState(false);
+    const [modalPosition, setModalPosition] = useState({ top: 0, left: 0 });
+    const selectedCoupon = useRef<Coupon>();
+
+    const captureMouse = (event: React.MouseEvent<HTMLDivElement>): void => {
+        const target = event.target as HTMLImageElement;
+        if(target?.tagName === "IMG") {
+            const id = target.id;
+            
+            const coupon = coupons.find(c => c.name === id);
+            if(coupon) {
+                if(selectedCoupon.current?.name === coupon.name) {
+                    return;
+                }
+                console.log(Number(target.style.left.replace("px", "")));
+                console.log(Number(target.style.top.replace("px", "")));
+                selectedCoupon.current = coupon;
+                
+                const couponRect = target.parentElement!.getBoundingClientRect();
+                console.log(target.parentElement)
+                console.log(event.pageX, event.pageY);
+                if(couponRect.top + 450 > window.innerHeight) {
+                    setModalPosition({ top: 450 - couponRect.top + 10, left: event.pageX - couponRect.left + 2 });
+                } else {
+                    setModalPosition({ top: event.pageY - couponRect.top, left: event.pageX - couponRect.left + 2 });
+                }
+                setIsOpen(true);
+            } else {
+                setIsOpen(false);
+            }
+        }
+    }
+
+    const mouseLeaveHandler = (event: React.MouseEvent<HTMLDivElement>) => {
+        const relatedTarget = event.relatedTarget as HTMLDivElement;
+        try {
+            if(relatedTarget.classList.contains("modal") || relatedTarget.classList.contains("coupon")) return;
+
+            setIsOpen(false);
+            selectedCoupon.current = undefined;
+        } catch (e) {
+            setIsOpen(false);
+            selectedCoupon.current = undefined;
+        }
+    }
 
     useEffect(() => {
         fetch(`/api/coupons/active`).then(async (response) => {
@@ -21,11 +73,13 @@ export default function Coupons() : React.ReactElement {
             if(result.status === 200) {
                 const coupons:Array<Coupon> = result.data;
 
-                localStorage.setItem("coupons", JSON.stringify(coupons.filter(e => e.active)));
+                console.log(coupons);
+
+                localStorage.setItem("coupons", JSON.stringify(coupons));
                 setCoupons(coupons);
             }
         }).catch(error => {
-            console.log(error)
+            console.log(error);
         });
     }, []);
 
@@ -55,20 +109,23 @@ export default function Coupons() : React.ReactElement {
         navigator.clipboard.writeText(coupon.code).then(() => alert("복사 완료"));
     }
 
-    const content = useMemo(() => {
-        return (
-            <div className="content">
-                { coupons.length === 0 && <div className="coupon"><strong>쿠폰이 없습니다.</strong></div>}
-                { coupons.map((coupon, index) => (
-                    <div className="coupon" key={getUUID()}>
-                        <strong>{coupon.name}</strong>
-                        <small>{getCouponDateText(coupon)}</small>
-                        <button type='button' className='copy-coupon' title='누르면 복사돼요!' onClick={() => copyCoupon(coupon)}>{coupon.code}</button>
-                        { index < coupons.length - 1 && <hr /> }
-                    </div>
-                ))}
-            </div>
-        );
-    }, [coupons]);
-    return content;
+    const couponModal = useMemo(() => <CouponModal isOpen={isOpen} coupon={selectedCoupon.current} position={modalPosition} />, [isOpen, modalPosition]);
+
+    return (
+        <div className="content" onMouseMove={captureMouse} onMouseLeave={mouseLeaveHandler} style={{ position: "relative" }}>
+            { coupons.length === 0 && <div className="coupon"><strong>쿠폰이 없습니다.</strong></div>}
+            { coupons.map((coupon, index) => (
+                <div className="coupon" key={getUUID()}>
+                    <strong>
+                        {coupon.name}
+                        <img id={coupon.name} src="/images/quest_reward.png" />
+                    </strong>
+                    <small>{getCouponDateText(coupon)}</small>
+                    <button type='button' className='copy-coupon' title='누르면 복사돼요!' onClick={() => copyCoupon(coupon)}>{coupon.code}</button>
+                    { index < coupons.length - 1 && <hr /> }
+                </div>
+            ))}
+            { couponModal }
+        </div>
+    );
 }
