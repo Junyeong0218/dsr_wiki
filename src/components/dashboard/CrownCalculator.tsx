@@ -56,6 +56,10 @@ export default function CrownCalculator(): React.ReactElement {
         setExResult(temp / 10000);
     }
 
+    const copyResult = () => {
+        navigator.clipboard.writeText(`${exResult}`).then(() => alert("복사 완료"));
+    }
+
     return (
         <div className="content-shortcut">
             <div className="title">크라운 환산기</div>
@@ -77,6 +81,9 @@ export default function CrownCalculator(): React.ReactElement {
                 <div className="row">
                     <span>{exResult.toLocaleString("ko-KR")}</span>&nbsp;
                     <span className="no-width">{toWhere === BIT_EXCHANGE ? "크라운" : "비트"}</span>
+                </div>
+                <div className="row">
+                    <button type="button" onClick={copyResult}>{exResult} 복사</button>
                 </div>
             </div>
         </div>

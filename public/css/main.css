@@ -89,6 +89,13 @@
     width: auto;
 }
 
+.content-shortcut .content .row > button {
+    width: 100%;
+    font: inherit;
+    font-weight: 700;
+    color: var(--type-adult-deep);
+}
+
 .content-shortcut .content .row span.raid-time {
     overflow: inherit;
     text-overflow: inherit;
