@@ -571,13 +571,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 20px;
+  gap: 10px;
 
   width: fit-content;
 }
 
-.digimon-stat .title {
-  font-size: 20px;
+.digimon-stat .title,
+.digimon-skills > .title {
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -586,12 +587,15 @@
 }
 
 .digimon-stat table,
-.digimon-stat table td {
+.digimon-stat table td,
+.digimon-skills table,
+.digimon-skills table td {
   border: 1px solid var(--theme-light-background-selected);
   border-collapse: collapse;
 }
 
-.digimon-stat table td {
+.digimon-stat table td,
+.digimon-skills table td {
   padding: 5px 5px;
 
   min-width: 50px;
@@ -599,7 +603,13 @@
   text-align: center;
 }
 
-.digimon-stat table tr:first-child td {
+.digimon-stat table tr td,
+.digimon-skills table tr td {
+  font-size: 13px;
+}
+
+.digimon-stat table thead td,
+.digimon-skills table thead td {
   font-weight: 700;
 }
 
@@ -608,6 +618,11 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
+}
+
+.digimon-stat .digimon-quality > img {
+  width: 30px;
+  height: 30px;
 }
 
 .digimon-stat .digimon-quality > span:nth-child(2) {
@@ -620,7 +635,7 @@
 }
 
 .digimon-stat .digimon-quality > span.description {
-  font-size: 14px;
+  font-size: 13px;
 
   word-break: keep-all;
   white-space: nowrap;
@@ -639,10 +654,23 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
-.digimon-stat .skill {
+.digimon-stat .field-types > img {
+  width: 30px;
+}
+
+.digimon-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+
+  width: fit-content;
+}
+
+.digimon-skills .skill {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -650,49 +678,70 @@
   width: 100%;
 }
 
-.digimon-stat .skill .skill-shortcut {
+.digimon-skills .skill .skill-shortcut {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
-.digimon-stat .skill .skill-info {
+.digimon-skills .skill .skill-shortcut > img {
+  min-width: 40px;
+  max-width: 40px;
+}
+
+.digimon-skills .skill .skill-info {
   display: flex;
   flex-direction: column;
+  gap: 3px;
+}
+
+.digimon-skills .skill .skill-info .skill-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 5px;
 }
 
-.digimon-stat .skill .skill-info .skill-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-}
-
-.digimon-stat .skill .skill-info .skill-title .skill-name {
-  font-size: 20px;
+.digimon-skills .skill .skill-info .skill-title .skill-name {
+  font-size: 18px;
   font-weight: 700;
 }
 
-.digimon-stat .skill td {
+.digimon-skills .skill .skill-info .skill-title .show-weak-digimon-button {
+  padding: 2px 5px;
+
+  background: var(--type-adult-thin);
+  border-radius: 4px;
+
+  font-size: 14px;
+
+  transition: 200ms;
+}
+
+.digimon-skills .skill .skill-info .skill-title .show-weak-digimon-button:hover {
+  background: var(--type-adult-deep);
+  color: var(--theme-light-white);
+}
+
+.digimon-skills .skill td {
   font-size: 13px;
 }
 
-.digimon-stat .skill .skill-shortcut > img {
+.digimon-skills .skill .skill-shortcut > img {
   border: 1px solid var(--white);
   border-radius: 25px;
 }
 
-.digimon-stat .skill .skill-info .badges {
+.digimon-skills .skill .skill-info .badges {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
-.digimon-stat .skill .skill-info .badges .badge {
-  padding: 2px 5px;
+.digimon-skills .skill .skill-info .badges .badge {
+  padding: 2px 3px;
 
   border-radius: 4px;
 
@@ -850,4 +899,140 @@
 .table-legend-container .table-legend .text {
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+.full-modal > .window > .contents-spicies {
+  margin-top: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.full-modal > .window > .contents-spicies .title {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons {
+  margin-top: 10px;
+  padding: 5px 0;
+
+  width: 900px;
+
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+
+  overflow-x: scroll;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons::-webkit-scrollbar {
+  width: 10px; /* 스크롤바의 너비 */
+  height: 10px;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #d7dde2; /* 스크롤바의 색상 */
+
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons::-webkit-scrollbar-track {
+  background: #484a4b; /*스크롤바 뒷 배경 색상*/
+  border-radius: 4px;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons .map-wrapper {
+  margin-top: 10px;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons .map-wrapper > .title {
+  margin-bottom: 10px;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons .weak-digimon {
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons .weak-digimon + .weak-digimon {
+  margin-top: 5px;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons .weak-digimon img {
+  height: 100%;
+
+  border-radius: 2px;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons .weak-digimon span {
+  font-size: 14px;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.full-modal > .window .title .remove-button {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+
+  width: 20px;
+  height: 20px;
+}
+
+.full-modal > .window .title .remove-button:hover img {
+  transform: scale(1.2);
+}
+
+.full-modal > .window .title .remove-button img {
+  width: 100%;
+
+  pointer-events: none;
+  transition: 200ms;
+}
+
+#field-type-modal {
+  max-width: 300px;
+}
+
+#field-type-modal .window {
+  gap: 5px;
+}
+
+.window > .field-type {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.window > .field-type > .images {
+  display: flex;
+  gap: 3px;
+}
+
+.window > .field-type img {
+  width: 30px;
+}
+
+.window > .field-type > span {
+  font-size: 14px;
+  color: var(--theme-light-font-color);
+  word-break: keep-all;
+  white-space: nowrap;
 }

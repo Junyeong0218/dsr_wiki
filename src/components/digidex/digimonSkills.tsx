@@ -7,7 +7,7 @@ type DDigimonSkillsProps = { digimon: Digimon }
 
 export default function DigimonSkills({ digimon }: DDigimonSkillsProps): React.ReactElement {
     return (
-        <div className="digimon-stat">
+        <div className="digimon-skills">
             <span className="title">* 스킬</span>
             { digimon.skills.length > 0 &&
                 digimon.skills.map(skill => (

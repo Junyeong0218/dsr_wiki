@@ -419,7 +419,8 @@ button:disabled {
   font-weight: 700;
 }
 
-.modal {
+.modal,
+.full-modal {
   position: absolute;
 
   min-width: 200px;
@@ -432,12 +433,33 @@ button:disabled {
   z-index: -1;
 }
 
-.modal.active {
+.full-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.modal.active,
+.full-modal.active {
   border: 1px solid var(--theme-light-font-color);
   border-radius: 5px;
 
   opacity: 0.98;
   z-index: 101;
+}
+
+.full-modal.active {
+  border: 0;
+  border-radius: 0;
+  background-color: rgba(227, 227, 227 ,.30);
 }
 
 /* #evolution-description {
@@ -461,6 +483,19 @@ button:disabled {
 .window > .commons,
 .window > .jogress {
   padding: 0 5px 10px;
+}
+
+.full-modal > .window > .title {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .window .title {

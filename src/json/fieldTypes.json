@@ -1,0 +1,52 @@
+[
+    {
+        "type": "DA",
+        "stat": "회피율",
+        "increments": [0.02, 0.04]
+    },
+    {
+        "type": "DR",
+        "stat": "RES",
+        "increments": [0.04, 0.06]
+    },
+    {
+        "type": "DS",
+        "stat": "SPD",
+        "increments": [0.02, 0.04]
+    },
+    {
+        "type": "JT",
+        "stat": "STR",
+        "increments": [0.03, 0.05]
+    },
+    {
+        "type": "ME",
+        "stat": "DEF",
+        "increments": [0.04, 0.06]
+    },
+    {
+        "type": "NSp",
+        "stat": "치명타율",
+        "increments": [0.02, 0.04]
+    },
+    {
+        "type": "Nso",
+        "stat": "INT",
+        "increments": [0.03, 0.05]
+    },
+    {
+        "type": "UK",
+        "stat": "체인스킬발동률",
+        "increments": [0.01, 0.03]
+    },
+    {
+        "type": "VB",
+        "stat": "SP",
+        "increments": [0.05, 0.10]
+    },
+    {
+        "type": "WG",
+        "stat": "HP",
+        "increments": [0.05, 0.10]
+    }
+]

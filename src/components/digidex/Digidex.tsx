@@ -50,7 +50,7 @@ export default function Digidex(): React.ReactElement {
     
     if(selected) {
         return (
-            <div className="main">
+            <div className="main" style={{ position: "inherit" }}>
                 <div className="digidex" style={{ flexWrap: "nowrap" }}>
                     <DigimonInfo selected={selected} />
                 </div>
