@@ -77,7 +77,7 @@ export default function EventCalendar() {
         });
 
         fetch(`/api/events`).then(async (response) => {
-            const result = await response.json();
+        const result = await response.json();
             if(result.status === 200) {
                 console.log(result)
                 const events = result.data;
@@ -94,6 +94,7 @@ export default function EventCalendar() {
                 calendar.render();
         
                 const startDate = calendar.getDateRangeStart().getTime();
+                const endDate = calendar.getDateRangeEnd().getTime();
                 const firstWeekEndDate = new Date(startDate + 1000 * 60 * 60 * 24 * 6).getTime();
                 const secondWeekStartDate = new Date(startDate + 1000 * 60 * 60 * 24 * 7).getTime();
                 const secondWeekEndDate = new Date(startDate + 1000 * 60 * 60 * 24 * 13).getTime();
@@ -103,13 +104,15 @@ export default function EventCalendar() {
                 events.forEach((event: DSREvent) => {
                     const start = new Date(event.start).getTime();
                     const end = new Date(event.end).getTime();
-                    if((start <= startDate && end >= startDate) || (start <= firstWeekEndDate && end >= firstWeekEndDate)) {
+                    if((start <= startDate && end >= startDate) || (start <= firstWeekEndDate && end >= firstWeekEndDate) || (start >= startDate && end <= secondWeekStartDate)) {
                         firstWeek.add(event);
                     }
-                    if((start <= secondWeekStartDate && end >= secondWeekStartDate) || (start <= secondWeekEndDate && end >= secondWeekEndDate)) {
+                    if((start <= secondWeekStartDate && end >= secondWeekStartDate) || (start <= secondWeekEndDate && end >= secondWeekEndDate) || (start >= secondWeekStartDate && end <= endDate)) {
                         secondWeek.add(event);
                     }
                 });
+
+                console.log(secondWeek);
         
                 setTimeout(() => {
                     const elements = document.querySelectorAll(".toastui-calendar-month-week-item");
