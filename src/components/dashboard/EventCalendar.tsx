@@ -47,9 +47,8 @@ export default function EventCalendar() {
                 ],
                 customOffsetCalculator: (timezoneName: string, timestamp: number) => {
                     const offset = new Date(timestamp).getTimezoneOffset();
-                    if(offset === -540) return 0;
 
-                    return offset;
+                    return offset * -1;
                 },
             },
             isReadOnly: true,
