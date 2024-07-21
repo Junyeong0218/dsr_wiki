@@ -2,6 +2,7 @@ import React from "react";
 import { Monster } from "../../classes";
 import { getDigimonFileName } from "../../functions/getDigimonFileName";
 import { getDigimonByName } from "../../functions/getDigimons";
+import { IMG_URL_BASE } from "../../enums";
 
 type props = {
     monster: Monster | undefined
@@ -14,12 +15,12 @@ export default function MonsterInfo({ monster }: props): React.ReactElement {
     return (
         <div className="user-digimon-info">
             <div className="user-digimon-image">
-                { monster ? <img src={`/images/${fileName}.png`} /> : "" }
+                { monster ? <img src={`${IMG_URL_BASE}/${fileName}.png`} /> : "" }
             </div>
             <div className="status">
                 <div className="row">
                     <span className="title">속성</span>
-                    <span>{ monster && <img src={`/images/${monster?.digimonType}.png`} /> }</span>
+                    <span>{ monster && <img src={`${IMG_URL_BASE}/${monster?.digimonType}.png`} /> }</span>
                 </div>
                 <div className="row">
                     <span className="title">레벨</span>
@@ -36,14 +37,14 @@ export default function MonsterInfo({ monster }: props): React.ReactElement {
                 <div className="row">
                     <span className="title">강점</span>
                     <div>
-                        { digimon && <img src={`/images/${digimon.strength} 강점.png`} /> }
+                        { digimon && <img src={`${IMG_URL_BASE}/${digimon.strength} 강점.png`} /> }
                         { digimon && `${digimon.strength} - ${digimon.strengthEffect}` }
                     </div>
                 </div>
                 <div className="row">
                     <span className="title">약점</span>
                     <div>
-                        { digimon && <img src={`/images/${digimon.weakness} 약점.png`} /> }
+                        { digimon && <img src={`${IMG_URL_BASE}/${digimon.weakness} 약점.png`} /> }
                         { digimon && `${digimon.weakness} - ${digimon.weaknessEffect}` }
                     </div>
                 </div>

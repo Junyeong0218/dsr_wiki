@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import { getNameExceptColon, getUUID } from "../../functions/commons";
 import DigimonInfo from "./digimonInfo";
 import DigidexFilter from "./digidexFilter";
-import { Grades, IStringKey } from "../../enums";
+import { Grades, IMG_URL_BASE, IStringKey } from "../../enums";
 import getSortText from "../../functions/getSortText";
 import { getDigimonFileName } from "../../functions/getDigimonFileName";
 
@@ -144,9 +144,9 @@ export default function Digidex(): React.ReactElement {
                     <tbody>
                         { filtered.map(each => (
                             <tr key={getUUID()}>
-                                <td><img src={`/images/${getDigimonFileName(each.name)}.png`} />&nbsp;{each.name}</td>
+                                <td><img src={`${IMG_URL_BASE}/${getDigimonFileName(each.name)}.png`} />&nbsp;{each.name}</td>
                                 <td>{Grades[each.grade]}</td>
-                                <td><img src={`/images/${each.digimonType}.png`} /></td>
+                                <td><img src={`${IMG_URL_BASE}/${each.digimonType}.png`} /></td>
                                 <td>{each.hp.toLocaleString("ko-KR")}</td>
                                 <td>{each.sp.toLocaleString("ko-KR")}</td>
                                 <td>{each.str.toLocaleString("ko-KR")}</td>
@@ -155,12 +155,12 @@ export default function Digidex(): React.ReactElement {
                                 <td>{each.res.toLocaleString("ko-KR")}</td>
                                 <td>{each.spd.toLocaleString("ko-KR")}</td>
                                 <td title={getDigimonQualityText(each.strengthEffect, false)}>
-                                    <img src={`/images/${each.strength} 강점.png`} />
+                                    <img src={`${IMG_URL_BASE}/${each.strength} 강점.png`} />
                                     &nbsp;
                                     {each.strengthEffect}
                                 </td>
                                 <td title={getDigimonQualityText(each.weaknessEffect, false)}>
-                                    <img src={`/images/${each.weakness} 약점.png`} />
+                                    <img src={`${IMG_URL_BASE}/${each.weakness} 약점.png`} />
                                     &nbsp;
                                     {each.weaknessEffect}
                                 </td>
@@ -184,11 +184,11 @@ export default function Digidex(): React.ReactElement {
                                     if(skill.range === "원거리") className += "ranged";
 
                                     return <td className={className} key={getUUID()}>
-                                        <img src={`/images/스킬_${skill.element}.png`} />
+                                        <img src={`${IMG_URL_BASE}/스킬_${skill.element}.png`} />
                                         {/* <img src={`/images/스킬_${skill.targetCount}.png`} title={skill.targetCount} />
                                         <img src={`/images/스킬_${skill.range}.png`} title={skill.range} /> */}
                                         { skill.effect ? " ": ""}
-                                        { skill.effect && skill.effect !== "회복" && <img src={`/images/스킬_${skill.effect}.png`} title={skill.effect} /> }
+                                        { skill.effect && skill.effect !== "회복" && <img src={`${IMG_URL_BASE}/스킬_${skill.effect}.png`} title={skill.effect} /> }
                                         { skill.effect && skill.effect === "회복" && ` ${skill.effect}` }
                                         { skill.attackCount > 0 && ` ${skill.attackCount}타` }
                                         { skill.attackCount > 0 && ` ${skill.getPercentByIndex(9)}%` }
@@ -210,8 +210,7 @@ export default function Digidex(): React.ReactElement {
 
                 return <Link to={`/digimons/digidex?digimon=${each.name}`} key={getUUID()}>
                             <button type="button" className="digimon-button">
-                                <img src={`https://raw.githubusercontent.com/Junyeong0218/dsr_wiki/main/public/images/${getDigimonFileName(each.name)}.png`} loading="lazy" />
-                                {/* <img src={`https://github.com/Junyeong0218/dsr_wiki/raw/main/public/images/${getDigimonFileName(each.name)}.png`} loading="lazy" /> */}
+                                <img src={`${IMG_URL_BASE}/${getDigimonFileName(each.name)}.png`} loading="lazy" />
                                 { each.tag ? <span style={style} dangerouslySetInnerHTML={{__html: each.tag}}></span> : <span style={style}>{each.name}</span>}
                             </button>
                         </Link>

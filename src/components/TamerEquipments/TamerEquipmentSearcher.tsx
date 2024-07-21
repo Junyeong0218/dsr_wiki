@@ -3,6 +3,7 @@ import { getUUID } from "../../functions/commons";
 import TamerEquipmentFilter from "./TamerEquipmentFilter";
 import { TamerEquipment, TamerEquipmentSet } from "../../classes/TamerEquipment";
 import { getTamerEquipments } from "../../functions/getTamerEquipments";
+import { IMG_URL_BASE } from "../../enums";
 
 export default function TamerEquipmentSearcher(): React.ReactElement {
     const [all, setAll] = useState<Array<TamerEquipment>>(getTamerEquipments());
@@ -36,7 +37,7 @@ export default function TamerEquipmentSearcher(): React.ReactElement {
                         .map(equipment => {
                             return <div className="tamer-equipment" key={getUUID()}>
                                 <div className="equipment-image">
-                                    <img src={`/images/${equipment.type === null ? equipment.fullName : `드랍_${equipment.part}`}.png`} />
+                                    <img src={`${IMG_URL_BASE}/${equipment.type === null ? equipment.fullName : `드랍_${equipment.part}`}.png`} />
                                 </div>
                                 <div className="equipment-options title">{equipment.fullName}</div>
                                 <div className="equipment-options">{`${equipment.options[0].name} ${equipment.options[0].minValue} ~ ${equipment.options[0].maxValue}`}</div>

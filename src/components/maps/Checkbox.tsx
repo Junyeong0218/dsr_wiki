@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import { IMG_URL_BASE } from "../../enums";
 
 type CheckboxProps = { 
     id: string, 
@@ -11,7 +12,7 @@ export default function Checkbox({ id, text, checked, setChecked }: CheckboxProp
     const checkbox = useMemo(() => {
         return <label className="check-box-container" htmlFor={id} >
                     <input type="checkbox" defaultChecked={checked} onChange={(e) => setChecked(e.target.checked)} className="check-box" id={id} />
-                    <img src={`/images/${text}.png`} />
+                    <img src={`${IMG_URL_BASE}/${text}.png`} />
                     {text}
                 </label>;
     }, [checked]);

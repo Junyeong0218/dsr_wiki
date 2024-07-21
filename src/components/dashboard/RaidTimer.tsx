@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { getUUID } from "../../functions/commons";
+import { IMG_URL_BASE } from "../../enums";
 
 const GOTSUMON1 = "01:00:00";
 const GOTSUMON2 = "23:00:00";
@@ -180,10 +181,10 @@ export default function RaidTimer(): React.ReactElement {
     // console.log("세라피몬");
     const seraphimonTime = getLeftTimeWeekly("블랙세라피몬", seraphimonRaidStart);
 
-    const gotsumonLabel = useMemo(() => <div className="raid-portrait"><img src="/images/울퉁몬.png" />울퉁몬</div>, []);
-    const pumpmonLabel = useMemo(() => <div className="raid-portrait"><img src="/images/펌프몬.png" />펌프몬</div>, []);
-    const ophanimonLabel = useMemo(() => <div className="raid-portrait"><img src="/images/오파니몬 폴다운모드.png" />오파니몬:폴다운모드</div>, []);
-    const seraphimonLabel = useMemo(() => <div className="raid-portrait"><img src="/images/블랙세라피몬.png" />블랙세라피몬</div>, []);
+    const gotsumonLabel = useMemo(() => <div className="raid-portrait"><img src={`${IMG_URL_BASE}/울퉁몬.png`} />울퉁몬</div>, []);
+    const pumpmonLabel = useMemo(() => <div className="raid-portrait"><img src={`${IMG_URL_BASE}/펌프몬.png`} />펌프몬</div>, []);
+    const ophanimonLabel = useMemo(() => <div className="raid-portrait"><img src={`${IMG_URL_BASE}/오파니몬 폴다운모드.png`} />오파니몬:폴다운모드</div>, []);
+    const seraphimonLabel = useMemo(() => <div className="raid-portrait"><img src={`${IMG_URL_BASE}/블랙세라피몬.png`} />블랙세라피몬</div>, []);
 
     const raids = [
         gotsumonTime1,

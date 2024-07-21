@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Digimon, Item } from "../../classes";
 import { getAllDigimons } from "../../functions";
 import { getSearchedDigimons } from "../../functions/searchFunctions";
-import { Grades } from "../../enums";
+import { Grades, IMG_URL_BASE } from "../../enums";
 import { getNameExceptColon, getUUID } from "../../functions/commons";
 import DigimonStatus from "../digidex/digimonStatus";
 import { getItemById, getItemByName } from "../../functions/getItemsFunctions";
@@ -208,11 +208,11 @@ export default function SkillSimulator(): React.ReactElement {
                     { text === "" && !selectedDigimon && <div className="digimons">↑ 디지몬 검색 ↑</div> }
                     { text === "" && selectedDigimon && 
                         <div className="selected-digimon-info">
-                            <img src={`/images/${getDigimonFileName(selectedDigimon.name)}.png`} />
+                            <img src={`${IMG_URL_BASE}/${getDigimonFileName(selectedDigimon.name)}.png`} />
                             <div className="digimon-info-shortcut">
                                 <span className="name">{selectedDigimon.name}</span>
                                 <span className="grade">{Grades[selectedDigimon.grade]}</span>
-                                <span className="element">속성 :&nbsp;<img src={`/images/${selectedDigimon.digimonType}.png`} /></span>
+                                <span className="element">속성 :&nbsp;<img src={`${IMG_URL_BASE}/${selectedDigimon.digimonType}.png`} /></span>
                             </div>
                         </div>}
                     { text === "" && selectedDigimon && <DigimonStatus digimon={selectedDigimon} />}
@@ -223,7 +223,7 @@ export default function SkillSimulator(): React.ReactElement {
                                     setText("");
                                     setSelectedDigimon(digimon);
                                 }}>
-                                    <img src={`/images/${getDigimonFileName(digimon.name)}.png`} />
+                                    <img src={`${IMG_URL_BASE}/${getDigimonFileName(digimon.name)}.png`} />
                                     <div className="simulator-digimon-info">
                                         { digimon.tag && <span className="name" dangerouslySetInnerHTML={{ __html: digimon.tag }}></span> }
                                         { !digimon.tag && <span className="name">{digimon.name}</span> }
@@ -239,7 +239,7 @@ export default function SkillSimulator(): React.ReactElement {
                         {/* 1 ~ 3 skill */}
                         { selectedDigimon && selectedDigimon.skills.map((skill, index) => (
                             <div className={`skill ${skillIndex === index ? "selected" : ""}`} key={getUUID()} onClick={() => setSkillIndex(index)}>
-                                <img src={`/images/${getDigimonFileName(selectedDigimon.name)}_${getNameExceptColon(skill.name)}.png`} key={getUUID()}/>
+                                <img src={`${IMG_URL_BASE}/${getDigimonFileName(selectedDigimon.name)}_${getNameExceptColon(skill.name)}.png`} key={getUUID()}/>
                                 <span>{skill.name}</span>
                                 <span>Lv.{skillLevels[index + 1]}</span>
                             </div>
@@ -254,11 +254,11 @@ export default function SkillSimulator(): React.ReactElement {
                                 <span>공격 횟수 : {selectedDigimon.skills[skillIndex].attackCount}타</span>
                                 <span>스킬 계수 :&nbsp;<mark>{selectedDigimon.skills[skillIndex].getPercentByIndex(skillLevels[skillIndex + 1] - 1)}%</mark></span>
                                 <span>적용 대상 : {selectedDigimon.skills[skillIndex].range} {selectedDigimon.skills[skillIndex].target} {selectedDigimon.skills[skillIndex].targetCount}</span>
-                                <span>속성 :&nbsp;<img src={`/images/스킬_${selectedDigimon.skills[skillIndex].element}.png`} />&nbsp;{selectedDigimon.skills[skillIndex].element}</span>
+                                <span>속성 :&nbsp;<img src={`${IMG_URL_BASE}/스킬_${selectedDigimon.skills[skillIndex].element}.png`} />&nbsp;{selectedDigimon.skills[skillIndex].element}</span>
                                 {selectedDigimon.skills[skillIndex].additionalTurn && 
                                     <span>추가 시전 턴 : {selectedDigimon.skills[skillIndex].additionalTurn}턴</span>}
                                 {selectedDigimon.skills[skillIndex].effect && 
-                                    <span>추가 효과 :&nbsp;<img src={`/images/스킬_${selectedDigimon.skills[skillIndex].effect}.png`} />&nbsp;{selectedDigimon.skills[skillIndex].effect}</span>}
+                                    <span>추가 효과 :&nbsp;<img src={`${IMG_URL_BASE}/스킬_${selectedDigimon.skills[skillIndex].effect}.png`} />&nbsp;{selectedDigimon.skills[skillIndex].effect}</span>}
                             </div>
                             <div className="arrow">→</div>
                             { selectedDigimon.skills[skillIndex].coefficients.length <= skillLevels[skillIndex + 1] && 
@@ -271,11 +271,11 @@ export default function SkillSimulator(): React.ReactElement {
                                     <span>공격 횟수 : {selectedDigimon.skills[skillIndex].attackCount}타</span>
                                     <span>스킬 계수 :&nbsp;<mark>{selectedDigimon.skills[skillIndex].getPercentByIndex(skillLevels[skillIndex + 1])}%</mark></span>
                                     <span>적용 대상 : {selectedDigimon.skills[skillIndex].range} {selectedDigimon.skills[skillIndex].target} {selectedDigimon.skills[skillIndex].targetCount}</span>
-                                    <span>속성 :&nbsp;<img src={`/images/스킬_${selectedDigimon.skills[skillIndex].element}.png`} />&nbsp;{selectedDigimon.skills[skillIndex].element}</span>
+                                    <span>속성 :&nbsp;<img src={`${IMG_URL_BASE}/스킬_${selectedDigimon.skills[skillIndex].element}.png`} />&nbsp;{selectedDigimon.skills[skillIndex].element}</span>
                                     {selectedDigimon.skills[skillIndex].additionalTurn && 
                                         <span>추가 시전 턴 : {selectedDigimon.skills[skillIndex].additionalTurn}턴</span>}
                                     {selectedDigimon.skills[skillIndex].effect && 
-                                        <span>추가 효과 :&nbsp;<img src={`/images/스킬_${selectedDigimon.skills[skillIndex].effect}.png`} />&nbsp;{selectedDigimon.skills[skillIndex].effect}</span>}
+                                        <span>추가 효과 :&nbsp;<img src={`${IMG_URL_BASE}/스킬_${selectedDigimon.skills[skillIndex].effect}.png`} />&nbsp;{selectedDigimon.skills[skillIndex].effect}</span>}
                                 </div>
                             }
                         </div>
@@ -298,10 +298,10 @@ export default function SkillSimulator(): React.ReactElement {
                         <div className="usable-items">
                             <div className="usable-item">
                                 <div className="cell disabled">
-                                    { selectedDigimon?.grade === 3 && <img src={`/images/성장기 스킬 강화석.png`} />}
-                                    { selectedDigimon?.grade === 4 && <img src={`/images/성숙기 스킬 강화석.png`} />}
-                                    { selectedDigimon?.grade === 5 && <img src={`/images/완전체 스킬 강화석.png`} />}
-                                    { selectedDigimon?.grade === 6 && <img src={`/images/궁극체 스킬 강화석.png`} />}
+                                    { selectedDigimon?.grade === 3 && <img src={`${IMG_URL_BASE}/성장기 스킬 강화석.png`} />}
+                                    { selectedDigimon?.grade === 4 && <img src={`${IMG_URL_BASE}/성숙기 스킬 강화석.png`} />}
+                                    { selectedDigimon?.grade === 5 && <img src={`${IMG_URL_BASE}/완전체 스킬 강화석.png`} />}
+                                    { selectedDigimon?.grade === 6 && <img src={`${IMG_URL_BASE}/궁극체 스킬 강화석.png`} />}
                                 </div>
                                 <div className="title">기본 재료</div>
                             </div>
@@ -310,7 +310,7 @@ export default function SkillSimulator(): React.ReactElement {
                                     if(openFlag !== "up") setOpenFlag("up");
                                     else setOpenFlag("");
                                 }}>
-                                    {enhanceHelper.upId !== 0 && <img src={`/images/${getItemById(enhanceHelper.upId)!.name}.png`} />}
+                                    {enhanceHelper.upId !== 0 && <img src={`${IMG_URL_BASE}/${getItemById(enhanceHelper.upId)!.name}.png`} />}
                                     {enhanceHelper.upId !== 0 && 
                                         <button type="button" className="remove-button" onClick={(event) => {
                                             event.preventDefault();
@@ -318,7 +318,7 @@ export default function SkillSimulator(): React.ReactElement {
                                             enhanceHelper.upId = 0;
                                             setEnhanceHelper({ ...enhanceHelper });
                                         }}>
-                                            <img src="/images/remove_button.png" />
+                                            <img src={`${IMG_URL_BASE}/remove_button.png`} />
                                         </button>
                                     }
                                 </div>
@@ -332,7 +332,7 @@ export default function SkillSimulator(): React.ReactElement {
                                                 setEnhanceHelper({ ...enhanceHelper });
                                                 setOpenFlag("");
                                             }}>
-                                                <img src="/images/고급 강화 재료.png" />
+                                                <img src={`${IMG_URL_BASE}/고급 강화 재료.png`} />
                                                 <div className="item-info">
                                                     <span className="name">고급 강화 재료</span>
                                                     <span className="effect">성공확률 10% 증가</span>
@@ -343,7 +343,7 @@ export default function SkillSimulator(): React.ReactElement {
                                                 setEnhanceHelper({ ...enhanceHelper });
                                                 setOpenFlag("");
                                             }}>
-                                                <img src="/images/최고급 강화 재료.png" />
+                                                <img src={`${IMG_URL_BASE}/최고급 강화 재료.png`} />
                                                 <div className="item-info">
                                                     <span className="name">최고급 강화 재료</span>
                                                     <span className="effect">성공확률 15% 증가</span>
@@ -360,7 +360,7 @@ export default function SkillSimulator(): React.ReactElement {
                                         if(openFlag !== "down") setOpenFlag("down");
                                         else setOpenFlag("");
                                      }}>
-                                    {enhanceHelper.downId !== 0 && <img src={`/images/${getItemById(enhanceHelper.downId)!.name}.png`} />}
+                                    {enhanceHelper.downId !== 0 && <img src={`${IMG_URL_BASE}/${getItemById(enhanceHelper.downId)!.name}.png`} />}
                                     {enhanceHelper.downId !== 0 && 
                                         <button type="button" className="remove-button" onClick={(event) => {
                                             event.preventDefault();
@@ -368,7 +368,7 @@ export default function SkillSimulator(): React.ReactElement {
                                             enhanceHelper.downId = 0;
                                             setEnhanceHelper({ ...enhanceHelper });
                                         }}>
-                                            <img src="/images/remove_button.png" />
+                                            <img src={`${IMG_URL_BASE}/remove_button.png`} />
                                         </button>
                                     }
                                 </div>
@@ -382,7 +382,7 @@ export default function SkillSimulator(): React.ReactElement {
                                                 setEnhanceHelper({ ...enhanceHelper });
                                                 setOpenFlag("");
                                             }}>
-                                                <img src="/images/최하급 스킬 보호석.png" />
+                                                <img src={`${IMG_URL_BASE}/최하급 스킬 보호석.png`} />
                                                 <div className="item-info">
                                                     <span className="name">최하급 스킬 보호석</span>
                                                     <span className="effect">단계 하락 확률 5% 감소</span>
@@ -406,7 +406,7 @@ export default function SkillSimulator(): React.ReactElement {
                         <div className="title">소모 비용</div>
                         <div className="bits">
                             <span>{getDefaultBit(selectedDigimon?.grade).toLocaleString("ko-KR")}</span>
-                            <img src="/images/조합 비트 아이콘.png" />
+                            <img src={`${IMG_URL_BASE}/무배경_bit.png`} />
                         </div>
                     </div>
                     <div className="enhance-button-container">
@@ -461,7 +461,7 @@ export default function SkillSimulator(): React.ReactElement {
                         <div className="spents">
                             { spent.spentItems.map(spentItem => (
                                 <div className="spent" key={getUUID()}>
-                                    <img src={`/images/${spentItem.item.name}.png`} />
+                                    <img src={`${IMG_URL_BASE}/${spentItem.item.name}.png`} />
                                     <div className="spent-info">
                                         <span>{spentItem.item.name}</span>
                                         <span>사용 수량 : {spentItem.count.toLocaleString("ko-KR")} 개</span>
@@ -474,7 +474,7 @@ export default function SkillSimulator(): React.ReactElement {
                         <div className="title">소모된 비용</div>
                         <div className="bits">
                             <span>{spent.bits.toLocaleString("ko-KR")}</span>
-                            <img src="/images/조합 비트 아이콘.png" />
+                            <img src={`${IMG_URL_BASE}/무배경_bit.png`} />
                         </div>
                     </div>
                 </div>

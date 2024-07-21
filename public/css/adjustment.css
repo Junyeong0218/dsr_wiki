@@ -194,6 +194,10 @@
     font-size: 2.6rem;
 }
 
+.adjust-dashboard .spent-items .spent-item img{
+    border-radius: 5px;
+}
+
 .adjust-dashboard .spent-items .spent-item span {
     font-family: "Vipnagorgialla";
     font-size: 2.6rem;
@@ -211,7 +215,7 @@
     height: 25px;
 
     font-size: 1.1rem;
-    color: var(--white);
+    color: var(--theme-light-font-color);
     line-height: 25px;
 }
 

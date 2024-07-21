@@ -4,6 +4,7 @@ import Gauges from "./Gauges";
 import Status from "./Status";
 import { Item } from "../../classes";
 import SpentItems from "./SpentItems";
+import { IMG_URL_BASE } from "../../enums";
 
 export type SpentItem = {
     item: Item,
@@ -146,7 +147,7 @@ export default function Adjustments(): React.ReactElement {
     const digiviceSimulator = useMemo(() => {
         return <div className="digivice-simulator">
                     <div className="digivice-container">
-                        <img src="/images/디지바이스_시뮬.png" className="digivice "/>
+                        <img src={`${IMG_URL_BASE}/디지바이스_시뮬.png`} className="digivice "/>
                         <div className="digivice-screens">
                             <ul className="screen-mover">
                                 <li><span data-id="first">최초 교정</span></li>
@@ -158,17 +159,17 @@ export default function Adjustments(): React.ReactElement {
                         <button type="button" className="select-button" 
                                 id="digivice_up" style={{ top: "56px", left: "214px" }}
                                 onClick={movePosition}>
-                            <img src="/images/디지바이스_윗_버튼.png" />
+                            <img src={`${IMG_URL_BASE}/디지바이스_윗_버튼.png`} />
                         </button>
                         <button type="button" className="select-button" 
                                 id="digivice_down" style={{ top: "113px", left: "204px" }}
                                 onClick={movePosition}>
-                            <img src="/images/디지바이스_아랫_버튼.png" />
+                            <img src={`${IMG_URL_BASE}/디지바이스_아랫_버튼.png`} />
                         </button>
                         <button type="button" className="select-button" 
                                 id="digivice_select" style={{ top: "93px", left: "20px" }}
                                 onClick={selectPosition}>
-                            <img src="/images/디지바이스_선택_버튼.png" />
+                            <img src={`${IMG_URL_BASE}/디지바이스_선택_버튼.png`} />
                         </button>
                     </div>
                 </div>;

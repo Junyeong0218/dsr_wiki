@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+import { IMG_URL_BASE } from "../../enums";
 
 type Ladder = {
     date: string,
@@ -30,7 +31,7 @@ export default function Ladders() : React.ReactElement {
         return (
             <div className="content">
                 <div className="row">
-                    { ladder && <img src={`/images/daily_${ladder.grade}.png`}/> }
+                    { ladder && <img src={`${IMG_URL_BASE}/daily_${ladder.grade}.png`}/> }
                 </div>
             </div>
         );

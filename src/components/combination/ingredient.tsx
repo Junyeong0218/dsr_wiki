@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import { getNameExceptColon } from "../../functions/commons";
 import { getItemById } from "../../functions/getItemsFunctions";
 import { CombinationIngredient } from "../../classes/Combination";
+import { IMG_URL_BASE } from "../../enums";
 
 type IngredientProps = { ingredient: CombinationIngredient }
 
@@ -15,7 +16,7 @@ export default function Ingredient({ ingredient }: IngredientProps): React.React
     
     return (
         <div className="ingredient">
-            <img src={`/images/${encodeURIComponent(itemImageName)}.png`} />
+            <img src={`${IMG_URL_BASE}/${encodeURIComponent(itemImageName)}.png`} />
             <span>{item.name} * {ingredient.count}</span>
             { tradableTag }
         </div>

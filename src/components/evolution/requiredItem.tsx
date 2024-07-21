@@ -1,4 +1,5 @@
 import React from "react";
+import { IMG_URL_BASE } from "../../enums";
 
 type RequiredItemProps = { 
     fileName: string | null, 
@@ -11,7 +12,7 @@ export default function RequiredItem({ fileName, top, left }: RequiredItemProps)
 
     return (
         <div className="req-item jogress" style={{top: `${top}px`, left: `${left}px`}}>
-            <img src={`/images/${fileName}.png`} title={fileName} />
+            <img src={`${IMG_URL_BASE}/${fileName}.png`} title={fileName} />
         </div>
     );
 }

@@ -6,6 +6,7 @@ import { Digimon } from "../../classes";
 import { FieldType } from "../../classes/FieldType";
 import { getAllFieldTypes } from "../../functions/getFieldTypes";
 import FieldTypeModal from "./FieldTypeModal";
+import { IMG_URL_BASE } from "../../enums";
 
 type DigimonStatusProps = { digimon: Digimon }
 
@@ -66,12 +67,12 @@ export default function DigimonStatus({ digimon }: DigimonStatusProps): React.Re
                 <span className="title">* 스테이터스</span>
                 <DigimonStatusTable digimon={digimon} /> 
                 <div className="digimon-quality">
-                    <img src={`/images/${digimon.strength} 강점.png`} />
+                    <img src={`${IMG_URL_BASE}/${digimon.strength} 강점.png`} />
                     <span>{digimon.strength} - {digimon.strengthEffect}</span>
                     <span className="description" dangerouslySetInnerHTML={{__html: getDigimonQualityText(digimon.strengthEffect)}}></span>
                 </div>
                 <div className="digimon-quality">
-                    <img src={`/images/${digimon.weakness} 약점.png`} />
+                    <img src={`${IMG_URL_BASE}/${digimon.weakness} 약점.png`} />
                     <span>{digimon.weakness} - {digimon.weaknessEffect}</span>
                     <span className="description" dangerouslySetInnerHTML={{__html: getDigimonQualityText(digimon.weaknessEffect)}}></span>
                 </div>
@@ -79,7 +80,7 @@ export default function DigimonStatus({ digimon }: DigimonStatusProps): React.Re
             <div className="digimon-stat">
                 <span className="title">* 필드 타입</span>
                 <div className="field-types" onMouseMove={captureMouse} onMouseLeave={mouseLeaveHandler}>
-                    { digimon.fieldTypes.map(fieldType => <img id={fieldType} className="field" src={`/images/field_${fieldType}.png`} title={fieldType} key={getUUID()}/>)}
+                    { digimon.fieldTypes.map(fieldType => <img id={fieldType} className="field" src={`${IMG_URL_BASE}/field_${fieldType}.png`} title={fieldType} key={getUUID()}/>)}
                 </div>
             </div>
             { fieldTypeModal }

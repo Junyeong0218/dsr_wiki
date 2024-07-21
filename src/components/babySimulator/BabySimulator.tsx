@@ -3,7 +3,7 @@ import { IBabyStatus, evolve, feed, getBabyItems, getFullnessState, hatch, pass9
 import { getAllEvolutions, getJustAfterEvolution } from "../../functions";
 import { getItemByName } from "../../functions/getItemsFunctions";
 import { Item } from "../../classes";
-import { Grades } from "../../enums";
+import { Grades, IMG_URL_BASE } from "../../enums";
 import ToRightProfileGroup from "../evolution/toRightProfileGroup";
 import { getUUID } from "../../functions/commons";
 import Profile from "../evolution/profile";
@@ -218,15 +218,15 @@ export default function BabySimulator(): React.ReactElement {
             <div className="baby-simulator-container">
                 <div className="baby-simulator">
                     <div className="hatch-container">
-                        <img src="/images/hatch.png" style={{ width: "400px" }}/>
-                        { babyStatus && <img src={`/images/${babyStatus.digimon.name}.png`} className="selected" style={{ top: "170px", left: "405px" }}/> }
+                        <img src={`${IMG_URL_BASE}/hatch.png`} style={{ width: "400px" }}/>
+                        { babyStatus && <img src={`${IMG_URL_BASE}/${babyStatus.digimon.name}.png`} className="selected" style={{ top: "170px", left: "405px" }}/> }
                         { babyStatus && 
                             <div className="interact-buttons">
                                 <button type="button" onClick={() => {
                                     if(openModalName !== "toy") setOpenModalName("toy");
                                     else setOpenModalName("");
                                 }}>
-                                    <img src="/images/섬_놀아주기.png" />
+                                    <img src={`${IMG_URL_BASE}/섬_놀아주기.png`} />
                                     <span>놀아주기&#40;{interact.play}/3&#41;</span>
                                 </button>
                                 <div className={`modal ${openModalName === "toy" ? "active" : ""}`} style={{ transform: "translate(40%, 40%)" }}>
@@ -234,7 +234,7 @@ export default function BabySimulator(): React.ReactElement {
                                         <div className="toys">
                                             { babyItems.toys.map(toy => (
                                                 <button type="button" onClick={() => playWith(toy)} key={getUUID()}>
-                                                    <img src={`/images/${toy.name}.png`} />
+                                                    <img src={`${IMG_URL_BASE}/${toy.name}.png`} />
                                                     <div className="description">
                                                         <span className="title">{toy.name}</span>
                                                         <span>성장 지수 + {toy.stature}</span>
@@ -250,7 +250,7 @@ export default function BabySimulator(): React.ReactElement {
                                     if(openModalName !== "feed") setOpenModalName("feed");
                                     else setOpenModalName("");
                                 }}>
-                                    <img src="/images/섬_먹이주기.png" />
+                                    <img src={`${IMG_URL_BASE}/섬_먹이주기.png`} />
                                     <span>먹이주기&#40;{interact.feed}/5&#41;</span>
                                 </button>
                                 <div className={`modal ${openModalName === "feed" ? "active" : ""}`} style={{ transform: "translate(100%, 40%)" }}>
@@ -258,7 +258,7 @@ export default function BabySimulator(): React.ReactElement {
                                         <div className="toys">
                                             { babyItems.feeds.map(food => (
                                                 <button type="button" onClick={() => feedTheFood(food)} key={getUUID()}>
-                                                    <img src={`/images/${food.name}.png`} />
+                                                    <img src={`${IMG_URL_BASE}/${food.name}.png`} />
                                                     <div className="description">
                                                         <span className="title">{food.name}</span>
                                                         <span>포만 지수 + {food.fullness}</span>
@@ -270,11 +270,11 @@ export default function BabySimulator(): React.ReactElement {
                                     </div>
                                 </div>
                                 <button type="button" onClick={pass90Mins}>
-                                    <img src="/images/타임몬의 시계바늘(1시간).png" />
+                                    <img src={`${IMG_URL_BASE}/타임몬의 시계바늘(1시간).png`} />
                                     <span>90분 경과</span>
                                 </button>
                                 <button type="button" onClick={passADay}>
-                                    <img src="/images/타임몬의 시계바늘(1시간).png" />
+                                    <img src={`${IMG_URL_BASE}/타임몬의 시계바늘(1시간).png`} />
                                     <span>1일 경과</span>
                                 </button>
                             </div>}
@@ -287,7 +287,7 @@ export default function BabySimulator(): React.ReactElement {
                                     return <div className="log" key={getUUID()}>
                                         <div className="title">
                                             먹이주기
-                                            <img src={`/images/${log.item!.name}.png`} />
+                                            <img src={`${IMG_URL_BASE}/${log.item!.name}.png`} />
                                         </div>
                                         <div className="description">{log.text}</div>
                                     </div>
@@ -295,7 +295,7 @@ export default function BabySimulator(): React.ReactElement {
                                     return <div className="log" key={getUUID()}>
                                     <div className="title">
                                         놀아주기
-                                        <img src={`/images/${log.item!.name}.png`} />
+                                        <img src={`${IMG_URL_BASE}/${log.item!.name}.png`} />
                                     </div>
                                     <div className="description">{log.text}</div>
                                 </div>
@@ -303,7 +303,7 @@ export default function BabySimulator(): React.ReactElement {
                                 return <div className="log" key={getUUID()}>
                                     <div className="title">
                                         90분 경과
-                                        <img src={`/images/타임몬의 시계바늘(1시간).png`} />
+                                        <img src={`${IMG_URL_BASE}/타임몬의 시계바늘(1시간).png`} />
                                     </div>
                                     <div className="description">{log.text}</div>
                                 </div>
@@ -317,7 +317,7 @@ export default function BabySimulator(): React.ReactElement {
                             { eggs.map(egg => (
                                 <button className={`egg ${selectedEgg?.id === egg.id ? "selected" : ""}`} key={getUUID()}
                                         onClick={() => setSelectedEgg(egg)}>
-                                    <img src={`/images/${egg.name}.png`} />
+                                    <img src={`${IMG_URL_BASE}/${egg.name}.png`} />
                                     <span>{egg.name.replace("(6시간)", "")}</span>
                                 </button>
                             ))}
@@ -330,7 +330,7 @@ export default function BabySimulator(): React.ReactElement {
                             <div className="baby-status">
                                 <div className="baby-shorcut">
                                     <div className="title">{babyStatus.digimon.name}</div>
-                                    <img src={`/images/${babyStatus.digimon.name}.png`} />
+                                    <img src={`${IMG_URL_BASE}/${babyStatus.digimon.name}.png`} />
                                     <div className="grade">{Grades[babyStatus.digimon.grade]}</div>
                                 </div>
                                 <div className="baby-status-description">
@@ -396,10 +396,10 @@ export default function BabySimulator(): React.ReactElement {
                             <div className="title big">유년기 진화 결과</div>
                             <div className="child-evolution-info">
                                 <div className="child-digimon">
-                                    <img src={`/images/${childResult.digimon.name}.png`}/>
+                                    <img src={`${IMG_URL_BASE}/${childResult.digimon.name}.png`}/>
                                     <div className="child-digimon-shortcut">
                                         <div className="digimon-name">{childResult.digimon.name}</div>
-                                        <img src={`/images/${childResult.digimon.digimonType}.png`}/>
+                                        <img src={`${IMG_URL_BASE}/${childResult.digimon.digimonType}.png`}/>
                                     </div>
                                 </div>
                                 <Gauges gauges={childResult.adjustments} />
@@ -415,7 +415,7 @@ export default function BabySimulator(): React.ReactElement {
                                         }
 
                                         return <div className="spent-item">
-                                            <img src={`/images/${food.item!.name}.png`} />
+                                            <img src={`${IMG_URL_BASE}/${food.item!.name}.png`} />
                                             <div className="spent-item-info">
                                                 <div className="title">{food.item!.name}</div>
                                                 <span>{array.filter(each => each.item!.name === food.item!.name).length}개</span>
@@ -432,7 +432,7 @@ export default function BabySimulator(): React.ReactElement {
                                         }
 
                                         return <div className="spent-item">
-                                            <img src={`/images/${toy.item!.name}.png`} />
+                                            <img src={`${IMG_URL_BASE}/${toy.item!.name}.png`} />
                                             <div className="spent-item-info">
                                                 <div className="title">{toy.item!.name}</div>
                                                 <span>{array.filter(each => each.item!.name === toy.item!.name).length}개</span>

@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { getUUID } from "../../functions/commons";
+import { IMG_URL_BASE } from "../../enums";
 
 type Notice = {
     href: string,
@@ -39,7 +40,7 @@ export default function UpdateArticles() : React.ReactElement {
                     
                     return <Link className="row long" to={`${notice.href}`} target="_blank" key={getUUID()} title={notice.title}>
                         <span>{notice.title}</span>
-                        {now - date < 60 * 60 * 24 * 5 * 1000 && <i className='new'><img src="/images/new_tag.png" alt="" /></i>}
+                        {now - date < 60 * 60 * 24 * 5 * 1000 && <i className='new'><img src={`${IMG_URL_BASE}/new_tag.png`} alt="" /></i>}
                     </Link>
                 })}
             </div>

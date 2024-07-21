@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { getUUID } from "../../functions/commons";
-import { RequireStatName } from "../../enums";
+import { IMG_URL_BASE, RequireStatName } from "../../enums";
 import { Evolution } from "../../classes";
 import { getDigimonFileName } from "../../functions/getDigimonFileName";
 
@@ -37,7 +37,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
                 <div className="targets">
                     { commons.map(d => (
                         <div className="target" key={getUUID()}>
-                            <img src={`/images/${getDigimonFileName(d.digimon!.name)}.png`} />
+                            <img src={`${IMG_URL_BASE}/${getDigimonFileName(d.digimon!.name)}.png`} />
                             <span>{d.digimon!.name}</span>
                             <span>{`${d.getRate()}%`}</span>
                         </div>
@@ -58,7 +58,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
                                 <span className="condition-title">아이템</span>
                                 <span>
                                     {commons[0].ingredient}&nbsp;
-                                    <img src={`/images/${commons[0].ingredient}.png`} />
+                                    <img src={`${IMG_URL_BASE}/${commons[0].ingredient}.png`} />
                                 </span>
                             </div>
                         }
@@ -69,7 +69,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
                 <div className="conditions">
                     { commons.map(common => (
                         <div className="conditions common" key={getUUID()}>
-                            <img src={`/images/${getDigimonFileName(common.digimon!.name)}.png`} />
+                            <img src={`${IMG_URL_BASE}/${getDigimonFileName(common.digimon!.name)}.png`} />
                             <span className="digimon-name">{common.digimon!.name}<br />{`${common.getRate()}%`}</span>
                             { Object.keys(common)?.filter(key => Object.keys(RequireStatName).includes(key) && common[key] !== 0 && common[key] !== "").map(key => (
                                 <div className="condition" key={getUUID()}>
@@ -79,7 +79,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
                             )) }
                             { common.ingredient !== null && 
                                 <div className="condition" style={{alignSelf: "flex-end"}}>
-                                    <img src={`/images/${common.ingredient}.png`} />
+                                    <img src={`${IMG_URL_BASE}/${common.ingredient}.png`} />
                                     <span className="digimon-name">{common.ingredient}</span>
                                 </div> 
                             }
@@ -100,7 +100,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
                     <span className="semi-title">조그레스 진화</span>
                     <div className="conditions">
                         <div className="conditions jogress">
-                            <img src={`/images/${jogress[0].digimon!.name}.png`} />
+                            <img src={`${IMG_URL_BASE}/${jogress[0].digimon!.name}.png`} />
                             <span className="digimon-name">{jogress[0].digimon!.name}</span>
                             { Object.keys(jogress[0])?.filter(key => Object.keys(RequireStatName).includes(key) && jogress[0][key] !== 0 && jogress[0][key] !== "").map(key => (
                                 <div className="condition" key={getUUID()}>
@@ -110,7 +110,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
                             )) }
                         </div>
                         <div className="conditions jogress">
-                            <img src={`/images/${jogress[1].digimon!.name}.png`} />
+                            <img src={`${IMG_URL_BASE}/${jogress[1].digimon!.name}.png`} />
                             <span className="digimon-name">{jogress[1].digimon!.name}</span>
                             { Object.keys(jogress[1])?.filter(key => Object.keys(RequireStatName).includes(key) && jogress[1][key] !== 0 && jogress[1][key] !== "").map(key => (
                                 <div className="condition" key={getUUID()}>
@@ -120,7 +120,7 @@ export default function EvolutionDescriptionModal({ isActive, position, digimon 
                             )) } 
                         </div>
                         { jogress[0].ingredient !== "" && <div className="conditions jogress">
-                            <img src={`/images/${jogress[0].ingredient}.png`} />
+                            <img src={`${IMG_URL_BASE}/${jogress[0].ingredient}.png`} />
                             <span className="digimon-name">{jogress[0].ingredient}</span>
                         </div> }
                     </div>

@@ -3,6 +3,7 @@ import { getItemById } from "../../functions/getItemsFunctions";
 import { getNameExceptColon, getUUID } from "../../functions/commons";
 import { IShopItem } from "../../classes/Shop";
 import { FieldType } from "../../classes/FieldType";
+import { IMG_URL_BASE } from "../../enums";
 
 type CouponModalProps = { 
     isOpen: boolean,
@@ -20,9 +21,9 @@ export default function FieldTypeModal({ isOpen, position, field }: CouponModalP
                     return (
                         <div className="field-type" key={getUUID()}>
                             <div className="images">
-                                <img src={`/images/field_${field.type}.png`}/>
-                                <img src={`/images/field_${field.type}.png`}/>
-                                { index === 1 && <img src={`/images/field_${field.type}.png`}/> }
+                                <img src={`${IMG_URL_BASE}/field_${field.type}.png`}/>
+                                <img src={`${IMG_URL_BASE}/field_${field.type}.png`}/>
+                                { index === 1 && <img src={`${IMG_URL_BASE}/field_${field.type}.png`}/> }
                             </div>
                             <span className="">{field.type} 필드 시너지 {field.stat} 증가 {percent}</span>
                         </div>

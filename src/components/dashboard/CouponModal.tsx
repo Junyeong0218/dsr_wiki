@@ -2,6 +2,7 @@ import React from "react";
 import { getItemById } from "../../functions/getItemsFunctions";
 import { getNameExceptColon, getUUID } from "../../functions/commons";
 import { IShopItem } from "../../classes/Shop";
+import { IMG_URL_BASE } from "../../enums";
 
 type CouponItem = {
     couponId: number;
@@ -31,7 +32,7 @@ export default function CouponModal({ isOpen, position, coupon }: CouponModalPro
                 { coupon && coupon.items && coupon.items.map(item => {
                     return (
                         <div className="coupon-item" key={getUUID()}>
-                            <img src={`/images/${item.itemName.includes("조합법") ? "조합법" : encodeURIComponent(item.itemName)}.png`}/>
+                            <img src={`${IMG_URL_BASE}/${item.itemName.includes("조합법") ? "조합법" : encodeURIComponent(item.itemName)}.png`}/>
                             <span className="item-name">{item.itemName}</span>
                             <span className="item-count">* {item.count}</span>
                         </div>

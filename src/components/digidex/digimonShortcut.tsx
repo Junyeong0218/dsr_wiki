@@ -1,5 +1,5 @@
 import React from "react";
-import { GradeClassNames, Grades } from "../../enums";
+import { GradeClassNames, Grades, IMG_URL_BASE } from "../../enums";
 import { Link, useNavigate } from "react-router-dom";
 import { Digimon } from "../../classes";
 import Evolutions from "./evolutions";
@@ -12,14 +12,14 @@ export default function DigimonShortcut({ digimon }: DigimonShortcutProps): Reac
 
     return (
         <div className="digimon-shortcut-container">
-            <img className={`${GradeClassNames[Grades[`${digimon.grade}`]]}2`} src={`/images/${getDigimonFileName(digimon.name)}.png`}/>
+            <img className={`${GradeClassNames[Grades[`${digimon.grade}`]]}2`} src={`${IMG_URL_BASE}/${getDigimonFileName(digimon.name)}.png`}/>
             <div className="digimon-shortcut-info">
                 <div className="digimon-name-container">
                     <span className="digimon-name">{digimon.name}</span>
                     <Evolutions digimon={digimon} />
                 </div>
                 <span>{Grades[`${digimon.grade}`]}</span>
-                <img src={`/images/${digimon.digimonType}.png`} />
+                <img src={`${IMG_URL_BASE}/${digimon.digimonType}.png`} />
             </div>
             <button type="button" className="back-button" onClick={() => navigate("/digimons/digidex")}>
                 도감으로 돌아가기

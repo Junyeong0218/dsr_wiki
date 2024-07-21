@@ -2,6 +2,7 @@ import React, { MouseEvent, useState } from "react";
 import { IConversation, IQuestGoal } from "../../classes/Quest";
 import { getUUID } from "../../functions/commons";
 import { getDigimonFileName } from "../../functions/getDigimonFileName";
+import { IMG_URL_BASE } from "../../enums";
 
 type QuestGoalProps = {
     goal: IQuestGoal
@@ -80,7 +81,7 @@ export default function QuestGoal({ goal }: QuestGoalProps): React.ReactElement 
         <div className="goal-subject">
             { goal.goalDescription }&nbsp;
             { goal.goalCount > 0 ? `(0/${goal.goalCount})` : ""}
-            { goal.rewards && goal.rewards.length > 0 ? <img className="reward-icon" src="/images/quest_reward.png" onMouseEnter={forTest} /> : "" }
+            { goal.rewards && goal.rewards.length > 0 ? <img className="reward-icon" src={`${IMG_URL_BASE}/quest_reward.png`} onMouseEnter={forTest} /> : "" }
             { goal.isBattle ? <div className="badge red">전투 미션</div> : "" }
             { goal.isForceEncounter ? <div className="badge red">선공 몬스터</div> : "" }
             { goal.isForceLose ? <div className="badge red">패배 미션</div> : "" }
@@ -95,7 +96,7 @@ export default function QuestGoal({ goal }: QuestGoalProps): React.ReactElement 
                     }else if(index === 0) {
                         return <div className="character-speech" key={getUUID()}>
                                     <div className="speaker-icon">
-                                        <img src={`/images/${getDigimonFileName(conversation.speaker)}.png`} />
+                                        <img src={`${IMG_URL_BASE}/${getDigimonFileName(conversation.speaker)}.png`} />
                                     </div>
                                     <div className="speech">
                                         <span>{conversation.speaker}</span>
@@ -110,7 +111,7 @@ export default function QuestGoal({ goal }: QuestGoalProps): React.ReactElement 
                         else
                         return <div className="character-speech" key={getUUID()}>
                                         <div className="speaker-icon">
-                                            <img src={`/images/${getDigimonFileName(conversation.speaker)}.png`} />
+                                            <img src={`${IMG_URL_BASE}/${getDigimonFileName(conversation.speaker)}.png`} />
                                         </div>
                                         <div className="speech">
                                             <span>{conversation.speaker}</span>

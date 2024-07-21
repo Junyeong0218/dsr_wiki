@@ -3,6 +3,7 @@ import { getQuests } from "../../functions/getQuests";
 import { IQuestGoal, Quest } from "../../classes/Quest";
 import { getNameExceptColon, getUUID } from "../../functions/commons";
 import QuestGoal from "./Goal";
+import { IMG_URL_BASE } from "../../enums";
 
 export default function QuestViewer(): React.ReactElement {
     const all = useMemo(() => getQuests(), []);
@@ -47,8 +48,8 @@ export default function QuestViewer(): React.ReactElement {
                         <div className="quest-rewards">
                             <div className="title">클리어 보상</div>
                             <div className="rewards">
-                                <div><img src="/images/exp.png" /><span>{selectedQuest?.exp}</span></div>
-                                <div><img src="/images/bit.png" /><span>{selectedQuest?.bit.toLocaleString("ko-KR")}</span></div>
+                                <div><img src={`${IMG_URL_BASE}/exp.png`} /><span>{selectedQuest?.exp}</span></div>
+                                <div><img src={`${IMG_URL_BASE}/exp.png`} /><span>{selectedQuest?.bit.toLocaleString("ko-KR")}</span></div>
                                 { selectedQuest.rewards.length > 0 && 
                                     selectedQuest.rewards.map(reward => {
                                         const imageName = getImageFileName(getNameExceptColon(reward.name));
@@ -56,7 +57,7 @@ export default function QuestViewer(): React.ReactElement {
                                         const isTradable = `${reward.canTrade ? "<mark class='green'>거래가능</mark>" : "<mark class='red'>거래불가</mark>"}`;
 
                                         return <div className="reward" key={getUUID()}>
-                                            <img src={`/images/${encodeURIComponent(imageName)}.png`} />
+                                            <img src={`${IMG_URL_BASE}/${encodeURIComponent(imageName)}.png`} />
                                             <div className="reward-description">
                                                 <span dangerouslySetInnerHTML={{ __html: innerText }}></span>
                                                 <span dangerouslySetInnerHTML={{ __html: isTradable }}></span>

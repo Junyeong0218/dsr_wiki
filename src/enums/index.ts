@@ -81,6 +81,8 @@ const Elements: INumberKey = {
     11: "흙"
 }
 
+const IMG_URL_BASE = 'https://raw.githubusercontent.com/Junyeong0218/dsr_wiki/main/public/images';
+
 Object.freeze(Grades);
 Object.freeze(GradeClassNames);
 Object.freeze(RequireStatName);
@@ -105,5 +107,7 @@ export {
 
     DigimonTypesEng,
     DigimonTypes,
-    Elements
+    Elements,
+
+    IMG_URL_BASE
 }

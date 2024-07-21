@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import { getAllDigimons, getAllOverflows, getMaps } from "../../functions";
 import { Digimon, Monster, Skill } from "../../classes";
 import { getUUID } from "../../functions/commons";
+import { IMG_URL_BASE } from "../../enums";
 
 type Props = {
     isOpen: boolean;
@@ -19,10 +20,10 @@ export default function FullWeakDigimonModal({ isOpen, setIsOpen, skill }: Props
             <div className="window">
                 <div className="title" style={{ position: "relative" }}>
                     {skill.name}
-                    <img src={`/images/스킬_${skill.element}.png`} title={`${skill.element} 속성`} />
+                    <img src={`${IMG_URL_BASE}/스킬_${skill.element}.png`} title={`${skill.element} 속성`} />
                     약점 디지몬
                     <button type="button" className="remove-button" onClick={() => setIsOpen(false)}>
-                        <img src="/images/remove_button.png" />
+                        <img src={`${IMG_URL_BASE}/remove_button.png`} />
                     </button>
                 </div>
                 <div className="contents-spicies">
@@ -52,7 +53,7 @@ export default function FullWeakDigimonModal({ isOpen, setIsOpen, skill }: Props
                                     const digimon = Digimon.getByName(monster.name);
 
                                     return <div className="weak-digimon" key={getUUID()}>
-                                        <img src={`/images/${digimon?.name}.png`} />
+                                        <img src={`${IMG_URL_BASE}/${digimon?.name}.png`} />
                                         <span>{digimon?.name} Lv.{monster.level}</span>
                                     </div>
                                 });
@@ -92,7 +93,7 @@ export default function FullWeakDigimonModal({ isOpen, setIsOpen, skill }: Props
                                     const digimon = Digimon.getByName(monster.name);
 
                                     return <div className="weak-digimon" key={getUUID()}>
-                                        <img src={`/images/${digimon?.name}.png`} />
+                                        <img src={`${IMG_URL_BASE}/${digimon?.name}.png`} />
                                         <span>{digimon?.name} Lv.{monster.level}</span>
                                     </div>
                                 });
@@ -133,7 +134,7 @@ export default function FullWeakDigimonModal({ isOpen, setIsOpen, skill }: Props
                                         const digimon = Digimon.getByName(monster.name);
 
                                         return <div className="weak-digimon" key={getUUID()}>
-                                            <img src={`/images/${digimon?.name}.png`} />
+                                            <img src={`${IMG_URL_BASE}/${digimon?.name}.png`} />
                                             <span>{digimon?.name} Lv.{monster.level}</span>
                                         </div>
                                     });

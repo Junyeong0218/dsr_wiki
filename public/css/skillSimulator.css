@@ -525,6 +525,11 @@
     gap: 10px;
 }
 
+.skill-simulator-container .skill-simulator .bit-container .bits img,
+.skill-simulator-container .result-container .bit-container .bits img {
+    width: 22px;
+}
+
 .skill-simulator-container .skill-simulator .enhance-button-container {
     width: 100%;
 }

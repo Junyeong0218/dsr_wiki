@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { IMG_URL_BASE } from "../enums";
 
 export default function Header(): React.ReactElement {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ export default function Header(): React.ReactElement {
             <div className={`background ${isOpen ? "open" : ""}`}></div>
             <div className="header">
                 <Link to="/" className="to-main-logo">
-                    <img src="/images/logo.png" />
+                    <img src={`${IMG_URL_BASE}/logo.png`} />
                 </Link>
                 <nav className={`${isOpen ? "open" : ""}`} onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
                     <div className="nav-element">

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Stage } from "../../classes/Overflow";
 import Reword from "./Reword";
 import { getUUID } from "../../functions/commons";
+import { IMG_URL_BASE } from "../../enums";
 
 type StageProps = { stage: Stage };
 
@@ -14,8 +15,8 @@ export default function StageTag({ stage }: StageProps): React.ReactElement {
             <div className="monsters">
                 { stage.monsters.map((monster, index) => {
                     return <div className="monster" key={getUUID()}>
-                        <img src={`/images/${monster.name}.png`} className="stage-monster-image"  data-id={`${stage.id}-${index}`}/>
-                        <img src={`/images/${monster.digimonType}.png`} />
+                        <img src={`${IMG_URL_BASE}/${monster.name}.png`} className="stage-monster-image"  data-id={`${stage.id}-${index}`}/>
+                        <img src={`${IMG_URL_BASE}/${monster.digimonType}.png`} />
                     </div>
                 })}
             </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { getUUID } from "../../functions/commons";
 import CouponModal from "./CouponModal";
+import { IMG_URL_BASE } from "../../enums";
 
 type CouponItem = {
     couponId: number;
@@ -118,7 +119,7 @@ export default function Coupons() : React.ReactElement {
                 <div className="coupon" key={getUUID()}>
                     <strong>
                         {coupon.name}
-                        <img id={coupon.name} src="/images/quest_reward.png" />
+                        <img id={coupon.name} src={`${IMG_URL_BASE}/quest_reward.png`} />
                     </strong>
                     <small>{getCouponDateText(coupon)}</small>
                     <button type='button' className='copy-coupon' title='누르면 복사돼요!' onClick={() => copyCoupon(coupon)}>{coupon.code}</button>

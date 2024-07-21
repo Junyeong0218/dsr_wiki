@@ -1,6 +1,7 @@
 import React from "react";
 import { Combination } from "../../classes";
 import { getNameExceptColon } from "../../functions/commons";
+import { IMG_URL_BASE } from "../../enums";
 
 type CombinationProps = { selected: Combination }
 
@@ -12,7 +13,7 @@ export default function ResultItem({ selected }: CombinationProps): React.ReactE
 
     return (
         <div className="result-item-info">
-            <img src={`/images/${imageName}.png`} 
+            <img src={`${IMG_URL_BASE}/${imageName}.png`} 
                  title={selected.resultItem.name}/>
             <span className="result-item-title">{selected.resultItem.name}</span>
             { tradableTag }

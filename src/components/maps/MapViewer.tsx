@@ -5,7 +5,7 @@ import ObjectFilter from "./ObjectFilter";
 import ShopModal from "./ShopModal";
 import DropsModal from "./DropsModal";
 import { getItemById } from "../../functions/getItemsFunctions";
-import { NoDropMonsters } from "../../enums";
+import { IMG_URL_BASE, NoDropMonsters } from "../../enums";
 import { getBlankFlags, makeAllInFlags } from "../../functions/getDropItemFilteringFlags";
 import { Item, Map, Monster, Shop } from "../../classes";
 
@@ -141,7 +141,7 @@ export default function MapViewer({ map }: MapViewerProps) {
 
     const portals = useMemo(() => {
         return map.portals && map.portals.map(portal => (
-            <img src="/images/포탈.png" 
+            <img src={`${IMG_URL_BASE}/포탈.png`} 
                 className={`object portal ${showPortal ? "" : "hide"}`} 
                 style={{ top: `${portal.point.y}px`, left: `${portal.point.x}px`}} 
                 title={portal.description}
@@ -150,7 +150,7 @@ export default function MapViewer({ map }: MapViewerProps) {
     }, [showPortal, map]);
     const warps = useMemo(() => {
         return map.warps && map.warps.map(warp => (
-            <img src="/images/워프 포인트.png" 
+            <img src={`${IMG_URL_BASE}/워프 포인트.png`} 
                  className={`object warp ${showWarp ? "" : "hide"}`} 
                  style={{ top: `${warp.point.y}px`, left: `${warp.point.x}px`}}
                  title={`${warp.description}\n워프 포인트`}
@@ -159,7 +159,7 @@ export default function MapViewer({ map }: MapViewerProps) {
     }, [showWarp, map]);
     const shops = useMemo(() => {
         return map.shops && map.shops.map(shop => (
-            <img src="/images/상점.png" 
+            <img src={`${IMG_URL_BASE}/상점.png`} 
                  className={`object shop ${showShop ? "" : "hide"}`} 
                  style={{ top: `${shop.point.y}px`, left: `${shop.point.x}px`}}
                  title={shop.type === "common" ? "소모품 상인" : "배틀아이템 상인"}
@@ -174,7 +174,7 @@ export default function MapViewer({ map }: MapViewerProps) {
     }, [itemCheckFlags, map]);
     const cubes = useMemo(() => {
         return map.cubes && map.cubes.map(cube => (
-            <img src="/images/데뀨.png" 
+            <img src={`${IMG_URL_BASE}/데뀨.png`} 
                  className={`object cube ${showCube ? "" : "hide"}`} 
                  style={{ top: `${cube.point.y}px`, left: `${cube.point.x}px`}}
                  title={`데뀨 #${cube.id}`}
@@ -187,7 +187,7 @@ export default function MapViewer({ map }: MapViewerProps) {
     return (
         <div className="map-viewer">
             <div className="map-container" onMouseMove={captureMouse} onMouseLeave={mouseLeaveHandler}>
-                <img className="map" src={`/images/${map.name === "???" ? "아포카리몬 맵" : map.name}.png`} />
+                <img className="map" src={`${IMG_URL_BASE}/${map.name === "???" ? "아포카리몬 맵" : map.name}.png`} />
 
                 { monsters }
                 { portals }

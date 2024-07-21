@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { Grades } from "../../enums";
+import { Grades, IMG_URL_BASE } from "../../enums";
 import { getAllEvolutions, getEvolutions } from "../../functions";
 import { Evolution } from "../../classes";
 import { getUUID } from "../../functions/commons";
@@ -73,14 +73,14 @@ export default function Filters({ selectedDigimon, setSelectedDigimon }: Filters
                     <label htmlFor="evo-all" className={selectedGrade === "전체" ? "checked" : ""}>
                         <input type="radio" id="evo-all" checked={selectedGrade === "전체"}
                                                          onChange={(event) => setSelectedGrade("전체")}/>
-                        <img src="/images/filter_all.png" />
+                        <img src={`${IMG_URL_BASE}/filter_all.png`} />
                         <span>전체</span>
                     </label>
                     { grades.map(grade => (
                         <label htmlFor={grade} key={getUUID()} className={selectedGrade === grade ? "checked" : ""}>
                             <input type="radio" id={grade} checked={selectedGrade === grade}
                                                            onChange={(event) => setSelectedGrade(grade)} />
-                            <img src={`/images/무배경_${grade === "유년기1" ? "쟈리몬" : grade === "유년기2" ? "기기몬" : grade === "성장기" ? "길몬" : grade === "성숙기" ? "그라우몬" : grade === "완전체" ? "메가로그라우몬" : "듀크몬"}.png`} />
+                            <img src={`${IMG_URL_BASE}/무배경_${grade === "유년기1" ? "쟈리몬" : grade === "유년기2" ? "기기몬" : grade === "성장기" ? "길몬" : grade === "성숙기" ? "그라우몬" : grade === "완전체" ? "메가로그라우몬" : "듀크몬"}.png`} />
                             <span>{grade}</span>
                         </label>
                     )) }
@@ -93,7 +93,7 @@ export default function Filters({ selectedDigimon, setSelectedDigimon }: Filters
                 <div className={`filtered-list ${isFold ? "fold" : ""}`}>
                     { filtered.map(each => (
                         <button type="button" className="filtered-evolution" key={getUUID()} onClick={() => selectDigimon(each)}>
-                            <img src={`/images/${getDigimonFileName(each.name)}.png`} />
+                            <img src={`${IMG_URL_BASE}/${getDigimonFileName(each.name)}.png`} />
                             { each.tag ? <span dangerouslySetInnerHTML={{ __html: each.tag }}></span> :
                                         <span>{each.name}</span>
                             }

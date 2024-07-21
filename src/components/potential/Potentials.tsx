@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Potential, PotentialGroup, generateTenPotentials, getDefaultPotentials, getTotalStats } from "../../functions/potentialFunctions";
 import { getUUID } from "../../functions/commons";
+import { IMG_URL_BASE } from "../../enums";
 
 type Cell = {
     tag: HTMLElement|undefined,
@@ -179,7 +180,7 @@ export default function Potentials(): React.ReactElement {
                                             onDrop={apply} 
                                             onDragEnd={(e) => e.preventDefault()}
                                             data-id={`${rowIndex}-${columnIndex}`}>
-                                            <img src={`/images/포텐셜_${cell.statType}.png`} />
+                                            <img src={`${IMG_URL_BASE}/포텐셜_${cell.statType}.png`} />
                                             <span className={getSpanClassName(cell.statType)}>{cell.statType} {cell.value}%</span>
                                         </td>
                                     )) }
@@ -197,14 +198,14 @@ export default function Potentials(): React.ReactElement {
                     </div>
                 </div>
                 <div className="spent-bits">
-                    소모 비트 : {bit.toLocaleString("ko-KR")} <img src="/images/조합 비트 아이콘.png" alt="" />
+                    소모 비트 : {bit.toLocaleString("ko-KR")} <img src={`${IMG_URL_BASE}/무배경_bit.png`} alt="" />
                 </div>
             </div>
             <div className="potentials">
                 { list.map(element => {
                     if(element.type === "ONE")
                         return <div className="potential-group one" draggable="true" key={getUUID()} onDragStart={grabCube} onDragEnd={(e) => e.preventDefault()}>
-                                    <img src={`/images/포텐셜_${element.potentials[0].statType}.png`} />
+                                    <img src={`${IMG_URL_BASE}/포텐셜_${element.potentials[0].statType}.png`} />
                                     <span className={getSpanClassName(element.potentials[0].statType)}>
                                         {element.potentials[0].statType} {element.potentials[0].value}%
                                     </span>
@@ -213,7 +214,7 @@ export default function Potentials(): React.ReactElement {
                         return <div className={`potential-group ${element.type.toLowerCase()}`} draggable="true" onDragStart={grabCube} key={getUUID()} onDragEnd={(e) => e.preventDefault()}>
                                     { element.potentials.map(p => (
                                             <div className="potential" key={getUUID()}>
-                                                <img src={`/images/포텐셜_${p.statType}.png`} />
+                                                <img src={`${IMG_URL_BASE}/포텐셜_${p.statType}.png`} />
                                                 <span className={getSpanClassName(p.statType)}>{p.statType} {p.value}%</span>
                                             </div>
                                     )) }
@@ -222,13 +223,13 @@ export default function Potentials(): React.ReactElement {
                         return <div className={`potential-group ${element.type.toLowerCase()}`} draggable="true" key={getUUID()} onDragStart={grabCube} onDragEnd={(e) => e.preventDefault()}>
                                     <div className="potential blank"></div>
                                     <div className="potential">
-                                        <img src={`/images/포텐셜_${element.potentials[0].statType}.png`} />
+                                        <img src={`${IMG_URL_BASE}/포텐셜_${element.potentials[0].statType}.png`} />
                                         <span className={getSpanClassName(element.potentials[0].statType)}>
                                             {element.potentials[0].statType} {element.potentials[0].value}%
                                         </span>
                                     </div>
                                     <div className="potential">
-                                        <img src={`/images/포텐셜_${element.potentials[1].statType}.png`} />
+                                        <img src={`${IMG_URL_BASE}/포텐셜_${element.potentials[1].statType}.png`} />
                                         <span className={getSpanClassName(element.potentials[1].statType)}>
                                             {element.potentials[1].statType} {element.potentials[1].value}%
                                         </span>
@@ -238,7 +239,7 @@ export default function Potentials(): React.ReactElement {
                     else
                         return <div className={`potential-group ${element.type.toLowerCase()}`} draggable="true" key={getUUID()} onDragStart={grabCube} onDragEnd={(e) => e.preventDefault()}>
                                     <div className="potential">
-                                        <img src={`/images/포텐셜_${element.potentials[0].statType}.png`} />
+                                        <img src={`${IMG_URL_BASE}/포텐셜_${element.potentials[0].statType}.png`} />
                                         <span className={getSpanClassName(element.potentials[0].statType)}>
                                             {element.potentials[0].statType} {element.potentials[0].value}%
                                         </span>
@@ -246,7 +247,7 @@ export default function Potentials(): React.ReactElement {
                                     <div className="potential blank"></div>
                                     <div className="potential blank"></div>
                                     <div className="potential">
-                                        <img src={`/images/포텐셜_${element.potentials[1].statType}.png`} />
+                                        <img src={`${IMG_URL_BASE}/포텐셜_${element.potentials[1].statType}.png`} />
                                         <span className={getSpanClassName(element.potentials[1].statType)}>
                                             {element.potentials[1].statType} {element.potentials[1].value}%
                                         </span>

@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { getNameExceptColon } from "../../functions/commons";
 import { Combination } from "../../classes";
+import { IMG_URL_BASE } from "../../enums";
 
 type ShortcutProps = {
     combination: Combination, 
@@ -18,7 +19,7 @@ export default function CombinationShortcut({ combination, selectedId, selectCom
                                                  <span className="shortcut-item-name">{combination.resultItem.name}</span>;
 
         return <button type="button" className={`combination-shortcut ${combination.id === selectedId ? "selected" : ""}`} onClick={() => selectCombination(combination)}>
-                    <img src={`/images/${encodeURIComponent(imageName)}.png`} />
+                    <img src={`${IMG_URL_BASE}/${encodeURIComponent(imageName)}.png`} />
                     <div className="shortcut-texts">
                         { itemNameTag }
                         { tradableTag }

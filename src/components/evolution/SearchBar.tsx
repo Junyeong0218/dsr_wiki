@@ -3,6 +3,7 @@ import { getSearchedEvolutions } from "../../functions/searchFunctions";
 import { getUUID } from "../../functions/commons";
 import { getEvolutionByName, getEvolutions } from "../../functions";
 import { Evolution } from "../../classes";
+import { IMG_URL_BASE } from "../../enums";
 
 type SearchBarProps = { setSelectedDigimon: React.Dispatch<React.SetStateAction<Evolution | null>> }
 
@@ -103,7 +104,7 @@ export default function SearchBar({ setSelectedDigimon }: SearchBarProps): React
             {/* { textInput }
             <span className={`custom-placeholder ${isFocus ? "top" : text === "" ? "" : "hide"}`}>디지몬 초성 혹은 이름을 입력하세요.</span> */}
             <button type="button" className="search-image" onClick={moveFocusToInput}>
-                <img src="/images/magnifying-glass.png" />
+                <img src={`${IMG_URL_BASE}/magnifying-glass.png`} />
             </button>
             {/* { searchList } */}
         </div>

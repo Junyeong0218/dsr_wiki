@@ -2,6 +2,7 @@ import React from "react";
 import { Overflow } from "../../classes/Overflow";
 import { getNameExceptColon, getUUID } from "../../functions/commons";
 import { getWeekdayText, isToday } from "../../functions/WeekdayFunctions";
+import { IMG_URL_BASE } from "../../enums";
 
 type OverflowShortcutProps = { selected: Overflow }
 
@@ -10,21 +11,21 @@ export default function OverflowShortcut({ selected }: OverflowShortcutProps): R
     return (
         <div className="overflow-shortcut">
             <div className="map-viewer-small">
-                <img src={`/images/${selected.mapName === "???" ? "아포카리몬 맵" : selected.mapName}.png`} />
-                <img src="/images/오버플로우 던전.png" className="point" style={{top: `${selected.point.y}px`, left: `${selected.point.x}px`}}/>
+                <img src={`${IMG_URL_BASE}/${selected.mapName === "???" ? "아포카리몬 맵" : selected.mapName}.png`} />
+                <img src={`${IMG_URL_BASE}/오버플로우 던전.png`} className="point" style={{top: `${selected.point.y}px`, left: `${selected.point.x}px`}}/>
             </div>
             <div className="overflow-shortcut-infos">
                 <span className="title">{selected.mapName} 오버플로우 던전 정보</span>
                 <span className="semi-title">
-                    <img src="/images/overflow semi title icon.png" />
+                    <img src={`${IMG_URL_BASE}/overflow semi title icon.png`} />
                     필요 아이템
                 </span>
                 <div className="overflow-req-item">
-                    <img src={`/images/${encodeURIComponent(getNameExceptColon(selected.reqItem.name))}.png`} />
+                    <img src={`${IMG_URL_BASE}/${encodeURIComponent(getNameExceptColon(selected.reqItem.name))}.png`} />
                     <span>{selected.reqItem.name}</span>
                 </div>
                 <span className="semi-title">
-                    <img src="/images/overflow semi title icon.png" />
+                    <img src={`${IMG_URL_BASE}/overflow semi title icon.png`} />
                     플레이 가능 요일
                 </span>
                 <div className="weekdays">
@@ -34,7 +35,7 @@ export default function OverflowShortcut({ selected }: OverflowShortcutProps): R
 
                         return <div className={`weekday ${todayFlag ? "today" : ""}`} key={getUUID()}>
                                     <span className={todayFlag ? "today" : ""}>{weekdayText}</span>
-                                    { todayFlag ? <img src="/images/green dot.png" /> : ""}
+                                    { todayFlag ? <img src={`${IMG_URL_BASE}/green dot.png`} /> : ""}
                                 </div>
                     })}
                 </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { getItemById } from "../../functions/getItemsFunctions";
 import { getNameExceptColon, getUUID } from "../../functions/commons";
 import { IShopItem } from "../../classes/Shop";
+import { IMG_URL_BASE } from "../../enums";
 
 type ShopModalProps = { 
     isOpen: boolean, 
@@ -30,13 +31,13 @@ export default function ShopModal({ isOpen, items, position }: ShopModalProps): 
 
                     return (
                         <div className="shop-item" key={getUUID()}>
-                            <img src={`/images/${item.name.includes("조합법") ? "조합법" : encodeURIComponent(item.name)}.png`}/>
+                            <img src={`${IMG_URL_BASE}/${item.name.includes("조합법") ? "조합법" : encodeURIComponent(item.name)}.png`}/>
                             <span className="item-name">{item.name}</span>
                             { item.limitPeriod && 
                                 <span className="item-limit">{getLimitText(item)}</span> }
                             <div className="item-price">
                                 {item.price.toLocaleString("ko-KR")}
-                                <img src={`/images/무배경_${getNameExceptColon(item.currency)}.png`} title={item.currency} />
+                                <img src={`${IMG_URL_BASE}/무배경_${getNameExceptColon(item.currency)}.png`} title={item.currency} />
                             </div>
                         </div>
                     );
