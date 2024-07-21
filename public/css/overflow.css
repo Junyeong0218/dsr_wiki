@@ -249,6 +249,7 @@
 
 .stage .rewords .reword img {
     width: 50px;
+    border-radius: 4px;
 }
 
 .stage .rewords .reword .reword-info {
