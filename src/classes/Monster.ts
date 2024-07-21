@@ -7,6 +7,9 @@ export interface IMonster {
     level: number,
     hp: number,
     def: number,
+    isForceEncounter: boolean,
+    forceEvolution: string | null,
+    anotherName: string | null,
     point: { x: number, y: number },
     dropItems: Array<number>
 }
@@ -18,6 +21,9 @@ export class Monster {
     level: number;
     hp: number;
     def: number;
+    isForceEncounter: boolean;
+    forceEvolution: string | null;
+    anotherName: string | null;
     point: Point;
     dropItems: Array<number>;
 
@@ -30,6 +36,9 @@ export class Monster {
         this.level = raw.level;
         this.hp = raw.hp;
         this.def = raw.def;
+        this.isForceEncounter = raw.isForceEncounter;
+        this.forceEvolution = raw.forceEvolution;
+        this.anotherName = raw.anotherName;
         this.point = new Point(raw.point.x, raw.point.y);
         this.dropItems = raw.dropItems;
     }

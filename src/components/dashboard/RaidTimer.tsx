@@ -216,30 +216,6 @@ export default function RaidTimer(): React.ReactElement {
                                         <span className={`no-width raid-time ${raid.color}`}>{raid.timeString}</span>
                                     </div>
                 )}
-                {/* <div className="row flex-row">
-                    { gotsumonLabel }
-                    <span className={`no-width red ${gotsumonTime1.color}`}>{getTimeString(gotsumonTime1.time)}</span>
-                </div>
-                <div className="row flex-row">
-                    { gotsumonLabel }
-                    <span className={`no-width orange ${gotsumonTime2.color}`}>{getTimeString(gotsumonTime2.time)}</span>
-                </div>
-                <div className="row flex-row">
-                    { pumpmonLabel }
-                    <span className={`no-width ${pumpmonTime1.color}`}>{getTimeString(pumpmonTime1.time)}</span>
-                </div>
-                <div className="row flex-row">
-                    { pumpmonLabel }
-                    <span className={`no-width ${pumpmonTime2.color}`}>{getTimeString(pumpmonTime2.time)}</span>
-                </div>
-                <div className="row flex-row">
-                    { ophanimonLabel }
-                    <span className={`no-width ${ophanimonTime.color}`}>{getTimeString(ophanimonTime.time)}</span>
-                </div>
-                <div className="row flex-row">
-                    { seraphimonLabel }
-                    <span className={`no-width ${seraphimonTime.color}`}>{getTimeString(seraphimonTime.time)}</span>
-                </div> */}
                 <iframe src={`${AUDIO_DIR}/silence.mp3`} allow="autoplay" style={{ display: "none" }} />
             </div>
         </div>

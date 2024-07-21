@@ -15,6 +15,11 @@ export default function MonsterShortcut({ monster, hasDropItem }: MonsterShortcu
             <img data-id={monster.id} src={`${IMG_URL_BASE}/${monster.name}.png`} className="monster-image" />
             <span>{monster.name}</span>
             <img src={`${IMG_URL_BASE}/${monster.digimonType}.png`} className="monster-type-shortcut" />
+            { monster.forceEvolution &&
+                <div className="monster-force-evo-shortcut">
+                    <img src={`/images/무배경_조건진화.png`} />
+                </div>
+            }
         </div>
     );
 }

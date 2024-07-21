@@ -74,8 +74,6 @@ export default function Coupons() : React.ReactElement {
             if(result.status === 200) {
                 const coupons:Array<Coupon> = result.data;
 
-                console.log(coupons);
-
                 localStorage.setItem("coupons", JSON.stringify(coupons));
                 setCoupons(coupons);
             }

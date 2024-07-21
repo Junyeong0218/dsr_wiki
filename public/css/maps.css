@@ -119,6 +119,23 @@
   width: 15px;
 }
 
+.monster-shortcut .monster-force-evo-shortcut {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+
+  display: flex;
+  
+  width: 15px;
+
+  background-color: var(--black);
+  border-radius: 4px;
+}
+
+.monster-shortcut .monster-force-evo-shortcut img {
+  width: 100%;
+}
+
 .object {
   position: absolute;
 }
@@ -131,6 +148,11 @@
 .object.warp,
 .object.shop {
   width: 27px;
+}
+
+.object.portal img {
+  width: 100%;
+  pointer-events: none;
 }
 
 .object-filter {
@@ -404,12 +426,18 @@
   border-bottom: 1px dashed var(--white);
 }
 
-#drops-modal .digimon-info > img {
+#drops-modal .digimon-info > div:first-child {
   min-width: 100px;
   max-width: 100px;
 
   border: 1px solid var(--white);
   border-radius: 4px;
+
+  overflow: hidden;
+}
+
+#drops-modal .digimon-info > div > img {
+  width: 100%;
 }
 
 #drops-modal .digimon-info .digimon-description {
@@ -419,12 +447,18 @@
   align-items: flex-start;
   gap: 5px;
 
-  width: 140px;
+  min-width: 140px;
 }
 
 #drops-modal .digimon-info .digimon-description .digimon-name {
   font-size: 18px;
   font-weight: 700;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+#drops-modal .digimon-info .digimon-description .digimon-name.force {
+  color: var(--type-baby1-deep);
 }
 
 #drops-modal .digimon-info .digimon-description .description-row {
@@ -453,6 +487,19 @@
   text-align: center;
   line-height: 14px;
   font-weight: 700;
+}
+
+#drops-modal .force-evolution-text {
+  padding: 10px 0;
+
+  width: 100%;
+
+  border-bottom: 1px dashed white;
+  
+  font-size: 14px;
+  text-align: center;
+  color: var(--type-ultimate-thin);
+  line-height: 20px;
 }
 
 #drops-modal .title {

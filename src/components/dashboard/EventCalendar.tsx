@@ -111,8 +111,6 @@ export default function EventCalendar() {
                     }
                 });
 
-                console.log(secondWeek);
-        
                 setTimeout(() => {
                     const elements = document.querySelectorAll(".toastui-calendar-month-week-item");
                     (elements[0] as HTMLDivElement).style.setProperty("height", `${(firstWeek.size + 1) * 26 + 8}px`);

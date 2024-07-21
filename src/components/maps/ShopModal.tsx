@@ -27,7 +27,7 @@ export default function ShopModal({ isOpen, items, position }: ShopModalProps): 
                 <div className="title">상점</div>
                 { items && items.map(item => {
                     // const item = getItemById(itemId)!;
-                    console.log(item)
+                    // console.log(item)
 
                     return (
                         <div className="shop-item" key={getUUID()}>

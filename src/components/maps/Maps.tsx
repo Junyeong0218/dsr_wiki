@@ -19,6 +19,8 @@ export default function Maps() {
     const setMap = (id: number) => {
         const map = maps.find(map => map.id === id) || null;
 
+        if(map?.disable) return;
+
         if(map) setSelectedMap(map);
     }
 
@@ -31,7 +33,7 @@ export default function Maps() {
                 <MapSelector maps={maps} selectedMap={selectedMap} setMap={setMap} />
 
                 {/* 2. 맵 표시 */}
-                <MapViewer map={selectedMap} />
+                <MapViewer map={selectedMap} setMap={setMap} />
             </div>
         </div>
     );

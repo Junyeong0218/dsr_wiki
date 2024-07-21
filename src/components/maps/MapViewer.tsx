@@ -7,13 +7,14 @@ import DropsModal from "./DropsModal";
 import { getItemById } from "../../functions/getItemsFunctions";
 import { IMG_URL_BASE, NoDropMonsters } from "../../enums";
 import { getBlankFlags, makeAllInFlags } from "../../functions/getDropItemFilteringFlags";
-import { Item, Map, Monster, Shop } from "../../classes";
+import { Item, Map, Monster, Portal, Shop } from "../../classes";
 
 type MapViewerProps = {
-    map: Map
+    map: Map,
+    setMap: (id: number) => void
 }
 
-export default function MapViewer({ map }: MapViewerProps) {
+export default function MapViewer({ map, setMap }: MapViewerProps) {
     const [showPortal, setShowPortal] = useState(true);
     const [showWarp, setShowWarp] = useState(true);
     const [showShop, setShowShop] = useState(true);
@@ -35,17 +36,16 @@ export default function MapViewer({ map }: MapViewerProps) {
             
             if(classList.contains("shop") && map.shops) {
                 const shop = map.shops.find(s => s.point.x === Number(target.style.left.replace("px", "")) && s.point.y === Number(target.style.top.replace("px", "")))!;
-                console.log(Number(target.style.left.replace("px", "")));
-                console.log(Number(target.style.top.replace("px", "")));
-                console.log(map.shops);
-                console.log(shop);
+                // console.log(Number(target.style.left.replace("px", "")));
+                // console.log(Number(target.style.top.replace("px", "")));
                 // if(target.id === "common") selectedShop.current = map.shops[0];
                 // else selectedShop.current = map.shops[1];
                 selectedShop.current = shop;
+                const modalHeight = shop.items.length > 6 ? 450 : 61 + shop.items.length * 55;
                 
                 const mapRect = target.parentElement!.getBoundingClientRect();
-                if(event.pageY + 450 > window.innerHeight) {
-                    setShopModalPosition({ top: 450 - mapRect.top + 10, left: event.pageX - mapRect.left + 2 });
+                if(event.pageY + modalHeight > window.innerHeight) {
+                    setShopModalPosition({ top: modalHeight - mapRect.top + 10, left: event.pageX - mapRect.left + 2 });
                 } else {
                     setShopModalPosition({ top: event.pageY - mapRect.top, left: event.pageX - mapRect.left + 2 });
                 }
@@ -57,14 +57,13 @@ export default function MapViewer({ map }: MapViewerProps) {
                 selectedDigimon.current = digimon;
 
                 const mapRect = target.parentElement!.parentElement!.getBoundingClientRect();
-                const modalHeight = 211 + (digimon.dropItems?.length || 0) * 28;
+                const forceEvolutionTextHeight = digimon.forceEvolution ? 41 : 0;
+                const modalHeight = 211 + (digimon.dropItems?.length || 0) * 28 + forceEvolutionTextHeight;
                 
-                // console.log(event.pageY, modalHeight, "  ", window.innerHeight)
-                // console.log(event.pageY + modalHeight, "  ", window.innerHeight - 20)
-                if(event.pageY + modalHeight >= window.innerHeight - 10) {
+                if(event.pageY + modalHeight + forceEvolutionTextHeight >= (window.innerHeight + window.scrollY) - 10) {
                     setDropsModalPosition({ top: window.innerHeight - modalHeight - mapRect.top - 10, left: event.pageX - mapRect.left + 2 });
                 } else {
-                    setDropsModalPosition({ top: event.pageY - mapRect.top - 10, left: event.pageX - mapRect.left + 2 });
+                    setDropsModalPosition({ top: event.pageY - (mapRect.top + window.scrollY) - 10, left: event.pageX - mapRect.left + 2 });
                 }
                 setIsOpenDrops(true);
                 setIsOpenShop(false);
@@ -123,7 +122,7 @@ export default function MapViewer({ map }: MapViewerProps) {
     const items = useMemo(() => getItems(), [map]);
 
     const hasCheckedItem = (monster: Monster): boolean => {
-        if(!monster.dropItems && NoDropMonsters.includes(monster.name)) return true;
+        if(monster.dropItems.length === 0 && NoDropMonsters.includes(monster.name)) return true;
 
         for(let i = 0; i < monster.dropItems?.length; i++) {
             const keys = Object.keys(itemCheckFlags);
@@ -137,15 +136,36 @@ export default function MapViewer({ map }: MapViewerProps) {
         return false;
     }
 
+    const getShopTitle = (type: string): string => {
+        if(type === "common") return "소모품 상인";
+        if(type === "battle") return "배틀아이템 상인";
+        if(type === "overflow") return "오버플로우 교환 상인";
+        if(type === "detector") return "균열 교환 상인";
+        if(type === "rank") return "랭크 토큰 교환 상인";
+        if(type === "feed") return "디지몬 먹이 상인";
+        if(type === "raid") return "디지털해저드 토큰 교환";
+        if(type === "treasureCube") return "상자 조각 교환";
+        if(type === "worldLeaf") return "세계수의 잎 교환";
+        if(type === "equipment") return "장비 암거래상";
+        return "";
+    }
+
+    const moveToOtherMap = (portal: Portal) => {
+        setMap(portal.to);
+    }
+
     if(!map) return (<div className="map-viewer"></div>);
 
     const portals = useMemo(() => {
         return map.portals && map.portals.map(portal => (
-            <img src={`${IMG_URL_BASE}/포탈.png`} 
-                className={`object portal ${showPortal ? "" : "hide"}`} 
-                style={{ top: `${portal.point.y}px`, left: `${portal.point.x}px`}} 
-                title={portal.description}
-                key={getUUID()} />
+            <button type="button" className={`object portal ${showPortal ? "" : "hide"}`}
+                    style={{ top: `${portal.point.y}px`, left: `${portal.point.x}px`}} 
+                    title={portal.description}
+                    onClick={() => moveToOtherMap(portal)}
+                    key={getUUID()}>
+
+                <img src={`${IMG_URL_BASE}/포탈.png`} />
+            </button>
         ));
     }, [showPortal, map]);
     const warps = useMemo(() => {
@@ -162,7 +182,7 @@ export default function MapViewer({ map }: MapViewerProps) {
             <img src={`${IMG_URL_BASE}/상점.png`} 
                  className={`object shop ${showShop ? "" : "hide"}`} 
                  style={{ top: `${shop.point.y}px`, left: `${shop.point.x}px`}}
-                 title={shop.type === "common" ? "소모품 상인" : "배틀아이템 상인"}
+                 title={getShopTitle(shop.type)}
                  id={shop.type}
                  key={getUUID()} />
         ))
