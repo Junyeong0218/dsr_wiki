@@ -210,7 +210,8 @@ export default function Digidex(): React.ReactElement {
 
                 return <Link to={`/digimons/digidex?digimon=${each.name}`} key={getUUID()}>
                             <button type="button" className="digimon-button">
-                                <img src={`/images/${getDigimonFileName(each.name)}.png`} loading="lazy" />
+                                <img src={`https://raw.githubusercontent.com/Junyeong0218/dsr_wiki/main/public/images/${getDigimonFileName(each.name)}.png`} loading="lazy" />
+                                {/* <img src={`https://github.com/Junyeong0218/dsr_wiki/raw/main/public/images/${getDigimonFileName(each.name)}.png`} loading="lazy" /> */}
                                 { each.tag ? <span style={style} dangerouslySetInnerHTML={{__html: each.tag}}></span> : <span style={style}>{each.name}</span>}
                             </button>
                         </Link>
