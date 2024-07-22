@@ -25,40 +25,61 @@ type Raid = {
     name: string
 }
 
+const today = () => {
+    const now = new Date();
+
+    return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")} 00:00:00`;
+}
+
 export default function RaidTimer(): React.ReactElement {
+    const [kuwaga, setKuwaga] = useState(today());
     const [count, setCount] = useState(0);
     const timer = useRef<NodeJS.Timeout>();
     const audio = useRef<HTMLDivElement>(null);
     
     useEffect(() => {
-        timer.current = setInterval(() => {
-            if(count === 10_000) {
-                setCount(0);
-            } else {
-                setCount(c => c + 1);
-            }
+        fetch(`http://koko198.cafe24.com:8000/raid/kuwaga`).then(async (response) => {
+            const result = await response.json();
+            console.log(result)
+            if(result.status === 200) {
+                const kuwaga = result.data[0];
 
-            if(audio.current?.dataset.audioname) {
-                const iframe = document.createElement("iframe");
-                iframe.src = audio.current!.dataset.audioname;
-                iframe.allow = "autoplay";
-                iframe.id = "iframeAudio";
+                setKuwaga(kuwaga.time);
+                // localStorage.setItem("notices", JSON.stringify(notices));
 
-                audio.current?.appendChild(iframe);
-                iframe.onload = () => {
-                    const video = iframe.contentWindow?.document.querySelector("video");
-                    video!.onended = () => {
-                        iframe.remove();
+                timer.current = setInterval(() => {
+                    if(count === 10_000) {
+                        setCount(0);
+                    } else {
+                        setCount(c => c + 1);
                     }
-
-                    setTimeout(() => {
-                        if(video?.paused) {
-                            iframe.remove();
+        
+                    if(audio.current?.dataset.audioname) {
+                        const iframe = document.createElement("iframe");
+                        iframe.src = audio.current!.dataset.audioname;
+                        iframe.allow = "autoplay";
+                        iframe.id = "iframeAudio";
+        
+                        audio.current?.appendChild(iframe);
+                        iframe.onload = () => {
+                            const video = iframe.contentWindow?.document.querySelector("video");
+                            video!.onended = () => {
+                                iframe.remove();
+                            }
+        
+                            setTimeout(() => {
+                                if(video?.paused) {
+                                    iframe.remove();
+                                }
+                            }, 3000);
                         }
-                    }, 3000);
-                }
+                    }
+                }, 1000);
             }
-        }, 1000);
+        }).catch(error => {
+            console.log(error)
+        });
+        
 
         return () => clearInterval(timer.current);
     }, []);
@@ -151,6 +172,15 @@ export default function RaidTimer(): React.ReactElement {
         };
     }
 
+    const getLeftTimeKuwaga = (name: string, time: string): Raid => {
+        const raid = getLeftTimeWeekly(name, time);
+
+        raid.color = raid.time < MINUTE ? "red" :
+                     raid.time < MINUTE * 5 ? "orange" : "";
+
+        return raid;
+    }
+
     const getRaidAudioName = (raid: Raid): string | undefined => {
         if(raid.name === "오파니몬:폴다운모드" || raid.name === "블랙세라피몬") {
             if(raid.timeString === "00:30:00") return `${AUDIO_DIR}/weekly_30minutes.wav`;
@@ -176,6 +206,8 @@ export default function RaidTimer(): React.ReactElement {
     const pumpmonTime1 = getLeftTimeDaily("펌프몬", PUMPMON1);
     // console.log("펌프몬2");
     const pumpmonTime2 = getLeftTimeDaily("펌프몬", PUMPMON2);
+    // console.log("펌프몬2");
+    const kuwagaTime = getLeftTimeKuwaga("쿠가몬", kuwaga);
     // console.log("오파니몬");
     const ophanimonTime = getLeftTimeWeekly("오파니몬:폴다운모드", ophanimonRaidStart);
     // console.log("세라피몬");
@@ -183,6 +215,7 @@ export default function RaidTimer(): React.ReactElement {
 
     const gotsumonLabel = useMemo(() => <div className="raid-portrait"><img src={`${IMG_URL_BASE}/울퉁몬.png`} />울퉁몬</div>, []);
     const pumpmonLabel = useMemo(() => <div className="raid-portrait"><img src={`${IMG_URL_BASE}/펌프몬.png`} />펌프몬</div>, []);
+    const kuwagamonLabel = useMemo(() => <div className="raid-portrait"><img src={`${IMG_URL_BASE}/쿠가몬.png`} />쿠가몬</div>, []);
     const ophanimonLabel = useMemo(() => <div className="raid-portrait"><img src={`${IMG_URL_BASE}/오파니몬 폴다운모드.png`} />오파니몬:폴다운모드</div>, []);
     const seraphimonLabel = useMemo(() => <div className="raid-portrait"><img src={`${IMG_URL_BASE}/블랙세라피몬.png`} />블랙세라피몬</div>, []);
 
@@ -191,6 +224,7 @@ export default function RaidTimer(): React.ReactElement {
         gotsumonTime2,
         pumpmonTime1,
         pumpmonTime2,
+        kuwagaTime,
         ophanimonTime,
         seraphimonTime
     ].sort((a, b) => {
@@ -210,6 +244,7 @@ export default function RaidTimer(): React.ReactElement {
                 { raids.map(raid => <div className="row flex-row" key={getUUID()}>
                                         { raid.name === "울퉁몬" ? gotsumonLabel : 
                                           raid.name === "펌프몬" ? pumpmonLabel : 
+                                          raid.name === "쿠가몬" ? kuwagamonLabel : 
                                           raid.name === "오파니몬:폴다운모드" ? ophanimonLabel : 
                                           raid.name === "블랙세라피몬" ? seraphimonLabel : ""
                                         }
