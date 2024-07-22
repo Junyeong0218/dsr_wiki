@@ -172,7 +172,7 @@ export default function RaidTimer(): React.ReactElement {
     }
 
     const getLeftTimeKuwaga = (name: string, time: string): Raid => {
-        const raid = getLeftTimeWeekly(name, time);
+        const raid = getLeftTimeDaily(name, time);
 
         raid.color = raid.time < MINUTE ? "red" :
                      raid.time < MINUTE * 5 ? "orange" : "";
