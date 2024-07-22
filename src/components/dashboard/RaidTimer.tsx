@@ -38,7 +38,7 @@ export default function RaidTimer(): React.ReactElement {
     const audio = useRef<HTMLDivElement>(null);
     
     useEffect(() => {
-        fetch(`http://koko198.cafe24.com:8000/raid/kuwaga`).then(async (response) => {
+        fetch(`api/raid/kuwaga`).then(async (response) => {
             const result = await response.json();
             console.log(result)
             if(result.status === 200) {
@@ -75,13 +75,12 @@ export default function RaidTimer(): React.ReactElement {
                         }
                     }
                 }, 1000);
+
+                return () => clearInterval(timer.current);
             }
         }).catch(error => {
             console.log(error)
         });
-        
-
-        return () => clearInterval(timer.current);
     }, []);
 
     const getTimeString = (time: number) => {
