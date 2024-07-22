@@ -75,7 +75,7 @@ export default function RaidTimer(): React.ReactElement {
                         }
                     }
                 }, 1000);
-
+                
                 return () => clearInterval(timer.current);
             }
         }).catch(error => {
@@ -172,12 +172,19 @@ export default function RaidTimer(): React.ReactElement {
     }
 
     const getLeftTimeKuwaga = (name: string, time: string): Raid => {
-        const raid = getLeftTimeDaily(name, time);
+        const now = getNow();
+        const nextRaid = new Date(time);
 
-        raid.color = raid.time < MINUTE ? "red" :
-                     raid.time < MINUTE * 5 ? "orange" : "";
+        let left = nextRaid.getTime() - now.getTime();
+        const color = left < MINUTE * 1 ? "red" :
+                      left < MINUTE * 5 ? "orange" : "";
 
-        return raid;
+        return {
+            time: left,
+            timeString: getTimeString(left),
+            color: color,
+            name: name
+        };
     }
 
     const getRaidAudioName = (raid: Raid): string | undefined => {
