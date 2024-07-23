@@ -919,7 +919,7 @@
 
 .full-modal > .window > .contents-spicies .weak-digimons {
   margin-top: 10px;
-  padding: 5px 0;
+  padding: 5px 8px;
 
   width: 900px;
 
@@ -958,6 +958,8 @@
 }
 
 .full-modal > .window > .contents-spicies .weak-digimons .weak-digimon {
+  position: relative;
+
   height: 30px;
 
   display: flex;
@@ -975,6 +977,16 @@
   height: 100%;
 
   border-radius: 2px;
+}
+
+.full-modal > .window > .contents-spicies .weak-digimons .weak-digimon .weak-digimon-type,
+.full-modal > .window > .title .weak-digimon-type {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+
+  width: 20px;
+  height: 20px;
 }
 
 .full-modal > .window > .contents-spicies .weak-digimons .weak-digimon span {
@@ -1004,7 +1016,7 @@
 }
 
 #field-type-modal {
-  max-width: 300px;
+  max-width: 350px;
 }
 
 #field-type-modal .window {

@@ -20,7 +20,7 @@ export default function DigimonSkill({ digimonName, skill }: DigimonSkillProps):
                         <span className="skill-name">{skill.name}</span>
                         <img src={`${IMG_URL_BASE}/스킬_${skill.element}.png`} title={`${skill.element} 속성`} />
                         <button type="button" className="show-weak-digimon-button" onClick={() => setIsOpen(true)}>약점 디지몬 보기</button>
-                        <FullWeakDigimonModal isOpen={isOpen} setIsOpen={setIsOpen} skill={skill} />
+                        <FullWeakDigimonModal isOpen={isOpen} setIsOpen={setIsOpen} digimonName={digimonName} skill={skill} />
                     </div>
                     <div className="badges">
                         <span className={`badge ${skill.range === "근거리" ? "melee" : "ranged"}`}>{skill.range}</span>

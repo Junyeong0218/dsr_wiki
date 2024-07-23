@@ -3,28 +3,41 @@ import { getAllDigimons, getAllOverflows, getMaps } from "../../functions";
 import { Digimon, Monster, Skill } from "../../classes";
 import { getUUID } from "../../functions/commons";
 import { IMG_URL_BASE } from "../../enums";
+import { getDigimonFileName } from "../../functions/getDigimonFileName";
 
 type Props = {
     isOpen: boolean;
     setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+    digimonName: string;
     skill: Skill;
 }
 
-export default function FullWeakDigimonModal({ isOpen, setIsOpen, skill }: Props): React.ReactElement {
+export default function FullWeakDigimonModal({ isOpen, setIsOpen, digimonName, skill }: Props): React.ReactElement {
     // const all = useMemo(() => getAllDigimons(false, true), []);
     const maps = useMemo(() => getMaps(), []);
     // const overflows = useMemo(() => getAllOverflows(), []);
-
+    console.log(skill);
     return (
         <div id={`weak-digimon-modal`} className={`full-modal ${isOpen ? "active": ""}`}>
             <div className="window">
                 <div className="title" style={{ position: "relative" }}>
-                    {skill.name}
-                    <img src={`${IMG_URL_BASE}/스킬_${skill.element}.png`} title={`${skill.element} 속성`} />
-                    약점 디지몬
+                    <div style={{ width: "50px", display: "flex", position: "relative" }}>
+                        <img src={`${IMG_URL_BASE}/${getDigimonFileName(digimonName)}.png`} title={`${digimonName}`} style={{ width: "100%", borderRadius: "4px" }} />
+                        <img src={`${IMG_URL_BASE}/${Digimon.getByName(digimonName)?.digimonType}.png`} className="weak-digimon-type"/>
+                    </div>
+                    {digimonName}
                     <button type="button" className="remove-button" onClick={() => setIsOpen(false)}>
                         <img src={`${IMG_URL_BASE}/remove_button.png`} />
                     </button>
+                </div>
+                <div className="title" style={{ position: "relative", marginTop: "10px" }}>
+                    <img src={`${IMG_URL_BASE}/${getDigimonFileName(digimonName)}_${skill.name}.png`} title={`${skill.name}`} style={{ width: "30px" }}/>
+                    {skill.name}
+                    <img src={`${IMG_URL_BASE}/스킬_${skill.element}.png`} title={`${skill.element} 속성`} />
+                    약점 디지몬
+                    {/* <button type="button" className="remove-button" onClick={() => setIsOpen(false)}>
+                        <img src={`${IMG_URL_BASE}/remove_button.png`} />
+                    </button> */}
                 </div>
                 <div className="contents-spicies">
                     <div className="field">
@@ -55,6 +68,7 @@ export default function FullWeakDigimonModal({ isOpen, setIsOpen, skill }: Props
                                     return <div className="weak-digimon" key={getUUID()}>
                                         <img src={`${IMG_URL_BASE}/${digimon?.name}.png`} />
                                         <span>{digimon?.name} Lv.{monster.level}</span>
+                                        <img src={`${IMG_URL_BASE}/${digimon?.digimonType}.png`} className="weak-digimon-type"/>
                                     </div>
                                 });
 
@@ -95,6 +109,7 @@ export default function FullWeakDigimonModal({ isOpen, setIsOpen, skill }: Props
                                     return <div className="weak-digimon" key={getUUID()}>
                                         <img src={`${IMG_URL_BASE}/${digimon?.name}.png`} />
                                         <span>{digimon?.name} Lv.{monster.level}</span>
+                                        <img src={`${IMG_URL_BASE}/${digimon?.digimonType}.png`} className="weak-digimon-type"/>
                                     </div>
                                 });
 
@@ -136,6 +151,7 @@ export default function FullWeakDigimonModal({ isOpen, setIsOpen, skill }: Props
                                         return <div className="weak-digimon" key={getUUID()}>
                                             <img src={`${IMG_URL_BASE}/${digimon?.name}.png`} />
                                             <span>{digimon?.name} Lv.{monster.level}</span>
+                                            <img src={`${IMG_URL_BASE}/${digimon?.digimonType}.png`} className="weak-digimon-type"/>
                                         </div>
                                     });
 
