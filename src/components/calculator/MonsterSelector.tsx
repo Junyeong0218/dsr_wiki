@@ -22,7 +22,7 @@ export default function MonsterSelector({ monster, setMonster }: props): React.R
     const maps = useMemo(() => getMaps(), []);
     const categories = useMemo(() => {
         const shortcuts: MapShotcut = {};
-        maps.forEach((map) => {
+        maps.filter(map => !map.disable).forEach((map) => {
             let shortcut = shortcuts[`${map.category}`];
             if(!shortcut) {
                 shortcuts[`${map.category}`] = [];
@@ -41,9 +41,11 @@ export default function MonsterSelector({ monster, setMonster }: props): React.R
     const originMap = monster ? maps.find(m => m.id === monster.mapId)! : maps.find(m => m.id === 1)!;
     const [selectedCategory, setSelectedCategory] = useState<Option>(categoryOptions.find(c => c.label === originMap.category)!);
     const [selectedMap, setSelectedMap] = useState<Option>({ label: originMap.name, value: originMap.id});
+    console.log(categories[selectedCategory.value][0]);
 
     const baseMonster = categories[selectedCategory.value][0].monsters![0];
-    const basicMonster = !monster ? { label: `${baseMonster.name}(${baseMonster.level})`, value: baseMonster.id } : { label: `${monster.name}(${monster.level})`, value: monster.id };
+    const basicMonster = !monster ? { label: `${baseMonster.name}(${baseMonster.level})`, value: baseMonster.id } : 
+                                    { label: `${monster.name}(${monster.level})`, value: monster.id };
     const [selectedMonster, setSelectedMonster] = useState<Option>(basicMonster);
 
     const onChangeCategory = (newValue: SingleValue<Option>, actionMeta: ActionMeta<Option>) => {

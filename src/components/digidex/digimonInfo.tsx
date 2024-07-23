@@ -21,7 +21,7 @@ export default function DigimonInfo({ selected }: DigimonInfoProps): React.React
         <div className="digimon-info">
             <DigimonShortcut digimon={digimon} />
             <DigimonStatus digimon={digimon} />
-            <DigimonSkills digimon={digimon} />
+            <DigimonSkills digimon={digimon} containModal={true} />
             {/* <DigimonEvaluation digimon={digimon} /> */}
         </div>
     );

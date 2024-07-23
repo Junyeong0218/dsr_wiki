@@ -3,15 +3,18 @@ import DigimonSkill from "./digimonSkill";
 import { getUUID } from "../../functions/commons";
 import { Digimon } from "../../classes";
 
-type DDigimonSkillsProps = { digimon: Digimon }
+type DigimonSkillsProps = { 
+    digimon: Digimon,
+    containModal: boolean
+}
 
-export default function DigimonSkills({ digimon }: DDigimonSkillsProps): React.ReactElement {
+export default function DigimonSkills({ digimon, containModal }: DigimonSkillsProps): React.ReactElement {
     return (
         <div className="digimon-skills">
             <span className="title">* 스킬</span>
             { digimon.skills.length > 0 &&
                 digimon.skills.map(skill => (
-                    <DigimonSkill digimonName={digimon.name} skill={skill} key={getUUID()} />
+                    <DigimonSkill digimonName={digimon.name} skill={skill} containModal={containModal} key={getUUID()} />
                 ))
             }
         </div>

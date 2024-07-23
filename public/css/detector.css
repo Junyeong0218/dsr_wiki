@@ -1,0 +1,190 @@
+.detector-shortcut {
+    margin-top: 10px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.map-viewer-medium {
+    position: relative;
+    min-width: 40%;
+    max-width: 40%;
+}
+
+.map-viewer-medium > img {
+    width: 100%;
+}
+
+.detector-shortcut-infos {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.detector-monster {
+    padding: 5px;
+
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 5px;
+    background-color: var(--theme-light-background-500);
+}
+
+.detector-monster .monster-image {
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.detector-monster .monster-image img {
+    width: 100%;
+
+    border-radius: 5px;
+}
+
+.detector-monster .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+    
+.detector-monster .detector-monster-info {
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.detector-monster .detector-monster-info > .title > img {
+    height: 24px;
+}
+
+.detector-monster .detector-monster-info > .detector-monster-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.detector-shortcut-infos > .detector-monster > .digimon-skills > .title,
+.detector-shortcut-infos > .detector-monster > .digimon-skills > .skill > table {
+    display: none;
+}
+
+.detector-shortcut-infos > .detector-monster > .digimon-skills {
+    width: 100%;
+}
+
+.detector-shortcut-infos > .detector-monster > .digimon-skills > .skill > .skill-shortcut > .skill-info > .skill-title * {
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+.detector-shortcut-infos .semi-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.detector-shortcut-infos .semi-title img {
+    width: 25px;
+}
+
+.detector-shortcut-infos > .strategies,
+.detector-shortcut-infos > .detector-rewards {
+    padding-left: 25px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detector-shortcut-infos > .detector-rewards {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.detector-shortcut-infos > .strategies > .strategy {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.detector-shortcut-infos > .strategies > .strategy .badge {
+    padding: 2px 3px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.detector-shortcut-infos > .detector-rewards .detector-reward {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+    /* width: 32%; */
+    min-width: 260px;
+}
+
+.detector-shortcut-infos > .detector-rewards .detector-reward img {
+    min-width: 50px;
+    max-width: 50px;
+    border-radius: 4px;
+}
+
+.detector-shortcut-infos > .detector-rewards .detector-reward .detector-reward-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    /* width: 135px; */
+}
+
+.detector-shortcut-infos > .detector-rewards .detector-reward span {
+    width: 100%;
+
+    font-size: 14px;
+    text-align: left;
+    word-break: keep-all;
+    white-space: nowrap;
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.detector-shortcut-infos > .detector-rewards .detector-reward span.red {
+    color: var(--type-baby1-deep);
+}
+
+.detector-shortcut-infos > .detector-rewards .detector-reward span.green {
+    color: var(--type-child-deep);
+}

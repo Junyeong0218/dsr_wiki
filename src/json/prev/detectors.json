@@ -1,0 +1,471 @@
+[
+  {
+    "name": "구형 탐지기",
+    "monsters": [
+      {
+        "mapName": "용의 눈 호수",
+        "id": 1,
+        "name": "쉘몬",
+        "level": 60,
+        "hp": 29048,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 624, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 113, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "용의 눈 호수",
+        "id": 2,
+        "name": "시드라몬",
+        "level": 60,
+        "hp": 29267,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 624, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 114, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "보급형 탐지기",
+    "monsters": [
+      {
+        "mapName": "기어 사바나",
+        "id": 3,
+        "name": "츄몬",
+        "level": 60,
+        "hp": 49340,
+        "count": 3,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 625, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 107, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "기어 사바나",
+        "id": 4,
+        "name": "안드로몬",
+        "level": 60,
+        "hp": 27307,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 625, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 123, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 308, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "특수 탐지기",
+    "monsters": [
+      {
+        "mapName": "무한 산",
+        "id": 5,
+        "name": "레오몬",
+        "level": 60,
+        "hp": 49312,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 626, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 633, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "무한 산",
+        "id": 6,
+        "name": "데블몬",
+        "level": 60,
+        "hp": 88094,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 626, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 278, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 634, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "신형 탐지기",
+    "monsters": [
+      {
+        "mapName": "사막 지대",
+        "id": 7,
+        "name": "에테몬",
+        "level": 65,
+        "hp": 48684,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 627, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 635, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "사막 지대",
+        "id": 8,
+        "name": "스컬그레이몬",
+        "level": 70,
+        "hp": 45912,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 627, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 142, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 313, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "계곡 탐지기",
+    "monsters": [
+      {
+        "mapName": "어둠성 계곡",
+        "id": 9,
+        "name": "왕개굴몬",
+        "level": 75,
+        "hp": 56498,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 628, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 636, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "어둠성 계곡",
+        "id": 10,
+        "name": "묘티스몬",
+        "level": 80,
+        "hp": 57473,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 628, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 363, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 637, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "현실 세계 A형 탐지기",
+    "monsters": [
+      {
+        "mapName": "국제 전시장",
+        "id": 13,
+        "name": "팬텀몬",
+        "level": 95,
+        "hp": 86194,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [
+          {
+            "id": 1,
+            "type": "회복",
+            "skillName": null,
+            "description": "체력 3만 이하로 내려가면 체력 6만으로 회복",
+            "turn": 0
+          }
+        ],
+        "dropItems": [
+          { "itemId": 630, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 93, "canTrade": true, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 378, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 638, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "오다이바 남부",
+        "id": 14,
+        "name": "묘티스몬",
+        "level": 95,
+        "hp": 60747,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [
+          {
+            "id": 2,
+            "type": "진화",
+            "skillName": null,
+            "description": "체력 2만 이하로 내려가면 베놈묘티스몬으로 진화",
+            "turn": 0
+          }
+        ],
+        "dropItems": [
+          { "itemId": 630, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 93, "canTrade": true, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 378, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 637, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "오다이바 남부",
+        "id": 15,
+        "name": "베놈묘티스몬",
+        "level": 95,
+        "hp": 87790,
+        "count": 1,
+        "relatedId": 14,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": []
+      }
+    ]
+  },
+  {
+    "name": "현실 세계 B형 탐지기",
+    "monsters": [
+      {
+        "mapName": "빛의 언덕",
+        "id": 11,
+        "name": "맘몬",
+        "level": 85,
+        "hp": 106941,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 629, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 175, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "오다이바 입구",
+        "id": 12,
+        "name": "데드메라몬",
+        "level": 90,
+        "hp": 107444,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 629, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 141, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "스파이럴 탐지기",
+    "monsters": [
+      {
+        "mapName": "네트워크 바다",
+        "id": 16,
+        "name": "메탈시드라몬",
+        "level": 100,
+        "hp": 107439,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [
+          {
+            "id": 3,
+            "type": "버프",
+            "skillName": "바다의 왕(밀물)",
+            "description": "체력 8만 이하로 내려가면 메탈시드라몬의 DEF 상승",
+            "turn": 5
+          },
+          {
+            "id": 4,
+            "type": "버프",
+            "skillName": "바다의 왕(썰물)",
+            "description": "체력 8만 이하로 내려가면 메탈시드라몬의 SPD 대폭 상승",
+            "turn": 5
+          }
+        ],
+        "dropItems": [
+          { "itemId": 631, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 93, "canTrade": true, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 364, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 378, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "수목 지구",
+        "id": 17,
+        "name": "피노키몬",
+        "level": 100,
+        "hp": 97577,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [
+          {
+            "id": 5,
+            "type": "디버프",
+            "skillName": "위험한 장난",
+            "description": "체력 3만 이하로 내려가면 아군 전체 매료",
+            "turn": 1
+          }
+        ],
+        "dropItems": [
+          { "itemId": 631, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 93, "canTrade": true, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 378, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "강철 도시",
+        "id": 18,
+        "name": "파워드라몬",
+        "level": 100,
+        "hp": 111881,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [
+          {
+            "id": 6,
+            "type": "디버프",
+            "skillName": "폭파 지령(조준)",
+            "description": "제력 9만 이하로 내려가면 아군 전체 회피율 대폭 감소",
+            "turn": 5
+          }
+        ],
+        "dropItems": [
+          { "itemId": 631, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 93, "canTrade": true, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 365, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 378, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "어둠의 권역",
+        "id": 19,
+        "name": "피에몬",
+        "level": 100,
+        "hp": 108299,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [
+          {
+            "id": 7,
+            "type": "버프",
+            "skillName": "지옥의 광대",
+            "description": "체력 8만 이하로 내려가면 피에몬의 치명타율 대폭 상승",
+            "turn": 7
+          }
+        ],
+        "dropItems": [
+          { "itemId": 631, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 93, "canTrade": true, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 378, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "변조된 스파이럴 탐지기",
+    "monsters": [
+      {
+        "mapName": "???",
+        "id": 20,
+        "name": "아포카리몬",
+        "level": 100,
+        "hp": 121012,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 0, "y": 0 },
+        "strategies": [
+          {
+            "id": 8,
+            "type": "디버프",
+            "skillName": "최후의 암흑(쇠약)",
+            "description": "체력 11만 이하로 내려가면 아군 전체 쇠약\r\n(스킬 사용 시 SP 추가 소모)",
+            "turn": 3
+          },
+          {
+            "id": 9,
+            "type": "디버프",
+            "skillName": "최후의 암흑(지배)",
+            "description": "체력 6만 이하로 내려가면 아군 전체 격리\r\n(행동 불가)",
+            "turn": 2
+          },
+          {
+            "id": 10,
+            "type": "버프",
+            "skillName": "최후의 암흑(발악)",
+            "description": "체력 2만 이하로 내려가면 아포카리몬의 모든 능력치 상승",
+            "turn": 3
+          }
+        ],
+        "dropItems": [
+          { "itemId": 632, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 94, "canTrade": true, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 278, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 363, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 364, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 365, "canTrade": true, "count": 1, "isAlways": false },
+          { "itemId": 378, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      }
+    ]
+  }
+]
