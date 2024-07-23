@@ -72,6 +72,7 @@ export default function Detectors(): React.ReactElement {
                                 </div>
                                 <div className="detector-monster-description">레벨 : {selectedMonster.level}</div>
                                 <div className="detector-monster-description">HP : {selectedMonster.hp.toLocaleString("ko-KR")}</div>
+                                <div className="detector-monster-description">등장 수 : {selectedMonster.count}마리</div>
                                 <div className="detector-monster-description">강점 : <img src={`${IMG_URL_BASE}/스킬_${digimon.strength}.png`} />{digimon.strength} - {digimon.strengthEffect}</div>
                                 <div className="detector-monster-description">약점 : <img src={`${IMG_URL_BASE}/스킬_${digimon.weakness}.png`} />{digimon.weakness} - {digimon.weaknessEffect}</div>
                             </div>
