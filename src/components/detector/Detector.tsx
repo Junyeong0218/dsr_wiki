@@ -90,8 +90,9 @@ export default function Detectors(): React.ReactElement {
                                     </div>
                                     <div className="detector-monster-description">레벨 : {relatedMonster.level}</div>
                                     <div className="detector-monster-description">HP : {relatedMonster.hp.toLocaleString("ko-KR")}</div>
+                                    <div className="detector-monster-description">등장 수 : {relatedMonster.count}마리</div>
                                     <div className="detector-monster-description">강점 : <img src={`${IMG_URL_BASE}/스킬_${relatedDigimon.strength}.png`} />{relatedDigimon.strength} - {relatedDigimon.strengthEffect}</div>
-                                    <div className="detector-monster-description"><strong>약점</strong> : <img src={`${IMG_URL_BASE}/스킬_${relatedDigimon.weakness}.png`} />{relatedDigimon.weakness} - {relatedDigimon.weaknessEffect}</div>
+                                    <div className="detector-monster-description">약점 : <img src={`${IMG_URL_BASE}/스킬_${relatedDigimon.weakness}.png`} />{relatedDigimon.weakness} - {relatedDigimon.weaknessEffect}</div>
                                 </div>
                                 <DigimonSkills digimon={relatedDigimon} containModal={false} key={getUUID()} />
                             </div>
