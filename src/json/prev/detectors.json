@@ -10,7 +10,7 @@
         "hp": 29048,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 150, "y": 415 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 1, "isAlways": true },
@@ -27,7 +27,7 @@
         "hp": 29267,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 115, "y": 165 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 1, "isAlways": true },
@@ -49,7 +49,7 @@
         "hp": 49340,
         "count": 3,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 265, "y": 240 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 1, "isAlways": true },
@@ -66,7 +66,7 @@
         "hp": 27307,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 90, "y": 40 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
@@ -89,7 +89,7 @@
         "hp": 49312,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 285, "y": 40 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
@@ -106,7 +106,7 @@
         "hp": 88094,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 25, "y": 265 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
@@ -129,7 +129,7 @@
         "hp": 48684,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 120, "y": 170 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
@@ -146,7 +146,7 @@
         "hp": 45912,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 45, "y": 340 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
@@ -169,7 +169,7 @@
         "hp": 56498,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 425, "y": 50 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
@@ -186,7 +186,7 @@
         "hp": 57473,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 95, "y": 25 },
         "strategies": [],
         "dropItems": [
           { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
@@ -194,6 +194,45 @@
           { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
           { "itemId": 363, "canTrade": true, "count": 1, "isAlways": false },
           { "itemId": 637, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "현실 세계 B형 탐지기",
+    "monsters": [
+      {
+        "mapName": "빛의 언덕",
+        "id": 11,
+        "name": "맘몬",
+        "level": 85,
+        "hp": 106941,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 220, "y": 315 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 629, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 175, "canTrade": true, "count": 1, "isAlways": false }
+        ]
+      },
+      {
+        "mapName": "오다이바 입구",
+        "id": 12,
+        "name": "데드메라몬",
+        "level": 90,
+        "hp": 107444,
+        "count": 1,
+        "relatedId": null,
+        "point": { "x": 70, "y": 355 },
+        "strategies": [],
+        "dropItems": [
+          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
+          { "itemId": 629, "canTrade": false, "count": 1, "isAlways": true },
+          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
+          { "itemId": 141, "canTrade": true, "count": 1, "isAlways": false }
         ]
       }
     ]
@@ -209,7 +248,7 @@
         "hp": 86194,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 260, "y": 185 },
         "strategies": [
           {
             "id": 1,
@@ -235,7 +274,7 @@
         "hp": 60747,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 265, "y": 200 },
         "strategies": [
           {
             "id": 2,
@@ -261,48 +300,9 @@
         "hp": 87790,
         "count": 1,
         "relatedId": 14,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 265, "y": 200 },
         "strategies": [],
         "dropItems": []
-      }
-    ]
-  },
-  {
-    "name": "현실 세계 B형 탐지기",
-    "monsters": [
-      {
-        "mapName": "빛의 언덕",
-        "id": 11,
-        "name": "맘몬",
-        "level": 85,
-        "hp": 106941,
-        "count": 1,
-        "relatedId": null,
-        "point": { "x": 0, "y": 0 },
-        "strategies": [],
-        "dropItems": [
-          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
-          { "itemId": 629, "canTrade": false, "count": 1, "isAlways": true },
-          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
-          { "itemId": 175, "canTrade": true, "count": 1, "isAlways": false }
-        ]
-      },
-      {
-        "mapName": "오다이바 입구",
-        "id": 12,
-        "name": "데드메라몬",
-        "level": 90,
-        "hp": 107444,
-        "count": 1,
-        "relatedId": null,
-        "point": { "x": 0, "y": 0 },
-        "strategies": [],
-        "dropItems": [
-          { "itemId": 92, "canTrade": false, "count": 2, "isAlways": true },
-          { "itemId": 629, "canTrade": false, "count": 1, "isAlways": true },
-          { "itemId": 325, "canTrade": false, "count": 1, "isAlways": false },
-          { "itemId": 141, "canTrade": true, "count": 1, "isAlways": false }
-        ]
       }
     ]
   },
@@ -317,7 +317,7 @@
         "hp": 107439,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 355, "y": 290 },
         "strategies": [
           {
             "id": 3,
@@ -350,7 +350,7 @@
         "hp": 97577,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 130, "y": 50 },
         "strategies": [
           {
             "id": 5,
@@ -375,7 +375,7 @@
         "hp": 111881,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 135, "y": 157 },
         "strategies": [
           {
             "id": 6,
@@ -401,7 +401,7 @@
         "hp": 108299,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 205, "y": 250 },
         "strategies": [
           {
             "id": 7,
@@ -431,7 +431,7 @@
         "hp": 121012,
         "count": 1,
         "relatedId": null,
-        "point": { "x": 0, "y": 0 },
+        "point": { "x": 212, "y": 180 },
         "strategies": [
           {
             "id": 8,
