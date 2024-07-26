@@ -40,6 +40,7 @@ export default function DigidexFilter({ all, sortFilters, setFiltered }: Digidex
 
     const prevConditions = localStorage.getItem("digidex_conditions");
     const [conditions, setConditions] = useState<Conditions>(!prevConditions ? defaultCondition : JSON.parse(prevConditions));
+    if(!conditions["fieldTypes"]) conditions["fieldTypes"] = [...fieldTypes];
     if(!conditions["strengths"]) conditions["strengths"] = [...elements];
     if(!conditions["weaknesses"]) conditions["weaknesses"] = [...elements];
 
