@@ -22,6 +22,7 @@ import dotenv from "dotenv";
 import QuestViewer from "./components/quest/Quest";
 import Calculator from "./components/calculator/Calculator";
 import Experiences from "./components/experience/Experiences";
+import RTDefense from "./components/randomTowerDefense/Defense";
 
 export default function App(): React.ReactElement {
     return (
@@ -50,6 +51,7 @@ export default function App(): React.ReactElement {
                         <Route path="/tools/skills" element={<SkillSimulator />} />
                         <Route path="/tools/quests" element={<QuestViewer />} />
                         <Route path="/tools/calculator" element={<Calculator />} />
+                        {/* <Route path="/tools/minigame" element={<RTDefense />} /> */}
 
                         <Route path="/items/equipments/tamer" element={<TamerEquipmentSearcher />} />
                         <Route path="/items/combinations" element={<CombinationSearcher />} />

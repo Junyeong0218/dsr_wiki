@@ -1,0 +1,195 @@
+.random-tower-defense {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.random-tower-defense > .defense {
+    min-width: 732px;
+    max-width: 732px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.random-tower-defense > .defense > .status-bar {
+    padding: 5px 10px;
+
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: var(--theme-light-background-500);
+}
+
+.random-tower-defense > .defense > .status-bar > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.random-tower-defense > .defense > .status-bar > div > img {
+    width: 20px;
+    height: 20px;
+}
+
+.random-tower-defense > .defense > .defence-map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.random-tower-defense > .defense > .defence-map > .digimon-arrangement {
+    position: absolute;
+    top: calc(50% - 255px);
+    left: calc(50% - 255px);
+
+    width: 510px;
+    height: 510px;
+
+    border-collapse: collapse;
+    /* border: 1px solid; */
+
+    pointer-events: none;
+}
+
+.random-tower-defense > .defense > .defence-map > .digimon-arrangement tr {
+    height: 20%;
+
+    display: flex;
+    pointer-events: none;
+}
+
+.random-tower-defense > .defense > .defence-map > .digimon-arrangement tr td {
+    /* width: 100%;
+    height: 100%; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+
+    border: 1px solid;
+    pointer-events: all;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.random-tower-defense > .defense > .defence-map > .digimon-arrangement tr td.placed:hover {
+    box-shadow: 0px 0px 6px 3px var(--type-child-deep);
+}
+
+.random-tower-defense > .defense > .defence-map > .digimon-arrangement tr:not(:last-child) td {
+    border-bottom: 0;
+}
+
+.random-tower-defense > .defense > .defence-map > .digimon-arrangement tr td:not(:last-child) {
+    border-right: 0;
+}
+
+.random-tower-defense > .defense > .defence-map > .digimon-arrangement img {
+    width: 100%;
+    height: 100%;
+}
+
+.random-tower-defense > .menu-bar {
+    padding: 5px;
+
+    /* min-width: 200px;
+    max-width: 200px; */
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.random-tower-defense > .menu-bar > .usable-digimons {
+    width: 100%;
+    
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.random-tower-defense > .menu-bar > .usable-digimons::-webkit-scrollbar {
+    width: 10px; /* 스크롤바의 너비 */
+    height: 10px;
+}
+
+.random-tower-defense > .menu-bar > .usable-digimons::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #d7dde2; /* 스크롤바의 색상 */
+
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.random-tower-defense > .menu-bar > .usable-digimons::-webkit-scrollbar-track {
+    background: #484a4b; /*스크롤바 뒷 배경 색상*/
+    border-radius: 4px;
+}
+
+.random-tower-defense > .menu-bar > .title {
+    width: 100%;
+    height: 50px;
+
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: var(--type-adult-thin);
+
+    text-align: center;
+    line-height: 50px;
+}
+
+.random-tower-defense > .menu-bar > .random-gacha {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    /* border: 1px solid; */
+    border-radius: 5px;
+
+    background-color: var(--theme-light-background-selected);
+    color: var(--theme-light-background);
+
+    transition: 200ms;
+    cursor: not-allowed;
+}
+
+.random-tower-defense > .menu-bar > .random-gacha.active {
+    background-color: var(--type-adult-thin);
+    color: black;
+    cursor: pointer;
+}
+
+.random-tower-defense > .menu-bar > .random-gacha.active:hover {
+    background-color: var(--type-adult-deep);
+    color: white;
+}
+
+.random-tower-defense > .menu-bar > .random-gacha > img {
+    width: 20px;
+    height: 20px;
+}

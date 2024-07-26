@@ -81,6 +81,19 @@ const Elements: INumberKey = {
     11: "흙"
 }
 
+const FieldTypes: IStringKey = {
+    "DA": "다크 에리어",
+    "DR": "드래곤즈 로어",
+    "DS": "딥 세이버즈",
+    "JT": "정글 트루퍼즈",
+    "ME": "메탈 엠파이어",
+    "NSp": "네이쳐 스피릿츠",
+    "Nso": "나이트메어 솔져스",
+    "UK": "언노운",
+    "VB": "바이러스 버스터즈",
+    "WG": "윈드 가디언즈",
+}
+
 const IMG_URL_BASE = 'https://raw.githubusercontent.com/Junyeong0218/dsr_wiki/main/public/images';
 
 Object.freeze(Grades);
@@ -93,6 +106,7 @@ Object.freeze(NoDropMonsters);
 Object.freeze(DigimonTypesEng);
 Object.freeze(DigimonTypes);
 Object.freeze(Elements);
+Object.freeze(FieldTypes);
 
 export {
     IStringKey,
@@ -108,6 +122,7 @@ export {
     DigimonTypesEng,
     DigimonTypes,
     Elements,
+    FieldTypes,
 
     IMG_URL_BASE
 }

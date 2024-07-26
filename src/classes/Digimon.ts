@@ -6,6 +6,7 @@ export interface IDigimon {
     name: string,
     grade: number,
     digimonType: string,
+    statLevel: number,
     hp: number,
     sp: number,
     str: number,
@@ -27,6 +28,7 @@ export class Digimon {
     name: string;
     grade: number;
     digimonType: string;
+    statLevel: number;
     hp: number;
     sp: number;
     str: number;
@@ -49,6 +51,7 @@ export class Digimon {
         this.name = raw.name;
         this.grade = raw.grade;
         this.digimonType = raw.digimonType;
+        this.statLevel = raw.statLevel;
         this.hp = raw.hp;
         this.sp = raw.sp;
         this.str = raw.str;

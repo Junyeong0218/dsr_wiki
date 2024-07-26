@@ -1,8 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { Elements, Grades, DigimonTypes, DigimonTypesEng, IMG_URL_BASE } from "../../enums";
+import { Elements, Grades, DigimonTypes, DigimonTypesEng, IMG_URL_BASE, FieldTypes } from "../../enums";
 import { getUUID } from "../../functions/commons";
 import { Digimon } from "../../classes";
 import { getSearchedDigimons } from "../../functions/searchFunctions";
+import { getAllFieldTypes } from "../../functions/getFieldTypes";
 
 type Filter = {
     type: string,
@@ -24,13 +25,17 @@ export default function DigidexFilter({ all, sortFilters, setFiltered }: Digidex
     const digimonTypes = Object.values(DigimonTypes);
     const digimonTypesEng = Object.values(DigimonTypesEng);
     const elements = Object.values(Elements);
+    const fieldTypes = Object.keys(FieldTypes);
+
+    const fieldTypeOptions = useMemo(() => getAllFieldTypes(), []);
 
     const defaultCondition: Conditions = {
         grades: [...grades], 
         digimonTypes: [...digimonTypes], 
         elements: [...elements],
         strengths: [...elements],
-        weaknesses: [...elements]
+        weaknesses: [...elements],
+        fieldTypes: [...fieldTypes]
     }
 
     const prevConditions = localStorage.getItem("digidex_conditions");
@@ -61,6 +66,12 @@ export default function DigidexFilter({ all, sortFilters, setFiltered }: Digidex
 
         filtered = filtered.filter(each => each.strength && conditions.strengths.includes(each.strength));
         filtered = filtered.filter(each => each.weakness && conditions.weaknesses.includes(each.weakness));
+        filtered = filtered.filter(each => {
+            for(let i = 0; i < each.fieldTypes.length; i++) {
+                if(conditions.fieldTypes.includes(each.fieldTypes[i])) return true;
+            }
+            return false;
+        });
 
         filtered = filtered.sort((a, b) => {
             let result: number = 0;
@@ -255,16 +266,36 @@ export default function DigidexFilter({ all, sortFilters, setFiltered }: Digidex
                 <div className="checkboxes">
                     <label htmlFor="weakness-all" className={conditions.weaknesses.length === elements.length ? "checked" : ""}>
                         <input type="checkbox" id="weakness-all" checked={conditions.weaknesses.length === elements.length}
-                                                                onChange={(event) => toggleAll(event, "weaknesses")}/>
+                                                                 onChange={(event) => toggleAll(event, "weaknesses")}/>
                         <img src={`${IMG_URL_BASE}/filter_all.png`} />
                         <span>전체</span>
                     </label>
                     { elements.map(element => (
                         <label htmlFor={`약점_${element}`} key={getUUID()} className={conditions.weaknesses.includes(element) ? "checked" : ""}>
                             <input type="checkbox" id={`약점_${element}`} checked={conditions.weaknesses.includes(element)}
-                                                                onChange={(event) => toggleCheckbox(event, "weaknesses", element)} />
+                                                                          onChange={(event) => toggleCheckbox(event, "weaknesses", element)} />
                             <img src={`${IMG_URL_BASE}/스킬_${element}.png`} />
                             <span>{element}</span>
+                        </label>
+                    )) }
+                </div>
+            </div>
+            {/* 필드 타입 */}
+            <div className="digidex-filter2">
+                <div className="title">필드 타입</div>
+                <div className="checkboxes">
+                    <label htmlFor="fieldTypes-all" className={conditions.fieldTypes.length === fieldTypes.length ? "checked" : ""}>
+                        <input type="checkbox" id="fieldTypes-all" checked={conditions.fieldTypes.length === fieldTypes.length}
+                                                                   onChange={(event) => toggleAll(event, "fieldTypes")}/>
+                        <img src={`${IMG_URL_BASE}/filter_all.png`} />
+                        <span>전체</span>
+                    </label>
+                    { fieldTypes.map(fieldType => (
+                        <label htmlFor={`field_${fieldType}`} key={getUUID()} className={conditions.fieldTypes.includes(fieldType) ? "checked" : ""} title={`${fieldTypeOptions.find(o => o.type === fieldType)!.stat} 증가`}>
+                            <input type="checkbox" id={`field_${fieldType}`} checked={conditions.fieldTypes.includes(fieldType)}
+                                                                onChange={(event) => toggleCheckbox(event, "fieldTypes", fieldType)} />
+                            <img src={`${IMG_URL_BASE}/field_${fieldType}.png`} />
+                            <span>{fieldType}</span>
                         </label>
                     )) }
                 </div>

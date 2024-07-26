@@ -217,7 +217,7 @@
 
 .toggle-table-container .toggle-container .circle-container .circle {
   position: absolute;
-  top: 0px;
+  top: 1px;
   left: 1px;
 
   width: 18px;
@@ -798,8 +798,11 @@
   word-break: keep-all;
   white-space: nowrap;
 
-  border-left: 1px solid var(--theme-light-background-400);
   border-right: 1px solid var(--theme-light-background-400);
+}
+
+.digidex-table td:first-child {
+  border-left: 1px solid var(--theme-light-background-400);
 }
 
 .digidex-table tbody tr td {

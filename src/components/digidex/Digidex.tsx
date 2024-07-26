@@ -126,6 +126,7 @@ export default function Digidex(): React.ReactElement {
                             <td>이름</td>
                             <td>진화단계</td>
                             <td>타입</td>
+                            <td>기준레벨</td>
                             <td>HP</td>
                             <td>SP</td>
                             <td>힘</td>
@@ -138,7 +139,7 @@ export default function Digidex(): React.ReactElement {
                             <td>1스킬</td>
                             <td>2스킬</td>
                             <td>3스킬</td>
-                            {/* <td>필드타입</td> */}
+                            <td colSpan={3}>필드타입</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -147,6 +148,7 @@ export default function Digidex(): React.ReactElement {
                                 <td><img src={`${IMG_URL_BASE}/${getDigimonFileName(each.name)}.png`} />&nbsp;{each.name}</td>
                                 <td>{Grades[each.grade]}</td>
                                 <td><img src={`${IMG_URL_BASE}/${each.digimonType}.png`} /></td>
+                                <td>{each.statLevel}</td>
                                 <td>{each.hp.toLocaleString("ko-KR")}</td>
                                 <td>{each.sp.toLocaleString("ko-KR")}</td>
                                 <td>{each.str.toLocaleString("ko-KR")}</td>
@@ -197,6 +199,11 @@ export default function Digidex(): React.ReactElement {
                                     </td>
                                 })}
                                 { each.skills.length < 3 && <td></td> }
+                                <td>
+                                    { each.fieldTypes.map(t => (
+                                        <img src={`${IMG_URL_BASE}/field_${t}.png`} title={t} />
+                                    ))}
+                                </td>
                             </tr>
                         ))}
                     </tbody>
