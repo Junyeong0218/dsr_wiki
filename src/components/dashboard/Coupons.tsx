@@ -35,17 +35,15 @@ export default function Coupons() : React.ReactElement {
                 if(selectedCoupon.current?.name === coupon.name) {
                     return;
                 }
-                console.log(Number(target.style.left.replace("px", "")));
-                console.log(Number(target.style.top.replace("px", "")));
                 selectedCoupon.current = coupon;
                 
-                const couponRect = target.parentElement!.getBoundingClientRect();
-                console.log(target.parentElement)
-                console.log(event.pageX, event.pageY);
-                if(couponRect.top + 450 > window.innerHeight) {
-                    setModalPosition({ top: 450 - couponRect.top + 10, left: event.pageX - couponRect.left + 2 });
+                const mainRect = document.querySelector(".main")!.getBoundingClientRect();
+                const modalHeight = 77 + 60 * coupon.items.length - 5 > 450 ? 450 : 77 + 60 * coupon.items.length - 5;
+                
+                if(event.pageY - mainRect.top + modalHeight > window.innerHeight) {
+                    setModalPosition({ top: event.pageY - mainRect.top - modalHeight + 2, left: event.pageX - mainRect.left + 2 });
                 } else {
-                    setModalPosition({ top: event.pageY - couponRect.top, left: event.pageX - couponRect.left + 2 });
+                    setModalPosition({ top: event.pageY - mainRect.top + 2, left: event.pageX - mainRect.left + 2 });
                 }
                 setIsOpen(true);
             } else {
@@ -57,7 +55,7 @@ export default function Coupons() : React.ReactElement {
     const mouseLeaveHandler = (event: React.MouseEvent<HTMLDivElement>) => {
         const relatedTarget = event.relatedTarget as HTMLDivElement;
         try {
-            if(relatedTarget.classList.contains("modal") || relatedTarget.classList.contains("coupon")) return;
+            // if(relatedTarget.classList.contains("modal") || relatedTarget.classList.contains("coupon")) return;
 
             setIsOpen(false);
             selectedCoupon.current = undefined;
@@ -111,7 +109,7 @@ export default function Coupons() : React.ReactElement {
     const couponModal = useMemo(() => <CouponModal isOpen={isOpen} coupon={selectedCoupon.current} position={modalPosition} />, [isOpen, modalPosition]);
 
     return (
-        <div className="content" onMouseMove={captureMouse} onMouseLeave={mouseLeaveHandler} style={{ position: "relative" }}>
+        <div className="content" onMouseMove={captureMouse} onMouseLeave={mouseLeaveHandler} >
             { coupons.length === 0 && <div className="coupon"><strong>쿠폰이 없습니다.</strong></div>}
             { coupons.map((coupon, index) => (
                 <div className="coupon" key={getUUID()}>
