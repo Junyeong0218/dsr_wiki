@@ -230,7 +230,7 @@ export default function RaidTimer(): React.ReactElement {
         gotsumonTime2,
         pumpmonTime1,
         pumpmonTime2,
-        kuwagaTime,
+        // kuwagaTime,
         ophanimonTime,
         seraphimonTime
     ].sort((a, b) => {

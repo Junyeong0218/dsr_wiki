@@ -123,12 +123,12 @@ export default function Main(): React.ReactElement {
                             ))}
                         </div>
                     </div> */}
-                    <div className="content-shortcut">
+                    {/* <div className="content-shortcut">
                         <div className="title">
                             <Link to={"https://www.youtube.com/@purr95"} target="_blank">밍루블 유튜브 <i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
                         </div>
                         <YoutubePlayer />
-                    </div>
+                    </div> */}
                 </div>
                 <aside className="dashboard-right">
                     {/* 디슈럼 업데이트 내역 */}
