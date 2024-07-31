@@ -76,7 +76,7 @@ export default function EventCalendar() {
         });
 
         fetch(`/api/events`).then(async (response) => {
-        const result = await response.json();
+            const result = await response.json();
             if(result.status === 200) {
                 console.log(result)
                 const events = result.data;
@@ -119,7 +119,10 @@ export default function EventCalendar() {
                 }, 300);
             }
         }).catch(error => {
-            console.log(error)
+            const elements = document.querySelectorAll(".toastui-calendar-month-week-item");
+            (elements[0] as HTMLDivElement).style.setProperty("height", `50px`);
+            (elements[1] as HTMLDivElement).style.setProperty("height", `50px`);
+            (document.querySelector("#calendar") as HTMLDivElement).style.setProperty("height", `${BASE_HEIGHT + 40}px`);
         });
 
         // const events = [

@@ -12,9 +12,9 @@ type Notice = {
 const DSR_ROOT = "https://www.digimonsuperrumble.com/";
 
 export default function UpdateArticles() : React.ReactElement {
-    let prevNotices = localStorage.getItem("notices") ? JSON.parse(localStorage.getItem("notices")!) : [];
+    // let prevNotices = localStorage.getItem("notices") ? JSON.parse(localStorage.getItem("notices")!) : [];
 
-    const [notices, setNotices] = useState<Array<Notice>>(prevNotices);
+    const [notices, setNotices] = useState<Array<Notice>>([]);
 
     useEffect(() => {
         fetch(`/api/notices`).then(async (response) => {
@@ -27,7 +27,7 @@ export default function UpdateArticles() : React.ReactElement {
                 localStorage.setItem("notices", JSON.stringify(notices));
             }
         }).catch(error => {
-            console.log(error)
+            setNotices([]);
         });
     }, []);
 

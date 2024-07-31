@@ -18,9 +18,9 @@ type Coupon = {
 }
 
 export default function Coupons() : React.ReactElement {
-    let prevCoupons = localStorage.getItem("coupons") ? JSON.parse(localStorage.getItem("coupons")!) : [];
+    // let prevCoupons = localStorage.getItem("coupons") ? JSON.parse(localStorage.getItem("coupons")!) : [];
 
-    const [coupons, setCoupons] = useState<Array<Coupon>>(prevCoupons);
+    const [coupons, setCoupons] = useState<Array<Coupon>>([]);
     const [isOpen, setIsOpen] = useState(false);
     const [modalPosition, setModalPosition] = useState({ top: 0, left: 0 });
     const selectedCoupon = useRef<Coupon>();
